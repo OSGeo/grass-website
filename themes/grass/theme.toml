@@ -1,0 +1,14 @@
+# theme.toml template for a Hugo theme
+
+name = "grass"
+license = "Creative Commons — Attribution 3.0 Unported — CC BY 3.0"
+licenselink = "https://creativecommons.org/licenses/by/3.0/"
+description = "GRASS, an Hugo theme for the GRASS GIS website"
+homepage = "https://grass.osgeo.org"
+tags = ["GRASS GIS", "Open Source", "GIS", "Geospatial", "OSGeo"]
+
+
+[author]
+  name = "Nicolas Bozon"
+  homepage = "https://cartogenic.com
+

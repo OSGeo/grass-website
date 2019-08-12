@@ -1,0 +1,90 @@
+{{ partial "head.html" . }}
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="bg-lgr">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+    
+<section class="bg-lgr">
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 text-center mx-auto mb-4">
+        <h1 class="mt-4 mb-3"><img src="{{.Site.BaseURL}}/images/grasslogo.svg" width="33%" alt="GRASS GIS"></h1> 
+      </div>
+    </div>
+  </div>
+<section>
+    
+<section class="pt-4 bg-gray">
+  <div class="container">
+  <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Get to know the GRASS GIS ecosystem</h2>
+
+	</div>
+    </div>
+    </div>
+
+
+    
+<div class="container">
+ <div class="row justify-content-center">
+
+       <div class="col-lg-8 col-sm-6 mb-4">
+	 <span class="px-4 py-4 bg-white d-block gdiv">
+             {{ .Content }}
+            </a>
+       </div>
+       
+    <div class="col-lg-4 col-sm-6 mb-4">
+<a href="#" class="px-4 py-4 d-block
+      bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br>
+      </a>
+
+    </div>
+
+    
+</div>
+
+
+ <div class="row justify-content-center">
+
+       <div class="col-lg-4 col-sm-6 mb-4">
+ <a href="https://grasswiki.osgeo.org/wiki/GRASS-Wiki" target="_blank" class="px-4 py-5 bg-lgr text-center
+ d-block htd">
+             <b>GRASS GIS</b> <img src="/images/grasslogo_wiki.png" width="34%" alt="GRASS GIS" />
+            </a>
+       </div>
+       
+       <div class="col-lg-8 col-sm-6 mb-4">
+
+ <a href="#" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br></a>
+       </div>
+  
+       </div>
+
+
+
+<div class="row justify-content-center">
+
+  <div class="col-lg-4 col-sm-6 mb-4">
+ <a href="#" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br></a>
+  </div>
+
+  <div class="col-lg-4 col-sm-6 mb-4">
+ <a href="#" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br></a>
+  </div>
+
+  <div class="col-lg-4 col-sm-6 mb-4">
+ <a href="#" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br></a>
+  </div>
+
+	</div>
+      
+
+
+{{ partial "footer.html" . }}

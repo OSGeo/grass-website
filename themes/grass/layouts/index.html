@@ -1,0 +1,111 @@
+{{ partial "head.html" . }}
+
+{{ "<!-- header -->" | safeHTML }}
+<header class="hero-section overlay bg-cover banner" data-background="{{.Site.BaseURL}}/images/banner.jpg">
+  <div class="container mb-20">
+    {{ "<!-- navigation -->" | safeHTML }}
+    {{ partial "navigation.html" . }}
+    {{ "<!-- /navigation -->" | safeHTML }}
+  </div>
+  {{ "<!-- banner -->" | safeHTML }}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 text-center mx-auto">
+       <h1 class="mb-3"><img src="{{.Site.BaseURL}}/images/grasslogo.svg" width="33%" alt="GRASS GIS"></h1> 
+       {{ with .Site.Params.banner.description }} <p class="
+	text-bold mb-4">{{ . }}</p> {{ end }}
+
+      </div>
+    </div>
+  </div>
+  {{ "<!-- /banner -->" | safeHTML }}
+</header>
+{{ "<!-- /header -->" | safeHTML }}
+
+{{ "<!-- topics -->" | safeHTML }}
+<section class="section bg-gray">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            {{with .Site.Params.topics.title}} <h2 class="section-title">{{ . }}</h2> {{ end }}
+          </div>
+          {{ "<!-- topic-item -->" | safeHTML }}
+          {{ range (where .Site.Pages "Type" "pages") }}
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="{{ .Permalink }}" class="px-4 py-5 bg-white shadow text-center d-block fdiv">
+              <i class="{{ .Params.Icon }} icon d-block mb-4"></i>
+              <h3 class="mb-3">{{ .Title }}</h3>
+              <p class="mb-0">{{ .Params.Description }}</p>
+            </a>
+          </div>
+          {{ end }}
+      </div>
+  </div>
+</section>
+  {{ "<!-- /topics -->" | safeHTML }}
+  
+  <section class="section npt bg-gray">
+    <div class="container">
+   
+
+  <div id="news" class="bg-white">
+       <div class="row justify-content-center pd-40 mb-50">
+
+	 
+	<main role="main">
+		 <h2 class="section-gtitle mb-4">Latest news</h2>
+
+{{ range where .Data.Pages "Section" "news" }}
+
+			<h3 class="entry-title" itemprop="headline"><a
+			href="{{ .RelPermalink }}" class="nws">{{ .Title }}</a></h2>
+	 <span class="entry-meta">
+
+	 <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+
+	 {{ end }}
+
+	 <br>
+	 <div class="row justify-content-center pd-40">
+	 <a href="{{.Site.BaseURL}}/news" class="btn btn-primary dbl">View All</a>
+</div>
+	 </main>
+
+       </div>
+</div>
+
+              <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-6 mb-3">
+ <a href="{{.Site.BaseURL}}/about/brand" class="px-4 py-5 bg-gray text-center shadow d-block
+       fdiv">
+     <img src="{{.Site.BaseURL}}/images/grasslogo.svg" width="39%" alt="GRASS GIS" />
+            </a>
+    </div>
+
+
+	 <div class="col-lg-4 col-sm-6 mb-4">
+	   <a href="https://2019.foss4g.org" target="_blank" class="px-4 py-5 bg-gray text-center shadow d-block fdiv"><img src="https://2019.foss4g.org/wp-content/uploads/2019/01/horizontal_bottle_green.png" width="57%" />
+            <p class="mt-3 mb-0">Meet the GRASS GIS community at <b>FOSS4G 2019</b> in Bucharest, Romania !</p>
+
+      </a>
+	</div>
+
+
+			    
+     <div class="col-lg-4 col-sm-6 mb-4">
+<a href="https://www.osgeo.org/projects/grass-gis/" target="_blank" class="px-4 py-5 bg-gray text-center shadow d-block
+       fdiv"><img src="images/osgeo-project.svg" width="75%" />
+            <p class="mt-3 mb-0"><b>GRASS GIS</b> is a founding member of the Open Source Geospatial Foundation</p>
+
+      </a>
+
+    </div>
+
+      </div>
+    </div>
+    </section>
+
+    
+
+
+{{ partial "footer.html" . }}

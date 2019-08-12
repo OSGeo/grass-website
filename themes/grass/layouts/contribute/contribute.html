@@ -1,0 +1,52 @@
+{{ partial "head.html" . }} {{ "<!-- navigation -->" | safeHTML }}
+
+  <header class="shadow-bottom position-relative">
+    <div class="container">
+      {{ partial "navigation.html" . }}
+    </div>
+  </header>{{ "<!-- /navigation -->" | safeHTML }} <!-- page title -->
+  <section class="section bg-lgr">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h1 class="grass-green-dark cap mb-4">{{.Section}}</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="single section bg-gray pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="p-4 bg-lgr sticky-top">
+            {{$currentNode := .}}
+            <nav class="sidebar-menu">
+              <div class="list-styled" style="margin-left: 2em">
+                {{- range .Site.Sections.ByWeight -}} {{template "menu" dict "sect" . "currentnode" $currentNode}} {{- end -}}
+              </div>
+            </nav>{{define "menu"}} {{- $currentNode := .currentnode -}} {{ with .sect }} {{ if in .Site.Params.menu_exclusion .Section }} {{- else -}} {{- safeHTML .Params.head -}}
+            <ul>
+              <li class="{{ if .IsAncestor $currentNode }}parent d-block{{ end }}{{ if eq .UniqueID $currentNode.UniqueID }} active {{ end }}{{ if .Params.alwaysopen }} parent {{end}}">
+                <a href="{{ .URL }}">{{ if .IsAncestor $currentNode}} <i class="fas fa-user"></i>{{ end }} {{ .Title }}</a> {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}} {{if ne $numberOfPages 0}}
+                <div class="{{ if .IsAncestor $currentNode }}sub-menu{{ end }}" style="margin-left: 2em">
+                  {{- .Scratch.Set "pages" .Data.Pages -}} {{- $pages := (.Scratch.Get "pages") -}} {{- range $pages.ByWeight -}} {{template "menu" dict "sect" . "currentnode" $currentNode}} {{- end -}}
+                </div>{{end}}
+              </li>
+              <li style="list-style: none">{{- end -}} {{- else -}} {{- if not .Params.Hidden -}}</li>
+              <li class="{{ if eq .UniqueID $currentNode.UniqueID }}active{{ end }}">
+                <a href="{{ .URL }}">{{ .Title }}</a>
+              </li>
+              <li style="list-style: none">{{- end -}} {{ end -}} {{ end }}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="p-5 bg-white">
+            <h2 class="page-title">{{ .Title }}</h2>{{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+  {{ partial "footer.html" . }}
