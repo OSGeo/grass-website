@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html  lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>GRASS GIS - Bringing advanced geospatial technologies to the world</title>
+
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://nbozon.github.io/GRASS-GIS/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://nbozon.github.io/GRASS-GIS/plugins/themify-icons/themify-icons.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://nbozon.github.io/GRASS-GIS/plugins/fontawesome/css/all.css">
+  <!-- highlight -->
+  <link rel="stylesheet" href="https://nbozon.github.io/GRASS-GIS/plugins/highlight/hybrid.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="https://mapskincdn.appspot.com/2.0/mapskin.min.css" rel="stylesheet">
+
+  <style>
+  :root{
+    --primary-color:#088B36;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#333333;
+    --grass-color:#088B36;
+    --grass-color-alt:#9ed29c;
+    --grass-color-light:#eff4e8;
+    --grass-color-dark:#b8c6a5;
+    --grey-color:#6b6b6b;
+    --grey-color-light:#CCCCCC;
+    --grey-color-dark:#777777;
+    --white-color:#ffffff;
+    }  
+  </style>
+
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://nbozon.github.io/GRASS-GIS/css/style.min.css" integrity="" media="screen">
+
+  <!-- jquiry -->
+  <script src="https://nbozon.github.io/GRASS-GIS/plugins/jquery/jquery-1.12.4.js"></script>
+
+  <!-- jquary ui -->
+  <script src="https://nbozon.github.io/GRASS-GIS/plugins/jquery/jquery-ui.js"></script>
+
+  <!--Favicon-->
+  <link rel="icon" href="https://nbozon.github.io/GRASS-GIS/images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!-- header -->
+<header class="hero-section overlay bg-cover banner" data-background="https://nbozon.github.io/GRASS-GIS//images/banner.jpg">
+  <div class="container mb-20">
+    <!-- navigation -->
+    
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="https://nbozon.github.io/GRASS-GIS/"><i class="ms ms-grass-gis ms-1-5x"></i> GRASS GIS</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        
+        
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="/GRASS-GIS/download">Download</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Learn
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/GRASS-GIS/learn/overview">General overview</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/learn/newcomers">First time users</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/learn/manuals">Manuals</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/learn/tutorials">Tutorials</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/learn/books">Books</a>
+            
+            <a class="dropdown-item" href="https://grasswiki.osgeo.org/wiki/GRASS-Wiki">Wiki</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Contribute
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/GRASS-GIS/contribute/community">Community</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/contribute/development">Development</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/contribute/support">Support</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/contribute/sponsors">Sponsors</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/contribute/donations">Donations</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" >
+            
+            <a class="dropdown-item" href="/GRASS-GIS/news">News</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/about/us">About us</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/about/history">History</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/about/brand">Brand</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/about/license">License</a>
+            
+            <a class="dropdown-item" href="/GRASS-GIS/about/credits">Credits</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+    </div>
+  </nav>
+    <!-- /navigation -->
+  </div>
+  <!-- banner -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 text-center mx-auto">
+       <h1 class="mb-3"><img src="https://nbozon.github.io/GRASS-GIS//images/grasslogo.svg" width="33%" alt="GRASS GIS"></h1> 
+        <p class="
+	text-bold mb-4">Bringing advanced geospatial technologies to the world</p> 
+
+      </div>
+    </div>
+  </div>
+  <!-- /banner -->
+</header>
+<!-- /header -->
+
+<!-- topics -->
+<section class="section bg-gray">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-12 text-center">
+             <h2 class="section-title">Geographic Resources Analysis Support System</h2> 
+          </div>
+          <!-- topic-item -->
+          
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="https://nbozon.github.io/GRASS-GIS/download/" class="px-4 py-5 bg-white shadow text-center d-block fdiv">
+              <i class="fas fa-download icon d-block mb-4"></i>
+              <h3 class="mb-3">Download</h3>
+              <p class="mb-0">Get your free, libre and open source copy of the GRASS GIS software</p>
+            </a>
+          </div>
+          
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="https://nbozon.github.io/GRASS-GIS/learn/" class="px-4 py-5 bg-white shadow text-center d-block fdiv">
+              <i class="fas fa-book icon d-block mb-4"></i>
+              <h3 class="mb-3">Learn</h3>
+              <p class="mb-0">Get to know the GRASS GIS ecosystem with manuals,tutorials and more</p>
+            </a>
+          </div>
+          
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <a href="https://nbozon.github.io/GRASS-GIS/contribute/" class="px-4 py-5 bg-white shadow text-center d-block fdiv">
+              <i class="fas fa-user icon d-block mb-4"></i>
+              <h3 class="mb-3">Contribute</h3>
+              <p class="mb-0">Contribute to Open Source Geospatial through GRASS GIS developement</p>
+            </a>
+          </div>
+          
+      </div>
+  </div>
+</section>
+  <!-- /topics -->
+  
+  <section class="section npt bg-gray">
+    <div class="container">
+   
+
+  <div id="news" class="bg-white">
+       <div class="row justify-content-center pd-40 mb-50">
+
+	 
+	<main role="main">
+		 <h2 class="section-gtitle mb-4">Latest news</h2>
+
+
+
+			<h3 class="entry-title" itemprop="headline"><a
+			href="/GRASS-GIS/news/meet-grass-gis-team-at-foss4g/" class="nws">Meet the GRASS GIS team at FOSS4G 2019 </a></h2>
+	 <span class="entry-meta">
+
+	 <time itemprop="datePublished" datetime="2019-08-05">August 05, 2019</time></span>
+
+	 
+
+			<h3 class="entry-title" itemprop="headline"><a
+			href="/GRASS-GIS/news/new-crowdfunding-campain/" class="nws">A new GRASS GIS crowdfunding campaign </a></h2>
+	 <span class="entry-meta">
+
+	 <time itemprop="datePublished" datetime="2019-03-28">March 28, 2019</time></span>
+
+	 
+
+			<h3 class="entry-title" itemprop="headline"><a
+			href="/GRASS-GIS/news/svn-migration-has-started/" class="nws">SVN to GitHub migration has started </a></h2>
+	 <span class="entry-meta">
+
+	 <time itemprop="datePublished" datetime="2019-02-27">February 27, 2019</time></span>
+
+	 
+
+	 <br>
+	 <div class="row justify-content-center pd-40">
+	 <a href="https://nbozon.github.io/GRASS-GIS//news" class="btn btn-primary dbl">View All</a>
+</div>
+	 </main>
+
+       </div>
+</div>
+
+              <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-6 mb-3">
+ <a href="https://nbozon.github.io/GRASS-GIS//about/brand" class="px-4 py-5 bg-gray text-center shadow d-block
+       fdiv">
+     <img src="https://nbozon.github.io/GRASS-GIS//images/grasslogo.svg" width="39%" alt="GRASS GIS" />
+            </a>
+    </div>
+
+
+	 <div class="col-lg-4 col-sm-6 mb-4">
+	   <a href="https://2019.foss4g.org" target="_blank" class="px-4 py-5 bg-gray text-center shadow d-block fdiv"><img src="https://2019.foss4g.org/wp-content/uploads/2019/01/horizontal_bottle_green.png" width="57%" />
+            <p class="mt-3 mb-0">Meet the GRASS GIS community at <b>FOSS4G 2019</b> in Bucharest, Romania !</p>
+
+      </a>
+	</div>
+
+
+			    
+     <div class="col-lg-4 col-sm-6 mb-4">
+<a href="https://www.osgeo.org/projects/grass-gis/" target="_blank" class="px-4 py-5 bg-gray text-center shadow d-block
+       fdiv"><img src="images/osgeo-project.svg" width="75%" />
+            <p class="mt-3 mb-0"><b>GRASS GIS</b> is a founding member of the Open Source Geospatial Foundation</p>
+
+      </a>
+
+    </div>
+
+      </div>
+    </div>
+    </section>
+
+    
+
+
+<!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+        <p><small>Copyright © 1998-2019, GRASS Development Team.</small></p> 
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+	
+	<ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://github.com/OSGeo/grass"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/grassgis"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.facebook.com/GRASSGISCommunity"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.youtube.com/results?search_query=grass&#43;gis"><i class="ti-youtube"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Bootstrap JS -->
+<script src="https://nbozon.github.io/GRASS-GIS/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- highlight -->
+<script src="https://nbozon.github.io/GRASS-GIS/plugins/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Main Script -->
+
+<script src="https://nbozon.github.io/GRASS-GIS/js/script.min.js"></script>
+
+
+</body>
+
+</html>

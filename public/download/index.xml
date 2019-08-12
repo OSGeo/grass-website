@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Download on GRASS GIS - Bringing advanced geospatial technologies to the world</title>
+    <link>https://nbozon.github.io/GRASS-GIS/download/</link>
+    <description>Recent content in Download on GRASS GIS - Bringing advanced geospatial technologies to the world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 1998-2019, GRASS Development Team.</copyright>
+    <lastBuildDate>Sun, 11 Aug 2019 11:02:05 +0500</lastBuildDate>
+    
+	<atom:link href="https://nbozon.github.io/GRASS-GIS/download/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux</title>
+      <link>https://nbozon.github.io/GRASS-GIS/download/linux/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/download/linux/</guid>
+      <description>&lt;p&gt;[ &lt;a href=&#34;#GRASS-GIS-7.4-stable&#34;&gt;GRASS 7.4&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.6-stable&#34;&gt;GRASS 7.6&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.2-stable&#34;&gt;GRASS 7.2 &lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.7-devel&#34;&gt;GRASS 7.7 devel&lt;/a&gt; ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://nbozon.github.io/GRASS-GIS/download/mac/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/download/mac/</guid>
+      <description>&lt;p&gt;[ &lt;a href=&#34;#GRASS-GIS-7.4-stable&#34;&gt;GRASS 7.4&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.6-stable&#34;&gt;GRASS 7.6&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.2-stable&#34;&gt;GRASS 7.2 &lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.7-devel&#34;&gt;GRASS 7.7 devel&lt;/a&gt; ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://nbozon.github.io/GRASS-GIS/download/windows/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/download/windows/</guid>
+      <description>&lt;p&gt;[ &lt;a href=&#34;#GRASS-GIS-7.4-stable&#34;&gt;GRASS 7.4&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.6-stable&#34;&gt;GRASS 7.6&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.2-stable&#34;&gt;GRASS 7.2 &lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.7-devel&#34;&gt;GRASS 7.7 devel&lt;/a&gt; ]&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

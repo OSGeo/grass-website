@@ -1,0 +1,204 @@
+baseURL = "https://nbozon.github.io/GRASS-GIS/"
+theme = "grass"
+
+
+[params]
+
+primaryColor = "#088B36"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#333333"
+grassColor = "#088B36"
+grassColorAlt= "#9ed29c"
+grassColorLight= "#eff4e8"
+grassColorDark= "#b8c6a5"
+whiteColor = "#ffffff"
+greyColor = "#6b6b6b"
+greyColorLight = "#CCCCCC"
+greyColorDark = "#777777"
+
+
+[Languages]
+
+  # English Language
+  [Languages.en]
+  languageName = "En"
+  weight = 1
+  languageCode = "en-us"
+  title = "GRASS GIS - Bringing advanced geospatial technologies to the world"
+  dateFormat = "1 January 2019"
+  logo = "GRASS GIS"
+  copyright = "Copyright © 1998-2019, GRASS Development Team."
+  license = "GNU GPL"
+
+    # navigation
+    [Languages.en.menu]
+    
+      [[Languages.en.menu.main]]
+        weight = 1
+        name = "Download"
+        url = "/download"
+        
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Learn"
+        url = "/learn"
+
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "General overview"
+          URL = "/learn/overview"
+          weight = 1
+
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "First time users"
+          URL = "/learn/newcomers"
+          weight = 2
+
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "Manuals"
+          URL = "/learn/manuals"
+          weight = 3 
+
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "Tutorials"
+          URL = "/learn/tutorials"
+          weight = 4 
+ 
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "Books"
+          URL = "/learn/books"
+          weight = 5
+
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "Wiki"
+          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
+          weight = 6 
+    
+      [[Languages.en.menu.main]]
+        weight = 3
+        name = "Contribute"
+        url = "/contribute"
+        hasChildren = true
+
+          [[Languages.en.menu.main]]
+          parent = "Contribute"
+          name = "Community"
+          URL = "/contribute/community"
+          weight = 1
+
+          [[Languages.en.menu.main]]
+          parent = "Contribute"
+          name = "Development"
+          URL = "/contribute/development"
+          weight = 2
+
+          [[Languages.en.menu.main]]
+          parent = "Contribute"
+          name = "Support"
+          URL = "/contribute/support"
+          weight = 3
+
+          [[Languages.en.menu.main]]
+          parent = "Contribute"
+          name = "Sponsors"
+          URL = "/contribute/sponsors"
+          weight = 4
+
+          [[Languages.en.menu.main]]
+          parent = "Contribute"
+          name = "Donations"
+          URL = "/contribute/donations"
+          weight = 5
+
+
+      [[Languages.en.menu.main]]
+        weight = 4
+        name = "About"
+        url = "/about"
+        hasChildren = true
+	
+          [[Languages.en.menu.main]]
+          parent = "About"
+          name = "News"
+          URL = "/news"
+          weight = 1
+
+          [[Languages.en.menu.main]]
+          parent = "About"
+          name = "About us"
+          URL = "/about/us"
+          weight = 2
+
+          [[Languages.en.menu.main]]
+          parent = "About"
+          name = "History"
+          URL = "/about/history"
+          weight = 3
+
+          [[Languages.en.menu.main]]
+          parent = "About"
+          name = "Brand"
+          URL = "/about/brand"
+          weight = 4
+	  
+          [[Languages.en.menu.main]]
+          parent = "About"
+          name = "License"
+          URL = "/about/license"
+          weight = 5
+
+          [[Languages.en.menu.main]]
+          parent = "About"
+          name = "Credits"
+          URL = "/about/credits"
+          weight = 6
+
+    # banner
+    [Languages.en.params.banner]
+      title = "GRASS GIS"
+      description = "Bringing advanced geospatial technologies to the world"
+      image = "/images/banner.jpg"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "Geographic Resources Analysis Support System"
+    
+    # call to action
+    [Languages.en.params.cta]
+      enable = true
+      title = "What is GRASS GIS ?"
+      description = "Geographic Resources Analysis Support System, commonly referred to as GRASS GIS, is an open source geographic information system (GIS) used for data management, image processing, spatial modelling, maps production and visualization of geographic data. Released under the GNU General Public License (GPL), GRASS GIS is an official project of the Open Source Geospatial Foundation."
+      btnText = "read more"
+      btnURL = "/contact"
+
+
+
+    # footer social icon
+
+    [[Languages.en.socialIcon]]
+      icon = "ti-github"
+      URL = "https://github.com/OSGeo/grass"
+      
+    [[Languages.en.socialIcon]]
+      icon = "ti-twitter-alt"
+      URL = "https://twitter.com/grassgis"    
+
+    [[Languages.en.socialIcon]]
+      icon = "ti-facebook"
+      URL = "https://www.facebook.com/GRASSGISCommunity"
+
+    [[Languages.en.socialIcon]]
+      icon = "ti-youtube"
+      URL = "https://www.youtube.com/results?search_query=grass+gis"  
+
+
+
+
+
+ 

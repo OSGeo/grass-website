@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GRASS GIS - Bringing advanced geospatial technologies to the world</title>
+    <link>https://nbozon.github.io/GRASS-GIS/</link>
+    <description>Recent content on GRASS GIS - Bringing advanced geospatial technologies to the world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 1998-2019, GRASS Development Team.</copyright>
+    <lastBuildDate>Mon, 05 Aug 2019 13:23:16 +0100</lastBuildDate>
+    
+	<atom:link href="https://nbozon.github.io/GRASS-GIS/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meet the GRASS GIS team at FOSS4G 2019 </title>
+      <link>https://nbozon.github.io/GRASS-GIS/news/meet-grass-gis-team-at-foss4g/</link>
+      <pubDate>Mon, 05 Aug 2019 13:23:16 +0100</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/news/meet-grass-gis-team-at-foss4g/</guid>
+      <description>This is a test post</description>
+    </item>
+    
+    <item>
+      <title>A new GRASS GIS crowdfunding campaign </title>
+      <link>https://nbozon.github.io/GRASS-GIS/news/new-crowdfunding-campain/</link>
+      <pubDate>Thu, 28 Mar 2019 11:36:11 +0100</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/news/new-crowdfunding-campain/</guid>
+      <description>Hey GRASS GIS friends!
+We just launched a crowd funding campaign to partially cover the costs of refreshing and re-styling our website https://grass.osgeo.org to newer standards.
+Details about our plans for the website migration in 2019 can find on the wiki: https://grasswiki.osgeo.org/wiki/Website_migration_plan_2019
+For the realization we need your support, any contribution counts and is most welcome ! You can easily contribute any amount through our PayPal money pool: https://www.paypal.com/pools/c/86YKZiIEPV
+Thank you very much for your support</description>
+    </item>
+    
+    <item>
+      <title>SVN to GitHub migration has started </title>
+      <link>https://nbozon.github.io/GRASS-GIS/news/svn-migration-has-started/</link>
+      <pubDate>Wed, 27 Feb 2019 11:36:11 +0100</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/news/svn-migration-has-started/</guid>
+      <description>SVN to GitHub migration has been started today.
+SVN has been set to read-only mode and we are currently updating the new GitHub repos.
+We are tracking all efforts here: https://trac.osgeo.org/grass/wiki/GitMigration
+Much time of the GRASS GIS Community Sprint Berlin 2019 will be dedicated to complete the migration. Further steps will include: some needed source code updates, migration of trac issues, add labels to the issues in GitHub, migration of the trac wiki, extensive aftermath clean-up (Travis CI/CD setting update, email notifications, IRC notifications, cronjobs, fixing links in the website and grasswiki, etc.</description>
+    </item>
+    
+    <item>
+      <title>About us</title>
+      <link>https://nbozon.github.io/GRASS-GIS/about/us/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/about/us/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>https://nbozon.github.io/GRASS-GIS/contribute/community/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/contribute/community/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>https://nbozon.github.io/GRASS-GIS/about/credits/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/about/credits/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Developement</title>
+      <link>https://nbozon.github.io/GRASS-GIS/contribute/development/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/contribute/development/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Donations</title>
+      <link>https://nbozon.github.io/GRASS-GIS/contribute/donations/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/contribute/donations/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>First time users</title>
+      <link>https://nbozon.github.io/GRASS-GIS/learn/newcomers/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/learn/newcomers/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>GRASS GIS books</title>
+      <link>https://nbozon.github.io/GRASS-GIS/learn/books/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/learn/books/</guid>
+      <description>Open Source GIS: A GRASS GIS Approach - 3rd edition
+M. Neteler, H. Mitasova, 2008. ISBN-10: 038735767XISBN-13:978-0387357676
+420 pages, Springer
+Get the book               Open Source GIS: A GRASS GIS Approach - 2nd edition
+M. Neteler, H. Mitasova, 2004. ISBN 1-4020-7088-8
+424 pages, Kluwer Academic Publishers
+Get the book               Open Source GIS: A GRASS GIS Approach</description>
+    </item>
+    
+    <item>
+      <title>GRASS GIS brand</title>
+      <link>https://nbozon.github.io/GRASS-GIS/about/brand/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/about/brand/</guid>
+      <description>Official logo  This is the official GRASS GIS logo. Please use it to refer to the GRASS GIS project, software or community, and do not alter its shape or color. Vector SVG &amp;#160;  EPS &amp;#160;  OpenOffice &amp;#160;  Sketch &amp;#160;    Raster PNG &amp;#160;  JPG &amp;#160;  TIF &amp;#160;        Colors palette GRASS green   HEX &amp;#160; #088B36 RGB &amp;#160; 8,139,54 HSL &amp;#160; 120,100%,28%    Soft green  HEX &amp;#160; #9ED29C RGB &amp;#160; 158,210,156 HSL &amp;#160; 188,38%,72%    Light green  HEX &amp;#160; #EFF4E8 RGB &amp;#160; 239,244,232 HSL &amp;#160; 85,35%,93%    Dark green  HEX &amp;#160; #B8C6A5 RGB &amp;#160; 184,198,165 HSL &amp;#160; 85,22%,71%    White  HEX &amp;#160; #FFFFFF RGB &amp;#160; 255,255,255 HSL &amp;#160; 85,22%,71%    Light grey  HEX &amp;#160; #FFFFFF RGB &amp;#160; 255,255,255 HSL &amp;#160; 85,22%,71%    Dark grey  HEX &amp;#160; #B8C6A5 RGB &amp;#160; 184,198,165 HSL &amp;#160; 85,22%,71%    Black  HEX &amp;#160; #FFFFFF RGB &amp;#160; 255,255,255 HSL &amp;#160; 85,22%,71%</description>
+    </item>
+    
+    <item>
+      <title>GRASS GIS manuals</title>
+      <link>https://nbozon.github.io/GRASS-GIS/learn/manuals/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/learn/manuals/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>GRASS GIS tutorials</title>
+      <link>https://nbozon.github.io/GRASS-GIS/learn/tutorials/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/learn/tutorials/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://nbozon.github.io/GRASS-GIS/about/history/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/about/history/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://nbozon.github.io/GRASS-GIS/about/license/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/about/license/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://nbozon.github.io/GRASS-GIS/download/linux/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/download/linux/</guid>
+      <description>&lt;p&gt;[ &lt;a href=&#34;#GRASS-GIS-7.4-stable&#34;&gt;GRASS 7.4&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.6-stable&#34;&gt;GRASS 7.6&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.2-stable&#34;&gt;GRASS 7.2 &lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.7-devel&#34;&gt;GRASS 7.7 devel&lt;/a&gt; ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://nbozon.github.io/GRASS-GIS/download/mac/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/download/mac/</guid>
+      <description>&lt;p&gt;[ &lt;a href=&#34;#GRASS-GIS-7.4-stable&#34;&gt;GRASS 7.4&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.6-stable&#34;&gt;GRASS 7.6&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.2-stable&#34;&gt;GRASS 7.2 &lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.7-devel&#34;&gt;GRASS 7.7 devel&lt;/a&gt; ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sponsors</title>
+      <link>https://nbozon.github.io/GRASS-GIS/contribute/sponsors/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/contribute/sponsors/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://nbozon.github.io/GRASS-GIS/contribute/support/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/contribute/support/</guid>
+      <description> Coming soon </description>
+    </item>
+    
+    <item>
+      <title>What is GRASS GIS ?</title>
+      <link>https://nbozon.github.io/GRASS-GIS/learn/overview/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/learn/overview/</guid>
+      <description>General information Geographic Resources Analysis Support System, commonly referred to as GRASS, is a Geographic Information System (GIS) technology built for vector and raster geospatial data management, geoprocessing, spatial modelling and visualization.
+GRASS GIS is Free, Libre and Open Source Software released under the terms of the GNU General Public License (GPL v2). GRASS GIS is also a founding member and an affiliated project of the Open Source Geospatial Foundation .</description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://nbozon.github.io/GRASS-GIS/download/windows/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/download/windows/</guid>
+      <description>&lt;p&gt;[ &lt;a href=&#34;#GRASS-GIS-7.4-stable&#34;&gt;GRASS 7.4&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.6-stable&#34;&gt;GRASS 7.6&lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.2-stable&#34;&gt;GRASS 7.2 &lt;/a&gt; | &lt;a href=&#34;#GRASS-GIS-7.7-devel&#34;&gt;GRASS 7.7 devel&lt;/a&gt; ]&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GRASS theme elements</title>
+      <link>https://nbozon.github.io/GRASS-GIS/about/elements/</link>
+      <pubDate>Thu, 27 Dec 2018 09:10:27 +0600</pubDate>
+      
+      <guid>https://nbozon.github.io/GRASS-GIS/about/elements/</guid>
+      <description>GRASS theme elements The following Markdown and HTML markup elements should be used to extend the website consistently.  Headlines Section title  # Section title    Page title  ## Page title    Section subtitle  ### Section subtitle    Text Default
+ Default    Italic
+ *Italic*    Bold
+ **Bold**    &amp;#160; &amp;#160; &amp;#160; Blockquote</description>
+    </item>
+    
+  </channel>
+</rss>
