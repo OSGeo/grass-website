@@ -191,7 +191,7 @@ greyColorDark = "#777777"
 
     [[Languages.en.socialIcon]]
       icon = "ti-facebook"
-      URL = "https://www.facebook.com/GRASSGISCommunity"
+      URL = "https://www.facebook.com/groups/grass"
 
     [[Languages.en.socialIcon]]
       icon = "ti-youtube"
