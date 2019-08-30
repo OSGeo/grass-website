@@ -8,10 +8,8 @@
 
 ## How to run locally
 
-Run in the `grass-website` root directory:
+Run hugo development server from the `grass-website` root directory:
 
     hugo server
 
-Open web site (using Mozilla Firefox in this case):
-
-    firefox http://localhost:1313
+Open web site at http://localhost:1313
