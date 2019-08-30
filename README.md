@@ -6,12 +6,12 @@
 
     apt install hugo
 
-## How to build
+## How to run locally
 
 Run in the `grass-website` root directory:
 
-    hugo
+    hugo server
 
 Open web site (using Mozilla Firefox in this case):
 
-    firefox public/index.html
+    firefox http://localhost:1313
