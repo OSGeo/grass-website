@@ -34,8 +34,8 @@ View the website running at  http://localhost:1313
 Content must be created in .md files using markdown syntax. HTML markup can also be mixed with markdown for more advanced content presentation.
 
 Useful resources:
- *Hugo [docs](https://gohugo.io/documentation/)
- *Markdown [guide](https://www.markdownguide.org/basic-syntax/)
+ * Hugo [docs](https://gohugo.io/documentation/)
+ * Markdown [guide](https://www.markdownguide.org/basic-syntax/)
 
 ### Add a news item
 
@@ -57,10 +57,10 @@ Useful resources:
 
 ### Create a new content page
 
-*Head to a content subdirectory, for example the one used for the About section
+* Head to a content subdirectory, for example the one used for the About section
 cd /grass-website/content/about
 
-*Create a new md file using the basic hugo header and markdown syntax
+* Create a new md file using the basic hugo header and markdown syntax
 (more info coming soon)
 
 * Create a specific template if advance page presentation is needed (see /themes/grass/layouts/)
