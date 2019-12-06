@@ -45,15 +45,9 @@ Useful resources:
 * Create new md file
     sudo nano mynewsitem.md
 
-* Add the following basic content:
-    ---
-    title: "My news item title"
-    date: 2019-06-12T15:33:16+01:00
-    layout: "news"
-    author: Your name (or Admin if you prefer)
-    ---
+* Add the basic header information for Hugo, at least title, date, layout
 
-    This your news item content, written in markdown
+* Write content in mardown bellow
 
 * Rebuild if needed
    cd ../../
@@ -66,21 +60,8 @@ Useful resources:
 *Head to a content subdirectory, for example the one used for the About section
 cd /grass-website/content/about
 
-*Create a new md file using the folllowing basic syntax:
-
-   ---
-   title: "Your new page title"
-    date: 2019-06-12T15:33:16+01:00
-   layout: "brand"
-   ---
-
-  ## Page title
-
-  ### Pagesubtitle
-
-  text paragraph
-
-  ![example image](../../images/Black_canyon_map.jpg "Black Canyon Map")
+*Create a new md file using the basic hugo header and markdown syntax
+(more info coming soon)
 
 * Create a specific template if advance page presentation is needed (see /themes/grass/layouts/)
 (more info coming soon)
