@@ -21,9 +21,9 @@ layout: "overview"
 <div class="container">
 <div class="row mt-20">
 <div class="col-lg-6">
-<p><b>GRASS GIS</b> contains over <b><a href="https://grass.osgeo.org/grass79/manuals/full_index.html" target="_blank">350 modules</a></b> to process and render geographic data. The software allows to manipulate a variety of raster, vector and 3D formats through its unique LOCATION/MAPSET concept. The later provides an efficient way to create, store and manage spatial information.</p>
+<p><b>GRASS GIS</b> ....</p>
 <p>
-<b>GRASS GIS</b> comes with an intuitive graphical user interface and a command line syntax, usefull for automation and production. GRASS GIS can interface with printers, plotters, digitizers, and databases to develop new data as well as manage existing data.</p>
+<b>GRASS GIS</b> ...</p>
   </div>
 <div class="col-lg-6 text-center">
 <img class="bsh" src="../../images/gui-grass-example.png" width="89%" alt="GRASS GIS">
