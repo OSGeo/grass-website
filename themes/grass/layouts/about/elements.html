@@ -12,16 +12,18 @@
   <section class="section bg-lgr">
   <div class="container">
     <div class="row">
-    <div class="col-lg-8 mx-auto text-center">
-      
-       <h1 class="grass-green-dark cap mb-4">{{.Section}}</h1>
-
+    <div class="col-lg-8 mx-auto text-center">     
+       <h1 class="grass-green cap mb-4">{{.Section}}</h1>
       </div>
     </div>
     </div>
   </section>
-  <section class="elements pt-5 bg-gray">
-  
+
+  <section class="bg-white pb-0">
+    {{ partial "breadcrumb.html" . }}
+  </section>
+    
+ <section class="elements pt-5 bg-gray">
  <div class="container">
     <div class="row">
  
