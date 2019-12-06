@@ -4,30 +4,49 @@ date: 2018-12-29T11:02:05+06:00
 layout: "overview"
 ---
 
-### General information
+<div class="container">
+<div class="row mt-30">
+<div class="col-lg-4 text-center">
+<img src="../../images/grasslogo.svg" width="42%" alt="GRASS GIS">
+</div>
+<div class="col-lg-8">
+<p><b>G</b>eographic <b>R</b>esources <b>A</b>nalysis <b>S</b>upport <b>S</b>ystem, commonly referred to as <b>GRASS GIS</b>, is a Geographic Information System (GIS) technology built for vector and raster geospatial data management, geoprocessing, spatial modelling and visualization.</p>
+<p><b>GRASS GIS</b> is Free, Libre and Open Source Software released under  the terms of the  <a href="../../download/license"> GNU General Public License (GPL v2) </a>. GRASS GIS is also a founding member and an affiliated  project of the  <a href="https://osgeo.org"> Open Source Geospatial Foundation</a></p>
+</div>
+</div>
+</div>
 
-**Geographic Resources Analysis Support System**, commonly referred to as **GRASS**, is a Geographic Information System
-  (GIS) technology built for vector and raster geospatial data management, 
- geoprocessing, spatial modelling and visualization.
+### General presentation
 
- **GRASS GIS**  is Free, Libre and Open Source Software released under  the terms of the  [GNU General Public License (GPL v2)](../../download/license). GRASS GIS is also a founding member and an affiliated  project of the  [Open Source Geospatial Foundation ](https://osgeo.org). 
+<div class="container">
+<div class="row mt-20">
+<div class="col-lg-6">
+<p><b>GRASS GIS</b> contains over <b><a href="https://grass.osgeo.org/grass79/manuals/full_index.html" target="_blank">350 modules</a></b> to process and render geographic data. The software allows to manipulate a variety of raster, vector and 3D formats through its unique LOCATION/MAPSET concept. The later provides an efficient way to create, store and manage spatial information.</p>
+<p>
+<b>GRASS GIS</b> comes with an intuitive graphical user interface and a command line syntax, usefull for automation and production. GRASS GIS can interface with printers, plotters, digitizers, and databases to develop new data as well as manage existing data.</p>
+  </div>
+<div class="col-lg-6 text-center">
+<img class="bsh" src="../../images/gui-grass-example.png" width="89%" alt="GRASS GIS">
+</div>
+</div>
+</div>
 
-![GRASS GISt](../../images/Nebraska_-_Green_earth.png)
+### Main features
 
-Originally developed by the U.S. Army Construction Engineering Research Laboratories (USA-CERL, 1982-199), a branch of the US Army Corp of Engineers, as a tool for land management and environmental planning by the military, **GRASS GIS** has evolved into a powerful utility with a wide range of applications in many different areas of applications and scientific research.
+<div class="container">
+<div class="row mt-20">
+<div class="col-lg-6 text-center">
+<img class="bsh" src="../../images/gui-grass-example-2.png" width="89%" alt="GRASS GIS">
+</div>
+<div class="col-lg-6">
+<p><b>GRASS GIS</b> runs on Linux, Mac and Windows. It comes with both an intuitive graphical user interface and a command line syntax usefull for automation and production.</p>
+<p><b>GRASS GIS</b> contains over <b><a href="https://grass.osgeo.org/grass79/manuals/full_index.html" target="_blank">350 modules</a></b> to process and render geographic data. The software allows to manipulate a variety of raster, vector and 3D formats, and run simple to advanced spatial analysis and modeling. GRASS GIS can connect to spatial databases but also interface with a variety of third-party systems and libraries.</p>
 
-The **GRASS Development Team** has grown into a multi-national community gathering developers and researchers from around the World. The **GRASS Project Steering Commitee** was formed back in 2006 and is responsible for the overall management of the project. The PSC is especially responsible for granting GRASS core write access.
 
-**GRASS GIS** is currently used in academic and commercial settings around the world, as well as many governmental agencies including NASA, NOAA, USDA, DLR, CSIRO, the National Park Service, the U.S. Census Bureau, USGS, and multiple consulting companies.
+  </div>
 
-### General features
+</div>
+</div>
 
-GRASS GIS contains over **350 modules** to render maps and images on monitor and paper; manipulate raster, and vector data including vector networks; process multispectral image data; and create, manage, and store spatial data.
-
-GRASS GIS offers both an intuitive graphical user interface as well as command line syntax for ease of operations. GRASS GIS can interface with printers, plotters, digitizers, and databases to develop new data as well as manage existing data.
-
-![GRASS GIS](../../images/Wxgui-nc-spm-example.png) 
-
-### Capabilities
-
-Coming soon
+</div>
+</div>

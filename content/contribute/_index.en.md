@@ -1,7 +1,7 @@
 ---
 title: "Contribute"
 date: 2018-12-29T11:02:05+05:00
-icon: "fas fa-user"
+icon: "fa fa-user"
 description: "Contribute to Open Source Geospatial through GRASS GIS developement"
 type : "pages"
 weight: 3

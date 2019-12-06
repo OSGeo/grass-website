@@ -1,7 +1,7 @@
 ---
 title: "Learn"
 date: 2018-12-29T11:02:05+05:00
-icon: "fas fa-book"
+icon: "fa fa-book"
 description: "Get to know the GRASS GIS ecosystem with manuals,tutorials and more"
 type : "pages"
 weight: 2

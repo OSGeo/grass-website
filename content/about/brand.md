@@ -139,3 +139,19 @@ grey-color-light-bg mb-2"></div>
 
 </div>
 
+
+### Citing GRASS
+
+<p> Please use the following BibTeX entry for citing the <b>GRASS GIS</b> software in scientific work written in LaTeX.</p>
+
+<pre>
+<code class="hljs tex">
+@Manual{GRASS_GIS_software,
+title = {Geographic Resources Analysis Support System (GRASS GIS) Software},
+author = {{GRASS Development Team}},
+organization = {Open Source Geospatial Foundation},
+address = {USA},
+year = {2018},
+url = {https://grass.osgeo.org},
+}
+</code>
