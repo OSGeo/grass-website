@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "h"
 theme = "grass"
 
 
@@ -11,11 +11,11 @@ textColorDark = "#333333"
 grassColor = "#088B36"
 grassColorAlt= "#9ed29c"
 grassColorLight= "#eff4e8"
-grassColorDark= "#b8c6a5"
+grassColorDark= "#87a06a"
 whiteColor = "#ffffff"
 greyColor = "#6b6b6b"
 greyColorLight = "#CCCCCC"
-greyColorDark = "#777777"
+greyColorDark = "#A0A0A0"
 
 
 [Languages]
@@ -74,11 +74,6 @@ greyColorDark = "#777777"
           URL = "/learn/books"
           weight = 5
 
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "Wiki"
-          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
-          weight = 6 
     
       [[Languages.en.menu.main]]
         weight = 3
@@ -88,9 +83,9 @@ greyColorDark = "#777777"
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Community"
-          URL = "/contribute/community"
-          weight = 1
+          name = "Wiki"
+          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
+          weight = 1 
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
@@ -100,21 +95,15 @@ greyColorDark = "#777777"
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Support"
-          URL = "/contribute/support"
+          name = "Donations"
+          URL = "/contribute/donations"
           weight = 3
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
           name = "Sponsors"
-          URL = "/contribute/sponsors"
+          URL = "https://grasswiki.osgeo.org/wiki/Sponsors"
           weight = 4
-
-          [[Languages.en.menu.main]]
-          parent = "Contribute"
-          name = "Donations"
-          URL = "/contribute/donations"
-          weight = 5
 
 
       [[Languages.en.menu.main]]
@@ -131,33 +120,21 @@ greyColorDark = "#777777"
 
           [[Languages.en.menu.main]]
           parent = "About"
-          name = "About us"
-          URL = "/about/us"
+          name = "Community"
+          URL = "/about/community"
           weight = 2
-
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "History"
-          URL = "/about/history"
-          weight = 3
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "Brand"
           URL = "/about/brand"
-          weight = 4
-	  
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "License"
-          URL = "/about/license"
-          weight = 5
+          weight = 3
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "Credits"
           URL = "/about/credits"
-          weight = 6
+          weight = 4
 
     # banner
     [Languages.en.params.banner]
@@ -168,21 +145,12 @@ greyColorDark = "#777777"
     # Topics
     [Languages.en.params.topics]
       title = "Geographic Resources Analysis Support System"
-    
-    # call to action
-    [Languages.en.params.cta]
-      enable = true
-      title = "What is GRASS GIS ?"
-      description = "Geographic Resources Analysis Support System, commonly referred to as GRASS GIS, is an open source geographic information system (GIS) used for data management, image processing, spatial modelling, maps production and visualization of geographic data. Released under the GNU General Public License (GPL), GRASS GIS is an official project of the Open Source Geospatial Foundation."
-      btnText = "read more"
-      btnURL = "/contact"
-
 
 
     # footer social icon
 
     [[Languages.en.socialIcon]]
-      icon = "ti-github"
+      icon = " fa fa-github"
       URL = "https://github.com/OSGeo/grass"
       
     [[Languages.en.socialIcon]]
@@ -191,7 +159,7 @@ greyColorDark = "#777777"
 
     [[Languages.en.socialIcon]]
       icon = "ti-facebook"
-      URL = "https://www.facebook.com/groups/grass"
+      URL = "https://www.facebook.com/GRASSGISCommunity"
 
     [[Languages.en.socialIcon]]
       icon = "ti-youtube"
