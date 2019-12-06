@@ -78,7 +78,7 @@ cd /grass-website/content/about
    cd ../../
    hugo
 
-* Check result at http://localhost:1313/news/
+* Check result at http://localhost:1313/about/mypage
 
 
 
