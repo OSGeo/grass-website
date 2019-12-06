@@ -14,26 +14,38 @@
 <section class="section bg-lgr">
   <div class="container">
     <div class="row">
-    <div class="col-lg-8 mx-auto text-center">
-      
-       <h1 class="grass-green-dark cap mb-4">{{.Section}}</h1>
-
-
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{.Section}}</h1>
       </div>
     </div>
   </div>
 </section>
-<!-- /page title -->
+<section class="bg-white pb-0">
+ {{ partial "breadcrumb.html" . }}
+</section>
 
 <!-- details page -->
 <section class="single section bg-gray pb-0">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-      <div class="p-5 bg-white">
+      <div class="col-lg-8">
+      <div id="news" class="p-5 bg-white">
 	      <h2 class="page-title">{{ .Title }}</h2>
-	      {{ .Content }}
-        </div>
+	      
+{{ range where .Data.Pages "Section" "news" }}
+
+<h3 class="entry-title" itemprop="headline"><a href="{{ .RelPermalink }}" class="nws">{{ .Title }}</a></h2><span class="entry-meta">
+<time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+
+{{ end }}
+      </div>
+      </div>
+      <div class="col-md-4 bg-white">
+	<h3 class="mt-20"><a href="#">@GRASSGIS</a></h3>
+	<a class="twitter-timeline" data-link-color="#B8C6A5" data-tweet-limit="4" data-chrome="nofooter noheader" href="https://twitter.com/GRASSGIS">@GRASSGIS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+	 
       </div>
     </div>
   </div>
