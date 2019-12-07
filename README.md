@@ -63,10 +63,10 @@ Useful resources:
      cd /grass-website/content/about
 
 * Create a new md file using the basic hugo header and markdown syntax
-(more info coming soon)
+ (**more info coming soon**)
 
 * Create a specific template if advance page presentation is needed (see /themes/grass/layouts/)
-(more info coming soon)
+(**more info coming soon**)
 
 * Edit config.toml and add the new page as a new menu item as a children of the About section, as follows
 
