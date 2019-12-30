@@ -1,0 +1,52 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<!-- page title -->
+<section class="section bg-lgr">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{.Section}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white pb-0">
+    {{ partial "breadcrumb.html" . }}
+</section>
+
+<!-- details page -->
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+      <div class="p-5 bg-white">
+	      <h2 class="page-title">{{ .Title }}</h2>
+	      {{ .Content }}
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+	{{ partial "brand.html" . }}
+      <div class="mt-30">
+	{{ partial "osgeo.html" . }}
+      </div>
+      <div class="mt-30">
+	{{ partial "foss4g.html" . }}
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+{{ partial "footer.html" . }}
