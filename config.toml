@@ -153,16 +153,16 @@ greyColorDark = "#A0A0A0"
       URL = "https://github.com/OSGeo/grass"
       
     [[Languages.en.socialIcon]]
-      icon = "ti-twitter-alt"
+      icon = " fa fa-twitter"
       URL = "https://twitter.com/grassgis"    
 
     [[Languages.en.socialIcon]]
-      icon = "ti-facebook"
+      icon = "fa fa-facebook"
       URL = "https://www.facebook.com/GRASSGISCommunity"
 
     [[Languages.en.socialIcon]]
-      icon = "ti-youtube"
-      URL = "https://www.youtube.com/results?search_query=grass+gis"  
+      icon = "fa fa-youtube"
+      URL = "https://www.youtube.com/results?search_query=grass+gis"   
 
 
 
