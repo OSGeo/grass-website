@@ -16,10 +16,10 @@ layout: "manuals"
   <a href="https://grass.osgeo.org/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (stable) </a></span>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (old stable) </a></span>
   <a href="https://grass.osgeo.org/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
-   <li>
+<!--   <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass74/manuals/index.html " target="_blank"> GRASS GIS 7.4 (stable) </a></span>
   <a href="https://grass.osgeo.org/grass74/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
@@ -31,8 +31,9 @@ layout: "manuals"
   <span class="mwl"><a href="https://grass.osgeo.org/grass70/manuals/index.html " target="_blank"> GRASS GIS 7.0 (stable) </a></span>
   <a href="https://grass.osgeo.org/grass70/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
+-->
      <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass64/manuals/index.html " target="_blank"> GRASS GIS 6.4 (old stable) </a></span>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass64/manuals/index.html " target="_blank"> GRASS GIS 6.4 (very old stable) </a></span>
   <a href="https://grass.osgeo.org/grass64/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
 </ul>
@@ -45,10 +46,24 @@ layout: "manuals"
   <a href="https://grass.osgeo.org/grass7/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass6/manuals/addons/ " target="_blank"> GRASS GIS 6 addons</a></span>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass6/manuals/addons/ " target="_blank"> GRASS GIS 6 addons </a></span>
   <a href="https://grass.osgeo.org/grass6/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
 </ul>
 
 
 ### Developer manuals
+<ul id="links" class="list-unstyled version">
+ <li>
+  <span class="mwl"><a href="https://grass.osgeo.org/programming7/" target="_blank">GRASS GIS 7 programmer's manual</a></span>
+  <a href="https://grass.osgeo.org/programming7/" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+ <li>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass79/manuals/libpython/" target="_blank">GRASS GIS 7 Python programmer's manual</a></span>
+  <a href="https://grass.osgeo.org/grass79/manuals/libpython/" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+ <li>
+  <span class="mwl"><a href="https://grass.osgeo.org/programming6/" target="_blank"> GRASS GIS 6 programmer's manual</a></span>
+  <a href="https://grass.osgeo.org/programming6/" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+</ul>
