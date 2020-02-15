@@ -21,10 +21,10 @@ layout: "overview"
 <div class="container">
 <div class="row mt-20">
 <div class="col-lg-6">
-<p><b>GRASS GIS</b> ....</p>
-<p>
-<b>GRASS GIS</b> ...</p>
-  </div>
+<p>The <b>GRASS GIS</b> project is an international team effort that includes <a href="https://grasswiki.osgeo.org/wiki/Team">scientists and developers</a> from various fields. GRASS - Geographic Resources Analysis Support System - has been under continuous development since 1982 and it has involved a large number of federal US agencies, universities, and private companies. The core components of GRASS GIS and the management of releases were developed and handled by the Construction Engineering Resesarch Laboratory (CERL) in Champaign, Illinois. Since 1997 a worldwide network of developers continue to release new GRASS GIS versions (see GRASS history section).</p>
+
+<p>The strength and success of GRASS GIS relies on the user community. The philosophy of the GRASS GIS Development Team is to encourage users to develop their own unique tools and applications as well as to improve the existent ones.</p>
+</div>
 <div class="col-lg-6 text-center">
 <img class="bsh" src="../../images/gui-grass-example.png" width="89%" alt="GRASS GIS">
 </div>
