@@ -39,12 +39,12 @@ Subscribe to start the conversation, and follow the <a href="grasswiki.osgeo.org
 |------|---------|-------------|
 | *Users*  |  [grass-user](https://lists.osgeo.org/mailman/listinfo/grass-user) |  Principal GRASS mailing list for user suppport |
 | *Developer*  | [grass-dev](http://lists.osgeo.org/mailman/listinfo/grass-dev) | Principal GRASS mailing list for developers |
-| *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS GIS project announcements |
-| *Statistics*  | [grass-stats](http://lists.osgeo.org/mailman/listinfo/grass-stats)  |  Dedicated to GRASS GIS statistical packages |
-| *Translations*  | [grass-stats](http://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS GIS translations  |
+| *Statistics*  | [grass-stats](http://lists.osgeo.org/mailman/listinfo/grass-stats)  |  Dedicated to GRASS GIS and R stats interface |
+| *Translations*  | [grass-translations](http://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS GIS translations  |
 | *PSC*  | [grass-psc](http://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
 | *Git Commit*  | [grass-commits](http://lists.osgeo.org/mailman/listinfo/grass-commit) |  GRASS GIS git commit mailing list |
 | *Website*  | [grass-web](http://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS GIS website mailing list |
+| *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS GIS project announcements |
 
 ### Social media
 
