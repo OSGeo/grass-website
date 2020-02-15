@@ -20,7 +20,8 @@ See also the [Frequently Asked Questions about the GNU GPL](http://www.gnu.org/l
 
 # Citing GRASS GIS Software
 Please cite GRASS when using the software in your work. Here are some choices depending on the version used:
-
+- GRASS Development Team, 2019. Geographic Resources Analysis Support System (GRASS) Software, Version 7.6. Open Source Geospatial 
+Foundation. https://grass.osgeo.org
 - GRASS Development Team, 2018. Geographic Resources Analysis Support System (GRASS) Software, Version 7.4. Open Source Geospatial 
 Foundation. https://grass.osgeo.org
 
