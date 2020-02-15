@@ -11,7 +11,6 @@ The strength and success of GRASS GIS relies on the user community. With this in
 ## User Groups
 
 There are many GRASS users around the world. See the [local chapters](https://www.osgeo.org/local-chapters/) website for more details.
-- Canada: Ottawa GRASS User's Group (merged with MapServer group to become OSGeo local chapter)
 - Czech Republic: Českésdružení uživatelů GISu GRASS
 - Germany: FOSSGIS e.V. (former GRASS Anwender-Vereinigung e.V.)
 - India: India Chapter of OSGeo
