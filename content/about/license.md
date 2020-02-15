@@ -14,7 +14,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 If you are not sure about the differences between public domain software, Free Software and proprietary products, have a look at this webpage: [Categories of Free and Non-Free Software](http://www.gnu.org/philosophy/categories.html).
 
-Questions regarding details of this policy can be directed to this[ email address](grass-web@lists.osgeo.org) for a prompt response.
+Questions regarding details of this policy can be directed to this [email address](grass-web@lists.osgeo.org).
 
 See also the [Frequently Asked Questions about the GNU GPL](http://www.gnu.org/licenses/gpl-faq.html).
 
