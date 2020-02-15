@@ -10,7 +10,7 @@ Geographic Resources Analysis Support System (GRASS) is Copyright, 1999-2018 GRA
 
 GRASS GIS is free and open source software, you can redistribute it and/or modify it under the terms of the [GNU General Public License](http://www.gnu.org/licenses/sgpl-3.0.html) as published by the [Free Software Foundation](https://www.fsf.org/).
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html) for more details or see the [PDF GPL document](https://grass.osgeo.org/uploads/grass/gpl.pdf).
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html) for more details.
 
 If you are not sure about the differences between public domain software, Free Software and proprietary products, have a look at this webpage: [Categories of Free and Non-Free Software](http://www.gnu.org/philosophy/categories.html).
 
