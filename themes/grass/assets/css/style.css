@@ -2,7 +2,7 @@ body {
   line-height: 1.8;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--text-color);
   background-color: var(--secondary-color);
 }
@@ -822,4 +822,8 @@ li.parent a {
 .card {
   min-height: 4rem !important;
   height: 4rem !important;
+}
+
+.edt {
+     font-family: "Open Sans", sans-serif !important;
 }

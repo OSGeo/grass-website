@@ -1,6 +1,12 @@
 # Hugo theme for GRASS GIS website
 
-## How to build your own
+This is the upcoming Web site of the GRASS GIS project (under development).
+It is hourly deployed at: https://staging.grass.osgeo.org/
+
+Below some instructions how to contribute by running a local instance for testing
+prior to commit changes as pull requests.
+
+## How to build your own local web server
 
     git clone https://github.com/OSGeo/grass-website.git
 
@@ -10,7 +16,7 @@
 
     apt install hugo
 
-### Build locally
+### Build pages locally
 
     cd grass-website
 
@@ -18,7 +24,7 @@
 
 Output HTML generated in the /public directory at the root of the `grass-website` directory
 
-### Run locally
+### Run server locally
 
 Run hugo development server from the `grass-website` root directory:
 
@@ -84,10 +90,6 @@ Useful resources:
 
 * Check result at http://localhost:1313/about/mypage
 
+### Submit your changes
 
-
-
-
-
-
-
+Like it? Then please submit your improvements as a new pull request.
