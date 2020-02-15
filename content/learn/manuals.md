@@ -19,7 +19,8 @@ layout: "manuals"
   <span class="mwl"><a href="https://grass.osgeo.org/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (old stable) </a></span>
   <a href="https://grass.osgeo.org/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
-<!--   <li>
+<!--
+ <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass74/manuals/index.html " target="_blank"> GRASS GIS 7.4 (stable) </a></span>
   <a href="https://grass.osgeo.org/grass74/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
@@ -45,10 +46,12 @@ layout: "manuals"
   <span class="mwl"><a href="https://grass.osgeo.org/grass7/manuals/addons/ " target="_blank"> GRASS GIS 7 addons </a></span>
   <a href="https://grass.osgeo.org/grass7/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
- <li>
+<!-- outdated
+<li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass6/manuals/addons/ " target="_blank"> GRASS GIS 6 addons (unsupported) </a></span>
   <a href="https://grass.osgeo.org/grass6/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
+-->
 </ul>
 
 ### Developer manuals
