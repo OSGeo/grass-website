@@ -4,7 +4,7 @@ date: 2018-12-29T11:02:05+06:00
 layout: "overview"
 ---
 
-# Copyright and License Information
+## Copyright and License Information
 
 Geographic Resources Analysis Support System (GRASS) is Copyright, 1999-2018 GRASS Development Team, and licensed under terms of the GNU General Public License (GPL). This includes all software, documentation, and associated materials.
 
