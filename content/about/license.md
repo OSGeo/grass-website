@@ -18,7 +18,7 @@ Questions regarding details of this policy can be directed to this[ email addres
 
 See also the [Frequently Asked Questions about the GNU GPL](http://www.gnu.org/licenses/gpl-faq.html).
 
-# Citing GRASS GID Software
+# Citing GRASS GIS Software
 Please cite GRASS when using the software in your work. Here are some choices depending on the version used:
 
 - GRASS Development Team, 2018. Geographic Resources Analysis Support System (GRASS) Software, Version 7.4. Open Source Geospatial 
