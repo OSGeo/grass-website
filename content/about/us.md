@@ -9,7 +9,6 @@ The GRASS GIS project is an international team effort with [scientists and devel
 The strength and success of GRASS GIS relies on the user community. With this in mind, the philosophy of the GRASS Development Team is to encourage users to develop their own unique tools and applications for GRASS. Many people have contributed to the GRASS GIS. As GRASS GIS is growing, we have plenty of opportunities to join the GRASS development team and improve the powerful GRASS GIS under terms of GNU General Public License.
 
 # User Groups
-
 - Canada: Ottawa GRASS User's Group (merged with MapServer group to become OSGeo local chapter)
 - Czech Republic: Českésdružení uživatelů GISu GRASS
 - Germany: FOSSGIS e.V. (former GRASS Anwender-Vereinigung e.V.)
