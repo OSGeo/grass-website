@@ -16,7 +16,6 @@ The strength and success of GRASS GIS relies on the user community. With this in
 - India: India Chapter of OSGeo
 - Italy: GFOSS.it (Associazione Italiana per l'Informazione Geografica Libera)
 - Italy: Sito degli utenti italiani di GRASS
-- See also: Local Chapters of the Open Source Geospatial Foundation (OSGeo Foundation)
 
 # Credits
 
