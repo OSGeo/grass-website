@@ -14,7 +14,6 @@ There are many GRASS users around the world. See the [local chapters](https://ww
 - Germany: FOSSGIS e.V. (former GRASS Anwender-Vereinigung e.V.)
 - India: India Chapter of OSGeo
 - Italy: GFOSS.it (Associazione Italiana per l'Informazione Geografica Libera)
-- Italy: Sito degli utenti italiani di GRASS
 ## Credits
 
 TODO
