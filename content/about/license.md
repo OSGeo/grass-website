@@ -25,7 +25,6 @@ Foundation. https://grass.osgeo.org
 - GRASS Development Team, 2018. Geographic Resources Analysis Support System (GRASS) Software, Version 7.4. Open Source Geospatial 
 Foundation. https://grass.osgeo.org
 
-- GRASS Development Team, 2017. Geographic Resources Analysis Support System (GRASS) Software, Version 7.2. Open Source Geospatial Foundation. https://grass.osgeo.org
 
 - GRASS Development Team, 2014. Geographic Resources Analysis Support System (GRASS) Software, Version 6.4.4. Open Source Geospatial Foundation. http://grass.osgeo.org
 
