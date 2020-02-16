@@ -19,7 +19,8 @@ layout: "manuals"
   <span class="mwl"><a href="https://grass.osgeo.org/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (old stable) </a></span>
   <a href="https://grass.osgeo.org/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
-<!--   <li>
+<!--
+ <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass74/manuals/index.html " target="_blank"> GRASS GIS 7.4 (stable) </a></span>
   <a href="https://grass.osgeo.org/grass74/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
@@ -45,25 +46,43 @@ layout: "manuals"
   <span class="mwl"><a href="https://grass.osgeo.org/grass7/manuals/addons/ " target="_blank"> GRASS GIS 7 addons </a></span>
   <a href="https://grass.osgeo.org/grass7/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
- <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass6/manuals/addons/ " target="_blank"> GRASS GIS 6 addons </a></span>
+<!-- outdated
+<li>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass6/manuals/addons/ " target="_blank"> GRASS GIS 6 addons (unsupported) </a></span>
   <a href="https://grass.osgeo.org/grass6/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
+-->
 </ul>
 
-
 ### Developer manuals
+
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/programming7/" target="_blank">GRASS GIS 7 programmer's manual</a></span>
+  <span class="mwl"><a href="https://grass.osgeo.org/programming7/ " target="_blank">GRASS GIS 7 Programmer's Manual</a></span>
   <a href="https://grass.osgeo.org/programming7/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass79/manuals/libpython/" target="_blank">GRASS GIS 7 Python programmer's manual</a></span>
-  <a href="https://grass.osgeo.org/grass79/manuals/libpython/" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl"><a href="https://github.com/OSGeo/grass/tree/master/doc/vector/v.example " target="_blank"> GRASS GIS 7 Example Vector Module in C</a></span>
+  <a href="https://github.com/OSGeo/grass/tree/master/doc/vector/v.example" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/programming6/" target="_blank"> GRASS GIS 6 programmer's manual</a></span>
-  <a href="https://grass.osgeo.org/programming6/" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl"><a href="https://github.com/OSGeo/grass/tree/master/doc/raster/r.example " target="_blank"> GRASS GIS 7 Example Raster Module in C</a></span>
+  <a href="https://github.com/OSGeo/grass/tree/master/doc/raster/r.example" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+ <li>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass79/manuals/libpython/index.html " target="_blank"> GRASS GIS 7 Python Library Manual</a></span>
+  <a href="https://grass.osgeo.org/grass79/manuals/libpython/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+ <li>
+  <span class="mwl"><a href="https://gitlab.com/vpetras/r.example.plus " target="_blank"> GRASS GIS 7 Example Python Module</a></span>
+  <a href="https://gitlab.com/vpetras/r.example.plus" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+ <li>
+  <span class="mwl"><a href="https://github.com/OSGeo/grass/tree/master/doc/gui/wxpython/example " target="_blank"> GRASS GIS 7 Example GUI Module</a></span>
+  <a href="https://github.com/OSGeo/grass/tree/master/doc/gui/wxpython/example" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+ <li>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass79/manuals/parser_standard_options.html " target="_blank"> GRASS GIS 7 Parser Standard Options</a></span>
+  <a href="https://grass.osgeo.org/grass79/manuals/parser_standard_options.html" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
 </ul>
