@@ -23,7 +23,7 @@ All trackers' new submissions will be automatically forwarded to the GRASS GIS d
 ###### Some recommendations
 <small>
 <ul>
- <li>Check if the bug is still present in the current stable release version or "master" before reporting. If you use an older version, please consider [upgrading](/download)</li>
+ <li>Check if the bug you found is still present in the current stable release version or, better, in the "master" version before reporting. If you use an older version, please consider to [upgrade](/download) first</li>
  <li>Make sure that the developers have all the information needed to recreate the bug (e.g. explain how to reproduce the bug using the [North Carolina example dataset]())</li>
  <li>Report only a single bug with each request</li>
  <li>Before reporting a bug, please check that it is yet unknown: GRASS-trac bug tracking system [search page](http://trac.osgeo.org/grass/report)</li>
