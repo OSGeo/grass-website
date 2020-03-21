@@ -20,7 +20,7 @@ Bug reports and wishes can be submitted in the [GRASS GIS bugtracking system](ht
 
 All trackers' new submissions will be automatically forwarded to the GRASS GIS development mailing list.
 
-###### Some recommendation
+###### Some recommendations
 <small>
 <ul>
  <li>Check if the bug is still present in the current stable release version or "master" before reporting. If you use an older version, please consider [upgrading](/download)</li>
