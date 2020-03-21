@@ -69,7 +69,7 @@ The core consists in the libraries used by the GRASS GIS modules and GUI and the
 It may be a good idea to send a small posting to the ​[GRASS developers mailing list](http://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
 (maybe someone will join you!). Please read [how to write source code](https://trac.osgeo.org/grass/wiki/HowToProgram). 
 
-We appreciate if you can first [fix ​bugs](http://trac.osgeo.org/grass/query?status=%21closed&type=defect&order=id&desc=1) etc.
+We'd appreciate if you could support us with [fixing of ​bugs](https://github.com/OSGeo/grass/issues) etc.
 
 ### Others opportunity
 
