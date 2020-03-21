@@ -14,7 +14,7 @@ The authors of the individual programs are listed at the end of the respective m
 
 ## Get Involved
 
-### Report bug
+### Report a bug or enhancement wish
 <img src="../../images/bugreport.svg" width="30%" alt="" style="float:right">
 Bug reports and wishes can be submitted in the [GRASS GIS bugtracking system](http://trac.osgeo.org/grass) (GRASS-trac).
 
