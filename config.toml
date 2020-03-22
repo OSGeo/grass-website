@@ -17,7 +17,11 @@ greyColor = "#6b6b6b"
 greyColorLight = "#CCCCCC"
 greyColorDark = "#A0A0A0"
 
-
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+  
 [Languages]
 
   # English Language
