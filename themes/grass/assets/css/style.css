@@ -114,6 +114,10 @@ a.nws:hover {
   display: inline-block;
   min-width: 45%;
 }
+.mwl-l {
+  display: inline-block;
+  min-width:65%;
+}
 .version li {
   margin-bottom: 9px;
 }
