@@ -151,7 +151,7 @@ title = {Geographic Resources Analysis Support System (GRASS GIS) Software},
 author = {{GRASS Development Team}},
 organization = {Open Source Geospatial Foundation},
 address = {USA},
-year = {2018},
+year = {2020},
 url = {https://grass.osgeo.org},
 }
 </code>
