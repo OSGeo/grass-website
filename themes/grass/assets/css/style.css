@@ -728,8 +728,8 @@ ul {
   margin-bottom: 20px;
 }
 ul li a {
-/*  display: block; 
-  font-size: 15px; */
+  display: inline-block; 
+  font-size: 15px;
   font-weight: 400;
   padding: 10px 0;
 }
