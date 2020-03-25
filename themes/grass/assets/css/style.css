@@ -1,6 +1,6 @@
 body {
   line-height: 1.8;
-  font-family: "Open Sans", sans-serif;
+  font-family: open_sansregular;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: var(--text-color);
@@ -13,10 +13,10 @@ p, .paragraph {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.8;
-  font-family: "Open Sans", sans-serif;
+  font-family: open_sansregular;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: open_sansbold;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -114,6 +114,10 @@ a.nws:hover {
   display: inline-block;
   min-width: 45%;
 }
+.mwl-l {
+  display: inline-block;
+  min-width:65%;
+}
 .version li {
   margin-bottom: 9px;
 }
@@ -127,7 +131,7 @@ a.nws:hover {
 }
 .btn {
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: open_sansregular;
   text-transform: uppercase;
   padding: 6px 14px;
   border-radius: 0px;
@@ -537,7 +541,7 @@ padding-right .pds-40 {
   position: relative;
   color: var(--text-color-dark);
   transition: .2s ease;
-  font-family: "Open Sans", sans-serif;
+  font-family: open_sansregular;
 }
 @media (max-width: 991px) {
   .navbar .dropdown-item {
@@ -825,5 +829,5 @@ li.parent a {
 }
 
 .edt {
-     font-family: "Open Sans", sans-serif !important;
+  font-family: open_sansregular; !important;
 }

@@ -60,10 +60,10 @@
             <nav class="pagination mt-3">
             {{- template "pagination" dict "menu" .Site.Home "currentnode" $currentNode "menu_exclusion" .Site.Params.menu_exclusion -}}
             {{- with ($.Scratch.Get "prevPage") -}}
-            <a class="nav nav-prev" href="{{ .URL }}" title="{{ .Title }}"><i class="ti-arrow-left mr-2"></i>{{ .Title }}</a>
+            <a class="nav nav-prev" href="{{ .URL }}" title="{{ .Title }}"><i class=" fa fa-arrow-left  mr-2"></i>{{ .Title }}</a>
             {{ end -}}
             {{- with ($.Scratch.Get "nextPage") -}}
-            <a class="nav nav-next" href="{{ .URL }}" title="{{ .Title }}">{{ .Title }}<i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="{{ .URL }}" title="{{ .Title }}">{{ .Title }}<i class="fa fa-arrow-right  ml-2"></i></a>
             {{- end }}
             </nav>
     
