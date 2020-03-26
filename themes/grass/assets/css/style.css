@@ -732,7 +732,7 @@ ul {
   margin-bottom: 20px;
 }
 ul li a {
-  display: block;
+  display: inline-block; 
   font-size: 15px;
   font-weight: 400;
   padding: 10px 0;
@@ -830,4 +830,8 @@ li.parent a {
 
 .edt {
   font-family: open_sansregular; !important;
+}
+
+nobullets {
+   list-style-type: none;
 }
