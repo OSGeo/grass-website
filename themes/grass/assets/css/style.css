@@ -735,7 +735,7 @@ ul li a {
   display: inline-block; 
   font-size: 15px;
   font-weight: 400;
-  padding: 10px 0;
+  padding: 2px 0px;
 }
 .cgr li {
   color: var(--grass-color);
