@@ -10,7 +10,7 @@ layout: "os"
 [ [**Standalone installers**](#standalone-installers) | [**OSGeo4Windows**](#OSGeo4Windows) ]
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> Find an extended list of available <b>GRASS GIS packages</b> on the <a href="https://repology.org/project/grass/versions" target="_blank">Repology</a> website.
+<i class="fa fa-arrow-right"></i> ...
 </div>
 
 <hr>
