@@ -21,6 +21,9 @@ greyColorDark = "#A0A0A0"
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
   
 [Languages]
 
