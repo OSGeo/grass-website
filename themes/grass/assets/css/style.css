@@ -728,14 +728,14 @@ img {
   margin-bottom: 15px;
 }
 ul {
-  padding-left: 0;
-  margin-bottom: 20px;
+  padding: 0;
+  margin: 0 0 20px 20px;
 }
 ul li a {
-  display: block;
+  display: inline-block; 
   font-size: 15px;
   font-weight: 400;
-  padding: 10px 0;
+  padding: 2px 0px;
 }
 .cgr li {
   color: var(--grass-color);
@@ -830,4 +830,8 @@ li.parent a {
 
 .edt {
   font-family: open_sansregular; !important;
+}
+
+nobullets {
+   list-style-type: none;
 }
