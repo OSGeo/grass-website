@@ -11,7 +11,7 @@ author: Admin
 
 ***The GRASS GIS Community Sprint will join the Vienna Code Sprint in March 2014!***
 
-![OSGeo Code Sprint 2014](images/news/osgeo_code_sprint2014.png)
+![OSGeo Code Sprint 2014](/images/news/osgeo_code_sprint2014.png)
 
 We are glad to announce that the GRASS GIS Project Steering Commitee
 decided to join the Vienna Code Sprint 2014 (March 24th to 28th, Vienna,
