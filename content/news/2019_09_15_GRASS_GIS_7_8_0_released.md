@@ -9,7 +9,7 @@ author: Admin
 
 ------------------------------------------------------------------------
 
-****GRASS GIS 7.8.0 **released with Python 3 support******
+**GRASS GIS 7.8.0 **released with Python 3 support**
 
 **What's new in a nutshell**
 
@@ -49,7 +49,6 @@ GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
 -   *\... further binary packages for other Linux distributions will
     follow shortly, please check at [software
     downloads](/download/software/index.html#g78x).\
-    *
 
 **Source code download:**
 
@@ -65,11 +64,9 @@ See also our detailed announcement:
 
 -   [https://trac.osgeo.org/grass/wiki/Release/7.8.0-News](https://trac.osgeo.org/grass/wiki/Release/7.8.0-News)
 -   [https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78) (overview of new 7.8 stable release series)
--   [https://grass.osgeo.org/grass7/manuals/addons/](/grass7/manuals/addons/index.html)
-(list of available addons)\
+-   [https://grass.osgeo.org/grass7/manuals/addons/](/grass7/manuals/addons/index.html) (list of available addons)\
 \
-First time users may explore the [first steps
-tutorial](/documentation/first-time-users/index.html) after
+First time users may explore the [first steps tutorial](/documentation/first-time-users/index.html) after
 installation.
 
 
