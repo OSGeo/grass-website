@@ -6,6 +6,8 @@ layout: "general"
 
 ## Donations
 
+![Bonn code sprint 2018](/images/grass_sprint2018.jpg)
+
 ### Why donate
 
 *The GRASS GIS project is a volunteer-based organization*, 
