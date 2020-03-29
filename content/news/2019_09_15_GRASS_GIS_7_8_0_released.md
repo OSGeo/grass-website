@@ -11,7 +11,7 @@ author: Admin
 
 **GRASS GIS 7.8.0 **released with Python 3 support**
 
-![GRASS GIS with Python 3 support](images/news/grass78_python3_logos.png)
+![GRASS GIS with Python 3 support](/images/news/grass78_python3_logos.png)
 
 **What's new in a nutshell**
 
@@ -33,24 +33,18 @@ GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
 
 **Binaries/Installer download:**
 
--   winGRASS 7.8.0: [32bit standalone
-    installer](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.0-1-Setup-x86.html)
-    \| [64bit standalone
-    installer](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.0-1-Setup-x86_64.exe)
--   winGRASS 7.8.0 OSGeo4W: [32bit OSGeo4W
-    installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
-    \| [64bit OSGeo4W
-    installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe)
+-   winGRASS 7.8.0: [32bit standalone installer](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.0-1-Setup-x86.html)
+    \| [64bit standalone installer](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.0-1-Setup-x86_64.exe)
+-   winGRASS 7.8.0 OSGeo4W: [32bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
+    \| [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe)
 -   [Arch Linux](https://aur.archlinux.org/packages/grass)
--   [Fedora and
-    EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/)
+-   [Fedora and EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/)
     (CentOS7, RHEL7, \... - included in Fedora 31+)
 -   Linux Mint: see Ubuntu
 -   [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)
     (ubuntugis-unstable)
 -   *\... further binary packages for other Linux distributions will
-    follow shortly, please check at [software
-    downloads](/download/software/index.html#g78x).\
+    follow shortly, please check at [software downloads](/download/software/index.html#g78x).\
 
 **Source code download:**
 
@@ -62,7 +56,6 @@ GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
 **More details:**
 
 See also our detailed announcement:
-
 
 -   [https://trac.osgeo.org/grass/wiki/Release/7.8.0-News](https://trac.osgeo.org/grass/wiki/Release/7.8.0-News)
 -   [https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78) (overview of new 7.8 stable release series)
@@ -91,4 +84,3 @@ distributed freely under the terms of the GNU General Public License
 Foundation (OSGeo).
 
 *The GRASS Development Team, September 2019*
-
