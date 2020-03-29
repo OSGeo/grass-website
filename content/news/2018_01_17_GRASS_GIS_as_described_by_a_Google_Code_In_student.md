@@ -1,5 +1,5 @@
 ---
-title: "GRASS GIS as described by a Google Code In student"
+title: "GRASS GIS as described by a Google-Code-In student"
 date: 2018-01-17T11:36:11+01:00
 layout: "news"
 author: Admin

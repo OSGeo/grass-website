@@ -50,5 +50,5 @@ Current Addons include:
         intervals perpendicular to a polyline
 
 For in depth details, see also
-<http://grasswiki.osgeo.org/wiki/AddOns/GRASS_7>
+<https://grasswiki.osgeo.org/wiki/AddOns/GRASS_7>
 

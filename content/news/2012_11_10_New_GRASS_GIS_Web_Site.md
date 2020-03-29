@@ -12,7 +12,7 @@ author: Admin
 **The new GRASS GIS Web Site is up and running!**
 
 The new GRASS GIS Website
-at [http://grass.osgeo.org](/index.html) is finally online,
+at [https://grass.osgeo.org](/index.html) is finally online,
 offering a fresh look-and-feel to users and newcomers!
 
 After several month of development relevant content of the old Website
@@ -24,13 +24,13 @@ comments and especially community donated screenshots for the gallery.
 Please send to the editors.\
 \
 Note that the old Website is preserved for a while at
-the address [http://grassold.osgeo.org](http://grassold.osgeo.org/) .
+the address [https://grassold.osgeo.org](https://grassold.osgeo.org/) .
 Help is welcome to migrate remaining relevant content to the
-[Wiki](http://grasswiki.osgeo.org/wiki/). Furthermore, the mirror sites
+[Wiki](https://grasswiki.osgeo.org/wiki/). Furthermore, the mirror sites
 will be maintained as software mirror.
 
 Enjoy,
 
 the Web team\
-[http://grass.osgeo.org/home/imprint/](/home/imprint/index.html)
+[https://grass.osgeo.org/home/imprint/](/home/imprint/index.html)
 

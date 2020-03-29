@@ -23,5 +23,5 @@ Engineering](http://www.fsv.cvut.cz/),
 Republic](http://en.wikipedia.org/wiki/Czech_Republic).
 
 See more info at
-[http://grasswiki.osgeo.org/wiki/GRASS\_Community\_Sprint\_Prague\_2013](https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Prague_2013).
+[https://grasswiki.osgeo.org/wiki/GRASS\_Community\_Sprint\_Prague\_2013](https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Prague_2013).
 

@@ -30,7 +30,7 @@ environmental consulting companies. GRASS GIS can be used either as a
 packages such as QGIS and R geostatistics. It is a founding member of
 the Open Source Geospatial Foundation ([OSGeo](http://www.osgeo.org/))
 and can be freely downloaded at
-[http://grass.osgeo.org/download/software/](/download/software/index.html).
+[https://grass.osgeo.org/download/software/](/download/software/index.html).
 
 [30 YEARS OF GRASS GIS!]{.image}
 
@@ -66,7 +66,7 @@ governmental and academic researchers and university scientists.
 Reflecting this shift to a project run by the users, for the users, in
 1999 GRASS GIS was released under the terms of the GNU General Public
 License (GPL). A detailed history of GRASS GIS can be found at
-[http://grass.osgeo.org/history/](/history/index.html).
+[https://grass.osgeo.org/history/](/history/index.html).
 
 Since these early days GRASS development has progressed and grown,
 adjusting with and often at the forefront of new technologies as they
@@ -84,7 +84,7 @@ Recent versions of GRASS GIS come with exciting new features like:
     interface](/screenshots/user-interface/index.html)**
     complete with integrated workflow-wizards and interactive tools,
 -   A **[new Python
-    interface](http://grasswiki.osgeo.org/wiki/GRASS_and_Python)** to
+    interface](https://grasswiki.osgeo.org/wiki/GRASS_and_Python)** to
     the core C geoprocessing libraries, permitting Python developers to
     create powerful new modules in a quick and simple way,
 -   Fully-fledged [**topological vector
@@ -122,7 +122,7 @@ the form of programming, documentation, testing, financial sponsorship
 or any other form of support.
 
  \--\
-[*http://grass.osgeo.org/\
+[*https://grass.osgeo.org/\
 *](/index.html)*M. Neteler (GRASS GIS PSC Chair) and GRASS
 Development Team*
 

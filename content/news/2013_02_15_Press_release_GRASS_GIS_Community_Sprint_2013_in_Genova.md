@@ -65,9 +65,9 @@ data.
 
 For more detailed information, please visit the Wiki pages [GRASS GIS
 Community Sprint 2013 in
-Genova](http://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Genova_2013)
+Genova](https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Genova_2013)
 and [Discussion at the GRASS GIS Community Sprint
-2013](http://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Genova_2013)
+2013](https://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Genova_2013)
 in Genova.
 
 **About GRASS GIS**\

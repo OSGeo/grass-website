@@ -50,7 +50,7 @@ Thanks for your support!\
 **About GRASS GIS**
 
 The Geographic Resources Analysis Support System
-([http://grass.osgeo.org/)](/index.html), commonly referred
+([https://grass.osgeo.org/)](/index.html), commonly referred
 to as GRASS GIS, is an Open Source Geographic Information System
 providing powerful raster, vector and geospatial processing capabilities
 in a single integrated software suite. GRASS GIS includes tools for

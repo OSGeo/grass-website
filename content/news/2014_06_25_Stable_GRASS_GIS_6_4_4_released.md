@@ -1,5 +1,5 @@
 ---
-title: "Stable GRASS GIS 6 4 4 released"
+title: "Stable GRASS GIS 6.4.4 released"
 date: 2014-06-25T11:36:11+01:00
 layout: "news"
 author: Admin
@@ -13,7 +13,7 @@ author: Admin
 ****
 
 **GRASS GIS 6.4.4 released**\
-[http://grass.osgeo.org](/index.html)
+[https://grass.osgeo.org](/index.html)
 
 We are pleased to announce the release of a new stable version of GRASS
 GIS. This release fixes issues discovered in the 6.4.3 version of the
@@ -32,7 +32,7 @@ user message translations.
 
 **Source code download:**
 
-[http://grass.osgeo.org/grass64/source/grass-6.4.4.tar.gz](/grass64/source/grass-6.4.4.tar.gz)
+[https://grass.osgeo.org/grass64/source/grass-6.4.4.tar.gz](/grass64/source/grass-6.4.4.tar.gz)
 ([md5](/grass64/source/grass-6.4.4.html))
 
 **Binaries download:**

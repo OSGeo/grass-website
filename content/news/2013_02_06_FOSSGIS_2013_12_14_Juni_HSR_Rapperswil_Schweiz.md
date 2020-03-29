@@ -1,5 +1,5 @@
 ---
-title: "FOSSGIS 2013 12 14 Juni HSR Rapperswil Schweiz"
+title: "FOSSGIS 2013 in HSR Rapperswil Schweiz"
 date: 2013-02-06T11:36:11+01:00
 layout: "news"
 author: Admin

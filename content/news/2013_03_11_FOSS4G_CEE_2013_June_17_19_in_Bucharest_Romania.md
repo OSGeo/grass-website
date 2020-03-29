@@ -1,5 +1,5 @@
 ---
-title: "FOSS4G CEE 2013 June 17 19 in Bucharest Romania"
+title: "FOSS4G CEE 2013 in Bucharest - Romania"
 date: 2013-03-11T11:36:11+01:00
 layout: "news"
 author: Admin

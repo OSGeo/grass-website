@@ -1,5 +1,5 @@
 ---
-title: "GRASS GIS 6 4 4RC1 released"
+title: "GRASS GIS 6.4.4 RC1 released"
 date: 2014-06-18T11:36:11+01:00
 layout: "news"
 author: Admin
@@ -17,8 +17,8 @@ After months of development a **first release candidate of GRASS GIS
 
 **Source code download:**\
 
--   [http://grass.osgeo.org/grass64/source/](/grass64/source/index.html)
--   [http://grass.osgeo.org/grass64/source/grass-6.4.4RC1.tar.gz](/grass64/source/grass-6.4.4RC1.tar.html)
+-   [https://grass.osgeo.org/grass64/source/](/grass64/source/index.html)
+-   [https://grass.osgeo.org/grass64/source/grass-6.4.4RC1.tar.gz](/grass64/source/grass-6.4.4RC1.tar.html)
 
 \
 **Binaries download:**\
@@ -71,7 +71,7 @@ release.
 
 Consider to donate pizza or beer for the next GRASS GIS Community
 Sprint:\
-[http://grass.osgeo.org/donations/](/donations/index.html)
+[https://grass.osgeo.org/donations/](/donations/index.html)
 
 
 

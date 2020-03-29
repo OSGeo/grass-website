@@ -1,5 +1,5 @@
 ---
-title: "GRASS GIS 7 0 1 released"
+title: "GRASS GIS 7.0.1 released"
 date: 2015-07-30T11:36:11+01:00
 layout: "news"
 author: Admin
@@ -14,9 +14,10 @@ author: Admin
 
 \
 
-  ----------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
-  ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](/images/news/grass70_temporal_chlorophyll.png)   ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](//images/news/grass70_temporal_chlorophyll_anim_medium.gif)
-  ----------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
+  ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](/images/news/grass70_temporal_chlorophyll.png)
+  
+  ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](//images/news/grass70_temporal_chlorophyll_anim_medium.gif)
+
 
 \
 

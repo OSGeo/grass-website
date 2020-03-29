@@ -1,5 +1,5 @@
 ---
-title: "GRASS GIS Community Sprint in Genova Italy"
+title: "GRASS GIS Community Sprint 2013 in Genova Italy"
 date: 2012-11-12T11:36:11+01:00
 layout: "news"
 author: Admin
@@ -20,5 +20,5 @@ della Scuola Politecnica, [Genova](http://en.wikipedia.org/wiki/Genoa),
 [Italy](http://en.wikipedia.org/wiki/Italy).
 
 See more info at
-[http://grass.osgeo.org/wiki/GRASS\_Community\_Sprint\_Genova\_2013](https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Genova_2013).
+[https://grass.osgeo.org/wiki/GRASS\_Community\_Sprint\_Genova\_2013](https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Genova_2013).
 

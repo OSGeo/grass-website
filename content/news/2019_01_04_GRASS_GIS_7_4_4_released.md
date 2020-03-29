@@ -1,5 +1,5 @@
 ---
-title: "GRASS GIS 7 4 4 released"
+title: "GRASS GIS 7.4.4 released"
 date: 2019-01-04T11:36:11+01:00
 layout: "news"
 author: Admin
