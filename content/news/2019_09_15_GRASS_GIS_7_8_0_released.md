@@ -11,10 +11,12 @@ author: Admin
 
 **GRASS GIS 7.8.0 **released with Python 3 support**
 
+![GRASS GIS with Python 3 support](images/news/grass78_python3_logos.png)
+
 **What's new in a nutshell**
 
 After almost 2 years of development the **new stable release GRASS GIS
-7.8.0** is available. Efforts have []{.image}concentrated on
+7.8.0** is available. Efforts have  concentrated on
 implementing Python 3 support. During the development phase the project
 was migrated from SVN to [GitHub](https://github.com/OSGeo/grass).
 
