@@ -9,7 +9,7 @@ author: Admin
 
 ------------------------------------------------------------------------
 
-****GRASS GIS 7.8.2 **released with updated PROJ 6 and GDAL 3 support******
+**GRASS GIS 7.8.2 **released with updated PROJ 6 and GDAL 3 support**
 
 **What's new in a nutshell**
 
@@ -19,8 +19,7 @@ release contains important PROJ 4/5/6 related datum handling fixes,
 wxGUI fixes and a fix for the vector import from PostGIS databases.
 
 An overview of the new features in the 7.8 release series is available
-at [new features in GRASS GIS
-7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
+at [new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
 
 **Binaries/Installer download:**\
 
@@ -42,7 +41,6 @@ at [new features in GRASS GIS
 -   *\... further binary packages for other Linux distributions will
     follow shortly, please check at [software
     downloads](/download/software/index.html#g78x).\
-    *
 
 **Source code download:**
 
@@ -59,8 +57,7 @@ See also our detailed announcement:
 -   [https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78) (overview of new 7.8 stable release series)
 -   [https://grass.osgeo.org/grass7/manuals/addons/](/grass7/manuals/addons/index.html) (list of available addons)\
 \
-First time users may explore the [first steps
-tutorial](/documentation/first-time-users/index.html) after
+First time users may explore the [first steps tutorial](/documentation/first-time-users/index.html) after
 installation.
 
 
