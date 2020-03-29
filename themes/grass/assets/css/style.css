@@ -835,3 +835,16 @@ li.parent a {
 nobullets {
    list-style-type: none;
 }
+
+.hljs {
+   background:#c5c8c6;
+   color: #1d1f21;
+}
+
+.hljs-keyword{
+   color: #1d1f21;
+}
+
+code{
+   color: #1d1f21;
+}
