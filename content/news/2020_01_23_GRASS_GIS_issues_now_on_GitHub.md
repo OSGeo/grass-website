@@ -9,7 +9,7 @@ author: Admin
 
 ------------------------------------------------------------------------
 
-****GRASS GIS bug reporting and feature request on GitHub now!****
+**GRASS GIS bug reporting and feature request on GitHub now!**
 
 As it was treated in the last [GRASS GIS community sprint](https://grasswiki.osgeo.org/wiki/Talk:GRASS_GIS_Community_Sprint_Prague_2019),
 and with the aim of keeping things as simple as possible, we have
@@ -25,7 +25,7 @@ comment there.\
 For **new issues starting today**, please use
 [GitHub](https://github.com/OSGeo/grass/issues) :)
 
-We\'ll soon create a template to better follow the different issue types
+We'll soon create a template to better follow the different issue types
 (bug or enhancement), topics/tags, operating systems, GRASS GIS
 versions, etc.
 
