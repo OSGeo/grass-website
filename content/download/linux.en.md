@@ -1,9 +1,10 @@
 ---
 title: "Linux"
 date: 2018-12-29T11:02:05+06:00
+description: "Download GRASS GIS packages for your favorite distribution."
+weight: 1
 layout: "os"
 ---
-
 
 #### Quick links
 
@@ -17,7 +18,8 @@ layout: "os"
 
 ### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.2 (new stable)
 
-<u>New stable release</u>, see [GRASS GIS 7.8.2 new features](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78) and  [GRASS GIS 7.8.2 announcement](https://trac.osgeo.org/grass/wiki/Release/7.8.2-News) for more information.
+<div class="alert rounded-0 alert-success">
+<i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="(https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78 ">GRASS GIS 7.8.2 new features</a> and <a href="(https://trac.osgeo.org/grass/wiki/Release/7.8.2-News ">GRASS GIS 7.8.2 announcement</a> for more information.</div>
 
 *  [Generic 64bit](https://grass.osgeo.org/grass78/binary/linux/snapshot) (weekly binary snapshot)
 *  [Arch Linux](https://aur.archlinux.org/packages/grass/) 
@@ -32,7 +34,9 @@ layout: "os"
 
 ### <a name="GRASS-GIS-old-stable"></a> GRASS GIS 7.6.1 (old stable)
 
-<u>Old stable release</u>, see [GRASS GIS 7.6.1 new features](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76) and  [GRASS GIS 7.6.1 announcement](https://trac.osgeo.org/grass/wiki/Release/7.6.1-News) for more information.
+<div class="alert rounded-0 alert-warning">
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
+</div>
 
 *  [Generic 64bit](https://grass.osgeo.org/grass78/binary/linux/snapshot) (weekly binary snapshot)
 *  [Arch Linux](https://aur.archlinux.org/packages/grass/) 
@@ -47,7 +51,9 @@ layout: "os"
 
 ### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 devel (unstable)
 
-Active <u>development</u> and <u>experimental</u> GRASS GIS version.
+<div class="alert rounded-0 alert-info">
+<i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
+</div>
 
 *  [Generic 64bit](https://grass.osgeo.org/grass79/binary/linux/snapshot/) (weekly binary snapshot)
 *  [Ubuntu ](https://launchpad.net/~grass/+archive/ubuntu/grass-devel)  (ubuntugis-unstable)
@@ -65,4 +71,3 @@ sudo apt-get install grass-daily</code></pre>
 The **GRASS GIS** source code is available on <a href="https://github.com/OSGeo/grass" target="_blank"><i class="fa fa-github"></i> Github</a>.
 
 <pre><code class="git">$git clone https://github.com/OSGeo/grass</code></pre>
-

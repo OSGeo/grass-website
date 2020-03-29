@@ -10,16 +10,17 @@ layout: "os"
 [ [**Standalone installers**](#standalone-installers) | [**OSGeo4Windows**](#OSGeo4Windows) ]
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> ...
-</div>
+<i class="fa fa-arrow-right"></i> Install GRASS GIS on Windows using a standalone installer or OSGeo4W. </div>
 
 <hr>
+
 
 ### <a name="standalone-installers"></a> Standalone installers
 
 #### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.2 (new stable)
 
-<u>New stable release</u>, see [GRASS GIS 7.8.2 new features](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78) and  [GRASS GIS 7.8.2 announcement](https://trac.osgeo.org/grass/wiki/Release/7.8.2-News) for more information.
+<div class="alert rounded-0 alert-success">
+<i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="(https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78 ">GRASS GIS 7.8.2 new features</a> and <a href="(https://trac.osgeo.org/grass/wiki/Release/7.8.2-News ">GRASS GIS 7.8.2 announcement</a> for more information.</div>
 
 *  [<i class="fa fa-download"></i> Download 64bit](https://grass.osgeo.org/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.2-1-Setup-x86_64.exe) 
 *  [<i class="fa fa-download"></i> Download 32bit](https://grass.osgeo.org/grass78/binary/mswindows/native/x86/WinGRASS-7.8.2-1-Setup-x86.exe) 
@@ -28,7 +29,10 @@ layout: "os"
 
 #### <a name="GRASS-GIS-old-stable"></a> GRASS GIS 7.6.1 (old stable)
 
-<u>Old stable release</u>, see [GRASS GIS 7.6.1 new features](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76) and  [GRASS GIS 7.6.1 announcement](https://trac.osgeo.org/grass/wiki/Release/7.6.1-News) for more information.
+<div class="alert rounded-0 alert-warning">
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
+</div>
+
 
 *  [<i class="fa fa-download"></i> Download 64bit](https://grass.osgeo.org/grass76/binary/mswindows/native/x86_64/WinGRASS-7.6.1-1-Setup-x86_64.exe) 
 *  [<i class="fa fa-download"></i> Download 32bit](https://grass.osgeo.org/grass76/binary/mswindows/native/x86/WinGRASS-7.6.1-1-Setup-x86.exe) 
@@ -37,10 +41,20 @@ layout: "os"
 
 #### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 devel (unstable)
 
-Active <u>development</u> and <u>experimental</u> GRASS GIS version.
+<div class="alert rounded-0 alert-info">
+<i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
+</div>
+
+
 
 *  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass79/x86_64e) 
 *  [<i class="fa fa-download"></i> Download 32bit](https://wingrass.fsv.cvut.cz/grass79/x86)
+
+<div class="alert rounded-0 alert-default">
+<i class="fa fa-arrow-right"></i> GRASS GIS <b> dev version for Windows </b> hosted by <a href="http://geomatics.fsv.cvut.cz/research/geoforall" target="_blank">GeoForAll Lab at the CTU in Prague</a>.
+</div>
+
+<hr>
 
 
 ### <a name="standalone-installers"></a> OSGeo4W 
@@ -50,6 +64,8 @@ Active <u>development</u> and <u>experimental</u> GRASS GIS version.
 
 Run the downloaded installer as an administrator and select the **grass** (stable)  or **grass-daily** (development) packages to install.
 
-This can also be done using the command line, as shown below:
+This can also be done with the command line, as shown below:
 
 <pre><code class="shell">osgeo4w-setup-x86_64.exe -q -k -P grass -s ​http://download.osgeo.org/osgeo4w/x86_64/</code></pre>
+
+

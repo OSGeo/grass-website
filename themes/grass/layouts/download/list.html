@@ -56,30 +56,33 @@
                 <div class="row nm">
                   <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/grass-{{.Title}}.jpg"></div>
                   <div class="col-6">
-                    <h3 class="mt-2 mb-4">GRASS GIS for {{ .Title }}</h3><a class="btn btn-primary" href="{{.File.TranslationBaseName}}">Download</a> <a class="btn btn-secondary" href="{{.File.TranslationBaseName}}">Install</a>
+		    <h3 class="mt-2 mb-2">GRASS GIS for {{ .Title }}</h3>
+		    <p>{{ .Description }}</p>
+		    <a class="btn btn-primary" href="{{.File.TranslationBaseName}}">Download</a>
                   </div>
                 </div>
               </div>{{ end }}
-              <div class="section bg-white">
+              <div class="section bg-white mb-4">
+                <div class="row nm">
+                  <div class="col-4 text-center"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/grass-SampleData.jpg"></div>
+                  <div class="col-6">
+		    <h3 class="mt-2 mb-2">GRASS GIS sample data</h3>
+		     <p>Download ready-to-use GRASS GIS sample datasets.</p>
+		    <a class="btn btn-primary" href="{{.Site.BaseURL}}/download/data">Download</a>
+                  </div>
+                </div>
+		</div>
+	 <div class="section bg-white">
                 <div class="row nm">
                   <div class="col-4 text-center"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/grasslogo.svg" width="31%"></div>
                   <div class="col-6">
-                    <h3 class="mt-20">GRASS GIS open source license</h3><a href="#">/about/license</a>
+		    <h3 class="mt-20">GRASS GIS source code</h3>
+		    <p>The GRASS GIS source code is available on <a href="https://github.com/OSGeo/grass" target="_blank"><i class="fa fa-github"></i> Github</a></p>
+		    <p class="command"><a href="https://github.com/OSGeo/grass"> $git clone https://github.com/OSGeo/grass </a></p>
                   </div>
                 </div>
               </div>
-              <div class="section mb-4">
-                <a class="github dbl" href="https://github.com/OSGeo/grass" target="_blank">
-                <div class="row nm pd-20">
-                  <div class="col-4 text-center">
-                    <i class="fa fa-github fa-4x mt-4"></i>
-                  </div>
-                  <div class="col-6">
-                    <h3 class="wht mt-20 lgr">GRASS GIS source code on Github</h3>
-                    <p class="command">$git clone https://github.com/OSGeo/grass</p>
-                  </div>
-                </div></a>
-              </div>
+              
             </div>
           </div>
         </div>

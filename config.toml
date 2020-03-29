@@ -42,6 +42,36 @@ greyColorDark = "#A0A0A0"
         weight = 1
         name = "Download"
         url = "/download"
+
+	[[Languages.en.menu.main]]
+          parent = "Download"
+          name = "GRASS GIS for Linux"
+          URL = "/download/linux"
+          weight = 1
+	  
+ 	[[Languages.en.menu.main]]
+          parent = "Download"
+          name = "GRASS GIS for Windows"
+          URL = "/download/windows"
+          weight = 2
+
+ 	[[Languages.en.menu.main]]
+          parent = "Download"
+          name = "GRASS GIS for Mac"
+          URL = "/download/mac"
+          weight = 3
+
+ 	[[Languages.en.menu.main]]
+          parent = "Download"
+          name = "Docker images"
+          URL = "/download/docker"
+          weight = 4
+
+ 	[[Languages.en.menu.main]]
+          parent = "Download"
+          name = "Sample data"
+          URL = "/download/data"
+          weight = 5
         
       [[Languages.en.menu.main]]
         weight = 2
