@@ -1,5 +1,5 @@
 ---
-title: "Stable GRASS GIS 6 4 3 released"
+title: "Stable GRASS GIS 6.4.3 released"
 date: 2013-07-30T11:36:11+01:00
 layout: "news"
 author: Admin
@@ -14,7 +14,7 @@ author: Admin
 
 **GRASS GIS 6.4.3 released** - Birthday release for **30 years of GRASS
 GIS**\
-[http://grass.osgeo.org](/index.html)
+[https://grass.osgeo.org](/index.html)
 
 ![30 YEARS OF GRASS
 GIS!](../../../27/15/30-years-of-GRASS-GIS-development/index.html)
@@ -45,8 +45,8 @@ twenty-fourth language!
 
 **Source code download:**
 
--   [http://grass.osgeo.org/grass64/source/](/grass64/source/index.html)
--   [http://grass.osgeo.org/grass64/source/grass-6.4.3.tar.gz](/grass64/source/grass-6.4.3.tar.gz)
+-   [https://grass.osgeo.org/grass64/source/](/grass64/source/index.html)
+-   [https://grass.osgeo.org/grass64/source/grass-6.4.3.tar.gz](/grass64/source/grass-6.4.3.tar.gz)
 
 **Binaries download:**
 

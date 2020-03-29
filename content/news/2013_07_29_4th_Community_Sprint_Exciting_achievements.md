@@ -73,15 +73,15 @@ The Community Sprint focused on:
 -   fixing v.krige in GRASS7 and proposing merge with the recently
     developed v.kriging module,
 -   meeting between [Google Summer of Code
-    2013](http://grasswiki.osgeo.org/wiki/GRASS_SoC_Ideas_2013#Accepted_Ideas)
+    2013](https://grasswiki.osgeo.org/wiki/GRASS_SoC_Ideas_2013#Accepted_Ideas)
     mentor and students.
 
 \
 A lot of topic oriented discussions happened among small groups of
 participants: for more detailed information, please visit the Wiki pages
-at <http://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Prague_2013>
+at <https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Prague_2013>
 and the related discussion page at
-<http://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Prague_2013>\
+<https://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Prague_2013>\
 \
 **About GRASS GIS**\
 The Geographic Resources Analysis Support System, commonly referred to

@@ -16,7 +16,7 @@ Have you been using GRASS GIS within your company or for your daily
 tasks? Would like to express your **satisfaction** and **give something
 back** to these terrific software developers to make them even happier
 during the July's [GRASS GIS Community Sprint in
-Prague](http://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Prague_2013)?
+Prague](https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Prague_2013)?
 
 **In Prague, new features will be developed for GRASS GIS 7, including
 wxGUI improvements, temporal GIS algebra, PostGIS Topology support, 3D
@@ -46,7 +46,7 @@ GRASS GIS project to the benefit of everyone who uses it.
 
 \
 See the outstanding results from
-[2011](http://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Prague_2011),
+[2011](https://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Prague_2011),
 and
-[2012](http://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Prague_2012)!
+[2012](https://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Prague_2012)!
 

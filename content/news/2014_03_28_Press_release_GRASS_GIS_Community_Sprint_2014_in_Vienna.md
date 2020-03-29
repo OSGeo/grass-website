@@ -45,10 +45,10 @@ As a major outcome of this Community Sprint, we can proudly announce:
 
 For more detailed information, please visit the Wiki pages\
 [GRASS Community Sprint Vienna
-2014](http://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Vienna_2014)
+2014](https://grasswiki.osgeo.org/wiki/GRASS_Community_Sprint_Vienna_2014)
 and\
 [Discussion at GRASS Community Sprint Vienna
-2014](http://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Vienna_2014)
+2014](https://grasswiki.osgeo.org/wiki/Talk:GRASS_Community_Sprint_Vienna_2014)
 
 **About GRASS GIS**\
 The Geographic Resources Analysis Support System, commonly referred to

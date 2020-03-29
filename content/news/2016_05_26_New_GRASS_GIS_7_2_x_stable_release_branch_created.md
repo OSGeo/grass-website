@@ -1,5 +1,5 @@
 ---
-title: "New GRASS GIS 7 2 x stable release branch created"
+title: "New GRASS GIS 7.2.x stable release branch created"
 date: 2016-05-26T11:36:11+01:00
 layout: "news"
 author: Admin

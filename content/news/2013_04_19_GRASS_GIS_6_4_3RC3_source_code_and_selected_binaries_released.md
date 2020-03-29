@@ -1,5 +1,5 @@
 ---
-title: "GRASS GIS 6 4 3RC3 source code and selected binaries released"
+title: "GRASS GIS 6.4.3 RC3 source code and selected binaries released"
 date: 2013-04-19T11:36:11+01:00
 layout: "news"
 author: Admin
@@ -19,8 +19,8 @@ A **third release candidate of GRASS GIS 6.4.3** is now available.
 
 Source code download:
 
--   [http://grass.osgeo.org/grass64/source/](/grass64/source/index.html)
--   [http://grass.osgeo.org/grass64/source/grass-6.4.3RC3.tar.gz](/grass64/source/grass-6.4.3RC3.tar.html)
+-   [https://grass.osgeo.org/grass64/source/](/grass64/source/index.html)
+-   [https://grass.osgeo.org/grass64/source/grass-6.4.3RC3.tar.gz](/grass64/source/grass-6.4.3RC3.tar.html)
 
 Binaries download:
 

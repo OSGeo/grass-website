@@ -1,5 +1,5 @@
 ---
-title: "Ongoing Google Code in contest"
+title: "Ongoing Google-Code-In contest"
 date: 2018-01-02T11:36:11+01:00
 layout: "news"
 author: Admin

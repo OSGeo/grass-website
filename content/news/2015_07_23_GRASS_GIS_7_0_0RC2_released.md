@@ -1,5 +1,5 @@
 ---
-title: "GRASS GIS 7 0 0RC2 released"
+title: "GRASS GIS 7.0.0RC2 released"
 date: 2015-07-23T11:36:11+01:00
 layout: "news"
 author: Admin
@@ -14,9 +14,10 @@ upcoming GRASS GIS 7.0.1 version**
 
 \
 
-  ----------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
-  ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](/images/news/grass70_temporal_chlorophyll.png)   ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](//images/news/grass70_temporal_chlorophyll_anim_medium.gif)
-  ----------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
+  ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](/images/news/grass70_temporal_chlorophyll.png)
+  
+  ![Chlorophyll concentration Southern Atlantic Ocean (MODIS Aqua)](//images/news/grass70_temporal_chlorophyll_anim_medium.gif)
+
 
 The GRASS Development Team released at their recent [Community Sprint in
 Como,
