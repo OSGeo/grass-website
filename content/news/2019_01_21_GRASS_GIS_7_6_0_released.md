@@ -9,13 +9,13 @@ author: Admin
 
 ------------------------------------------------------------------------
 
-**We are pleased to announce the **GRASS GIS 7.6.0 **release******
+**We are pleased to announce the GRASS GIS 7.6.0 release**
 
 **What's new in a nutshell**
 
-![GRASS GIS 7.6.0 time series
-processing](/images/news/grass760_temporal_plot_labels.png)After
-almost 1 year of development the **new stable release GRASS GIS 7.6.0**
+![GRASS GIS 7.6.0 time series processing](/images/news/grass760_temporal_plot_labels.png)
+
+After almost 1 year of development the **new stable release GRASS GIS 7.6.0**
 is available. Efforts have concentrated on making the user experience
 even better, providing many new useful additional functionalities to
 modules and further improving the graphical user interface. Furthermore,
@@ -25,8 +25,7 @@ higher compression than ZLIB. Also a new raster map type has been added:
 GRASS virtual raster (VRT) which is a virtual mosaic of the list of
 input raster maps. In addition, support for PROJ v. 5 has been
 implemented. An **overview** of the **new features** in the 7.6 release
-series is available at [new features in GRASS GIS
-7.6](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76).
+series is available at [new features in GRASS GIS 7.6](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76).
 
 **Binaries/Installer download:**
 
@@ -62,15 +61,10 @@ series is available at [new features in GRASS GIS
 
 See also our detailed announcement:
 
-
 <https://trac.osgeo.org/grass/wiki/Release/7.6.0-News>
-
-
 
 <https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76> (overview of
 new 7.6 stable release series)
-
-
 
 [https://grass.osgeo.org/grass7/manuals/addons/](/grass7/manuals/addons/index.html)
 (list of available addons)\
@@ -78,7 +72,6 @@ new 7.6 stable release series)
 First time users may explore the [first steps
 tutorial](/documentation/first-time-users/index.html) after
 installation.
-
 
 **About GRASS GIS**
 
@@ -99,4 +92,3 @@ distributed freely under the terms of the GNU General Public License
 Foundation (OSGeo).
 
 *The GRASS Development Team, January 2019*
-
