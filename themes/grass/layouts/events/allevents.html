@@ -1,0 +1,63 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<!-- page title -->
+<section class="section bg-lgr">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{.Section}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white pb-0">
+ {{ partial "breadcrumb.html" . }}
+</section>
+
+<!-- details page -->
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+      <div id="news" class="p-5 bg-white">
+	      <h2 class="page-title">{{ .Title }}</h2>
+	     
+	      {{ $events := ( where .Data.Pages "Section" "events" ) }}
+	      {{ range (sort $events ".Params.event.start" "desc") }}
+<div class="row">
+      <div class="col-lg-4">
+
+<img src="{{.Site.BaseURL}}/{{.Page.Params.logo}}" class="eventslogo" alt="{{ .Title }}">
+      </div>
+      <div class="col-lg-8">
+      <h3 class="entry-title event-title" itemprop="headline"><a href="{{ .Page.Params.website }}" target="_blank" class="nws">{{ .Title }}</a></h3><span class="entry-meta">
+	       <time itemprop="datePublished" datetime="{{ .Page.Params.date }}">{{ .Page.Params.where }}, {{ .Page.Params.event.start }} - {{ .Page.Params.event.end }}</time></span>
+      </div>
+</div>
+{{ end }}
+      </div>
+      </div>
+      <div class="col-md-4 bg-white">
+	<h3 class="mt-20"><a href="#">@GRASSGIS</a></h3>
+	<a class="twitter-timeline" data-link-color="#B8C6A5" data-tweet-limit="4" data-chrome="nofooter noheader" href="https://twitter.com/GRASSGIS">@GRASSGIS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+	 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /details page -->
+
+
+{{ partial "footer.html" . }}

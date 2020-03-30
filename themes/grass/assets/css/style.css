@@ -835,3 +835,15 @@ li.parent a {
 nobullets {
    list-style-type: none;
 }
+
+.event-title {
+   margin-top: 5px;
+}
+
+.height80 {
+   height: 80vh;
+}
+
+.grasscolor{
+   color: var(--grass-color);
+}
