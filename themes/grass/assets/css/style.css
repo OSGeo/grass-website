@@ -896,6 +896,18 @@ code{
 }
 
 
+.event-title {
+   margin-top: 5px;
+}
+
+.height80 {
+   height: 80vh;
+}
+
+.grasscolor{
+   color: var(--grass-color);
+}
+
 @media (max-width: 576px) {
 
   body {
@@ -992,5 +1004,3 @@ code{
     width: 31%;
   }
 }
-
-
