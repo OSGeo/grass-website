@@ -43,7 +43,7 @@ layout: "os"
 *  [Mageia](http://madb.mageia.org/package/show/name/grass/) 
 *  [openSUSE Debian](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu ](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)  (ubuntugis-unstable)
-*  [Repology](https://repology.org/project/grass/versions) (extende list of GRASS GIS packages)
+*  [Repology](https://repology.org/project/grass/versions) (extended list of GRASS GIS packages)
 
 <hr>
 
