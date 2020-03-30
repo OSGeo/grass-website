@@ -10,10 +10,6 @@ layout: "os"
 
 [ [**GRASS GIS 7.8.2 (new stable)**](#GRASS-GIS-new-stable) | [**GRASS 7.6.1 (old stable)**](#GRASS-GIS-old-stable) | [**GRASS 7.9 devel**](#GRASS-GIS-devel) ]
 
-<div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> Find an extended list of available <b>GRASS GIS packages</b> on the <a href="https://repology.org/project/grass/versions" target="_blank">Repology</a> website.
-</div>
-
 <hr>
 
 ### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.2 (new stable)
@@ -29,6 +25,7 @@ layout: "os"
 *  [Mageia](http://madb.mageia.org/package/show/name/grass/) 
 *  [openSUSE Debian](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu ](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)  (ubuntugis-unstable)
+*  [Repology](https://repology.org/project/grass/versions) (extende list of GRASS GIS packages)
 
 <hr>
 
@@ -46,6 +43,7 @@ layout: "os"
 *  [Mageia](http://madb.mageia.org/package/show/name/grass/) 
 *  [openSUSE Debian](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu ](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)  (ubuntugis-unstable)
+*  [Repology](https://repology.org/project/grass/versions) (extende list of GRASS GIS packages)
 
 <hr>
 
