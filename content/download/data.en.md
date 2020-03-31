@@ -83,7 +83,8 @@ A smaller subset of the North Carolina location:
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass78/manuals/index.html " target="_blank"> 3D / voxel </a></span>
   <a href="https://grass.osgeo.org/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">Download ZIP (8.9MB)</a>
-  <p>complete Slovakia 3D precipitation location: Slovakia 3D precipitation voxel data set</p>
+  <p>complete Slovakia 3D precipitation location: Slovakia 3D precipitation voxel dataset</p>
+
   </li>
 </ul>
 
