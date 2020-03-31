@@ -93,8 +93,8 @@ you can also look at the history log:
   <p>NAD83(HARN) / North Carolina, EPSG 3358)</p>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/uploads/grass/sampledata/slovakia3d_readme.txt" target="_blank"> 3D / voxel </a></span>
-  <a href="https://grass.osgeo.org/uploads/grass/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9MB)</a>
+  <span class="mwl"><a href="https://grass.osgeo.org/sampledata/slovakia3d_readme.txt" target="_blank"> 3D / voxel </a></span>
+  <a href="https://grass.osgeo.org/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9MB)</a>
   <p>Complete Slovakia 3D precipitation location: Slovakia 3D precipitation voxel dataset</p>
 
   </li>
@@ -104,4 +104,3 @@ you can also look at the history log:
 
 ### <a name="GlobalDatasets"></a> Global datasets
 On [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) pages on the GRASS GIS WIKI, the community shares information on open datasets all over the globe and how they are imported into GRASS GIS.
-
