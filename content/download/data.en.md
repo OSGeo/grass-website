@@ -73,7 +73,7 @@ you can also look at the history log:
   <p>Selected maps in common GIS formats (SHAPE, KML, GeoTIFF) including RGB orthophoto</p>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass78/manuals/index.html " target="_blank"> LiDAR </a></span>
+  <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/" target="_blank"> LiDAR </a></span>
   <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21MB)</a>
   <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6MB)</a>
   <p>Extra Raleigh LiDAR dataset (note: height in feet):  multi-return</p>
