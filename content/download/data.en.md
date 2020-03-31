@@ -67,8 +67,9 @@ you can also look at the history log:
 
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="http://grassbook.org/datasets/datasets-3rd-edition/" target="_blank"> Data import </a></span>
-  <a href="http://grassbook.org/datasets/datasets-3rd-edition/" class="inl btn btn-primary" target="_blank">Download ZIP</a>
+  <span class="mwl"><a href="https://grassbook.org/datasets/datasets-3rd-edition/" target="_blank"> Data import </a></span>
+  <a href="https://grassbook.org/datasets/datasets-3rd-edition/" class="inl btn btn-primary" target="_blank">Download ZIP</a>
+
   <p>Selected maps in common GIS formats (SHAPE, KML, GeoTIFF) including RGB orthophoto</p>
   </li>
    <li>
