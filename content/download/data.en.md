@@ -25,7 +25,8 @@ layout: "data"
 
 ### <a name="NorthCarolinaDataset"></a> North Carolina data set
 
-This dataset is a modern package of geospatial data from North Carolina, USA. It offers raster, vector, LiDAR and satellite data.
+This dataset is a modern package of geospatial data from the state of North Carolina, USA. It offers raster, vector, LiDAR and satellite data.
+
 Most of the examples in the module manuals are written with this dataset. Furthermore, the tessuite operates with this dataset.
 The description, list of maps, and a quick usage tutorial are available here.
 The North Carolina dataset can be downloaded in two versions:
@@ -86,4 +87,3 @@ A smaller subset of the North Carolina location:
 </ul>
 
 <hr>
-
