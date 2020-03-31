@@ -72,7 +72,8 @@ A smaller subset of the North Carolina location:
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass78/manuals/index.html " target="_blank"> Time series </a></span>
   <a href="https://grass.osgeo.org/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">Download ZIP (2MB)</a>
-  <p>Extra time series of MODIS Land Surface Temperature (mapset to unzip in NC location): MODIS time series</p>
+  <p>Extra time series of MODIS Land Surface Temperature (mapset to unzip in NC location): MODIS LST time series</p>
+
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass78/manuals/index.html " target="_blank"> Projection </a></span>
