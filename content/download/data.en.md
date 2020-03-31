@@ -13,7 +13,8 @@ layout: "data"
 [ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Spearfish dataset**](#SpearFishDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) ]
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> This section gathers sample datasets available as ready-to-use GRASS GIS <b>locations</b> and other common GIS formats.
+<i class="fa fa-arrow-right"></i> This section gathers sample datasets available as ready-to-use GRASS GIS <b>locations</b> and sample data in other common GIS formats.
+
 </div>
 
 <div class="alert rounded-0 alert-default">
@@ -85,5 +86,4 @@ A smaller subset of the North Carolina location:
 </ul>
 
 <hr>
-
 
