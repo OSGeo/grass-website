@@ -20,7 +20,7 @@ Depending on your favorite medium for learning, different entry doors exist into
 #### Written
 You can find many tutorials in different languages on the [tutorials](/learn/tutorials) page. But here are some links to specific resources that might help you get started:
 
-* The [Quickstart](https://grass.osgeo.org/grass78/manuals/helptext.html) in the manual pages.
+* The [Quickstart](https://grass.osgeo.org/grass-stable/manuals/helptext.html) in the manual pages.
 * The [Quick GUI tutorial](https://grasswiki.osgeo.org/wiki/Quick_wxGUI_tutorial)
 * An [introductory workshop](http://ncsu-geoforall-lab.github.io/grass-intro-workshop/) from Vaclav Petras & the NCSU GeoForAll Lab.
 * The material from the workshop ["From GRASS GIS novice to power user"](https://grasswiki.osgeo.org/wiki/From_GRASS_GIS_novice_to_power_user_(workshop_at_FOSS4G_Boston_2017))
