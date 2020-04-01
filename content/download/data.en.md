@@ -26,9 +26,10 @@ layout: "data"
 ### <a name="NorthCarolinaDataset"></a> North Carolina data set
 
 This dataset is a modern package of geospatial data from the state of North Carolina, USA. It offers raster, vector, LiDAR and satellite data.
+Most of the examples in the module <a href="../../learn/manuals">manuals</a> are written with this dataset. Furthermore, the
+<a href="https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html">testsuite</a> operates with this dataset.
+The description, list of maps, and a quick usage tutorial are available <a href="https://www.grassbook.org/wp-content/uploads/grasslocations/nc_spm_08_contents.html">here</a>.
 
-Most of the examples in the module manuals are written with this dataset. Furthermore, the testsuite operates with this dataset.
-The description, list of maps, and a quick usage tutorial are available here.
 The North Carolina dataset can be downloaded in two versions:
 <ul id="links" class="list-unstyled version">
  <li>
@@ -49,9 +50,10 @@ The North Carolina dataset can be downloaded in two versions:
 ### <a name="SpearFishDataset"></a> Spearfish dataset
 
 This is the classical GRASS GIS data set from the 1980th covering a part of
-Spearfish, South Dakota, USA, with raster, vector and point data. See
-the short documentation and soil data documentation (with legend for soils map);
-you can also look at the history log: 
+Spearfish, South Dakota, USA, with raster, vector and point data. For more information on the dataset see
+the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf">documentation</a> and
+<a href="https://grass.osgeo.org/uploads/grass/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
+<a href="https://grass.osgeo.org/uploads/grass/sampledata/soils_legend.txt">legend</a> for soils map). 
 <ul id="links" class="list-unstyled version">
  <li>
   <span class="mwl"><a href="https://grass.osgeo.org/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
@@ -104,4 +106,5 @@ you can also look at the history log:
 <hr>
 
 ### <a name="GlobalDatasets"></a> Global datasets
-On [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) pages on the GRASS GIS WIKI, the community shares information on open datasets all over the globe and how they are imported into GRASS GIS.
+On the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) pages of the GRASS GIS WIKI, the community shares information on open datasets
+all over the globe and how they are imported into GRASS GIS.
