@@ -24,7 +24,7 @@ You can find many tutorials in different languages on the [tutorials](/learn/tut
 * The [Quick GUI tutorial](https://grasswiki.osgeo.org/wiki/Quick_wxGUI_tutorial)
 * An [introductory workshop](http://ncsu-geoforall-lab.github.io/grass-intro-workshop/) from Vaclav Petras & the NCSU GeoForAll Lab.
 * The material from the workshop ["From GRASS GIS novice to power user"](https://grasswiki.osgeo.org/wiki/From_GRASS_GIS_novice_to_power_user_(workshop_at_FOSS4G_Boston_2017))
-* For more [specific topics](https://grass.osgeo.org/grass78/manuals/graphical_index.html) (e.g. raster data, vector data, database, etc), you should also read the relevant topic introductions provided as they will provide you with helpful information about how these specific domains are handled in GRASS GIS.
+* For more [specific topics](https://grass.osgeo.org/grass-stable/manuals/graphical_index.html) (e.g. raster data, vector data, database, etc), you should also read the relevant topic introductions provided as they will provide you with helpful information about how these specific domains are handled in GRASS GIS.
 #### Videos
 You can just search YouTube for the [GRASS GIS videos](https://www.youtube.com/results?search_query=grass+gis) available there. However, here are pointers to some videos that might be particularly useful for you as a beginner:
 
