@@ -10,7 +10,7 @@ layout: "data"
   
 #### Quick links
 
-[ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Spearfish dataset**](#SpearFishDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Global data sets**](#GlobalDatasets) ]
+[ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Spearfish dataset**](#SpearFishDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Global datasets**](#GlobalDatasets) ]
 
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> This section gathers sample datasets available as ready-to-use GRASS GIS <b>locations</b> and sample data in other common GIS formats.
@@ -23,7 +23,7 @@ layout: "data"
 
 <hr>
 
-### <a name="NorthCarolinaDataset"></a> North Carolina data set
+### <a name="NorthCarolinaDataset"></a> North Carolina dataset
 
 This dataset is a modern package of geospatial data from the state of North Carolina, USA. It offers raster, vector, LiDAR and satellite data.
 Most of the examples in the module <a href="../../learn/manuals">manuals</a> are written with this dataset. Furthermore, the
@@ -49,7 +49,7 @@ The North Carolina dataset can be downloaded in two versions:
 
 ### <a name="SpearFishDataset"></a> Spearfish dataset
 
-This is the classical GRASS GIS data set from the 1980th covering a part of
+This is the classical GRASS GIS dataset from the 1980th covering a part of
 Spearfish, South Dakota, USA, with raster, vector and point data. For more information on the dataset see
 the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf">documentation</a> and
 <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
@@ -83,7 +83,7 @@ the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf"
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Climate </a></span>
   <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (690MB)</a>
-  <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - separate NC climatic data location</p>
+  <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Time series </a></span>
