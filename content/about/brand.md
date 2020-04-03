@@ -143,7 +143,7 @@ grey-color-light-bg mb-2"></div>
 ### GRASS flyers
 
 <div>
-<p> For a simple overview of <b>GRASS GIS</b> you can download one of the two <b>GRASS GIS flyer</b> </p>
+<p> For a simple overview of <b>GRASS GIS</b> you can download one of the two <b>GRASS GIS flyers</b> </p>
 <ul>
   <li>
       <b>OSGeo</b> one sheet flyer <a href="https://github.com/OSGeo/osgeo/raw/master/marketing/print/one-page-info/eu/grass_gis_a4.pdf" class="inl btn btn-primary" target="_blank">Download PDF</a>
