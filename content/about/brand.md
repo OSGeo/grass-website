@@ -140,6 +140,21 @@ grey-color-light-bg mb-2"></div>
 </div>
 
 
+### GRASS flyers
+
+<div>
+<p> For a simple overview of <b>GRASS GIS</b> you can download one of the two <b>GRASS GIS flyers</b> </p>
+<ul>
+  <li>
+      <b>OSGeo</b> one sheet flyer <a href="https://github.com/OSGeo/osgeo/raw/master/marketing/print/one-page-info/eu/grass_gis_a4.pdf" class="inl btn btn-primary" target="_blank">Download PDF</a>
+  </li>
+  <li class="mt-20"><b>GRASS community</b> threefold flyer <a href="https://github.com/OSGeo/grass-promo/raw/master/grassflyer/flyer_2016/en/grass_flyer.pdf" class="inl btn btn-primary" target="_blank">Download PDF</a>
+      <br/>
+      Languages other than English are available <a href="https://trac.osgeo.org/grass/browser/grass-promo/grassflyer/flyer_2016?order=name" target="_blank">here</a>
+  </li>
+</ul>
+</div>
+
 ### Citing GRASS
 
 <p> Please use the following BibTeX entry for citing the <b>GRASS GIS</b> software in scientific work written in LaTeX.</p>
