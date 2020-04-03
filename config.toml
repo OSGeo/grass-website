@@ -67,11 +67,17 @@ greyColorDark = "#A0A0A0"
           URL = "/download/docker"
           weight = 4
 
+        [[Languages.en.menu.main]]
+          parent = "Download"
+          name = "Addons"
+          URL = "/download/addons"
+          weight = 5
+
  	[[Languages.en.menu.main]]
           parent = "Download"
           name = "Sample data"
           URL = "/download/data"
-          weight = 5
+          weight = 6
         
       [[Languages.en.menu.main]]
         weight = 2
