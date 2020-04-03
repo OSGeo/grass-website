@@ -150,7 +150,7 @@ grey-color-light-bg mb-2"></div>
   </li>
   <li class="mt-20"><b>GRASS community</b> threefold flyer <a href="https://github.com/OSGeo/grass-promo/raw/master/grassflyer/flyer_2016/en/grass_flyer.pdf" class="inl btn btn-primary" target="_blank">Download PDF</a>
       <br/>
-      Languages other than English are available <a href="https://trac.osgeo.org/grass/browser/grass-promo/grassflyer/flyer_2016?order=name" target="_blank">here</a>
+      Languages other than English are available <a href="https://github.com/OSGeo/grass-promo/tree/master/grassflyer/flyer_2016" target="_blank">here</a>
   </li>
 </ul>
 </div>
