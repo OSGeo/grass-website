@@ -20,19 +20,19 @@ layout: "brand"
 <div class="col-lg-6">
 <h4 class="grey-color-light"><u>Vector</u></h4>
 <ul class="list-unstyled dil">
-<li>SVG <a href="#"> &#160; <i class="fas fa-download"></i></a></li>
-<li>EPS <a href="#"> &#160; <i class="fas fa-download"></i></a></li>
-<li>OpenOffice <a href="#"> &#160; <i class="fas fa-download"></i></a></li>
-<li>Sketch <a href="#"> &#160; <i class="fas fa-download"></i></a></li>
+<li>SVG <a href="/images/logos/grasslogo.svg"> &#160; <i class="fa fa-download"></i></a></li>
+<li>EPS <a href="/images/logos/grasslogo.eps"> &#160; <i class="fa fa-download"></i></a></li>
+<!--<li>OpenOffice <a href="#"> &#160; <i class="fa fa-download"></i></a></li>
+<li>Sketch <a href="#"> &#160; <i class="fa fa-download"></i></a></li>-->
 </ul>
 </div>
 
 <div class="col-lg-6">
 <h4 class="grey-color-light"><u>Raster</u></h4>
 <ul class="list-unstyled dil">
-<li>PNG <a href="#"> &#160; <i class="fas fa-download"></i></a></li>
-<li>JPG <a href="#"> &#160; <i class="fas fa-download"></i></a></li>
-<li>TIF  <a href="#"> &#160; <i class="fas fa-download"></i></a></li>
+<li>PNG color<a href="/images/logos/grassgis_logo_colorlogo_text_whitebg.png"> &#160; <i class="fa fa-download"></i></a></li>
+<li>PNG black & white<a href="/images/logos/grassgis_logo_graylogo_text_whitebg.png"> &#160; <i class="fa fa-download"></i></a></li>
+<!--<li>TIF  <a href="#"> &#160; <i class="fa fa-download"></i></a></li>-->
 </ul>
 </div>
 </div>
