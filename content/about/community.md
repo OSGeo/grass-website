@@ -18,8 +18,8 @@ The strength, longevity and success of the **GRASS GIS** project relies on its w
 | <span class="flag-icon flag-icon-de"></span>  | Germany |  [FOSSGIS e.V.](http://www.fossgis.de/) |
 | <span class="flag-icon flag-icon-in"></span>  | India |  [OSGeo India local chapter](http://wiki.osgeo.org/index.php/India) |
 | <span class="flag-icon flag-icon-it"></span>  | Italy |  [GFOSS.it](http://www.gfoss.it/) |
-| <span class="flag-icon flag-icon-pl"></span>  |Poland |  [GRASS Poland](http://www.grass-gis.pl/) |
-| <span class="flag-icon flag-icon-us"></span>  |USA |  [Los Angeles GRASS user group](http://www.meetup.com/Los-Angeles-Area-GRASS-Users-Group) |
+| <span class="flag-icon flag-icon-pl"></span>  | Poland |  [GRASS Poland](http://www.grass-gis.pl/) |
+| <span class="flag-icon flag-icon-us"></span>  | USA |  [Los Angeles GRASS user group](http://www.meetup.com/Los-Angeles-Area-GRASS-Users-Group) |
 \
 --->
 
@@ -37,12 +37,12 @@ Subscribe to start the conversation, and follow the <a href="grasswiki.osgeo.org
 | NAME | LINK | DESCRIPTION |
 |------|---------|-------------|
 | *Users*  |  [grass-user](https://lists.osgeo.org/mailman/listinfo/grass-user) | GRASS mailing list for user suppport |
-| *Developer*  | [grass-dev](http://lists.osgeo.org/mailman/listinfo/grass-dev) | GRASS mailing list for developers |
-| *Statistics*  | [grass-stats](http://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS GIS and R stats interface |
-| *Translations*  | [grass-translations](http://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS GIS translations |
-| *PSC*  | [grass-psc](http://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
-| *Git Commit*  | [grass-commits](http://lists.osgeo.org/mailman/listinfo/grass-commit) | GRASS GIS git commit mailing list |
-| *Website*  | [grass-web](http://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS GIS website mailing list |
+| *Developer*  | [grass-dev](https://lists.osgeo.org/mailman/listinfo/grass-dev) | GRASS mailing list for developers |
+| *Statistics*  | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS GIS and R stats interface |
+| *Translations*  | [grass-translations](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS GIS translations |
+| *PSC*  | [grass-psc](https://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
+| *Git Commit*  | [grass-commits](https://lists.osgeo.org/mailman/listinfo/grass-commit) | GRASS GIS git commit mailing list |
+| *Website*  | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS GIS website mailing list |
 | *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS GIS project announcements |
 
 ### Social media
