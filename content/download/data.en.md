@@ -12,15 +12,17 @@ layout: "data"
 
 [ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Spearfish dataset**](#SpearFishDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Global datasets**](#GlobalDatasets) ]
 
-<div class="alert rounded-0 alert-default">
+<img src="../../images/gallery/gui/grass740_startup_sample_data_download_arrow.png" width="60%" alt="" style="float:right">
+
+<table><tr><th>
+<div class="alert rounded-0 alert-default" width="40%">
 <i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS GIS. Datasets are made available as ready-to-use GRASS GIS <b>locations</b> and sample data in other
 common GIS formats.
-
-</div>
-
-<div class="alert rounded-0 alert-default">
+<br><br>
 <i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <a href="#DownloadGUI">download button on the GRASS GIS startup screen</a>.
 </div>
+</th><th>
+</th></tr></table>
 
 <hr>
 
@@ -111,6 +113,3 @@ On the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) pages
 all over the globe and how they are imported into GRASS GIS.
 
 <hr>
-
-### <a name="DownloadGUI"></a> Download of sample data from the GRASS GIS startup screen
-<img src="../../images/gallery/gui/grass740_startup_sample_data_download_arrow.png" width="100%" alt="GRASS GIS">
