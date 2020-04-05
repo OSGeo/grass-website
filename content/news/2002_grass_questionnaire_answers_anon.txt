@@ -1,0 +1,67 @@
+#results of the Grass user questionnaire March/April 2002
+#info: Moritz Lennert - mlennert@club.worldonline.be
+#
+#NA: no answer
+#fields (delimiter '|'):
+#use|environment|howmany|version|whynot5|asis|evercontributed|whatcontributed|wishes
+
+finite element modeling of groundwater contamination|university|2|5.0pre2|NA|t|f|NA|NA
+remote sensing; grid modelling; radiometric correction|university; company|4|5.0pre3|NA|t|f|NA|NA
+marketing|university|2|4.3|not worth the effort, waiting for 5.1 (vectors)|t|f|NA|vector; shape file support; gui; network analysis
+disease mapping; spatial statistical analysis presentation|university|1|5.0pre2|NA|t|f|NA|gui
+environmental modelling and management|university|3|cvs|NA|f|t|NA|more options for legends; vector; better v.digit gui; more support for temporal data
+hydrological modelling|university|2|4.3+5.0|integer calculation faster|f|f|NA|panel resizing in NAVIZ; fonts; PS driver
+pest management and agricultural management; climate data processing and modelling; webgis|university|4|5.0pre3|command option changes mess up scripts|f|t|d.legend (4.21)|fonts; better/more color; matrix notation in r.mapcalc; better integration of grasslinks
+tracking 802.11b deployment|university|1|5.0pre2|NA|t|f|NA|documentation
+satellite images|university|1|5.0pre2|NA|t|f|NA|NA
+hydrological analysis|private|NA|5.0pre2|NA|t|f|NA|parallelization
+GIS teaching; terrain analysis|university|1|5.0pre1|NA|t|f|NA|NA
+image processing; web mapping; disease analysis; landscape ecology|research institute|10|cvs|NA|f|t|NA|gui; cartography; 3d vectors
+geomorphology; landslide management|university|1|5.0pre3|NA|f|t|tutorials|access to statistical packages; database (dbms)
+hazard mapping|government|1|5.0pre3|NA|t|f|NA|vector; documentation
+recreational|home|1|5.0pre3|NA|t|f|NA|documentation
+recreational|home|1|5.0pre3|NA|f|f|NA|better Tiger/LINAE 2000 support
+lidar; urbanistics; data interpolation; visualisation|private company|2|cvs|NA|f|t|shell scripts|3d vector
+satellite images; geological mapping|university|1|5.0pre3|NA|t|f|NA|handling and functionality of viewer
+ecological database of White Sea, Russia|government research|1|5.0pre3|NA|t|f|NA|better visibility in v.digit; database
+studies|university|1|5.0pre3|NA|t|f|NA|3d grid; database
+coastal engineering|private company|1|5.0pre2|NA|t|f|NA|database; map display (overlay without erasing)
+landscape ecology|research foundation|2|5.0pre3|NA|f|f|NA|datum support; keep modularity and shell base
+ecological modelling|university|10|4.2.1|not announced as stable, yet|f|f|NA|up-to-date import/export
+hydrological analysis; image processing; raster data analysis|private (sometimes university)|3|cvs|NA|t|t|scripts; documentation|NA
+hydrological modelling; landsurface analysis|university|4|5.0pre3|NA|f|f|NA|vector
+satellite imagery; hydrologic modelling|university|3|5.0/4.3|problems with some modules|f|f|NA|database; web; more hydrology modules
+resource management|private company|2|5.0|NA|f|t|NA|simplified usage; bug-free operation
+landscape ecological analysis; animal habitat research|university|3|5.0x|NA|t|f|NA|NA
+ecological research|university|3|5.0x|NA|f|t|NA|gui (gtk ?); equivalent of ERDAS Imagine "eliminate" function; easier projection handling; database
+environmental resource management|private company|1|5.0x|NA|f|f|gave up trying to contribute|better project management; vector; database (postgresql); gui
+fieldo fo view calculations + lightpollution for astronomy; atmospheric research; land use management|university|204|cvs|NA|f|t|documentation; scripts|documentation; split grass into core modules and downloadable extras
+web gis|university|1|5.0pre3|NA|t|t|tcltkgrass modules|faster interpolation of vector curves
+remote sensing|private company|1|5.0|NA|t|f|NA|up-to-date remote sensing data format handling
+ocean mapping; air photo analysis|private company|1|5.0pre2|NA|f|t|NA|new/improved display monitor
+land use management; satellite images; decision support systems|university|2|5.0pre3|NA|f|f|NA|vector; integration of statistical tools; better manipulation
+cartography; model plume data sets for real-time emergency response system|private company|1|5.0b11|NA|f|f|NA|vector; documentation
+land use, resource management, natural and disaster assessment; fisheries; coastal zone management; teaching|university|4|4.x/5.0|compilation difficulties on Sun + SGI|f|f|NA|better hardcopy map creation; better ease of use
+varied|university|1|5.0x|NA|t|t|R interface; libes/gis|vector; database; not gui
+DEM analysis; digitalisation of scanned map; hydrological modelling|university|1|cvs|NA|NA|f|NA|vector
+land use management; satellite images|private company|0|5.0x|NA|t|f|NA|NA
+image processing|natural park administration|5|5.0pre3|NA|t|f|NA|gui; database; documentation and training
+paleo-environmental studies; archaeology|university|2|5.0pre3|NA|t|f|NA|import/export; database
+agriculture|university|2|5.0pre3|NA|t|f|NA|vector; integrated database
+cartography|private company|1|5.0pre3|NA|f|f|NA|v.in.shape+v.in.mif; state27 projection; datum support
+NA|home|1|5.0pre2|NA|t|f|NA|database
+remote sensing vegetation mapping; soil erosion modelling|university|2|5.0/4.1|custom grass binaries written for 4.1|f|f|NA|gui; import/export; nviz; vector; image mosaic tools; geostatistics; read-access to other formats without import; command-line
+underwater habitat quantification/zoning; visualization|university|4|5.0pre3|NA|t|f|NA|better memory management (warning if needs lots of mem, less memory intensive processes); import/export; documentation; up-to-date tcltkgrass modules; better search access to mailing list
+ecological modelling|private company|2|5.0pre2|NA|f|f|NA|automatic thematic map creation with grass/postgres
+DTM based modelling and analysis; land use; satellite images; teaching|university|70|4.3|not stable enough|f|t|documentation|interface to statistical packages (octave)
+land use management; satellite images|university|15|5.0x|NA|f|f|NA|database and statistical package integration; map creation; import/export
+archaeology|university|1|5.0pre2|NA|t|f||vector; import/export (shape); database
+ecological research|university|1|5.0pre3|NA|t|f|NA|topological overlay functions; database; statistical packages (R interface)
+geomorphological modelling|university|1|5.0pre3|NA|t|NA|NA|real multiple flow direction module; deepening drainage routes module; database; category based vector and site query; interactive sites editing; vector-overlay functions; bundle block adjustment
+satellite images; land use, vegetation, climate database; teaching|university|30|4.3|slow move due to compatibility checking, adaptation|f|f|NA|floating point; documentation; advocacy; viewing (replacement of xdriver)
+gis interface to hydrological model|university|2|5.0pre2|NA|t|f|NA|improved d.pan; more viewing (flexible map overlay); map creation
+ecological research|government (federal agency)|1|4.3|5.0 does not compile on HPUX9|f|f|NA|NA
+large topographic/hydrographic data sets; 3d visualization and animations|(federal) government|1|5.0pre3|NA|f|f|NA|more grid3d modules
+land use management|government (public administration)|4|cvs|NA|f|t|r.poly; r.contour; s.hull; v.to.sites; s.voronoi; s.delaunay|vector; gui;  database (postgis integration)
+analysis of seabed bathymetry data|government (research)|1|cvs snap|NA|f|f|NA|support for multiple simultaneous instances; better lat-long support (decimal degrees)
+biogeography and biogeochemistry model output map viewing|(government) federal agency research on university campus|5|4.2|not a priority; 4.2 sufficient for current needs|t|f|NA|NA
