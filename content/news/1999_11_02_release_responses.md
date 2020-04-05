@@ -1,5 +1,5 @@
 ---
-title: "release responses.html"
+title: "GRASS GIS: GNU GPL release responses"
 date: 1999-11-02T11:36:11+01:00
 layout: "news"
 author: Admin

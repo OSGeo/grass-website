@@ -1,5 +1,5 @@
 ---
-title: "whentoexpect5.0.0.html"
+title: "When to expect GRASS 5.0.0 (stable)?"
 date: 2001-04-27T11:36:11+01:00
 layout: "news"
 author: Admin
