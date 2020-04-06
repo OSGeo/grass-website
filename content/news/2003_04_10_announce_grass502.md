@@ -11,7 +11,7 @@ author: Admin
 GRASS GIS 5.0.2 released 10 April 2003
 --------------------------------------
 
-A new bugfix release of GRASS 5.0.x has been published today.\
+A new bugfix release of GRASS 5.0.x has been published today.
 The Geographic Resources Analysis Support System, commonly referred to
 as GRASS GIS, is a Geographic Information System (GIS) used for data
 management, image processing, graphics production, spatial modeling, and
@@ -35,7 +35,7 @@ is available, selected binaries will be published the next days.
 ### Documentation download:
 
 Module documentation is available in different formats:
-[HTML](../gdp/html_grass5/index.html) and [PDF](../grass5/manuals/).\
+[HTML](../gdp/html_grass5/index.html) and [PDF](../grass5/manuals/).
 For details on GRASS software capabilities please refer to:
 [http://grass.itc.it/general.html](../general.html).
 
@@ -48,7 +48,7 @@ available.
 The general focus of the GRASS 5.0.x series is stability and
 reliability. Major changes in the vector engine and attribute management
 system are under development and will reach productional status with the
-next stable series, planned as GRASS 5.2.x.\
+next stable series, planned as GRASS 5.2.x.
 A great deal of code for GRASS 5.2.x has been already implemented in the
 experimental series numbered [5.1.x](../grass51/index.html) since
 December 2001.

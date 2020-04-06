@@ -10,8 +10,8 @@ author: Admin
 GRASS GIS 5.3.0 released 15 May 2004
 ------------------------------------
 
-A new release of GRASS has been published. This is a \"technology
-preview\" release from the 5.3 development series, which is undergoing
+A new release of GRASS has been published. This is a "technology
+preview" release from the 5.3 development series, which is undergoing
 testing in preparation for creation of the stable 5.4 branch (see the
 [GRASS Development Roadmap](../devel/roadmap.php)). GRASS 5.3 is already
 in reliable daily production use at many locations worldwide.
@@ -46,7 +46,7 @@ For details on GRASS software capabilities please refer to:
 5.3.0 represents a significant improvement in functionality over 5.0.3
 (the most recent release in the old 5.0 stable series) and in addition
 includes many bugfixes. Selected major changes are outlined below. For a
-more comprehensive list of changed modules see the [Developers\'
+more comprehensive list of changed modules see the [Developers'
 Notes](../grass53/source/NEWS.html); the full
 [ChangeLog](../grass53/source/ChangeLog) is also available.
 
@@ -63,7 +63,7 @@ Notes](../grass53/source/NEWS.html); the full
     *g.setproj*, which has been improved.
 
 **Shared library support**
-:   Using the configure option \--enable-gmake=no (this will become the
+:   Using the configure option --enable-gmake=no (this will become the
     default for 5.4 when it is reliable on all supported platforms)
     makes use of a new build mechanism which compiles the core GRASS
     libraries as shared by default. This results in a much smaller size
@@ -75,7 +75,7 @@ Notes](../grass53/source/NEWS.html); the full
     supported by the RemoteSensing.org [PROJ.4
     library](http://remotesensing.org/proj/) by compiling GRASS against
     it. This is the default; note that PROJ.4 must be installed before
-    GRASS. Using the \--with-proj=no configure option will result in the
+    GRASS. Using the --with-proj=no configure option will result in the
     old version of PROJ.4 contained within the GRASS sources being used
     instead.
 
@@ -88,7 +88,7 @@ Notes](../grass53/source/NEWS.html); the full
 :   Updates to the *nviz* 3-D visualisation tool include experimental
     loading and saving of 3d.view files from the GRASS database,
     off-screen rendering and implementation of many planned features for
-    which 'stub\' functionality only has existed up to now. In addition
+    which 'stub' functionality only has existed up to now. In addition
     the new module *d.nviz* allows automated creation of fly-through
     animations in nviz.
 
@@ -118,7 +118,7 @@ Notes](../grass53/source/NEWS.html); the full
 
 **MATLAB import and export** (not compiled by default)
 :   GRASS can now import and export rasters from the MATLAB binary
-    \'.mat\' format. The relevant modules are *r.in.mat* and *r.out.mat*
+    '.mat' format. The relevant modules are *r.in.mat* and *r.out.mat*
 
 **Raster time series Statistical Analysis** (not compiled by default)
 :   *r.series* can be used to create an output raster map where each
@@ -135,7 +135,7 @@ Notes](../grass53/source/NEWS.html); the full
     *v.out.v5d.map*. *g.region.v5d* sets the region from a Vis5D file.
 
 **TrueColor Support**
-:   All the core display modules (*d.\**) now support 24-bit colour.
+:   All the core display modules (*d.**) now support 24-bit colour.
 
 **More reliable raster import**
 :   Technical changes and bugfixes to the *r.in.gdal* raster import
@@ -148,16 +148,16 @@ Notes](../grass53/source/NEWS.html); the full
     *r.out.gdal*, *r.texture*, *r.univar2*, *s.cellstats*, *s.kernel*
     and *s.sv2svfit*.
 
-#### Note on changes in datum transformation functionality for locations using the \'nad27\' and \'nad83\' datums
+#### Note on changes in datum transformation functionality for locations using the 'nad27' and 'nad83' datums
 
 Released versions of GRASS 5.0.x from 5.0.0pre4 onward (i.e. up to and
 including 5.0.3) have included the capability to perform
-NAD27\<\--\>NAD83 datum conversions. This was done using the published
-NADCON conversion tables, if and only if the line \'datum: nad27\'
-appeared in the PROJ\_INFO file for one location and \'datum: nad83\' in
+NAD27<-->NAD83 datum conversions. This was done using the published
+NADCON conversion tables, if and only if the line 'datum: nad27'
+appeared in the PROJ_INFO file for one location and 'datum: nad83' in
 the other. Even if datum transformation parameters were specified (e.g.
 dx, dy, dz) they were ignored and the NADCON tables used. In GRASS 5.3
-any datum transformation parameters present in the PROJ\_INFO file will
+any datum transformation parameters present in the PROJ_INFO file will
 be used. These are likely to be less accurate than the NADCON
 transformation (unless *g.setproj* is re-run for the location and the
 NADCON parameters specifically selected). Many more datum transformation
@@ -171,11 +171,11 @@ The developers want to ensure that 5.4.0 is a stable release. GRASS
 development relies on people willing to help. This 5.3.0 release is a
 candidate for becoming the 5.4.0 release. It can only be made stable if
 it enjoys a lot of testing. Please give it a spin. Report bugs to the
-[GRASS bugtracker](../bugtracking/bugreport.html). Don\'t hesitate to
+[GRASS bugtracker](../bugtracking/bugreport.html). Don't hesitate to
 report a bug which you find in the new release.
 
 If you are interested in joining the developers team, and/or share
-algorithms or ideas with the GRASS community, contact us!\
+algorithms or ideas with the GRASS community, contact us!
 [http://grass.itc.it/grassdevel.html](../grassdevel.html)
 
 ### Concurrent Development Series 5.7

@@ -60,7 +60,7 @@ previous [GRASS 6.0.0 Announcement](announce_grass600.html).
 -   PROJ: fix ETRS89 datum problems;
 -   Vector lib: segment and line intersection fix; key fix; endless loop
     fix on zero length boundaries
--   i.group: create REF file for group in case 'subgroup\' parameter is
+-   i.group: create REF file for group in case 'subgroup' parameter is
     used (fix for i.points)
 -   nviz: added missing online documentation
 -   parser: generate better description for menus/docs
@@ -70,7 +70,7 @@ previous [GRASS 6.0.0 Announcement](announce_grass600.html).
 -   r.out.gdal: Fixed quoting problems; WKT fix
 -   r.proj: asymmetric integer truncation error fixed
 -   r.random: cat bug fixed
--   r.statistics: Fix bug in m\_var()
+-   r.statistics: Fix bug in m_var()
 -   r.sun: fixed units in descriptions
 -   r.surf.idw2: added
 -   v.in.dwg: segfault fixed
@@ -83,26 +83,26 @@ previous [GRASS 6.0.0 Announcement](announce_grass600.html).
     various locales
 
 For a more comprehensive list of changed modules see the
-[ChangeLog\_6.0.1.gz](../grass60/source/).
+[ChangeLog_6.0.1.gz](../grass60/source/).
 
 For a complete list of command in GRASS 6.0.1, see [HTML
 manuals](../grass60/manuals/html60_user/index.html).
 
-\
+
 *We are always looking for both testers and developers to
 [help](../devel/index.php) us maintain and accelerate this development
 cycle.*
 
-Release history:\
-GRASS GIS 6.0.0beta1 released 12 January 2005\
-GRASS GIS 6.0.0beta2 released 4 February 2005\
-GRASS GIS 6.0.0 released 10 March 2005\
-GRASS GIS 6.0.1RC1 released 3 August 2005\
-GRASS GIS 6.0.1RC2 released 8 August 2005\
+Release history:
+GRASS GIS 6.0.0beta1 released 12 January 2005
+GRASS GIS 6.0.0beta2 released 4 February 2005
+GRASS GIS 6.0.0 released 10 March 2005
+GRASS GIS 6.0.1RC1 released 3 August 2005
+GRASS GIS 6.0.1RC2 released 8 August 2005
 GRASS GIS 6.0.1 released 22 August 2005
 
 ------------------------------------------------------------------------
 
-[GRASS Development Team](http://grass.itc.it)\
-Date: 22 August 2005 (last changed: \$Date: 2005-08-22 09:17:46 +0000
-(Mon, 22 Aug 2005) \$)
+[GRASS Development Team](http://grass.itc.it)
+Date: 22 August 2005 (last changed: $Date: 2005-08-22 09:17:46 +0000
+(Mon, 22 Aug 2005) $)

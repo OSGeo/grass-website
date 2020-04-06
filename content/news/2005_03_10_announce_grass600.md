@@ -76,7 +76,7 @@ vector attributes has been implemented as well.
 **User interface:** A graphical user interface (GUI) for every module is
 now generated on the fly. A new display manager has been implemented,
 which is supplemented by an updated version of the classic
-\'tcltkgrass\' GUI menu structure. NVIZ, the included visualization
+'tcltkgrass' GUI menu structure. NVIZ, the included visualization
 package, is enhanced to display 3D vector data. Additionally, a
 completely new graphical tool for digitizing has been implemented.
 
@@ -119,19 +119,19 @@ are almost identical with those of 5.4.0 except for the addition of
 Large File Support (LFS, experimental).
 
 For a more comprehensive list of changed modules see the
-[ChangeLog\_6.0.0.gz](../grass60/source/).
+[ChangeLog_6.0.0.gz](../grass60/source/).
 
 For a complete list of command in GRASS 6.0.0, see [HTML
 manuals](../grass60/manuals/html60_user/index.html).
 
-\
+
 *We are always looking for both testers and developers to
 [help](../devel/index.php) us maintain and accelerate this development
 cycle.*
 
-Release history:\
-GRASS GIS 6.0.0beta1 released 12 January 2005\
-GRASS GIS 6.0.0beta2 released 4 February 2005\
+Release history:
+GRASS GIS 6.0.0beta1 released 12 January 2005
+GRASS GIS 6.0.0beta2 released 4 February 2005
 GRASS GIS 6.0.0 released 10 March 2005
 
 ------------------------------------------------------------------------

@@ -62,7 +62,7 @@ toolkits available for both.
 GNU/Linux, Mac OS X/Darwin, Microsoft Windows (with full UNIX support
 via Cygwin), Sun Solaris (SPARC/Intel), Silicon Graphics Irix, HP-UX,
 DEC-Alpha, AIX, BSD, iPAQ/Linux and other UNIX compliant platforms.
-GRASS runs on both 32 and 64 bit systems with large files (\>2GB)
+GRASS runs on both 32 and 64 bit systems with large files (>2GB)
 supported by many key modules.
 
 ### Software download/CDROM
@@ -92,7 +92,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   **Help pages**: Add support for compressed *man* pages; add new
         examples
     -   **PostgreSQL DBMI driver**: Add support for
-        PG\_TYPE\_POSTGIS\_GEOM and views
+        PG_TYPE_POSTGIS_GEOM and views
     -   **Projection database**: Update to EPSG 6.13
 -   Modules/Scripts:
     -   **Translations**: Backported new translations from 6.3.cvs
@@ -119,7 +119,7 @@ manuals](http://grass.itc.it/grass62/manuals/html62_user/index.html) and
 the [GRASS 6 module
 list](http://grass.itc.it/gdp/grassmanuals/grass63_module_list.pdf).
 
-\
+
 *We are always looking for testers, code developers, and technical
 writers to [help us](http://grass.itc.it/devel/index.php) maintain and
 accelerate the development cycle.* The GRASS GIS project is developed

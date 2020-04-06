@@ -34,13 +34,13 @@ Generally the conversion is a two-step procedure (see below for one
 step):
 
 1.  **Before** installing newer GRASS libraries and binaries (beta11
-    and later) you *must* uncompress all floating point raster maps.\
+    and later) you *must* uncompress all floating point raster maps.
     Again: In order to make your data readable you *must* uncompress all
     floating point rasters **before** installing newer GRASS libraries
-    and binaries. The command \"r.compress -u\" will do the job (see
+    and binaries. The command "r.compress -u" will do the job (see
     below for a script to assist).
 2.  **After** installing the new binaries you may recompress your
-    rasters with \"r.compress\" which will use the DEFLATE method
+    rasters with "r.compress" which will use the DEFLATE method
     available in [libz (zlib)](http://www.info-zip.org/pub/infozip/zlib/) (this
     compression library is usually installed by default on your system,
     otherwise install it).
@@ -58,9 +58,9 @@ We provide two ways to convert your data:
 
 **1. Two-step conversion**: Requires old and new GRASS.
 
--   [fp\_uncompress.sh](../demos/fp_uncompress.sh): uncompress all
-    raster maps. Save and run within your **old** GRASS 5:\
-    `  sh fp_uncompress.sh`\
+-   [fp_uncompress.sh](../demos/fp_uncompress.sh): uncompress all
+    raster maps. Save and run within your **old** GRASS 5:
+    `  sh fp_uncompress.sh`
     This scripts will decompress all maps within a location.
 
     Run this within **all** locations you have!
@@ -68,19 +68,19 @@ We provide two ways to convert your data:
 -   Finished with all GRASS 5 locations you have? O.k., now upgrade to
     the non-LZW GRASS 5 (beta11 or later as well as GRASS CVS
     version).
--   [fp\_recompress.sh](../demos/fp_recompress.sh): recompress all
-    raster maps with DEFLATE. Save and run within new GRASS 5:\
-    `sh fp_recompress.sh`\
+-   [fp_recompress.sh](../demos/fp_recompress.sh): recompress all
+    raster maps with DEFLATE. Save and run within new GRASS 5:
+    `sh fp_recompress.sh`
     This scripts will compress back all maps within a location in
     zlib/flate compression.
 
 That's it. Welcome to the patent-free GRASS 5.
 
 **2. One-step conversion**: Does not require old GRASS, simply run in
-new GRASS 5beta11 (or later). So you don\'t need the old GRASS 5:
+new GRASS 5beta11 (or later). So you don't need the old GRASS 5:
 
    r.lzw2z changes the compression on-the-fly **within** the new GRASS
-5.0beta11 (or later):\
+5.0beta11 (or later):
 
 
 -   The [r.lzw2z sources](http://pweb.jps.net/~egm2/r.lzw2z/r.lzw2z.tar.gz).
@@ -101,7 +101,7 @@ new GRASS 5beta11 (or later). So you don\'t need the old GRASS 5:
 Proceed to Download latest GRASS 5.0.x
 
 
-So: Did you read above? Did you download r.lzw2z or the fp\_\*.sh
+So: Did you read above? Did you download r.lzw2z or the fp_*.sh
 scripts if you are already using GRASS 5? If so, please proceed:
 
 -   [GRASS 5.0.x source code](../grass5/source/)

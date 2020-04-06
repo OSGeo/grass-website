@@ -64,7 +64,7 @@ GNU/Linux, Mac OS X/Darwin, Microsoft Windows (native using MinGW or
 with full UNIX support via Cygwin), Sun Solaris (SPARC/Intel), Silicon
 Graphics Irix, HP-UX, DEC-Alpha, AIX, BSD, iPAQ/Linux and other UNIX
 compliant platforms. GRASS runs on both 32 and 64 bit systems with large
-files (\>2GB) supported by many key modules.
+files (>2GB) supported by many key modules.
 
 ### Software download/CDROM
 
@@ -92,10 +92,10 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   **DBMI/SQL parser**: Add missing TIME support
     -   **DBF driver**: Add missing SQL TIME support; fix semicolon
         problem
-    -   **Sqlite driver**: Add missing \'date\' support; transactions to
-        speed up \'execute\'; don\'t crash with SQLITE\_NULL
+    -   **Sqlite driver**: Add missing 'date' support; transactions to
+        speed up 'execute'; don't crash with SQLITE_NULL
     -   **QGIS-GRASS DB bug**: Fixes QGIS [bug
-        \#448](https://svn.qgis.org/trac/ticket/448)
+        #448](https://svn.qgis.org/trac/ticket/448)
     -   **geodetic datum**: Enable geodetic datum for Krovak, fixed
         Slovakia Datum (hermannskogel)
     -   **libgis**: Backport false easting/northing test
@@ -129,7 +129,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
         coordinate request is outside the current region settings (was
         reporting bogus data)
     -   **r.proj** bilinear: Fix inverted interpolation expression
-    -   **r.reclass.area**: Don\'t leave the clump file behind, label
+    -   **r.reclass.area**: Don't leave the clump file behind, label
         support added
     -   **r.tileset**: Fix break due to platform specific units parsing;
         Requires Bash
@@ -139,7 +139,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   **v.db.addtable**: fixed error treatment when wrong SQL types
         were defined
     -   **v.dissolve**: Dissolve common boundaries by attribute; fix for
-        DBMI error if input map is specified with \@mapset
+        DBMI error if input map is specified with @mapset
     -   **v.in.ascii**: Skip over blank lines without error, improve
         robustness
     -   **v.in.gns**: fixed format incompatibility with current GNS
@@ -147,13 +147,13 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   **v.in.gpsbabel**: Attribute and point import fixed for tracks
         and routes; works with Mac OSX
     -   **v.in.region**: Add additional vertex if necessary to ensure
-        line segments don\'t exceed 180 degrees longitude and wrap the
+        line segments don't exceed 180 degrees longitude and wrap the
         wrong way around the world
-    -   **v.lidar.\***: Various fixes backported
-    -   **v.lrs.\***: fixes backported + new documentation
-    -   **v.report**: Backport fixes for RT bug \#4459 and Wald bug
-        \#301
-    -   **v.segment**: Make the side\_offset instruction functional
+    -   **v.lidar.***: Various fixes backported
+    -   **v.lrs.***: fixes backported + new documentation
+    -   **v.report**: Backport fixes for RT bug #4459 and Wald bug
+        #301
+    -   **v.segment**: Make the side_offset instruction functional
     -   **v.to.db**: Repair the compactness formula parentheses to match
         actual formula
     -   **v.type**: Wrap with a script so all combinations are allowed
@@ -170,7 +170,7 @@ manuals](http://grass.itc.it/grass62/manuals/html62_user/index.html) and
 the [GRASS 6 module
 list](http://grass.itc.it/gdp/grassmanuals/grass63_module_list.pdf).
 
-\
+
 *We are always looking for testers, code developers, and technical
 writers to [help us](http://grass.itc.it/devel/index.php) maintain and
 accelerate the development cycle.* The GRASS GIS project is developed

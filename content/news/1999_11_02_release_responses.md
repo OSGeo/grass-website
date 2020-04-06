@@ -28,8 +28,8 @@ author: Admin
     ------------------------------------------------------------------------
 
     For more information, contact the GRASS Development Team via email
-    at grass-web(at)lists.osgeo.org or visit their websites at\
-    <http://www3.baylor.edu/grass/> and\
+    at grass-web(at)lists.osgeo.org or visit their websites at
+    <http://www3.baylor.edu/grass/> and
     <http://grass.itc.it/>
 
     GRASS Development Team
@@ -37,5 +37,5 @@ author: Admin
     ------------------------------------------------------------------------
 
     *Please send input for this page to
-    [us](mailto:grass-web(at)lists.osgeo.org)*\
+    [us](mailto:grass-web(at)lists.osgeo.org)*
     2. Nov. 1999

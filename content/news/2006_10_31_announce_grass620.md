@@ -68,7 +68,7 @@ GNU/Linux, Mac OS X/Darwin, Microsoft Windows (native using MinGW or
 with full UNIX support via Cygwin), Sun Solaris (SPARC/Intel), Silicon
 Graphics Irix, HP-UX, DEC-Alpha, AIX, BSD, iPAQ/Linux and other UNIX
 compliant platforms. GRASS runs on both 32 and 64 bit systems with large
-files (\>2GB) supported by many key modules.
+files (>2GB) supported by many key modules.
 
 ### Software download/CDROM
 
@@ -114,7 +114,7 @@ collaborative help system](http://grass.osgeo.org/wiki/Main_Page).
     -   Support for long map/mapset names
     -   Raster maps: ZLIB compression bug fixed for tiny maps
     -   Raster maps: optional large file support (LFS, experimental) for
-        maps \> 2GB
+        maps > 2GB
     -   Display: X11/PNG driver rewritten, added RGB-raster operations
     -   Display: Movement toward X-Windows as an optional dependency
         (new multi-platform GUI support)
@@ -126,14 +126,14 @@ collaborative help system](http://grass.osgeo.org/wiki/Main_Page).
     -   NetBSD configuration fixes
 -   New quality control systems:
     -   New internal GRASS test suite (scripts collection in
-        \"`testsuite/`\")
+        "`testsuite/`")
     -   New external [GRASS test
         suite](http://www-pool.math.tu-berlin.de/~soeren/grass/GRASS_TestSuite/html_grass-6.2/)
         (TU Berlin)
     -   New external [GRASS Quality Assessment and monitoring
         system](http://web.soccerlab.polymtl.ca/project-manager/grass-website/)
         (École Polytechnique de Montréal and ITC-irst)
-    -   CVS-commit reports into [IRC \'\#grass\'
+    -   CVS-commit reports into [IRC '#grass'
         channel](irc://irc.freenode.net/grass) via [CIA - The open
         source informant](http://cia.navi.cx/stats/project/GRASS)
 -   Graphical User Interface (GUI):
@@ -173,7 +173,7 @@ collaborative help system](http://grass.osgeo.org/wiki/Main_Page).
     -   **d.mvmon**: NEW - moves displayed maps to another
         monitor
     -   **d.out.file**: NEW - saves active display monitor
-        graphics to an image file (PNG,JPEG,\...)
+        graphics to an image file (PNG,JPEG,...)
     -   **d.out.gpsdrive**: NEW - exports display monitor to a
         [GpsDrive](http://www.gpsdrive.cc) compatible backdrop image
     -   **d.polar**: NEW - draws a polar diagram for an angle map
@@ -221,7 +221,7 @@ collaborative help system](http://grass.osgeo.org/wiki/Main_Page).
         given water level
     -   **r.le**: many stability fixes
     -   **r.mapcalc**, **r3.mapcalc**: acos(), asin(), pow(), &&& and
-        \|\|\| added for more intuitive handling of null data
+        ||| added for more intuitive handling of null data
     -   **r.mask**: NEW - create a MASK for limiting raster
         operations (port from GRASS 5)
     -   **r.out.gdal**: added support for multiple CREATEKEY and METAKEY
@@ -243,7 +243,7 @@ collaborative help system](http://grass.osgeo.org/wiki/Main_Page).
         one 3D raster volume map
     -   **r.to.vect**: add flag to not build topology (for *r.in.xyz* +
         v.surf.rst)
-    -   **r3.\***: many code improvements and extended functionality for
+    -   **r3.***: many code improvements and extended functionality for
         3D raster volume (voxel) data
     -   **r3.cross.rast**: NEW - Creates a cross section 2D
         raster map from a g3d raster volume map based on a 2D elevation
@@ -284,9 +284,9 @@ collaborative help system](http://grass.osgeo.org/wiki/Main_Page).
     -   **v.in.mapgen**: NEW - imports Mapgen or Matlab vector
         maps (port from GRASS 5)
     -   **v.kernel**: speed improvements
-    -   **v.lrs.\***: NEW - Linear Reference System for vector
+    -   **v.lrs.***: NEW - Linear Reference System for vector
         line networks
-    -   **v.out.ogr**: 3D \'face\' export added (3D vectors, for Google
+    -   **v.out.ogr**: 3D 'face' export added (3D vectors, for Google
         Earth KML format, etc.)
     -   **v.out.vtk**: NEW VTK vector export
     -   **v.patch**: attribute transfer, if table structures are
@@ -321,7 +321,7 @@ files.
 For a complete list of commands available in GRASS 6.2.0 see the [online
 manuals](http://grass.itc.it/grass62/manuals/html62_user/index.html).
 
-\
+
 *We are always looking for testers, code developers, and technical
 writers to [help us](http://grass.itc.it/devel/index.php) maintain and
 accelerate the development cycle.* The GRASS GIS project is developed

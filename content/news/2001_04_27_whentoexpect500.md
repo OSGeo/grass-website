@@ -10,7 +10,7 @@ author: Admin
 ------------------------------------------------------------------------
 
 The current [developer's version](../grasscvs.html) of GRASS 5.0.0 is
-quite close to being called \"stable\". Some more bugs could still be
+quite close to being called "stable". Some more bugs could still be
 identified and fixed from the beta11 release published in February
 2001.
 

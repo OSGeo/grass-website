@@ -35,13 +35,13 @@ license the GRASS GIS software.
 As of October 25, 1999, GRASS is released under the terms of the Gnu
 Public License ([GPL](http://www.gnu.org/copyleft/gpl.html)). The GPL is
 part of the [Free Software Foundation](http://www.gnu.org), a non-profit
-group that licenses most software developed as \"freeware\" by
+group that licenses most software developed as "freeware" by
 universities and individuals. This makes GRASS the first fully featured
 GIS that is released worldwide under the GPL.
 
 For more information, contact the GRASS Development Team via email at
-grass-web(at)lists.osgeo.org or visit their websites at\
-<http://www3.baylor.edu/grass/> and\
+grass-web(at)lists.osgeo.org or visit their websites at
+<http://www3.baylor.edu/grass/> and
 <http://grass.itc.it/>
 
 GRASS Development Team
@@ -52,5 +52,5 @@ GRASS Development Team
 
 ------------------------------------------------------------------------
 
-&copy; 1999 GRASS Development Team\
+&copy; 1999 GRASS Development Team
 [Comments](mailto:grass-web(at)lists.osgeo.org)

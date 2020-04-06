@@ -69,7 +69,7 @@ GNU/Linux, Mac OS X/Darwin, Microsoft Windows (native using MinGW or
 with full UNIX support via Cygwin), Sun Solaris (SPARC/Intel), Silicon
 Graphics Irix, HP-UX, DEC-Alpha, AIX, BSD, iPAQ/Linux and other UNIX
 compliant platforms. GRASS runs on both 32 and 64 bit systems with large
-files (\>2GB) supported by many key modules.
+files (>2GB) supported by many key modules.
 
 ### Software download/CDROM:
 
@@ -105,7 +105,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
         Manual](http://grass.itc.it/devel/index.php#prog): continued
         doxygen integration and automated extraction into PDF/HTML
         formats. Publicly available for download and perusal.
-    -   SUBMITTING, SUBMITTING\_SCRIPTS, SUBMITTING\_TCLTK: Improved
+    -   SUBMITTING, SUBMITTING_SCRIPTS, SUBMITTING_TCLTK: Improved
         instructions for code submission
     -   GRASS-SWIG prototype interface added (library bindings for PERL
         and Python)
@@ -115,7 +115,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   Support for long map/mapset names
     -   Raster maps: ZLIB compression bug fixed for tiny maps
     -   Raster maps: optional large file support (LFS, experimental) for
-        maps \> 2GB
+        maps > 2GB
     -   Display: X11/PNG driver rewritten, added RGB-raster operations
     -   Display: Working towards X-Windows as an optional dependency
         (new multi-platform GUI support)
@@ -164,7 +164,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   **d.mvmon**: [NEW]{.c1} - move current displayed maps to another
         monitor
     -   **d.out.file**: [NEW]{.c1} - saves active display monitor
-        graphics to an image file (PNG,JPEG,\...)
+        graphics to an image file (PNG,JPEG,...)
     -   **d.out.gpsdrive**: [NEW]{.c1} - exports display monitor to a
         GpsDrive compatible backdrop image
     -   **d.polar**: [NEW]{.c1} - draws a polar diagram for an angle map
@@ -208,7 +208,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
         (LIDAR/Swath bathymetry import tool)
     -   **r.lake**: [NEW]{.c1} - raises lakes in a DEM from a seed at a
         given water level
-    -   **r.mapcalc, r3.mapcalc**: acos(), asin(), pow(), &&& and \|\|\|
+    -   **r.mapcalc, r3.mapcalc**: acos(), asin(), pow(), &&& and |||
         added for more intuitive handling of null data
     -   **r.mask**: [NEW]{.c1} - create a MASK for limiting raster
         operations (rewritten for GRASS 6)
@@ -231,7 +231,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
         one 3D raster volume map
     -   **r.to.vect**: add flag to not build topology (for r.in.xyz +
         v.surf.rst)
-    -   **r3.\***: code improvements and extended functionality for
+    -   **r3.***: code improvements and extended functionality for
         voxel data
     -   **r3.out.vtk**: [NEW]{.c1} - converts 3D raster maps into the
         VTK-ASCII format
@@ -254,7 +254,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
         vector faces of a defined height
     -   **v.in.dxf**: [NEW]{.c1} - rewritten for GRASS 6, 3D support
         added
-    -   **v.in.ogr**: \--overwrite flag repaired, selective import with
+    -   **v.in.ogr**: --overwrite flag repaired, selective import with
         WHERE option
     -   **v.in.e00**: fixes
     -   **v.in.gns**: [NEW]{.c1} - imports US-NGA GEOnet Names Server
@@ -264,7 +264,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   **v.in.mapgen**: [NEW]{.c1} - imports Mapgen or Matlab vector
         maps (port from GRASS 5)
     -   **v.kernel**: improved speed
-    -   **v.lrs.\***: [NEW]{.c1} - Linear Reference System for vector
+    -   **v.lrs.***: [NEW]{.c1} - Linear Reference System for vector
         line networks
     -   **v.out.ogr**: Faces export added (3D vectors, for KML etc)
     -   **v.patch**: attribute transfer, if table structures are
@@ -299,12 +299,12 @@ system](http://grass.osgeo.org/wiki/Main_Page).
         modules or themed module groups.
 
 For a comprehensive list of changes to modules see the
-[ChangeLog\_6.1.0.gz](../grass61/source/) file.
+[ChangeLog_6.1.0.gz](../grass61/source/) file.
 
 For a complete list of commands available in GRASS 6.1.0 see the [online
 manuals](../grass61/manuals/html61_user/index.html).
 
-\
+
 *We are always looking for both testers and developers to
 [help](../devel/index.php) us maintain and accelerate this development
 cycle. The GRASS GIS project is developed under the terms of the [GNU

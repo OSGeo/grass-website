@@ -60,7 +60,7 @@ GNU/Linux, Mac OS X/Darwin, Microsoft Windows (native using MinGW or
 with full UNIX support via Cygwin), Sun Solaris (SPARC/Intel), Silicon
 Graphics Irix, HP-UX, DEC-Alpha, AIX, BSD, iPAQ/Linux and other UNIX
 compliant platforms. GRASS runs on both 32 and 64 bit systems with large
-files (\>2GB) supported by many key modules.
+files (>2GB) supported by many key modules.
 
 ### Software download/CDROM
 
@@ -85,7 +85,7 @@ system](http://grass.osgeo.org/wiki/Main_Page).
 
 -   System and Libraries:
     -   Install of include files problem on Solaris (Glynn)
-    -   Handle non-standard ETRS\_1989 datum name (Paul)
+    -   Handle non-standard ETRS_1989 datum name (Paul)
 -   Graphical User Interface (GUI):
     -   Fixes for geo-rectifier (Michael)
     -   Zooming fixes (Michael)
@@ -96,11 +96,11 @@ system](http://grass.osgeo.org/wiki/Main_Page).
     -   **i.group**: fix subgroup listing (Hamish)
     -   **ps.map**: broken for named paper sizes (Hamish, Glynn)
     -   **v.db.select**: fix errors with the SQL where= option (Hamish)
-    -   **v.in.db**: don\'t copy the entire attribute table with a SQL
+    -   **v.in.db**: don't copy the entire attribute table with a SQL
         where= query (Martin)
     -   **v.in.ogr**: fix for gcc4.1.x and non-C locale (Andrey Kiselev)
     -   **r.to.rast3elev**: NEW - Completes the 3D raster tool
-        set.\
+        set.
         Creates a 3D volume map based on 2D elevation and value raster
         maps.
 
@@ -112,7 +112,7 @@ manuals](http://grass.itc.it/grass62/manuals/html62_user/index.html) and
 the [GRASS 6 module
 list](http://grass.itc.it/gdp/grassmanuals/grass63_module_list.pdf).
 
-\
+
 *We are always looking for testers, code developers, and technical
 writers to [help us](http://grass.itc.it/devel/index.php) maintain and
 accelerate the development cycle.* The GRASS GIS project is developed

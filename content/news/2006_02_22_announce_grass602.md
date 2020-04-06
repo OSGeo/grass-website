@@ -63,23 +63,23 @@ announcements as well)
     -   Include header files fixed (in 6.0.2RC2)
     -   FreeBSD portability fixes (in 6.0.2RC2)
     -   changed year to 2006 (in 6.0.2RC3)
-    -   bugfix for \'builddemolocation target\' in Makefile when
+    -   bugfix for 'builddemolocation target' in Makefile when
         building as root (RPMs etc) (in 6.0.2RC4)
     -   bugfix to remove leftover object files (in 6.0.2RC4)
     -   no longer ring the bell for messages which just inform
     -   gis library: fixed (rare) bug where row pointers were enlarged
         to 8 bytes, overwriting the beginning of the data
     -   gis library: fixed zlib compression bug for tiny raster integer
-        maps if GRASS\_INT\_ZLIB activated (after 6.0.2RC4)
+        maps if GRASS_INT_ZLIB activated (after 6.0.2RC4)
     -   sites library: bugfix for gstat interface
 -   Modules/Scripts:
     -   Documentation: updates
     -   New mapset creation: pre-define DBF default settings for
         attributes
-    -   g.proj: wkt/proj issues fixed (bug \#3876) (after 6.0.2RC4)
+    -   g.proj: wkt/proj issues fixed (bug #3876) (after 6.0.2RC4)
     -   ps.map: region command fixed
     -   r.fillnulls: extended ring to 3 pixels, MASK management fix;
-        resolution \< 1 fix
+        resolution < 1 fix
     -   r.random: randomness fixed for Cygwin and Apple; z added (after
         6.0.2RC4)
     -   r.regression.line: functional now
@@ -91,27 +91,27 @@ announcements as well)
     -   Scripts: awk test fixed (in 6.0.2RC2)
 
 For a more comprehensive list of changed modules see the
-[ChangeLog\_6.0.2.gz](../grass60/source/).
+[ChangeLog_6.0.2.gz](../grass60/source/).
 
 For a complete list of command in GRASS 6.0.2, see [HTML
 manuals](../grass60/manuals/html60_user/index.html).
 
-\
+
 *We are always looking for both testers and developers to
 [help](../devel/index.php) us maintain and accelerate this development
 cycle.*
 
-Release history:\
-GRASS GIS 6.0.0beta1 released 12 January 2005\
-GRASS GIS 6.0.0beta2 released 4 February 2005\
-GRASS GIS 6.0.0 released 10 March 2005\
-GRASS GIS 6.0.1RC1 released 3 August 2005\
-GRASS GIS 6.0.1RC2 released 8 August 2005\
-GRASS GIS 6.0.1 released 22 August 2005\
-GRASS GIS 6.0.2RC1 released 29 December 2005\
-GRASS GIS 6.0.2RC2 released 3 January 2006\
-GRASS GIS 6.0.2RC3 released 4 January 2006\
-GRASS GIS 6.0.2RC4 released 6 January 2006\
+Release history:
+GRASS GIS 6.0.0beta1 released 12 January 2005
+GRASS GIS 6.0.0beta2 released 4 February 2005
+GRASS GIS 6.0.0 released 10 March 2005
+GRASS GIS 6.0.1RC1 released 3 August 2005
+GRASS GIS 6.0.1RC2 released 8 August 2005
+GRASS GIS 6.0.1 released 22 August 2005
+GRASS GIS 6.0.2RC1 released 29 December 2005
+GRASS GIS 6.0.2RC2 released 3 January 2006
+GRASS GIS 6.0.2RC3 released 4 January 2006
+GRASS GIS 6.0.2RC4 released 6 January 2006
 GRASS GIS 6.0.2 released 22 February 2006
 
 ------------------------------------------------------------------------

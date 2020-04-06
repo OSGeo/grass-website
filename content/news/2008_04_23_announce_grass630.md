@@ -16,7 +16,7 @@ We are happy to announce the latest release of [GRASS
 GIS](http://grass.osgeo.org), the first major release with new features
 since GRASS 6.2 first arrived in October 2006.
 
-Officially this is a \"technology preview\" release, the first beta on
+Officially this is a "technology preview" release, the first beta on
 the path to GRASS 6.4-stable, and it also marks the start of work on
 GRASS 7. As such GRASS 6.3.0 is not intended to be a stable release with
 ongoing support, but after five months of quality-assurance review we
@@ -75,7 +75,7 @@ GNU/Linux, Mac OS X/Darwin, Microsoft Windows (native using MinGW or
 with full UNIX support via Cygwin), Sun Solaris (SPARC/Intel), Silicon
 Graphics Irix, HP-UX, DEC-Alpha, AIX, BSD, iPAQ/Linux and other UNIX
 compliant platforms. GRASS runs on both 32 and 64 bit systems with large
-files (\>2GB) supported by many key modules.
+files (>2GB) supported by many key modules.
 
 ### Software download/CDROM
 
@@ -120,13 +120,13 @@ fixes)
     -   Partial differential equations library with OpenMP support
         (gpdelib)
     -   Moved aggregate functions into separate statistics library
-    -   Display driver: add R\_bitmap() and supporting infrastructure
+    -   Display driver: add R_bitmap() and supporting infrastructure
     -   Major clean-up to the display architecture (libraries and
         drivers): the drivers no longer maintain a palette; all colours
         are specified directly as R/G/B values
     -   Segmentation library polished
     -   Cdhc library for testing normality & exponentiality polished
-    -   \"Default\" datum transformation parameters are now first in the
+    -   "Default" datum transformation parameters are now first in the
         list instead of last
     -   Create new locations using EPSG codes with g.proj
     -   Message translation (i18N): translations continued, new
@@ -209,7 +209,7 @@ fixes)
     -   **r3.univar**: NEW - Calculates univariate statistics
         from the cells of a 3D raster map
     -   **r.bilinear**: This module has been replaced by
-        \'r.resamp.interp\'
+        'r.resamp.interp'
     -   **r.category**: NEW - Manages raster map category values
         and labels (replaces r.cats)
     -   **r.colors**: Support for equalized histogram, reversed,
@@ -221,7 +221,7 @@ fixes)
     -   **r.in.xyz**: Support for extended statistics
     -   **r.le suite**: Various fixes and modernization
     -   **r.li suite**: NEW - Advanced toolset for multiscale
-        analysis of landscape structure.\
+        analysis of landscape structure.
         Including single and multi-processor enabled modules: r.li.cwed,
         r.li.dominance, r.li.edgedensity, r.li.mpa, r.li.mps,
         r.li.padcv, r.li.padrange, r.li.padsd, r.li.patchdensity,
@@ -277,7 +277,7 @@ For a complete list of commands available in GRASS 6.3.0 see the [online
 manuals](http://grass.osgeo.org/grass63/manuals/html63_user/index.html)
 and the [GRASS 6 module list](http://grass.osgeo.org/gdp/grassmanuals/grass63_module_list.pdf).
 
-\
+
 *We are always looking for testers, code developers, and technical
 writers to [help us](http://grass.osgeo.org/devel/index.php) maintain
 and accelerate the development cycle.* The GRASS GIS project is
@@ -317,12 +317,4 @@ Release history:
 
 ------------------------------------------------------------------------
 
-[Short version](abstract_grass630.txt) \| [Short version
-(CZ)](abstract_grass630_CZ.txt) \| [Short version
-(PL)](abstract_grass630_PL.txt)
-
-------------------------------------------------------------------------
-
-[GRASS Development Team](http://grass.osgeo.org/community/team.php)\
-Date: 23 April 2008 (last changed: \$Date: 2008-10-16 14:54:37 +0000
-(Thu, 16 Oct 2008) \$)
+[GRASS Development Team](http://grass.osgeo.org/community/team.php)
