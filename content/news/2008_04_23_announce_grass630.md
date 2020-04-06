@@ -5,12 +5,13 @@ layout: "news"
 author: GRASS Development Team
 ---
 
-![GRASS GIS](/images/logos/historical_logos/grasslogo_vector_small.png)**The GRASS Development Team announces**
+![GRASS GIS](/images/logos/historical_logos/grasslogo_vector_small.png)
+
+**The GRASS Development Team announces**
 
 GRASS GIS 6.3.0 released 23 April 2008
 --------------------------------------
 
-\
 We are happy to announce the latest release of [GRASS
 GIS](http://grass.osgeo.org), the first major release with new features
 since GRASS 6.2 first arrived in October 2006.
