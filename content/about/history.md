@@ -78,30 +78,30 @@ of the most relevant milestones.
 Originally, bugs were reported in the mailing list and the bug 
 tracking was done manually. But starting in December 2000 and 
 until December 2006, the 
-<a href="https://web.archive.org/web/20070630161517/http://intevation.de/rt/webrt?q_status=open&amp;q_queue=grass">GRASS Request Tracker (RT)</a> 
+[GRASS Request Tracker (RT)](https://web.archive.org/web/20070630161517/http://intevation.de/rt/webrt?q_status=open&amp;q_queue=grass)
 was used. This was a huge improvement! 
 See how GRASS GIS [bug tracking](https://grasswiki.osgeo.org/wiki/Bug_tracking) 
 has evolved through time allowing software to grow better and 
 more efficiently.
 
-In February 2006, the <a href="http://www.osgeo.org/">Open Source Geospatial
-Foundation</a> (OSGeo) was formed to support and promote worldwide use and
+In February 2006, the [Open Source Geospatial Foundation](http://www.osgeo.org/) 
+(OSGeo) was formed to support and promote worldwide use and
 collaborative development of Open Source geospatial technologies and data. 
 GRASS GIS is one of its founding projects. Later that year, the 
-<a href="http://grasswiki.osgeo.org/wiki/PSC">GRASS Project Steering Commitee</a>
+[GRASS Project Steering Commitee](http://grasswiki.osgeo.org/wiki/PSC)
 was formed which is responsible for the overall management of the project. 
 
 <img src="/images/logos/30-years-grass-gis-logo-black-300px.png" width="20%" alt="" style="float:left">
 
 On Dec 9, 2007 GRASS GIS started to use 
-<a href="https://grasswiki.osgeo.org/wiki/GRASS_Migration_to_OSGeo">SVN</a> 
-and <a href="https://trac.osgeo.org/grass">Trac</a> bug tracker hosted by 
+[SVN](https://grasswiki.osgeo.org/wiki/GRASS_Migration_to_OSGeo) 
+and [Trac](https://trac.osgeo.org/grass) bug tracker hosted by 
 OSGeo. Other GRASS GIS project infrastructure like the website and mailing 
 lists were (and still are) hosted by OSGeo. Just for fun have a look
 at the <a href="/about/history/web-evolution">GRASS GIS Website evolution</a>.
 
 In 2013, **we became 30!** Have a look at this nice article from ERDC’s CERL:
-<a href="http://www.erdc.usace.army.mil/Media/News-Stories/Article/476565/grass-gis-turns-30-erdcs-cerl-was-there-at-the-start/">GRASS GIS turns 30 – ERDC’s CERL was there at the start</a>
+[GRASS GIS turns 30 – ERDC’s CERL was there at the start](http://www.erdc.usace.army.mil/Media/News-Stories/Article/476565/grass-gis-turns-30-erdcs-cerl-was-there-at-the-start/)
 and the keynote presentation by Markus Neteler at FOSS4G CEE 2013 in Romania:
 [Scaling up globally: 30 years of FOSS4G development](https://www.slideshare.net/markusN/scaling-up-globally-30-years-of-foss4g-development-keynote-at-foss4gcee-2013-romania).
 
