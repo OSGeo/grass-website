@@ -15,7 +15,7 @@ Corps of Engineers' Construction Engineering Research Laboratory (USA/CERL)
 started exploring the use of Geographic Information Systems for environmental
 research, monitoring and management of military lands. Since no other software
 package available back then met all their requirements, they designed and 
-developed their own. GRASS GIS was being born under the name of Fort Hood 
+developed their own. GRASS GIS was born under the name of Fort Hood 
 Information System (FHIS). Meanwhile, other US federal agencies and environmental 
 offices became interested and the more general purpose GRASS was born. 
 
@@ -57,7 +57,7 @@ over by academia: Baylor University in Texas for a period, and then University
 of Hannover in Germany; led by Markus Neteler. The 
 [**GRASS Development Team**](http://grasswiki.osgeo.org/wiki/Team) 
 grew into a multi-national team consisting of developers at numerous locations
-who ever since then, the manages the source code, releases and documentation.
+who manages the source code, releases, and documentation ever since then.
 
 In October 1999, GRASS GIS in its version 5.0 was released for the first time 
 under [GNU General Public License (GPL)](/about/history/gnu-release) and in 
@@ -70,7 +70,7 @@ mainly manual source code management was done.
 
 Many things have changed dramatically in GRASS GIS development 
 since 2000. For example, it moved from CSV to SVN to git for
-source code management, from manually bug tracking to GitHub issues,
+source code management, from manual bug tracking to GitHub issues,
 from the first PHP based website hosted at the University of Hannover, 
 to CMS and now hugo, and so much more. Let's go through some
 of the most relevant milestones.
@@ -112,4 +112,3 @@ See the [details](https://trac.osgeo.org/grass/wiki/GitMigration).
 ### GRASS GIS releases
 
 See the detailed GRASS GIS [releases page](/about/history/releases.md)
-
