@@ -61,11 +61,3 @@ sudo add-apt-repository ppa:grass/grass-devel
 sudo apt-get update
 sudo apt-get install grass-daily</code></pre>
 
-<hr>
-
-
-### GRASS GIS source code
-
-The **GRASS GIS** source code is available on <a href="https://github.com/OSGeo/grass" target="_blank"><i class="fa fa-github"></i> Github</a>.
-
-<pre><code class="git">$git clone https://github.com/OSGeo/grass</code></pre>
