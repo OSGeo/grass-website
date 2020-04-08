@@ -98,7 +98,7 @@ On Dec 9, 2007 GRASS GIS started to use
 and [Trac](https://trac.osgeo.org/grass) bug tracker hosted by 
 OSGeo. Other GRASS GIS project infrastructure like the website and mailing 
 lists were (and still are) hosted by OSGeo. Just for fun have a look
-at the <a href="/about/history/web-evolution">GRASS GIS Website evolution</a>.
+at the [GRASS GIS Website evolution](/about/history/web-evolution) page.
 
 In 2013, **we became 30!** Have a look at this nice article from ERDC’s CERL:
 [GRASS GIS turns 30 – ERDC’s CERL was there at the start](http://www.erdc.usace.army.mil/Media/News-Stories/Article/476565/grass-gis-turns-30-erdcs-cerl-was-there-at-the-start/)
@@ -111,4 +111,5 @@ See the [details](https://trac.osgeo.org/grass/wiki/GitMigration).
 
 ### GRASS GIS releases
 
-See the detailed GRASS GIS [releases page](/about/history/releases.md)
+See the [releases page](/about/history/releases) for the full list of releases
+since 1982 and other historic milestones. 
