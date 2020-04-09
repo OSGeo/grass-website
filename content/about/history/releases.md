@@ -99,7 +99,7 @@ layout: "general"
 <li>10 Mar 2005 <strong>GRASS GIS 6.0.0</strong> released: <a href="grass60/source/ChangeLog_6.0.0.gz">HISTORY (ChangeLog)</a> - <a href="grass60/source/">Source Code</a></li>
 <li>4 Feb 2005 GRASS GIS 6.0.0beta2 released: <a href="grass60/source/ChangeLog_beta2.gz">HISTORY (ChangeLog)</a> - <a href="grass60/source/">Source Code</a></li>
 <li>12 Jan 2005 GRASS GIS 6.0.0beta1 released: <a href="grass60/source/ChangeLog_beta1.gz">HISTORY (ChangeLog)</a> - <a href="grass60/source/">Source Code</a>
-<div style="margin: 5px;" align="center"><img src="uploads/images/grass_5_6_roadmap_graphic.jpg" alt="" width="664" height="277" /></div>
+<div style="margin: 5px;" align="center"><img src="/static/images/gallery/development/grass_5_6_roadmap_graphic.jpg" alt="" width="664" height="277" /></div>
 </li>
 <li>5 Nov 2004 GRASS GIS 5.4.0 released: <a href="grass54/source/NEWS.html">NEWS</a> - <a href="grass54/source/ChangeLog">HISTORY (ChangeLog)</a> - <a href="grass54/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/log/grass/branches/releasebranch_5_4">branch</a></li>
 <li>17 Jun 2004 GRASS GIS 5.7.0 released: <a href="grass57/source/ChangeLog">HISTORY (ChangeLog)</a> - <a href="grass57/source/">Source Code</a></li>
