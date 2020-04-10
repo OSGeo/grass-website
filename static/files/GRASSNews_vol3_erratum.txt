@@ -1,0 +1,42 @@
+Erratum of GRASS-News vol. 3 (June 2005)
+ $Date: 2006-01-16 08:52:05 +0000 (Mon, 16 Jan 2006) $
+_________________________________________________________________
+
+SRTM and VMAP0 data in OGR and GRASS. GRASS Newsletter, 3:2-6, 2005
+(M. Neteler)
+
+Problem: The first 'find' command in Figure 3 'Shell code to fix the original
+         VMAP0 file/directory names for OGDI/OGR usage' does not work
+         on MaxOSX.
+
+Solution: Add a dot after the find:
+
+  old:
+      find -name '*.' > /tmp/vm_list1
+  correct:
+      find . -name '*.' > /tmp/vm_list1
+
+(added Jan 2006)
+_________________________________________________________________
+Interfacing GRASS 6 and R 
+(R. Bivand)
+
+Problem: select CRAN mirror without X11 running
+
+Solution:
+
+- development files for gdal are necessary (e.g. for a Debian box, 
+apt-get install libgdal-dev)
+
+- in case you get the error: --- Please select a CRAN mirror for use in this session ---
+  (when a graphic monitor is not available for whathever reason, e.g. 
+  in case of remote installations)
+--  add the address of a CRAN mirror to your install command, 
+    e.g. install.packages(c("sp","rgdal"), dependencies=TRUE, repos="http://microarrays.unife.it/CRAN/")
+-- alternatively, one could set the search of cran mirror to non-graphic, by 
+    typing: chooseCRANmirror(graphics=FALSE) before the install command.
+
+(added June 2005)
+________________
+
+
