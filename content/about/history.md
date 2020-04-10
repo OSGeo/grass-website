@@ -32,12 +32,14 @@ the first release.
  <li>
  <a href="http://tldp.org/HOWTO/GIS-GRASS/history.html" target="_blank">A Brief History of GRASS</a> in the GRASS Mini-HOWTO by David A. Hastings, 1997.
  </li>
- <li><Lynn Van Warren recalls the <a href="/about/history/van-warren-notes" target="_blank">design of Fort Hood GIS software (FHGIS)</a> that led to GRASS development.
-  </li>
+ <li>Lynn Van Warren recalls the <a href="/about/history/van-warren-notes" target="_blank">design of Fort Hood GIS software (FHGIS)</a> that led to GRASS development.
+ </li>
  <li><a href="/files/westervelt2004_GRASS_roots.pdf" target="_blank">GRASS Roots</a> by Jim Westervelt (In Proc. <em>Free/Libre and Open Source Software for Geoinformatics: GIS-GRASS Users Conference 2004</em>, Sept. 12-14, Bangkok, Thailand, 2004).
-  </li>
+ </li>
  <li><a href="http://2006.foss4g.org/contributionDisplay7563.html?contribId=214&amp;sessionId=54&amp;confId=1" target="_blank">Early GRASS Community Views on FOSS</a> by Jim Westervelt (Keynote at FOSS4G 2006, 11-15 September 2006, Lausanne, Switzerland).
-  </li>
+ </li>
+ <li>See the <a href="https://grass.osgeo.org/grass41/grass1to4history.html" target="_blank">detailed release description table</a> (from GRASS 1 to GRASS 4) by James Westervelt.
+ </li>
 </ul>
 
 ### The 90's
