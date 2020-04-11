@@ -108,8 +108,10 @@ and the keynote presentation by Markus Neteler at FOSS4G CEE 2013 in Romania:
 [Scaling up globally: 30 years of FOSS4G development](https://www.slideshare.net/markusN/scaling-up-globally-30-years-of-foss4g-development-keynote-at-foss4gcee-2013-romania).
 
 Last but not least, in 2019 GRASS GIS migrated the software development 
-and bug tracking from OSGeo-SVN to [GitHub](https://github.com/OSGeo/grass).
-See the [details](https://trac.osgeo.org/grass/wiki/GitMigration).
+from OSGeo-SVN to [GitHub](https://github.com/OSGeo/grass). From January 2020,
+also the bug tracking takes place in GitHub. 
+See the [details](https://trac.osgeo.org/grass/wiki/GitMigration) in the 
+dedicated migration wiki.
 
 ### GRASS GIS releases
 
