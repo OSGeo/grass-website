@@ -6,7 +6,7 @@ layout: "general"
 
 ## Donations
 
-![Bonn code sprint 2018](/images/grass_sprint2018.jpg)
+<img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_fotowall.jpg" width="55%" alt="Bonn code sprint 2018" style="float:right">
 
 ### Why donate
 
