@@ -1,13 +1,13 @@
 ---
-title: "Developement"
-date: 2018-12-29T11:02:05+06:00
+title: "Development"
+date: 2020-04-12T11:02:05+02:00
 layout: "devel"
 ---
 
 GRASS - **Geographic Resources Analysis Support System** has been under continuous development since 1982 (!).
 
 The strength and success of GRASS GIS relies on the **user community** to improve and extend the GRASS GIS capabilities.
-GRASS GIS is developed and supported by a [worldwide team of developers](https://github.com/OSGeo/grass/blob/master/contributors.csv)
+GRASS GIS is developed and supported by a [worldwide team of developers](https://github.com/OSGeo/grass/blob/master/contributors.csv).
 
 Many people have contributed to GRASS GIS throughout time. Without them, GRASS GIS would not exist in its current form.
 The authors of the individual programs or modules are listed at the end of the respective manual pages.
@@ -69,7 +69,7 @@ found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#Write
 <img src="../../images/core_devel.svg" width="30%" alt="" style="float:right;padding-left:10px">
 The GRASS GIS core consists of the libraries used by GRASS GIS modules and GUI, as well as the code used to develop the Graphic User Interface and the most important modules.
 
-It may be a good idea to send a small posting to the ​[GRASS developers mailing list](http://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
+It may be a good idea to send a small posting to the [GRASS developers mailing list](http://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
 (maybe someone will join you!). Please read [how to write source code](https://trac.osgeo.org/grass/wiki/HowToProgram) before submitting. 
 
 We'd also appreciate if you could support us with [bug fixing and enhancement wishes](https://github.com/OSGeo/grass/issues).
