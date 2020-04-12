@@ -1,6 +1,6 @@
 ---
 title: "Credits"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-04-12T12:12:05+02:00
 layout: "credits"
 ---
 
@@ -12,6 +12,22 @@ This website is licensed under the GNU General Public License v3.0<br>
 ### Imprint
 
 #### Contact information
+
+<div class="alert rounded-0 alert-default">
+  <p>GRASS Development Team<br>
+  c/o Markus Neteler (Project Chair)<br>
+  mundialis GmbH & Co. KG<br>
+  Koelnstrasse 99<br>
+  53111 Bonn<br>
+  Germany<br>
+  <a href="mailto:grass-web@lists.osgeo.org" target="_blank">grass-web@lists.osgeo.org</a>
+<br>
+  <a href="https://grass.osgeo.org" target="_blank">https://grass.osgeo.org</a>
+  </p>
+</div>
+
+
+#### Legal address
 
 <div class="alert rounded-0 alert-default">
   <p>GRASS Development Team<br>
