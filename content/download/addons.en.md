@@ -1,6 +1,6 @@
 ---
 title: "Addons"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-04-13T11:02:05+0600
 description: "Download GRASS GIS addon extension modules"
 weight: 
 categories: [nl]
@@ -9,7 +9,7 @@ layout: "addons"
 
 #### Quick links
 
-[ [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+[ [Overview of addons](https://grass.osgeo.org/grass7/manuals/addons/) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
 
 ### <a name="Common-user"></a>Beginner users
 
