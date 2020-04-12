@@ -1,7 +1,7 @@
 ---
 title: "Data"
 date: 2018-12-29T11:02:05+06:00
-description: "Download sample data ready for GRASS GIS."
+description: "Download sample data ready for GRASS GIS"
 weight: 
 categories: [nl]
 layout: "data"
