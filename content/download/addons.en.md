@@ -26,6 +26,6 @@ You can also use the command line, for example:
 ### <a name="Power-user"></a>Power users/developers
 
 The AddOns source code is also hosted in <a href="https://github.com/OSGeo/grass-addons" target="_blank"><i class="fa fa-github"></i> Github</a>:
-<p class="command"><a href="https://github.com/OSGeo/grass-addons"> $git clone https://github.com/OSGeo/grass-addons </a></p>
+<p class="command"><a href="https://github.com/OSGeo/grass-addons"> $ git clone https://github.com/OSGeo/grass-addons </a></p>
 
 To manually compile individual extensions see the [compile and install wiki page](https://grasswiki.osgeo.org/wiki/Compile_and_Install#Addons). 
