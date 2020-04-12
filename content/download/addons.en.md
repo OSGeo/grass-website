@@ -1,7 +1,7 @@
 ---
 title: "Addons"
 date: 2018-12-29T11:02:05+06:00
-description: "Download GRASS GIS user modules"
+description: "Download GRASS GIS addon extension modules"
 weight: 
 categories: [nl]
 layout: "addons"
