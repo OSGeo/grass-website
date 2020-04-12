@@ -1,7 +1,7 @@
 ---
 title: "Docker"
 date: 2018-12-29T11:02:05+06:00
-description: "Download GRASS GIS Docker images."
+description: "Download GRASS GIS Docker images"
 weight: 4
 layout: "os"
 ---

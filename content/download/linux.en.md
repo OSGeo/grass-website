@@ -1,7 +1,7 @@
 ---
 title: "Linux"
 date: 2018-12-29T11:02:05+06:00
-description: "Download GRASS GIS packages for your favorite distribution."
+description: "Download GRASS GIS packages for your favorite distribution"
 weight: 1
 layout: "os"
 ---

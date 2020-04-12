@@ -1,7 +1,7 @@
 ---
 title: "Windows"
 date: 2018-12-29T11:02:05+06:00
-description: "Download GRASS GIS installers for Windows."
+description: "Download GRASS GIS installers for Windows"
 weight: 2
 layout: "os"
 ---
