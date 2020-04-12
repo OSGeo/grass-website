@@ -36,7 +36,7 @@ If you want, you can read [How to Report Bugs Effectively](http://www.chiark.gre
 
 Each GRASS GIS module comes with a respective [manual page](/learn/manuals) that provides clear and up-to-date documentation including working examples.
 
-There are also several [tutorials](/learn/tutorials), courses and wikis contributed by different developers and users. These are a very important tool to learn how to use GRAS GIS, too.
+There are also several [tutorials](/learn/tutorials), courses and wikis contributed by different developers and users. These are a very important tool to learn how to use GRASS GIS, too.
 
 **Writing or editing documentation and tutorials is an ideal platform for your first contribution to the project.**
 
@@ -63,7 +63,7 @@ through the extension manager (g.extension or graphical user interface).
 Here is the full list of [existing addons](https://grass.osgeo.org/grass7/manuals/addons/) to get inspired.
 
 Further details about how to gain access to our [GitHub Addons repository](https://github.com/OSGeo/grass-addons/) can be
-found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASS-Addons-SVNrepository).
+found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASSaddonsrepository).
 
 ### Contribute to GRASS GIS core
 <img src="../../images/core_devel.svg" width="30%" alt="" style="float:right;padding-left:10px">
