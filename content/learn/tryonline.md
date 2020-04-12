@@ -4,17 +4,18 @@ date: 2018-12-29T11:02:05+06:00
 layout: "overview"
 ---
 
+<!--
 #### Quick links
 
 [ [**Jupyter notebooks with GRASS GIS on Binder**](#GRASSGISJupyter) | [**GRASS GIS in CoCalc**](#GRASSGISCoCalc) | [**GRASS GIS as rollapp**](#GRASSGISrollapp) ]
-
+-->
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-8">
-<p>There are several ways to try out <b>GRASS GIS</b> in your browser without installing it. You can get a first glimpse of <b>GRASS GIS</b> in either <a href="#GRASSGISJupyter">Binder</a>, <a href="#GRASSGISCoCalc">CoCalc</a> or <a href="#GRASSGISrollApp">rollApp</a>.</p>
+<p>There are several ways to try out <b>GRASS GIS</b> in your browser without installing it. You can throw a glance at <b>GRASS GIS</b> in either <a href="#GRASSGISJupyter">Binder</a><!--, <a href="#GRASSGISCoCalc">CoCalc</a>--> or <a href="#GRASSGISrollApp">rollApp</a>.</p>
 </div>
 <div class="col-lg-4">
-<img src="../../images/logos/grasslogo.svg" width="42%" alt="GRASS GIS">
+<img src="../../images/logos/grasslogo.svg" width="25%" alt="GRASS GIS">
 </div>
 </div>
 </div>
@@ -27,8 +28,8 @@ layout: "overview"
 <a href="https://mybinder.org/v2/gh/wenzeslaus/try-grass-in-jupyter/master"><img class="bsh" src="../../images/other/GRASS_mybinder_jupyter_intro.png" width="89%" alt="GRASS GIS Jupyter intro"></a>
 </div>
 <div class="col-lg-6">
-<p>The <b><a href="https://jupyter.org/binder">Binder</a></b> project offers reproducible, sharable, interactive computing environments. In the <b>GRASS GIS</b> community, github repositories are available that can be used to launch a GRASS GIS computing environment with sample data and working examples.
-<p>Through the Binder hub <b>mybinder.org</b>, compute environments defined in the repositories can be build and started. You can do so by simlpy clicking on one of the two browser images with Juoyter notebooks. The upper image starts a basic introduction to Jupyter Notebooks with GRASS GIS.</p>
+<p>The <b><a href="https://jupyter.org/binder">Binder</a></b> project offers reproducible, sharable, interactive computing environments. From the <b>GRASS GIS</b> community, github repositories are available that can be used to launch a <b>GRASS GIS</b> computing environment with sample data and working examples.
+<p>Through the Binder hub <b>mybinder.org</b>, compute environments defined in the git repositories can be build and started. You can do so by simlpy clicking on one of the two browser images with Juoyter notebooks. The upper image starts a basic introduction to Jupyter Notebooks with <b>GRASS GIS</b>.</p>
 
   </div>
 
@@ -36,14 +37,16 @@ layout: "overview"
 <a href="https://mybinder.org/v2/gh/wenzeslaus/geospatial-modeling-course-jupyter/master"><img class="bsh" src="../../images/other/GRASS_mybinder_modelling_course.png" width="89%" alt="GRASS GIS Jupyter modelling course" title="GRASS GIS Jupyter modelling course"></a>
 </div>
 <div class="col-lg-6">
-<p>The lower image provides a full, reproducible geospatial modelling course with GRASS GIS.</p>
+<p>The lower image provides a full, reproducible geospatial modelling course with <b>GRASS GIS</b>. You can start your topic of interest by double clicking one of the notebooks once Jupyter has started.</p>
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> Note: Using GRASS GIS in a Jupyter Notebook requires at least basic skills in Python og UNIX command line and does not give access to the full graphical user interface (GUI).
+<i class="fa fa-arrow-right"></i> Note: Using <b>GRASS GIS</b> in a Jupyter Notebook requires at least basic skills in Python or UNIX command line and does not give access to the full graphical user interface (GUI).
 </div>
 
   </div>
 </div>
 </div>
+
+<!--
 
 ### Try GRASS GIS in CoCalc
 
@@ -64,6 +67,7 @@ layout: "overview"
 
 </div>
 </div>
+-->
 
 ### Try GRASS GIS as rollApp
 
