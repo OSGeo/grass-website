@@ -1,7 +1,7 @@
 ---
 title: "Mac"
 date: 2018-12-29T11:02:05+06:00
-description: "Download bundled GRASS GIS binaries for your mac"
+description: "Download bundled GRASS GIS binaries for your Mac"
 weight: 3
 layout: "os"
 ---
