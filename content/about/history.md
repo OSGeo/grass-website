@@ -68,7 +68,7 @@ first *centralized source code repository*
 (CVS; see https://trac.osgeo.org/grass/changeset/9499). Before that,
 mainly manual source code management was done.
 
-### GRASS into the new millenium: 2000 and beyond
+### GRASS into the new millennium: 2000 and beyond
 
 Many things have changed dramatically in GRASS GIS development 
 since 2000. For example, it moved from CSV to SVN to git for
@@ -98,20 +98,27 @@ was formed which is responsible for the overall management of the project.
 On Dec 9, 2007 GRASS GIS started to use 
 [SVN](https://grasswiki.osgeo.org/wiki/GRASS_Migration_to_OSGeo) 
 and [Trac](https://trac.osgeo.org/grass) bug tracker hosted by 
-OSGeo. Other GRASS GIS project infrastructure like the website and mailing 
+OSGeo. Other GRASS GIS project infrastructures like the website and mailing 
 lists were (and still are) hosted by OSGeo. Just for fun have a look
 at the [GRASS GIS Website evolution](/about/history/web-evolution) page.
 
-In 2013, **we became 30!** Have a look at this nice article from ERDC’s CERL:
-[GRASS GIS turns 30 – ERDC’s CERL was there at the start](http://www.erdc.usace.army.mil/Media/News-Stories/Article/476565/grass-gis-turns-30-erdcs-cerl-was-there-at-the-start/)
-and the keynote presentation by Markus Neteler at FOSS4G CEE 2013 in Romania:
-[Scaling up globally: 30 years of FOSS4G development](https://www.slideshare.net/markusN/scaling-up-globally-30-years-of-foss4g-development-keynote-at-foss4gcee-2013-romania).
+In 2013, **GRASS GIS became 30!** Have a look at this nice commemorative article
+from ERDC’s CERL and note Jim Westervelt in the picture: 
+[GRASS GIS turns 30 – ERDC’s CERL was there at the start](http://www.erdc.usace.army.mil/Media/News-Stories/Article/476565/grass-gis-turns-30-erdcs-cerl-was-there-at-the-start/).
 
 Last but not least, in 2019 GRASS GIS migrated the software development 
 from OSGeo-SVN to [GitHub](https://github.com/OSGeo/grass). From January 2020,
 also the bug tracking takes place in GitHub. 
 See the [details](https://trac.osgeo.org/grass/wiki/GitMigration) in the 
 dedicated migration wiki.
+
+#### GRASS GIS anniversaries presentations
+ 
+<ul id="links" class="version">
+ <li>Keynote presentation by Markus Neteler at FOSS4G CEE 2013 in Romania: 
+ <a href="https://www.slideshare.net/markusN/scaling-up-globally-30-years-of-foss4g-development-keynote-at-foss4gcee-2013-romania" target=""_blank">Scaling up globally: 30 years of FOSS4G development</a>.</li>
+ <li>Presentation by Vaclav Petras at the 30th North Carolina GIS Conference in Raleigh, 2017: <a href="https://ncsu-geoforall-lab.github.io/grass-as-a-platform/ncgis2017.html#/" target="_blank">33 years of GRASS GIS as an innovation platform</a>.</li>
+</ul>
 
 ### GRASS GIS releases
 
