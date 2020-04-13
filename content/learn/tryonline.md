@@ -30,8 +30,9 @@ layout: "overview"
 </div>
 <div class="col-lg-6">
 <p>The <b><a href="https://jupyter.org/binder">Binder</a></b> project offers reproducible, sharable, interactive computing environments. From the <b>GRASS GIS</b> community, GitHub repositories are available to launch a <b>GRASS GIS</b> computing environment with sample data and working examples.
-<p>Through the Binder hub <b>mybinder.org</b>, compute environments defined in the git repositories can be built and started. You can do so by simply clicking on one of the two browser images with Jupyter notebooks:
-By clicking on the upper screenshot you can start a basic introduction to Jupyter Notebooks with <b>GRASS GIS</b>.</p>
+Through the Binder hub <b>mybinder.org</b>, compute environments defined in the git repositories can be built and started. You can do so by simply clicking on one of the two browser images with Jupyter notebooks:</p>
+
+<p>By clicking on the upper screenshot you can start a basic introduction to Jupyter Notebooks with <b>GRASS GIS</b>.</p>
 </div>
 
 <div class="col-lg-6 text-center">
