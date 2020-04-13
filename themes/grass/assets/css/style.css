@@ -856,3 +856,27 @@ nobullets {
 code{
    color: #1d1f21;
 }
+
+@media (max-width: 576px) {
+  .grasslogo{
+     width: 70%;
+  }
+}
+
+@media (min-width: 600px) {
+  .grasslogo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .grasslogo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .grasslogo {
+    width: 31%;
+  }
+}
