@@ -48,6 +48,8 @@ Through the Binder hub <b>mybinder.org</b>, compute environments defined in the 
 </div>
 </div>
 
+Find in the Wiki more [GRASS GIS Jupyter notebooks](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Jupyter_notebooks).
+
 <!-- commented out since too slow and sample data still missing in CoCalc:
 
 ### Try GRASS GIS in CoCalc
