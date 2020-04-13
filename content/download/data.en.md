@@ -20,7 +20,7 @@ layout: "data"
     <span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <a href="#DownloadGUI">download button on the GRASS GIS startup screen</a>.</span>
     </div>
   </div>
-  <div class="col-md-8 col-sm-12" align="center">
+  <div class="col-md-8 col-sm-12 text-center">
     <img src="../../images/gallery/gui/grass740_startup_sample_data_download_arrow.png" width="80%" alt="">
   </div>
 </div>
