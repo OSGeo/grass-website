@@ -113,6 +113,12 @@ greyColorDark = "#A0A0A0"
           name = "Books"
           URL = "/learn/books"
           weight = 5
+ 
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "Try online"
+          URL = "/learn/tryonline"
+          weight = 5
 
     
       [[Languages.en.menu.main]]
