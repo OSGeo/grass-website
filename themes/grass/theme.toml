@@ -6,7 +6,7 @@ licenselink = "https://creativecommons.org/licenses/by/3.0/"
 description = "GRASS, an Hugo theme for the GRASS GIS website"
 homepage = "https://grass.osgeo.org"
 tags = ["GRASS GIS", "Open Source", "GIS", "Geospatial", "OSGeo"]
-min_version = "0.69.0"
+
 
 
 [author]
