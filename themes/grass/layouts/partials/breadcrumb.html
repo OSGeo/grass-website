@@ -1,5 +1,5 @@
 <div class="container">
- <div class="row">
+
   <div class="col-lg-12">
    <ul class="breadcrumb bg-white">
     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
@@ -7,12 +7,16 @@
      <li><a href="{{.Site.BaseURL}}">home</a></li>
      {{ range $index, $element := split $url "/" }}
      {{ $.Scratch.Add "path" $element }}
-     {{ if ne $element "" }}
-     <li><a href='{{ $.Scratch.Get "path" }}'>{{ . }}</a></li>
+     {{ if ne $element "" }}     
+     <li>{{ if not (in  $.Section "about") }}<a href='{{ $.Scratch.Get "path" }}'>{{ end }}
+     <span>{{ . }}</span>
+     {{ if not (in  $.Section "about") }}</a>{{ end }}
+     </li>
      {{ $.Scratch.Add "path" "/" }}
      {{ end }}
-    {{ end }}
+     {{ end }}
+
     </ul>
    </div>
   </div>
- </div>
+

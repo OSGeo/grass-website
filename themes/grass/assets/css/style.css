@@ -258,9 +258,12 @@ a:focus, button:focus, select:focus {
   color: var(--grass-color-alt);
 }
 .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   color: var(--grey-color-light) !important;
-  font-weight: 400;
+  font-family: open_sansregular !important;
+  font-size: 28px;
+  font-weight:100 !important;
+
 }
 .section-gtitle {
   margin-bottom: 40px;
@@ -647,11 +650,12 @@ ul.breadcrumb {
   margin-bottom: 0 !important;
   color: var(--grey-color-light) !important;
 }
-/* Display list items side by side */
-
+ul.breadcrumb {
+  margin: 0 !important
+}
 ul.breadcrumb li {
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
 }
 ul.breadcrumb li a {
   color: var(--grey-color-light) !important;
@@ -675,6 +679,10 @@ ul.breadcrumb li a {
   color: #0275d8;
   text-decoration: none;
   display: inline-block !important;
+}
+ul.breadcrumb li > span{
+    display:inline-block;
+    margin-top: 2px !important;
 }
 /* Add a color on mouse-over */
 

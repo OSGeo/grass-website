@@ -1,23 +1,27 @@
 {{ partial "head.html" . }}
 
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="bg-lgr">
+<header class="shadow-bottom position-relative">
   <div class="container">
     {{ partial "navigation.html" . }}
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
-    
-<section class="bg-lgr">
-<div class="container">
+<!-- page title -->
+<section class="section bg-lgr">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-8 text-center mx-auto mb-4">
-        <h1 class="mt-4 mb-3"><img src="{{.Site.BaseURL}}/images/grasslogo.svg" width="33%" alt="GRASS GIS"></h1> 
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{ .Section}}</h1>
       </div>
     </div>
   </div>
-<section>
+</section>
+      
+  <section class="bg-white pb-0">
+   {{ partial "breadcrumb.html" . }}
+  </section>
     
 <section class="pt-4 bg-gray">
   <div class="container">

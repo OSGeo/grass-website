@@ -1,0 +1,65 @@
+{{ partial "head.html" . }}
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+  <section class="section bg-lgr">
+   <div class="container">
+    <div class="row">
+      <div class="col-lg-8 text-center mx-auto mb-4">
+        <h1 class="grass-green cap">About</h1>
+      </div>
+    </div>
+   </div>
+   <section>
+   
+ <section class="bg-white pb-0">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+      <ul class="breadcrumb bg-white">
+      {{ partial "breadcrumb.html" . }}
+      </ul>
+    </div>
+    </div>
+  </div>
+</section>
+    <section>
+      <section class="pt-4 bg-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="section-title">About GRASS GIS</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+	      {{ range .Data.Pages }}
+	        {{ if not .Params.categories }}	      
+              <div class="section bg-white mb-4">
+                <div class="row nm">
+                  <div class="col-1 text-center"><i class="fa fa-file-text-o fa-3x grey-color-light"></i></div>
+                  <div class="col-11">
+		    <h3 class="mt-2 mb-2"><a href="{{.File.TranslationBaseName}}">{{ .Title }}</a></h3>
+                  </div>
+                </div>
+		</div>
+		{{ end }}
+	       {{ end }}
+               
+              
+            </div>
+          </div>
+        </div>
+      </section>{{ partial "footer.html" . }}
+    </section>
+  </section>
+</body>
+</html>

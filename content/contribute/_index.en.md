@@ -4,6 +4,7 @@ date: 2018-12-29T11:02:05+05:00
 icon: "fa fa-user"
 description: "Contribute to Open Source Geospatial through GRASS GIS developement"
 type : "pages"
+layout: "contribute"
 weight: 3
 ---
 
