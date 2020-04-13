@@ -29,9 +29,13 @@
             {{ with .sect }}
             {{ if in .Site.Params.menu_exclusion .Section }}
             {{- else -}}
-              {{- safeHTML .Params.head -}}
-            <li class="{{ if .IsAncestor $currentNode }}parent d-block{{ end }}{{ if eq .UniqueID $currentNode.UniqueID }}
-            active {{ end }}{{ if .Params.alwaysopen }} parent {{end}}"><a href="{{ .URL }}">{{ if .IsAncestor $currentNode}} <i class="fa fa-{{lower .Title }}"></i>{{ end }} {{ .Title }}</a>
+	      {{- safeHTML .Params.head -}}
+	      {{ $fileUniqueID := "" }}
+{{ with .File }}{{ $fileUniqueID = .UniqueID }}{{ end }}
+{{ $currentNodeFileUniqueID := "" }}
+{{ with $currentNode.File }}{{ $currentNodeFileUniqueID = .UniqueID }}{{ end }}
+            <li class="{{ if .IsAncestor $currentNode }}parent d-block{{ end }}{{ if eq $fileUniqueID $currentNodeFileUniqueID }}
+            active {{ end }}{{ if .Params.alwaysopen }} parent {{end}}"><a href="{{ .Permalink }}">{{ if .IsAncestor $currentNode}} <i class="fa fa-{{lower .Title }}"></i>{{ end }} {{ .Title }}</a>
               {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
               {{if ne $numberOfPages 0}}
               <ul class="{{ if .IsAncestor $currentNode }}sub-menu{{ end }}">
@@ -46,7 +50,7 @@
             {{- end -}}
             {{- else -}}
               {{- if not .Params.Hidden -}}
-              <li class="{{ if eq .UniqueID $currentNode.UniqueID }}active{{ end }}"><a href="{{ .URL }}">{{ .Title }}</a></li>
+              <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
               {{- end -}}
             {{ end -}}
             {{ end }}
@@ -56,51 +60,6 @@
         <div class="p-5 bg-white">
             <h2 class="page-title">{{ .Title }}</h2>
             {{ .Content }}
-            <p class="post-meta border-bottom pb-3 mb-0">Updated on {{ .PublishDate.Format "02 Jan 2006" }}</p>
-            {{- $currentNode := . -}}
-            <nav class="pagination mt-3">
-            {{- template "pagination" dict "menu" .Site.Home "currentnode" $currentNode "menu_exclusion" .Site.Params.menu_exclusion -}}
-            {{- with ($.Scratch.Get "prevPage") -}}
-            <a class="nav nav-prev" href="{{ .URL }}" title="{{ .Title }}"><i class="ti-arrow-left mr-2"></i>{{ .Title }}</a>
-            {{ end -}}
-            {{- with ($.Scratch.Get "nextPage") -}}
-            <a class="nav nav-next" href="{{ .URL }}" title="{{ .Title }}">{{ .Title }}<i class="ti-arrow-right ml-2"></i></a>
-            {{- end }}
-            </nav>
-    
-            {{- define "pagination" -}}
-            {{- $currentNode := .currentnode -}}
-            {{- $menu_exclusion := .menu_exclusion -}}
-    
-            {{- if hasPrefix $currentNode.URL .menu.URL -}}
-              {{- $currentNode.Scratch.Set "NextPageOK" "OK" -}}
-              {{- if .menu.IsHome -}}
-                {{- $currentNode.Scratch.Set "prevPage" "" -}}
-              {{- else -}}
-                {{- $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") -}}
-              {{- end -}}
-            {{- else -}}
-              {{- if eq ($currentNode.Scratch.Get "NextPageOK") "OK" -}}
-                {{- $currentNode.Scratch.Set "NextPageOK" nil -}}
-                {{ if in $menu_exclusion .menu.Section }}
-                {{- else -}}
-                  {{- $currentNode.Scratch.Set "nextPage" .menu -}}
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}
-    
-            {{- $currentNode.Scratch.Set "prevPageTmp" .menu -}}
-            {{- $currentNode.Scratch.Set "pages" .menu.Pages -}}
-            {{- if .menu.IsHome -}}
-              {{- $currentNode.Scratch.Set "pages" .menu.Sections -}}
-            {{- else if .menu.Sections -}}
-              {{- $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) -}}
-            {{- end -}}
-            {{- $pages := ($currentNode.Scratch.Get "pages") -}}
-            {{- range $pages.ByWeight -}}
-              {{- template "pagination" dict "menu" . "currentnode" $currentNode "menu_exclusion" $menu_exclusion -}}
-            {{- end -}}
-            {{- end -}}
         </div>
       </div>
     </div>

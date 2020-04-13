@@ -198,23 +198,22 @@ greyColorDark = "#A0A0A0"
     [Languages.en.params.topics]
       title = "Geographic Resources Analysis Support System"
 
-
     # footer social icon
     [[Languages.en.socialIcon]]
       icon = " fa fa-github"
-      URL = "https://github.com/OSGeo/grass"
+      link = "https://github.com/OSGeo/grass"
       
     [[Languages.en.socialIcon]]
       icon = " fa fa-twitter"
-      URL = "https://twitter.com/grassgis"    
+      link = "https://twitter.com/grassgis"    
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-facebook"
-      URL = "https://www.facebook.com/GRASSGISCommunity"
+      link = "https://www.facebook.com/GRASSGISCommunity"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-youtube"
-      URL = "https://www.youtube.com/results?search_query=grass+gis"   
+      link = "https://www.youtube.com/results?search_query=grass+gis"   
 
 
 
