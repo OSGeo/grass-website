@@ -12,10 +12,17 @@ layout: "data"
 
 [ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Spearfish dataset**](#SpearFishDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Global datasets**](#GlobalDatasets) ]
 
-<img src="../../images/gallery/gui/grass740_startup_sample_data_download_arrow.png" width="60%" alt="" style="float:right">
-<div class="alert rounded-0 alert-default row" width="35%"><span><i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS GIS. Datasets are made available as ready-to-use GRASS GIS <b>locations</b> and sample data in other
-common GIS formats.</span>
-<span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <a href="#DownloadGUI">download button on the GRASS GIS startup screen</a>.</span>
+
+<div class="row">
+  <div class="col-md-4 col-sm-12">
+    <div class="alert rounded-0 alert-default row" width="35%"><span><i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS GIS. Datasets are made available as ready-to-use GRASS GIS <b>locations</b> and sample data in other
+    common GIS formats.</span>
+    <span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <a href="#DownloadGUI">download button on the GRASS GIS startup screen</a>.</span>
+    </div>
+  </div>
+  <div class="col-md-8 col-sm-12 text-center">
+    <img src="../../images/gallery/gui/grass740_startup_sample_data_download_arrow.png" width="80%" alt="">
+  </div>
 </div>
 
 <hr>
