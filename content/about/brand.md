@@ -9,7 +9,7 @@ layout: "brand"
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-5 text-center">
-<img src="../../images/grasslogo.svg" width="43%" alt="GRASS GIS">
+<img src="../../images/logos/grasslogo.svg" width="43%" alt="GRASS GIS">
 </div>
 
 <div class="col-lg-7">

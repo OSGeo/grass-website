@@ -7,7 +7,7 @@ layout: "overview"
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-4 text-center">
-<img src="../../images/grasslogo.svg" width="42%" alt="GRASS GIS">
+<img src="/images/logos/grasslogo.svg" width="42%" alt="GRASS GIS">
 </div>
 <div class="col-lg-8">
 <p><b>G</b>eographic <b>R</b>esources <b>A</b>nalysis <b>S</b>upport <b>S</b>ystem, commonly referred to as <b>GRASS GIS</b>, is a Geographic Information System (GIS) technology built for vector and raster geospatial data management, geoprocessing, spatial modelling and visualization.</p>
@@ -26,7 +26,7 @@ layout: "overview"
 <p>The strength and success of GRASS GIS relies on the user community. The philosophy of the GRASS GIS Development Team is to encourage users to develop their own unique tools and applications as well as to improve the existent ones.</p>
 </div>
 <div class="col-lg-6 text-center">
-<img class="bsh" src="../../images/gui-grass-example.png" width="89%" alt="GRASS GIS">
+<img class="bsh" src="/images/gallery/gui/grass70_gui_example.png" width="89%" alt="GRASS GIS">
 </div>
 </div>
 </div>
@@ -36,7 +36,7 @@ layout: "overview"
 <div class="container">
 <div class="row mt-20">
 <div class="col-lg-6 text-center">
-<img class="bsh" src="../../images/gui-grass-example-2.png" width="89%" alt="GRASS GIS">
+<img class="bsh" src="/images/gallery/gui/gui-grass-example-2.png" width="89%" alt="GRASS GIS">
 </div>
 <div class="col-lg-6">
 <p><b>GRASS GIS</b> runs on Linux, Mac and Windows. It comes with both an intuitive graphical user interface and a command line syntax usefull for automation and production.</p>

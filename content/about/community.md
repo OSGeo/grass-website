@@ -6,7 +6,7 @@ layout: "community"
 
 ### GRASS GIS community
 
-The strength, longevity and success of the **GRASS GIS** project relies on its worlwide community of users and developers. Everyone interested is welcome to join the  international, diverse and inclusive GRASS GIS community.
+The strength, longevity and success of the **GRASS GIS** project relies on its worldwide community of users and developers. Everyone interested is welcome to join the  international, diverse and inclusive GRASS GIS community.
 
 <!--- 
 #### GRASS GIS user groups
@@ -23,7 +23,7 @@ The strength, longevity and success of the **GRASS GIS** project relies on its w
 \
 --->
 
-#### GRASS GIS developement team
+#### GRASS GIS development team
 
 The GRASS GIS project is led by a [Team] (https://grasswiki.osgeo.org/wiki/Team) of scientists, researchers and developers from around the world. GRASS GIS software developement is driven by the  [Project Steering Committee](https://trac.osgeo.org/grass/wiki/PSC) which is granting developer access, managing source code releases and coordinating various community activities.
 
