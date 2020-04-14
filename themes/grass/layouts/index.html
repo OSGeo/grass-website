@@ -5,14 +5,14 @@
 </head>
 <body>
   {{ partial "head.html" . }} {{ "<!-- header -->" | safeHTML }}
-  <header class="hero-section overlay bg-cover banner" data-background="{{.Site.BaseURL}}/images/banner.jpg">
+  <header class="hero-section overlay bg-cover banner" data-background="{{.Site.BaseURL}}/images/logos/banner.jpg">
     <div class="container mb-20">
       {{ "<!-- navigation -->" | safeHTML }} {{ partial "navigation.html" . }} {{ "<!-- /navigation -->" | safeHTML }}
     </div>{{ "<!-- banner -->" | safeHTML }}
     <div class="container">
       <div class="row">
         <div class="col-lg-8 text-center mx-auto">
-          <h1 class="mb-3"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/grasslogo.svg" width="33%"></h1>{{ with .Site.Params.banner.description }}
+          <h1 class="mb-3"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="33%"></h1>{{ with .Site.Params.banner.description }}
           <p class=" text-bold mb-4">{{ . }}</p>{{ end }}
         </div>
       </div>
@@ -56,7 +56,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-4 col-sm-6 mb-3">
-          <a class="px-4 py-5 bg-gray text-center shadow d-block fdiv" href="{{.Site.BaseURL}}/about/brand"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/grasslogo.svg" width="39%"></a>
+          <a class="px-4 py-5 bg-gray text-center shadow d-block fdiv" href="{{.Site.BaseURL}}/about/brand"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="39%"></a>
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
           {{ partial "foss4g.html" . }}
