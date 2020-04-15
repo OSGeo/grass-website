@@ -15,7 +15,7 @@ The authors of the individual programs or modules are listed at the end of the r
 ## Get Involved
 
 ### Report a bug or enhancement wish
-<img src="../../images/bugreport.svg" width="30%" alt="" style="float:right">
+<img src="../../images/other/bugreport.svg" width="30%" alt="" style="float:right;padding-left:10px;">
 Bug reports and feature requests can be submitted as issues in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues).
 
 All new submissions in the tracker will be automatically forwarded to the GRASS GIS development mailing list.
@@ -32,7 +32,7 @@ If you want, you can read [How to Report Bugs Effectively](http://www.chiark.gre
 </small>
 
 ### Documentation
-<img src="../../images/document.svg" width="20%" alt="" style="float:left">
+<img src="../../images/other/document.svg" width="20%" alt="" style="float:left">
 
 Each GRASS GIS module comes with a respective [manual page](/learn/manuals) that provides clear and up-to-date documentation including working examples.
 
@@ -41,7 +41,7 @@ There are also several [tutorials](/learn/tutorials), courses and wikis contribu
 **Writing or editing documentation and tutorials is an ideal platform for your first contribution to the project.**
 
 ### Translation
-<img src="../../images/translation.svg" width="30%" alt="" style="float:right">
+<img src="../../images/other/translation.svg" width="30%" alt="" style="float:right;padding-left:10px;">
 The great worldwide interest in GRASS suggests value in translating GRASS messages to languages other than English. 
 The GRASS Development Team is continuously seeking translators.
 
@@ -55,7 +55,7 @@ and check the [messages translation Wiki page](http://grasswiki.osgeo.org/wiki/G
 on how we translate on [**Transifex**](https://www.transifex.com/grass-gis/grass7/).
 
 ### Create an Add-on
-<img src="../../images/addons.svg" width="30%" alt="" style="float:left">
+<img src="../../images/other/addons.svg" width="30%" alt="" style="float:left;padding-right:10px;">
 Developing your own modules? Great! 
 
 Please upload your add-ons to the **GRASS GIS Addons repository**. In this way, they become available to the community
@@ -66,7 +66,7 @@ Further details about how to gain access to our [GitHub Addons repository](https
 found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASSaddonsrepository).
 
 ### Contribute to GRASS GIS core
-<img src="../../images/core_devel.svg" width="30%" alt="" style="float:right;padding-left:10px">
+<img src="../../images/other/core_devel.svg" width="30%" alt="" style="float:right;padding-left:10px">
 The GRASS GIS core consists of the libraries used by GRASS GIS modules and GUI, as well as the code used to develop the Graphic User Interface and the most important modules.
 
 It may be a good idea to send a small posting to the [GRASS developers mailing list](http://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
