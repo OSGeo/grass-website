@@ -25,13 +25,13 @@ The strength, longevity and success of the **GRASS GIS** project relies on its w
 
 #### GRASS GIS development team
 
-The GRASS GIS project is led by a [Team] (https://grasswiki.osgeo.org/wiki/Team) of scientists, researchers and developers from around the world. GRASS GIS software developement is driven by the  [Project Steering Committee](https://trac.osgeo.org/grass/wiki/PSC) which is granting developer access, managing source code releases and coordinating various community activities.
+The GRASS GIS project is led by a [Team] (https://grasswiki.osgeo.org/wiki/Team) of scientists, researchers and developers from around the world. GRASS GIS software development is driven by the  [Project Steering Committee](https://trac.osgeo.org/grass/wiki/PSC) which is granting developer access, managing source code releases and coordinating various community activities.
 
 ### Mailing lists
 
 <div class="alert rounded-0 alert-default">
 The mailing lists are the primary point of contact for the GRASS GIS project. 
-Subscribe to start the conversation, and follow the <a href="grasswiki.osgeo.org/wiki/Mailing_list_etiquette" target="_blank">mailing list etiquette</a> please.
+Subscribe to start the conversation, and please follow the <a href="grasswiki.osgeo.org/wiki/Mailing_list_etiquette" target="_blank">mailing list etiquette</a>.
 </div>
 
 | NAME | LINK | DESCRIPTION |
