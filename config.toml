@@ -40,11 +40,16 @@ greyColorDark = "#A0A0A0"
 
     # navigation
     [Languages.en.menu]
-    
-      [[Languages.en.menu.main]]
-        weight = 1
-        name = "Download"
-        url = "/download"
+
+    [[Languages.en.menu.main]]
+      weight = 1
+      name = "News"
+      URL = "/news"
+
+    [[Languages.en.menu.main]]
+      weight = 2
+      name = "Download"
+      url = "/download"
 
 	[[Languages.en.menu.main]]
           parent = "Download"
@@ -70,7 +75,7 @@ greyColorDark = "#A0A0A0"
           URL = "/download/docker"
           weight = 4
 
-        [[Languages.en.menu.main]]
+    [[Languages.en.menu.main]]
           parent = "Download"
           name = "Addons"
           URL = "/download/addons"
@@ -83,7 +88,7 @@ greyColorDark = "#A0A0A0"
           weight = 6
         
       [[Languages.en.menu.main]]
-        weight = 2
+        weight = 3
         name = "Learn"
         url = "/learn"
 
@@ -125,7 +130,7 @@ greyColorDark = "#A0A0A0"
 
     
       [[Languages.en.menu.main]]
-        weight = 3
+        weight = 4
         name = "Contribute"
         url = "/contribute"
         hasChildren = true
@@ -156,15 +161,15 @@ greyColorDark = "#A0A0A0"
 
 
       [[Languages.en.menu.main]]
-        weight = 4
+        weight = 5
         name = "About"
         url = "/about"
         hasChildren = true
-	
+
           [[Languages.en.menu.main]]
           parent = "About"
-          name = "News"
-          URL = "/news"
+          name = "License"
+          URL = "/about/license"
           weight = 1
 
           [[Languages.en.menu.main]]
@@ -175,15 +180,15 @@ greyColorDark = "#A0A0A0"
 
           [[Languages.en.menu.main]]
           parent = "About"
-          name = "Brand"
-          URL = "/about/brand"
-          weight = 4
-
-          [[Languages.en.menu.main]]
-          parent = "About"
           name = "History"
           URL = "/about/history"
           weight = 3
+
+          [[Languages.en.menu.main]]
+          parent = "About"
+          name = "Brand"
+          URL = "/about/brand"
+          weight = 4
 
           [[Languages.en.menu.main]]
           parent = "About"
