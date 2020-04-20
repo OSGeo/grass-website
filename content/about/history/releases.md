@@ -10,6 +10,10 @@ layout: "general"
 
 Version details:
 
+<a href="/images/gallery/vector/hexagons_python_editor.png">
+<img src="/images/gallery/vector/hexagons_python_editor.png" width="40%" alt="GRASS GIS 7.2 with Python editor" style="float:right">
+</a>
+
 <ul>
 <li>11 Dec 2019  <b>GRASS GIS 7.8.2</b>: <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.2-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
 <li>9 Nov 2019 <b>GRASS GIS 7.8.1</b>: <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.1-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
@@ -33,6 +37,11 @@ Version details:
 <li>27 Oct 2016 GRASS GIS 7.2.0RC1: <a href="/grass72/source/ChangeLog_7.2.0RC1.gz">ChangeLog</a> - <a href="/grass72/source/">Source Code</a></li>
 <li>2 Oct 2016 <b>GRASS GIS 7.0.5</b>: <a href="/grass70/source/ChangeLog_7.0.5.gz">ChangeLog</a> - <a href="/grass70/source/">Source Code</a></li>
 <li>24 May 2016 Creation of the GRASS GIS <b>7.2 release branch</b> (<a href="https://trac.osgeo.org/grass/changeset/68500/grass/branches/releasebranch_7_2">r68500</a>)</li>
+</ul>
+<a href="/images/gallery/temporal/summer_solstice_centennial.gif">
+<img src="/images/gallery/temporal/summer_solstice_centennial.gif" width="40%" alt="GRASS GIS temporal visualization of solar energy" style="float:right">
+</a>
+<ul>
 <li>1 May 2016 <b>GRASS GIS 7.0.4</b>: <a href="/grass70/source/ChangeLog_7.0.4.gz">ChangeLog</a> - <a href="/grass70/source/">Source Code</a></li>
 <li>18 Apr 2016 GRASS GIS 7.0.4RC1: <a href="/grass70/source/ChangeLog_7.0.4RC1.gz">ChangeLog</a> - <a href="/grass70/source/">Source Code</a></li>
 <li>28 Jan 2016 <b>GRASS GIS 7.0.3</b>: <a href="/grass70/source/ChangeLog_7.0.3.gz">ChangeLog</a> - <a href="/grass70/source/">Source Code</a></li>
@@ -50,11 +59,17 @@ Version details:
 <li>14 Jan 2015 GRASS GIS 7.0.0RC1: <a href="/grass70/source/ChangeLog_7.0.0RC1.gz">ChangeLog</a> - <a href="/grass70/source/">Source Code</a></li>
 </ul>
 
+<div style="margin: 5px;" align="center"><img src="/images/gallery/development/grass_5_6_7_roadmap_graphic.png" alt="Roadmap of GRASS GIS" width="872" height="277" /></div>
+
 ### GRASS GIS 5 and 6
 
 GRASS GIS 6.x and 5.x releases list: see <a href="https://github.com/OSGeo/grass-legacy/releases">on GitHub</a>
 
 Version details:
+
+<a href="/images/gallery/gui/grass61_nviz_contours.png">
+<img src="/images/gallery/gui/grass61_nviz_contours.png" width="25%" alt="GRASS GIS 6.1 with NVIZ" style="float:right">
+</a>
 
 <ul>
 <li>25 Jun 2014 GRASS GIS 6.4.4: <a href="/grass64/source/ChangeLog_6.4.4.gz">ChangeLog</a> - <a href="/grass64/source/">Source Code</a></li>
@@ -90,6 +105,11 @@ Version details:
 <li>27 Nov 2007 <b>GRASS GIS 6.2.3</b>: <a href="/grass62/source/ChangeLog_6.2.3.gz">ChangeLog</a> - <a href="/grass62/source/">Source Code</a></li>
 <li>21 Oct 2007 GRASS GIS 6.2.3RC1: <a href="/grass62/source/ChangeLog_6.2.3RC1.gz">ChangeLog</a> - <a href="/grass62/source/">Source Code</a></li>
 <li>26 Jul 2007 GRASS GIS 5.4.1: <a href="/grass54/source/ChangeLog">ChangeLog</a> - <a href="/grass54/source/">Source Code</a></li>
+</ul>
+<a href="/images/gallery/gui/grass62_gui_ubuntu.jpg">
+<img src="/images/gallery/gui/grass62_gui_ubuntu.jpg" width="25%" alt="GRASS GIS 6.2.2" style="float:right">
+</a>
+<ul>
 <li>16 Jun 2007 GRASS GIS 6.2.2: <a href="/grass62/source/ChangeLog_6.2.2.gz">ChangeLog</a> - <a href="/grass62/source/">Source Code</a></li>
 <li>29 May 2007 GRASS GIS 6.2.2RC1: <a href="/grass62/source/ChangeLog_6.2.2RC1.gz">ChangeLog</a> - <a href="/grass62/source/">Source Code</a></li>
 <li>12 Dec 2006 GRASS GIS 6.2.1: <a href="/grass62/source/ChangeLog_6.2.1.gz">ChangeLog</a> - <a href="/grass62/source/">Source Code</a></li>
@@ -115,12 +135,15 @@ Version details:
 <li>3 Aug 2005 GRASS GIS 6.0.1RC1: <a href="/grass60/source/ChangeLog_6.0.1RC1.gz">ChangeLog</a> - <a href="/grass60/source/">Source Code</a></li>
 <li>10 Mar 2005 <b>GRASS GIS 6.0.0</b>: <a href="/grass60/source/ChangeLog_6.0.0.gz">ChangeLog</a> - <a href="/grass60/source/">Source Code</a></li>
 <li>4 Feb 2005 GRASS GIS 6.0.0beta2: <a href="/grass60/source/ChangeLog_beta2.gz">ChangeLog</a> - <a href="/grass60/source/">Source Code</a></li>
-<li>12 Jan 2005 GRASS GIS 6.0.0beta1: <a href="/grass60/source/ChangeLog_beta1.gz">ChangeLog</a> - <a href="/grass60/source/">Source Code</a>
-<div style="margin: 5px;" align="center"><img src="/images/gallery/development/grass_5_6_roadmap_graphic.jpg" alt="" width="664" height="277" /></div>
-</li>
-<li>5 Nov 2004 GRASS GIS 5.4.0: <a href="/grass54/source/NEWS.html">NEWS</a> - <a href="/grass54/source/ChangeLog">ChangeLog</a> - <a href="/grass54/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/log/grass/branches/releasebranch_5_4">branch</a></li>
-<li>17 Jun 2004 GRASS GIS 5.7.0: <a href="/grass57/source/ChangeLog">ChangeLog</a> - <a href="/grass57/source/">Source Code</a></li>
-<li>15 May 2004 GRASS GIS 5.3.0: <a href="/news/2004_05_15_announce_grass530/">Press release</a> – <a href="/grass53/source/News.html">NEWS</a> - <a href="/grass53/source/ChangeLog">ChangeLog</a> - <a href="/grass53/source/">Source Code</a></li>
+<li>12 Jan 2005 GRASS GIS 6.0.0beta1: <a href="/grass60/source/ChangeLog_beta1.gz">ChangeLog</a> - <a href="/grass60/source/">Source Code</a></li>
+<li>5 Nov 2004 GRASS GIS 5.4.0 stable: <a href="/grass54/source/NEWS.html">NEWS</a> - <a href="/grass54/source/ChangeLog">ChangeLog</a> - <a href="/grass54/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/log/grass/branches/releasebranch_5_4">branch</a></li>
+</ul>
+<a href="/images/gallery/gui/grass57_snapshot_kde.png">
+<img src="/images/gallery/gui/grass57_snapshot_kde.png" width="25%" alt="GRASS GIS 5.7" style="float:right">
+</a>
+<ul>
+<li>17 Jun 2004 GRASS GIS 5.7.0 development: <a href="/grass57/source/ChangeLog">ChangeLog</a> - <a href="/grass57/source/">Source Code</a></li>
+<li>15 May 2004 GRASS GIS 5.3.0 development: <a href="/news/2004_05_15_announce_grass530/">Press release</a> – <a href="/grass53/source/News.html">NEWS</a> - <a href="/grass53/source/ChangeLog">ChangeLog</a> - <a href="/grass53/source/">Source Code</a></li>
 <li>6 Nov 2003 GRASS GIS 5.0.3: <a href="/news/2003_11_06_announce_grass503/">Press release</a> - <a href="/grass50/source/ChangeLog">ChangeLog</a></li>
 <li>10 Apr 2003 GRASS GIS 5.0.2: <a href="/news/2003_04_10_announce_grass502/">Press release</a></li>
 <li>28 Jan 2003 GRASS GIS 5.0.1</li>
@@ -133,6 +156,8 @@ Version details:
 <li>4 Feb 2001 GRASS GIS 5.0 beta11</li>
 <li>Jan 2001 <b>Request Tracker (RT) established for bug tracking</b></li>
 </ul>
+
+<div style="margin: 5px;" align="center"><img src="/images/gallery/development/grass_5_6_roadmap_graphic.jpg" alt="" width="664" height="277" /></div>
 
 ### Forming the GRASS Development Team and adopting GNU GPL license
 
@@ -153,6 +178,10 @@ Version details:
 </ul>
 
 ### Years of transition
+
+<a href="/images/gallery/gui/grass421_tcltkgrass.png">
+<img src="/images/gallery/gui/grass421_tcltkgrass.png" width="25%" alt="GRASS GIS 4.2.1: TclTkGRASS" style="float:right">
+</a>
 
 <ul>
 <li>Jun 1999 <a href="/grass50/source/">GRASS 5.0</a> jointly released by Baylor University and Markus Neteler</li>
@@ -188,6 +217,10 @@ Version details:
 
 ### USA-CERL: initial internet times and fade-out
 
+<a href="/images/gallery/history/3D_flight_still_1995.jpg">
+<img src="/images/gallery/history/3D_flight_still_1995.jpg" width="25%" alt="GRASS GIS 3D visualization" style="float:right">
+</a>
+
 <ul>
 <li>Feb 1996 US-CERL withdrawal from GRASS: <a href="http://web.archive.org/web/19990210183258/http://www.cecer.army.mil/grass/transition.html">USA-CERL no longer supports GRASS announcement</a> (<a href="/news/cerl1996/transition.html">local copy</a>)</li>
 <li>1995 <a href="/grass_cerl_fp_1995/">internal GRASS 5.0fp version</a> with floating point raster data support (major architecture change; not yet officially released)</li>
@@ -201,6 +234,10 @@ Version details:
 
 ### USA-CERL: The early years
 
+<a href="/images/gallery/history/grass32_tape.jpg">
+<img src="/images/gallery/history/grass32_tape.jpg" width="25%" alt="GRASS GIS 3.2 magnetic tape 1989" style="float:right">
+</a>
+
 <ul>
 <li>1988 GRASS 3.0: <b>Army R&amp;D Achievement Award</b> (Webster, Goran, Shapiro, Westervelt)</li>
 <li>1987 GRASS 2.0: first issue of <a href="/files/grassclip6_2_92.pdf">GRASSClippings 1992a</a> + <a href="/files/grassclip6_3_92.pdf">GRASSClippings 1992b</a> + <a href="/files/grassclippings93_7_2_gardels_ogc.pdf">GRASSClippings 1993</a> (PDF),<br> <a href="http://doi.org/10.5446/12963">GRASS video narrated</a> by <b>William Shatner (Captain Kirk of Star Trek)</b></li>
@@ -210,4 +247,3 @@ Version details:
 <li>1983 Installation of Geographic Information System (IGIS)  (SUN-1 microcomputer)</li>
 <li>1982 Fort Hood Information System (FHIS) (Vax 11/780): <a href="/files/fhgis83rep.pdf">Goran et al. (1983)</a>. <i>Fort Hood Geographic Information System: Pilot System Development and User Instructions.</i> Technical Report N-154, USA-CERL, Champaign, IL</li>
 </ul>
-
