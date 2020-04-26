@@ -50,7 +50,7 @@ layout: "overview"
 
 * [FreeGIS portal](http://freegis.fsv.cvut.cz/gwiki/GRASS_GIS)
 * [GISMentors - GRASS GIS for beginners](http://training.gismentors.eu/grass-gis-zacatecnik/)
-* [GISMentors - GRASS GIS for advancer users](http://training.gismentors.eu/grass-gis-pokrocily)
+* [GISMentors - GRASS GIS for advanced users](http://training.gismentors.eu/grass-gis-pokrocily)
 
 ### Greek
 
