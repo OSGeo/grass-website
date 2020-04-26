@@ -18,6 +18,7 @@ layout: "overview"
 <div class="col-lg-4 ">
 <iframe src="https://www.youtube.com/embed/DNtctW6tAn4?list=PLqa06jy1NEM1sA8M7OpzZB5RAoD8iYshJ" width="99%" height="256px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 </div>
 
 ## All
