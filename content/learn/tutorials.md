@@ -27,6 +27,8 @@ layout: "overview"
 
 ### English
 
+<img src="https://grasswiki.osgeo.org/w/images/WxGUI_set_region.png" width="50%" style="float:right">
+
 * [Introduction to GRASS GIS](http://ncsu-geoforall-lab.github.io/grass-intro-workshop/)
 * [Introduction to GRASS GIS with terrain analysis examples](https://grasswiki.osgeo.org/wiki/Introduction_to_GRASS_GIS_with_terrain_analysis_examples)
 * [Unleash the power of GRASS GIS](https://grasswiki.osgeo.org/wiki/Unleash_the_power_of_GRASS_GIS_at_US-IALE_2017)
@@ -37,6 +39,7 @@ layout: "overview"
 * [Using GRASS GIS through Python and tangible interfaces](Using GRASS GIS through Python and tangible interfaces)
 * [Analytical data visualizations](https://grasswiki.osgeo.org/wiki/Analytical_data_visualizations_at_ICC_2017)
 * [Processing LiDAR and UAV point clouds in GRASS GIS](https://grasswiki.osgeo.org/wiki/Processing_lidar_and_UAV_point_clouds_in_GRASS_GIS_(workshop_at_FOSS4G_Boston_2017))
+<img src="https://grasswiki.osgeo.org/w/images/Wxgui_module_parameters_r_neighbors.png" width="40%" style="float:right">
 * [Geospatial Modeling and Analysis](http://ncsu-geoforall-lab.github.io/geospatial-modeling-course/grass/)
 * [Workshop on urban growth modeling with FUTURES](https://grasswiki.osgeo.org/wiki/Workshop_on_urban_growth_modeling_with_FUTURES)
 * [Spatio-temporal data handling and visualization in GRASS GIS](http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/)
@@ -46,7 +49,9 @@ layout: "overview"
 * [actinia tutorial at OpenGeoHub Summer School 2019](https://neteler.gitlab.io/actinia-introduction/)
 * [GRASS GIS courses in OSGeo Resources](https://www.osgeo.org/resources/)
 
+
 ### Czech
+<img src="https://grasswiki.osgeo.org/w/images/ICC_workshop_3Dview_ortho.png" width="40%" style="float:right">
 
 * [FreeGIS portal](http://freegis.fsv.cvut.cz/gwiki/GRASS_GIS)
 * [GISMentors - GRASS GIS for beginners](http://training.gismentors.eu/grass-gis-zacatecnik/)
@@ -61,6 +66,7 @@ layout: "overview"
 * [GRASS 7 tutorial in Italian language](http://www.ing.unitn.it/~grass/docs/tutorial_70/)
 
 ### Korean
+<img src="/images/gallery/temporal/grass760_temporal_plot_labels.png" width="40%" style="float:right">
 
 * [GRASS tutorial in Korean language](http://pinus.gntech.ac.kr/~grass/)
 
