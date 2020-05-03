@@ -57,11 +57,11 @@ about how these specific domains are handled in GRASS GIS.
 
 #### Videos
 
+<i class="fa fa-video-camera fa-5x" style="float:left;padding-right:30px"></i>
+
 You can just search YouTube for the [GRASS GIS videos](https://www.youtube.com/results?search_query=grass+gis) 
 available there. However, here are pointers to some videos that might be 
 particularly useful for you as a beginner:
-
-<i class="fa fa-video-camera fa-5x" style="float:left;padding-right:30px"></i>
 
 * An [introduction to GRASS GIS](https://www.youtube.com/watch?v=wT5SbZtZ12E) 
 by Vaclav Petras from the NC State University's Center for Geospatial Analytics. 
