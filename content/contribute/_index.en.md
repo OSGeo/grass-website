@@ -21,7 +21,7 @@ All new submissions in the tracker will be automatically forwarded to the GRASS 
  <li>Report only a single bug or feature request with each issue</li>
  <li>Before reporting a bug, please check that it hasn't been reported already in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues)</li>
 </ul>
-We recommend to read [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html) by Simon Tatham.
+We recommend to read [How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) by Simon Tatham.
 </small>
 
 ### Documentation
@@ -43,8 +43,8 @@ This is an opportunity to contribute even for non-programmers since messages can
 
 #### Want to join?
 
-Great! Please subscribe to the dedicated [mailing list](http://lists.osgeo.org/mailman/listinfo/grass-translations)
-and check the [messages translation Wiki page](http://grasswiki.osgeo.org/wiki/GRASS_messages_translation)
+Great! Please subscribe to the dedicated [mailing list](https://lists.osgeo.org/mailman/listinfo/grass-translations)
+and check the [messages translation Wiki page](https://grasswiki.osgeo.org/wiki/GRASS_messages_translation)
 on how we translate on [**Transifex**](https://www.transifex.com/grass-gis/grass7/).
 
 ### Create an Add-on
@@ -62,7 +62,7 @@ found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#Write
 <i class="fa fa-gear fa-5x" style="float:right;padding-left:10px"></i>
 The GRASS GIS core consists of the libraries used by GRASS GIS modules and GUI, as well as the code used to develop the Graphic User Interface and the most important modules.
 
-It may be a good idea to send a small posting to the [GRASS developers mailing list](http://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
+It may be a good idea to send a small posting to the [GRASS developers mailing list](https://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
 (maybe someone will join you!). Please read [how to write source code](https://trac.osgeo.org/grass/wiki/HowToProgram) before submitting. 
 
 We'd also appreciate if you could support us with [bug fixing and enhancement wishes](https://github.com/OSGeo/grass/issues).
@@ -74,7 +74,7 @@ We'd also appreciate if you could support us with [bug fixing and enhancement wi
 **GSoC is a stipend program for students by Google.**
 
 Students are encouraged to propose their own ideas. Otherwise, they can choose from the 
-[GRASS GSoC Ideas](http://trac.osgeo.org/grass/wiki/GSoC) list. If selected, Google 
+[GRASS GSoC Ideas](https://trac.osgeo.org/grass/wiki/GSoC) list. If selected, Google 
 will pay a monthly stipend for 3 months.
 
 #### Google Code-in (GCI)
