@@ -19,7 +19,7 @@ Version details:
 <li>9 Nov 2019 <b>GRASS GIS 7.8.1</b>: <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.1-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
 <li>6 Sep 2019 <b>GRASS GIS 7.8.0</b>: <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.0-News">Changelog</a>  - <a href="/grass78/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78"><b>New Features 7.8</b></a></li>
 <li>4 Aug 2019 Creation of the GRASS GIS <b>7.8 release branch</b> (<a href="https://github.com/OSGeo/grass/tree/releasebranch_7_8">d4879d4</a>)</li>
-<!-- find with git log releasebranch_7_8 --not master -->
+<!-- find with git log releasebranch_7_8 (not master) -->
 <li>19 Mar 2019 <b>GRASS GIS 7.6.1</b>: <a href="/grass76/source/ChangeLog_7.6.1.gz">ChangeLog</a> - <a href="/grass76/source/">Source Code</a></li>
 <li>17 Jan 2019 <b>GRASS GIS 7.6.0</b>: <a href="/grass76/source/ChangeLog_7.6.0.gz">ChangeLog</a> - <a href="/grass76/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76"><b>New Features 7.6</b></a></li>
 <li>4 Jan 2019 <b>GRASS GIS 7.4.4</b>: <a href="/grass74/source/ChangeLog_7.4.4.gz">ChangeLog</a> - <a href="/grass74/source/">Source Code</a></li>
@@ -93,7 +93,7 @@ Version details:
 <li>26 Jan 2009 GRASS GIS 6.4.0RC3: <a href="/grass64/source/ChangeLog_6.4.0RC3.gz">ChangeLog</a> - <a href="/grass64/source/">Source Code</a></li>
 <li>12 Jan 2009 GRASS GIS 6.4.0RC2: <a href="/grass64/source/ChangeLog_6.4.0RC2.gz">ChangeLog</a> - <a href="/grass64/source/">Source Code</a></li>
 <li>23 Dec 2008 GRASS GIS 6.4.0RC1: <a href="/grass64/source/ChangeLog_6.4.0RC1.gz">ChangeLog</a> - <a href="/grass64/source/">Source Code</a></li>
-<li>27 Apr 2008 <b>GRASS GIS 7 development began in <a href="http://trac.osgeo.org/grass/changeset/31142">r31142</a><br /></b></li>
+<li>27 Apr 2008 <b>GRASS GIS 7 development began in <a href="https://trac.osgeo.org/grass/changeset/31142">r31142</a><br /></b></li>
 <li>23 Apr 2008 GRASS GIS 6.3.0: <a href="/grass63/source/ChangeLog_6.3.0.gz">ChangeLog</a> - <a href="/grass63/source/">Source Code</a></li>
 <li>21 Mar 2008 GRASS GIS 6.3.0RC6: <a href="/grass63/source/ChangeLog_6.3.0RC6.gz">ChangeLog</a> - <a href="/grass63/source/">Source Code</a></li>
 <li>19 Feb 2008 GRASS GIS 6.3.0RC5: <a href="/grass63/source/ChangeLog_6.3.0RC5.gz">ChangeLog</a> - <a href="/grass63/source/">Source Code</a></li>

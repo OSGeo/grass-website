@@ -1,6 +1,6 @@
 ---
 title: "GRASS GIS tutorials"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-05-01T11:02:05+06:00
 layout: "overview"
 ---
 
@@ -33,7 +33,7 @@ layout: "overview"
 * [Introduction to GRASS GIS with terrain analysis examples](https://grasswiki.osgeo.org/wiki/Introduction_to_GRASS_GIS_with_terrain_analysis_examples)
 * [Unleash the power of GRASS GIS](https://grasswiki.osgeo.org/wiki/Unleash_the_power_of_GRASS_GIS_at_US-IALE_2017)
 * [From GRASS GIS novice to power user](https://grasswiki.osgeo.org/wiki/From_GRASS_GIS_novice_to_power_user_(workshop_at_FOSS4G_Boston_2017))
-* [GRASS GIS 7 short course at GEOSTAT 2015: Course material](http://data.neteler.org/geostat2015/)
+* [GRASS GIS 7 short course at GEOSTAT 2015: Course material](https://data.neteler.org/geostat2015/)
 * [GRASS GIS Workshop in Jena 2018](https://training.gismentors.eu/grass-gis-workshop-jena-2018/)
 * [GRASS GIS IRSAE Winter Course 2018](https://training.gismentors.eu/grass-gis-irsae-winter-course-2018/)
 * [Using GRASS GIS through Python and tangible interfaces](Using GRASS GIS through Python and tangible interfaces)
@@ -54,12 +54,12 @@ layout: "overview"
 <img src="https://grasswiki.osgeo.org/w/images/ICC_workshop_3Dview_ortho.png" width="40%" style="float:right">
 
 * [FreeGIS portal](http://freegis.fsv.cvut.cz/gwiki/GRASS_GIS)
-* [GISMentors - GRASS GIS for beginners](http://training.gismentors.eu/grass-gis-zacatecnik/)
-* [GISMentors - GRASS GIS for advanced users](http://training.gismentors.eu/grass-gis-pokrocily)
+* [GISMentors - GRASS GIS for beginners](https://training.gismentors.eu/grass-gis-zacatecnik/)
+* [GISMentors - GRASS GIS for advanced users](https://training.gismentors.eu/grass-gis-pokrocily)
 
 ### Greek
 
-* [Αναπαραγωγή του χάρτη CORINE με το GRASS-GIS](http://sourceforge.net/projects/gregis.berlios/files/corine_grass-gis_el.pdf/download)
+* [Αναπαραγωγή του χάρτη CORINE με το GRASS-GIS](https://sourceforge.net/projects/gregis.berlios/files/corine_grass-gis_el.pdf/download)
 
 ### Italian
 

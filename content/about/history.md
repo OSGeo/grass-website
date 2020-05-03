@@ -30,7 +30,7 @@ the first release.
 
 <ul id="links" class="version">
  <li>
- <a href="http://tldp.org/HOWTO/GIS-GRASS/history.html" target="_blank">A Brief History of GRASS</a> in the GRASS Mini-HOWTO by David A. Hastings, 1997.
+ <a href="https://tldp.org/HOWTO/GIS-GRASS/history.html" target="_blank">A Brief History of GRASS</a> in the GRASS Mini-HOWTO by David A. Hastings, 1997.
  </li>
  <li>Lynn Van Warren recalls the <a href="/about/history/van-warren-notes" target="_blank">design of Fort Hood GIS software (FHGIS)</a> that led to GRASS development.
  </li>
@@ -57,7 +57,7 @@ wrote the core components of the GRASS 5.0 floating point version.
 In 1997, and after two years of uncertainty, GRASS development was taken 
 over by academia: Baylor University in Texas for a period, and then University 
 of Hannover in Germany; led by Markus Neteler. The 
-[**GRASS Development Team**](http://grasswiki.osgeo.org/wiki/Team) 
+[**GRASS Development Team**](https://grasswiki.osgeo.org/wiki/Team)
 grew into a multi-national team consisting of developers at numerous locations
 who manages the source code, releases, and documentation ever since then.
 
@@ -82,15 +82,15 @@ tracking was done manually. But starting in December 2000 and
 until December 2006, the 
 [GRASS Request Tracker (RT)](https://web.archive.org/web/20070630161517/http://intevation.de/rt/webrt?q_status=open&amp;q_queue=grass)
 was used. This was a huge improvement! 
-See how GRASS GIS [bug tracking](https://grasswiki.osgeo.org/wiki/Bug_tracking) 
+See how GRASS GIS [bug tracking](https://grasswiki.osgeo.org/wiki/Bug_tracking)
 has evolved through time allowing software to grow better and 
 more efficiently.
 
-In February 2006, the [Open Source Geospatial Foundation](http://www.osgeo.org/) 
+In February 2006, the [Open Source Geospatial Foundation](https://www.osgeo.org/)
 (OSGeo) was formed to support and promote worldwide use and
 collaborative development of Open Source geospatial technologies and data. 
 GRASS GIS is one of its founding projects. Later that year, the 
-[GRASS Project Steering Commitee](http://grasswiki.osgeo.org/wiki/PSC)
+[GRASS Project Steering Commitee](https://grasswiki.osgeo.org/wiki/PSC)
 was formed which is responsible for the overall management of the project. 
 
 <img src="/images/logos/30-years-grass-gis-logo-black-300px.png" width="20%" alt="" style="float:left">

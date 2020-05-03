@@ -11,7 +11,7 @@ layout: "general"
 ### Why donate
 
 *The GRASS GIS project is a volunteer-based organization*, 
-it is an affiliated project and founding member of the Open Source Geospatial Foundation ([OSGeo](http://osgeo.org/)).
+it is an affiliated project and founding member of the Open Source Geospatial Foundation ([OSGeo](https://osgeo.org/)).
 
 There is no cost to participate in the project itself or to use the software.
 
@@ -25,10 +25,10 @@ See here to learn more about our [Community Sprints](https://grasswiki.osgeo.org
 
 ### How is the money used?
 
-The donations are controlled in full transparency by the GRASS Project Steering Committee ([PSC](http://trac.osgeo.org/grass/wiki/PSC)).
+The donations are controlled in full transparency by the GRASS Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC)).
 
 We use to organize face-to-face coding sessions (such as the GRASS [Community Sprints](https://grasswiki.osgeo.org/wiki/Category:Code_Sprint)),
  *financial support can be used to make developers' participation possible*.
 
 Also bug fixing may be financed - community polls will identify outstanding problems which cannot be fixed on a voluntary basis;
-or specific bug-bounties can be arranged (please [contact us](http://trac.osgeo.org/grass/wiki/PSC#Members) first).
+or specific bug-bounties can be arranged (please [contact us](https://trac.osgeo.org/grass/wiki/PSC#Members) first).

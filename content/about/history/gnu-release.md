@@ -16,7 +16,7 @@ The GRASS GIS, which was originally developed by the U.S. Army Corps of Engineer
 
 Since GRASS was initially developed by the U. S. Government, it was considered Public-Domain. However, the GRASS Development Team is not government funded and so needed a way to protect the developers and license the GRASS GIS software.
 
-As of October 25, 1999, GRASS is released under the terms of the Gnu Public License ([GPL](http://www.gnu.org/copyleft/gpl.html)). The GPL is part of the [Free Software Foundation](http://www.gnu.org/), a non-profit group that licenses most software developed as "freeware" by universities and individuals. This makes GRASS the first fully featured GIS that is released worldwide under the GPL.
+As of October 25, 1999, GRASS is released under the terms of the Gnu Public License ([GPL](https://www.gnu.org/copyleft/gpl.html)). The GPL is part of the [Free Software Foundation](https://www.gnu.org/), a non-profit group that licenses most software developed as "freeware" by universities and individuals. This makes GRASS the first fully featured GIS that is released worldwide under the GPL.
 
 For more information, contact the GRASS Development Team via email at grass-web(at)lists.osgeo.org or visit their websites at
 [http://www3.baylor.edu/grass/](https://web.archive.org/web/20011201154208/http://www.baylor.edu:80/grass/index2.html) and

@@ -18,11 +18,11 @@ layout: "os"
 <i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="(https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78 ">GRASS GIS 7.8.2 new features</a> and <a href="(https://trac.osgeo.org/grass/wiki/Release/7.8.2-News ">GRASS GIS 7.8.2 announcement</a> for more information.</div>
 
 *  [Generic 64bit](https://grass.osgeo.org/grass78/binary/linux/snapshot) (weekly binary snapshot)
-*  [Arch Linux](https://aur.archlinux.org/packages/grass/) 
-*  [Debian](http://packages.debian.org/grass) 
+*  [Arch Linux](https://aur.archlinux.org/packages/grass/)
+*  [Debian](https://packages.debian.org/grass)
 *  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (RHEL7/Centos7/Scientific Linux7)
-*  [Fedora](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) 
-*  [Mageia](http://madb.mageia.org/package/show/name/grass/) 
+*  [Fedora](https://copr.fedorainfracloud.org/coprs/neteler/grass78/)
+*  [Mageia](https://madb.mageia.org/package/show/name/grass/)
 *  [openSUSE Debian](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu ](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)  (ubuntugis-unstable)
 *  [Repology](https://repology.org/project/grass/versions) (extended list of GRASS GIS packages)
@@ -36,11 +36,11 @@ layout: "os"
 </div>
 
 *  [Generic 64bit](https://grass.osgeo.org/grass78/binary/linux/snapshot) (weekly binary snapshot)
-*  [Arch Linux](https://aur.archlinux.org/packages/grass/) 
-*  [Debian](http://packages.debian.org/grass) 
+*  [Arch Linux](https://aur.archlinux.org/packages/grass/)
+*  [Debian](https://packages.debian.org/grass)
 *  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (RHEL7/Centos7/Scientific Linux7)
-*  [Fedora](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) 
-*  [Mageia](http://madb.mageia.org/package/show/name/grass/) 
+*  [Fedora](https://copr.fedorainfracloud.org/coprs/neteler/grass78/)
+*  [Mageia](https://madb.mageia.org/package/show/name/grass/)
 *  [openSUSE Debian](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu ](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)  (ubuntugis-unstable)
 *  [Repology](https://repology.org/project/grass/versions) (extended list of GRASS GIS packages)
