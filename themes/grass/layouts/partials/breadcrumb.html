@@ -1,6 +1,6 @@
 <div class="container">
-
-  <div class="col-lg-12">
+ <div class="row">
+  <div class="col-8">
    <ul class="breadcrumb bg-white">
     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
     {{ $.Scratch.Add "path" .Site.BaseURL }}
@@ -16,7 +16,21 @@
      {{ end }}
      {{ end }}
 
-    </ul>
+   </ul>
+ </div>
+ 
+ <div class="col-4">
+  <div class="search pull-right" id="search">
+   <form>
+    <input type="search" placeholder="&#xf002" v-model="txt" @keyup="search()" @blur="close()" maxlength="50">
+   </form>
+   <div class="search-results" :style="{'display': showresult?'block':'none'}">
+     <a v-for="item in result" :href="item.url">{{ printf "{{ item.title }}" }}</a>
+    </div>
    </div>
+  </div> 
+
   </div>
+ </div>
+
 
