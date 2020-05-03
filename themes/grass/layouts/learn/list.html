@@ -19,75 +19,82 @@
   </div>
 </section>
       
-  <section class="bg-white pb-0">
+<section class="bg-white pb-0">
    {{ partial "breadcrumb.html" . }}
-  </section>
+</section>
     
 <section class="pt-4 bg-gray">
   <div class="container">
   <div class="row">
         <div class="col-12 text-center">
           <h2 class="section-title">Get to know the GRASS GIS ecosystem</h2>
+        </div>
+  </div>
+  </div>
 
-	</div>
-    </div>
-    </div>
-
-
-    
 <div class="container">
+
  <div class="row justify-content-center">
 
-       <div class="col-lg-8 col-sm-6 mb-4">
+     <div class="col-lg-8 col-sm-6 mb-4">
 	 <span class="px-4 py-4 bg-white d-block gdiv">
              {{ .Content }}
-            </a>
-       </div>
-       
-    <div class="col-lg-4 col-sm-6 mb-4">
-<iframe src="https://www.youtube.com/embed/9fcBvYetIsM" width="99%" height="99%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </a>
+     </span>
+     </div>
 
-    </div>
-
-    
+     <div class="col-lg-4 col-sm-6 mb-4">
+        <iframe src="https://www.youtube.com/embed/9fcBvYetIsM" width="99%" height="99%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
 </div>
-
-
- <div class="row justify-content-center">
-
-       <div class="col-lg-4 col-sm-6 mb-4">
- <a href="https://grasswiki.osgeo.org/wiki/GRASS-Wiki" target="_blank" class="px-4 py-5 bg-lgr text-center
- d-block htd">
-            <b>GRASS</b> GIS<img src="../images/logos/grasslogo_wiki.png" width="34%" alt="GRASS GIS" />
-            </a>
-       </div>
-       
-       <div class="col-lg-8 col-sm-6 mb-4">
-
- <a href="#" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br></a>
-       </div>
-  
-       </div>
-
 
 
 <div class="row justify-content-center">
 
-  <div class="col-lg-4 col-sm-6 mb-4">
- <a href="#" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br></a>
-  </div>
+    <div class="col-lg-4 col-sm-6 mb-4">
+        <a href="https://grasswiki.osgeo.org/wiki/GRASS-Wiki" target="_blank" class="px-4 py-5 bg-lgr text-center d-block htd">
+            <b>GRASS</b> GIS<img src="/images/logos/grasslogo_wiki.png" width="34%" alt="GRASS GIS">
+        </a>
+    </div>
+       
+    <div class="col-lg-8 col-sm-6 mb-4 bg-white">
+        <img src="/images/gallery/temporal/tgrass_flowchart.png" width="40%" alt="TGRASS Flowchart" style="float:right;padding-top:20px">
+        <a href="https://gitpitch.com/veroandreo/grass_opengeohub2019/master?p=slides/tgrass_lst" class="px-4 py-4 d-block htl"><h3 class="mt-2 mb-4">Time series in GRASS GIS</h3></a>
+        <b>Analyzing spatio-temporal data with GRASS GIS</b><br>
+        Hands-on workshop at the 2019 <a href="https://opengeohub.org">OpenGeoHub</a><br>
+        Summer School
+    </div>
 
-  <div class="col-lg-4 col-sm-6 mb-4">
- <a href="#" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Coming soon</h3><br><br><br></a>
+</div>
+
+
+<div class="row justify-content-center">
+
+  <div class="col-lg-4 col-sm-6 mb-4 text-center">
+      <a href="https://www.youtube.com/watch?v=PX2UpMhp2hc" target="_blank" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4">Write your Addon</h3><i class="fa fa-plug fa-3x" style="padding-top:20px;padding-bottom:20px"></i></a>
   </div>
 
   <div class="col-lg-4 col-sm-6 mb-4 text-center">
- <a href="./tryonline" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4"> Try online </h3><img src="../images/other/www.svg" width="50%" alt=""  align="middle"/></a>
+      <a href="https://neteler.gitlab.io/actinia-introduction/" target="_blank" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4">GRASS in the cloud</h3><img src="/images/other/actinia_light_green.png" width="32%" alt="" align="middle"></a>
   </div>
 
-	</div>
-      
+  <div class="col-lg-4 col-sm-6 mb-4 text-center">
+       <a href="./tryonline" target="_blank" class="px-4 py-4 d-block bg-white htl"><h3 class="mt-2 mb-4">Try GRASS online</h3><img src="/images/other/www_light_green.png" width="45%" alt="" align="middle" style="padding-top:13px"></a>
+  </div>
 
+</div>
+      
+<div class="row justify-content-center">
+
+     <div class="col-lg-8 col-sm-6 mb-4 bg-white">
+     <img src="http://tangible-landscape.github.io/images/rendered_diagram_1.png" width="39%" alt="Tangible landscape setup" style="float:left;padding-top:5px;padding-bottom:5px">
+     <a href="http://tangible-landscape.github.io/index.html" class="px-4 py-4 d-block htl"><h3 class="mt-2 mb-4">Tangible landscape in GRASS</h3></a>
+        <a href="https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016)" target="_blank"><b>Using GRASS through Python and tangible interfaces.</b></a><br>
+        Workshop held at FOSS4G North America, Raleigh 2016 (USA)
+     </div>
+
+     <div class="col-lg-4 col-sm-6 mb-4">
+        <iframe src="https://www.youtube.com/embed/xYRH4ImwWFg" width="99%" height="99%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+</div>
 
 {{ partial "footer.html" . }}

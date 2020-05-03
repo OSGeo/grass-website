@@ -1,5 +1,5 @@
 ---
-title: "What is GRASS GIS ?"
+title: "What is GRASS GIS?"
 date: 2018-12-29T11:02:05+06:00
 layout: "overview"
 ---
@@ -11,7 +11,7 @@ layout: "overview"
 </div>
 <div class="col-lg-8">
 <p><b>G</b>eographic <b>R</b>esources <b>A</b>nalysis <b>S</b>upport <b>S</b>ystem, commonly referred to as <b>GRASS GIS</b>, is a Geographic Information System (GIS) technology built for vector and raster geospatial data management, geoprocessing, spatial modelling and visualization.</p>
-<p><b>GRASS GIS</b> is Free, Libre and Open Source Software released under  the terms of the  <a href="../../download/license"> GNU General Public License (GPL v2) </a>. GRASS GIS is also a founding member and an affiliated  project of the  <a href="https://osgeo.org"> Open Source Geospatial Foundation</a></p>
+<p><b>GRASS GIS</b> is Free and Open Source Software released under the terms of the <a href="/download/license">GNU General Public License (GPL >= v2)</a>. GRASS GIS is also a founding member and an affiliated  project of the  <a href="https://osgeo.org">Open Source Geospatial Foundation (OSGeo)</a></p>
 </div>
 </div>
 </div>
@@ -21,7 +21,7 @@ layout: "overview"
 <div class="container">
 <div class="row mt-20">
 <div class="col-lg-6">
-<p>The <b>GRASS GIS</b> project is an international team effort that includes <a href="https://grasswiki.osgeo.org/wiki/Team">scientists and developers</a> from various fields. GRASS - Geographic Resources Analysis Support System - has been under continuous development since 1982 and it has involved a large number of federal US agencies, universities, and private companies. The core components of GRASS GIS and the management of releases were developed and handled by the Construction Engineering Resesarch Laboratory (CERL) in Champaign, Illinois. Since 1997 a worldwide network of developers continue to release new GRASS GIS versions (see GRASS history section).</p>
+<p>The <b>GRASS GIS</b> project is an international team effort that includes <a href="https://grasswiki.osgeo.org/wiki/Team">scientists and developers</a> from various fields. GRASS has been under continuous development since 1982 and it has involved a large number of federal US agencies, universities, and private companies. The core components of GRASS GIS and the management of releases were developed and handled by the Construction Engineering Resesarch Laboratory (CERL) in Champaign, Illinois. Since 1997 a worldwide network of developers continue to release new GRASS GIS versions. See the <a href="/about/history" target="_blank">GRASS history</a> section for more details.</p>
 
 <p>The strength and success of GRASS GIS relies on the user community. The philosophy of the GRASS GIS Development Team is to encourage users to develop their own unique tools and applications as well as to improve the existent ones.</p>
 </div>
