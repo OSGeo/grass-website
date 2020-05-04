@@ -24,7 +24,9 @@ layout: "os"
 <i class="fa fa-info-circle"></i> <u>Current stable</u> <b>GRASS GIS</b> <u>version.</u>
 </div>
 
-*  [Download link...](http://grassmac.wikidot.com/downloads) 
+<ul>
+<li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
+</ul>
 
 <hr>
 
@@ -34,7 +36,9 @@ layout: "os"
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
 </div>
 
-*  [Download link...](http://grassmac.wikidot.com/downloads) 
+<ul>
+<li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
+</ul>
 
 
 
@@ -46,7 +50,9 @@ layout: "os"
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
-*  [Download link...](http://grassmac.wikidot.com/downloads) 
+<ul>
+<li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
+</ul>
 
 
 <hr>
