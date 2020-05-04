@@ -21,7 +21,7 @@ layout: "os"
 ### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.2 (new stable) 
 
 <div class="alert rounded-0 alert-info">
-<i class="fa fa-info-circle"></i> <u>Current stable</u> <b>GRASS GIS</b> <u>version.</u>
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.2-News">GRASS GIS 7.8.2 announcement</a> for more information.
 </div>
 
 <ul>
@@ -33,7 +33,7 @@ layout: "os"
 ### <a name="GRASS-GIS-7.6.1-stable"></a> GRASS GIS 7.6.1 (old stable) 
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
 </div>
 
 <ul>
