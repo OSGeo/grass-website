@@ -12,7 +12,7 @@ layout: "os"
   
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on the <a href="https://repology.org/project/grass/versions" target="_blank">GRASS GIS for Mac</a> and <a href="https://www.kyngchaos.com/software/grass/" target="_blank">Kyng Chaos</a> websites.
+<i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on this website: <a href="http://grassmac.wikidot.com" target="_blank"> GRASS GIS for the Mac </a>
 </div>
 
 <hr>
@@ -20,11 +20,11 @@ layout: "os"
 
 ### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.2 (new stable) 
 
-<div class="alert rounded-0 alert-danger">
-<i class="fa fa-warning"></i> <b>GRASS GIS binaries</b> are not yet ready for GRASS GIS 7.8.x.
+<div class="alert rounded-0 alert-info">
+<i class="fa fa-info-circle"></i> <u>Current stable</u> <b>GRASS GIS</b> <u>version.</u>
 </div>
 
-Coming soon.
+*  [Download link...](http://grassmac.wikidot.com/downloads) 
 
 <hr>
 
@@ -34,19 +34,19 @@ Coming soon.
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
 </div>
 
-*  [Download link...](https://...) 
+*  [Download link...](http://grassmac.wikidot.com/downloads) 
 
 
 
 <hr>
 
-### <a name="GRASS-GIS-7.7-devel"></a> GRASS 7.9 dev (unstable)
+### <a name="GRASS-GIS-7.9-devel"></a> GRASS 7.9 dev (unstable)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
-*  [Download link...](https://...) 
+*  [Download link...](http://grassmac.wikidot.com/downloads) 
 
 
 <hr>
