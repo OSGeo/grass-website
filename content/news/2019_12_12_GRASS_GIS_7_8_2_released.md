@@ -13,7 +13,7 @@ author: Admin
 
 **What's new in a nutshell**
 
-As a follow-up to the recent GRASS GIS 7.8.1 we have pusblished the
+As a follow-up to the recent GRASS GIS 7.8.1 we have published the
 **new stable release GRASS GIS 7.8.2**. Besides other improvements, the
 release contains important PROJ 4/5/6 related datum handling fixes,
 wxGUI fixes and a fix for the vector import from PostGIS databases.
