@@ -128,7 +128,7 @@ a more comprehensive collection with additional hydrological and ecological data
 </ul>
 
 
-On the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) pages of the GRASS GIS WIKI, the community shares information on other open datasets
+In the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) wiki, the community shares information on other open datasets
 all over the globe and how they are imported into GRASS GIS.
 
 <hr>
