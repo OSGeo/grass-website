@@ -110,7 +110,7 @@ the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf"
 <hr>
 
 ### <a name="GlobalDatasets"></a> Global datasets
-Based on amongst others the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS GIS location with global
+Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS GIS location with global
 background maps is available in the World Geodetic System 1984 (WGS84). It is provided in two versions exist, one smaller, basic version and 
 a as more comprehensive collection with additional hydrological and ecological data: 
 <ul id="links" class="list-unstyled version">
