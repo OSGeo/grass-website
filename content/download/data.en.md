@@ -38,13 +38,13 @@ The North Carolina dataset can be downloaded in two versions:
 <ul id="links" class="list-unstyled version">
  <li>
   <span class="mwl"><a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha.zip " target="_blank"> North Carolina full dataset </a></span>
-  <a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha.zip" class="inl btn btn-primary" target="_blank">Download ZIP (159MB)</a>
-  <a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha2.tar.gz" class="inl btn btn-secondary">Download TAR.GZ (159MB)</a>
+  <a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha.zip" class="inl btn btn-primary" target="_blank">Download ZIP (159 MB)</a>
+  <a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha2.tar.gz" class="inl btn btn-secondary">Download TAR.GZ (159 MB)</a>
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip" target="_blank"> North Carolina basic dataset </a></span>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP  (50MB)</a>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ  (50MB)</a>
+  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP  (50 MB)</a>
+  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ  (50 MB)</a>
   </li>
 </ul>
 
@@ -61,7 +61,7 @@ the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf"
 <ul id="links" class="list-unstyled version">
  <li>
   <span class="mwl"><a href="https://grass.osgeo.org/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
-  <a href="https://grass.osgeo.org/sampledata/spearfish_grass70data-0.3.tar.gz" class="inl btn btn-primary" target="_blank">Download TAR.GZ (20MB)</a>
+  <a href="https://grass.osgeo.org/sampledata/spearfish_grass70data-0.3.tar.gz" class="inl btn btn-primary" target="_blank">Download TAR.GZ (20 MB)</a>
   </li>
 </ul>
 
@@ -80,28 +80,28 @@ the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf"
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/" target="_blank"> LiDAR </a></span>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21MB)</a>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6MB)</a>
+  <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21 MB)</a>
+  <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6 MB)</a>
   <p>Extra Raleigh LiDAR dataset (note: height in feet):  multi-return</p>
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Climate </a></span>
-  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (690MB)</a>
+  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (690 MB)</a>
   <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Time series </a></span>
-  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2MB)</a>
+  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
   <p>Extra time series of MODIS Land Surface Temperature (mapset to unzip in NC location): MODIS LST time series</p>
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Projection </a></span>
-  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2MB)</a>
+  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
   <p>NAD83(HARN) / North Carolina, EPSG 3358)</p>
   </li>
    <li>
   <span class="mwl"><a href="https://grass.osgeo.org/sampledata/slovakia3d_readme.txt" target="_blank"> 3D / voxel </a></span>
-  <a href="https://grass.osgeo.org/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9MB)</a>
+  <a href="https://grass.osgeo.org/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9 MB)</a>
   <p>Complete Slovakia 3D precipitation location: Slovakia 3D precipitation voxel dataset</p>
 
   </li>
@@ -110,7 +110,25 @@ the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf"
 <hr>
 
 ### <a name="GlobalDatasets"></a> Global datasets
-On the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) pages of the GRASS GIS WIKI, the community shares information on open datasets
+Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS GIS location with global
+background maps is available in the World Geodetic System 1984 (WGS84). It is provided in two versions, a smaller, basic one and 
+a more comprehensive collection with additional hydrological and ecological data: 
+<ul id="links" class="list-unstyled version">
+ <li>
+  <span class="mwl"><a href="https://zenodo.org/record/3762852#.XrBt0vmxXIE" target="_blank"> Basic global dataset </a></span>
+  <a href="https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1" class="inl btn btn-primary" target="_blank">Download ZIP (117 MB)</a>
+  </li>
+</ul>
+
+<ul id="links" class="list-unstyled version">
+ <li>
+  <span class="mwl"><a href="https://zenodo.org/record/3359632#.XrBvnPmxXIE" target="_blank"> Full global dataset </a></span>
+  <a href="https://zenodo.org/record/3359632/files/global-dataset.zip?download=1" class="inl btn btn-primary" target="_blank">Download ZIP (1.3 GB)</a>
+  </li>
+</ul>
+
+
+In the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) wiki, the community shares information on other open datasets
 all over the globe and how they are imported into GRASS GIS.
 
 <hr>
