@@ -72,8 +72,9 @@ layout: "overview"
 
 ### Portuguese
 
-* [Introdução à Análise Digital de Terreno com GRASS-GIS](https://figshare.com/articles/Introdu_o_An_lise_Digital_de_Terreno_com_GRASS_GIS)
-* [Geoprocessamento com Software Livre: GRASS-GIS e QGIS](https://figshare.com/articles/Geoprocessamento_com_Software_Livre_GRASS_GIS_e_QGIS)
+* [Geoprocessamento com GRASS-GIS (2016)](https://figshare.com/articles/Geoprocessamento_com_GRASS-GIS/3502184)
+* [Geoprocessamento com Software Livre: GRASS-GIS e QGIS (2012)](https://figshare.com/articles/Geoprocessamento_com_Software_Livre_GRASS_GIS_e_QGIS/1004167)
+* [Introdução à Análise Digital de Terreno com GRASS-GIS (2008)](https://figshare.com/articles/Introdu_o_An_lise_Digital_de_Terreno_com_GRASS_GIS/1004165)
 
 ### Spanish
 
