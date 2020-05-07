@@ -32,7 +32,8 @@ at [new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewF
 -   [Fedora and EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (incl. CentOS7, RHEL7 - also included in Fedora 31+)
 -   Linux Mint: see Ubuntu
 -   [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) (ubuntugis-unstable)
--   ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html#g78x)
+- Mac: available on [MacPorts](https://ports.macports.org/port/grass7/summary)
+- ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html#g78x)
 
 **Source code download:**
 
@@ -71,4 +72,3 @@ distributed freely under the terms of the GNU General Public License
 Foundation (OSGeo).
 
 *The GRASS Development Team, May 2020*
-
