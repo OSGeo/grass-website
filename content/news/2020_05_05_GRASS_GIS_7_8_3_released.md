@@ -30,7 +30,7 @@ While still in the works, an [automated source code quality test system](https:/
     [32bit standalone installer](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.3-1-Setup-x86.exe) \|  [64bit standalone installer](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.3-1-Setup-x86_64.exe)
 -   winGRASS 7.8.3 OSGeo4W:
     [32bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe) \| [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe)
--   [Debian](https://packages.debian.org/source/sid/grass)
+-   [Debian](https://tracker.debian.org/pkg/grass)
 -   [Fedora and EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (incl. CentOS7, RHEL7 - also included in Fedora 31+)
 -   Linux Mint: see Ubuntu
 -   [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) (ubuntugis-unstable)
