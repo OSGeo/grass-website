@@ -1,6 +1,6 @@
 ---
 title: "License"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-05-05T05:05:05+05:00
 layout: "general"
 ---
 
@@ -36,7 +36,7 @@ See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/
 Please cite GRASS when using the software in your work. Here are some choices
 depending on the version used:
 
-- GRASS Development Team, 2019. Geographic Resources Analysis Support System (GRASS)
+- GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS)
 Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
 
 - GRASS Development Team, 2019. Geographic Resources Analysis Support System (GRASS) 
