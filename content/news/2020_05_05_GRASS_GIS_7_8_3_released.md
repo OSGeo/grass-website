@@ -9,20 +9,19 @@ author: GRASS Development Team
 
 ------------------------------------------------------------------------
 
-**GRASS GIS 7.8.3 released**
-
 **What's new in a nutshell**
 
 As a follow-up to the previous GRASS GIS 7.8.2 we have published the
 **new release GRASS GIS 7.8.3**. Besides other improvements, this
 release offers numerous wxGUI improvements and a number of Mac-specific,
 more or less critical bugfixes. A notable improvement is
-the now working vector digitizer.
-
-An overview of the new features in the 7.8 release series is available
-at [new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
-
-While still in the works, an [automated source code quality test system](https://github.com/OSGeo/grass/actions) has been started.
+the now working vector digitizer. Moreover, while still in the works, an 
+[automated source code quality test system](https://github.com/OSGeo/grass/actions) 
+has been started. The overview of new features in the 7.8 release series is available at 
+[new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
+See also our detailed announcement with the full list of changes and 
+bugs fixed at 
+[https://trac.osgeo.org/grass/wiki/Release/7.8.3-News](https://trac.osgeo.org/grass/wiki/Release/7.8.3-News).
 
 **Binaries/Installer download:**\
 
@@ -43,17 +42,8 @@ While still in the works, an [automated source code quality test system](https:/
 -   [https://grass.osgeo.org/grass78/source/grass-7.8.3.tar.gz](/grass78/source/grass-7.8.3.tar.gz)
 -   To get the GRASS GIS 7.8.3 source code directly from GitHub, see [here](https://github.com/OSGeo/grass/releases/tag/7.8.3).
 
-**More details:**
-
-See also our detailed announcement:
-
--   [https://trac.osgeo.org/grass/wiki/Release/7.8.3-News](https://trac.osgeo.org/grass/wiki/Release/7.8.3-News)
--   [https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78) (overview of 7.8 release series)
--   [https://grass.osgeo.org/grass7/manuals/addons/](/grass7/manuals/addons/index.html) (list of available addons)
-
-First time users may explore the [first steps tutorial](/learn/) after
+First time users may explore the [**first steps tutorial**](/learn/) after
 installation.
-
 
 **About GRASS GIS**
 
