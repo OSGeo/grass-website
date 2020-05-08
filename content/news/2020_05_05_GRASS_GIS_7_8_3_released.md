@@ -22,6 +22,7 @@ the now working vector digitizer.
 An overview of the new features in the 7.8 release series is available
 at [new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
 
+While still in the works, an [automated source code quality test system](https://github.com/OSGeo/grass/actions) has been started,
 **Binaries/Installer download:**\
 
 -   winGRASS 7.8.3: 
