@@ -8,10 +8,10 @@ author: GRASS Development Team
 ### GRASS GIS 7.8.3 released
 
 ------------------------------------------------------------------------
-
 **What's new in a nutshell**
 
 As a follow-up to the previous GRASS GIS 7.8.2 we have published the
+<img src="/images/news/screenshot_reyna_lizardo.png" alt="Screenshot by @reyna_lizardo" width="45%" style="float:right;padding-left:10px;padding-top:20px">
 **new release GRASS GIS 7.8.3**. Besides other improvements, this
 release offers numerous wxGUI improvements and a number of Mac-specific,
 more or less critical bugfixes. A notable improvement is
@@ -62,5 +62,7 @@ other software packages such as QGIS and R geostatistics. It is
 distributed freely under the terms of the GNU General Public License
 (GPL). GRASS GIS is a founding member of the Open Source Geospatial
 Foundation (OSGeo).
+
+*Thanks to @reyna_lizardo for the screenshot.*
 
 *The GRASS Development Team, May 2020*
