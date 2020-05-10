@@ -33,15 +33,16 @@ GRASS GIS is also a founding member and an affiliated  project of the
 from various fields. GRASS has been under continuous development since 1982 
 involving a large number of federal US agencies, universities, 
 and private companies. The development of core components and the management of 
-releases were in charge of the Construction Engineering Resesarch
+releases were in charge of the Construction Engineering Research
 Laboratory (CERL) in Champaign, Illinois. However, since 1997 a worldwide 
 network of developers continue to develop and release GRASS GIS. See the 
-<a href="/about/history" target="_blank">GRASS history</a> section for 
-more details and the full list of 
-<a href="about/history/releases" target="_blank">releases</a>.</p>
+<a href="/about/history" target="_blank">GRASS history</a> section 
+and the full list of 
+<a href="about/history/releases" target="_blank">releases</a>
+for more details.</p>
 
 <p>The strength and success of GRASS GIS relies on the user community. 
-The *philosophy* of the GRASS GIS Development Team is to encourage users 
+The <i>philosophy</i> of the GRASS GIS Development Team is to encourage users 
 to develop their own unique tools and applications as well as to improve 
 the existent ones.</p>
 
@@ -67,11 +68,12 @@ the existent ones.</p>
 both an intuitive graphical user interface (GUI) and a command line 
 syntax useful for automation and production.</p>
 <p><b>GRASS GIS</b> contains over 
-<b><a href="https://grass.osgeo.org/grass-devel/manuals/full_index.html" target="_blank">500 modules</a></b> 
+<b><a href="https://grass.osgeo.org/grass-stable/manuals/full_index.html" target="_blank">500 modules</a></b> 
 to process and render geographic data. The software allows to manipulate
 a variety of raster, vector and 3D formats, and run simple to advanced 
 spatial analysis and modeling. GRASS GIS can connect to spatial databases 
-but also interface with a variety of third-party systems and libraries.</p>
+but also interface with a variety of third-party systems and libraries. 
+See the <i>Interfaces</i> section below for details.</p>
 </div>
 
 </div>
@@ -107,19 +109,21 @@ Some selected relevant features are:
 <div class="row mt-20">
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/other/grass_through_qgis.png" width="80%" alt="GRASS GIS through QGIS">
+<img class="bsh" src="/images/other/grass_through_qgis.png" width="90%" alt="GRASS GIS through QGIS">
 </div>
 
 <div class="col-lg-6">
-GRASS GIS can be used through different interfaces: 
+GRASS GIS can be used through various interfaces: 
 <ul>
-<li>The simplest for new users is the <strong>Graphical User Interface</strong> (GUI).</li>
-<li>Power users use the text-based <strong>command line interface</strong> (CLI).</li>
-<li><strong>C API</strong> for programming.</li>
-<li>Scripting library and object-oriented <strong>Python API</strong>.</li>
-<li><strong>Web interface</strong> through WPS servers.</li>
-<li>QGIS provides two different ways to run GRASS GIS modules.</li>
-<li>R provides an interface to GRASS GIS through the package <strong><i>rgrass7</i></strong>.</li>
+<li>The simplest for new users is the <strong>Graphical User Interface</strong>.</li>
+<li>Power users prefer the text-based <strong>command line interface</strong>.</li>
+<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs#The_C-API" target="_blank"><strong>C API</strong></a> for programming.</li>
+<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library" target="_blank">Scripting library</a> and <a href="https://grasswiki.osgeo.org/wiki/Python/pygrass" target="_blank">object-oriented</a> <strong>Python API</strong>.</li>
+<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_GIS_Jupyter_notebooks" target="_blank">Jupyter Notebooks</a>.</li>
+<li><strong>Web interface</strong> through <a href="https://grasswiki.osgeo.org/wiki/WPS" target="_blank">WPS servers</a>.</li>
+<li><a href="https://docs.qgis.org/3.10/en/docs/user_manual/grass_integration/grass_integration.html" target="_blank">QGIS</a> provides two different ways to run GRASS GIS modules: Processing toolbox and the GRASS GIS plugin.</li>
+<li>R provides an <a href="https://grasswiki.osgeo.org/wiki/R_statistics" target="_blank">interface to GRASS GIS</a> through the package <strong><i>rgrass7</i></strong>.</li>
+<li>It is also possible to <a href="/learn/tryonline" target="_blank">try GRASS online</a>!</li>
 </ul>
 </div>
 
@@ -133,13 +137,13 @@ GRASS GIS can be used through different interfaces:
 
 <div class="col-lg-6">
 <p><b>GRASS GIS</b> capabilities are significantly increased by an impressive
-list of <b>extensions or add-ons</b>. These modules are contributed by users
+list of <b>extensions or addons</b>. These modules are contributed by users
 or developers but are not yet part of the standard distribution.
 There are currently more than <b>300 extensions</b> in the 
-<a href="https://github.com/OSGeo/grass-addons/tree/master/grass7" >official GRASS Add-ons repo</a> 
+<a href="https://github.com/OSGeo/grass-addons/tree/master/grass7">official GRASS Addons repo</a> 
 and many others in the wild to perform the most varied type of tasks.
 <br>Have a look at the full list of 
-<a href="https://grass.osgeo.org/grass7/manuals/addons/" target="_blank">add-ons manual pages</a> 
+<a href="https://grass.osgeo.org/grass-stable/manuals/addons/" target="_blank">addons manual pages</a> 
 to get an idea. If you don't find what you need, maybe you can 
 <a href="/contribute/development/">develop</a> your own add-on then.
 Read <a href="/download/addons/">here</a> to learn how to install them.</p>
@@ -147,7 +151,7 @@ Read <a href="/download/addons/">here</a> to learn how to install them.</p>
 
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="https://grass.osgeo.org/grass78/manuals/addons/number_seasons_ndvi.png" width="75%" alt="Output of r.seasons' addon">
+<img class="bsh" src="https://grass.osgeo.org/grass-stable/manuals/addons/number_seasons_ndvi.png" width="75%" alt="Output of r.seasons' addon">
 </div>
 
 </div>
