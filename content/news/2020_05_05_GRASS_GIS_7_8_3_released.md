@@ -32,7 +32,7 @@ bugs fixed at
 -   [Debian](https://tracker.debian.org/pkg/grass)
 -   [Fedora and EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (incl. CentOS7, RHEL7 - also included in Fedora 31+)
 -   Linux Mint: see Ubuntu
--   [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) (ubuntugis-unstable)
+-   [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass) (ubuntugis-unstable)
 - Mac: available on [MacPorts](https://ports.macports.org/port/grass7/summary)
 - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html#g78x)
 
