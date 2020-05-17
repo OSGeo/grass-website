@@ -20,7 +20,7 @@ layout: "os"
 
 ### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.2 (new stable) 
 
-<div class="alert rounded-0 alert-info">
+<div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.2-News">GRASS GIS 7.8.2 announcement</a> for more information.
 </div>
 
