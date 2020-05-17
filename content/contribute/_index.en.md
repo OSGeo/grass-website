@@ -47,7 +47,7 @@ Great! Please subscribe to the dedicated [mailing list](https://lists.osgeo.org/
 and check the [messages translation Wiki page](https://grasswiki.osgeo.org/wiki/GRASS_messages_translation)
 on how we translate on [**Transifex**](https://www.transifex.com/grass-gis/grass7/).
 
-### Create an Add-on
+### Create an Addon
 <i class="fa fa-plug fa-5x" style="float:left;padding-right:10px"></i>
 Developing your own modules? Great! 
 
