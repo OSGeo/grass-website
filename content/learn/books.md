@@ -6,7 +6,7 @@ layout: "overview"
 
 | | |
 |-------|--------|
-|![alt text](/images/gallery/books/book_petrasova_2018_tangible.jpg "Tangible Landscape") | **Tangible Modeling with Open Source GIS - 2<sup>rd</sup> edition**<br>*A. Petrasova, B. Harmon, V. Petras, P. Tabrizian, H. Mitasova*, 2018.<br><small>ISBN: 978-3-319-89302-0, Softcover ISBN: 978-3-030-07735-8, eBook ISBN: 978-3-319-89303-7<br>202 pages, Springer International Publishing.</small><br><a href="https://doi.org/10.1007/978-3-319-89303-7" target-"_blank">Get the book</a> |
+|![alt text](/images/gallery/books/book_petrasova_2018_tangible.jpg "Tangible Landscape") | **Tangible Modeling with Open Source GIS - 2<sup>nd</sup> edition**<br>*A. Petrasova, B. Harmon, V. Petras, P. Tabrizian, H. Mitasova*, 2018.<br><small>ISBN: 978-3-319-89302-0, Softcover ISBN: 978-3-030-07735-8, eBook ISBN: 978-3-319-89303-7<br>202 pages, Springer International Publishing.</small><br><a href="https://doi.org/10.1007/978-3-319-89303-7" target-"_blank">Get the book</a> |
 
 
 <hr>
