@@ -6,6 +6,14 @@ layout: "overview"
 
 | | |
 |-------|--------|
+|![alt text](/images/gallery/books/book_petrasova_2018_tangible.png "Tangible Landscape") | **Tangible Modeling with Open Source GIS - 3<sup>rd</sup> edition**<br>*A. Petrasova, B. Harmon, V. Petras, P. Tabrizian, H. Mitasova*, 2018.<br><small>ISBN: 978-3-319-89302-0, Softcover ISBN: 978-3-030-07735-8, eBook ISBN: 978-3-319-89303-7<br>202 pages, Springer International Publishing.</small><br><a href="https://doi.org/10.1007/978-3-319-89303-7" target-"_blank">Get the book</a> |
+
+
+<hr>
+
+
+| | |
+|-------|--------|
 |![alt text](/images/gallery/books/book_auda_2018_sig_french.jpeg "GRASS and QGIS - French") | **Syst&egrave;mes d'information g&eacute;ographique** - Cours et exercices corrig&eacute;s avec GRASS et QGIS<br>*Y. Auda*, 2018. <br><small>EAN: 9782100775842<br>212 pages, Dunod.</small><br><a href="https://www.dunod.com/sciences-techniques/systemes-d-information-geographique-cours-et-exercices-corriges-avec-grass-et" target-"_blank">Get the book</a> |
 
 
@@ -14,7 +22,7 @@ layout: "overview"
 
 | | |
 |-------|--------|
-|![alt text](/images/gallery/books/book_petrasova_2015_tangible.jpg "Tangible Landscapes") | **Tangible Modeling with Open Source GIS**<br>*A. Petrasova, B. Harmon, V. Petras, H. Mitasova*, 2015.<br><small>ISBN: 978-3-319-25773-0, eBook ISBN: 978-3-319-25775-4<br>135 pages, Springer International Publishing.</small><br><a href="https://www.springer.com/us/book/9783319257730" target-"_blank">Get the book</a> |
+|![alt text](/images/gallery/books/book_petrasova_2015_tangible.jpg "Tangible Landscape") | **Tangible Modeling with Open Source GIS**<br>*A. Petrasova, B. Harmon, V. Petras, H. Mitasova*, 2015.<br><small>ISBN: 978-3-319-25773-0, eBook ISBN: 978-3-319-25775-4<br>135 pages, Springer International Publishing.</small><br><a href="https://doi.org/10.1007/978-3-319-25775-4" target-"_blank">Get the book</a> |
 
 
 <hr>
