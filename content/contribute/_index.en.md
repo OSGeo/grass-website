@@ -1,15 +1,16 @@
 ---
-title: "Get involved"
+title: "Contribute"
 date: 2018-12-29T11:02:05+05:00
 icon: "fa fa-user"
 description: "Contribute to Open Source Geospatial through GRASS GIS development"
 type : "pages"
-layout: "contribute"
-weight: 3
+layout: "list"
 ---
 
+![2014 OSGeo code print in Wien](/images/gallery/community/2014_vienna_code_sprint_pano_small.jpg "2014 OSGeo code print in Wien")
+
 ### Report a bug or enhancement wish
-<i class="fa fa-bug fa-7x" style="float:right;padding-left:10px"></i>
+<i class="fa fa-bug fa-11x" style="float:right;padding-left:10px"></i>
 Bug reports and feature requests can be submitted as issues in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues).
 All new submissions in the tracker will be automatically forwarded to the GRASS GIS development mailing list.
 
@@ -25,7 +26,7 @@ We recommend to read [How to Report Bugs Effectively](https://www.chiark.greenen
 </small>
 
 ### Documentation
-<i class="fa fa-file-text fa-7x" style="float:left;padding-right:10px"></i>
+<i class="fa fa-file-text fa-9x" style="float:left;padding-right:10px"></i>
 
 Each GRASS GIS module comes with a respective [manual page](/learn/manuals) that provides clear and up-to-date documentation including working examples.
 
@@ -34,7 +35,7 @@ There are also several [tutorials](/learn/tutorials), courses and wikis contribu
 **Writing or editing documentation and tutorials is an ideal platform for your first contribution to the project.**
 
 ### Translation
-<i class="fa fa-language fa-7x" style="float:right;padding-left:10px"></i>
+<i class="fa fa-language fa-11x" style="float:right;padding-left:10px"></i>
 The great worldwide interest in GRASS suggests value in translating GRASS messages to languages other than English. 
 The GRASS Development Team is continuously seeking translators.
 
@@ -48,7 +49,7 @@ and check the [messages translation Wiki page](https://grasswiki.osgeo.org/wiki/
 on how we translate on [**Transifex**](https://www.transifex.com/grass-gis/grass7/).
 
 ### Create an Addon
-<i class="fa fa-plug fa-7x" style="float:left;padding-right:10px"></i>
+<i class="fa fa-plug fa-9x" style="float:left;padding-right:10px"></i>
 Developing your own modules? Great! 
 
 Please upload your add-ons to the **GRASS GIS Addons repository**. In this way, they become available to the community
@@ -59,7 +60,7 @@ Further details about how to gain access to our [GitHub Addons repository](https
 found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASSaddonsrepository).
 
 ### Contribute to GRASS GIS core
-<i class="fa fa-gear fa-7x" style="float:right;padding-left:10px"></i>
+<i class="fa fa-gear fa-11x" style="float:right;padding-left:10px"></i>
 The GRASS GIS core consists of the libraries used by GRASS GIS modules and GUI, as well as the code used to develop the Graphic User Interface and the most important modules.
 
 It may be a good idea to send a small posting to the [GRASS developers mailing list](https://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
