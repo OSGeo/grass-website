@@ -7,6 +7,8 @@ type : "pages"
 layout: "list"
 ---
 
+![2014 OSGeo code print in Wien](/images/gallery/community/2014_vienna_code_sprint_pano_small.jpg "2014 OSGeo code print in Wien")
+
 ### Report a bug or enhancement wish
 <i class="fa fa-bug fa-11x" style="float:right;padding-left:10px"></i>
 Bug reports and feature requests can be submitted as issues in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues).
