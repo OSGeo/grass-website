@@ -4,11 +4,8 @@ date: 2018-12-29T11:02:05+05:00
 icon: "fa fa-user"
 description: "Contribute to Open Source Geospatial through GRASS GIS development"
 type : "pages"
-layout: "general"
-weight: 3
+layout: "list"
 ---
-
-<h3 class="mt-2 mb-4">Contribute to improve the software</h3>
 
 ### Report a bug or enhancement wish
 <i class="fa fa-bug fa-11x" style="float:right;padding-left:10px"></i>
