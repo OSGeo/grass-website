@@ -936,10 +936,10 @@ code{
   }
 
   #links li span a {
-      font-size: 15px !important;      
+    font-size: 15px !important;      
   }
   .entry-meta {
-  font-size: 14px !important;
+    font-size: 14px !important;
   }
 
 }
