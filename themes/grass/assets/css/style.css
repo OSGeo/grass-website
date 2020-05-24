@@ -27,18 +27,24 @@ h1, .h1 {
 h2, .h2 {
   font-size: 32px;
   color: var(--grass-color);
+  margin-bottom: 30px;
 }
 h3, .h3 {
   font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 h4, .h4 {
   font-size: 20px;
+  margin-bottom: 15px;
 }
 h5, .h5 {
   font-size: 18px;
+  margin-bottom: 15px;
 }
 h6, .h6 {
   font-size: 14px;
+  margin-bottom: 10px;
 }
 .dbl {
   display: block !important;
@@ -187,7 +193,6 @@ body {
   background-color: var(--white-color);
   overflow-x: hidden;
 }
-/* preloader */
 
 .preloader {
   position: fixed;
@@ -720,16 +725,7 @@ textarea.form-control {
 .shadow:hover, .shadow:focus {
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.1) !important;
 }
-h2 {
-  margin-bottom: 30px;
-}
-h3 {
-  margin-top: 40px;
-  margin-bottom: 15px;
-}
-h4 {
-  margin-bottom: 15px;
-}
+
 img {
   max-width: 100%;
   height: auto;
@@ -758,8 +754,7 @@ ul li a {
 .entry-title {
   margin-bottom: 5px;
 }
-margin-top: 40px;
-margin-bottom: 15px;
+
 .post-meta {
   color: var(--text-color);
   font-style: italic;
@@ -858,9 +853,75 @@ code{
 }
 
 @media (max-width: 576px) {
-  .grasslogo{
-     width: 70%;
+
+  body {
+  font-size: 14px !important;
   }
+    .navbar .nav-item .nav-link {
+    padding: 9px 9px!important;
+    }
+  .navbar .dropdown-item:not(:last-child) {
+    margin-bottom: 6px;
+  }
+  .grasslogo{
+     width: 85%;
+  }
+  .p-5{
+    padding: .75rem!important;
+  }
+
+  h1, .h1 {
+  font-size: 32px;
+  }
+  h2, .h2 {
+      font-size: 28px;
+      
+  }
+  h3, .h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  }
+  h4, .h4 {
+  font-size: 18px;
+  }
+  h5, .h5 {
+  font-size: 16px;
+  }
+  h6, .h6 {
+  font-size: 14px;
+  }
+  p, .paragraph {
+  font-size: 14px;
+  }
+  ul li, ul li a {
+  font-size: 14px;
+  }
+
+  .banner p {
+  font-size:18px;
+  }
+
+  .page-title {
+      margin-left:20px !important;
+  }
+  
+  .section-title {
+    margin-bottom: 32px;
+    font-size: 24px!important;
+    font-weight: 100!important;
+}
+  .hero-section {
+    padding-bottom: 10px;
+  }
+
+
+  #links li span a {
+      font-size: 15px !important;      
+  }
+  .entry-meta {
+  font-size: 14px !important;
+  }
+
 }
 
 @media (min-width: 600px) {
