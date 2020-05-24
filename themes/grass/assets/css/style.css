@@ -852,14 +852,27 @@ code{
    color: #1d1f21;
 }
 
+.fa-11x {
+  font-size: 11em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+
 @media (max-width: 576px) {
 
   body {
   font-size: 14px !important;
   }
-    .navbar .nav-item .nav-link {
-    padding: 9px 9px!important;
-    }
+  .navbar .nav-item .nav-link {
+    padding: 9px 9px !important;
+  }
   .navbar .dropdown-item:not(:last-child) {
     margin-bottom: 6px;
   }
@@ -867,18 +880,17 @@ code{
      width: 85%;
   }
   .p-5{
-    padding: .75rem!important;
+    padding: .75rem !important;
   }
 
   h1, .h1 {
-  font-size: 28px;
+  font-size: 28px !important;
   }
   h2, .h2 {
-      font-size: 24px;
-      
+  font-size: 24px !important;    
   }
   h3, .h3 {
-  font-size: 22px;
+  font-size: 22px !important;
   margin-top: 20px;
   }
   h4, .h4 {
@@ -913,16 +925,15 @@ code{
   
   .section-title {
     margin-bottom: 32px;
-    font-size: 22px!important;
-    font-weight: 100!important;
+    font-size: 22px !important;
 }
   .hero-section {
     padding-bottom: 10px;
   }
 
   .mb-40 {
-    margin-bottom: 20px!important;
-}
+    margin-bottom: 20px !important;
+  }
 
   #links li span a {
       font-size: 15px !important;      
@@ -951,14 +962,4 @@ code{
   }
 }
 
-.fa-11x {
-  font-size: 11em;
-}
 
-.fa-9x {
-  font-size: 9em;
-}
-
-.fa-7x {
-  font-size: 7em;
-}
