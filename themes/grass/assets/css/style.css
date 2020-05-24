@@ -898,7 +898,8 @@ code{
   }
 
   .banner p {
-  font-size:18px;
+    font-size:18px;
+    padding: 1rem;
   }
 
   .page-title {
@@ -919,6 +920,9 @@ code{
     padding-bottom: 10px;
   }
 
+  .mb-40 {
+    margin-bottom: 20px!important;
+}
 
   #links li span a {
       font-size: 15px !important;      
