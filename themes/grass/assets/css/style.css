@@ -264,7 +264,7 @@ a:focus, button:focus, select:focus {
 }
 .section-title {
   margin-bottom: 32px;
-  color: var(--grey-color-light) !important;
+  color: var(--grey-color-dark) !important;
   font-family: open_sansregular !important;
   font-size: 28px;
   font-weight:100 !important;
