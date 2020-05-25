@@ -84,3 +84,15 @@ will pay a monthly stipend for 3 months.
 
 Students can participate with the [OSGeo organization](https://codein.withgoogle.com/organizations/osgeo/) 
 and solve tasks for different projects. Tasks might include documentation, design, coding, etc.
+
+### Cite GRASS GIS 
+<i class="fa fa-book fa-7x" style="float:left;padding-right:10px"></i>
+
+If you use GRASS GIS for developing applications, products or for your scientific
+work, please [cite](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository) 
+it properly to raise awareness and visibility of the multiple uses of the
+software. 
+
+Have a look at our 
+[Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ)
+profile for examples of applications in the most diverse fields.
