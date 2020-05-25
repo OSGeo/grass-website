@@ -19,5 +19,5 @@ videos and presentations for specific topics,
 with different workflows and [books](/learn/books). There is also a 
 [Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ)
 profile that keeps track of scientific publications and applications
-of GRASS GIS in diverse fields. 
+of GRASS GIS in different domains. 
 You may even [try GRASS online](/learn/tryonle) to get a feeling of its capabilities!
