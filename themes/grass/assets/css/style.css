@@ -58,15 +58,46 @@ h6, .h6 {
 .cap {
   text-transform: capitalize;
 }
+
+.panel-title{
+    font-size:28px;
+
+}
+.panel-title a{
+      color: var(--grey-color-light) !important;
+}
+.panel-title a:hover{
+      color: var(--grey-color-dark) !important;
+}
+
+.collapsible-link {
+    width: 100%;
+    display:block;
+    text-align: left;
+    padding-bottom:9px;
+    border-bottom:1px solid #E1E1E1;
+}
+
+.collapsible-link::before {
+    content: '\f078';
+    display: inline-block;
+    float:right;
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    padding:5px;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f077';
+}
+
 a.nws {
   color: var(--grey-color) !important;
   font-weight: 400;
+  font-size:22px !important;
 }
 a.nws:hover {
   color: var(--grass-color-dark) !important;
-}
-.entry-title:nth-of-type(1)>a {
-  font-weight: 700 !important;
 }
 .grass-green {
   color: var(--primary-color);
@@ -751,8 +782,8 @@ ul li a {
   color: var(--grey-color-light);
   font-size: 16px;
 }
-.entry-title {
-  margin-bottom: 5px;
+.all-posts .entry-title {
+  margin:0  !important;
 }
 
 .post-meta {

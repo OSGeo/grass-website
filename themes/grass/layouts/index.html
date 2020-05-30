@@ -45,7 +45,7 @@
           <main role="main">
             <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
 	    <h3 class="entry-title" itemprop="headline"><a class="nws" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-	 <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+		<span class="entry-meta"> <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}"><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>
 
 	 {{ end }}
             <div class="row justify-content-center pd-20">
