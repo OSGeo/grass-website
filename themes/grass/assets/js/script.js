@@ -31,6 +31,6 @@
       });
       bindNavbar();
     });
-
-    
+    // Collapse current year news accordion
+    $("#news .panel-collapse:first").collapse();      
 })(jQuery);

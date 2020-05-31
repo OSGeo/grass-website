@@ -1,6 +1,5 @@
 {{ partial "head.html" . }}
 
-
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
   <div class="container">
@@ -9,37 +8,40 @@
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
-
 <!-- page title -->
 <section class="section bg-lgr">
   <div class="container">
     <div class="row">
-    <div class="col-lg-8 mx-auto text-center">
-       <h1 class="grass-green cap">{{.Section}}</h1>
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{ .Section}}</h1>
       </div>
     </div>
   </div>
 </section>
-
-<section class="bg-white pb-0">
- {{ partial "breadcrumb.html" . }}
-</section>
+      
+  <section class="bg-white pb-0">
+   {{ partial "breadcrumb.html" . }}
+  </section>
 
 <!-- details page -->
-<section class="single section bg-gray pb-0">
+<section class="pt-4 bg-gray">
+  <div class="container">
+  <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Contribute to Open Source Geospatial</h2>
+        </div>
+  </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-      <div class="p-5 bg-white">
-	      <h2 class="page-title">{{ .Title }}</h2>
-	      <span class="entry-meta"><i class="fa fa-calendar"></i> {{ .Date.Format "Monday, January 2, 2006" }}</span>
+        <div class="p-5 bg-white">
 	      {{ .Content }}
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- /details page -->
 
 
 {{ partial "footer.html" . }}

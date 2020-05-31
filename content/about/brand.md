@@ -50,7 +50,7 @@ layout: "brand"
 <ul class="list-unstyled">
 <li><b>HEX</b>  &#160; #088B36</li>
 <li><b>RGB</b>  &#160; 8,139,54</li>
-<li><b>HSL</b> &#160; 120,100%,28%</li>
+<li><b>HSL</b> &#160; 141.1%,89.1%,28.8%</li>
 </ul>
 </small>
 
@@ -62,7 +62,7 @@ grass-green-alt-bg mb-4"></div>
 <ul class="list-unstyled">
 <li><b>HEX</b>  &#160; #9ED29C</li>
 <li><b>RGB</b>  &#160; 158,210,156</li>
-<li><b>HSL</b> &#160; 188,38%,72%</li>
+<li><b>HSL</b> &#160; 117.8%,37.5%,71.8%</li>
 </ul>
 </small>
 
@@ -73,8 +73,8 @@ grass-green-light-bg mb-4"></div>
 <small>
 <ul class="list-unstyled">
 <li><b>HEX</b>   &#160; #EFF4E8</li>
-<li><b>RGB</b>  &#160; 239,244,232</li>
-<li><b>HSL</b>  &#160;  85,35%,93%</li>
+<li><b>RGB</b>  &#160; 239 244 232</li>
+<li><b>HSL</b>  &#160;  85%,35%,93%</li>
 </ul>
 </small>
 
@@ -83,9 +83,9 @@ grass-green-light-bg mb-4"></div>
 <div class="col-lg-3"><h4 >Dark green</h4><hr><div class="card grass-green-dark-bg mb-4"></div>
 <small>
 <ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #B8C6A5</li>
-<li><b>RGB</b>   &#160; 184,198,165</li>
-<li><b>HSL</b>  &#160; 85,22%,71%</li>
+<li><b>HEX</b>   &#160; #87A06A</li>
+<li><b>RGB</b>   &#160; 135,160,106</li>
+<li><b>HSL</b>  &#160; 88%,22%,52%</li>
 </ul>
 </small>  
 
@@ -97,7 +97,7 @@ grass-green-light-bg mb-4"></div>
 <ul class="list-unstyled clr">
 <li><b>HEX</b>   &#160; #FFFFFF</li>
 <li><b>RGB</b>   &#160; 255,255,255</li>
-<li><b>HSL</b>  &#160; 85,22%,71%</li>
+<li><b>HSL</b>  &#160; 0%,0%,100%</li>
 </ul>
 </small>
 <hr></div>
@@ -106,9 +106,9 @@ grass-green-light-bg mb-4"></div>
 grey-color-light-bg mb-2"></div>
 <small>
 <ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #FFFFFF</li>
-<li><b>RGB</b>   &#160; 255,255,255</li>
-<li><b>HSL</b>  &#160; 85,22%,71%</li>
+<li><b>HEX</b>   &#160; #CCCCCC</li>
+<li><b>RGB</b>   &#160; 204,204,204</li>
+<li><b>HSL</b>  &#160; 0%,0%,80%</li>
 </ul>
 </small>
 
@@ -117,9 +117,9 @@ grey-color-light-bg mb-2"></div>
 <div class="col-lg-3"><h4 >Dark grey</h4><hr><div class="card grey-color-dark-bg mb-2"></div>
 <small>
 <ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #B8C6A5</li>
-<li><b>RGB</b>   &#160; 184,198,165</li>
-<li><b>HSL</b>  &#160; 85,22%,71%</li>
+<li><b>HEX</b>   &#160; #A0A0A0</li>
+<li><b>RGB</b>   &#160; 160,160,160</li>
+<li><b>HSL</b>  &#160; 0%,0%,63%</li>
 </ul>
 </small>  
 
@@ -128,9 +128,9 @@ grey-color-light-bg mb-2"></div>
 <div class="col-lg-3"><h4 >Black</h4><hr><div class="card black-color-bg mb-2"></div>
 <small>
 <ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #FFFFFF</li>
-<li><b>RGB</b>   &#160; 255,255,255</li>
-<li><b>HSL</b>  &#160; 85,22%,71%</li>
+<li><b>HEX</b>   &#160; #000000</li>
+<li><b>RGB</b>   &#160; 0,0,0</li>
+<li><b>HSL</b>  &#160; 0%,0%,0%</li>
 </ul>
 </small>  
 

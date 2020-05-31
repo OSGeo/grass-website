@@ -29,7 +29,7 @@
 	{{ range (where .Site.Pages "Type" "pages") }}
 	{{ if not (in  .Section "about") }}
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mb-4"></i>
+          <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mb-40"></i>
           <h3 class="mb-3">{{ .Title }}</h3>
           <p class="mb-0">{{ .Params.Description }}</p></a>
 	</div>
@@ -41,27 +41,27 @@
   <section class="section npt bg-gray">
     <div class="container">
       <div class="bg-white" id="news">
-        <div class="row justify-content-center pd-40 mb-50">
+        <div class="row justify-content-center pd-40 mb-4">
           <main role="main">
             <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
 	    <h3 class="entry-title" itemprop="headline"><a class="nws" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-	 <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
+		<span class="entry-meta"> <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}"><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>
 
 	 {{ end }}
-            <div class="row justify-content-center pd-40">
+            <div class="row justify-content-center pd-20">
               <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
             </div>
           </main>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-4 col-sm-6 mb-3">
+        <div class="col-lg-4 col-sm-6 mb-4">
           <a class="px-4 py-5 bg-gray text-center shadow d-block fdiv" href="{{.Site.BaseURL}}/about/brand"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="39%"></a>
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
           {{ partial "foss4g.html" . }}
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="col-lg-4 col-sm-6 mb-2">
           {{ partial "osgeo.html" . }}
         </div>
       </div>
