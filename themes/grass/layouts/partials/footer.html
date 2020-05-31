@@ -1,7 +1,6 @@
 {{ "<!-- footer -->" | safeHTML }}
 <footer class="section bg-gray pb-0">
-<div class="container">
-
+  <div class="container">
      <div class="row">
       <div class="col-md-4 text-md-left text-center">
        {{ with .Site.Params.copyright }} <p><small>{{ . }}</small></p> {{ end }}
@@ -28,12 +27,70 @@
 {{ "<!-- highlight -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}plugins/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-
+<script src="{{ .Site.BaseURL }}plugins/vue/vue.min.js"></script>
+<script src="{{ .Site.BaseURL }}plugins/axios/axios.min.js"></script>
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
 
+
+<script>
+let vuesearch = new Vue({
+    el: '#search', 
+    data: {
+        txt: '', 
+        timeoutID: 0, 
+        showresult: true, 
+        result: {}, 
+        bdd: [] 
+        },
+    mounted: function() {
+        axios.get('{{ with .Site.GetPage "/search.md" }}{{ .Permalink }}{{ end }}')
+        .then(function (response) {
+            vuesearch.bdd = response.data.results;
+            })
+        .catch(function (error) {
+            console.log(error);
+            });
+        },
+    methods: {
+        close: function() {
+            setTimeout(function() {
+                vuesearch.showresult = false;
+                vuesearch.txt = '';
+                }, 300);
+            },
+        search: function() {
+            clearTimeout(this.timeoutID);
+            this.timeoutID = setTimeout(this.dosearch, 500);
+            },
+        dosearch: function() {
+            this.result = []; 
+            let words = this.txt.split(' '); 
+            let words2 = []; 
+            words.forEach(function(element) {
+                if(element) {words2.push(element);}
+                });
+            let r;
+            let resultmp;
+            words2.forEach(function(e) {
+                r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                resultmp = [];
+                vuesearch.result.forEach(function(all1) {
+                    r.forEach(function(all2) { 
+                        if(all1.url===all2.url) {resultmp.push(all1);}
+                        });
+                    });
+                vuesearch.result = resultmp.slice();
+                });
+            this.result = this.result.slice(0, 5); // 5 results max
+            this.showresult = (this.result.length>0);
+            } 
+        }
+    });
+</script>
 </body>
 
 </html>
