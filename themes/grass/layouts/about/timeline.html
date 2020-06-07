@@ -1,0 +1,50 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<!-- page title -->
+<section class="section bg-lgr">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{.Title}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white pb-0">
+    {{ partial "breadcrumb.html" . }}
+</section>
+
+<!-- details page -->
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-sm-12">
+        <div class="p-5 bg-white">
+	      {{ .Content }}
+        </div>
+      </div>
+       <div class="col-lg-4 col-sm-12">
+       <div class="pdt-20 bg-beige">
+	 <h2>GRASS legacy</h2>
+	 <div class="alert rounded-0 alert-warning">
+	   <i class="fa fa-info-circle"></i> Get legacy <b>GRASS GIS</b> source code for versions 3.2, 4.x, 5.x & 6.x: <small><a href="https://github.com/OSGeo/grass-legacy">https://github.com/OSGeo/grass-legacy</a></small>
+	 </div>
+	 <center><a href="https://github.com/OSGeo/grass-legacy"><img src="/images/logos/grasslogo_legacy.png" width="38%" /></a></center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ partial "footer.html" . }}
