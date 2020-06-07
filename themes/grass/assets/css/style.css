@@ -870,6 +870,7 @@ nobullets {
    list-style-type: none;
 }
 
+
 .hljs {
    background:#c5c8c6;
    color: #1d1f21;
@@ -893,6 +894,18 @@ code{
 
 .fa-7x {
   font-size: 7em;
+}
+
+.event-title {
+   margin-top: 5px;
+}
+
+.height80 {
+   height: 80vh;
+}
+
+.grasscolor{
+   color: var(--grass-color);
 }
 
 
@@ -992,5 +1005,3 @@ code{
     width: 31%;
   }
 }
-
-

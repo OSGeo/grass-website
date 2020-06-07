@@ -36,7 +36,6 @@
       <div class="col-lg-8">
 <div id="news" class="p-5 bg-white">
     <h2 class="page-title">{{ .Title }}</h2>
-	      
     {{ $prev := 3000}}
     {{range where .Data.Pages "Section" "news"}}
       {{if .Date}}
@@ -71,8 +70,32 @@
   </div>
   </div>
   <div class="col-md-4 bg-white">
-    <h3 class="mt-20"><a href="#">@GRASSGIS</a></h3>
-    <a class="twitter-timeline" data-link-color="#B8C6A5" data-tweet-limit="4" data-chrome="nofooter noheader" href="https://twitter.com/GRASSGIS">@GRASSGIS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="row">
+    	<h3 class="mt-20 grasscolor">@GRASSGIS</h3>
+      <a class="twitter-timeline" data-link-color="#B8C6A5" data-tweet-limit="4" data-chrome="nofooter noheader" href="https://twitter.com/GRASSGIS" height="80vh">@GRASSGIS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="row">
+    <h3 class="mt-20 grasscolor">Next events</h3>
+    {{ $events := where ( where $.Site.Pages "Section" "events" ) ".Params.event.start" "!=" nil }}
+    {{ range first 3 (sort $events ".Page.Params.event.start" "asc") }}
+    {{ if (time .Params.event.start).After now }}
+    <div class="col-lg-12">
+    <div class="row">
+      <div class="col-lg-4">
+         <img src="{{.Site.BaseURL}}/{{.Page.Params.logo}}" class="eventslogo" alt="{{ .Title }}">
+      </div>
+
+      <div class="col-lg-8">
+        <h3 class="entry-title event-title" itemprop="headline"><a href="{{ .Page.Params.website }}" target="_blank" class="nws">{{ .Title }}</a></h3>
+        <span class="entry-meta">
+  	       <p>{{ .Page.Params.where }} <br> {{ .Page.Params.event.start }} - {{ .Page.Params.event.end }}<p>
+  	    </span>
+      </div>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+    </div>  
   </div>
   </div>
   </div>
