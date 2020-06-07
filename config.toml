@@ -221,10 +221,8 @@ greyColorDark = "#A0A0A0"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-youtube"
-      link = "https://www.youtube.com/results?search_query=grass+gis"   
-
-
-
-
-
- 
+      link = "https://www.youtube.com/results?search_query=grass+gis"
+      
+    [[Languages.en.socialIcon]]
+      icon = "fa fa-rss"
+      link = "https://staging.grass.osgeo.org/index.xml" 
