@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luca Delucchi",
+        "url": "http://www.lucadelu.org",
+        "image": "",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.111061573028564,
+          46.13950796157218
+        ]
+      }
+    }
+  ]
+}
