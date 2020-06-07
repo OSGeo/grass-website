@@ -1,6 +1,7 @@
 
 (function ($) {
   var oldfeat;
+  var vecturl='/geojson/user.geojson';
   var container = document.getElementById('popup');
   var content = document.getElementById('popup-content');
   var closer = document.getElementById('popup-closer');
@@ -58,13 +59,14 @@
   });
   
   var vsource = new ol.source.Vector({
-      url: '/geojson/user.geojson',
+      url: vecturl,
       format: new ol.format.GeoJSON()
   });
   
   var vectorLayer = new ol.layer.Vector({
     source: vsource,
-    style: defaultStyle
+    style: defaultStyle,
+    title: 'Users'
   });
   var map = new ol.Map({
     layers: [
@@ -111,4 +113,20 @@
       }
     }
   })
+  $("input[name='layers']").each( function () {
+      //console.log($(this)[0]);
+      $(this)[0].addEventListener('change', function () {
+        var ingeojson = $(this).val();
+        vecturl = '/geojson/' + ingeojson + '.geojson'
+        vsource = new ol.source.Vector({
+            url: vecturl,
+            format: new ol.format.GeoJSON(),
+        });
+        vectorLayer.setSource(vsource);
+        vectorLayer.getSource().refresh();
+        vectorLayer.getSource().changed();
+
+        
+      })
+  });
 })(jQuery);

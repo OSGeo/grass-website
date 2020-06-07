@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mundialis",
+        "url": "https://www.mundialis.de/en/",
+        "logo": "https://www.mundialis.de/wordpress/wp-content/uploads/2015/11/mundialis_logo.png",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0968584,
+          50.7409291
+        ]
+      }
+    }
+  ]
+}
