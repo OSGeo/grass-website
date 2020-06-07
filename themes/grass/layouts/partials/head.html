@@ -19,7 +19,10 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-
+  {{ if eq .URL "/about/map/" }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/ol-6.3.1/ol.css" type="text/css">
+  <script src="{{ .Site.BaseURL }}plugins/ol-6.3.1/ol.js"></script>
+  {{ end }}
   <style>
   :root{
     --primary-color:{{ .Site.Params.primaryColor }};

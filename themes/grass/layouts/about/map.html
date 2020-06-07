@@ -1,0 +1,46 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<!-- page title -->
+<section class="section bg-lgr">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{.Title}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white pb-0">
+    {{ partial "breadcrumb.html" . }}
+</section>
+
+<!-- details page -->
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <div class="map" id="map"></div>
+        <div id="popup" class="ol-popup">
+          <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+          <div id="popup-content"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-sm-6 mb-4">
+        {{ .Content }}
+    </div>
+  </div>
+</section>
+
+
+{{ partial "footer.html" . }}
