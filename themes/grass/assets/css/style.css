@@ -942,6 +942,14 @@ code{
   content: "✖";
 }
 
+#popup-content p, #popup-content img {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+
 @media (max-width: 576px) {
 
   body {

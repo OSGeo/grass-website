@@ -97,12 +97,20 @@
     if (feat) {
       feat.setStyle(highlightStyle);
       oldfeat = feat;
-      var mycontent = '';
+      var mycontent = '<p>';
       var userurl = feat.get('url')
+      var userimage = feat.get('image')
+      if (userimage) {
+        mycontent += '<image src="' + userimage + '" width="75px">'
+      }
       if (userurl) {
-        mycontent += '<p><a href="' + userurl + '" target="_blank">' + feat.get('name') + '</a></p>';
+        mycontent += '<a href="' + userurl + '" target="_blank">' + feat.get('name') + '</a></p>';
       } else {
-        mycontent += '<p>' + feat.get('name') + '</p>';
+        mycontent += feat.get('name') + '</p>';
+      }
+      var userdesc = feat.get('description')
+      if (userdesc) {
+        mycontent += '<p><small>' + userdesc + '</small></p>';
       }
       content.innerHTML = mycontent
   overlay.setPosition(coordinate);
@@ -124,9 +132,7 @@
         });
         vectorLayer.setSource(vsource);
         vectorLayer.getSource().refresh();
-        vectorLayer.getSource().changed();
-
-        
+        vectorLayer.getSource().changed();        
       })
   });
 })(jQuery);
