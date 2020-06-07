@@ -6,7 +6,7 @@
       "properties": {
         "name": "Mundialis",
         "url": "https://www.mundialis.de/en/",
-        "logo": "https://www.mundialis.de/wordpress/wp-content/uploads/2015/11/mundialis_logo.png",
+        "image": "https://www.mundialis.de/wordpress/wp-content/uploads/2015/11/mundialis_logo.png",
         "description": ""
       },
       "geometry": {
