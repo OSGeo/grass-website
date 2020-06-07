@@ -36,7 +36,7 @@ If you want to add a new record to one of the GeoJSON file you have to ways
       "properties": {
         "name": "NAME_SURNAME",
         "url": "YOUR_URL_NOT_REQUIRED",
-        "image": "URL_TO_YOUR_IMAGE",
+        "image": "URL_TO_YOUR_IMAGE_NOT_REQUIRED"
       },
       "geometry": {
         "type": "Point",
