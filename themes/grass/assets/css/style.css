@@ -948,7 +948,9 @@ code{
   font-weight: bolder;
 }
 
-
+input[type='radio']{
+  margin-right: 0.5rem;
+}
 
 @media (max-width: 576px) {
 
