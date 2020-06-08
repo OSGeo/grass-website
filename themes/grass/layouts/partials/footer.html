@@ -33,7 +33,11 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
-
+{{ if eq .URL "/about/map/" }}
+{{ "<!-- Map Script -->" | safeHTML }}
+{{ $script := resources.Get "js/map.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ end }}
 </body>
 
 </html>

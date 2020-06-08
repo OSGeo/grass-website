@@ -180,21 +180,27 @@ greyColorDark = "#A0A0A0"
 
           [[Languages.en.menu.main]]
           parent = "About"
+          name = "Community map"
+          URL = "/about/map"
+          weight = 3
+ 
+          [[Languages.en.menu.main]]
+          parent = "About"
           name = "History"
           URL = "/about/history"
-          weight = 3
+          weight = 4
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "Brand"
           URL = "/about/brand"
-          weight = 4
+          weight = 5
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "Credits"
           URL = "/about/credits"
-          weight = 5
+          weight = 6
 
     # banner
     [Languages.en.params.banner]
