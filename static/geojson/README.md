@@ -5,10 +5,12 @@ In this folder you can find geographical data related to GRASS GIS community. Th
 ## User map
 
 The [user.geojson file](https://github.com/OSGeo/grass-website/static/geojson/user.geojson) contain the position of GRASS GIS users.
+The [provider.geojson file](https://github.com/OSGeo/grass-website/static/geojson/provider.geojson) contain the position of any companies,
+research center, university providing activities (specially development and courses) related to GRASS GIS.
 
 ## Add new record
 
-If you want to add a new record to one of the GeoJSON file you have to ways
+If you want to add a new record to one of the GeoJSON files you have to ways
 
 ### User without Git/Github experience
 
@@ -37,6 +39,25 @@ If you want to add a new record to one of the GeoJSON file you have to ways
         "name": "NAME_SURNAME",
         "url": "YOUR_URL_NOT_REQUIRED",
         "image": "URL_TO_YOUR_IMAGE_NOT_REQUIRED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          LONGITUDE,
+          LATITUDE
+        ]
+      }
+    }
+
+### Provider
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NAME_SURNAME",
+        "url": "YOUR_URL_NOT_REQUIRED",
+        "image": "URL_TO_YOUR_IMAGE_NOT_REQUIRED",
+        "description": "SHORT_DESCRIPTION_YOUR_ACTIVITY_IN_GRASS"
       },
       "geometry": {
         "type": "Point",
