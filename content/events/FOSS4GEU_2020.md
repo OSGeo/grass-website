@@ -1,8 +1,8 @@
 ---
 title: "FOSS4G EUROPE 2020"
 event:
-    start: 2020-07-13
-    end: 2020-07-18
+    start: 
+    end: 
 where: Valmiera
 website: https://2020.europe.foss4g.org/
 layout: "event"
