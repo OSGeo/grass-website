@@ -1,10 +1,10 @@
 ---
-title: "GRASS theme elements"
+title: "GRASS GIS theme elements"
 date: 2018-12-27T09:10:27+06:00
 layout: elements
 ---
 
-## GRASS theme elements
+## GRASS GIS theme elements
 
 <div class="alert rounded-0 alert-default">
 The following <b>Markdown</b> and <b>HTML</b> markup elements should be used to extend the website consistently.
