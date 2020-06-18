@@ -47,7 +47,7 @@ Useful resources:
 
 ### Add a news item
 
- *Head to the news directory
+* Head to the news directory
      cd /grass-website/content/news
 
 * Create new md file
@@ -91,6 +91,37 @@ Useful resources:
       hugo
 
 * Check result at http://localhost:1313/about/mypage
+
+### Add new event
+
+* Head to the news directory
+     cd /grass-website/content/events
+
+* Create new md file
+     sudo nano EVENT_NAME.md
+
+* Use the following header information template for Hugo
+
+  title: "CONFERENCE NAME"
+  event:
+      start: START-DATE
+      end: END-DATE
+  where: CITY
+  website: URL
+  layout: "event"
+  logo: images/conferences_logos/YOUR_LOGO.png
+
+
+* Add your logo to `/grass-website/images/conferences_logos` folder
+
+* Rebuild if needed
+
+      cd ../../
+     
+      hugo
+
+* Check result at http://localhost:1313/news/ in the `Next Events` section in the right sidebar.
+  Your event will show up only if it is one in the top three from today.
 
 ### Submit your changes
 
