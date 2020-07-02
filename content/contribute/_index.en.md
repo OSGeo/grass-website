@@ -54,7 +54,7 @@ Developing your own modules? Great!
 
 Please upload your add-ons to the **GRASS GIS Addons repository**. In this way, they become available to the community
 through the extension manager (g.extension or graphical user interface). 
-Here is the full list of [existing addons](https://grass.osgeo.org/grass7/manuals/addons/) to get inspired.
+Here is the full list of [existing addons](/grass7/manuals/addons/) to get inspired.
 
 Further details about how to gain access to our [GitHub Addons repository](https://github.com/OSGeo/grass-addons/) can be
 found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASSaddonsrepository).

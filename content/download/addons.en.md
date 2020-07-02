@@ -9,7 +9,7 @@ layout: "addons"
 
 #### Quick links
 
-[ [Overview of addons](https://grass.osgeo.org/grass7/manuals/addons/) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+[ [Overview of addons](/grass7/manuals/addons/) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
 
 ### <a name="Common-user"></a>Beginner users
 
