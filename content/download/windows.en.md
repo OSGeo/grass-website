@@ -9,7 +9,7 @@ layout: "os"
   
 #### Quick links
 
-[ [**Standalone installers**](#standalone-installers) | [**OSGeo4Windows**](#OSGeo4Windows) ]
+[ [**Standalone installers**](#standalone-installers) | [**OSGeo4W**](#OSGeo4W) ]
 
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> Install GRASS GIS on Windows using a standalone installer or OSGeo4W. </div>
