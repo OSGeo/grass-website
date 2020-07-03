@@ -13,7 +13,7 @@ layout: "overview"
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-8">
-<p>There are several ways to try out <b>GRASS GIS</b> in your browser without even installing it. You can throw a glance at <b>GRASS GIS</b> in either <a href="#GRASSGISJupyter">Binder</a><!--, <a href="#GRASSGISCoCalc">CoCalc</a>--> or <a href="#GRASSGISrollApp">rollApp</a>.</p>
+<p>There are several ways to try out <b>GRASS GIS</b> in your browser without even installing it. You can have a glance at <b>GRASS GIS</b> in either <a href="#GRASSGISJupyter">Binder</a><!--, <a href="#GRASSGISCoCalc">CoCalc</a>--> or <a href="#GRASSGISrollApp">rollApp</a>.</p>
 </div>
 <div class="col-lg-4">
 <img src="../../images/logos/grasslogo.svg" width="25%" alt="GRASS GIS">
