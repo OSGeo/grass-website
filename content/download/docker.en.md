@@ -20,7 +20,7 @@ layout: "os"
 ### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.x (new stable)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b>. (<a href="(https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78 ">GRASS GIS 7.8.2 new features</a>)</div>
+<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8.3 new features</a>)</div>
 
 *  [<i class="fa fa-download"></i> GRASS GIS 7.8 stable, Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>release branch, grass78, 320 MB, with Python 3 and PDAL</small>)
     <pre><code class=dockerfile">docker pull mundialis/grass-py3-pdal:stable-alpine</code></pre>
@@ -38,7 +38,7 @@ layout: "os"
 ### <a name="GRASS-GIS-old-stable"></a> GRASS GIS 7.6.1 (old stable)
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_6</b>. (<a href="(https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a>)
+<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_6</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a>)
 </div>
 
 *  [<i class="fa fa-download"></i> GRASS GIS 7.6 stable, Ubuntu 18.04 based](https://hub.docker.com/r/mundialis/grass-gis-stable) (<small style="display:inline-block;margin-bottom:1em;">old stable, grass76, 730 MB, with Python 2</small>)
@@ -51,7 +51,7 @@ layout: "os"
 ### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 devel (unstable)
 
 <div class="alert rounded-0 alert-info">
-<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS master branch</b>. (... )
+<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS master branch</b>
 </div>
 
 *  [<i class="fa fa-download"></i> GRASS GIS 7.9 development, Ubuntu 18.04 based](https://hub.docker.com/r/neteler/grassgis7/) (<small>git master, grass79, 520 MB, with Python 3</small>)
