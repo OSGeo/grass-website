@@ -31,7 +31,7 @@ layout: "data"
 
 This dataset is a modern package of geospatial data from the state of North Carolina, USA. It offers raster, vector, LiDAR and satellite data.
 Most of the examples in the module <a href="../../learn/manuals">manuals</a> are written with this dataset. Furthermore, the
-<a href="https://grass.osgeo.org/grass-devel/manuals/libpython/gunittest_testing.html">testsuite</a> operates with this dataset.
+<a href="/grass-devel/manuals/libpython/gunittest_testing.html">testsuite</a> operates with this dataset.
 The description, list of maps, and a quick usage tutorial are available <a href="https://www.grassbook.org/wp-content/uploads/grasslocations/nc_spm_08_contents.html">here</a>.
 
 The North Carolina dataset can be downloaded in two versions:
@@ -42,9 +42,9 @@ The North Carolina dataset can be downloaded in two versions:
   <a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha2.tar.gz" class="inl btn btn-secondary">Download TAR.GZ (159 MB)</a>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip" target="_blank"> North Carolina basic dataset </a></span>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP  (50 MB)</a>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ  (50 MB)</a>
+  <span class="mwl"><a href="/sampledata/north_carolina/nc_basic_spm_grass7.zip" target="_blank"> North Carolina basic dataset </a></span>
+  <a href="/sampledata/north_carolina/nc_basic_spm_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP  (50 MB)</a>
+  <a href="/sampledata/north_carolina/nc_basic_spm_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ  (50 MB)</a>
   </li>
 </ul>
 
@@ -55,13 +55,13 @@ The North Carolina dataset can be downloaded in two versions:
 
 This is the classical GRASS GIS dataset from the 1980th covering a part of
 Spearfish, South Dakota, USA, with raster, vector and point data. For more information on the dataset see
-the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf">documentation</a> and
-<a href="https://grass.osgeo.org/uploads/grass/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
-<a href="https://grass.osgeo.org/uploads/grass/sampledata/soils_legend.txt">legend</a> for soils map). 
+the short <a href="/uploads/grass/sampledata/spearDB.pdf">documentation</a> and
+<a href="/uploads/grass/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
+<a href="/uploads/grass/sampledata/soils_legend.txt">legend</a> for soils map).
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
-  <a href="https://grass.osgeo.org/sampledata/spearfish_grass70data-0.3.tar.gz" class="inl btn btn-primary" target="_blank">Download TAR.GZ (20 MB)</a>
+  <span class="mwl"><a href="/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
+  <a href="/sampledata/spearfish_grass70data-0.3.tar.gz" class="inl btn btn-primary" target="_blank">Download TAR.GZ (20 MB)</a>
   </li>
 </ul>
 
@@ -79,29 +79,29 @@ the short <a href="https://grass.osgeo.org/uploads/grass/sampledata/spearDB.pdf"
   <p>Selected maps in common GIS formats (SHAPE, KML, GeoTIFF) including RGB orthophoto</p>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/" target="_blank"> LiDAR </a></span>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21 MB)</a>
-  <a href="https://grass.osgeo.org/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6 MB)</a>
+  <span class="mwl"><a href="/grass-stable/manuals/" target="_blank"> LiDAR </a></span>
+  <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21 MB)</a>
+  <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6 MB)</a>
   <p>Extra Raleigh LiDAR dataset (note: height in feet):  multi-return</p>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Climate </a></span>
-  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (690 MB)</a>
+  <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Climate </a></span>
+  <a href="/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (690 MB)</a>
   <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Time series </a></span>
-  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
+  <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Time series </a></span>
+  <a href="/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
   <p>Extra time series of MODIS Land Surface Temperature (mapset to unzip in NC location): MODIS LST time series</p>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/grass-stable/manuals/ " target="_blank"> Projection </a></span>
-  <a href="https://grass.osgeo.org/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
+  <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Projection </a></span>
+  <a href="/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
   <p>NAD83(HARN) / North Carolina, EPSG 3358)</p>
   </li>
    <li>
-  <span class="mwl"><a href="https://grass.osgeo.org/sampledata/slovakia3d_readme.txt" target="_blank"> 3D / voxel </a></span>
-  <a href="https://grass.osgeo.org/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9 MB)</a>
+  <span class="mwl"><a href="/sampledata/slovakia3d_readme.txt" target="_blank"> 3D / voxel </a></span>
+  <a href="/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9 MB)</a>
   <p>Complete Slovakia 3D precipitation location: Slovakia 3D precipitation voxel dataset</p>
 
   </li>

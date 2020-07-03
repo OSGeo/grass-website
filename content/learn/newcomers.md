@@ -40,7 +40,7 @@ resources that might help you get started:
 
 <img src="/images/gallery/gui/grass75_ndvi_rgb_rio_cuarto.png" width="45%" alt="" style="float:right;padding-left:10px">
 
-* The [Quickstart](https://grass.osgeo.org/grass-stable/manuals/helptext.html) 
+* The [Quickstart](/grass-stable/manuals/helptext.html) 
 in the manual pages.
 * The [Quick GUI tutorial](https://grasswiki.osgeo.org/wiki/Quick_wxGUI_tutorial).
 * An [introductory workshop](http://ncsu-geoforall-lab.github.io/grass-intro-workshop/) 
@@ -49,7 +49,7 @@ by Vaclav Petras & the NCSU GeoForAll Lab.
 * [Advanced Geospatial Analysis for Earth Observation and Time Series data](https://training.gismentors.eu/grass-gis-irsae-winter-course-2018/) 
 a kind of **from zero to hero** GRASS GIS course by Martin Landa, Luca Delucchi
 and Stefan Blumentrath.
-* For more [specific topics](https://grass.osgeo.org/grass-stable/manuals/graphical_index.html) 
+* For more [specific topics](/grass-stable/manuals/graphical_index.html) 
 (e.g. raster data, vector data, time series, database, etc), you should also read the 
 relevant topic introductions as they will provide you with helpful information 
 about how these specific domains are handled in GRASS GIS.

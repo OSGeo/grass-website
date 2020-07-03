@@ -68,7 +68,7 @@ the existent ones.</p>
 both an intuitive graphical user interface (GUI) and a command line 
 syntax useful for automation and production.</p>
 <p><b>GRASS GIS</b> contains over 
-<b><a href="https://grass.osgeo.org/grass-stable/manuals/full_index.html" target="_blank">500 modules</a></b> 
+<b><a href="/grass-stable/manuals/full_index.html" target="_blank">500 modules</a></b>
 to process and render geographic data. The software allows to manipulate
 a variety of raster, vector and 3D formats, and run simple to advanced 
 spatial analysis and modeling. GRASS GIS can connect to spatial databases 
@@ -143,7 +143,7 @@ There are currently more than <b>300 extensions</b> in the
 <a href="https://github.com/OSGeo/grass-addons/tree/master/grass7">official GRASS Addons repo</a> 
 and many others in the wild to perform the most varied type of tasks.
 <br>Have a look at the full list of 
-<a href="https://grass.osgeo.org/grass-stable/manuals/addons/" target="_blank">addons manual pages</a> 
+<a href="/grass-stable/manuals/addons/" target="_blank">addons manual pages</a>
 to get an idea. If you don't find what you need, maybe you can 
 <a href="/contribute/development/">develop</a> your own add-on then.
 Read <a href="/download/addons/">here</a> to learn how to install them.</p>
@@ -151,7 +151,7 @@ Read <a href="/download/addons/">here</a> to learn how to install them.</p>
 
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="https://grass.osgeo.org/grass-stable/manuals/addons/number_seasons_ndvi.png" width="75%" alt="Output of r.seasons' addon">
+<img class="bsh" src="/grass-stable/manuals/addons/number_seasons_ndvi.png" width="75%" alt="Output of r.seasons' addon">
 </div>
 
 </div>

@@ -27,7 +27,7 @@ list of GRASS GIS packages.
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.2-News">GRASS GIS 7.8.2 announcement</a> for more information.</div>
 
-*  [Generic 64bit](https://grass.osgeo.org/grass78/binary/linux/snapshot) (weekly binary snapshot)
+*  [Generic 64bit](/grass78/binary/linux/snapshot) (weekly binary snapshot)
 *  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (RHEL7/Centos7/Scientific Linux7)
 *  [Fedora](https://copr.fedorainfracloud.org/coprs/neteler/grass78/)
 
@@ -39,7 +39,7 @@ list of GRASS GIS packages.
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
 </div>
 
-*  [Generic 64bit](https://grass.osgeo.org/grass76/binary/linux/snapshot) (weekly binary snapshot)
+*  [Generic 64bit](/grass76/binary/linux/snapshot) (weekly binary snapshot)
 *  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass76/) (RHEL7/Centos7/Scientific Linux7)
 *  [Fedora](https://copr.fedorainfracloud.org/coprs/neteler/grass76/)
 
@@ -51,7 +51,7 @@ list of GRASS GIS packages.
 <i class="fa fa-info-circle"></i> Active <u>development</u>, <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
-*  [Generic 64bit](https://grass.osgeo.org/grass79/binary/linux/snapshot/) (weekly binary snapshot)
+*  [Generic 64bit](/grass79/binary/linux/snapshot/) (weekly binary snapshot)
 
 <!-- *  [Ubuntu ](https://launchpad.net/~grass/+archive/ubuntu/grass-devel)  (ubuntugis-unstable) -->
 
