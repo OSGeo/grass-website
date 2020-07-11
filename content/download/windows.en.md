@@ -1,6 +1,6 @@
 ---
 title: "Windows"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-07-11T11:02:05+06:00
 description: "Download GRASS GIS installers for Windows"
 weight: 2
 layout: "os"
@@ -48,7 +48,6 @@ layout: "os"
 </div>
 
 
-
 *  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass79/x86_64)
 *  [<i class="fa fa-download"></i> Download 32bit](https://wingrass.fsv.cvut.cz/grass79/x86)
 
@@ -59,7 +58,7 @@ layout: "os"
 <hr>
 
 
-### <a name="standalone-installers"></a> OSGeo4W 
+### <a name="OSGeo4W"></a> OSGeo4W 
 
 *  [<i class="fa fa-download"></i> Download OSGeo4W 64bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) 
 *  [<i class="fa fa-download"></i> Download OSGeo4W 32bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
@@ -68,6 +67,4 @@ Run the downloaded installer as an administrator and select the **grass** (stabl
 
 This can also be done with the command line, as shown below:
 
-<pre><code class="shell">osgeo4w-setup-x86_64.exe -q -k -P grass -s ​http://download.osgeo.org/osgeo4w/x86_64/</code></pre>
-
-
+<pre><code class="shell">osgeo4w-setup-x86_64.exe -q -k -P grass -s http://download.osgeo.org/osgeo4w/x86_64/</code></pre>
