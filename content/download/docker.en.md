@@ -12,8 +12,10 @@ layout: "os"
 [ [**GRASS GIS 7.8.x (new stable)**](#GRASS-GIS-new-stable) | [**GRASS 7.6.x (old stable)**](#GRASS-GIS-old-stable) | [**GRASS 7.9.x (unstable)**](#GRASS-GIS-devel) ]
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> GRASS GIS <b>Docker images</b> provided and maintained by <a href="https://www.mundialis.de/en/" target="_blank">mundialis GmbH</a>.
+<i class="fa fa-arrow-right"></i> GRASS GIS <b>Docker images</b> provided and maintained by <a href="https://www.mundialis.de/en/" target="_blank">mundialis</a>.
 </div>
+
+For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.com/OSGeo/grass/blob/master/docker/README.md)
 
 <hr>
 
