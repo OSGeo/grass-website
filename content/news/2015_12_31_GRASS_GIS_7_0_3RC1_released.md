@@ -37,9 +37,9 @@ stable release series, 7.0.x enjoys **long-term support**.
 **Binaries/Installer download:**
 
 -   winGRASS 7.0.3RC1: [32bit standalone
-    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.3RC1-1-Setup-x86.html)
+    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.3RC1-1-Setup-x86.exe)
     \| [64bit standalone
-    installer](/grass70/binary/mswindows/native/x86_64/WinGRASS-7.0.3RC1-1-Setup-x86_64.html)
+    installer](/grass70/binary/mswindows/native/x86_64/WinGRASS-7.0.3RC1-1-Setup-x86_64.exe)
 -   winGRASS 7.0.3RC1 OSGeo4W: [32bit OSGeo4W
     installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
     \| [64bit OSGeo4W
@@ -50,7 +50,7 @@ stable release series, 7.0.x enjoys **long-term support**.
 **Source code download:**
 
 -   [http://grass.osgeo.org/grass70/source/](/grass70/source/index.html)
--   [http://grass.osgeo.org/grass70/source/grass-7.0.3RC1.tar.gz](/grass70/source/grass-7.0.3RC1.tar.html)
+-   [http://grass.osgeo.org/grass70/source/grass-7.0.3RC1.tar.gz](/grass70/source/grass-7.0.3RC1.tar.gz)
 -   To get the GRASS GIS 7.0.3RC1 source code directly from SVN, see
     [here](http://trac.osgeo.org/grass/wiki/Release/7.0.3-News).
 
