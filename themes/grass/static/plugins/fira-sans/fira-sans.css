@@ -1,0 +1,25 @@
+/*! Fira Sans webfont stylesheet */
+
+@font-face {
+    font-family: 'fira_sansthin';
+    src: url('fonts/firasans-thin-webfont.eot');
+    src: url('fonts/firasans-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/firasans-thin-webfont.woff2') format('woff2'),
+         url('fonts/firasans-thin-webfont.woff') format('woff'),
+         url('fonts/firasans-thin-webfont.ttf') format('truetype'),
+         url('fonts/firasans-thin-webfont.svg#fira_sansthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira_sansmedium';
+    src: url('fonts/firasans-medium-webfont.eot');
+    src: url('fonts/firasans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/firasans-medium-webfont.woff2') format('woff2'),
+         url('fonts/firasans-medium-webfont.woff') format('woff'),
+         url('fonts/firasans-medium-webfont.ttf') format('truetype'),
+         url('fonts/firasans-medium-webfont.svg#fira_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

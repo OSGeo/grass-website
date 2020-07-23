@@ -13,6 +13,7 @@ grassColorAlt= "#9ed29c"
 grassColorLight= "#eff4e8"
 grassColorDark= "#87a06a"
 whiteColor = "#ffffff"
+blackColor = "#000000"
 greyColor = "#6b6b6b"
 greyColorLight = "#CCCCCC"
 greyColorDark = "#A0A0A0"
@@ -143,22 +144,22 @@ greyColorDark = "#A0A0A0"
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Wiki"
-          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
-          weight = 1 
-
-          [[Languages.en.menu.main]]
-          parent = "Contribute"
           name = "Development"
           URL = "/contribute/development"
-          weight = 2
+          weight = 1
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
           name = "Donations"
           URL = "/contribute/donations"
-          weight = 3
+          weight = 2
 
+          [[Languages.en.menu.main]]
+          parent = "Contribute"
+          name = "Wiki"
+          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
+          weight = 3
+	  
           [[Languages.en.menu.main]]
           parent = "Contribute"
           name = "Sponsors"

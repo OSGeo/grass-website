@@ -4,11 +4,6 @@ date: 2020-04-12T12:12:05+02:00
 layout: "credits"
 ---
 
-<div class="alert rounded-0 alert-success">
-This website is licensed under the GNU General Public License v3.0<br>
-<a href="https://github.com/OSGeo/grass-website/blob/master/LICENSE" target="_blank">https://github.com/OSGeo/grass-website/blob/master/LICENSE</a>
-</div>
-
 ### Imprint
 
 #### Contact information
@@ -44,11 +39,17 @@ This website is licensed under the GNU General Public License v3.0<br>
 
 #### Legal notice
 
-This is a community maintained website. The  GRASS Development Team and the GRASS GIS Project Steering Committee are not responsible for the content.
+This is a community maintained website. The  GRASS Development Team and the GRASS GIS Project Steering Committee are not responsible for the content quality and accuracy.
 
 #### Privacy policy
 
 Please read our [privacy policy](# "privacy policy").
+
+
+#### License
+
+This website is licensed under the GNU General Public License v3.0<br>
+<a href="https://github.com/OSGeo/grass-website/blob/master/LICENSE" target="_blank">https://github.com/OSGeo/grass-website/blob/master/LICENSE</a>.
 
 #### Copyright
 
@@ -58,6 +59,4 @@ Please read our [privacy policy](# "privacy policy").
 
 This website is powered by [Hugo](https://gohugo.io/ "The world’s fastest framework for building websites").
 \
-The content is maintained by the GRASS GIS community.
-\
-[GRASS theme](https://github.com/OSGeo/grass-website/ "GRASS theme for Hugo") for Hugo by [Nicolas Bozon](http://cartogenic.com)
+[GRASS theme](https://grass.osgeo.org/about/theme/ "GRASS theme for Hugo") for Hugo by [Nicolas Bozon](http://cartogenic.com)

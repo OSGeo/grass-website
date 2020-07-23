@@ -40,7 +40,34 @@
   </section>{{ "<!-- /topics -->" | safeHTML }}
   <section class="section npt bg-gray">
     <div class="container">
-      <div class="bg-white" id="news">
+      <div class="row">
+      <div class="col-lg-6">
+	        <div class="bg-white" id="slides">
+
+<div id="carouselUI" class="carousel slide" data-ride="carousel" data-interval="1700">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{.Site.BaseURL}}/images/other/GRASS_ui_slide.jpg" class="d-block w-100" alt="GRASS GIS ui">
+    </div>
+        <div class="carousel-item">
+      <img src="{{.Site.BaseURL}}/images/other/GRASS_ui_slide-b.jpg" class="d-block w-100" alt="GRASS GIS ui">
+    </div>
+    <div class="carousel-item">
+      <img src="{{.Site.BaseURL}}/images/other/GRASS_ui_slide-c.jpg" class="d-block w-100" alt="GRASS GIS ui">
+    </div>
+     <div class="carousel-item">
+      <img src="{{.Site.BaseURL}}/images/other/GRASS_ui_slide-d.jpg" class="d-block w-100" alt="GRASS GIS ui">
+    </div>
+  </div>
+            <div class="row justify-content-center pd-20">
+              <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/learn/gallery">View gallery</a>
+            </div>
+</div>
+</div>
+
+      </div>
+       <div class="col-lg-6">
+        <div class="bg-white" id="news">
         <div class="row justify-content-center pd-40 mb-4">
           <main role="main">
             <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
@@ -52,17 +79,19 @@
               <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
             </div>
           </main>
-        </div>
+	 </div>
+	</div>
+</div>	    
       </div>
       <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-6 mb-2">
+          {{ partial "osgeo.html" . }}
+        </div>
         <div class="col-lg-4 col-sm-6 mb-4">
           <a class="px-4 py-5 bg-gray text-center shadow d-block fdiv" href="{{.Site.BaseURL}}/about/brand"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="39%"></a>
         </div>
         <div class="col-lg-4 col-sm-6 mb-4">
           {{ partial "foss4g.html" . }}
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-2">
-          {{ partial "osgeo.html" . }}
         </div>
       </div>
     </div>

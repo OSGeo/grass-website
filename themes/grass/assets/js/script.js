@@ -1,6 +1,27 @@
 (function ($) {
     'use strict';
 
+    // Logotext style 
+    $.fn.lastWord = function() {
+	  var text = this.text().trim().split(" ");
+	  var last = text.pop();
+	  this.html(text.join(" ") + (text.length > 0 ? " <span class='gis'>" + last + "</span>" : last));
+    };
+    $(".navbar-brand span").lastWord();
+
+
+    $( 'a' ).each(function() {
+  if( location.hostname === this.hostname || !this.hostname.length ) {
+      $(this).addClass('int');
+  } else {
+      $(this).addClass('ext');
+       $(this).attr({
+            target: "_blank",
+           title: $(this).text()
+        });
+  }
+    });
+    
     // Background-images
     $('[data-background]').each(function () {
         $(this).css({

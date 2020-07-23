@@ -17,12 +17,12 @@
 
   {{ "<!-- ** plugins** -->" | safeHTML }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL}}plugins/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css"> -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/hybrid.css"> 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css" >
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
 
   <style>
@@ -43,19 +43,23 @@
   </style>
 
 
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ "<!-- main stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
   {{ "<!-- jquery -->" | safeHTML }}
   <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
 
-  {{ "<!-- jquery ui -->" | safeHTML }}
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-ui.js"></script>
-
-  {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/x-icon">
+  {{ "<!--favicon-->" | safeHTML }}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/favicon/safari-pinned-tab.svg" color="#088b36">
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
 </head>
-
 <body>
