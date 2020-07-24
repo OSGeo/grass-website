@@ -1,9 +1,16 @@
-## The new GRASS GIS website is out!!!
+---
+title: "New GRASS GIS website"
+date: 2020-07-24T12:12:12+01:00
+layout: "news"
+author: GRASS Development Team
+---
 
-In ocassion of the 37th birthday and after many years, GRASS GIS website (https://grass.osgeo.org) got again a new and fresh look. It has been redesigned with modern tools to be responsive and also easier to maintain. The content is also more discoverable now and easy to browse.
+## The new GRASS GIS website is out!
+
+In occasion of the 37th birthday and after many years, GRASS GIS website (https://grass.osgeo.org) got again a new and fresh look. It has been redesigned with modern tools to be responsive and also easier to maintain. The content is also more discoverable now and easy to browse.
 
 ### What's cool
-Here a short "sightseeing" tour within the new website:
+Here a short "sightseeing" tour of the new website:
  - The "Learn" page offers a curated list of tutorials in different languages and links to videos too. There's also a new "Try online" section with links to Binder and rollApp online applications that allow to test GRASS GIS without installing it.
  - Our long standing and rich history in the GIS and open source world has now a much attractive layout. Have a look at the timeline of releases and websites, too.
  - The gallery of screenshots has now a revamped display to show some of GRASS GIS capabilities
