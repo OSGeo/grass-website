@@ -11,10 +11,10 @@ In occasion of its 37th birthday the GRASS GIS project is proud to present its n
 
 ### What's cool
 Here a short "sightseeing" tour of the new website:
- - The "Learn" page offers a curated list of tutorials in different languages and links to videos. The new "Try online" section provides links to Binder and rollApp online applications that allow testing GRASS GIS without installing it.
- - Our long standing and rich history in the GIS and open source world is now presented in a much more attractive layout. Have a look at the timeline of releases and websites !
- - The revamped gallery of screenshots shows some of GRASS GIS capabilities through visual examples.
- - Project resources easily reachable: mailing lists, wiki, RSS news feed, the various GitHub and docker repositories.
+- The "Learn" page offers a curated list of tutorials in different languages and links to videos. The new "Try online" section provides links to Binder and rollApp online applications that allow testing GRASS GIS without installing it.
+- Our long standing and rich history in the GIS and open source world is now presented in a much more attractive layout. Have a look at the timeline of releases and websites !
+- The revamped gallery of screenshots shows some of GRASS GIS capabilities through visual examples.
+- Project resources easily reachable: mailing lists, wiki, RSS news feed, the various GitHub and docker repositories.
 
 ### The technology
 We chose a static format based on HUGO and all the code and content is hosted in GitHub. Nicolas Bozon was the main designer of the website theme and many others helped with content curation and creation. In detail, the page content is now written in markdown. Several times a day the website is automatically deployed from the GitHub repository to our internet server at https://grass.osgeo.org/ .
