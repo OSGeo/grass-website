@@ -13,7 +13,7 @@ In occasion of the 37th birthday and after many years, GRASS GIS website (https:
 Here a short "sightseeing" tour of the new website:
  - The "Learn" page offers a curated list of tutorials in different languages and links to videos. The new "Try online" section provides links to Binder and rollApp online applications that allow testing GRASS GIS without installing it.
  - Our long standing and rich history in the GIS and open source world is now presented in a much more attractive layout. Have a look at the timeline of releases and websites !
- - The gallery of screenshots has now a revamped display to show some of GRASS GIS capabilities
+ - The revamped gallery of screenshots shows some of GRASS GIS capabilities through visual examples.
  - Project resources easily reachable: mailing lists, wiki, RSS news feed, the various GitHub and docker repositories.
 
 ### The technology
