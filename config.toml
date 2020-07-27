@@ -1,4 +1,4 @@
-baseURL = "https://staging.grass.osgeo.org/"
+baseURL = "https://grass.osgeo.org/"
 theme = "grass"
 
 
@@ -232,4 +232,4 @@ greyColorDark = "#A0A0A0"
       
     [[Languages.en.socialIcon]]
       icon = "fa fa-rss"
-      link = "https://staging.grass.osgeo.org/index.xml" 
+      link = "https://grass.osgeo.org/index.xml" 
