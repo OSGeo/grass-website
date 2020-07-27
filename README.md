@@ -1,7 +1,7 @@
 # Hugo theme for GRASS GIS website
 
 This repository contains the code of the upcoming Web site of the GRASS GIS project (under development).
-It is hourly deployed at: https://grass.osgeo.org/
+It is deployed every 15 min at: https://grass.osgeo.org/
 
 Mailing list for discussions: https://lists.osgeo.org/mailman/listinfo/grass-web
 
