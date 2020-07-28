@@ -30,16 +30,15 @@ layout: "data"
 ### <a name="NorthCarolinaDataset"></a> North Carolina dataset
 
 This dataset is a modern package of geospatial data from the state of North Carolina (NC), USA. It offers raster, vector, LiDAR and satellite data.
-Most of the examples in the module <a href="../../learn/manuals">manuals</a> are written with this dataset. Furthermore, the
-<a href="/grass-devel/manuals/libpython/gunittest_testing.html">testsuite</a> operates with this dataset.
+Most of the examples in the [manuals](/learn/manuals) of different modules are written with this dataset. 
 The description, list of maps, and a quick usage tutorial are available <a href="https://www.grassbook.org/wp-content/uploads/grasslocations/nc_spm_08_contents.html">here</a>.
 
 The North Carolina dataset can be downloaded in two versions:
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha.zip " target="_blank"> North Carolina full dataset </a></span>
-  <a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha.zip" class="inl btn btn-primary" target="_blank">Download ZIP (159 MB)</a>
-  <a href="http://fatra.cnr.ncsu.edu/data/nc_spm_full_v2alpha2.tar.gz" class="inl btn btn-secondary">Download TAR.GZ (159 MB)</a>
+  <span class="mwl"><a href="https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.zip" target="_blank"> North Carolina full dataset </a></span>
+  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP (159 MB)</a>
+  <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ (159 MB)</a>
   </li>
    <li>
   <span class="mwl"><a href="/sampledata/north_carolina/nc_basic_spm_grass7.zip" target="_blank"> North Carolina basic dataset </a></span>
