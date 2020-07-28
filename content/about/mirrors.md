@@ -6,17 +6,11 @@ layout: "general"
 
 ### Official master site via HTTP/FTP
 
-
 * [Official master site: grass.osgeo.org](https://grass.osgeo.org/)
-
-* We recommend cascaded mirroring: 
-
-  * Tier-1 mirrors: These mirrors read daily from the master site and might also act as rsync servers. 
-  * Tier-2 mirrors: These mirrors read from the tier-1 mirrors (these sites may be 1-2 day(s) behind the master site)
 
 ### African Web site mirrors
 
-[South Africa](http://grass.mirror.ac.za) (Tier 1,TENET)
+* [South Africa](https://grass.mirror.ac.za/html/) (Tier 1,TENET)
 
 ### Asian-Indian Web site mirrors
 * [India](http://wgbis.ces.iisc.ernet.in/grass/) (Tier 2, Indian Institute of Science, Bangalore)
