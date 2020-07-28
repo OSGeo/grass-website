@@ -10,7 +10,7 @@ layout: "data"
   
 #### Quick links
 
-[ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Spearfish dataset**](#SpearFishDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Global datasets**](#GlobalDatasets) ]
+[ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Spearfish dataset**](#SpearFishDataset) | [**Global datasets**](#GlobalDatasets) ]
 
 
 <div class="row">
@@ -29,7 +29,7 @@ layout: "data"
 
 ### <a name="NorthCarolinaDataset"></a> North Carolina dataset
 
-This dataset is a modern package of geospatial data from the state of North Carolina, USA. It offers raster, vector, LiDAR and satellite data.
+This dataset is a modern package of geospatial data from the state of North Carolina (NC), USA. It offers raster, vector, LiDAR and satellite data.
 Most of the examples in the module <a href="../../learn/manuals">manuals</a> are written with this dataset. Furthermore, the
 <a href="/grass-devel/manuals/libpython/gunittest_testing.html">testsuite</a> operates with this dataset.
 The description, list of maps, and a quick usage tutorial are available <a href="https://www.grassbook.org/wp-content/uploads/grasslocations/nc_spm_08_contents.html">here</a>.
@@ -50,6 +50,45 @@ The North Carolina dataset can be downloaded in two versions:
 
 <hr>
 
+### <a name="SpecialTopicDatasets"></a> Datasets for special topics
+
+<ul id="links" class="list-unstyled version">
+  <li>
+   <span class="mwl"><a href="/grass-stable/manuals/topic_LIDAR.html" target="_blank"> LiDAR </a></span>
+   <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21 MB)</a>
+   <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6 MB)</a>
+   <p>Extra Raleigh (NC) LiDAR dataset (note: height in feet):  multi-return</p>
+  </li>
+  <li>
+   <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Climate </a></span>
+   <a href="/sampledata/north_carolina/nc_climate_spm_2000_2012.zip" class="inl btn btn-primary" target="_blank">Download ZIP (690 MB)</a>
+   <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
+  </li>
+  <li>
+   <span class="mwl"><a href="/grass-stable/manuals/temporalintro.html" target="_blank"> Time series </a></span>
+   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
+   <p>Extra time series of MODIS Land Surface Temperature (mapset to unzip in NC location): MODIS LST time series</p>
+  </li>
+<!-- not sure?
+  <li>
+   <span class="mwl"><a href="/grass-stable/manuals/projectionintro.html" target="_blank"> Projection </a></span>
+   <a href="/sampledata/north_carolina/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
+   <p>NAD83(HARN) / North Carolina, EPSG 3358)</p>
+  </li>
+-->
+  <li>
+   <span class="mwl"><a href="https://grassbook.org/datasets/datasets-3rd-edition/" target="_blank"> Data for import </a></span>
+   <a href="https://grassbook.org/datasets/datasets-3rd-edition/" class="inl btn btn-primary" target="_blank">Download ZIP files</a>
+   <p>Selected North Carolina maps in common GIS formats (SHAPE, KML, GeoTIFF) including RGB orthophoto</p>
+  </li>
+  <li>
+   <span class="mwl"><a href="/sampledata/slovakia3d_readme.txt" target="_blank"> 3D / voxel </a></span>
+   <a href="/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9 MB)</a>
+   <p>Complete Slovakia 3D precipitation location: Slovakia 3D precipitation voxel dataset</p>
+  </li>
+</ul>
+
+<hr>
 
 ### <a name="SpearFishDataset"></a> Spearfish dataset
 
@@ -62,48 +101,6 @@ the short <a href="/uploads/grass/sampledata/spearDB.pdf">documentation</a> and
  <li>
   <span class="mwl"><a href="/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
   <a href="/sampledata/spearfish_grass70data-0.3.tar.gz" class="inl btn btn-primary" target="_blank">Download TAR.GZ (20 MB)</a>
-  </li>
-</ul>
-
-<hr>
-
-
-### <a name="SpecialTopicDatasets"></a> Datasets for special topics
-<hr>
-
-<ul id="links" class="list-unstyled version">
- <li>
-  <span class="mwl"><a href="https://grassbook.org/datasets/datasets-3rd-edition/" target="_blank"> Data import </a></span>
-  <a href="https://grassbook.org/datasets/datasets-3rd-edition/" class="inl btn btn-primary" target="_blank">Download ZIP</a>
-
-  <p>Selected maps in common GIS formats (SHAPE, KML, GeoTIFF) including RGB orthophoto</p>
-  </li>
-   <li>
-  <span class="mwl"><a href="/grass-stable/manuals/" target="_blank"> LiDAR </a></span>
-  <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21 MB)</a>
-  <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6 MB)</a>
-  <p>Extra Raleigh LiDAR dataset (note: height in feet):  multi-return</p>
-  </li>
-   <li>
-  <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Climate </a></span>
-  <a href="/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (690 MB)</a>
-  <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
-  </li>
-   <li>
-  <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Time series </a></span>
-  <a href="/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
-  <p>Extra time series of MODIS Land Surface Temperature (mapset to unzip in NC location): MODIS LST time series</p>
-  </li>
-   <li>
-  <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Projection </a></span>
-  <a href="/grass-stable/manuals/" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
-  <p>NAD83(HARN) / North Carolina, EPSG 3358)</p>
-  </li>
-   <li>
-  <span class="mwl"><a href="/sampledata/slovakia3d_readme.txt" target="_blank"> 3D / voxel </a></span>
-  <a href="/sampledata/slovakia3d_grass7.tar.gz" class="inl btn btn-primary" target="_blank">Download ZIP (8.9 MB)</a>
-  <p>Complete Slovakia 3D precipitation location: Slovakia 3D precipitation voxel dataset</p>
-
   </li>
 </ul>
 
