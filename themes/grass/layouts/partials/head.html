@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html  lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
 <head>
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
-
   {{ hugo.Generator }}
-
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  {{ "<!-- RSS feed -->" | safeHTML }}
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-
-  {{ "<!-- ** plugins** -->" | safeHTML }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css"> -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/hybrid.css"> 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css" >
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-
   <style>
   :root{
     --primary-color:{{ .Site.Params.primaryColor }};
@@ -40,17 +30,9 @@
     --grey-color-dark:{{ .Site.Params.greyColorDark }};
     --white-color:{{ .Site.Params.whiteColor }};
     }  
-  </style>
-
-
-  {{ "<!-- main stylesheet -->" | safeHTML }}
-  {{ $styles := resources.Get "css/style.css" | minify}}
+  </style>{{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-
-  {{ "<!-- jquery -->" | safeHTML }}
   <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
-
-  {{ "<!--favicon-->" | safeHTML }}
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon/favicon-16x16.png">
@@ -60,6 +42,5 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-
 </head>
 <body>
