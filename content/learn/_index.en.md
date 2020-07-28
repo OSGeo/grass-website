@@ -1,6 +1,6 @@
 ---
 title: "Learn"
-date: 2018-12-29T11:02:05+05:00
+date: 2020-06-289T11:02:05+05:00
 icon: "fa fa-book"
 description: "Get to know the GRASS GIS ecosystem with manuals, tutorials and more"
 type : "pages"
@@ -20,4 +20,4 @@ with different workflows and [books](/learn/books). There is also a
 [Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ)
 profile that keeps track of scientific publications and applications
 of GRASS GIS in different domains. 
-You may even [try GRASS online](/learn/tryonle) to get a feeling of its capabilities!
+You may even [try GRASS online](/learn/tryonline/) to get a feeling of its capabilities!
