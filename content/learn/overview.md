@@ -1,6 +1,6 @@
 ---
 title: "What is GRASS GIS?"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-07-28T11:02:05+06:00
 layout: "overview"
 ---
 
@@ -15,7 +15,7 @@ layout: "overview"
 Information System (GIS) technology built for vector and raster geospatial
 data management, geoprocessing, spatial modelling and visualization.</p>
 <p><b>GRASS GIS</b> is Free and Open Source Software released under the 
-terms of the <a href="/download/license">GNU General Public License (GPL >= v2)</a>. 
+terms of the <a href="/about/license">GNU General Public License (GPL >= v2)</a>. 
 GRASS GIS is also a founding member and an affiliated  project of the
 <a href="https://osgeo.org">Open Source Geospatial Foundation (OSGeo)</a>.</p>
 </div>
@@ -38,7 +38,7 @@ Laboratory (CERL) in Champaign, Illinois. However, since 1997 a worldwide
 network of developers continue to develop and release GRASS GIS. See the 
 <a href="/about/history" target="_blank">GRASS history</a> section 
 and the full list of 
-<a href="about/history/releases" target="_blank">releases</a>
+<a href="/about/history/releases" target="_blank">releases</a>
 for more details.</p>
 
 <p>The strength and success of GRASS GIS relies on the user community. 
