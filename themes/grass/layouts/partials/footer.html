@@ -5,6 +5,11 @@
        {{ with .Site.Params.copyright }} <p><small>{{ . }}</small></p> {{ end }}
       </div>
       <div class="col-md-4 text-md-left text-center">
+	{{if .IsHome}}
+	<p><small><a href="about/mirrors">Mirror sites</a></small></p>
+  {{end}}
+      </div>
+      <div class="col-md-4 text-md-left text-center">
 	{{if not .IsHome}}
 	<p><small><a href="https://github.com/OSGeo/grass-website/tree/master/content/{{ .Section }}/{{ with .File }}{{ .BaseFileName }}{{ end }}.md" class="fa fa-github"> <span class="edt">Edit this page on GitHub</span></a></small></p>
   {{end}}
