@@ -625,6 +625,9 @@ pre {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: color 0.4s linear;
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
 }
 .banner .navbar-brand i, .navbar-light .navbar-brand i {
   display: inline-block;

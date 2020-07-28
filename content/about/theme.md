@@ -56,13 +56,13 @@ layout: theme
 <p style="line-height:1em;font-size:1.6em;font-family: fira_sansmedium;color:#A0A0A0">Fira Sans Medium</p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .fira_sansmedium</code></pre>
+<pre class="nm"><code class="hljs css">font-family: fira_sansmedium</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: fira_sansthin;color:#A0A0A0">Fira Sans Thin </p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .fira_sansthin</code></pre>
+<pre class="nm"><code class="hljs css">font-family: fira_sansthin</code></pre>
 </div>
 </div>
 <hr>
@@ -71,61 +71,61 @@ layout: theme
 <p style="line-height:1em;font-size:1.6em;font-family: open_sanslight;color:#A0A0A0">Open Sans Light </p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sanslight</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sanslight</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sanslight_italic;color:#A0A0A0">Open Sans Light Italic </p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sanslight_italic</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sanslight_italic</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sansregular;color:#A0A0A0">Open Sans Regular </p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sansregular</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sansregular</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sansitalic;color:#A0A0A0">Open Sans Italic </p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sansitalic</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sansitalic</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sanssemibold;color:#A0A0A0">Open Sans Semi Bold </p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sanssemibold</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sanssemibold</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sanssemibold_italic;color:#A0A0A0">Open Sans Semi Bold Italic</p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sanssemibold_italic</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sanssemibold_italic</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sansbold;color:#A0A0A0">Open Sans Bold </p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sansbold</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sansbold</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sansbold_italic;color:#A0A0A0">Open Sans Bold Italic</p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sansbold_italic</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sansbold_italic</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.6em;font-family: open_sansextrabold;color:#A0A0A0">Open Sans Extra Bold</p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sansextrabold</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sansextrabold</code></pre>
 </div>
 <div class="col-lg-4 panel">
 <p style="line-height:1em;font-size:1.5em;font-family: open_sansextrabold_italic;color:#A0A0A0">Open Sans Extra Bold Italic</p>
 </div>
 <div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: .open_sansextrabold_italic</code></pre>
+<pre class="nm"><code class="hljs css">font-family: open_sansextrabold_italic</code></pre>
 </div>
 </div>
 
