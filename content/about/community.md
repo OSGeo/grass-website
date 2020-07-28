@@ -1,6 +1,6 @@
 ---
 title: "Community"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-07-28T11:02:05+06:00
 layout: "community"
 ---
 
@@ -31,7 +31,7 @@ The GRASS GIS project is led by a [Team] (https://grasswiki.osgeo.org/wiki/Team)
 
 <div class="alert rounded-0 alert-default">
 The mailing lists are the primary point of contact for the GRASS GIS project. 
-Subscribe to start the conversation, and please follow the <a href="grasswiki.osgeo.org/wiki/Mailing_list_etiquette" target="_blank">mailing list etiquette</a>.
+Subscribe to start the conversation, and please follow the <a href="https://grasswiki.osgeo.org/wiki/Mailing_list_etiquette" target="_blank">mailing list etiquette</a>.
 </div>
 
 | NAME | LINK | DESCRIPTION |
