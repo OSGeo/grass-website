@@ -6,7 +6,7 @@ layout: "general"
 
 ### Official master site via HTTP/FTP
 
-* [Official master site: grass.osgeo.org](https://grass.osgeo.org/)
+* [Official master site: grass.osgeo.org](https://grass.osgeo.org/) in the USA
 
 ### African Web site mirrors
 
@@ -21,7 +21,3 @@ layout: "general"
 
 * [Italy](http://grass.mirror.download.it) (Tier1)
 * [Czech Republic](http://grass.fsv.cvut.cz) (Tier2, Czech Technical University in Prague, Department of Geomatics)
-
-### US Web site mirrors
-
-* [USA](http://www.namesdir.com/mirrors/grass/) (Tier 2, St Louis)
