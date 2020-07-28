@@ -57,7 +57,7 @@ The North Carolina dataset can be downloaded in two versions:
    <span class="mwl"><a href="/grass-stable/manuals/topic_LIDAR.html" target="_blank"> LiDAR </a></span>
    <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21 MB)</a>
    <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6 MB)</a>
-   <p>Extra Raleigh (NC) LiDAR dataset (note: height in feet):  multi-return</p>
+   <p>Extra Raleigh (NC) LiDAR data file (note: height in feet): multi-return</p>
   </li>
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Climate </a></span>
@@ -67,7 +67,7 @@ The North Carolina dataset can be downloaded in two versions:
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/temporalintro.html" target="_blank"> Time series </a></span>
    <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
-   <p>Extra time series of MODIS Land Surface Temperature (mapset to unzip in NC location): MODIS LST time series</p>
+   <p>MODIS Land Surface Temperature mapset (to unzip in NC location): MODIS LST raster time series</p>
   </li>
 <!-- not sure?
   <li>
