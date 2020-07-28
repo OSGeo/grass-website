@@ -1,6 +1,6 @@
 ---
 title: "New GRASS GIS website"
-date: 2020-07-24T12:12:12+01:00
+date: 2020-07-29T12:12:12+01:00
 layout: "news"
 author: GRASS Development Team
 ---
@@ -19,7 +19,7 @@ In occasion of its 37th birthday the **GRASS GIS project** is proud to present i
  - Project resources easily reachable: mailing lists, wiki, RSS news feed, the various GitHub and docker repositories.
 
 ### The technology
-We chose a static format based on [HUGO](https://gohugo.io/) and all the code and content is hosted in a dedicated repo in [GitHub](https://github.com/OSGeo/grass-website). **Nicolas Bozon** was the main designer of the website theme and many others helped with content curation and creation. In detail, the page content is now written in markdown. Several times a day the website is automatically deployed from the GitHub repository to our internet server at https://grass.osgeo.org/ .
+We chose a static format based on [HUGO](https://gohugo.io/) and all the code and content is hosted in a [dedicated repo](https://github.com/OSGeo/grass-website) in GitHub. [**Nicolas Bozon**](mailto:nicolas.bozon@gmail.com) was the main designer of the website theme and many others helped with content curation and creation. In detail, the page content is now written in markdown. Several times a day the website is automatically deployed from the GitHub repository to our internet server at https://grass.osgeo.org/ .
 
 ### What's next
 With this new web technology and the availability of the code and content in a public repository, we want to **encourage and simplify community members' participation**. If you want your GRASS GIS use cases, blog posts and cool screenshots to be part of if, you only need to create a pull request. No fear, we have a [manual for contributions](https://grass.osgeo.org/about/theme/).
