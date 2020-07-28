@@ -1,9 +1,8 @@
 baseURL = "https://grass.osgeo.org/"
 theme = "grass"
-description = "GRASS GIS is a free Geographic Information System (GIS) software used for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization."
 
 [params]
-
+description = "GRASS GIS is a free Geographic Information System (GIS) software used for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization."
 primaryColor = "#088B36"
 secondaryColor = "#f9f9f9"
 textColor = "#636363"
