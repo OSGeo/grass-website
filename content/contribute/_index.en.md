@@ -68,6 +68,28 @@ It may be a good idea to send a small posting to the [GRASS developers mailing l
 
 We'd also appreciate if you could support us with [bug fixing and enhancement wishes](https://github.com/OSGeo/grass/issues).
 
+### Mirror our website
+
+Please consider to [contact us](mailto:grass-web(at)lists.osgeo.org), ideally reporting your already running mirror.
+
+#### Requirements:
+A GRASS mirror site requires around 14 GB space, the space requirements may vary due to the changing presence of precompiled binaries.
+If you would like to support the GRASS community, do not hesitate to set up your mirror site.
+
+#### How to set up a mirror site:
+The master site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync"](http://rsync.samba.org/) software protocol, allowing to synchronize mirrors automatically overnight. The idea of using "rsync" mirror software is that only changed files are transferred which minimizes the network traffic.
+
+#### Mirror site setup in greater detail:
+
+* Install the rsync software.
+* Check if you can connect - note the two '::' characters (this command should display a welcome message):
+  * `rsync -az --port=50026 grass.osgeo.org::grass-website grass-website`
+* Define a daily cron-job (in 'crontab') for rsync (example):
+  * `/usr/bin/rsync -az --port=50026 grass.osgeo.org::grass-website /mirror/grass-website`  
+  This will copy/update the GRASS site to your local directory /mirror/grass-website/ which needs to be made available in your web server.
+* Check if the synchronization works the next day(s).
+* Announce the new mirror site for this mirror list to [us]((mailto:grass-web(at)lists.osgeo.org)).
+
 ### Other opportunities
 
 #### Google Summer of Code (GSoC)
