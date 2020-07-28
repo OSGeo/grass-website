@@ -7,7 +7,7 @@ layout: "general"
 ### Official master site via HTTP/FTP
 
 
-* [Official master site: grass.osgeo.org](http://grass.osgeo.org/)
+* [Official master site: grass.osgeo.org](https://grass.osgeo.org/)
 
 * We recommend cascaded mirroring: 
 
