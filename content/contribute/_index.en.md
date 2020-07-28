@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-date: 2018-12-29T11:02:05+05:00
+date: 2020-07-28T11:02:05+05:00
 icon: "fa fa-user"
 description: "Contribute to Open Source Geospatial through GRASS GIS development"
 type : "pages"
@@ -70,7 +70,7 @@ We'd also appreciate if you could support us with [bug fixing and enhancement wi
 
 ### Mirror our website
 
-Please consider to [contact us](mailto:grass-web(at)lists.osgeo.org), ideally reporting your already running mirror.
+Please consider to [contact us](mailto:grass-web(at)lists.osgeo.org), ideally reporting your [already running mirror](/about/mirrors/).
 
 #### Requirements:
 A GRASS mirror site requires around 14 GB space, the space requirements may vary due to the changing presence of precompiled binaries.
