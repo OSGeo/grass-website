@@ -1,5 +1,5 @@
 ---
-title: "GRASS Website mirrors"
+title: "GRASS GIS Website mirrors"
 date: 2020-07-28T16:13:30+02:00
 layout: "general"
 ---
