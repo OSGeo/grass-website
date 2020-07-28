@@ -70,7 +70,7 @@ layout: "overview"
 
 | | |
 |-------|--------|
-|![alt text](/images/gallery/books/book_neteler2003_grass_handbook.jpg "GRASS GIS Handbook") | **GRASS-Handbuch. Der praktische Leitfaden zum Geographischen Informationssystem GRASS**<br> *M. Neteler*, 2003. <br><small>(GNU FDL) German language, printed and online available<br>266 pages</small><br><a href="gdp/handbuch/neteler_grasshandbuch_v12.pdf" target="_blank">Download PDF</a> - <a href="https://web.archive.org/web/20061214150642/http://www.gdf-hannover.de/gis.php?id=6&amp;lg=de">Errata</a>|
+|![alt text](/images/gallery/books/book_neteler2003_grass_handbook.jpg "GRASS GIS Handbook") | **GRASS-Handbuch. Der praktische Leitfaden zum Geographischen Informationssystem GRASS**<br> *M. Neteler*, 2003. <br><small>(GNU FDL) German language, printed and online available<br>266 pages</small><br><a href="/gdp/handbuch/neteler_grasshandbuch_v12.pdf" target="_blank">Download PDF</a> - <a href="https://web.archive.org/web/20061214150642/http://www.gdf-hannover.de/gis.php?id=6&amp;lg=de">Errata</a>|
 
 
 <hr>
