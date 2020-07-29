@@ -26,7 +26,7 @@ We chose a static format based on [HUGO](https://gohugo.io/) and all the code an
 
 With this new web technology and the availability of the code and content in a public repository, we want to **encourage and simplify community members' participation**. If you want your GRASS GIS use cases, blog posts and cool screenshots to be part of if, you only need to create a pull request. No fear, we have a [manual for contributions](https://grass.osgeo.org/about/theme/).
 
-We thank all the contributors for their input and help to see this project finally realized! Special thanks to [OSGeo](https://www.osgeo.org/) for the financial support.
+We thank all the contributors for their input and help to see this project finally realized! Special thanks to [OSGeo](https://www.osgeo.org/) as well as [individuals](https://grasswiki.osgeo.org/wiki/Sponsors) for their financial support.
 
 Stay tuned, there's more yet to come!
 
