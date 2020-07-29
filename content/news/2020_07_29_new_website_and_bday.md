@@ -1,6 +1,6 @@
 ---
 title: "New GRASS GIS website"
-date: 2020-07-29T12:12:12+01:00
+date: 2020-07-29T01:01:01+01:00
 layout: "news"
 author: GRASS Development Team
 ---
@@ -20,7 +20,7 @@ In occasion of its 37th birthday the **GRASS GIS project** is proud to present i
 
 ### The technology
 
-We chose a static format based on [HUGO](https://gohugo.io/) and all the code and content is hosted in a [dedicated repo](https://github.com/OSGeo/grass-website) in GitHub. [**Nicolas Bozon**](mailto:nicolas.bozon@gmail.com) was the main designer of the website theme and many others helped with content curation and creation. In detail, the page content is now written in markdown. Several times a day the website is automatically deployed from the GitHub repository to our internet server at https://grass.osgeo.org/ .
+We chose a static format based on [HUGO](https://gohugo.io/) and all the code and content is hosted in a [dedicated repo](https://github.com/OSGeo/grass-website) in GitHub. [**Nicolas Bozon**](http://cartogenic.com/) designed the website theme and many others helped with content curation and creation. In detail, the page content is now written in markdown. Several times a day the website is automatically deployed from the GitHub repository to our internet server at https://grass.osgeo.org/ .
 
 ### What's next
 
@@ -28,4 +28,6 @@ With this new web technology and the availability of the code and content in a p
 
 We thank all the contributors for their input and help to see this project finally realized! 
 
-Stay tuned, there's more yet to come! <i class="fa fa-smile-o fa-2x"></i>
+Stay tuned, there's more yet to come!
+
+<i class="fa fa-smile-o fa-2x "></i>
