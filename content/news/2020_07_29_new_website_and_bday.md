@@ -9,7 +9,7 @@ author: GRASS Development Team
 
 ## The new GRASS GIS website is out!
 
-In occasion of its 37th birthday the **GRASS GIS project** is proud to present its [**new website**](https://grass.osgeo.org)! The site has been redesigned with modern tools to be responsive and also easier to maintain. Content is more discoverable now and easy to browse too.
+In occasion of its **37th birthday the GRASS GIS project** is proud to present its [**new website**](https://grass.osgeo.org)! The site has been redesigned with modern tools to be responsive and also easier to maintain. Content is more discoverable now and easy to browse too.
 
 ### What's cool
 
