@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
 <head>
+  <title>{{ .Title }}</title>
   {{ if .Params.description }}
   <meta charset="utf-8" name="description" content="{{ .Params.description }}">
   {{ else if .Site.Params.description }}<meta charset="utf-8" name="description" content="{{ .Site.Params.description }}">{{ end }}
   <meta name="keywords" content="{{.Site.Params.Keywords }}">
   <meta property="og:url" content="{{.Site.BaseURL}}">
   <meta property="og:image" content="{{.Site.BaseURL}}images/other/share-img.png">
-  <title>{{ .Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
   {{ hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
+  <meta name="twitter:card" content="GRASS GIS">
+  <meta name="twitter:site" content="@GRASSGIS">
+  <meta name="twitter:creator" content="@GRASSGIS">
+  <meta name="twitter:title" content="{{ .Site.Title }}">
+  <meta name="twitter:description" content="{{ .Site.Params.description }}">
+  <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/share-img.png">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/hybrid.css"> 
