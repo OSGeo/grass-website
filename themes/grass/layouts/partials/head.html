@@ -3,9 +3,10 @@
 <head>
   {{ if .Params.description }}
   <meta charset="utf-8" name="description" content="{{ .Params.description }}">
-  {{ else if .Site.Params.description }}
-  <meta charset="utf-8" name="description" content="{{ .Site.Params.description }}">
-  {{ end }}
+  {{ else if .Site.Params.description }}<meta charset="utf-8" name="description" content="{{ .Site.Params.description }}">{{ end }}
+  <meta name="keywords" content="{{.Site.Params.Keywords }}">
+  <meta property="og:url" content="{{.Site.BaseURL}}">
+  <meta property="og:image" content="{{.Site.BaseURL}}images/other/share-img.png">
   <title>{{ .Title }}</title>
   {{ hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
