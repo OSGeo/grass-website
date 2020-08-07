@@ -44,6 +44,7 @@ Content must be created in .md files using markdown syntax. HTML markup can also
 Useful resources:
  * [Hugo docs](https://gohugo.io/documentation/)
  * [Markdown guide](https://www.markdownguide.org/basic-syntax/)
+ * [GRASS GIS Website style guide](https://grass.osgeo.org/about/theme/)
 
 ### Add a news item
 
