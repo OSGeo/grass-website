@@ -343,7 +343,7 @@ layout: "timeline"
 <div class="panel-body">
 <ul class="list-unstyled releases">
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 17 Jun 2004</span> GRASS GIS 5.7.0 development &#160;  <a href="/grass57/source/ChangeLog">ChangeLog</a> - <a href="/grass57/source/">Source Code</a></li>
-<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 15 May 2004</span> GRASS GIS 5.3.0 development &#160;  <a href="/news/2004_05_15_announce_grass530/">Press release</a> – <a href="/grass53/source/News.html">NEWS</a> - <a href="/grass53/source/ChangeLog">ChangeLog</a> - <a href="/grass53/source/">Source Code</a></li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 15 May 2004</span> GRASS GIS 5.3.0 development &#160;  <a href="/news/2004_05_15_announce_grass530/">Press release</a> – <a href="/grass53/source/NEWS.html">NEWS</a> - <a href="/grass53/source/ChangeLog">ChangeLog</a> - <a href="/grass53/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 05 Nov 2004</span> GRASS GIS 5.4.0 stable &#160;  <a href="/grass54/source/NEWS.html">NEWS</a> - <a href="/grass54/source/ChangeLog">ChangeLog</a> - <a href="/grass54/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/log/grass/branches/releasebranch_5_4">branch</a></li>
 </ul>
 </div>
