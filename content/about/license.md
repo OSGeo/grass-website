@@ -1,6 +1,6 @@
 ---
 title: "License"
-date: 2020-05-05T05:05:05+05:00
+date: 2020-08-08T05:05:05+05:00
 layout: "general"
 ---
 
@@ -27,7 +27,7 @@ software, Free Software and proprietary products, have a look
 at this graphic describing [categories of Free and Non-Free Software](https://www.gnu.org/philosophy/categories.html).
 
 Questions regarding details of this policy can be directed to 
-this [email address](grass-web@lists.osgeo.org).
+this <a href="mailto:grass-web@lists.osgeo.org" target="_blank">email address</a>.
 
 See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/licenses/gpl-faq.html).
 
