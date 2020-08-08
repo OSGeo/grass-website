@@ -94,8 +94,8 @@ The North Carolina dataset can be downloaded in two versions:
 This is the classical GRASS GIS dataset from the 1980th covering a part of
 Spearfish, South Dakota, USA, with raster, vector and point data. For more information on the dataset see
 the short <a href="/sampledata/spearDB.pdf">documentation</a> and
-<a href="sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
-<a href="sampledata/soils_legend.txt">legend</a> for soils map).
+<a href="/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
+<a href="/sampledata/soils_legend.txt">legend</a> for soils map).
 <ul id="links" class="list-unstyled version">
  <li>
   <span class="mwl"><a href="/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
