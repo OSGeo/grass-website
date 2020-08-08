@@ -1,6 +1,6 @@
 ---
 title: "GRASS GIS tutorials"
-date: 2020-05-01T11:02:05+06:00
+date: 2020-08-08T11:02:05+06:00
 layout: "overview"
 ---
 
@@ -34,9 +34,9 @@ layout: "overview"
 * [Unleash the power of GRASS GIS](https://grasswiki.osgeo.org/wiki/Unleash_the_power_of_GRASS_GIS_at_US-IALE_2017)
 * [From GRASS GIS novice to power user](https://grasswiki.osgeo.org/wiki/From_GRASS_GIS_novice_to_power_user_(workshop_at_FOSS4G_Boston_2017))
 * [GRASS GIS 7 short course at GEOSTAT 2015: Course material](https://data.neteler.org/geostat2015/)
-* [GRASS GIS Workshop in Jena 2018](https://training.gismentors.eu/grass-gis-workshop-jena-2018/)
+* [GRASS GIS Workshop in Jena 2018 with updates](https://training.gismentors.eu/grass-gis-workshop-jena/)
 * [GRASS GIS IRSAE Winter Course 2018](https://training.gismentors.eu/grass-gis-irsae-winter-course-2018/)
-* [Using GRASS GIS through Python and tangible interfaces](Using GRASS GIS through Python and tangible interfaces)
+* [Using GRASS GIS through Python and tangible interfaces](https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016))
 * [Analytical data visualizations](https://grasswiki.osgeo.org/wiki/Analytical_data_visualizations_at_ICC_2017)
 * [Processing LiDAR and UAV point clouds in GRASS GIS](https://grasswiki.osgeo.org/wiki/Processing_lidar_and_UAV_point_clouds_in_GRASS_GIS_(workshop_at_FOSS4G_Boston_2017))
 <img src="https://grasswiki.osgeo.org/w/images/Wxgui_module_parameters_r_neighbors.png" width="40%" style="float:right">
