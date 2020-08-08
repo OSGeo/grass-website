@@ -30,7 +30,7 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-7.6.1-stable"></a> GRASS GIS 7.6.1 (old stable) 
+### <a name="GRASS-GIS-old-stable"></a> GRASS GIS 7.6.1 (old stable) 
 
 <div class="alert rounded-0 alert-warning">
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
@@ -44,7 +44,7 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-7.9-devel"></a> GRASS 7.9 dev (unstable)
+### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 dev (unstable)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
