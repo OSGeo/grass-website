@@ -19,6 +19,8 @@ layout: "os"
 
 ### <a name="standalone-installers"></a> Standalone installers
 
+Standalone installer: install GRASS GIS with the required support packages.
+
 #### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.3 (new stable)
 
 <div class="alert rounded-0 alert-success">
@@ -58,7 +60,9 @@ layout: "os"
 <hr>
 
 
-### <a name="OSGeo4W"></a> OSGeo4W 
+### <a name="OSGeo4W"></a> OSGeo4W
+
+OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more). 
 
 *  [<i class="fa fa-download"></i> Download OSGeo4W 64bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) 
 *  [<i class="fa fa-download"></i> Download OSGeo4W 32bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
