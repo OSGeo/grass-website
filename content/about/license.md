@@ -49,8 +49,7 @@ https://grass.osgeo.org/programming7/
 <p> Use the following BibTeX entry for citing the <b>GRASS GIS</b> software in 
 scientific work written in LaTeX.</p>
 
-<pre>
-<code class="hljs tex">
+```tex
 @Manual{GRASS_GIS_software,
     title = {Geographic Resources Analysis Support System (GRASS GIS) Software},
     author = {{GRASS Development Team}},
@@ -59,7 +58,6 @@ scientific work written in LaTeX.</p>
     year = {2020},
     url = {https://grass.osgeo.org}
 }
-</code>
-</pre>
+```
 
 For more options see also: [GRASS GIS Citation Repository](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository).
