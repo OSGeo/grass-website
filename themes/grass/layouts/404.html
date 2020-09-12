@@ -1,8 +1,16 @@
-{{ define "main"}}
-    <main id="main">
-      <div>
-       <h1>Sorry the page you are looking is missing...</h1>
-       <h2 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h2>
+{{ partial "head.html" . }}
+  <header class="hero-section overlay bg-cover banner" data-background="{{.Site.BaseURL}}/images/logos/banner.jpg">
+    <div class="container mb-20">
+    {{ partial "navigation.html" . }}
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-center mx-auto">
+          <h1><a href="{{ "/" | relURL }}"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="33%"></a></h1>
+	<div class="alert alert-warning"><h2 style="margin:10px;color:red;">Sorry, there's nothing here.<span style="display:block;margin:10px;font-size:.75em;"><a href="{{ "/" | relURL }}"><i class="fa fa-home"></i> home</a></h2></div>
+        </div>
       </div>
-    </main>
-{{ end }}
+    </div>
+    </header>
+
+{{ partial "footer.html" . }}
