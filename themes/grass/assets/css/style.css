@@ -331,6 +331,18 @@ table tr td {
 table img {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07) !important;
 }
+
+#books table tr td:first-child {
+  width: 10rem;
+  min-width: 10rem;
+  max-width: 10rem;
+  word-break: break-all;
+}
+
+#books table img {
+    max-width:7rem !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+}
 .github {
   background: var(--grass-color-light);
 }
@@ -1342,6 +1354,23 @@ code{
   .entry-meta {
     font-size: 14px !important;
   }
+
+  #books table tr td:first-child {
+  width: 5rem !important;
+  min-width: 5rem  !important;
+  max-width:5rem  !important;
+  word-break: break-all;
+  }
+
+  #books table img {
+   max-width:4rem !important;
+  }
+
+  #books table tr td {
+   padding: 0 !important;
+   font-size: 0.85em !important;
+  }
+
 
 }
 

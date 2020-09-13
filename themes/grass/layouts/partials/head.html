@@ -2,9 +2,8 @@
 <html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
 <head>
   <title>{{ .Title }}</title>
-  {{ if .Params.description }}
-  <meta charset="utf-8" name="description" content="{{ .Params.description }}">
-  {{ else if .Site.Params.description }}<meta charset="utf-8" name="description" content="{{ .Site.Params.description }}">{{ end }}
+  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}"
+   />
   <meta name="keywords" content="{{.Site.Params.Keywords }}">
   <meta property="og:url" content="{{.Site.BaseURL}}">
   <meta property="og:image" content="{{.Site.BaseURL}}images/other/share-img.png">
