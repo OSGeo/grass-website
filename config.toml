@@ -36,7 +36,7 @@ greyColorDark = "#A0A0A0"
   title = "GRASS GIS - Bringing advanced geospatial technologies to the world"
   dateFormat = "1 January 2019"
   logo = "GRASS GIS"
-  copyright = "Copyright © 1998-2020, GRASS Development Team."
+  copyright = "1998-{year}, GRASS Development Team"
   license = "GNU GPL"
 
     # navigation

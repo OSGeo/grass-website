@@ -4,6 +4,12 @@
     margin: 10px;
     max-width: 768px;
 }
+
+.gallery div:nth-child(n+7) 
+{
+    display: none;
+}
+
 .gallery .box {
     float: left;
     position: relative;

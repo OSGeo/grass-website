@@ -51,7 +51,14 @@
         bindNavbar();
       });
       bindNavbar();
-    });
+    });    
     // Collapse current year news accordion
-    $("#news .panel-collapse:first").collapse();      
+    $("#news .panel-collapse:first").collapse();
+    
+    // Toggle gallery items
+    $(".gallery-toggler").click(function(e){
+	  $(this).parent().find('.gallery div:nth-child(n+7)').toggle();
+	  $(this).html($(this).html() == 'View more' ? 'View less' : 'View more');
+	  e.preventDefault();
+    });
 })(jQuery);
