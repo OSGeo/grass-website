@@ -93,6 +93,12 @@ Useful resources:
 
 * Check result at http://localhost:1313/about/mypage
 
+### Mind SEO
+
+Search engine optimization works like this:
+
+If the md file used for generating the page has a summary, its value is used as page meta description, otherwise the general description defined in `config.toml` is used by default.
+
 ### Add new event
 
 * Head to the news directory
