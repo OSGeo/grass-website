@@ -12,7 +12,7 @@ author: GRASS Development Team
 
 As a follow-up to the previous GRASS GIS 7.8.3 we have published the
 **new pre-release GRASS GIS 7.8.4RC1** with more than 280 improvements.
-Also this release focuses on wxGUI improvements.
+This minor release again focuses on wxGUI fixes, especially in the animation export, the layer management, 3D visualization and the data catalogue. Many `d.*` modules received fixes as well, and the vector digitizer now works as expected. 
 
 The overview of new features in the 7.8 release series is available at 
 [new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
