@@ -27,6 +27,7 @@ bugs fixed at
 -   winGRASS 7.8.4RC1 OSGeo4W:
     [32bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe) \| [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe)
 -   [Debian](https://tracker.debian.org/pkg/grass)
+-   [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-experimental/+packages?field.name_filter=grass)
 - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html#g78x)
 
 **Source code download:**
