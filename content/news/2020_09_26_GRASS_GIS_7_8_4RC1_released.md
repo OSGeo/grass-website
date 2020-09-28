@@ -42,19 +42,12 @@ installation.
 **About GRASS GIS**
 
 The Geographic Resources Analysis Support System
-([https://grass.osgeo.org/](/)), commonly referred
-to as GRASS GIS, is an Open Source Geographic Information System
-providing powerful raster, vector and geospatial processing capabilities
-in a single integrated software suite. GRASS GIS includes tools for
-spatial modeling, visualization of raster and vector data, management
-and analysis of geospatial data, and the processing of satellite and
-aerial imagery. It also provides the capability to produce sophisticated
-presentation graphics and hardcopy maps. GRASS GIS has been translated
-into about twenty languages and supports a huge array of data formats.
-It can be used either as a stand-alone application or as backend for
-other software packages such as QGIS and R geostatistics. It is
-distributed freely under the terms of the GNU General Public License
-(GPL). GRASS GIS is a founding member of the Open Source Geospatial
-Foundation (OSGeo).
+([https://grass.osgeo.org/](/)), commonly referred to as GRASS GIS, is
+an Open Source Geographic Information System providing powerful raster,
+vector and [https://grass.osgeo.org/learn/overview/](geospatial processing capabilities).
+It can be used either as a stand-alone application or as backend for other
+software packages such as QGIS and R geostatistics or in the cloud. It is
+distributed freely under the terms of the GNU General Public License (GPL).
+GRASS GIS is a founding member of the Open Source Geospatial Foundation (OSGeo).
 
 *The GRASS Development Team, Sep 2020*
