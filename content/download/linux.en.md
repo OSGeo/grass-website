@@ -1,6 +1,6 @@
 ---
 title: "Linux"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-09-29T11:02:05+06:00
 description: "Download GRASS GIS packages for your favorite distribution"
 weight: 1
 layout: "os"
@@ -18,6 +18,8 @@ list of GRASS GIS packages.
 
 *  [Arch Linux](https://aur.archlinux.org/packages/grass/)
 *  [Debian](https://packages.debian.org/grass)
+*  [EPEL](https://src.fedoraproject.org/rpms/grass)
+*  [Fedora](https://src.fedoraproject.org/rpms/grass)
 *  [Mageia](https://madb.mageia.org/package/show/name/grass/)
 *  [openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass)  (ubuntugis-unstable)
@@ -29,7 +31,9 @@ list of GRASS GIS packages.
 
 *  [Generic 64bit](/grass78/binary/linux/snapshot) (weekly binary snapshot)
 *  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (RHEL7/Centos7/Scientific Linux7)
-*  [Fedora](https://copr.fedorainfracloud.org/coprs/neteler/grass78/)
+*  [EPEL8](https://src.fedoraproject.org/rpms/grass) (RHEL8/Centos8)
+*  [Fedora](https://src.fedoraproject.org/rpms/grass)
+*  [openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)
 
 <hr>
 
