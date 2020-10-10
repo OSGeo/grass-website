@@ -1,6 +1,6 @@
 ---
 title: "Linux"
-date: 2020-10-109T11:02:05+06:00
+date: 2020-10-10T11:02:05+02:00
 description: "Download GRASS GIS packages for your favorite distribution"
 weight: 1
 layout: "os"
