@@ -11,7 +11,11 @@ author: GRASS Development Team
 **What's new in a nutshell**
 
 As a follow-up to the previous GRASS GIS 7.8.3 we have published the
-<img src="/images/gallery/lidar/openNRW_bonn_lidar_shaded_50cm_res.png" alt="Screenshot by @neteler" width="45%" style="float:right;padding-left:10px;padding-top:20px">
+<a href="/images/gallery/lidar/openNRW_bonn_lidar_shaded_50cm_res.png">
+  <img src="/images/gallery/lidar/openNRW_bonn_lidar_shaded_50cm_res.png"
+   alt="Processed LiDAR data in GRASS GIS (screenshot by @neteler)" title="Processed LiDAR data in GRASS GIS (screenshot by @neteler)"
+   width="45%" style="float:right;padding-left:10px;padding-top:20px">
+</a>
 **new release GRASS GIS 7.8.4** with more than 170 improvements. 
 This minor release again focuses on wxGUI fixes, especially in the
 animation export, the layer management, 3D visualization and the data
