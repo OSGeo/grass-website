@@ -23,7 +23,7 @@ See also our detailed announcement with the full list of changes and
 bugs fixed at 
 [https://trac.osgeo.org/grass/wiki/Release/7.8.4-News](https://trac.osgeo.org/grass/wiki/Release/7.8.4-News).
 
-**Binaries/Installer download:**\
+**Binaries/Installer download:**
 
 - winGRASS 7.8.4/standalone: 
   [32bit standalone installer](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.4-1-Setup-x86.exe) \| [64bit standalone installer](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.4-1-Setup-x86_64.exe)
