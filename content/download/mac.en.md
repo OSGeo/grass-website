@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 7.8.3 (new stable)**](#GRASS-GIS-new-stable) | [**GRASS 7.6.1 (old stable)**](#GRASS-GIS-old-stable) | [**GRASS 7.9 devel**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 7.8.4 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (old)**](#GRASS-GIS-old) | [**GRASS 7.9 devel**](#GRASS-GIS-devel) ]
   
 
 <div class="alert rounded-0 alert-default">
@@ -18,10 +18,10 @@ layout: "os"
 <hr>
 
 
-### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.3 (new stable) 
+### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.4 (current) 
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.3-News">GRASS GIS 7.8.3 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.4-News">GRASS GIS 7.8.4 announcement</a> for more information.
 </div>
 
 <ul>
@@ -30,7 +30,7 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-old-stable"></a> GRASS GIS 7.6.1 (old stable) 
+### <a name="GRASS-GIS-old"></a> GRASS GIS 7.6.1 (old) 
 
 <div class="alert rounded-0 alert-warning">
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
@@ -44,7 +44,7 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 dev (unstable)
+### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 devel (unstable)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
