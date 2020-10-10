@@ -10,8 +10,9 @@ author: GRASS Development Team
 ------------------------------------------------------------------------
 **What's new in a nutshell**
 
-As a follow-up to the previous GRASS GIS 7.8.3 we have published the 
-**new pre-release GRASS GIS 7.8.4** with more than 170 improvements. 
+As a follow-up to the previous GRASS GIS 7.8.3 we have published the
+<img src="/images/gallery/lidar/openNRW_bonn_lidar_shaded_50cm_res.png" alt="Screenshot by @neteler" width="45%" style="float:right;padding-left:10px;padding-top:20px">
+**new release GRASS GIS 7.8.4** with more than 170 improvements. 
 This minor release again focuses on wxGUI fixes, especially in the
 animation export, the layer management, 3D visualization and the data
 catalogue. Many display modules received fixes as well, and the vector
