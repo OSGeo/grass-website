@@ -1,6 +1,6 @@
 ---
 title: "Data"
-date: 2020-07-28T11:02:05+06:00
+date: 2020-11-13T11:02:05+06:00
 description: "Download sample data ready for GRASS GIS"
 weight: 
 categories: [nl]
@@ -40,7 +40,7 @@ The North Carolina dataset can be downloaded in two versions:
   <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP (159 MB)</a>
   <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ (159 MB)</a>
   </li>
-   <li>
+  <li>
   <span class="mwl"><a href="/sampledata/north_carolina/nc_basic_spm_grass7.zip" target="_blank"> North Carolina basic dataset </a></span>
   <a href="/sampledata/north_carolina/nc_basic_spm_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP  (50 MB)</a>
   <a href="/sampledata/north_carolina/nc_basic_spm_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ  (50 MB)</a>
@@ -65,7 +65,8 @@ The North Carolina dataset can be downloaded in two versions:
   </li>
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/temporalintro.html" target="_blank"> Time series </a></span>
-   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (2 MB)</a>
+   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for < G7.8, 2 MB)</a>
+   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst_grass79.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G79+, 2 MB)</a>
    <p>MODIS Land Surface Temperature mapset (to unzip in NC location): MODIS LST raster time series (<a href="https://lpdaac.usgs.gov/products/mod11b3v006/">MOD11B3</a>, 6km, monthly)</p>
   </li>
 <!-- not sure?
