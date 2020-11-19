@@ -20,7 +20,7 @@ greyColorDark = "#A0A0A0"
 
 [sitemap]
   changefreq = "monthly"
-  filename = "sitemap.xml"
+  filename = "sitemap_hugo.xml"
   priority = 0.5
 
 [markup]
