@@ -6,4 +6,7 @@
    <sitemap>
       <loc>https://grass.osgeo.org/grass78/manuals/sitemap_manuals.xml</loc>
    </sitemap>
-   </sitemapindex>
+   <sitemap>
+      <loc>https://grass.osgeo.org/grass78/manuals/addons/sitemap_manuals.xml</loc>
+   </sitemap>
+</sitemapindex>
