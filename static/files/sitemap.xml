@@ -9,4 +9,7 @@
    <sitemap>
       <loc>https://grass.osgeo.org/grass-stable/manuals/addons/sitemap_manuals.xml</loc>
    </sitemap>
+   <sitemap>
+      <loc>https://grass.osgeo.org/grass-devel/manuals/sitemap_manuals.xml</loc>
+   </sitemap>
 </sitemapindex>
