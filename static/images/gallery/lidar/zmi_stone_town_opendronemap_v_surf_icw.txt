@@ -1,0 +1,1 @@
+Zanzibar Mapping Initiative data processed in OpenDroneMap and interpolated respecting building footprints using v.surf.icw.
