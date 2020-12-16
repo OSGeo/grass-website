@@ -73,6 +73,6 @@ This can also be done with the command line, as shown below:
 
 <p class="command">osgeo4w-setup-x86_64.exe -q -k -P grass -s http://download.osgeo.org/osgeo4w/x86_64/</p>
 
-Additional useful packages (e.g. python-pandas, msys) are available in **Advanced Install** mode.
+Additional useful packages (e.g. python-pandas, msys) are available in **Advanced Install** mode. See the dedicated [wiki page](https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer) for further details.
 
 Hint for QGIS users: in order to have GRASS GIS support (also in QGIS-Processing) as well as the "With GRASS" shortcut you need to install the "qgis-grass-plugin*" packages.
