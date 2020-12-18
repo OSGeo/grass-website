@@ -67,12 +67,21 @@ OSGeo4W is an installer for a broad set of open source geospatial software packa
 *  [<i class="fa fa-download"></i> Download OSGeo4W 64bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) 
 *  [<i class="fa fa-download"></i> Download OSGeo4W 32bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
 
-Run the downloaded installer as administrator in **Express Desktop Install** mode and select the **grass** (stable) or **grass-daily** (development) packages to install. All needed  dependencies (e.g. GDAL, common python packages) are automatically downloaded.
+##### Express Desktop Install mode:
 
-This can also be done with the command line, as shown below:
+Run the downloaded installer as administrator and select the **grass** (stable) or **grass-daily** (development) packages to install. All needed dependencies (e.g. GDAL, common python packages) will be automatically downloaded.
 
-<p class="command">osgeo4w-setup-x86_64.exe -q -k -P grass -s http://download.osgeo.org/osgeo4w/x86_64/</p>
+##### Advanced Install mode:
+All packages can be individually selected and additional useful packages (e.g. python-pandas, msys) are available, too. 
 
-Additional useful packages (e.g. python-pandas, msys) are available in **Advanced Install** mode. See the dedicated [wiki page](https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer) for further details.
+##### Command line mode: 
+Installation can also be done through command line, as shown below:
 
-Hint for QGIS users: in order to have GRASS GIS support (also in QGIS-Processing) as well as the "With GRASS" shortcut you need to install the "qgis-grass-plugin*" packages.
+<pre style="background-color:#CCCCCC">
+osgeo4w-setup-x86_64.exe -q -k -P grass -s http://download.osgeo.org/osgeo4w/x86_64/
+</pre>
+
+See the dedicated [wiki page](https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer) for further details.
+
+##### QGIS users: 
+In order to have GRASS GIS support (also in QGIS-Processing) as well as the "With GRASS" shortcut you need to install the "qgis-grass-plugin*" packages.
