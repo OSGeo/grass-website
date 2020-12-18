@@ -14,17 +14,17 @@ author: Admin
 The new GRASS GIS Project Steering Committee (PSC) is composed of the
 following nine members (ranking, name, votes):
 
-  --- ------------------- ----
-  1   Markus Neteler      62
-  2   Helena Mitasova     53
-  3   Martin Landa        52
-  4   Anna Petrasova      45
-  5   Moritz Lennert      41
-  6   Margherita Di Leo   39
-  7   Michael Barton      35
-  8   Peter Löwe          33
-  9   Vaclav Petras       31
-  --- ------------------- ----
+--- ------------------- ----
+-  1   Markus Neteler      62
+-  2   Helena Mitasova     53
+-  3   Martin Landa        52
+-  4   Anna Petrasova      45
+-  5   Moritz Lennert      41
+-  6   Margherita Di Leo   39
+-  7   Michael Barton      35
+-  8   Peter Löwe          33
+-  9   Vaclav Petras       31
+--- ------------------- ----
 
 \
 More details in earlier announcement sent to the \"grass-psc\" mailing
