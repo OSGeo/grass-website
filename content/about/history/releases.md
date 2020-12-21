@@ -18,7 +18,9 @@ layout: "timeline"
         <div id="2020" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
-<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 11 Dec 2019</span> <b>GRASS GIS 7.8.2</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.2-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 21 Dec 2020</span> <b>GRASS GIS 7.8.5</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.5-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 10 Oct 2020</span> <b>GRASS GIS 7.8.4</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.4-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 5  May 2020</span> <b>GRASS GIS 7.8.3</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.3-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
 </ul>
           </div>
         </div>

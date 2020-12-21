@@ -1,6 +1,6 @@
 ---
 title: "Windows"
-date: 2020-10-10T11:02:05+02:00
+date: 2020-12-21T11:02:05+02:00
 description: "Download GRASS GIS installers for Windows"
 weight: 2
 layout: "os"
@@ -21,13 +21,13 @@ layout: "os"
 
 Standalone installer: install GRASS GIS with the required support packages.
 
-#### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.4 (current)
+#### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.5 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8.4 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.4-News">GRASS GIS 7.8.4 announcement</a> for more information.</div>
+<i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8.5 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.5-News">GRASS GIS 7.8.5 announcement</a> for more information.</div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.4-1-Setup-x86_64.exe)
-*  [<i class="fa fa-download"></i> Download 32bit](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.4-1-Setup-x86.exe)
+*  [<i class="fa fa-download"></i> Download 64bit](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.5-1-Setup-x86_64.exe)
+*  [<i class="fa fa-download"></i> Download 32bit](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.5-1-Setup-x86.exe)
 
 <hr>
 
