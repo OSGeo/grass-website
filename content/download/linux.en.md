@@ -1,7 +1,7 @@
 ---
-title: "Linux"
+title: "GRASS GIS for Linux"
 date: 2020-12-21T11:02:05+02:00
-description: "Download GRASS GIS packages for your favorite distribution"
+description: "Download GRASS GIS packages for your favorite Linux distribution"
 weight: 1
 layout: "os"
 ---

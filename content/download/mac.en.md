@@ -1,5 +1,5 @@
 ---
-title: "Mac"
+title: "GRASS GIS for Mac"
 date: 2020-12-21T11:02:05+06:00
 description: "Download bundled GRASS GIS binaries for your Mac"
 weight: 3

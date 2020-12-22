@@ -1,5 +1,5 @@
 ---
-title: "Windows"
+title: "GRASS GIS for Windows"
 date: 2020-12-21T11:02:05+02:00
 description: "Download GRASS GIS installers for Windows"
 weight: 2
