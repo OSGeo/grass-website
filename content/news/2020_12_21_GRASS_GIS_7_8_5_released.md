@@ -11,8 +11,8 @@ author: GRASS Development Team
 **What's new in a nutshell**
 
 As a follow-up to the previous GRASS GIS 7.8.4 we have published the
-<a href="/images/news/vnetdistance.png">
-  <img src="/images/news/vnetdistance.png"
+<a href="/images/gallerylidar/zmi_stone_town_opendronemap_v_surf_icw.png">
+  <img src="/images/gallerylidar/zmi_stone_town_opendronemap_v_surf_icw.png"
    alt="Vector network analysis in GRASS GIS" title="Vector network analysis in GRASS GIS"
    width="45%" style="float:right;padding-left:10px;padding-top:20px">
 </a>
