@@ -11,8 +11,8 @@ author: GRASS Development Team
 **What's new in a nutshell**
 
 As a follow-up to the previous GRASS GIS 7.8.4 we have published the
-<a href="/images/gallerylidar/zmi_stone_town_opendronemap_v_surf_icw.png">
-  <img src="/images/gallerylidar/zmi_stone_town_opendronemap_v_surf_icw.png"
+<a href="/images/gallery/lidar/zmi_stone_town_opendronemap_v_surf_icw.png">
+  <img src="/images/gallery/lidar/zmi_stone_town_opendronemap_v_surf_icw.png"
    alt="Zanzibar Mapping Initiative data processed in OpenDroneMap and interpolated respecting building footprints using v.surf.icw" title="Zanzibar Mapping Initiative data processed in OpenDroneMap and interpolated respecting building footprints using v.surf.icw"
    width="45%" style="float:right;padding-left:10px;padding-top:20px">
 </a>
