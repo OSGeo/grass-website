@@ -1,6 +1,6 @@
 ---
-title: "Mac"
-date: 2018-12-29T11:02:05+06:00
+title: "GRASS GIS for Mac"
+date: 2020-12-21T11:02:05+06:00
 description: "Download bundled GRASS GIS binaries for your Mac"
 weight: 3
 layout: "os"
@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 7.8.4 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (old)**](#GRASS-GIS-old) | [**GRASS 7.9 devel**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 7.8.5 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (old)**](#GRASS-GIS-old) | [**GRASS 7.9 devel**](#GRASS-GIS-devel) ]
   
 
 <div class="alert rounded-0 alert-default">
@@ -18,10 +18,10 @@ layout: "os"
 <hr>
 
 
-### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.4 (current) 
+### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.5 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.4-News">GRASS GIS 7.8.4 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.5-News">GRASS GIS 7.8.5 announcement</a> for more information.
 </div>
 
 <ul>
