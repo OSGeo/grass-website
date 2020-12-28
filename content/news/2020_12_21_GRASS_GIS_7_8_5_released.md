@@ -5,9 +5,6 @@ layout: "news"
 author: GRASS Development Team
 ---
 
-### GRASS GIS 7.8.5 released
-
-------------------------------------------------------------------------
 **What's new in a nutshell**
 
 As a follow-up to the previous GRASS GIS 7.8.4 we have published the
