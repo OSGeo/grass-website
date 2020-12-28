@@ -7,13 +7,13 @@ author: GRASS Development Team
 
 **What's new in a nutshell**
 
-As a follow-up to the previous GRASS GIS 7.8.4 we have published the
 <a href="/images/gallery/lidar/zmi_stone_town_opendronemap_v_surf_icw.png">
   <img src="/images/gallery/lidar/zmi_stone_town_opendronemap_v_surf_icw.png"
    alt="Zanzibar Mapping Initiative data processed in OpenDroneMap and interpolated respecting building footprints using v.surf.icw" title="Zanzibar Mapping Initiative data processed in OpenDroneMap and interpolated respecting building footprints using v.surf.icw"
    width="45%" style="float:right;padding-left:10px;padding-top:20px">
 </a>
 
+As a follow-up to the previous GRASS GIS 7.8.4 we have published the
 **new release GRASS GIS 7.8.5** with more than 80 improvements. 
 This minor release offers new wxGUI fixes across the tree. Also the addon
 extension manager received various stability fixes. VRT raster map with tiled
