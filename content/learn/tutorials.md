@@ -48,7 +48,7 @@ layout: "overview"
 * [Analyzing space-time satellite data for disease ecology](https://gitpitch.com/veroandreo/grass_opengeohub2019/master?p=slides/tgrass_rstats_disease_ecology#/)
 * [actinia tutorial at OpenGeoHub Summer School 2019](https://neteler.gitlab.io/actinia-introduction/)
 * [GRASS GIS courses in OSGeo Resources](https://www.osgeo.org/resources/)
-
+* [GIS for Designers](https://baharmon.github.io/gis-for-designers)
 
 ### Czech
 <img src="https://grasswiki.osgeo.org/w/images/ICC_workshop_3Dview_ortho.png" width="40%" style="float:right">
