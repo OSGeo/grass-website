@@ -1,12 +1,12 @@
 ---
-title: "GRASS GIS for Windows"
+title: "Windows"
 date: 2020-12-21T11:02:05+02:00
 description: "Download GRASS GIS installers for Windows"
 weight: 2
 layout: "os"
 ---
 
-  
+
 #### Quick links
 
 [ [**Standalone installers**](#standalone-installers) | [**OSGeo4W**](#OSGeo4W) ]
@@ -62,9 +62,9 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 ### <a name="OSGeo4W"></a> OSGeo4W
 
-OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more). 
+OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more).
 
-*  [<i class="fa fa-download"></i> Download OSGeo4W 64bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) 
+*  [<i class="fa fa-download"></i> Download OSGeo4W 64bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe)
 *  [<i class="fa fa-download"></i> Download OSGeo4W 32bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
 
 ##### Express Desktop Install mode:
@@ -72,9 +72,9 @@ OSGeo4W is an installer for a broad set of open source geospatial software packa
 Run the downloaded installer as administrator and select the **grass** (stable) or **grass-daily** (development) packages to install. All needed dependencies (e.g. GDAL, common python packages) will be automatically downloaded.
 
 ##### Advanced Install mode:
-All packages can be individually selected and additional useful packages (e.g. python-pandas, msys) are available, too. 
+All packages can be individually selected and additional useful packages (e.g. python-pandas, msys) are available, too.
 
-##### Command line mode: 
+##### Command line mode:
 Installation can also be done through command line, as shown below:
 
 <pre style="background-color:#CCCCCC">
@@ -83,5 +83,5 @@ osgeo4w-setup-x86_64.exe -q -k -P grass -s http://download.osgeo.org/osgeo4w/x86
 
 See the dedicated [wiki page](https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer) for further details.
 
-##### QGIS users: 
+##### QGIS users:
 In order to have GRASS GIS support (also in QGIS-Processing) as well as the "With GRASS" shortcut you need to install the "qgis-grass-plugin*" packages.
