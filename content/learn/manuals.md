@@ -1,8 +1,14 @@
 ---
 title: "GRASS GIS manuals"
-date: 2018-12-29T11:02:05+06:00
+date: 2021-01-01T11:11:05+06:00
 layout: "manuals"
 ---
+
+### Manual pages search
+
+<p>(at time we cannot offer our own manual page search engine)</p>
+
+<iframe src="https://duckduckgo.com/search.html?site=grass.osgeo.org&prefill=Search at DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:270px;height:40px;" frameborder="0"></iframe>
 
 ### User manuals
 

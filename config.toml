@@ -23,6 +23,9 @@ greyColorDark = "#A0A0A0"
   filename = "sitemap_hugo.xml"
   priority = 0.5
 
+[outputs]
+   home = [ "HTML", "JSON" ]
+
 [markup]
   defaultMarkdownHandler = "blackfriday"
   
@@ -175,33 +178,39 @@ greyColorDark = "#A0A0A0"
 
           [[Languages.en.menu.main]]
           parent = "About"
+          name = "Search"
+          URL = "/about/search"
+          weight = 1
+
+          [[Languages.en.menu.main]]
+          parent = "About"
           name = "License"
           URL = "/about/license"
-          weight = 1
+          weight = 2
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "Community"
           URL = "/about/community"
-          weight = 2
+          weight = 3
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "History"
           URL = "/about/history"
-          weight = 3
+          weight = 4
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "Brand"
           URL = "/about/brand"
-          weight = 4
+          weight = 5
 
           [[Languages.en.menu.main]]
           parent = "About"
           name = "Credits"
           URL = "/about/credits"
-          weight = 5
+          weight = 6
 
     # banner
     [Languages.en.params.banner]

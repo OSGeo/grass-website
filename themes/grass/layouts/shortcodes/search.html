@@ -1,0 +1,66 @@
+        <form id="custom-search" name="custom-search" method="post" action="" onsubmit="customSearchResults(); return false;">
+            <p>
+                <input id="custom-search-field" type="text" name="search" value="" title="Search String" placeholder="Search String">
+                <!-- <input type="submit" value="Search"> -->
+            </p>
+            <!-- <p><em>search for:</em><br>
+                <input type="checkbox" name="section[]" value="site" checked="checked"> all<br>
+                <input type="checkbox" name="section[]" value="post"> Blog<br>
+                <input type="checkbox" name="section[]" value="other-section"> Other Section
+            </p> -->
+            <p>
+                <input type="radio" name="option" value="AND" checked="checked"> AND search<br>
+                <input type="radio" name="option" value="OR"> OR search
+            </p>
+        </form>
+
+        <div id="custom-search-results"></div>
+
+        <script>
+        // CUSTOM AREA
+        let params = {
+            json_src       : '/index.json', // for multiple sources: comma separated list of JSON arrays
+            minlength      : 3,
+            defaultsearch  : 'AND',
+            sort_date      : 'DESC',
+            autocomplete   : 1, // 0: form needs a submit button
+            section_search : 0, // 1: needs checkboxes with name="section[]"
+            badwords       : 'and,or,but,if,so,the,that,the,one,of,a', // ignore these words
+            json_wait      : '<p><em>One moment, loading search results ...</em></p>',
+            json_ready     : '<p><em>Please enter a search term</em></p>',
+            extern_icon    : ' (external link)', // marker for external links (optional)
+//            err_badstring  : '<p>Der Suchbegriff ist zu kurz!</p>',
+//            err_noresult   : '<p>Leider kein Suchergebnis. Bitte versuchen Sie es noch einmal.</p>',
+//            err_norequest  : '<p style="text-align: center; color: red;">Die Volltextsuche steht zur Zeit nicht zur Verfügung.</p>',
+//            err_filefailed : '<p style="text-align: center; color: red;">Eine Datei konnte nicht abgerufen werden.</p>',
+//            res_one_item   : '<p><em>[CNT] SUCHERGEBNIS</em></p>',
+//            res_more_items : '<p><em>[CNT] SUCHERGEBNISSE</em></p>',
+            err_badstring  : '<p>The search string is too short!</p>',
+            err_noresult   : '<p>Unfortunately, no search result. Please try again</p>',
+            err_norequest  : '<p style="text-align: center; color: red;">Full-text search is not available at this time!</p>',
+            err_filefailed : '<p style="text-align: center; color: red;">A file could not be retrieved.</p>',
+            res_one_item   : '<p><em>[CNT] SEARCH RESULT</em></p>',
+            res_more_items : '<p><em>[CNT] SEARCH RESULTS</em></p>',
+            res_out_top    : '<ul>',
+            res_out_bottom : '</ul>',
+            res_item_tpl   : '<li><a href="[URL]">[TITLE]</a><br>[DATE]: [SUMMARY]<br><em>[SECTION][TAGS]</em></li>',
+            add_searchlink : '<p><a href="https://duckduckgo.com/?q=site:grass.osgeo.org [QUERY]" target="_blank"><i>Not satisfied with the search results? External search via DuckDuckGo ...</i></a></p>'
+        };
+
+        // Translation of section name (optional)
+        let section_trans = {
+            "post" : "Blog",
+            // "other-section" : "Other Section"
+        };
+
+        let searchfield_weight = {
+            "title"   : 5,
+            "tags"    : 5,
+            "summary" : 2,
+            "content" : 1
+        };
+
+        // CUSTOM AREA END
+        </script>
+
+        <script type="text/javascript" src="/js/search.js"></script>
