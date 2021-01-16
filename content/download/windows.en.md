@@ -21,7 +21,7 @@ layout: "os"
 
 Standalone installer: install GRASS GIS with the required support packages.
 
-#### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.5 (current stable)
+#### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.5 (current)
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8.5 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.5-News">GRASS GIS 7.8.5 announcement</a> for more information.</div>

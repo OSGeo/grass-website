@@ -19,7 +19,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 
 <hr>
 
-### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.x (current stable)
+### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.x (current)
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a>)</div>
