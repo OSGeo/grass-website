@@ -224,7 +224,7 @@ greyColorDark = "#A0A0A0"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-facebook"
-      link = "https://www.facebook.com/GRASSGISCommunity"
+      link = "https://www.facebook.com/groups/GRASS"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-youtube"
