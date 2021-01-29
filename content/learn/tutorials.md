@@ -30,11 +30,10 @@ layout: "overview"
 <img src="https://grasswiki.osgeo.org/w/images/WxGUI_set_region.png" width="50%" style="float:right">
 
 * [Introduction to GRASS GIS](http://ncsu-geoforall-lab.github.io/grass-intro-workshop/)
+* [GRASS GIS Workshop in Jena with updates](https://training.gismentors.eu/grass-gis-workshop-jena/)
 * [Introduction to GRASS GIS with terrain analysis examples](https://grasswiki.osgeo.org/wiki/Introduction_to_GRASS_GIS_with_terrain_analysis_examples)
 * [Unleash the power of GRASS GIS](https://grasswiki.osgeo.org/wiki/Unleash_the_power_of_GRASS_GIS_at_US-IALE_2017)
 * [From GRASS GIS novice to power user](https://grasswiki.osgeo.org/wiki/From_GRASS_GIS_novice_to_power_user_(workshop_at_FOSS4G_Boston_2017))
-* [GRASS GIS 7 short course at GEOSTAT 2015: Course material](https://data.neteler.org/geostat2015/)
-* [GRASS GIS Workshop in Jena 2018 with updates](https://training.gismentors.eu/grass-gis-workshop-jena/)
 * [GRASS GIS IRSAE Winter Course 2018](https://training.gismentors.eu/grass-gis-irsae-winter-course-2018/)
 * [Using GRASS GIS through Python and tangible interfaces](https://grasswiki.osgeo.org/wiki/Using_GRASS_GIS_through_Python_and_tangible_interfaces_(workshop_at_FOSS4G_NA_2016))
 * [Analytical data visualizations](https://grasswiki.osgeo.org/wiki/Analytical_data_visualizations_at_ICC_2017)
@@ -49,6 +48,7 @@ layout: "overview"
 * [actinia tutorial at OpenGeoHub Summer School 2019](https://neteler.gitlab.io/actinia-introduction/)
 * [GRASS GIS courses in OSGeo Resources](https://www.osgeo.org/resources/)
 * [GIS for Designers](https://baharmon.github.io/gis-for-designers)
+* [GRASS GIS 7 short course at GEOSTAT 2015: Course material](https://data.neteler.org/geostat2015/)
 
 ### Czech
 <img src="https://grasswiki.osgeo.org/w/images/ICC_workshop_3Dview_ortho.png" width="40%" style="float:right">
