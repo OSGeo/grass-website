@@ -1,14 +1,14 @@
 ---
-title: "Donations"
-date: 2018-12-29T11:02:05+06:00
+title: "Sponsoring"
+date: 2021-02-02T11:02:05+06:00
 layout: "general"
 ---
 
-## Donations
+## Sponsoring the GRASS GIS project
 
 <img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_fotowall.jpg" width="55%" alt="Bonn code sprint 2018" style="float:right">
 
-### Why donate
+### Why sponsor?
 
 *The GRASS GIS project is a volunteer-based organization*, 
 it is an affiliated project and founding member of the Open Source Geospatial Foundation ([OSGeo](https://osgeo.org/)).
