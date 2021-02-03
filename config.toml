@@ -150,8 +150,8 @@ greyColorDark = "#A0A0A0"
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Donations"
-          URL = "/contribute/donations"
+          name = "Sponsoring"
+          URL = "/contribute/sponsoring"
           weight = 2
 
           [[Languages.en.menu.main]]
