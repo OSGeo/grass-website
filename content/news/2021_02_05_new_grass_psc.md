@@ -1,6 +1,6 @@
 ---
 title: "Elections results and new GRASS GIS PSC"
-date: 2021-02-05T00:12:00+02:00
+date: 2021-02-05T23:12:00+02:00
 layout: "news"
 author: GRASS Development Team
 ---
