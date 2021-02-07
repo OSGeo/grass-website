@@ -16,11 +16,11 @@ of the following nine members ranked by number of votes:
 
 * Markus Neteler    (95)
 * Anna Petrášová     (88)
-* Helena Mitasova    (86)
+* Helena Mitášová    (86)
 * Martin Landa          (83)
 * Verónica Andreo       (76)
 * Moritz Lennert        (74)
-* Vaclav Petras         (68)
+* Václav Petráš         (68)
 * Michael Barton        (58)
 * Huidae Cho            (56)
 
