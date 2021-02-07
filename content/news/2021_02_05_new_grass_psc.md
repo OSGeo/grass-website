@@ -66,7 +66,24 @@ continue to do so!
 
 <a href="/images/news/2021_02_03_new_psc_meeting.png">
   <img src="/images/news/2021_02_03_new_psc_meeting.png" alt="New GRASS GIS PSC" title="New GRASS GIS PSC"
-   width="75%" style="float:center;padding-left:10px;padding-right:10px">
+   width="60%" style="float:right;padding-left:15px;padding-right:10px;padding-top:10px">
 </a>
+
+### PSC roles & tasks
+
+In addition to the chair role, in the first PSC meeting, we have
+defined some basic areas/tasks and PSC members responsible for
+them:
+
+* Treasurer - Moritz
+* Release manager - Markus, Martin
+* Infrastructure manager - Markus
+* Translation manager - Huidae
+* Website & Marketing manager - Michael, Vero
+* Github manager - Vaclav
+
+Of course, **everyone is invited to join and contribute** in these
+and other areas: https://trac.osgeo.org/grass/wiki/PSC/Roles. 
+
 
 *The GRASS Development Team, Feb 2021*
