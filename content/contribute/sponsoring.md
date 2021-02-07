@@ -32,3 +32,10 @@ We use to organize face-to-face coding sessions (such as the GRASS [Community Sp
 
 Also bug fixing may be financed - community polls will identify outstanding problems which cannot be fixed on a voluntary basis;
 or specific bug-bounties can be arranged (please [contact us](https://trac.osgeo.org/grass/wiki/PSC#Members) first).
+
+
+## Our Sponsors
+
+Many thanks to our sponsors!
+
+Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors) in the GRASS GIS Wiki for details.
