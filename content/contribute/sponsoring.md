@@ -38,4 +38,4 @@ or specific bug-bounties can be arranged (please [contact us](https://trac.osgeo
 
 Many thanks to our sponsors!
 
-Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors) in the GRASS GIS Wiki for details
+Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors) in the GRASS GIS Wiki for details.
