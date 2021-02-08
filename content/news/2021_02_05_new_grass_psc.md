@@ -71,7 +71,7 @@ continue to do so!
 
 ### PSC roles & tasks
 
-In addition to the chair role, in the first PSC meeting, we have
+In addition to the chair role, in the first [PSC](https://trac.osgeo.org/grass/wiki/PSC) meeting, we have
 defined some basic areas/tasks and PSC members responsible for
 them:
 
