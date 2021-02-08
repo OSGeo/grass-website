@@ -1,6 +1,6 @@
 ---
 title: "GRASS GIS 5.0.0pre5 released 25 June 2002"
-date: 2000-12-07T11:36:11+01:00
+date: 2002-06-25T11:36:11+01:00
 layout: "news"
 author: Admin
 ---
