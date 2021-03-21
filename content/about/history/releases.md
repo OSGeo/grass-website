@@ -650,7 +650,8 @@ layout: "timeline"
 <div id="1985" class="panel-collapse collapse" role="tabpanel" aria-labelledby="1985">
 <div class="panel-body">
 <ul class="list-unstyled releases">
-<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> -- --- 1985</span> GRASS 1.0: GRASSnet established (precursor to mailing list system)</li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> -- --- 1985</span> GRASSnet established (precursor to mailing list system)</li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> -- --- 1985</span> GRASS 1.0</li>
 </ul>
 </div>
       </div>
