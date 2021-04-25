@@ -12,11 +12,11 @@ layout: "manuals"
   <a href="/grass79/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS 7.8 (stable) </a></span>
+  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS 7.8 (current) </a></span>
   <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (old stable) </a></span>
+  <span class="mwl"><a href="/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (old) </a></span>
   <a href="/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
 <!--
@@ -32,11 +32,11 @@ layout: "manuals"
   <span class="mwl"><a href="/grass70/manuals/index.html " target="_blank"> GRASS GIS 7.0 (stable) </a></span>
   <a href="/grass70/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
--->
-     <li>
+   <li>
   <span class="mwl"><a href="/grass64/manuals/index.html " target="_blank"> GRASS GIS 6.4 (very old stable) </a></span>
   <a href="/grass64/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
+-->
 </ul>
 
 ### Addons manuals
