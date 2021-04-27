@@ -33,14 +33,14 @@ urban heat islands, spatial and temporal gap-filling and
 species identification through OBIA and machine learning. Students
 overcame installation difficulties, learnt and studied new modules, 
 searched for data, explored different solutions. Some, even moved to
-Linux and learnt to use git. It was really satisfying to see their 
+Linux and learnt to use Git. It was really satisfying to see their 
 learning process and outcome.
 
 Here, I'd like to highlight two outstanding tutorials:
 
 - [​Wildfire Modeling in Yosemite National Park](https://github.com/acoiman/wildfire_modeling) by 
 [Abraham Coiman](https://acoiman.github.io/) from Venezuela. 
-In this tutorial, Abraham combines the use of GEE, geemap, geopandas and GRASS GIS
+In this tutorial, Abraham combines the use of GEE, geemap, GeoPandas and GRASS GIS
 within a Jupyter notebook to simulate wildfire spread in Yosemite National Park. 
 
 <img src="https://raw.githubusercontent.com/acoiman/wildfire_modeling/main/gisdata/yosemite/images/yosemite_wildfire_modeling_79_0.png" width="70%" style="float:center;padding-left:25px">
@@ -52,7 +52,6 @@ the use of GRASS GIS OBIA toolset for species identification over the *paramo* u
 <img src="https://carolgarzon.gitlab.io/webpage/p/post-cinco/ndvi_segsRF1_hu697c720f48f330d079a8578fd34f0bf6_297141_1024x0_resize_box_2.png" width="60%" style="padding-left:25px">
 
 **Congratulations all and welcome to the GRASS GIS community!**
-
 
 
 
