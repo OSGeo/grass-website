@@ -1,6 +1,6 @@
 ---
 title: "GRASS GIS manuals"
-date: 2021-05-20T11:11:05+02:00
+date: 2021-05-20T10:11:05+02:00
 layout: "manuals"
 ---
 
@@ -9,15 +9,15 @@ layout: "manuals"
 <ul id="links" class="list-unstyled version">
  <li>
   <span class="mwl"><a href="/grass79/manuals/index.html " target="_blank"> GRASS GIS 7.9 (devel) </a></span>
-  <a href="/grass79/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
+  <a href="/grass79/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass79/manuals/grass-7.9_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
   <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS 7.8 (current) </a></span>
-  <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
+  <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass78/manuals/grass-7.8_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
   <span class="mwl"><a href="/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (old) </a></span>
-  <a href="/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
+  <a href="/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass76/manuals/grass-7.6_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
 <!--
  <li>
