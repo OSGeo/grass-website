@@ -20,7 +20,8 @@ the University of Arkansas (UA).
 Fred was an early adopter and active promoter of GRASS GIS and 
 open source geospatial technologies. He wrote a regular column
 called **"Growing GRASS with Fred Limp"** for the GRASS newsletter, 
-**GRASSCLIPPINGS**. 
+[**GRASSCLIPPINGS**](https://grass.osgeo.org/files/grassclip6_2_92.pdf)
+(see pages 15-16). 
 
 <a href="/images/news/fred_limp_news_cast_1992.jpg">
   <img src="/images/news/fred_limp_news_cast_1992.jpg" 
