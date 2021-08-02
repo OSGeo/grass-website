@@ -5,7 +5,8 @@ layout: "news"
 author: GRASS Development Team
 ---
 
-Due to a [re-structuring](https://github.com/OSGeo/grass-addons/issues/528) 
+Due to a long-term planned 
+[re-structuring](https://github.com/OSGeo/grass-addons/issues/528) 
 of the [addon repository](https://github.com/OSGeo/grass-addons),
 the installation of addons through `g.extension` is currently not working
 on UNIX-like systems. 
