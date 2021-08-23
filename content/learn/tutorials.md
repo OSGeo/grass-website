@@ -49,6 +49,8 @@ layout: "overview"
 * [GRASS GIS courses in OSGeo Resources](https://www.osgeo.org/resources/)
 * [GIS for Designers](https://baharmon.github.io/gis-for-designers)
 * [GRASS GIS 7 short course at GEOSTAT 2015: Course material](https://data.neteler.org/geostat2015/)
+* [Various GRASS GIS tutorials and user notes](https://ecodiv.earth/tutorials/)
+* [An introduction to GRASS GIS](https://baharmon.github.io/intro-to-grass)
 
 ### Czech
 <img src="https://grasswiki.osgeo.org/w/images/ICC_workshop_3Dview_ortho.png" width="40%" style="float:right">
