@@ -64,8 +64,15 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more).
 
-*  [<i class="fa fa-download"></i> Download OSGeo4W 64bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe)
-*  [<i class="fa fa-download"></i> Download OSGeo4W 32bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
+*  [<i class="fa fa-download"></i> Download OSGeo4W v2](http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
+
+NOTE FOR EXISTING USERS: OSGeo4W v2 is now the regular repository. OSGeo4W v2 does not include a 32-bit version. If you need 32-bit support, use the version 1 download. 
+CAUTION: Upgrades of old setups using the new repository are not supported. You need to do a fresh install or use a different directory.
+
+Legacy download (OSGeo4W v1)
+
+*  [<i class="fa fa-download"></i> Download OSGeo4W 64bit version 1](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64-v1.exe)
+*  [<i class="fa fa-download"></i> Download OSGeo4W 32bit version 1](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86-v1.exe)
 
 The following install modes are offered (see also the dedicated [wiki page](https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer) for further details):
 
