@@ -66,7 +66,7 @@ OSGeo4W is an installer for a broad set of open source geospatial software packa
 
 *  [<i class="fa fa-download"></i> Download OSGeo4W v2](http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
 
-NOTE FOR EXISTING USERS: OSGeo4W v2 is now the regular repository. OSGeo4W v2 does not include a 32-bit version. If you need 32-bit support, use the version 1 download. 
+**NOTE FOR EXISTING USERS**: OSGeo4W v2 is now the regular repository. OSGeo4W v2 does not include a 32-bit version. If you need 32-bit support, use the version 1 download (See below). 
 CAUTION: Upgrades of old setups using the new repository are not supported. You need to do a fresh install or use a different directory.
 
 Legacy download (OSGeo4W v1)
