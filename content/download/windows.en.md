@@ -87,7 +87,7 @@ All packages can be individually selected and additional useful packages (e.g. p
 Installation can also be done through command line, as shown below:
 
 <pre style="background-color:#CCCCCC">
-osgeo4w-setup-x86_64.exe -q -k -P grass -s http://download.osgeo.org/osgeo4w/x86_64/
+osgeo4w-setup.exe -q -k -P grass -s http://download.osgeo.org/osgeo4w/v2/x86_64/
 </pre>
 
 ##### QGIS users:
