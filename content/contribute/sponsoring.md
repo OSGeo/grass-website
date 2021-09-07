@@ -21,7 +21,7 @@ And if you don't have time to contribute, maybe a (small) donation makes you fee
 Funds offered to GRASS GIS are used to sponsor general GRASS GIS efforts, especially the organization of Community Sprints.
 See here to learn more about our [Community Sprints](https://grasswiki.osgeo.org/wiki/Category:Code_Sprint).
 
-<div align="center"><button class="btn btn-primary"><b><a href="https://www.paypal.com/pools/c/86YKZiIEPV" target="_blank">DONATE</a></b></button></div>
+<div align="center"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass" target="_blank">DONATE</a></b></button></div>
 
 ### How is the money used?
 
