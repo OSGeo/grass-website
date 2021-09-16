@@ -56,14 +56,14 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS master branch</b>
 </div>
 
-*  [<i class="fa fa-download"></i> GRASS GIS 8.0 development, Ubuntu 18.04 based](https://hub.docker.com/r/neteler/grassgis7/) (<small>git master, grass80, 520 MB, with Python 3</small>)
+*  [<i class="fa fa-download"></i> GRASS GIS 8.0 development, Ubuntu 18.04 based](https://hub.docker.com/r/neteler/grassgis7/) (<small>git main, grass80, 520 MB, with Python 3</small>)
     <pre><code class=dockerfile">docker pull neteler/grassgis7</code></pre>
 
-*  [<i class="fa fa-download"></i> GRASS GIS 8.0 development, Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>git master, grass80, 320 MB, with Python 3 and PDAL</small>)
+*  [<i class="fa fa-download"></i> GRASS GIS 8.0 development, Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>git main, grass80, 320 MB, with Python 3 and PDAL</small>)
     <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:latest-alpine</code></pre>
 
-*  [<i class="fa fa-download"></i> GRASS GIS 8.0.x development Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>git master, grass80, 1.2 GB, with Python 3 and PDAL</small>)
+*  [<i class="fa fa-download"></i> GRASS GIS 8.0.x development Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>git main, grass80, 1.2 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:latest-debian</code></pre>
 
-*  [<i class="fa fa-download"></i> GRASS GIS 8.0.x development Ubuntu 18.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>git master, grass80, 1.3 GB, with Python 3 and PDAL</small>)
+*  [<i class="fa fa-download"></i> GRASS GIS 8.0.x development Ubuntu 18.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>git main, grass80, 1.3 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:latest-ubuntu</code></pre>
