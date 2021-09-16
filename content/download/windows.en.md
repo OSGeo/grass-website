@@ -43,15 +43,15 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 <hr>
 
-#### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 (preview)
+#### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.0 (preview)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
 
-*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass79/x86_64)
-*  [<i class="fa fa-download"></i> Download 32bit](https://wingrass.fsv.cvut.cz/grass79/x86)
+*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass80/x86_64)
+*  [<i class="fa fa-download"></i> Download 32bit](https://wingrass.fsv.cvut.cz/grass80/x86)
 
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> GRASS GIS <b> dev version for Windows </b> hosted by <a href="http://geomatics.fsv.cvut.cz/research/geoforall" target="_blank">GeoForAll Lab at the CTU in Prague</a>.

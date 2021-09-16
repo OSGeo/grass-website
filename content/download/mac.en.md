@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 7.8.5 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (old)**](#GRASS-GIS-old) | [**GRASS 7.9 devel**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 7.8.5 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (old)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
 
 
 <div class="alert rounded-0 alert-default">
@@ -44,7 +44,7 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 (preview)
+### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.0 (preview)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
