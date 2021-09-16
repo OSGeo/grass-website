@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 7.8.5 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (old)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 7.8.5 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
 
 
 <div class="alert rounded-0 alert-default">
