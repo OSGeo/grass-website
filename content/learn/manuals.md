@@ -16,7 +16,7 @@ layout: "manuals"
   <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass78/manuals/grass-7.8_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (old) </a></span>
+  <span class="mwl"><a href="/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (legacy) </a></span>
   <a href="/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass76/manuals/grass-7.6_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
 <!--
