@@ -11,6 +11,7 @@ layout: "general"
 ### African Web site mirrors
 
 * [South Africa](https://grass.mirror.ac.za/) (Tier 1,TENET)
+* [Morocco](https://grass.marwan.ma/) (Moroccan National Research and Education Network, MARWAN)
 
 ### Asian-Indian Web site mirrors
 * [India](http://wgbis.ces.iisc.ernet.in/grass/) (Tier 2, Indian Institute of Science, Bangalore)
