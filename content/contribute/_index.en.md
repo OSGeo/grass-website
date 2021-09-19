@@ -88,7 +88,7 @@ The master site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsy
   * `/usr/bin/rsync -az --port=50026 grass.osgeo.org::grass-website /mirror/grass-website`  
   This will copy/update the GRASS site to your local directory /mirror/grass-website/ which needs to be made available in your web server.
 * Check if the synchronization works the next day(s).
-* Announce the new mirror site for this mirror list to [us]((mailto:grass-web(at)lists.osgeo.org)).
+* Announce the new mirror site for this mirror list to [us](mailto:grass-web(at)lists.osgeo.org).
 
 ### Other opportunities
 
