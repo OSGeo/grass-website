@@ -51,7 +51,7 @@ layout: "overview"
 * [GRASS GIS 7 short course at GEOSTAT 2015: Course material](https://data.neteler.org/geostat2015/)
 * [Various GRASS GIS tutorials and user notes](https://ecodiv.earth/tutorials/)
 * [An introduction to GRASS GIS](https://baharmon.github.io/intro-to-grass)
-* [Using GRASS commands in a shell, in R and in RStudio](https://florisvdh.github.io/presentations/20210617_grass)
+* [Using GRASS commands in shell, R and RStudio](https://florisvdh.github.io/presentations/20210617_grass)
 
 ### Czech
 <img src="https://grasswiki.osgeo.org/w/images/ICC_workshop_3Dview_ortho.png" width="40%" style="float:right">
