@@ -30,15 +30,15 @@
     <div class="row">
       <div class="col-lg-8">
       <div class="p-5 bg-white">
-	      <h2 class="page-title">{{ .Title }}</h2>
+	      <h2 class="page-title">GRASS GIS website</h2>
 	      {{ .Content }}
         </div>
       </div>
 
       <div class="col-lg-4 col-sm-6 mb-4">
-	{{ partial "brand.html" . }}
-      <div class="mt-30">
 	{{ partial "osgeo.html" . }}
+      <div class="mt-30">
+	{{ partial "brand.html" . }}
       </div>
       <div class="mt-30">
 	{{ partial "foss4g.html" . }}

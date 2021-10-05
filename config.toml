@@ -1,9 +1,9 @@
-baseURL = "https://staging.grass.osgeo.org/"
+baseURL = "https://grass.osgeo.org/"
 theme = "grass"
 
-
 [params]
-
+description = "GRASS GIS is a free Geographic Information System (GIS) software used for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization."
+keywords = "open source gps, GRASS, FOSS4G, open source gis, open source gis grass, open source web gis, open source gis software, free open source gis, gis, mapping, open source software, mapping software, cartography, gis data, geospatial, open source 3d, geographic information system, geographic information systems, gis software, mapping data, free software, raster, topology, vector, image processing, visualization, hydrology, archeology, archaeology, 3D GIS"
 primaryColor = "#088B36"
 secondaryColor = "#f9f9f9"
 textColor = "#636363"
@@ -13,13 +13,14 @@ grassColorAlt= "#9ed29c"
 grassColorLight= "#eff4e8"
 grassColorDark= "#87a06a"
 whiteColor = "#ffffff"
+blackColor = "#000000"
 greyColor = "#6b6b6b"
 greyColorLight = "#CCCCCC"
 greyColorDark = "#A0A0A0"
 
 [sitemap]
   changefreq = "monthly"
-  filename = "sitemap.xml"
+  filename = "sitemap_hugo.xml"
   priority = 0.5
 
 [markup]
@@ -35,7 +36,7 @@ greyColorDark = "#A0A0A0"
   title = "GRASS GIS - Bringing advanced geospatial technologies to the world"
   dateFormat = "1 January 2019"
   logo = "GRASS GIS"
-  copyright = "Copyright © 1998-2020, GRASS Development Team."
+  copyright = "1998-{year}, GRASS Development Team"
   license = "GNU GPL"
 
     # navigation
@@ -115,18 +116,24 @@ greyColorDark = "#A0A0A0"
           name = "Tutorials"
           URL = "/learn/tutorials"
           weight = 4 
- 
+
+          [[Languages.en.menu.main]]
+          parent = "Learn"
+          name = "Gallery"
+          URL = "/learn/gallery"
+          weight = 5
+	  
           [[Languages.en.menu.main]]
           parent = "Learn"
           name = "Books"
           URL = "/learn/books"
-          weight = 5
+          weight = 6
  
           [[Languages.en.menu.main]]
           parent = "Learn"
           name = "Try online"
           URL = "/learn/tryonline"
-          weight = 5
+          weight = 7
 
     
       [[Languages.en.menu.main]]
@@ -137,22 +144,22 @@ greyColorDark = "#A0A0A0"
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Wiki"
-          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
-          weight = 1 
+          name = "Development"
+          URL = "/contribute/development"
+          weight = 1
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Development"
-          URL = "/contribute/development"
+          name = "Sponsoring"
+          URL = "/contribute/sponsoring"
           weight = 2
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Donations"
-          URL = "/contribute/donations"
+          name = "Wiki"
+          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
           weight = 3
-
+	  
           [[Languages.en.menu.main]]
           parent = "Contribute"
           name = "Sponsors"
@@ -217,14 +224,12 @@ greyColorDark = "#A0A0A0"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-facebook"
-      link = "https://www.facebook.com/GRASSGISCommunity"
+      link = "https://www.facebook.com/groups/GRASS"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-youtube"
-      link = "https://www.youtube.com/results?search_query=grass+gis"   
-
-
-
-
-
- 
+      link = "https://www.youtube.com/results?search_query=grass+gis"
+      
+    [[Languages.en.socialIcon]]
+      icon = "fa fa-rss"
+      link = "https://grass.osgeo.org/index.xml" 

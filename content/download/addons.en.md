@@ -9,7 +9,11 @@ layout: "addons"
 
 #### Quick links
 
-[ [Overview of addons](https://grass.osgeo.org/grass7/manuals/addons/) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+[ [**Overview of addons**](#Overview) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+
+### <a name="Overview"></a>Overview of addons
+
+There is a [growing list of GRASS GIS addons](/grass7/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
 
 ### <a name="Common-user"></a>Beginner users
 

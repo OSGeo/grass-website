@@ -1,0 +1,47 @@
+{{ partial "head.html" . }}
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+<!-- page title -->
+<section class="section bg-lgr">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-8 mx-auto text-center">      
+       <h1 class="grass-green cap">{{ .Section}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+      
+  <section class="bg-white pb-0">
+   {{ partial "breadcrumb.html" . }}
+  </section>
+
+<!-- details page -->
+<section class="pt-4 bg-gray">
+  <div class="container">
+  <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">Contribute to Open Source Geospatial</h2>
+        </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="p-5 bg-white">
+	      {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ partial "footer.html" . }}

@@ -33,7 +33,7 @@ GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
 
 **Binaries/Installer download:**
 
--   winGRASS 7.8.0: [32bit standalone installer](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.0-1-Setup-x86.html)
+-   winGRASS 7.8.0: [32bit standalone installer](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.0-1-Setup-x86.exe)
     \| [64bit standalone installer](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.0-1-Setup-x86_64.exe)
 -   winGRASS 7.8.0 OSGeo4W: [32bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
     \| [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe)

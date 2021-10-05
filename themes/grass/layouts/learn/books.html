@@ -1,5 +1,6 @@
 {{ partial "head.html" . }}
 
+
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
   <div class="container">
@@ -9,24 +10,28 @@
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
-<!-- details page -->
-<section class="single pt-5 bg-gray">
+<!-- page title -->
+<section class="section bg-lgr">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
-        <div class="p-4 bg-book sticky-top text-center">
-             <img src="/images/grasslogo.svg" width="45%" alt="GRASS GIS" />
-        </div>
-      </div>
-      <div class="col-lg-8">
-        <div class="p-5 bg-white">
-            <h2 class="page-title">{{ .Title }}</h2>
-            {{ .Content }}
-        </div>
+    <div class="col-lg-8 mx-auto text-center">   
+       <h1 class="grass-green cap">{{.Section}}</h1>
       </div>
     </div>
   </div>
 </section>
+<section class="bg-white pb-0">
+ {{ partial "breadcrumb.html" . }}
+</section>
+<section class="single section bg-gray pb-0">
+  <div class="container">
+      <div id="books" class="col-lg-12 p-5 bg-white">	
+	<h2 class="page-title">{{ .Title }}</h2>
+        {{ .Content }}
+      </div>
+  </div>
+</section>
 <!-- /details page -->
+
 
 {{ partial "footer.html" . }}

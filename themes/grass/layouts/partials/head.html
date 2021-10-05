@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html  lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
+<html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
 <head>
-  <meta charset="utf-8">
   <title>{{ .Title }}</title>
-
+  <meta charset="UTF-8"/> 
+  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}"/>
+  <meta name="keywords" content="{{.Site.Params.Keywords }}">
+  <meta property="og:url" content="{{.Site.BaseURL}}">
+  <meta property="og:image" content="{{.Site.BaseURL}}images/other/share-img.png">
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
   {{ hugo.Generator }}
-
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  {{ "<!-- ** plugins** -->" | safeHTML }}
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+  <meta name="twitter:card" content="GRASS GIS">
+  <meta name="twitter:site" content="@GRASSGIS">
+  <meta name="twitter:creator" content="@GRASSGIS">
+  <meta name="twitter:title" content="{{ .Site.Title }}">
+  <meta name="twitter:description" content="{{ .Site.Params.description }}">
+  <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/share-img.png">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL}}plugins/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/hybrid.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/hybrid.css"> 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css" >
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-
   <style>
   :root{
     --primary-color:{{ .Site.Params.primaryColor }};
@@ -35,22 +42,17 @@
     --grey-color-dark:{{ .Site.Params.greyColorDark }};
     --white-color:{{ .Site.Params.whiteColor }};
     }  
-  </style>
-
-
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  {{ $styles := resources.Get "css/style.css" | minify}}
+  </style>{{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-
-  {{ "<!-- jquiry -->" | safeHTML }}
   <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
-
-  {{ "<!-- jquary ui -->" | safeHTML }}
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-ui.js"></script>
-
-  {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/x-icon">
-
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/favicon/safari-pinned-tab.svg" color="#088b36">
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 </head>
-
 <body>

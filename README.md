@@ -1,7 +1,7 @@
 # Hugo theme for GRASS GIS website
 
-This repository contains the code of the upcoming Web site of the GRASS GIS project (under development).
-It is hourly deployed at: https://staging.grass.osgeo.org/
+This repository contains the code of the upcoming Web site of the GRASS GIS project.
+It is deployed every 15 min at: https://grass.osgeo.org/
 
 Mailing list for discussions: https://lists.osgeo.org/mailman/listinfo/grass-web
 
@@ -44,10 +44,11 @@ Content must be created in .md files using markdown syntax. HTML markup can also
 Useful resources:
  * [Hugo docs](https://gohugo.io/documentation/)
  * [Markdown guide](https://www.markdownguide.org/basic-syntax/)
+ * [GRASS GIS Website style guide](https://grass.osgeo.org/about/theme/)
 
 ### Add a news item
 
- *Head to the news directory
+* Head to the news directory
      cd /grass-website/content/news
 
 * Create new md file
@@ -91,6 +92,43 @@ Useful resources:
       hugo
 
 * Check result at http://localhost:1313/about/mypage
+
+### Mind SEO
+
+Search engine optimization works like this:
+
+If the md file used for generating the page has a summary, its value is used as page meta description, otherwise the general description defined in `config.toml` is used by default.
+
+### Add new event
+
+* Head to the news directory
+     cd /grass-website/content/events
+
+* Create new md file
+     sudo nano EVENT_NAME.md
+
+* Use the following header information template for Hugo
+
+  title: "CONFERENCE NAME"
+  event:
+      start: START-DATE
+      end: END-DATE
+  where: CITY
+  website: URL
+  layout: "event"
+  logo: images/conferences_logos/YOUR_LOGO.png
+
+
+* Add your logo to `/grass-website/images/conferences_logos` folder
+
+* Rebuild if needed
+
+      cd ../../
+     
+      hugo
+
+* Check result at http://localhost:1313/news/ in the `Next Events` section in the right sidebar.
+  Your event will show up only if it is one in the top three from today.
 
 ### Submit your changes
 

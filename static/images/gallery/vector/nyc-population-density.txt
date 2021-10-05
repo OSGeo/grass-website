@@ -1,0 +1,2 @@
+Population data from 2018 ACS Demographic and Housing Estimates by the US Census Bureau at https://data.census.gov/.
+Borough boundaries from NYC Open Data at: https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm. 

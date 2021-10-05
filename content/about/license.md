@@ -1,6 +1,6 @@
 ---
 title: "License"
-date: 2018-12-29T11:02:05+06:00
+date: 2020-08-08T05:05:05+05:00
 layout: "general"
 ---
 
@@ -27,7 +27,7 @@ software, Free Software and proprietary products, have a look
 at this graphic describing [categories of Free and Non-Free Software](https://www.gnu.org/philosophy/categories.html).
 
 Questions regarding details of this policy can be directed to 
-this [email address](grass-web@lists.osgeo.org).
+this <a href="mailto:grass-web@lists.osgeo.org" target="_blank">email address</a>.
 
 See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/licenses/gpl-faq.html).
 
@@ -36,7 +36,7 @@ See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/
 Please cite GRASS when using the software in your work. Here are some choices
 depending on the version used:
 
-- GRASS Development Team, 2019. Geographic Resources Analysis Support System (GRASS)
+- GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS)
 Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
 
 - GRASS Development Team, 2019. Geographic Resources Analysis Support System (GRASS) 
@@ -49,8 +49,7 @@ https://grass.osgeo.org/programming7/
 <p> Use the following BibTeX entry for citing the <b>GRASS GIS</b> software in 
 scientific work written in LaTeX.</p>
 
-<pre>
-<code class="hljs tex">
+<pre style="background-color:#CCCCCC">
 @Manual{GRASS_GIS_software,
     title = {Geographic Resources Analysis Support System (GRASS GIS) Software},
     author = {{GRASS Development Team}},
@@ -59,7 +58,6 @@ scientific work written in LaTeX.</p>
     year = {2020},
     url = {https://grass.osgeo.org}
 }
-</code>
 </pre>
 
 For more options see also: [GRASS GIS Citation Repository](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository).
