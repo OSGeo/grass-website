@@ -72,9 +72,6 @@ layout: "overview"
 
 ### Portuguese
 
-* [Curso - Introdução ao SIG com Software Livre (QGIS e GRASS)](http://carlosgrohmann.com/pages/sigcomsl/)
-* [Playlist de aulas sobre GRASS-GIS](https://www.youtube.com/playlist?list=PL9GztlLGb7RovKMMO2ohYdfxfILXjxwEy)
-* [Live - O fascinante mundo do GRASS-GIS](https://youtu.be/_pohWjE4eiA)
 * [Geoprocessamento com GRASS-GIS (2016)](https://figshare.com/articles/Geoprocessamento_com_GRASS-GIS/3502184)
 * [Geoprocessamento com Software Livre: GRASS-GIS e QGIS (2012)](https://figshare.com/articles/Geoprocessamento_com_Software_Livre_GRASS_GIS_e_QGIS/1004167)
 * [Introdução à Análise Digital de Terreno com GRASS-GIS (2008)](https://figshare.com/articles/Introdu_o_An_lise_Digital_de_Terreno_com_GRASS_GIS/1004165)
