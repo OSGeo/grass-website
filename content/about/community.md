@@ -53,7 +53,7 @@ Join the discussion also on the following channels
 
 | <div style="width:70px">MEDIA</div> | LINK |  |
 |------|---------|-------------|
-| <i class="fa fa-terminal"></i> |  [irc://irc.freenode.net/grass](irc://irc.freenode.net/grass) | #grass |
+| <i class="fa fa-terminal"></i> |  [https://web.libera.chat/#grass](https://web.libera.chat/#grass) | #grass |
 | <i class="fa fa-twitter"></i> |  [https://twitter.com/grassgis](https://twitter.com/grassgis) | @GRASSGIS |
 | <i class="fa fa-facebook"></i> |  [https://www.facebook.com/GRASSGISCommunity](https://www.facebook.com/GRASSGISCommunity) | @GRASSGISCommunity |
 | <i class="fa fa-youtube"></i> |  [https://www.youtube.com/...grass+gis](https://www.youtube.com/results?search_query=grass+gis) |  |
