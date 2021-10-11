@@ -36,7 +36,9 @@ bugs fixed at
   [32bit standalone installer](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.6-1-Setup-x86.exe) \| [64bit standalone installer](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.6-1-Setup-x86_64.exe)
 - winGRASS 7.8.6/OSGeo4W:
   [32bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86-v1.exe) \| [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
-- [Mac](http://grassmac.wikidot.com/downloads)
+- Mac
+    - [Official Application Bundle](http://grassmac.wikidot.com/downloads)
+    - [MacPorts](https://ports.macports.org/port/grass7/)
 - Linux
     - [Debian](https://tracker.debian.org/pkg/grass)
     - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
