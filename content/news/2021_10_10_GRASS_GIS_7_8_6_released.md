@@ -1,6 +1,6 @@
 ---
-title: "GRASS GIS 7.8.5 released"
-date: 2020-12-21T21:12:00+02:00
+title: "GRASS GIS 7.8.6 released"
+date: 2021-10-10T13:38:28+02:00
 layout: "news"
 author: GRASS Development Team
 ---
