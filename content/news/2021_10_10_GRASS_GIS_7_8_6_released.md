@@ -15,7 +15,7 @@ author: GRASS Development Team
 </a>
 
 As a follow-up to the previous GRASS GIS 7.8.5 we have published the
-**new release GRASS GIS 7.8.6** with more than 145 improvements. 
+**new release GRASS GIS 7.8.6** with more than 145 fixes and improvements. 
 This minor release offers new <a
 href="https://grass.osgeo.org/grass78/manuals/t.downgrade.html">t.downgrade</a>
 module. This release comes with critical bugfix: the addon extension
