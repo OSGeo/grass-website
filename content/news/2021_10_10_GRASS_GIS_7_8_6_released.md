@@ -7,10 +7,9 @@ author: GRASS Development Team
 
 **What's new in a nutshell**
 
-<!-- TBD replaced by a new screenshot -->
-<a href="/images/gallery/lidar/zmi_stone_town_opendronemap_v_surf_icw.png">
-  <img src="/images/gallery/lidar/zmi_stone_town_opendronemap_v_surf_icw.png"
-   alt="Zanzibar Mapping Initiative data processed in OpenDroneMap and interpolated respecting building footprints using v.surf.icw" title="Zanzibar Mapping Initiative data processed in OpenDroneMap and interpolated respecting building footprints using v.surf.icw"
+<a href="/images/news/grassgis786_screenshot.png">
+  <img src="/images/news/grassgis786_screenshot.png"
+   alt="Landsat 8 scenes downloaded and imported with i.landsat toolset showing the historic drought of Parana River in Argentina (2014 right - 2021 left)" title="Landsat 8 scenes downloaded and imported with i.landsat toolset showing the historic drought of Parana River in Argentina (2014 right - 2021 left)"
    width="45%" style="float:right;padding-left:10px;padding-top:20px">
 </a>
 
