@@ -19,7 +19,7 @@ As a follow-up to the previous GRASS GIS 7.8.5 we have published the
 This minor release offers new <a
 href="https://grass.osgeo.org/grass78/manuals/t.downgrade.html">t.downgrade</a>
 module that allows to downgrade the version of space time datasets created with GRASS development version. Importantly, this release comes with a critical bugfix: the addon extension
-manager has been updated to match new addon repository structure. Also
+manager has been updated to match new addon repository structure which solves issues found when installing addons in UNIX-like systems. Also
 <a
 href="https://grass.osgeo.org/grass78/manuals/r.external.html">r.external</a>
 module received major speed-up.
