@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 7.8.5 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 7.8 (current)**](#GRASS-GIS-current) | [**GRASS 7.6 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
 
 
 <div class="alert rounded-0 alert-default">
@@ -18,10 +18,10 @@ layout: "os"
 <hr>
 
 
-### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.5 (current)
+### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.6 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.5-News">GRASS GIS 7.8.5 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">GRASS GIS 7.8.6 announcement</a> for more information.
 </div>
 
 <ul>

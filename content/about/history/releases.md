@@ -11,7 +11,21 @@ layout: "timeline"
     <div class="line text-muted"></div>
      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
       <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="heading1">
+        <div class="panel-heading" role="tab" id="heading2">
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2021" aria-expanded="true" aria-controls="2021">2021</a></h4>
+        </div>
+        <div id="2020" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+          <div class="panel-body">
+<ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 10 Oct 2021</span> <b>GRASS GIS 7.8.6</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <!-- /Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
           <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2020" aria-expanded="true" aria-controls="2020">2020</a></h4>
         </div>

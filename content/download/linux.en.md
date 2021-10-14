@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 7.8.5 (current)**](#GRASS-GIS-current) | [**GRASS 7.6.1 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 7.8 (current)**](#GRASS-GIS-current) | [**GRASS 7.6 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
 
 <hr>
 
@@ -24,10 +24,10 @@ list of GRASS GIS packages.
 *  [openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass) (ubuntugis-unstable)
 
-### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.5 (current)
+### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.6 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.5-News">GRASS GIS 7.8.5 announcement</a> for more information.</div>
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">GRASS GIS 7.8.6 announcement</a> for more information.</div>
 
 *  [Generic 64bit](/grass78/binary/linux/snapshot) (weekly binary snapshot)
 *  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (RHEL7/Centos7/Scientific Linux7)
