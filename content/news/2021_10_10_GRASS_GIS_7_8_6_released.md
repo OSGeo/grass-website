@@ -7,9 +7,10 @@ author: GRASS Development Team
 
 **What's new in a nutshell**
 
-<a href="/images/news/grassgis786_screenshot.png">
-  <img src="/images/news/grassgis786_screenshot.png"
-   alt="Landsat 8 scenes downloaded and imported with i.landsat toolset showing the historic drought of Parana River in Argentina (2014 right - 2021 left)" title="Landsat 8 scenes downloaded and imported with i.landsat toolset showing the historic drought of Parana River in Argentina (2014 right - 2021 left)"
+<a href="/images/gallery/remote_sensing/i_landsat_panama_river.png">
+  <img src="/images/gallery/remote_sensing/i_landsat_panama_river.png"
+   alt="Landsat 8 scenes downloaded and imported with i.landsat toolset showing the historic drought of Parana River in Argentina (2014 right - 2021 left)"
+   title="Landsat 8 scenes downloaded and imported with i.landsat toolset showing the historic drought of Parana River in Argentina (2014 right - 2021 left)"
    width="45%" style="float:right;padding-left:10px;padding-top:20px">
 </a>
 
