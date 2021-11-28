@@ -38,12 +38,13 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 |------|---------|-------------|
 | *Users*  |  [grass-user](https://lists.osgeo.org/mailman/listinfo/grass-user) | GRASS mailing list for user suppport |
 | *Developer*  | [grass-dev](https://lists.osgeo.org/mailman/listinfo/grass-dev) | GRASS mailing list for developers |
-| *Statistics*  | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS GIS and R stats interface |
+| *GRASS - R*  | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS GIS and R stats interface |
 | *Translations*  | [grass-translations](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS GIS translations |
 | *PSC*  | [grass-psc](https://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
 | *Git Commit*  | [grass-commits](https://lists.osgeo.org/mailman/listinfo/grass-commit) | GRASS GIS git commit mailing list |
 | *Website*  | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS GIS website mailing list |
 | *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS GIS project announcements |
+| *GitHub Discussions*  | [discussion](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
 
 ### Social media
 
@@ -55,6 +56,6 @@ Join the discussion also on the following channels
 |------|---------|-------------|
 | <i class="fa fa-terminal"></i> |  [https://web.libera.chat/#grass](https://web.libera.chat/#grass) | #grass |
 | <i class="fa fa-twitter"></i> |  [https://twitter.com/grassgis](https://twitter.com/grassgis) | @GRASSGIS |
-| <i class="fa fa-facebook"></i> |  [https://www.facebook.com/GRASSGISCommunity](https://www.facebook.com/GRASSGISCommunity) | @GRASSGISCommunity |
+| <i class="fa fa-facebook"></i> |  [https://www.facebook.com/groups/GRASS](https://www.facebook.com/groups/GRASS) | @GRASSGIS |
 | <i class="fa fa-youtube"></i> |  [https://www.youtube.com/...grass+gis](https://www.youtube.com/results?search_query=grass+gis) |  |
 
