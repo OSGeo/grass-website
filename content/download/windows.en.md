@@ -1,6 +1,6 @@
 ---
 title: "Windows"
-date: 2020-12-21T11:02:05+02:00
+date: 2021-12-29T11:02:05+02:00
 description: "Download GRASS GIS installers for Windows"
 weight: 2
 layout: "os"
@@ -34,28 +34,23 @@ Standalone installer: install GRASS GIS with the required support packages.
 #### <a name="GRASS-GIS-old-stable"></a> GRASS GIS 7.6.1 (legacy)
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
 </div>
-
 
 *  [<i class="fa fa-download"></i> Download 64bit](/grass76/binary/mswindows/native/x86_64/WinGRASS-7.6.1-1-Setup-x86_64.exe)
 *  [<i class="fa fa-download"></i> Download 32bit](/grass76/binary/mswindows/native/x86/WinGRASS-7.6.1-1-Setup-x86.exe)
 
 <hr>
 
-#### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.0 (preview)
+#### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.0
 
 <div class="alert rounded-0 alert-info">
-<i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
+<i class="fa fa-info-circle"></i> Active <u>development</u> and <u>upcoming new stable</u> <b>GRASS GIS</b> version.
+
+*  [<i class="fa fa-download"></i> Download RC1](https://grass.osgeo.org/grass80/binary/mswindows/native/WinGRASS-8.0.0RC1-1-Setup.exe)
 </div>
 
-
-*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass80/x86_64)
-*  [<i class="fa fa-download"></i> Download 32bit](https://wingrass.fsv.cvut.cz/grass80/x86)
-
-<div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> GRASS GIS <b> dev version for Windows </b> hosted by <a href="http://geomatics.fsv.cvut.cz/research/geoforall" target="_blank">GeoForAll Lab at the CTU in Prague</a>.
-</div>
+*  Final release coming soon!
 
 <hr>
 
