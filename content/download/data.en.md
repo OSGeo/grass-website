@@ -61,7 +61,7 @@ The North Carolina dataset can be downloaded in two versions:
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Climate </a></span>
    <a href="/sampledata/north_carolina/nc_climate_spm_2000_2012.zip" class="inl btn btn-primary" target="_blank">Download ZIP (690 MB)</a>
-   <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
+   <p>North Carolina mapset with climatic data time series (nc_climate_spm_2000_2012). To unzip in North Carolina location of the NC full or basic dataset  - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
   </li>
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/temporalintro.html" target="_blank"> Time series </a></span>
