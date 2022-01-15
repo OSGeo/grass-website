@@ -50,7 +50,7 @@ Standalone installer: install GRASS GIS with the required support packages.
 *  [<i class="fa fa-download"></i> Download RC1](https://grass.osgeo.org/grass80/binary/mswindows/native/WinGRASS-8.0.0RC1-1-Setup.exe)
 </div>
 
-*  Forthcoming in 2022!
+*  Final release coming soon!
 
 <hr>
 
