@@ -20,6 +20,7 @@ list of GRASS GIS packages.
 *  [Debian](https://packages.debian.org/grass)
 *  [EPEL](https://src.fedoraproject.org/rpms/grass)
 *  [Fedora](https://src.fedoraproject.org/rpms/grass)
+*  [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
 *  [Mageia](https://madb.mageia.org/package/show/name/grass/)
 *  [openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass) (ubuntugis-unstable)
@@ -30,6 +31,7 @@ list of GRASS GIS packages.
 <i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">GRASS GIS 7.8.6 announcement</a> for more information.</div>
 
 *  [Generic 64bit](/grass78/binary/linux/snapshot) (weekly binary snapshot)
+*  [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
 *  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass78/) (RHEL7/Centos7/Scientific Linux7)
 *  [EPEL8](https://src.fedoraproject.org/rpms/grass) (RHEL8/Centos8)
 *  [Fedora](https://src.fedoraproject.org/rpms/grass)
@@ -57,7 +59,7 @@ list of GRASS GIS packages.
 </div>
 
 *  [Generic 64bit](/grass80/binary/linux/snapshot/) (weekly binary snapshot)
-
+*  [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
 <!-- *  [Ubuntu ](https://launchpad.net/~grass/+archive/ubuntu/grass-devel)  (ubuntugis-unstable) -->
 
 <!-- <pre><code class="shell">sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable -->
