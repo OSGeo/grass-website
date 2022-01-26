@@ -32,7 +32,6 @@ list of GRASS GIS packages.
 
 *  [Generic 64bit](/grass80/binary/linux/snapshot) (weekly binary snapshot)
 *  [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
-*  [EPEL7](https://copr.fedorainfracloud.org/coprs/neteler/grass80/) (RHEL7/Centos7/Scientific Linux7)
 *  [EPEL8](https://src.fedoraproject.org/rpms/grass) (RHEL8/Centos8)
 *  [Fedora](https://src.fedoraproject.org/rpms/grass)
 *  [openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)
