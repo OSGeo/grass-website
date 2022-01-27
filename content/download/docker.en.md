@@ -60,9 +60,6 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS main branch</b>
 </div>
 
-*  [<i class="fa fa-download"></i> GRASS GIS 8.2 development, Ubuntu 18.04 based](https://hub.docker.com/r/neteler/grassgis7/) (<small>git main, grass80, 520 MB, with Python 3</small>)
-    <pre><code class=dockerfile">docker pull neteler/grassgis7</code></pre>
-
 *  [<i class="fa fa-download"></i> GRASS GIS 8.2 development, Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>git main, grass80, 320 MB, with Python 3 and PDAL</small>)
     <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:latest-alpine</code></pre>
 
