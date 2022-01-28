@@ -134,7 +134,7 @@ GDAL 3 compatibility improved with speed-ups.
 #### Full list of changes and new features
 
 The overview of new features in the 8.0 release series is available at
-[new features in GRASS GIS 8.0](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures80).
+[new features in GRASS GIS 8.0](https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80).
 See also our detailed announcement with the full list of changes and
 bugs fixed at
 [https://trac.osgeo.org/grass/wiki/Release/8.0.0-News](https://trac.osgeo.org/grass/wiki/Release/8.0.0-News).
