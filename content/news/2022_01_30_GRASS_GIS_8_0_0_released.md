@@ -127,7 +127,7 @@ is tested with CodeQL.
 
 #### PROJ and GDAL support
 
-PROJ 4 to PROJ 7 compatibility has been implemented. WKT2 can be 
+PROJ 4 to PROJ 8 compatibility has been implemented. WKT2 can be 
 used for CRS definitions. High-accuracy coordinate transformations supported. 
 GDAL 3 compatibility improved with speed-ups.
 
