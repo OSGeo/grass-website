@@ -83,7 +83,7 @@ eigenvalues) and point filtering by values in any dimension.
    width="45%" style="float:right;padding-left:10px;padding-top:10px">
 </a>
 
-#### Imagery modules:
+#### Imagery modules
 
 All raster classification modules now generate signature files with
 embedded semantic labels. This allows to apply the signature file from
@@ -141,7 +141,7 @@ bugs fixed at
 
 ## Download and test!
 
-#### Binaries/Installers download:
+#### Binaries/Installers download
 
 - winGRASS 8.0.0/standalone:
   [64bit standalone installer](/grass80/binary/mswindows/native/WinGRASS-8.0.0-1-Setup.exe)
@@ -156,7 +156,7 @@ bugs fixed at
     - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass)
     - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html#g78x)
 
-#### Source code download:
+#### Source code download
 
 -   [https://grass.osgeo.org/grass80/source/](/grass80/source/)
 -   [https://grass.osgeo.org/grass80/source/grass-8.0.0.tar.gz](/grass80/source/grass-8.0.0.tar.gz)
