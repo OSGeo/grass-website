@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 7.8 (current)**](#GRASS-GIS-current) | [**GRASS 7.6 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.0 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 8.0 (current)**](#GRASS-GIS-current) | [**GRASS 7.8 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.2 (preview)**](#GRASS-GIS-devel) ]
 
 
 <div class="alert rounded-0 alert-default">
@@ -18,10 +18,10 @@ layout: "os"
 <hr>
 
 
-### <a name="GRASS-GIS-current"></a> GRASS GIS 7.8.6 (current)
+### <a name="GRASS-GIS-current"></a> GRASS GIS 8.0.0 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">GRASS GIS 7.8.6 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80">GRASS GIS 8.0 new features</a> and <a href="https://trac.osgeo.org/grass/wiki/Release/8.0.0-News">GRASS GIS 8.0.0 announcement</a> for more information.
 </div>
 
 <ul>
@@ -30,10 +30,10 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-old"></a> GRASS GIS 7.6.1 (legacy)
+### <a name="GRASS-GIS-old"></a> GRASS GIS 7.8.6 (legacy)
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">GRASS GIS 7.8.6 announcement</a> for more information.
 </div>
 
 <ul>
@@ -44,7 +44,7 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.0 (preview)
+### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.2.0 (preview)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
