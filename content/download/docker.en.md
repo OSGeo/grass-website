@@ -22,7 +22,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 ### <a name="GRASS-GIS-current"></a> GRASS GIS 8.0.0 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_8_0</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a>)</div>
+<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_8_0</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80">GRASS GIS 8.0 new features</a>)</div>
 
 *  [<i class="fa fa-download"></i> GRASS GIS 8.0.x, Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal) (<small>release branch, grass78, 320 MB, with Python 3 and PDAL</small>)
     <pre><code class=dockerfile">docker pull mundialis/grass-py3-pdal:stable-alpine</code></pre>
