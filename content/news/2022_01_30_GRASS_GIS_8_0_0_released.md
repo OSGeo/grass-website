@@ -144,7 +144,7 @@ bugs fixed at
 #### Binaries/Installers download
 
 - winGRASS 8.0.0/standalone:
-  [64bit standalone installer](/grass80/binary/mswindows/native/WinGRASS-8.0.0-1-Setup.exe)
+  [64bit standalone installer](/grass80/binary/mswindows/native/WinGRASS-8.0.0-3-Setup.exe)
 - winGRASS 8.0.0/OSGeo4W:
   [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
 - Mac
