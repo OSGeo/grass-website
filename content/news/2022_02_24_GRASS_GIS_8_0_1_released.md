@@ -27,7 +27,6 @@ bugs fixed at
   [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
 - Mac
     - [Official Application Bundle](http://grassmac.wikidot.com/downloads)
-    - [MacPorts](https://ports.macports.org/port/grass/)
 - Linux
     - [Debian](https://tracker.debian.org/pkg/grass)
     - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
