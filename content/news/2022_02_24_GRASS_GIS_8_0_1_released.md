@@ -7,7 +7,10 @@ author: GRASS Development Team
 
 ### What's new in a nutshell
 
-<!--- screenshot plus small description - TBD --->
+This is a stability release of the GRASS GIS 8.0 series. 
+The most important changes include a bugfix to avoid compilation
+breakage under certain circumstances. Also, quantile computation
+was fixed to match the one used in Python numpy and R.
 
 #### Full list of changes and new features
 
