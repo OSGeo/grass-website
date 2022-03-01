@@ -32,7 +32,7 @@ bugs fixed at
     - [Debian](https://tracker.debian.org/pkg/grass)
     - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
     - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass)
-    - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html#g78x)
+    - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html)
 
 #### Source code download
 

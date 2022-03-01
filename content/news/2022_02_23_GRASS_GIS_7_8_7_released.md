@@ -16,10 +16,10 @@ author: GRASS Development Team
 
 As a follow-up to the previous GRASS GIS 7.8.6 we have published the
 **new release GRASS GIS 7.8.7** with more than 40 fixes mostly focused
-on [g.extension](https://grass.osgeo.org/grass78/manuals/g.extension.html) 
-and Python 3.10 related errors in the GUI. Furthermore,
-changes to the *libgis* allowing to recover the last changed date in core
-modules and addons' manual pages were backported from newer versions.
+on the addon installation module [g.extension](https://grass.osgeo.org/grass78/manuals/g.extension.html) 
+and Python 3.10 related errors in the graphical user interface (GUI). Furthermore,
+changes to the internal *libgis* allowing to recover the last changed date in the manual pages
+of core modules and addons has been backported from newer GRASS GIS versions.
 
 The overview of features in the 7.8 release series is available at
 [new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
