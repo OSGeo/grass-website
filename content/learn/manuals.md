@@ -8,19 +8,19 @@ layout: "manuals"
 
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="/grass80/manuals/index.html " target="_blank"> GRASS GIS 8.0 (preview) </a></span>
+  <span class="mwl"><a href="/grass80/manuals/index.html " target="_blank"> GRASS GIS 8.0 (current) </a></span>
   <a href="/grass80/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass80/manuals/grass-8.0_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS 7.8 (current) </a></span>
+  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS 7.8 (legacy) </a></span>
   <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass78/manuals/grass-7.8_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
-   <li>
+ <!--
+  <li>
   <span class="mwl"><a href="/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (legacy) </a></span>
   <a href="/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass76/manuals/grass-7.6_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
-<!--
- <li>
+  <li>
   <span class="mwl"><a href="/grass74/manuals/index.html " target="_blank"> GRASS GIS 7.4 (stable) </a></span>
   <a href="/grass74/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
   </li>
@@ -43,10 +43,14 @@ layout: "manuals"
 
 <ul id="links" class="list-unstyled version">
  <li>
+  <span class="mwl"><a href="/grass8/manuals/addons/ " target="_blank"> GRASS GIS 8 addons </a></span>
+  <a href="/grass8/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
+  </li>
+<!-- outdated
+ <li>
   <span class="mwl"><a href="/grass7/manuals/addons/ " target="_blank"> GRASS GIS 7 addons </a></span>
   <a href="/grass7/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
-<!-- outdated
 <li>
   <span class="mwl"><a href="/grass6/manuals/addons/ " target="_blank"> GRASS GIS 6 addons (unsupported) </a></span>
   <a href="/grass6/manuals/addons/" class="inl btn btn-primary" target="_blank">View HTML</a>
@@ -59,7 +63,7 @@ layout: "manuals"
 <ul id="links" class="list-unstyled version">
  <li>
   <span class="mwl-l"><a href="/programming8/ " target="_blank">GRASS GIS Programmer's Manual</a></span>
-  <a href="/programming7/" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <a href="/programming8/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
   <span class="mwl-l"><a href="https://github.com/OSGeo/grass/tree/main/doc/vector/v.example " target="_blank"> GRASS GIS Example Vector Module in C</a></span>
