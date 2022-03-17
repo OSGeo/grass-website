@@ -50,7 +50,7 @@ Standalone installer: install GRASS GIS with the required support packages.
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass81/WinGRASS-8.1.dev-e3080fd7a-35-Setup.exe)
+*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass81/)
 
 <hr>
 
