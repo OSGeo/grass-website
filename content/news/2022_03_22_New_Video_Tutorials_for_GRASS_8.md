@@ -1,11 +1,11 @@
 ---
-title: "New Video Tutorials for GRASS 8"
-date: 2022-03-22
+title: "New Video Tutorials for GRASS GIS 8"
+date: 2022-03-25
 layout: "news"
 author: Isaac Ullah
 ---
 
-### New video tutorials now available for GRASS version 8
+### New video tutorials now available for GRASS GIS version 8
 
 Announcing a new series of publicly available YouTube video tutorials for GRASS 8. These tutorials, originally created for a GIS course at San Diego State University titled "ANTH 562 Computational Archaeology," are aimed to help novice to advanced GIS practioners learn how to use GRASS GIS. The subject matter is nominally archaeological GIS, but all the basics of GRASS are covered, as well as some advanced topics, such as Least Cost Analysis, Visibility Analysis, Hydrological Modeling, Terrain Analysis, and more. The sample data used in the tutorials is available in [this GitHub repository](https://github.com/isaacullah/GIS-Projects). 
 
