@@ -10,13 +10,11 @@ layout: "os"
 
 [ [**GRASS GIS 8.0 (current)**](#GRASS-GIS-current) | [**GRASS 7.8 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.2 (preview)**](#GRASS-GIS-devel) ]
 
-
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on this website: <a href="http://grassmac.wikidot.com" target="_blank"> GRASS GIS for the Mac </a>
 </div>
 
 <hr>
-
 
 ### <a name="GRASS-GIS-current"></a> GRASS GIS 8.0.1 (current)
 
@@ -26,6 +24,9 @@ layout: "os"
 
 <ul>
 <li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
+</ul>
+<ul>
+<li><a href="https://ports.macports.org/port/grass/"></i>MacPorts</a></li>
 </ul>
 
 <hr>
@@ -39,8 +40,9 @@ layout: "os"
 <ul>
 <li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
 </ul>
-
-
+<ul>
+<li><a href="https://ports.macports.org/port/grass7/"></i>MacPorts</a></li>
+</ul>
 
 <hr>
 
@@ -53,6 +55,5 @@ layout: "os"
 <ul>
 <li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
 </ul>
-
 
 <hr>
