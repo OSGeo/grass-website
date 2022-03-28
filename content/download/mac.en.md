@@ -22,8 +22,12 @@ layout: "os"
 <i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80">GRASS GIS 8.0 new features</a> and <a href="https://github.com/OSGeo/grass/releases/tag/8.0.1">GRASS GIS 8.0.1 announcement</a> for more information.
 </div>
 
-*  [Download](http://grassmac.wikidot.com/downloads)
-*  [MacPorts](https://ports.macports.org/port/grass/)
+<ul>
+<li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
+</ul>
+<ul>
+<li><a href="https://ports.macports.org/port/grass/"></i>MacPorts</a></li>
+</ul>
 
 <hr>
 
@@ -33,8 +37,12 @@ layout: "os"
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/7.8.7">GRASS GIS 7.8.7 announcement</a> for more information.
 </div>
 
-*  [Download](http://grassmac.wikidot.com/downloads)
-*  [MacPorts](https://ports.macports.org/port/grass7/)
+<ul>
+<li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
+</ul>
+<ul>
+<li><a href="https://ports.macports.org/port/grass7/"></i>MacPorts</a></li>
+</ul>
 
 <hr>
 
@@ -44,6 +52,8 @@ layout: "os"
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
-*  [Download](http://grassmac.wikidot.com/downloads)
+<ul>
+<li><a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a></li>
+</ul>
 
 <hr>
