@@ -2,7 +2,7 @@
 title: "New Video Tutorials for GRASS GIS 8"
 date: 2022-03-25
 layout: "news"
-author: Isaac Ullah
+author: Isaac Ullah and the GRASS Dev Team
 ---
 
 ### New video tutorials now available for GRASS GIS version 8
