@@ -19,4 +19,3 @@ These tutorials and sample data are released under a [CCbyNC 4.0](https://creati
 
 The tutorials are created by Isaac I. Ullah, PhD. He is an associate professor of Anthropology at San Diego State University, specializing in computational approaches in archaeology. More information about Dr. Ullah's work is available on [his website](https://isaacullah.github.io/).
 
-*Isaac Ullah, Mar 2022*
