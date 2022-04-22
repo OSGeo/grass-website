@@ -15,8 +15,18 @@
   <section class="section bg-gray">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 text-center">{{with .Site.Params.topics.title}}<h2 class="section-title">{{ . }}</h2>{{ end }}</div>
-	{{ range (where .Site.Pages "Type" "pages") }}{{ if not (in  .Section "about") }}    <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="col-12 text-center">{{with .Site.Params.topics.title}}
+            <p class="pd-20 bigr"><b>GRASS GIS</b>
+                offers powerful raster, vector, and geospatial processing
+                engines in a single integrated software suite. It includes tools for
+                terrain and ecosystem modeling, hydrology, visualization of raster and
+                vector data, management and analysis of geospatial data, and the
+                processing of satellite and aerial imagery. It comes with a temporal
+                framework for advanced time series processing and a Python API for
+                rapid geospatial programming. GRASS GIS has been optimized for
+                performance and large geospatial data analysis.</p>{{ end }}</div>
+	{{ range (where .Site.Pages "Type" "pages") }}{{ if not (in  .Section "about") }}
+          <div class="col-lg-4 col-sm-6 mb-4">
           <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mb-40"></i>
           <h3 class="mb-3">{{ .Title }}</h3>
           <p class="mb-0">{{ .Params.Description }}</p></a>
