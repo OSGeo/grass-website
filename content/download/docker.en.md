@@ -1,6 +1,6 @@
 ---
 title: "Docker"
-date: 2020-10-10T11:02:05+02:00
+date: 2022-04-25T10:12:05+02:00
 description: "Download GRASS GIS Docker images"
 weight: 4
 layout: "os"
@@ -15,7 +15,7 @@ layout: "os"
 <i class="fa fa-arrow-right"></i> GRASS GIS <b>Docker images</b> provided and maintained by <a href="https://www.mundialis.de/en/" target="_blank">mundialis</a>.
 </div>
 
-For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.com/OSGeo/grass/blob/master/docker/README.md)
+For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.com/OSGeo/grass/blob/main/docker/README.md)
 
 <hr>
 

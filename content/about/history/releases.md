@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2020-04-10T12:12:15+02:00
+date: 2022-04-25T10:12:05+02:00
 layout: "timeline"
 ---
 
@@ -53,7 +53,7 @@ layout: "timeline"
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 09 Nov 2019</span> <b>GRASS GIS 7.8.1</b> &#160; <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.1-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 06 Sep 2019 </span> <b>GRASS GIS 7.8.0</b> &#160; <a href="https://trac.osgeo.org/grass/wiki/Release/7.8.0-News">Changelog</a>  - <a href="/grass78/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78"><b>New Features 7.8</b></a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 04 Aug 2019</span> Creation of the GRASS GIS 7.8 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_7_8">d4879d4</a>)</li>
-<!-- find with git log releasebranch_7_8 (not master) -->
+<!-- find with git log releasebranch_7_8 (not main) -->
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 19 Mar 2019</span> <b>GRASS GIS 7.6.1</b> &#160; <a href="/grass76/source/ChangeLog_7.6.1.gz">ChangeLog</a> - <a href="/grass76/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 17 Jan 2019</span> <b>GRASS GIS 7.6.0</b> &#160;  <a href="/grass76/source/ChangeLog_7.6.0.gz">ChangeLog</a> - <a href="/grass76/source/">Source Code</a> - <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76"><b>New Features 7.6</b></a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 04 Jan 2019</span> <b>GRASS GIS 7.4.4</b> &#160; <a href="/grass74/source/ChangeLog_7.4.4.gz">ChangeLog</a> - <a href="/grass74/source/">Source Code</a></li>
