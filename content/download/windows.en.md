@@ -87,4 +87,4 @@ osgeo4w-setup.exe -q -k -P grass -s https://download.osgeo.org/osgeo4w/v2/x86_64
 </pre>
 
 ##### QGIS users:
-In order to have GRASS GIS support (also in QGIS-Processing) as well as the "With GRASS" shortcut you need to install the "qgis-grass-plugin*" packages.
+In order to have GRASS GIS support (also in QGIS-Processing) you need to install the "qgis*-grass-plugin" packages.
