@@ -1,6 +1,6 @@
 ---
 title: "Credits"
-date: 2020-04-12T12:12:05+02:00
+date: 2022-04-25T10:12:05+02:00
 layout: "credits"
 ---
 
@@ -53,7 +53,7 @@ This website is licensed under the GNU General Public License v3.0<br>
 
 #### Copyright
 
-&#9400; Copyright, 1998-2020 GRASS Development Team
+&#9400; Copyright, 1998-2022 GRASS Development Team
 
 #### Acknowledgments
 
