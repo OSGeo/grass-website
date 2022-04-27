@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2022-04-26T10:12:05+02:00
+date: 2022-04-27T10:12:05+02:00
 layout: "timeline"
 ---
 
@@ -21,6 +21,7 @@ layout: "timeline"
 <ul class="list-unstyled releases">
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 26 Apr 2022</span> Creation of the GRASS GIS 8.2 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_2">d76d518</a>)</li>
 <!-- find with git log releasebranch_8_2 (not main) -->
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 24 Feb 2022</span> <b>GRASS GIS 8.0.1</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/8.0.1-News">Changelog</a> - <a href="/grass80/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 23 Feb 2022</span> <b>GRASS GIS 7.8.7</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.7-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 22 Jan 2022</span> <b>GRASS GIS 8.0.0</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/8.0.0-News">Changelog</a> - <a href="/grass80/source/">Source Code</a></li>
 </ul>
