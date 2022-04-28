@@ -39,6 +39,8 @@ layout: "timeline"
         <div id="2021" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 13 Nov 2021</span> Creation of the GRASS GIS 8.0 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_0">branch</a>)</li>
+<!-- find with git log releasebranch_8_0 (not main) -->
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 10 Oct 2021</span> <b>GRASS GIS 7.8.6</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
 </ul>
           </div>
