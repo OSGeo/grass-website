@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2022-04-25T10:12:05+02:00
+date: 2022-04-27T10:12:05+02:00
 layout: "timeline"
 ---
 
@@ -10,20 +10,45 @@ layout: "timeline"
   <div class="timeline">
     <div class="line text-muted"></div>
      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2022" aria-expanded="true" aria-controls="2022">2022</a></h4>
+        </div>
+        <div id="2022" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+          <div class="panel-body">
+<ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 26 Apr 2022</span> Creation of the GRASS GIS 8.2 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_2">d76d518</a>)</li>
+<!-- find with git log releasebranch_8_2 (not main) -->
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 24 Feb 2022</span> <b>GRASS GIS 8.0.1</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/8.0.1-News">Changelog</a> - <a href="/grass80/source/">Source Code</a></li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 23 Feb 2022</span> <b>GRASS GIS 7.8.7</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.7-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 22 Jan 2022</span> <b>GRASS GIS 8.0.0</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/8.0.0-News">Changelog</a> - <a href="/grass80/source/">Source Code</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <!-- /Panel -->
+
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
           <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2021" aria-expanded="true" aria-controls="2021">2021</a></h4>
         </div>
-        <div id="2020" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+        <div id="2021" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 13 Nov 2021</span> Creation of the GRASS GIS 8.0 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_0">branch</a>)</li>
+<!-- find with git log releasebranch_8_0 (not main) -->
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 10 Oct 2021</span> <b>GRASS GIS 7.8.6</b> &#160;<a href="https://trac.osgeo.org/grass/wiki/Release/7.8.6-News">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
 </ul>
           </div>
         </div>
       </div>
       <!-- /Panel -->
+
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -40,6 +65,7 @@ layout: "timeline"
         </div>
       </div>
       <!-- /Panel -->
+
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -61,7 +87,8 @@ layout: "timeline"
 </div>
       </div>
       </div>
-<!-- /Panel -->
+      <!-- /Panel -->
+
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
