@@ -1,6 +1,6 @@
 ---
 title: "What is GRASS GIS?"
-date: 2020-07-28T11:02:05+06:00
+date: 2022-04-25T10:12:05+02:00
 layout: "overview"
 ---
 
@@ -140,7 +140,7 @@ GRASS GIS can be used through various interfaces:
 list of <b>extensions or addons</b>. These modules are contributed by users
 or developers but are not yet part of the standard distribution.
 There are currently more than <b>300 extensions</b> in the 
-<a href="https://github.com/OSGeo/grass-addons/tree/master/grass7">official GRASS Addons repo</a> 
+<a href="https://github.com/OSGeo/grass-addons/tree/grass8">official GRASS Addons repo</a>
 and many others in the wild to perform the most varied type of tasks.
 <br>Have a look at the full list of 
 <a href="/grass-stable/manuals/addons/" target="_blank">addons manual pages</a>

@@ -55,41 +55,47 @@ greyColorDark = "#A0A0A0"
       name = "Download"
       url = "/download"
 
+    [[Languages.en.menu.main]]
+          parent = "Download"
+          name = "GRASS GIS source code"
+          URL = "https://github.com/OSGeo/grass/tags"
+          weight = 1
+
 	[[Languages.en.menu.main]]
           parent = "Download"
           name = "GRASS GIS for Linux"
           URL = "/download/linux"
-          weight = 1
-	  
+          weight = 2
+
  	[[Languages.en.menu.main]]
           parent = "Download"
           name = "GRASS GIS for Windows"
           URL = "/download/windows"
-          weight = 2
+          weight = 3
 
  	[[Languages.en.menu.main]]
           parent = "Download"
           name = "GRASS GIS for Mac"
           URL = "/download/mac"
-          weight = 3
+          weight = 4
 
  	[[Languages.en.menu.main]]
           parent = "Download"
           name = "Docker images"
           URL = "/download/docker"
-          weight = 4
+          weight = 5
 
     [[Languages.en.menu.main]]
           parent = "Download"
           name = "Addons"
           URL = "/download/addons"
-          weight = 5
+          weight = 6
 
  	[[Languages.en.menu.main]]
           parent = "Download"
           name = "Sample data"
           URL = "/download/data"
-          weight = 6
+          weight = 7
         
       [[Languages.en.menu.main]]
         weight = 3
@@ -153,8 +159,8 @@ greyColorDark = "#A0A0A0"
 
           [[Languages.en.menu.main]]
           parent = "Contribute"
-          name = "Donations"
-          URL = "/contribute/donations"
+          name = "Sponsoring"
+          URL = "/contribute/sponsoring"
           weight = 2
 
           [[Languages.en.menu.main]]
@@ -233,7 +239,7 @@ greyColorDark = "#A0A0A0"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-facebook"
-      link = "https://www.facebook.com/GRASSGISCommunity"
+      link = "https://www.facebook.com/groups/GRASS"
 
     [[Languages.en.socialIcon]]
       icon = "fa fa-youtube"

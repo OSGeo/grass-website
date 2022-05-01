@@ -14,14 +14,17 @@ layout: "data"
 
 
 <div class="row">
-  <div class="col-md-4 col-sm-12">
-    <div class="alert rounded-0 alert-default row" width="35%"><span><i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS GIS. Datasets are made available as ready-to-use GRASS GIS <b>locations</b> and sample data in other
+  <div class="col-sm-4">
+    <div class="alert rounded-0 alert-default row">
+    <span><i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS GIS. Datasets are made available as ready-to-use GRASS GIS <b>locations</b> and sample data in other
     common GIS formats.</span>
-    <span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <a href="#DownloadGUI">download button on the GRASS GIS startup screen</a>.</span>
+    <span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <b>download button on the GRASS GIS GUI</b>.</span>
     </div>
   </div>
-  <div class="col-md-8 col-sm-12 text-center">
-    <img src="../../images/gallery/gui/grass740_startup_sample_data_download_arrow.png" width="80%" alt="">
+  <div class="col-sm-8 text-center">
+    <img src="/images/gallery/gui/download_sample_data_grass8.png" 
+     width="95%" 
+     alt="Download sample data from the GUI">
   </div>
 </div>
 
@@ -61,12 +64,12 @@ The North Carolina dataset can be downloaded in two versions:
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/ " target="_blank"> Climate </a></span>
    <a href="/sampledata/north_carolina/nc_climate_spm_2000_2012.zip" class="inl btn btn-primary" target="_blank">Download ZIP (690 MB)</a>
-   <p>North Carolina location with climatic data time series (nc_climate_spm_2000_2012) - see also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
+   <p>North Carolina mapset with climatic data time series (nc_climate_spm_2000_2012). Unzip within North Carolina location, either full or basis datasets. See also the related <a href="http://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">tutorial</a></p>
   </li>
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/temporalintro.html" target="_blank"> Time series </a></span>
-   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for < G7.8, 2 MB)</a>
-   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst_grass79.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G79+, 2 MB)</a>
+   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G6, G7, 2 MB)</a>
+   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst_grass8.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G8, 2 MB)</a>
    <p>MODIS Land Surface Temperature mapset (to unzip in NC location): MODIS LST raster time series (<a href="https://lpdaac.usgs.gov/products/mod11b3v006/">MOD11B3</a>, 6km, monthly)</p>
   </li>
 <!-- not sure?

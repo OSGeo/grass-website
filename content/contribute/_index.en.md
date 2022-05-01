@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-date: 2020-07-28T11:02:05+05:00
+date: 2022-04-25T10:12:05+02:00
 icon: "fa fa-user"
 description: "Contribute to Open Source Geospatial through GRASS GIS development"
 type : "pages"
@@ -17,7 +17,7 @@ All new submissions in the tracker will be automatically forwarded to the GRASS 
 ###### Some recommendations
 <small>
 <ul>
- <li>Check if the bug you found is still present in the current stable release version or, better, in the "master" version before reporting. If you use an older version, please consider to [upgrade](/download) first.</li>
+ <li>Check if the bug you found is still present in the current stable release version or, better, in the "main" version before reporting. If you use an older version, please consider to [upgrade](/download) first.</li>
  <li>Make sure that the developers have all the information needed to reproduce the bug (e.g. explain how to reproduce the bug using the [North Carolina example dataset](/download/data))</li>
  <li>Report only a single bug or feature request with each issue</li>
  <li>Before reporting a bug, please check that it hasn't been reported already in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues)</li>
@@ -77,7 +77,7 @@ A GRASS mirror site requires around 14 GB space, the space requirements may vary
 If you would like to support the GRASS community, do not hesitate to set up your mirror site.
 
 #### How to set up a mirror site:
-The master site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync"](http://rsync.samba.org/) software protocol, allowing to synchronize mirrors automatically overnight. The idea of using "rsync" mirror software is that only changed files are transferred which minimizes the network traffic.
+The main site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync"](http://rsync.samba.org/) software protocol, allowing to synchronize mirrors automatically overnight. The idea of using "rsync" mirror software is that only changed files are transferred which minimizes the network traffic.
 
 #### Mirror site setup in greater detail:
 
@@ -88,9 +88,17 @@ The master site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsy
   * `/usr/bin/rsync -az --port=50026 grass.osgeo.org::grass-website /mirror/grass-website`  
   This will copy/update the GRASS site to your local directory /mirror/grass-website/ which needs to be made available in your web server.
 * Check if the synchronization works the next day(s).
-* Announce the new mirror site for this mirror list to [us]((mailto:grass-web(at)lists.osgeo.org)).
+* Announce the new mirror site for this mirror list to [us](mailto:grass-web(at)lists.osgeo.org).
 
 ### Other opportunities
+
+#### Student Grants
+
+**Student Grants is a stipend program for students by the GRASS GIS project.**
+
+The GRASS GIS project offers a limited number of student grants for projects related to GRASS GIS. These can include actual coding, bug fixing, or documentation and the creation of educational resources.
+
+For details, see [Student Grants](https://grasswiki.osgeo.org/wiki/Student_Grants).
 
 #### Google Summer of Code (GSoC)
 
@@ -102,7 +110,7 @@ will pay a monthly stipend for 3 months.
 
 #### Google Code-in (GCI)
 
-**GCI is an online contest introducing high school students to open source development**.
+**GCI is an online contest introducing high school students to open source development.**
 
 Students can participate with the [OSGeo organization](https://codein.withgoogle.com/organizations/osgeo/) 
 and solve tasks for different projects. Tasks might include documentation, design, coding, etc.

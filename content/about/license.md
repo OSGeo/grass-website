@@ -36,15 +36,15 @@ See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/
 Please cite GRASS when using the software in your work. Here are some choices
 depending on the version used:
 
-- GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS)
-Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
-
-- GRASS Development Team, 2019. Geographic Resources Analysis Support System (GRASS) 
-Software, Version 7.6. Open Source Geospatial Foundation. https://grass.osgeo.org
+- GRASS Development Team, 2022. Geographic Resources Analysis Support System (GRASS)
+Software, Version 8.0. Open Source Geospatial Foundation. https://grass.osgeo.org
 
 - GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS) 
+Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
+
+- GRASS Development Team, 2022. Geographic Resources Analysis Support System (GRASS) 
 Programmer's Manual. Open Source Geospatial Foundation. Electronic document: 
-https://grass.osgeo.org/programming7/
+https://grass.osgeo.org/programming8/
 
 <p> Use the following BibTeX entry for citing the <b>GRASS GIS</b> software in 
 scientific work written in LaTeX.</p>
@@ -55,7 +55,7 @@ scientific work written in LaTeX.</p>
     author = {{GRASS Development Team}},
     organization = {Open Source Geospatial Foundation},
     address = {USA},
-    year = {2020},
+    year = {2022},
     url = {https://grass.osgeo.org}
 }
 </pre>

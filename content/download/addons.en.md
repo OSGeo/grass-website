@@ -13,7 +13,7 @@ layout: "addons"
 
 ### <a name="Overview"></a>Overview of addons
 
-There is a [growing list of GRASS GIS addons](/grass7/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
+There is a [growing list of GRASS GIS addons](/grass8/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
 
 ### <a name="Common-user"></a>Beginner users
 
