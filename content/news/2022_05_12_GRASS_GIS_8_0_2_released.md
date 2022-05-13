@@ -39,7 +39,7 @@ bugs fixed at
 
 -   [https://grass.osgeo.org/grass80/source/](/grass80/source/)
 -   [https://grass.osgeo.org/grass80/source/grass-8.0.2.tar.gz](/grass80/source/grass-8.0.2.tar.gz)
--   To get the GRASS GIS 8.0.0 source code directly from GitHub, see [here](https://github.com/OSGeo/grass/releases/tag/8.0.2).
+-   To get the GRASS GIS 8.0.2 source code directly from GitHub, see [here](https://github.com/OSGeo/grass/releases/tag/8.0.2).
 
 First time users may explore the [**first steps tutorial**](/learn/) after
 installation.
