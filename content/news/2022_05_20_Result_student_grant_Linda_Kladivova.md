@@ -26,10 +26,10 @@ upcoming fundamental changes in the graphical user interface (GUI).
 
 In the following months, as part of my master thesis, I focused on 
 the topic of a **new startup mechanism** and **the improvement 
-of the first-time user experience**. The whole effort led to the complete 
-elimination of the hard-to-grasp startup screen and the implementation
-of a new first-time user mode, which made GRASS significantly more
-accessible to new users after almost forty years.
+of the first-time user experience**. The whole effort led to
+eliminating the hard-to-grasp startup screen and implementing
+a new first-time user mode, which made GRASS significantly more
+accessible to new users.
 
 <a href="/images/gallery/gui/grass8_single_window_layout_mockup.png">
   <img src="/images/gallery/gui/grass8_single_window_layout_mockup.png"
