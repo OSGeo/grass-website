@@ -57,7 +57,7 @@ successful application to the next GSoC.
    width="70%" style="float:right;padding-left:15px;padding-top:20px">
 </a>
 
-Based on the illustration, my mentors and me managed to rewrite part of the
+Based on the illustration, my mentors and I managed to rewrite part of the
 internal logic of the existing Multi-Window GUI, so that we were able to
 start building a new interface next to it. A very simple Single-Window 
 prototype was created within GSoC 2021, but it was still buggy. 
