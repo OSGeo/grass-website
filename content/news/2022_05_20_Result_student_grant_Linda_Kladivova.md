@@ -44,9 +44,9 @@ Thanks to them, other thorny topics emerged among which I was mostly
 interested in the need to unify GRASS into a **Single-Window layout**. 
 From the very beginning, I wanted to make working with GRASS as pleasant
 as possible, but until then I have largely focused on new users. 
-I realized that Single-Window would be a big implementation nut that 
-would completely transform the work in the software and break down the 
-established habits. Remembering a great experience from 2020, I eventually
+I realized that implementing Single-Window would be rather difficult,
+requiring significant refactoring of large part of the GUI code.
+Recalling the great experience from GSoC 2020, I eventually
 decided to create a mock-up graphic design, which was then the basis for a 
 successful application to the next GSoC.
 
