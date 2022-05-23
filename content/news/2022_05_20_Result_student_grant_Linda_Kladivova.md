@@ -16,7 +16,8 @@ author: Linda Kladivova and the GRASS Development Team
 </a>
 
 I started contributing to GRASS GIS in the summer of 2020 as part 
-of the project *"Creation of a new GRASS GIS startup mechanism"*, 
+of the Google Summer of Code (GSoC) project
+*"Creation of a new GRASS GIS startup mechanism"*, 
 which I applied for as a complete programming illiterate. Although
 I felt a bit clumsy at first, with the great help of my mentors I 
 managed to significantly improve the GRASS data catalog. 
