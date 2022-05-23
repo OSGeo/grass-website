@@ -48,7 +48,7 @@ I realized that Single-Window would be a big implementation nut that
 would completely transform the work in the software and break down the 
 established habits. Remembering a great experience from 2020, I eventually
 decided to create a mock-up graphic design, which was then the basis for a 
-successful application to the next Google Summer of Code (GSoC).
+successful application to the next GSoC.
 
 <a href="/images/gallery/gui/grass8_single_window_startupGUI.jpg">
   <img src="/images/gallery/gui/grass8_single_window_startupGUI.jpg"
