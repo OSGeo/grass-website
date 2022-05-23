@@ -21,7 +21,7 @@ of the Google Summer of Code (GSoC) project
 which I applied for as a complete programming illiterate. Although
 I felt a bit clumsy at first, with the great help of my mentors I 
 managed to significantly improve the GRASS data catalog. 
-Looking backwards now, this was the starting point for all the
+Looking back now, this was the starting point for all the
 upcoming fundamental changes in the graphical user interface (GUI).
 
 In the following months, as part of my master thesis, I focused on 
