@@ -17,7 +17,7 @@ author: Caitlin Haedrich and the GRASS Development Team
 </a>
 
 I began contributing to GRASS GIS last year during Google Summer 
-of Code (GSoC) 2021. As a second-year doctoral student as North Carolina 
+of Code (GSoC) 2021. As a second-year doctoral student at North Carolina 
 State University [(NCSU)](https://www.ncsu.edu/) in the 
 [GeoForAll Lab](https://geospatial.ncsu.edu/geoforall/), I was taking
 a lot of courses that used GRASS GIS and other OSGeo software. 
