@@ -1,5 +1,5 @@
 ---
-title: "Results of the GRASS GIS student grants"
+title: "Results of the GRASS GIS student grants - Part 2"
 date: 2022-05-25T23:12:40+02:00
 layout: "news"
 author: Caitlin Haedrich and the GRASS Development Team
@@ -37,7 +37,7 @@ difficult (such as rendering maps in-line, or interactively exploring a
 map by zooming in).
 
 During the GSoC project, my mentors (Vaclav Petras, Helena Mitasova and Stefan 
-Blumentrath) and I developed a new Python subpackage for GRASS GIS called 
+Blumentrath) and I developed **a new Python subpackage for GRASS GIS** called 
 `grass.jupyter` that aimed to address some of these issues. By the end of 
 GSoC last summer, we’d written an experimental version of grass.jupyter 
 that contained a basic session initiation function and two visualization 
@@ -51,7 +51,7 @@ how to contribute to open-source projects through GitHub.
 <a href="/images/news/grass_jupyter_folium.png">
   <img src="/images/news/grass_jupyter_folium.png"
    alt="grass.jupyter and folium"
-   title="grass.jupyter folium"
+   title="grass.jupyter and folium"
    width="50%" style="float:left;padding-right:20px;padding-top:20px">
 </a>
 
@@ -68,22 +68,22 @@ with the goal of improving the GRASS-folium integration for interactive maps
 and adding visualization class(es) for space-time datasets (See project details 
 [here](https://trac.osgeo.org/grass/wiki/GSoC/2021/JupyterAndGRASS/MiniGrant2022)). 
 One of the features that makes GRASS GIS unique among GIS software packages 
-is its framework for managing processing and visualizing temporal data. 
+is its framework for managing, processing and visualizing temporal data. 
 In the GUI, temporal data is visualized with the `g.gui.animation` tool. 
 We wanted to create a similar interactive visualization tool that would be 
 part of a notebook. I worked on the grant during the first few months of 2022 
 and by the end, we had a stable version of `grass.jupyter` that was officially 
 released with **GRASS GIS version 8.2**. 
 At the completion of the grant, *we had 4 different visualization classes:
-Map, Map3D, TimeSeriesMap, and InteractiveMap* along with a new folium 
-API that allows users to add GRASS raster maps and data to an existing folium 
+Map, Map3D, TimeSeriesMap, and InteractiveMap* along with *a new folium 
+API* that allows users to add GRASS raster maps and data to an existing folium 
 map instance.
 
 You can find GRASS GIS tutorials using `grass.jupyter` on GRASS GIS’s GitHub 
-[repository](https://github.com/OSGeo/grass/tree/main/doc/notebooks). 
-There’s also a link in the GRASS GIS GitHub README to 
-[Binder](https://mybinder.org/v2/gh/OSGeo/grass/main?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fbasic_example.ipynb) 
-where you can run the notebooks in the cloud – no installation necessary. You 
-can find out more about grass.jupyter in the 
+[repository](https://github.com/OSGeo/grass/tree/main/doc/notebooks).
+In the GRASS GIS GitHub README, there’s also a link to 
+[Binder](https://mybinder.org/v2/gh/OSGeo/grass/main?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fbasic_example.ipynb)
+where you can run the notebooks in the cloud – no installation needed. You 
+can find out more about `grass.jupyter` library in the 
 [manual](https://grass.osgeo.org/grass82/manuals/libpython/grass.jupyter.html) 
 page.
