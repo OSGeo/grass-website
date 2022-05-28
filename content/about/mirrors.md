@@ -1,12 +1,12 @@
 ---
 title: "GRASS GIS Website mirrors"
-date: 2022-04-25T10:12:05+02:00
+date: 2022-05-28T10:12:05+02:00
 layout: "general"
 ---
 
 ### Official main site via HTTP/FTP
 
-* [Official main site: grass.osgeo.org](https://grass.osgeo.org/) in the USA
+* [Official main site: grass.osgeo.org](https://grass.osgeo.org/) (Portland, USA)
 
 ### African Web site mirrors
 
@@ -21,5 +21,9 @@ layout: "general"
 
 ### European Web site mirrors
 
-* [Italy](http://grass.mirror.download.it) (Tier1)
-<!-- * [Czech Republic](http://grass.fsv.cvut.cz) (Tier2, Czech Technical University in Prague, Department of Geomatics) -->
+* [Italy](http://grass.mirror.download.it) (Tier 1)
+<!-- * [Czech Republic](http://grass.fsv.cvut.cz) (Tier 2, Czech Technical University in Prague, Department of Geomatics) -->
+
+### Mirror our website
+
+Please visit the "Mirror our website" section in [contribute](/contribute/) for details how to set up "rsync".
