@@ -82,11 +82,21 @@ The main site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync
 #### Mirror site setup in greater detail:
 
 * Install the rsync software.
-* Check if you can connect - note the two '::' characters (this command should display a welcome message):
+* Check if you can connect - note the two '::' characters:
+  * `rsync -az --port=50026 grass.osgeo.org::`
+  *  This command should display the following welcome message:
+```
+      GRASS GIS Website
+      grass-website  	GRASS GIS Website
+```
+* Now generate a mirror folder on your server where to store the GRASS GIS website copy. We assume `/var/www/html/mirror/`:
+  * `mkdir /var/www/html/mirror/`
+* Change into this folder and copy the website into the subfolder `grass-website`:
+  * `cd /var/www/html/mirror/`
   * `rsync -az --port=50026 grass.osgeo.org::grass-website grass-website`
-* Define a daily cron-job (in 'crontab') for rsync (example):
-  * `/usr/bin/rsync -az --port=50026 grass.osgeo.org::grass-website /mirror/grass-website`  
-  This will copy/update the GRASS site to your local directory /mirror/grass-website/ which needs to be made available in your web server.
+* Once finished, define a daily cron-job (in 'crontab') for rsync (example):
+  * `/usr/bin/rsync -az --port=50026 grass.osgeo.org::grass-website /var/www/html/mirror/grass-website`  
+  This will copy/update the GRASS site to your local directory /var/www/html/mirror/grass-website/ which needs to be made available in your web server.
 * Check if the synchronization works the next day(s).
 * Announce the new mirror site for this mirror list to [us](mailto:grass-web(at)lists.osgeo.org).
 
