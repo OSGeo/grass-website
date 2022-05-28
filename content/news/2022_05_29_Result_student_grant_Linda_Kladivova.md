@@ -1,6 +1,6 @@
 ---
 title: "Results of the GRASS GIS student grants - Part 1"
-date: 2022-05-20T21:12:52+02:00
+date: 2022-05-29T21:12:52+02:00
 layout: "news"
 author: Linda Kladivova and the GRASS Development Team
 ---
@@ -43,7 +43,7 @@ online community surveys I created as part of my master thesis.
 Thanks to them, other thorny topics emerged among which I was mostly 
 interested in the need to unify GRASS into a **Single-Window layout**. 
 From the very beginning, I wanted to make working with GRASS as pleasant
-as possible, but until then I have largely focused on new users. 
+as possible, but until then I had largely focused on new users. 
 I realized that implementing Single-Window would be rather difficult,
 requiring significant refactoring of large part of the GUI code.
 Therefore, recalling the great experience from GSoC 2020, I eventually
