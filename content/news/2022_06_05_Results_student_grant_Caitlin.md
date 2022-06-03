@@ -72,7 +72,7 @@ is its framework for managing, processing and visualizing temporal data.
 In the GUI, temporal data is visualized with the `g.gui.animation` tool. 
 We wanted to create a similar interactive visualization tool that would be 
 part of a notebook. I worked on the grant during the first few months of 2022 
-and by the end, we had a stable version of `grass.jupyter` that will be officially 
+and by the end, we had a stable version of `grass.jupyter` that was officially 
 released with **GRASS GIS version 8.2**. 
 At the completion of the grant, *we had 4 different visualization classes:
 Map, Map3D, TimeSeriesMap, and InteractiveMap* along with *a new folium 
