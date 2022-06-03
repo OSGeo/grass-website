@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 8.0 (current)**](#GRASS-GIS-current) | [**GRASS 7.8 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.2 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS 8.2 (current)**](#GRASS-GIS-current) | [**GRASS 7.8 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.3 (preview)**](#GRASS-GIS-devel) ]
 
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on this website: <a href="http://grassmac.wikidot.com" target="_blank"> GRASS GIS for the Mac </a>
@@ -16,10 +16,10 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-current"></a> GRASS GIS 8.0.2 (current)
+### <a name="GRASS-GIS-current"></a> GRASS GIS 8.2.0 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80">GRASS GIS 8.0 new features</a> and <a href="https://github.com/OSGeo/grass/releases/tag/8.0.2">GRASS GIS 8.0.2 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.
 </div>
 
 <ul>
@@ -46,7 +46,7 @@ layout: "os"
 
 <hr>
 
-### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.2.0 (preview)
+### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.3.0 (preview)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.

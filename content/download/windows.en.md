@@ -21,12 +21,12 @@ layout: "os"
 
 Standalone installer: install GRASS GIS with the required support packages.
 
-#### <a name="GRASS-GIS-current"></a> GRASS GIS 8.0.2 (current)
+#### <a name="GRASS-GIS-current"></a> GRASS GIS 8.2.0 (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass8/NewFeatures80">GRASS GIS 8.0 new features</a> and <a href="https://github.com/OSGeo/grass/releases/tag/8.0.2">GRASS GIS 8.0.2 announcement</a> for more information.</div>
+<i class="fa fa-info-circle"></i> <u>New stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.</div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](/grass80/binary/mswindows/native/WinGRASS-8.0.2-1-Setup.exe)
+*  [<i class="fa fa-download"></i> Download 64bit](/grass82/binary/mswindows/native/WinGRASS-8.2.0-1-Setup.exe)
 
 <hr>
 
@@ -44,13 +44,13 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 <hr>
 
-#### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.2.0 (preview)
+#### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.3.0 (preview)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass81/)
+*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass83/)
 
 <hr>
 
