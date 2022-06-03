@@ -1,6 +1,6 @@
 ---
 title: "Results of the GRASS GIS student grants - Part 2"
-date: 2022-05-25T23:12:40+02:00
+date: 2022-06-08T23:12:40+02:00
 layout: "news"
 author: Caitlin Haedrich and the GRASS Development Team
 ---
@@ -20,10 +20,10 @@ I began contributing to GRASS GIS last year during Google Summer
 of Code (GSoC) 2021. As a second-year doctoral student at North Carolina 
 State University [(NCSU)](https://www.ncsu.edu/) in the 
 [GeoForAll Lab](https://geospatial.ncsu.edu/geoforall/), I was taking
-a lot of courses that used GRASS GIS and other OSGeo software. 
+a lot of courses that used GRASS GIS and other [OSGeo](https://www.osgeo.org/) software. 
 I’m interested in geo-visualization, open-source software development
 and making powerful geospatial tools accessible to everyone. 
-So, applying to GSoC for the project, entitled 
+So, applying to GSoC for the project entitled 
 [*“Improved Integration of GRASS GIS and Jupyter Notebooks”*](https://trac.osgeo.org/grass/wiki/GSoC/2021/JupyterAndGRASS), 
 was a natural fit. The project aimed to make GRASS GIS more accessible 
 and intuitive to use within Jupyter Notebooks. 
@@ -32,14 +32,14 @@ but they are also increasingly popular in the classroom and for online
 educational resources. Improving the integration of GRASS GIS and Jupyter 
 helps increase the accessibility of GRASS GIS to scientists, teachers, 
 and students alike. Although GRASS GIS has an extensive Python API, 
-managing GRASS sessions within a Notebook and visualizing data was 
-difficult (such as rendering maps in-line, or interactively exploring a 
-map by zooming in).
+managing GRASS sessions within a Notebook and visualizing data, e.g.
+rendering maps in-line or interactively exploring a 
+map by zooming in, was difficult.
 
 During the GSoC project, my mentors (Vaclav Petras, Helena Mitasova and Stefan 
 Blumentrath) and I developed **a new Python subpackage for GRASS GIS** called 
 `grass.jupyter` that aimed to address some of these issues. By the end of 
-GSoC last summer, we’d written an experimental version of grass.jupyter 
+GSoC last summer, we’d written an experimental version of `grass.jupyter` 
 that contained a basic session initiation function and two visualization 
 classes: *Map* (previously GrassRenderer) for creating simple in-line maps 
 as PNG images and *InteractiveMap* for creating interactive maps with 
@@ -58,8 +58,8 @@ how to contribute to open-source projects through GitHub.
 When the project ended, we realized there were still a lot of ways we 
 could make the integration of GRASS GIS and Jupyter better, from small 
 bug fixes in the existing classes to adding visualization classes for 
-space-time datasets. That fall, Vaclav Petras wrote Map3D, a 3D sibling 
-to Map for making simple in-line PNG renderings and further improved 
+space-time datasets. That fall, Vaclav Petras wrote *Map3D*, a 3D sibling 
+to *Map* for making simple in-line PNG renderings and further improved 
 session handling.
 
 Inspired by my GSoC experience and now with a list of things to improve, 
@@ -72,7 +72,7 @@ is its framework for managing, processing and visualizing temporal data.
 In the GUI, temporal data is visualized with the `g.gui.animation` tool. 
 We wanted to create a similar interactive visualization tool that would be 
 part of a notebook. I worked on the grant during the first few months of 2022 
-and by the end, we had a stable version of `grass.jupyter` that was officially 
+and by the end, we had a stable version of `grass.jupyter` that will be officially 
 released with **GRASS GIS version 8.2**. 
 At the completion of the grant, *we had 4 different visualization classes:
 Map, Map3D, TimeSeriesMap, and InteractiveMap* along with *a new folium 
@@ -83,7 +83,7 @@ You can find GRASS GIS tutorials using `grass.jupyter` on GRASS GIS’s GitHub
 [repository](https://github.com/OSGeo/grass/tree/main/doc/notebooks).
 In the GRASS GIS GitHub README, there’s also a link to 
 [Binder](https://mybinder.org/v2/gh/OSGeo/grass/main?urlpath=lab%2Ftree%2Fdoc%2Fnotebooks%2Fbasic_example.ipynb)
-where you can run the notebooks in the cloud – no installation needed. You 
-can find out more about `grass.jupyter` library in the 
+where you can run the notebooks in the cloud – no installation needed. Further
+details and documentation about `grass.jupyter` library can be found in the 
 [manual](https://grass.osgeo.org/grass82/manuals/libpython/grass.jupyter.html) 
 page.
