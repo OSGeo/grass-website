@@ -10,9 +10,16 @@ author: GRASS Development Team
 The 8.2.0 release of GRASS GIS is now available with results from the GSoC 2021
 and many other additions. A new _grass.jupyter_ package is now included for
 interacting with Jupyter notebooks. Single window graphical user interface
-is available in settings. _r.series_ and three other modules are newly parallelized.
-Additionally the releases includes a series of scripting, packaging, and reproducibility
+is available in GUI settings. _r.series_ and three other modules are newly parallelized.
+Additionally, the releases includes a series of scripting, packaging, and reproducibility
 improvements.
+
+<a href="/images/news/jupyter_interactive_viewshed.png">
+  <img src="/images/news/jupyter_interactive_viewshed.png"
+   alt="Jupyter notebook support in GRASS GIS 8.2"
+   title="Jupyter notebook support in GRASS GIS 8.2"
+   width="60%" style="float:right;padding-left:15px;padding-top:20px">
+</a>
 
 ### Full list of changes and contributors
 
@@ -38,7 +45,7 @@ for the GSoC students and their mentors.
 - Linux
     - [Debian](https://tracker.debian.org/pkg/grass)
     - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
-    - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass)
+    - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
     - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html)
 
 #### Source code download
@@ -61,4 +68,4 @@ software packages such as QGIS and R geostatistics or in the cloud. It is
 distributed freely under the terms of the GNU General Public License (GPL).
 GRASS GIS is a founding member of the Open Source Geospatial Foundation (OSGeo).
 
-*The GRASS Development Team, Jun 2022*
+*The GRASS Development Team, June 2022*
