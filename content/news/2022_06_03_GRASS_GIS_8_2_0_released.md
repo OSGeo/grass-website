@@ -11,7 +11,7 @@ The 8.2.0 release of GRASS GIS is now available with results from the GSoC 2021
 and many other additions. A new _grass.jupyter_ package is now included for
 interacting with Jupyter notebooks. Single window graphical user interface
 is available in GUI settings. _r.series_ and three other modules are newly parallelized.
-Additionally, the releases includes a series of scripting, packaging, and reproducibility
+Additionally, the release includes a series of scripting, packaging, and reproducibility
 improvements.
 
 <a href="/images/news/jupyter_interactive_viewshed.png">
@@ -28,7 +28,7 @@ features and bugs fixed at
 [GitHub / Releases / 8.2.0](https://github.com/OSGeo/grass/releases/tag/8.2.0).
 
 Thank you all 28 contributors including 5 new contributors! See the release
-link above for a list and see
+link above for a list and
 [our GSoC page](https://trac.osgeo.org/grass/wiki/GSoC#a2021)
 for the GSoC students and their mentors.
 
