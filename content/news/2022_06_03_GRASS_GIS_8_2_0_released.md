@@ -2,7 +2,7 @@
 title: "GRASS GIS 8.2.0 released"
 date: 2022-06-03T13:56:26-04:00
 layout: "news"
-author: GRASS Development Team
+author: Vaclav Petras
 ---
 
 ### What's new in a nutshell
@@ -68,4 +68,4 @@ software packages such as QGIS and R geostatistics or in the cloud. It is
 distributed freely under the terms of the GNU General Public License (GPL).
 GRASS GIS is a founding member of the Open Source Geospatial Foundation (OSGeo).
 
-*The GRASS Development Team, June 2022*
+*Vaclav Petras and the GRASS Development Team, June 2022*
