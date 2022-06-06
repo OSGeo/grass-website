@@ -1,6 +1,6 @@
 ---
 title: "Results of the GRASS GIS student grants - Part 2"
-date: 2022-06-08T23:12:40+02:00
+date: 2022-06-05T23:12:40+02:00
 layout: "news"
 author: Caitlin Haedrich and the GRASS Development Team
 ---
