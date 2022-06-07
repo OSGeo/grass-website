@@ -50,7 +50,7 @@ for the GSoC students and their mentors.
 
 - [https://grass.osgeo.org/grass82/source/](/grass82/source/)
 - [https://grass.osgeo.org/grass82/source/grass-8.2.0.tar.gz](/grass82/source/grass-8.2.0.tar.gz)
-- To get the GRASS GIS 8.2.0 source code directly from GitHub, see [here](https://github.com/OSGeo/grass/releases/tag/8.2.0).
+- [From GitHub](https://github.com/OSGeo/grass/releases/tag/8.2.0)
 
 First time users may explore the [**first steps tutorial**](/learn/) after
 installation.
@@ -61,8 +61,8 @@ The Geographic Resources Analysis Support System
 ([https://grass.osgeo.org/](/)), commonly referred to as GRASS GIS, is
 an Open Source Geographic Information System providing powerful raster,
 vector and [geospatial processing capabilities](https://grass.osgeo.org/learn/overview/).
-It can be used either as a stand-alone application or as backend for other
-software packages such as QGIS and R geostatistics or in the cloud. It is
+It can be used either as a stand-alone application, as backend for other
+software packages such as QGIS and R, or in the cloud. It is
 distributed freely under the terms of the GNU General Public License (GPL).
 GRASS GIS is a founding member of the Open Source Geospatial Foundation (OSGeo).
 
