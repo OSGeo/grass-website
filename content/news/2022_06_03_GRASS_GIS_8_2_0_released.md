@@ -1,6 +1,6 @@
 ---
 title: "GRASS GIS 8.2.0 released"
-date: 2022-06-03T13:56:26-04:00
+date: 2022-06-07T11:25:51-04:00
 layout: "news"
 author: Vaclav Petras
 ---
