@@ -36,11 +36,9 @@ for the GSoC students and their mentors.
 
 #### Binaries/Installers download
 
-- winGRASS 8.2.0/standalone:
-  [64bit standalone installer](/grass82/binary/mswindows/native/WinGRASS-8.2.0-1-Setup.exe)
-- winGRASS 8.2.0/OSGeo4W:
-  [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
-- Mac
+- Windows
+  - [64bit standalone installer](/grass82/binary/mswindows/native/WinGRASS-8.2.0-1-Setup.exe)
+- macOS
     - [Official Application Bundle](http://grassmac.wikidot.com/downloads)
 - Linux
     - [Debian](https://tracker.debian.org/pkg/grass)
