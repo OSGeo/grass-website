@@ -39,18 +39,18 @@ for the GSoC students and their mentors.
 - Windows
   - [64bit standalone installer](/grass82/binary/mswindows/native/WinGRASS-8.2.0-1-Setup.exe)
 - macOS
-    - [Official Application Bundle](http://grassmac.wikidot.com/downloads)
+  - [Official Application Bundle](http://grassmac.wikidot.com/downloads)
 - Linux
-    - [Debian](https://tracker.debian.org/pkg/grass)
-    - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
-    - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
-    - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html)
+  - [Debian](https://tracker.debian.org/pkg/grass)
+  - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
+  - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
+  - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html)
 
 #### Source code download
 
--   [https://grass.osgeo.org/grass82/source/](/grass82/source/)
--   [https://grass.osgeo.org/grass82/source/grass-8.2.0.tar.gz](/grass82/source/grass-8.2.0.tar.gz)
--   To get the GRASS GIS 8.2.0 source code directly from GitHub, see [here](https://github.com/OSGeo/grass/releases/tag/8.2.0).
+- [https://grass.osgeo.org/grass82/source/](/grass82/source/)
+- [https://grass.osgeo.org/grass82/source/grass-8.2.0.tar.gz](/grass82/source/grass-8.2.0.tar.gz)
+- To get the GRASS GIS 8.2.0 source code directly from GitHub, see [here](https://github.com/OSGeo/grass/releases/tag/8.2.0).
 
 First time users may explore the [**first steps tutorial**](/learn/) after
 installation.
@@ -66,4 +66,4 @@ software packages such as QGIS and R geostatistics or in the cloud. It is
 distributed freely under the terms of the GNU General Public License (GPL).
 GRASS GIS is a founding member of the Open Source Geospatial Foundation (OSGeo).
 
-*Vaclav Petras and the GRASS Development Team, June 2022*
+_Vaclav Petras and the GRASS Development Team, June 2022_
