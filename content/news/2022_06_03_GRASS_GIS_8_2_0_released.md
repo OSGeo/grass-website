@@ -44,12 +44,14 @@ for the GSoC students and their mentors.
   - [Debian](https://tracker.debian.org/pkg/grass)
   - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
   - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
-  - ... further binary packages for other Linux distributions will follow shortly, please check at [software downloads](/download/software/index.html)
+
+Further binary packages for other platforms and distributions will follow shortly,
+please check at [software downloads](/download/software/index.html).
 
 #### Source code download
 
-- [https://grass.osgeo.org/grass82/source/](/grass82/source/)
-- [https://grass.osgeo.org/grass82/source/grass-8.2.0.tar.gz](/grass82/source/grass-8.2.0.tar.gz)
+- <https://grass.osgeo.org/grass82/source/>
+- <https://grass.osgeo.org/grass82/source/grass-8.2.0.tar.gz>
 - [From GitHub](https://github.com/OSGeo/grass/releases/tag/8.2.0)
 
 First time users may explore the [**first steps tutorial**](/learn/) after
