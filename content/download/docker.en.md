@@ -1,6 +1,6 @@
 ---
 title: "Docker"
-date: 2022-04-25T10:12:05+02:00
+date: 2022-06-13T10:12:05+02:00
 description: "Download GRASS GIS Docker images"
 weight: 4
 layout: "os"
@@ -30,7 +30,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 *  [<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=debian) (<small>1.2 GB, with Python 3 and PDAL</small>)
     <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:8.2.0-debian</code></pre>
 
-*  [<i class="fa fa-download"></i> Ubuntu 18.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu) (<small>1.3 GB, with Python 3 and PDAL</small>)
+*  [<i class="fa fa-download"></i> Ubuntu 20.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu) (<small>1.3 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:8.2.0-ubuntu</code></pre>
 
 
@@ -48,7 +48,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 *  [<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=debian) (<small>1.2 GB, with Python 3 and PDAL</small>)
     <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:7.8.7-debian</code></pre>
 
-*  [<i class="fa fa-download"></i> Ubuntu 18.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu) (<small>1.3 GB, with Python 3 and PDAL</small>)
+*  [<i class="fa fa-download"></i> Ubuntu 20.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu) (<small>1.3 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:7.8.7-ubuntu</code></pre>
 
 <hr>
@@ -66,5 +66,5 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 *  [<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=debian) (<small>1.2 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:latest-debian</code></pre>
 
-*  [<i class="fa fa-download"></i> Ubuntu 18.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu) (<small>1.3 GB, with Python 3 and PDAL</small>)
+*  [<i class="fa fa-download"></i> Ubuntu 20.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu) (<small>1.3 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:latest-ubuntu</code></pre>
