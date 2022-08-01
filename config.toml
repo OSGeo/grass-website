@@ -24,7 +24,10 @@ greyColorDark = "#A0A0A0"
   priority = 0.5
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   
 [Languages]
 
