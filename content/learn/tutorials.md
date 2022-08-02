@@ -8,15 +8,15 @@ layout: "overview"
 
 <div class="row">
 <div class="col-lg-4 ">
-<iframe src="https://www.youtube.com/embed/JZzJG0EvyAc?list=PLqa06jy1NEM1sA8M7OpzZB5RAoD8iYshJ" width="99%" height="256px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/wk3X_Vzp8zg" width="99%" height="256px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="col-lg-4 ">
-<iframe src="https://www.youtube.com/embed/_CgC4i94fBI?list=PLqa06jy1NEM1sA8M7OpzZB5RAoD8iYshJ" width="99%" height="256px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/btk-S5jUAfk" width="99%" height="256px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="col-lg-4 ">
-<iframe src="https://www.youtube.com/embed/DNtctW6tAn4?list=PLqa06jy1NEM1sA8M7OpzZB5RAoD8iYshJ" width="99%" height="256px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/OCcM1XfxHW8" width="99%" height="256px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </div>
