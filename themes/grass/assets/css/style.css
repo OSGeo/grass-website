@@ -171,10 +171,6 @@ a.nws:hover {
   z-index: 1;
   transition: .2s ease;
 }
-.btn:focus {
-  outline: 0;
-  box-shadow: none !important;
-}
 .btn:active {
   box-shadow: none;
 }
@@ -182,14 +178,11 @@ a.nws:hover {
   background: var(--grass-color-alt);
   color: var(--white-color);
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: var(--grass-color);
   color: var(--white-color) !important;
 }
 .btn-primary:active {
-  background: var(--grass-color);
-}
-.btn-primary:hover {
   background: var(--grass-color);
 }
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -204,7 +197,7 @@ a.nws:hover {
 .btn-secondary:active {
   background: var(--grey-color-dark);
 }
-.btn-secondary:hover {
+.btn-secondary:hover, .btn-secondary:focus {
   background: var(--grey-color-dark);
   color: var(--white-color) !important;
 }
@@ -267,12 +260,6 @@ a:hover {
 a, button, select {
   cursor: pointer;
   transition: .2s ease;
-}
-a:focus, button:focus, select:focus {
-  outline: 0;
-}
-.slick-slide {
-  outline: 0;
 }
 .section {
   padding-top: 30px;
@@ -414,9 +401,6 @@ pre {
 }
 
 
-.outline-0 {
-  outline: 0 !important;
-}
 .d-unset {
   display: unset !important;
 }
