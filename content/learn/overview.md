@@ -151,7 +151,7 @@ Read <a href="/download/addons/">here</a> to learn how to install them.</p>
 
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/grass-stable/manuals/addons/number_seasons_ndvi.png" width="75%" alt="Output of r.seasons' addon">
+<img class="bsh" src="https://grass.osgeo.org/grass-stable/manuals/addons/number_seasons_ndvi.png" width="75%" alt="Output of r.seasons' addon">
 </div>
 
 </div>
