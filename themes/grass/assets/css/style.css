@@ -159,6 +159,11 @@ a.nws:hover {
     font-size: 125%;
     text-align:top;
 }
+
+a:focus , button:focus{
+  outline: 2px solid var(--grass-color) !important;
+}
+
 .btn {
   font-size: 14px;
   font-family: open_sansregular;
@@ -400,7 +405,6 @@ pre {
   background: #eff4e8;
 }
 
-
 .d-unset {
   display: unset !important;
 }
@@ -636,9 +640,7 @@ pre {
 .navbar-brand:hover {
   color: var(--grey-color-dark) !important;
 }
-.navbar-brand i {
 
-}
 
 .fdiv:hover {
   background: var(--grass-color-light) !important;
@@ -939,7 +941,7 @@ li.parent a {
 
   .separator {
     border-top: 1px solid #F6F6F6;
-f    padding: 5px;
+    padding: 5px;
     padding-left: 40px;
     font-style: italic;
     font-size: 0.9em;
@@ -1158,9 +1160,7 @@ f    padding: 5px;
 .timeline .panel-outline .panel-body {
   padding: 10px 10px;
 }
-.timeline .panel-body {
-  /* display: none; */
-}
+
 .timeline .panel-default {
   border: 0;
 }
