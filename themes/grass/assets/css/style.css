@@ -160,8 +160,11 @@ a.nws:hover {
     text-align:top;
 }
 
-a:focus , button:focus{
-  outline: 2px solid var(--grass-color) !important;
+:focus:not(:focus-visible) {
+  outline: none;
+}
+:focus-visible {
+    outline: 2px solid var(--grass-color) !important;
 }
 
 .btn {
@@ -647,7 +650,6 @@ pre {
 }
 .fdiv:hover h3 {
   color: var(--grass-color-dark);
-  !important;
 }
 .gdiv:hover {
   background: #ffffff !important;
