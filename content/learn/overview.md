@@ -122,7 +122,7 @@ GRASS GIS can be used through various interfaces:
 <li><a href="https://grasswiki.osgeo.org/wiki/GRASS_GIS_Jupyter_notebooks" target="_blank">Jupyter Notebooks</a>.</li>
 <li><strong>Web interface</strong> through <a href="https://grasswiki.osgeo.org/wiki/WPS" target="_blank">WPS servers</a>.</li>
 <li><a href="https://docs.qgis.org/3.10/en/docs/user_manual/grass_integration/grass_integration.html" target="_blank">QGIS</a> provides two different ways to run GRASS GIS modules: Processing toolbox and the GRASS GIS plugin.</li>
-<li>R provides an <a href="https://grasswiki.osgeo.org/wiki/R_statistics" target="_blank">interface to GRASS GIS</a> through the package <strong><i>rgrass7</i></strong>.</li>
+<li>R provides an <a href="https://grasswiki.osgeo.org/wiki/R_statistics" target="_blank">interface to GRASS GIS</a> through the package <strong><i>rgrass</i></strong>.</li>
 <li>It is also possible to <a href="/learn/tryonline" target="_blank">try GRASS online</a>!</li>
 </ul>
 </div>
