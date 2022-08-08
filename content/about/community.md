@@ -1,6 +1,6 @@
 ---
 title: "Community"
-date: 2020-07-28T11:02:05+06:00
+date: 2022-08-08T11:02:05+06:00
 layout: "community"
 ---
 
@@ -44,7 +44,17 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 | *Git Commit*  | [grass-commits](https://lists.osgeo.org/mailman/listinfo/grass-commit) | GRASS GIS git commit mailing list |
 | *Website*  | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS GIS website mailing list |
 | *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS GIS project announcements |
-| *GitHub Discussions*  | [discussion](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
+
+### Q&A websites
+
+<div class="alert rounded-0 alert-default">
+Discussions in question and answer (Q&A) style may be held on these sites; you need to first register to participate.
+</div>
+
+| <div style="width:70px">MEDIA</div> | LINK |  |
+|------|---------|-------------|
+| <i class="fa fa-github"></i> |  [GitHub discussion](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
+| <i class="fa fa-stack-exchange"></i> |  [https://gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS GIS on Stackexchange |
 
 ### Social media
 
