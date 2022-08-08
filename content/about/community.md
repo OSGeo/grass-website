@@ -48,7 +48,7 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 ### Q&A websites
 
 <div class="alert rounded-0 alert-default">
-Discussions in Q&A style may be held on these sites; you need to first register to participate.
+Discussions in question and answer (Q&A) style may be held on these sites; you need to first register to participate.
 </div>
 
 | <div style="width:70px">MEDIA</div> | LINK |  |
