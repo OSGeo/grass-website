@@ -47,6 +47,10 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 
 ### Question-and-answer (Q&A) websites
 
+<div class="alert rounded-0 alert-default">
+Discussions in Q&A style may be held on these sites; you need to first register to participate.
+</div>
+
 | <div style="width:70px">MEDIA</div> | LINK |  |
 |------|---------|-------------|
 | <i class="fa fa-github"></i> |  [GitHub discussion](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
