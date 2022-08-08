@@ -45,7 +45,7 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 | *Website*  | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS GIS website mailing list |
 | *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS GIS project announcements |
 
-### Question-and-answer (Q&A) websites
+### Q&A websites
 
 <div class="alert rounded-0 alert-default">
 Discussions in Q&A style may be held on these sites; you need to first register to participate.
