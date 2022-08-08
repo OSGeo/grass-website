@@ -159,6 +159,14 @@ a.nws:hover {
     font-size: 125%;
     text-align:top;
 }
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+:focus-visible {
+    outline: 2px solid var(--grass-color) !important;
+}
+
 .btn {
   font-size: 14px;
   font-family: open_sansregular;
@@ -171,10 +179,6 @@ a.nws:hover {
   z-index: 1;
   transition: .2s ease;
 }
-.btn:focus {
-  outline: 0;
-  box-shadow: none !important;
-}
 .btn:active {
   box-shadow: none;
 }
@@ -182,14 +186,11 @@ a.nws:hover {
   background: var(--grass-color-alt);
   color: var(--white-color);
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: var(--grass-color);
   color: var(--white-color) !important;
 }
 .btn-primary:active {
-  background: var(--grass-color);
-}
-.btn-primary:hover {
   background: var(--grass-color);
 }
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -204,7 +205,7 @@ a.nws:hover {
 .btn-secondary:active {
   background: var(--grey-color-dark);
 }
-.btn-secondary:hover {
+.btn-secondary:hover, .btn-secondary:focus {
   background: var(--grey-color-dark);
   color: var(--white-color) !important;
 }
@@ -267,12 +268,6 @@ a:hover {
 a, button, select {
   cursor: pointer;
   transition: .2s ease;
-}
-a:focus, button:focus, select:focus {
-  outline: 0;
-}
-.slick-slide {
-  outline: 0;
 }
 .section {
   padding-top: 30px;
@@ -413,10 +408,6 @@ pre {
   background: #eff4e8;
 }
 
-
-.outline-0 {
-  outline: 0 !important;
-}
 .d-unset {
   display: unset !important;
 }
@@ -652,16 +643,13 @@ pre {
 .navbar-brand:hover {
   color: var(--grey-color-dark) !important;
 }
-.navbar-brand i {
 
-}
 
 .fdiv:hover {
   background: var(--grass-color-light) !important;
 }
 .fdiv:hover h3 {
   color: var(--grass-color-dark);
-  !important;
 }
 .gdiv:hover {
   background: #ffffff !important;
@@ -955,7 +943,7 @@ li.parent a {
 
   .separator {
     border-top: 1px solid #F6F6F6;
-f    padding: 5px;
+    padding: 5px;
     padding-left: 40px;
     font-style: italic;
     font-size: 0.9em;
@@ -1174,9 +1162,7 @@ f    padding: 5px;
 .timeline .panel-outline .panel-body {
   padding: 10px 10px;
 }
-.timeline .panel-body {
-  /* display: none; */
-}
+
 .timeline .panel-default {
   border: 0;
 }
