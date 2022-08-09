@@ -25,13 +25,13 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_8_2</b></div>
 
 *   {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=alpine){{< /donateDialog  >}} (<small>190 MB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:8.2.0-alpine</code></pre>
+    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}-alpine</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=debian){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:8.2.0-debian</code></pre>
+    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< currentVersion.inline  />}}-debian</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 20.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu){{< /donateDialog  >}}  (<small>1.3 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:8.2.0-ubuntu</code></pre>
+   <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< currentVersion.inline  />}}-ubuntu</code></pre>
 
 
 <hr>
@@ -40,16 +40,16 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 ### <a name="GRASS-GIS-old"></a> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a>)</div>
+<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS GIS {{< grassVersion version="legacy" type="short">}} new features</a>)</div>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=alpine){{< /donateDialog  >}}  (<small>190 MB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:7.8.7-alpine</code></pre>
+    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}-alpine</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=debian){{< /donateDialog  >}}  (<small>1.2 GB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:7.8.7-debian</code></pre>
+    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  />}}-debian</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 20.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu){{< /donateDialog  >}}  (<small>1.3 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:7.8.7-ubuntu</code></pre>
+   <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  />}}-ubuntu</code></pre>
 
 <hr>
 

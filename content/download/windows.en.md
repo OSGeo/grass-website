@@ -24,11 +24,11 @@ Standalone installer: install GRASS GIS with the required support packages.
 #### <a name="GRASS-GIS-current"></a> GRASS GIS {{< grassVersion version="current" >}} (current)
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>New stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.</div>
+<i class="fa fa-info-circle"></i> <u>New stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}">release announcement</a> for more information.</div>
 
  
 *  {{< donateDialog isToggle=true >}}  
-<a href="/grass82/binary/mswindows/native/WinGRASS-8.2.0-1-Setup.exe" target="blank">
+<a href="/grass82/binary/mswindows/native/WinGRASS-{< currentVersion.inline  />}}-1-Setup.exe" target="blank">
 <i class="fa fa-download"></i> Download 64bit 
 </a>
 {{< /donateDialog  >}} 
@@ -40,11 +40,11 @@ Standalone installer: install GRASS GIS with the required support packages.
 #### <a name="GRASS-GIS-old"></a> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/7.8.7">GRASS GIS 7.8.7 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS GIS {{< grassVersion version="legacy" type="short">}} new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">GRASS GIS {{< grassVersion version="legacy" >}}  announcement</a> for more information.
 </div>
 
 *  {{< donateDialog isToggle=true >}}  
-<a href="/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.7-1-Setup-x86_64.exe" target="blank">
+<a href="/grass78/binary/mswindows/native/x86_64/WinGRASS-{{< legacyVersion.inline  />}}-1-Setup-x86_64.exe" target="blank">
 <i class="fa fa-download"></i> Download 64bit
 </a>
 {{< /donateDialog  >}} 
@@ -62,7 +62,7 @@ Standalone installer: install GRASS GIS with the required support packages.
 </div>
 
 *  {{< donateDialog isToggle=true >}}  
-<a href="https://wingrass.fsv.cvut.cz/grass83/" target="blank">
+<a href="https://wingrass.fsv.cvut.cz/grass{{< previewVersionNoDots.inline  >}}{{- .Site.Data.grass.preview_version_nodots -}}{{</previewVersionNoDots.inline >}}/" target="blank">
 <i class="fa fa-download"></i> Download 64bit
 </a>
 {{< /donateDialog  >}}
