@@ -8,11 +8,11 @@ layout: "manuals"
 
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="/grass80/manuals/index.html " target="_blank"> GRASS GIS 8.0 (current) </a></span>
-  <a href="/grass80/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass80/manuals/grass-8.0_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
+  <span class="mwl"><a href="/grass82/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="current" type="short">}}  (current) </a></span>
+  <a href="/grass82/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass82/manuals/grass-8.2_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS 7.8 (legacy) </a></span>
+  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="legacy" type="short">}}  (legacy) </a></span>
   <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass78/manuals/grass-7.8_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
  <!--

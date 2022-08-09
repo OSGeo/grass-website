@@ -9,7 +9,7 @@ layout: "os"
   
 #### Quick links
 
-[ [**GRASS GIS 8.2 (current)**](#GRASS-GIS-current) | [**GRASS 7.8 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.3 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
 
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> GRASS GIS <b>Docker images</b> provided and maintained by <a href="https://www.mundialis.de/en/" target="_blank">mundialis</a>.
@@ -19,7 +19,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 
 <hr>
 
-###  <span id="GRASS-GIS-current"> GRASS GIS 8.2.0 (current)  </span>
+### <a name="GRASS-GIS-current"></a> GRASS GIS {{< grassVersion version="current" >}} (current)
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_8_2</b></div>
@@ -37,7 +37,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 <hr>
 
 
-### <span id="GRASS-GIS-old">  GRASS GIS 7.8.7 (legacy)  </span>
+### <a name="GRASS-GIS-old"></a> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)
 
 <div class="alert rounded-0 alert-warning">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a>)</div>
@@ -54,7 +54,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 <hr>
 
 
-###  <span id="GRASS-GIS-devel">  GRASS GIS 8.3.0 (preview) </span>
+### <a name="GRASS-GIS-devel"></a> GRASS GIS {{< grassVersion version="preview" >}} (preview)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS main branch</b>

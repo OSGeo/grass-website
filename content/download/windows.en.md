@@ -21,7 +21,7 @@ layout: "os"
 
 Standalone installer: install GRASS GIS with the required support packages.
 
-#### <span id="GRASS-GIS-current"> GRASS GIS 8.2.0 (current) </span>
+#### <a name="GRASS-GIS-current"></a> GRASS GIS {{< grassVersion version="current" >}} (current)
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>New stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.</div>
@@ -37,7 +37,7 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 <hr>
 
-#### <span id="GRASS-GIS-old"> GRASS GIS 7.8.7 (legacy)  </span>
+#### <a name="GRASS-GIS-old"></a> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)
 
 <div class="alert rounded-0 alert-warning">
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/7.8.7">GRASS GIS 7.8.7 announcement</a> for more information.
@@ -55,7 +55,7 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 <hr>
 
-#### <span id="GRASS-GIS-devel"> GRASS GIS 8.3.0 (preview)  </span>
+#### <a name="GRASS-GIS-devel"></a> GRASS GIS {{< grassVersion version="preview" >}} (preview)
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
