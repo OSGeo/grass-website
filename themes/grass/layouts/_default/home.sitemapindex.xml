@@ -1,0 +1,15 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" | safeHTML }}
+  <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+      <loc>https://grass.osgeo.org/sitemap_hugo.xml</loc>
+   </sitemap>
+   <sitemap>
+      <loc>https://grass.osgeo.org/grass{{- .Site.Data.grass.current_version_nodots -}}/manuals/sitemap_manuals.xml</loc>
+   </sitemap>
+   <sitemap>
+      <loc>https://grass.osgeo.org/grass{{- .Site.Data.grass.current_version_nodots -}}/manuals/addons/sitemap_manuals.xml</loc>
+   </sitemap>
+   <sitemap>
+      <loc>https://grass.osgeo.org/grass{{- .Site.Data.grass.preview_version_nodots -}}/manuals/sitemap_manuals.xml</loc>
+   </sitemap>
+</sitemapindex>

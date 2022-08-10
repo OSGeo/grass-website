@@ -29,6 +29,19 @@ greyColorDark = "#A0A0A0"
   defaultMarkdownHandler = "blackfriday"
 
 
+
+[outputFormats]
+  [outputFormats.sitemapIndex]
+    baseName = "sitemapIndex"
+    isPlainText = false
+    mediaType = "application/xml"
+    protocol = "xml://"
+    path = "/"
+
+[outputs]
+  home = ["HTML", "sitemapIndex", "RSS"]
+
+
 [Languages]
 
   # English Language
