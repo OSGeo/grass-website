@@ -8,12 +8,14 @@ layout: "manuals"
 
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="/grass82/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="current" type="short">}}  (current) </a></span>
-  <a href="/grass82/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass82/manuals/grass-8.2_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
+  <span class="mwl"><a href="/grass{{< currentVersionNodots.inline  >}}{{- .Site.Data.grass.current_version_nodots -}}{{</currentVersionNodots.inline >}}
+/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="current" type="short">}}  (current) </a></span>
+  <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/grass-{{< currentVersionShort.inline  >}}{{- .Site.Data.grass.current_version_short -}}{{</currentVersionShort.inline >}}_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="legacy" type="short">}}  (legacy) </a></span>
-  <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass78/manuals/grass-7.8_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
+  <span class="mwl"><a href="/grass{{< legacyVersionNodots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNodots.inline >}}/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="legacy" type="short">}}  (legacy) </a></span>
+  <a href="/grass{{< legacyVersionNodots.inline  />}}/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
+   <a href="/grass{{< legacyVersionNodots.inline  />}}/manuals/grass-{{< legacyVersionShort.inline  >}}{{- .Site.Data.grass.legacy_version_short -}}{{</legacyVersionShort.inline >}}_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
  <!--
   <li>
