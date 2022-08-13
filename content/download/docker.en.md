@@ -19,7 +19,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 
 <hr>
 
-### <a name="GRASS-GIS-current"></a> GRASS GIS 8.2.0 (current)
+###  <span id="GRASS-GIS-current"> GRASS GIS 8.2.0 (current)  </span>
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_8_2</b></div>
@@ -37,7 +37,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 <hr>
 
 
-### <a name="GRASS-GIS-old"></a> GRASS GIS 7.8.7 (legacy)
+### <span id="GRASS-GIS-old">  GRASS GIS 7.8.7 (legacy)  </span>
 
 <div class="alert rounded-0 alert-warning">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a>)</div>
@@ -54,7 +54,7 @@ For a version matrix (GRASS GIS, PROJ, GDAL, PDAL), see [here](https://github.co
 <hr>
 
 
-### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.3.0 (preview)
+###  <span id="GRASS-GIS-devel">  GRASS GIS 8.3.0 (preview) </span>
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS main branch</b>

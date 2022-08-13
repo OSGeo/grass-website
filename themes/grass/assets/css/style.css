@@ -186,7 +186,7 @@ a.nws:hover {
   background: var(--grass-color-alt);
   color: var(--white-color);
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover, .btn-primary:focus,  .btn-primary-active {
   background: var(--grass-color);
   color: var(--white-color) !important;
 }
