@@ -1,6 +1,6 @@
 ---
 title: "Linux"
-date: 2020-12-21T11:02:05+02:00
+date: 2022-08-15T11:02:05+02:00
 description: "Download GRASS GIS packages for your favorite Linux distribution"
 weight: 1
 layout: "os"
@@ -33,7 +33,7 @@ list of GRASS GIS packages.
 *  [Generic 64bit](/grass80/binary/linux/snapshot) (weekly binary snapshot)
 *  [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
 *  [EPEL8](https://src.fedoraproject.org/rpms/grass) (RHEL8/Centos8)
-*  [Fedora](https://src.fedoraproject.org/rpms/grass)
+*  [Fedora](https://src.fedoraproject.org/rpms/grass) and [Fedora-COPR](https://copr.fedorainfracloud.org/coprs/neteler/grass82/)
 *  [openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)
 *  [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) (ubuntugis-unstable)
 
