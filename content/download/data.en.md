@@ -1,6 +1,6 @@
 ---
 title: "Data"
-date: 2020-11-13T11:02:05+06:00
+date: 2022-08-23T11:02:05+06:00
 description: "Download sample data ready for GRASS GIS"
 weight: 
 categories: [nl]
@@ -32,7 +32,7 @@ layout: "data"
 
 ### <a name="NorthCarolinaDataset"></a> North Carolina dataset
 
-This dataset is a modern package of geospatial data from the state of North Carolina (NC), USA. It offers raster, vector, LiDAR and satellite data.
+This dataset is a modern package of geospatial data from the state of North Carolina (NC), USA. It offers raster, vector, LiDAR and satellite data (EPSG: 3358).
 Most of the examples in the [manuals](/learn/manuals) of different modules are written with this dataset. 
 The description, list of maps, and a quick usage tutorial are available <a href="https://www.grassbook.org/wp-content/uploads/grasslocations/nc_spm_08_contents.html">here</a>.
 
