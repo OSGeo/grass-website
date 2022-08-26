@@ -30,12 +30,14 @@ list of GRASS GIS packages.
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>Current stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.</div>
 
-*  {{< donateDialog isToggle=true  >}}<a href="/grass80/binary/linux/snapshot" target="blank">Generic 64bit</a> {{< /donateDialog  >}}(weekly binary snapshot)
-*   {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass){{< /donateDialog  >}}
-*   {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} (RHEL8/Centos8)
-*   {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} and {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora-COPR](https://copr.fedorainfracloud.org/coprs/neteler/grass82/){{< /donateDialog  >}}
-*   {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass){{< /donateDialog  >}}
-*   {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable){{< /donateDialog  >}} (ubuntugis-unstable)
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Arch Linux](https://aur.archlinux.org/packages/grass/){{< /donateDialog  >}}
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Debian](https://packages.debian.org/grass){{< /donateDialog  >}}
+* {{< donateDialog isToggle=true >}}<a href="/grass82/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}} (weekly binary snapshot)
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass){{< /donateDialog  >}}
+* {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} (RHEL8/Centos8)
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} and {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora-COPR](https://copr.fedorainfracloud.org/coprs/neteler/grass82/){{< /donateDialog  >}}
+* {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass){{< /donateDialog  >}}
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable){{< /donateDialog  >}} (ubuntugis-unstable)
 
 <hr>
 
@@ -46,11 +48,11 @@ list of GRASS GIS packages.
 </div>
 
 * {{< donateDialog isToggle=true  >}} <a href="/grass78/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}}  (weekly binary snapshot)
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass) {{< /donateDialog  >}} 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}}  (RHEL8/Centos8)
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}} 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)  {{< /donateDialog  >}} 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}  [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) {{< /donateDialog  >}}  (ubuntugis-unstable)
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass) {{< /donateDialog  >}} 
+* {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}}  (RHEL8/Centos8)
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}} 
+* {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)  {{< /donateDialog  >}} 
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) {{< /donateDialog  >}}  (ubuntugis-unstable)
 
 <hr>
 
