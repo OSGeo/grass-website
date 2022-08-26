@@ -1,0 +1,49 @@
+
+<!-- Button trigger modal -->
+
+{{if .Get "isToggle" }}
+ <button  data-toggle="modal" data-target="#exampleModalCenter" style="background:none;border:none;padding:0;margin:0;">
+    {{if .Get "isMarkdown" }}
+        {{.Inner | markdownify}}
+    {{else}}
+        {{.Inner}}
+    {{end}}
+ </button>
+ 
+{{else}}
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalPopoversLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalPopoversLabel">Thanks for choosing GRASS GIS!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <p>
+            While downloading your <em>free</em> and <em>open source</em> copy of <strong>GRASS GIS</strong>, if you or your 
+            institution enjoy the software 
+            please consider making a  
+            <a href="https://opencollective.com/osgeo/projects/grass#section-contribute">
+              <strong>
+                donation to support the project</strong></a>.
+             May the FOSS be with you!
+          </p>
+          <p>
+            <i>GRASS GIS Team</i>
+          </p> 
+          <img class="bsh" src="/images/donate_dialog/grass_sprint2018_bonn_fotowall_medium.jpg" >
+
+     
+
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a   class="btn btn-primary-active" href="https://opencollective.com/osgeo/projects/grass#section-contribute">Donate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{{end}}

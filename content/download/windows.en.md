@@ -17,26 +17,37 @@ layout: "os"
 <hr>
 
 
-### <a name="standalone-installers"></a> Standalone installers
+### <span id="standalone-installers"> Standalone installers </span>
 
 Standalone installer: install GRASS GIS with the required support packages.
 
-#### <a name="GRASS-GIS-current"></a> GRASS GIS 8.2.0 (current)
+#### <span id="GRASS-GIS-current"> GRASS GIS 8.2.0 (current) </span>
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>New stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.</div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](/grass82/binary/mswindows/native/WinGRASS-8.2.0-1-Setup.exe)
+ 
+*  {{< donateDialog isToggle=true >}}  
+<a href="/grass82/binary/mswindows/native/WinGRASS-8.2.0-1-Setup.exe" target="blank">
+<i class="fa fa-download"></i> Download 64bit 
+</a>
+{{< /donateDialog  >}} 
+ 
+
 
 <hr>
 
-#### <a name="GRASS-GIS-old"></a> GRASS GIS 7.8.7 (legacy)
+#### <span id="GRASS-GIS-old"> GRASS GIS 7.8.7 (legacy)  </span>
 
 <div class="alert rounded-0 alert-warning">
 <i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/7.8.7">GRASS GIS 7.8.7 announcement</a> for more information.
 </div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.7-1-Setup-x86_64.exe)
+*  {{< donateDialog isToggle=true >}}  
+<a href="/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.7-1-Setup-x86_64.exe" target="blank">
+<i class="fa fa-download"></i> Download 64bit
+</a>
+{{< /donateDialog  >}} 
 
 <!--
 *  [<i class="fa fa-download"></i> Download 32bit](/grass78/binary/mswindows/native/x86/WinGRASS-7.8.6-3-Setup-x86_64.exe)
@@ -44,22 +55,31 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 <hr>
 
-#### <a name="GRASS-GIS-devel"></a> GRASS GIS 8.3.0 (preview)
+#### <span id="GRASS-GIS-devel"> GRASS GIS 8.3.0 (preview)  </span>
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass83/)
+*  {{< donateDialog isToggle=true >}}  
+<a href="https://wingrass.fsv.cvut.cz/grass83/" target="blank">
+<i class="fa fa-download"></i> Download 64bit
+</a>
+{{< /donateDialog  >}}
 
 <hr>
 
 
-### <a name="OSGeo4W"></a> OSGeo4W
+### <span id="OSGeo4W"> OSGeo4W  </span>
 
 OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more).
 
-*  [<i class="fa fa-download"></i> Download OSGeo4W v2](https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
+*   {{< donateDialog isToggle=true >}}  
+<a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="blank">
+<i class="fa fa-download"></i> Download OSGeo4W v2
+</a>
+{{< /donateDialog  >}}
+
 
 **NOTE FOR EXISTING USERS**: OSGeo4W v2 is now the regular repository. OSGeo4W v2 does not include a 32-bit version. If you need 32-bit support, use the version 1 download (See below). 
 
@@ -67,8 +87,17 @@ OSGeo4W is an installer for a broad set of open source geospatial software packa
 
 Legacy download (OSGeo4W v1)
 
-*  [<i class="fa fa-download"></i> Download OSGeo4W 64bit version 1](https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64-v1.exe)
-*  [<i class="fa fa-download"></i> Download OSGeo4W 32bit version 1](https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86-v1.exe)
+*  {{< donateDialog isToggle=true >}}  
+<a href="https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64-v1.exe" target="blank">
+<i class="fa fa-download"></i> Download OSGeo4W 64bit version 1
+</a>
+{{< /donateDialog  >}}
+*  {{< donateDialog isToggle=true >}}  
+<a href="https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86-v1.exe" target="blank">
+<i class="fa fa-download"></i> Download OSGeo4W 32bit version 1
+</a>
+{{< /donateDialog  >}}
+
 
 The following install modes are offered (see also the dedicated [wiki page](https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer) for further details):
 
@@ -88,3 +117,7 @@ osgeo4w-setup.exe -q -k -P grass -s https://download.osgeo.org/osgeo4w/v2/x86_64
 
 ##### QGIS users:
 In order to have GRASS GIS support (also in QGIS-Processing) you need to install the "qgis*-grass-plugin" packages.
+
+
+ {{< donateDialog >}}  
+ {{< /donateDialog >}}  
