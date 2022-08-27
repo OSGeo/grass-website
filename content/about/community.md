@@ -45,7 +45,7 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 | *Website*  | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS GIS website mailing list |
 | *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS GIS project announcements |
 
-### Q&A websites
+### Q&A websites and chat
 
 <div class="alert rounded-0 alert-default">
 Discussions in question and answer (Q&A) style may be held on these sites; you need to first register to participate.
@@ -55,6 +55,7 @@ Discussions in question and answer (Q&A) style may be held on these sites; you n
 |------|---------|-------------|
 | <i class="fa fa-github"></i> |  [GitHub discussion](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
 | <i class="fa fa-stack-exchange"></i> |  [https://gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS GIS on Stackexchange |
+| <i class="fa fa-comments"></i> |  [GRASS GIS chat room](https://gitter.im/grassgis/community) | GRASS GIS on Gitter |
 
 ### Social media
 
