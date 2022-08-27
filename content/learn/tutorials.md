@@ -29,7 +29,7 @@ layout: "overview"
 
 <img src="https://grasswiki.osgeo.org/w/images/WxGUI_set_region.png" width="50%" style="float:right">
 
-##### Basic tutorials
+##### Introductory tutorials
 
 * [Unleash the power of GRASS GIS with Jupyter](https://github.com/ncsu-geoforall-lab/grass-gis-workshop-foss4g-2022) (2022)
 * [Unleash the power of GRASS GIS](https://grasswiki.osgeo.org/wiki/Unleash_the_power_of_GRASS_GIS_at_US-IALE_2017) (2017)
