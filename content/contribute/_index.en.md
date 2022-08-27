@@ -40,13 +40,16 @@ The great worldwide interest in GRASS suggests value in translating GRASS messag
 The GRASS Development Team is continuously seeking translators.
 
 This is an opportunity to contribute even for non-programmers since messages can be easily translated in a user friendly platform. 
-**No programming skills required! See below how to join.**
+**No programming skills required!**
 
 #### Want to join?
 
-Great! Please subscribe to the dedicated [mailing list](https://lists.osgeo.org/mailman/listinfo/grass-translations)
-and check the [messages translation Wiki page](https://grasswiki.osgeo.org/wiki/GRASS_messages_translation)
-on how we translate on [**Transifex**](https://www.transifex.com/grass-gis/grass7/).
+Great! Just sign in into [**weblate**](https://weblate.osgeo.org/), pick the GRASS GIS project and start
+translating. The interface is really simple to use and all the changes you make will be automatically
+sent as a pull request to the [GRASS GIS repository](https://github.com/OSGeo/grass).
+Please also subscribe to the dedicated [mailing list](https://lists.osgeo.org/mailman/listinfo/grass-translations)
+and check the [translation glossary](https://grasswiki.osgeo.org/wiki/GRASS_Translation_Glossary) for agreed
+terminology in different languages.
 
 ### Create an Addon
 <i class="fa fa-plug fa-9x" style="float:left;padding-right:10px"></i>
@@ -104,11 +107,9 @@ The main site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync
 
 #### Student Grants
 
-**Student Grants is a stipend program for students by the GRASS GIS project.**
+**[Student Grants](https://grasswiki.osgeo.org/wiki/Student_Grants) is a stipend program for students by the GRASS GIS project.**
 
 The GRASS GIS project offers a limited number of student grants for projects related to GRASS GIS. These can include actual coding, bug fixing, or documentation and the creation of educational resources.
-
-For details, see [Student Grants](https://grasswiki.osgeo.org/wiki/Student_Grants).
 
 #### Google Summer of Code (GSoC)
 
@@ -117,13 +118,6 @@ For details, see [Student Grants](https://grasswiki.osgeo.org/wiki/Student_Grant
 Students are encouraged to propose their own ideas. Otherwise, they can choose from the 
 [GRASS GSoC Ideas](https://trac.osgeo.org/grass/wiki/GSoC) list. If selected, Google 
 will pay a monthly stipend for 3 months.
-
-#### Google Code-in (GCI)
-
-**GCI is an online contest introducing high school students to open source development.**
-
-Students can participate with the [OSGeo organization](https://codein.withgoogle.com/organizations/osgeo/) 
-and solve tasks for different projects. Tasks might include documentation, design, coding, etc.
 
 ### Cite GRASS GIS 
 <i class="fa fa-book fa-7x" style="float:left;padding-right:10px"></i>
