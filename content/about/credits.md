@@ -1,6 +1,6 @@
 ---
 title: "Credits"
-date: 2022-04-25T10:12:05+02:00
+date: 2022-08-27T10:12:05+02:00
 layout: "credits"
 ---
 
@@ -10,17 +10,16 @@ layout: "credits"
 
 <div class="alert rounded-0 alert-default">
   <p>GRASS Development Team<br>
-  c/o Markus Neteler (Project Chair)<br>
-  mundialis GmbH & Co. KG<br>
-  Koelnstrasse 99<br>
-  53111 Bonn<br>
-  Germany<br>
+  c/o Veronica Andreo (Project Chair)<br>
+  Gulich Institute<br>
+  Ruta Provincial C45 Km 8<br>
+  5187 Falda del Cañete<br>
+  Córdoba, Argentina<br>
   <a href="mailto:grass-web@lists.osgeo.org" target="_blank">grass-web@lists.osgeo.org</a>
 <br>
   <a href="https://grass.osgeo.org" target="_blank">https://grass.osgeo.org</a>
   </p>
 </div>
-
 
 #### Legal address
 
@@ -44,7 +43,6 @@ This is a community maintained website. The  GRASS Development Team and the GRAS
 #### Privacy policy
 
 Please read our [privacy policy](# "privacy policy").
-
 
 #### License
 
