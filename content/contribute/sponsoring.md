@@ -6,7 +6,7 @@ layout: "general"
 
 ## Sponsoring the GRASS GIS project
 
-<img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_fotowall.jpg" width="55%" alt="Bonn code sprint 2018" style="float:right">
+<img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_fotowall.jpg" width="55%" alt="Bonn code sprint 2018" style="float:right;padding-left:15px">
 
 ### Why sponsor?
 
@@ -18,24 +18,21 @@ There is no cost to participate in the project itself or to use the software.
 But with our own budget we can produce even better software and documentation for you.
 And if you don't have time to contribute, maybe a (small) donation makes you feel better when using GRASS GIS.
 
-Funds offered to GRASS GIS are used to sponsor general GRASS GIS efforts, especially the organization of Community Sprints.
-See here to learn more about our [Community Sprints](https://grasswiki.osgeo.org/wiki/Category:Code_Sprint).
+<div align="center"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass" target="_blank">SUPPORT GRASS GIS</a></b></button></div>
 
-<div align="center"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass" target="_blank">DONATE</a></b></button></div>
-
-### How is the money used?
+### How we use the money
 
 The donations are controlled in full transparency by the GRASS Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC)).
+Funds offered to GRASS GIS are used to sponsor general GRASS GIS efforts, especially:
 
-We use to organize face-to-face coding sessions (such as the GRASS [Community Sprints](https://grasswiki.osgeo.org/wiki/Category:Code_Sprint)),
- *financial support can be used to make developers' participation possible*.
+- the organization of face-to-face coding sessions or [**Community Sprints**](https://grasswiki.osgeo.org/wiki/Category:Code_Sprint), *financial support can be used to make developers' participation possible*
+- offering [**Student Grants**](https://grasswiki.osgeo.org/wiki/Student_Grants) to support students while they contribute with actual coding, bug fixing, documentation or creation of educational resources.
 
-Also bug fixing may be financed - community polls will identify outstanding problems which cannot be fixed on a voluntary basis;
+Also *bug fixing may be financed* - community polls will identify outstanding problems which cannot be fixed on a voluntary basis;
 or specific bug-bounties can be arranged (please [contact us](https://trac.osgeo.org/grass/wiki/PSC#Members) first).
 
+### Our Sponsors and supporters
 
-## Our Sponsors
-
-Many thanks to our sponsors!
+Many thanks to all our supporters and sponsors throughout the years!
 
 Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors) in the GRASS GIS Wiki for details.
