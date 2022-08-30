@@ -76,8 +76,8 @@ layout: "manuals"
   <a href="https://github.com/OSGeo/grass/tree/main/doc/raster/r.example" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl-l"><a href="/grass80/manuals/libpython/index.html " target="_blank"> GRASS GIS Python Library Manual</a></span>
-  <a href="/grass80/manuals/libpython/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl-l"><a href="/grass{{< currentVersionNodots.inline  />}}/manuals/libpython/index.html " target="_blank"> GRASS GIS Python Library Manual</a></span>
+  <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/libpython/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
   <span class="mwl-l"><a href="https://gitlab.com/vpetras/r.example.plus " target="_blank"> GRASS GIS Example Python Module</a></span>
@@ -88,7 +88,7 @@ layout: "manuals"
   <a href="https://github.com/OSGeo/grass/tree/main/doc/gui/wxpython/example" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl-l"><a href="/grass80/manuals/parser_standard_options.html " target="_blank"> GRASS GIS Parser Standard Options</a></span>
-  <a href="/grass80/manuals/parser_standard_options.html" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl-l"><a href="/grass{{< currentVersionNodots.inline  />}}/manuals/parser_standard_options.html " target="_blank"> GRASS GIS Parser Standard Options</a></span>
+  <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/parser_standard_options.html" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
 </ul>
