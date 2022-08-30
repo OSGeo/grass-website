@@ -31,15 +31,15 @@ greyColorDark = "#A0A0A0"
 
 
 [outputFormats]
-  [outputFormats.sitemapIndex]
-    baseName = "sitemapIndex"
+  [outputFormats.sitemap]
+    baseName = "sitemap"
     isPlainText = false
     mediaType = "application/xml"
     protocol = "xml://"
     path = "/"
 
 [outputs]
-  home = ["HTML", "sitemapIndex", "RSS"]
+  home = ["HTML", "sitemap", "RSS"]
 
 
 [Languages]
