@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 8.2 (current)**](#GRASS-GIS-current) | [**GRASS 7.8 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.3 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
 
 <hr>
 
@@ -25,29 +25,29 @@ list of GRASS GIS packages.
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable){{< /donateDialog  >}} (ubuntugis-unstable)
 
-### <span id="GRASS-GIS-current"> GRASS GIS 8.2.0 (current)  </span>
+### <span id="GRASS-GIS-current"> GRASS GIS {{< grassVersion version="current" >}} (current)</span>
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.</div>
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}">release announcement</a> for more information.</div>
 
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Arch Linux](https://aur.archlinux.org/packages/grass/){{< /donateDialog  >}}
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Debian](https://packages.debian.org/grass){{< /donateDialog  >}}
-* {{< donateDialog isToggle=true >}}<a href="/grass82/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}} (weekly binary snapshot)
+* {{< donateDialog isToggle=true >}}<a href="/grass{{< currentVersionNoDots.inline  >}}{{- .Site.Data.grass.current_version_nodots -}}{{</currentVersionNoDots.inline >}}/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}} (weekly binary snapshot)
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass){{< /donateDialog  >}}
 * {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} (RHEL8/Centos8)
-* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} and {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora-COPR](https://copr.fedorainfracloud.org/coprs/neteler/grass82/){{< /donateDialog  >}}
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} and {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora-COPR](https://copr.fedorainfracloud.org/coprs/neteler/grass{{< currentVersionNoDots.inline  />}}/){{< /donateDialog  >}}
 * {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass){{< /donateDialog  >}}
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable){{< /donateDialog  >}} (ubuntugis-unstable)
 
 <hr>
 
-### <span id="GRASS-GIS-old"> GRASS GIS 7.8.7 (legacy) </span>
+### <span id="GRASS-GIS-old"> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)</span>
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/7.8.7">GRASS GIS 7.8.7 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS GIS {{< grassVersion version="legacy" type="short">}} new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">GRASS GIS {{< grassVersion version="legacy" >}} announcement</a> for more information.
 </div>
 
-* {{< donateDialog isToggle=true  >}} <a href="/grass78/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}}  (weekly binary snapshot)
+* {{< donateDialog isToggle=true  >}} <a href="/grass{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}}  (weekly binary snapshot)
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass) {{< /donateDialog  >}} 
 * {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}}  (RHEL8/Centos8)
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}} 
@@ -56,14 +56,14 @@ list of GRASS GIS packages.
 
 <hr>
 
-### <span id="GRASS-GIS-devel">  GRASS GIS 8.3.0 (preview) </span>
+### <span id="GRASS-GIS-devel"> GRASS GIS {{< grassVersion version="preview" >}} (preview)</span>
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u>, <u>experimental</u> <b>GRASS GIS</b> version.
 </div>
 
 *  {{< donateDialog isToggle=true  >}}
-  <a href="/grass83/binary/linux/snapshot/" target="blank">Generic 64bit </a>{{< /donateDialog  >}}  (weekly binary snapshot)
+  <a href="/grass{{< previewVersionNoDots.inline  >}}{{- .Site.Data.grass.preview_version_nodots -}}{{</previewVersionNoDots.inline >}}/binary/linux/snapshot/" target="blank">Generic 64bit </a>{{< /donateDialog  >}}  (weekly binary snapshot)
 *  {{< donateDialog isToggle=true isMarkdown=true >}}  [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
  {{< /donateDialog  >}} 
 

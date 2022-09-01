@@ -1,5 +1,6 @@
 baseURL = "https://grass.osgeo.org/"
 theme = "grass"
+enableInlineShortcodes = true
 
 [params]
 description = "GRASS GIS is a free Geographic Information System (GIS) software used for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization."
@@ -23,9 +24,24 @@ greyColorDark = "#A0A0A0"
   filename = "sitemap_hugo.xml"
   priority = 0.5
 
+
 [markup]
   defaultMarkdownHandler = "blackfriday"
-  
+
+
+
+[outputFormats]
+  [outputFormats.sitemap]
+    baseName = "sitemap"
+    isPlainText = false
+    mediaType = "application/xml"
+    protocol = "xml://"
+    path = "/"
+
+[outputs]
+  home = ["HTML", "sitemap", "RSS"]
+
+
 [Languages]
 
   # English Language

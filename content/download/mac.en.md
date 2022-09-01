@@ -8,7 +8,7 @@ layout: "os"
 
 #### Quick links
 
-[ [**GRASS GIS 8.2 (current)**](#GRASS-GIS-current) | [**GRASS 7.8 (legacy)**](#GRASS-GIS-old) | [**GRASS 8.3 (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS GIS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
 
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on this website:
@@ -20,10 +20,10 @@ layout: "os"
 
 <hr>
 
-### <span id="GRASS-GIS-current"> GRASS GIS 8.2.0 (current) </span>
+### <span id="GRASS-GIS-current"> GRASS GIS {{< grassVersion version="current" >}} (current)</span>
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">release announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Current stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}">release announcement</a> for more information.
 </div>
 
 <ul>
@@ -44,10 +44,10 @@ layout: "os"
 
 <hr>
 
-### <span id="GRASS-GIS-old"> GRASS GIS 7.8.7 (legacy) </span>
+### <span id="GRASS-GIS-old"> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)</span>
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78">GRASS GIS 7.8 new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/7.8.7">GRASS GIS 7.8.7 announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS GIS {{< grassVersion version="legacy" type="short">}} new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">GRASS GIS {{< grassVersion version="legacy" >}} announcement</a> for more information.
 </div>
 
 <ul>
@@ -67,7 +67,7 @@ layout: "os"
 
 <hr>
 
-### <span id="GRASS-GIS-devel"> GRASS GIS 8.3.0 (preview) </span>
+### <span id="GRASS-GIS-devel"> GRASS GIS {{< grassVersion version="preview" >}}  (preview)</span>
 
 <div class="alert rounded-0 alert-info">
 <i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.

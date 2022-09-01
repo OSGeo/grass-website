@@ -8,12 +8,14 @@ layout: "manuals"
 
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="/grass80/manuals/index.html " target="_blank"> GRASS GIS 8.0 (current) </a></span>
-  <a href="/grass80/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass80/manuals/grass-8.0_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
+  <span class="mwl"><a href="/grass{{< currentVersionNodots.inline  >}}{{- .Site.Data.grass.current_version_nodots -}}{{</currentVersionNodots.inline >}}
+/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="current" type="short">}}  (current) </a></span>
+  <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/grass-{{< currentVersionShort.inline  >}}{{- .Site.Data.grass.current_version_short -}}{{</currentVersionShort.inline >}}_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
    <li>
-  <span class="mwl"><a href="/grass78/manuals/index.html " target="_blank"> GRASS GIS 7.8 (legacy) </a></span>
-  <a href="/grass78/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass78/manuals/grass-7.8_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
+  <span class="mwl"><a href="/grass{{< legacyVersionNodots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNodots.inline >}}/manuals/index.html " target="_blank"> GRASS GIS {{< grassVersion version="legacy" type="short">}}  (legacy) </a></span>
+  <a href="/grass{{< legacyVersionNodots.inline  />}}/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
+   <a href="/grass{{< legacyVersionNodots.inline  />}}/manuals/grass-{{< legacyVersionShort.inline  >}}{{- .Site.Data.grass.legacy_version_short -}}{{</legacyVersionShort.inline >}}_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
   </li>
  <!--
   <li>
@@ -74,8 +76,8 @@ layout: "manuals"
   <a href="https://github.com/OSGeo/grass/tree/main/doc/raster/r.example" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl-l"><a href="/grass80/manuals/libpython/index.html " target="_blank"> GRASS GIS Python Library Manual</a></span>
-  <a href="/grass80/manuals/libpython/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl-l"><a href="/grass{{< currentVersionNodots.inline  />}}/manuals/libpython/index.html " target="_blank"> GRASS GIS Python Library Manual</a></span>
+  <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/libpython/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
   <span class="mwl-l"><a href="https://gitlab.com/vpetras/r.example.plus " target="_blank"> GRASS GIS Example Python Module</a></span>
@@ -86,7 +88,7 @@ layout: "manuals"
   <a href="https://github.com/OSGeo/grass/tree/main/doc/gui/wxpython/example" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl-l"><a href="/grass80/manuals/parser_standard_options.html " target="_blank"> GRASS GIS Parser Standard Options</a></span>
-  <a href="/grass80/manuals/parser_standard_options.html" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl-l"><a href="/grass{{< currentVersionNodots.inline  />}}/manuals/parser_standard_options.html " target="_blank"> GRASS GIS Parser Standard Options</a></span>
+  <a href="/grass{{< currentVersionNodots.inline  />}}/manuals/parser_standard_options.html" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
 </ul>
