@@ -239,7 +239,11 @@ greyColorDark = "#A0A0A0"
     [[Languages.en.socialIcon]]
       icon = " fa fa-github"
       link = "https://github.com/OSGeo/grass"
-      
+
+    [[Languages.en.socialIcon]]
+          icon = " fa fa-comments"
+          link = "https://gitter.im/grassgis/community"
+
     [[Languages.en.socialIcon]]
       icon = " fa fa-twitter"
       link = "https://twitter.com/grassgis"    
