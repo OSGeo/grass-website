@@ -644,6 +644,60 @@ pre {
   color: var(--grey-color-dark) !important;
 }
 
+/* search  form */
+/* show only the icon and show the input when focus */
+.search-form {
+  border-radius: 20px;
+  border:0;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 30px;
+  transition: .3s ease;
+  overflow: hidden;
+}
+
+.search-form:focus-within {
+  width: 150px;
+  outline: 1px solid;
+  background-color: white;
+}
+
+.search-form:focus-within .search-icon {
+  color:var(--grass-color-dark);
+}
+
+/* media query to show the full size when toolbar is hidden */
+@media (max-width: 991px) {
+  .search-form {
+    width: 150px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da ;
+  }
+}
+
+.search-input {
+  border:0;
+
+  padding-left: 10px;
+  transition: .3s ease;
+  width: 100%;
+  /* remove the outline as it is shown by the surrounding form */
+  outline: none !important;
+}
+
+.search-icon {
+  padding:  0;
+  padding-right: 5px;
+  margin: 0;
+  width: 25px;
+  color:var(--grass-color);
+}
+
+
+
 
 .fdiv:hover {
   background: var(--grass-color-light) !important;

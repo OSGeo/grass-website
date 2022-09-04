@@ -8,5 +8,23 @@
             <li class="nav-item"><a class="nav-link text-dark" href="{{.URL}}">{{ .Name }}</a></li>
             <li style="list-style: none">{{ end }}{{ end }}</li>
         </ul>
+
+        <form class="search-form" id="search-form" onsubmit="searchContent(event)"> 
+            <input id="search-input" class="search-input" type="search" name="searchString">
+            <label for="search-input" class="search-icon" aria-label="Search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </label>
+        </form>
+
+        <script>
+            function searchContent(event) {
+                event.preventDefault();
+
+                const searchString = encodeURI(`${event.target.searchString.value} site:grass.osgeo.org`);
+                const searchURL = "https://duckduckgo.com?q=" + searchString;
+                
+                window.open(searchURL)
+            }
+        </script>
     </div>
 </nav>
