@@ -754,56 +754,7 @@ pre {
 }
 /* /navigation */
 
-.breadcrumb {
-  margin-bottom: 0 !important;
-}
-ul.breadcrumb {
-  padding: 2px 6px 2px 0;
-  list-style: none;
-  background-color: #eee;
-  margin-bottom: 0 !important;
-  color: var(--grey-color-light) !important;
-}
-ul.breadcrumb {
-  margin: 0 !important
-}
-ul.breadcrumb li {
-  display: inline-block;
-  font-size: 15px;
-}
-ul.breadcrumb li a {
-  color: var(--grey-color-light) !important;
-}
-ul.breadcrumb li a:hover {
-  color: var(--grass-color-dark) !important;
-}
-/* Add a slash symbol (/) before/behind each list item */
 
-ul.breadcrumb li+li:before {
-  padding: 6px;
-  content: "/\00a0";
-}
-ul.breadcrumb>li>i {
-  display: inline-block !important;
-  font-size: .85em;
-}
-/* Add a color to all links inside the list */
-
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-  display: inline-block !important;
-}
-ul.breadcrumb li > span{
-    display:inline-block;
-    margin-top: 2px !important;
-}
-/* Add a color on mouse-over */
-
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
 .form-control {
   height: 50px;
   border-radius: 30px;
