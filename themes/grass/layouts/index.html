@@ -14,6 +14,41 @@
       </div>
     </div>
   </header>
+
+  <div class="modal show fade" id="hacktoberfest-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p>
+      <a href="https://hacktoberfest.com/"><b>Hacktober fest</b></a> is here!!! A full month to contribute to open source software.</p>
+      <p>
+      Ever wanted to share your talent with 
+     GRASS GIS? This is an excellent opportunity. Both coding and non coding contributions are welcome.
+     Please have a look at <a href="https://github.com/OSGeo/grass/issues?q=is%3Aopen+is%3Aissue+label%3AHacktoberfest"><b>GRASS GIS repo</b></a>
+     and <a href="https://github.com/OSGeo/grass-addons/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest"><b> GRASS addons repo</b></a>. 
+    </p>
+        <p>    
+     Still not sure what to do? Please do not hesitate to reach out <a href="https://gitter.im/grassgis/community"> <b>in our chatroom :)</b></a>
+          </p>
+          <p>
+            <i>GRASS GIS Team</i>
+          </p> 
+
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+    $(window).load(function()
+{
+    $('#hacktoberfest-modal').modal('show');
+});
+</script>
+
+
   <section class="section bg-gray">
     <div class="container">
       <div class="row justify-content-center">
