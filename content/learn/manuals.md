@@ -22,28 +22,6 @@ layout: "manuals"
   <a href="/grass{{< previewVersionNodots.inline  />}}/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a>
    <a href="/grass{{< previewVersionNodots.inline  />}}/manuals/grass-{{< previewVersionShort.inline  >}}{{- .Site.Data.grass.preview_version_short -}}{{</previewVersionShort.inline >}}_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
  </li>
- <!--
-  <li>
-  <span class="mwl"><a href="/grass76/manuals/index.html " target="_blank"> GRASS GIS 7.6 (legacy) </a></span>
-  <a href="/grass76/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="/grass76/manuals/grass-7.6_html_manual.zip" class="inl btn btn-secondary">Download ZIP</a>
-  </li>
-  <li>
-  <span class="mwl"><a href="/grass74/manuals/index.html " target="_blank"> GRASS GIS 7.4 (legacy) </a></span>
-  <a href="/grass74/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
-  </li>
-   <li>
-  <span class="mwl"><a href="/grass72/manuals/index.html " target="_blank"> GRASS GIS 7.2 (legacy) </a></span>
-  <a href="/grass72/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
-  </li>
-   <li>
-  <span class="mwl"><a href="/grass70/manuals/index.html " target="_blank"> GRASS GIS 7.0 (legacy) </a></span>
-  <a href="/grass70/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
-  </li>
-   <li>
-  <span class="mwl"><a href="/grass64/manuals/index.html " target="_blank"> GRASS GIS 6.4 (very old legacy) </a></span>
-  <a href="/grass64/manuals/index.html" class="inl btn btn-primary" target="_blank">View HTML</a> <a href="#" class="inl btn btn-secondary">Download ZIP</a>
-  </li>
--->
 </ul>
 
 ### Addons manuals
