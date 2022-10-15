@@ -73,7 +73,7 @@ The North Carolina dataset can be downloaded in two versions:
   </li>
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/temporalintro.html" target="_blank"> Time series </a></span>
-   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G6, G7, 2 MB)</a>
+   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G7, 2 MB)</a>
    <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst_grass8.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G8, 2 MB)</a>
    <p>MODIS Land Surface Temperature mapset (to unzip in NC location): MODIS LST raster time series (<a href="https://lpdaac.usgs.gov/products/mod11b3v006/">MOD11B3</a>, 6km, monthly)</p>
   </li>
