@@ -1,6 +1,6 @@
 ---
 title: "Data"
-date: 2022-08-23T11:02:05+06:00
+date: 2022-10-15T11:02:05+06:00
 description: "Download sample data ready for GRASS GIS"
 weight: 
 categories: [nl]
@@ -56,9 +56,14 @@ The North Carolina dataset can be downloaded in two versions:
 
 <ul id="links" class="list-unstyled version">
   <li>
+   <span class="mwl"><a href="/grass-stable/manuals/addons/i.sentinel.html" target="_blank"> Sentinel-2 reduced</a></span>
+   <a href="/sampledata/north_carolina/nc_sentinel_utm17n.zip" class="inl btn btn-primary" target="_blank">Download ZIP (66 MB)</a>
+   <p>Six massively reduced Sentinel-2 scenes (SAFE format)</p>
+  </li>
+  <li>
    <span class="mwl"><a href="/grass-stable/manuals/topic_LIDAR.html" target="_blank"> LiDAR </a></span>
-   <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">LAS (21 MB)</a>
-   <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">LAZ (6 MB)</a>
+   <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet_las.zip" class="inl btn btn-primary" target="_blank">Download zipped LAS (21 MB)</a>
+   <a href="/sampledata/north_carolina/lidar_raleigh_nc_spm_height_feet.laz" class="inl btn btn-primary">Download LAZ (6 MB)</a>
    <p>Extra Raleigh (NC) LiDAR data file (note: height in feet): multi-return</p>
   </li>
   <li>
@@ -68,7 +73,7 @@ The North Carolina dataset can be downloaded in two versions:
   </li>
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/temporalintro.html" target="_blank"> Time series </a></span>
-   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G6, G7, 2 MB)</a>
+   <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G7, 2 MB)</a>
    <a href="/sampledata/north_carolina/nc_spm_mapset_modis2015_2016_lst_grass8.zip" class="inl btn btn-primary" target="_blank">Download ZIP (for G8, 2 MB)</a>
    <p>MODIS Land Surface Temperature mapset (to unzip in NC location): MODIS LST raster time series (<a href="https://lpdaac.usgs.gov/products/mod11b3v006/">MOD11B3</a>, 6km, monthly)</p>
   </li>
