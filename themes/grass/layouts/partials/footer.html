@@ -1,10 +1,48 @@
+<div class="container fixed-bottom ">
+  <div class="m-2">
+      <div id="manage" class="mx-md-2 p-2 bg-white shadow-lg rounded d-none" data-c-view="manage"> <!--  -->
+          <h2>Manage Cookies</h2>
+          <p>We use cookies to provide and secure our website, as well as to analyze its usage, in order to offer the best user experience. You can modify your choice in any moment clicking on "Cookie preferences" button. 
+          </br> To learn more about our use of cookies see our <a href="policy.php">Privacy Policy</a>.</p>
+
+          <div class="my-3">
+              <div class="form-check">
+                  <input data-c-check="necessary" data-c-check-default="true" class="form-check-input" type="checkbox" value="" disabled="" id="necessary">
+                  <label class="form-check-label" for="necessary">
+                      Necessary. Mandatory cookies needed for basic site use
+                  </label>
+              </div>
+
+              <div class="form-check">
+                  <input data-c-check="analysis" data-c-check-default="true" class="form-check-input" type="checkbox" id="analysis">
+                  <label class="form-check-label" for="analysis">
+                      Site traffic analysis. Optional, needed for site access analysis tool
+                  </label>
+              </div>
+          </div>
+
+          <div class="d-flex">
+              <div data-c-action="accept" class="btn btn-warning flex-fill me-1">
+                  Accept
+              </div>
+              <div data-c-action="all" class="btn btn-primary flex-fill">
+                  All
+              </div>
+              <div data-c-action="necessary" class="btn btn-primary flex-fill ms-1">
+                  Necessary
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 <footer class="section bg-gray pb-0">
 <div class="container">
      <div class="row">
-      <div class="col-md-4 text-md-left text-center">
+      <div class="col-md-3 text-md-left text-center">
        {{ with .Site.Params.copyright }} <p><small>&copy; {{ replace . "{year}" now.Year }} (<a href="/about/license/">license</a>)</small></p> {{ end }}
       </div>
-      <div class="col-md-4 text-md-left text-center">
+      <div class="col-md-2 text-md-left text-center">
         {{if .IsHome}}
         <p><small><a href="about/mirrors">Mirror sites</a></small></p>
         {{end}}
@@ -13,8 +51,13 @@
 	<p><small><a href="https://github.com/OSGeo/grass-website/tree/master/content/{{ .Section }}/{{ with .File }}{{ .BaseFileName }}{{ end }}.md" class="fa fa-github"> <span class="edt">Edit this page on GitHub</span></a></small></p>
   {{end}}
       </div>
+      <div class="col-md-3 text-md-right text-center">
+        <div class="widget widget-light">
+          <div id="open" class="btn btn-primary shadow p-1 rounded-pill" data-c-view="button">Cookie preferences</div>
+        </div>
+      </div>
       <div class="col-md-4 text-md-right text-center">	
-	<ul class="list-inline mb-3">
+	      <ul class="list-inline mb-3">
           {{ range .Site.Params.socialIcon }}
           <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="{{ .link }}"><i class="{{ .icon }}"></i></a></li>
           {{ end }}
@@ -28,5 +71,11 @@
 <script>hljs.initHighlightingOnLoad();</script>
 <script src="{{ .Site.BaseURL }}plugins/gallery/photoswipe.js"></script>{{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
+<!-- this is for cookies -->
+<script type="module" src="{{ .Site.BaseURL }}plugins/cookies/cookify_loader.js"></script>
+<script type="text/javascript" data-c-script="analysis">
+    if (window.track) window.track()
+</script>
+
 </body>
 </html>
