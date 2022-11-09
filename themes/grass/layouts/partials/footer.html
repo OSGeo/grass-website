@@ -40,7 +40,7 @@
 <div class="container">
      <div class="row">
       <div class="col-md-5 text-md-left text-center">
-       {{ with .Site.Params.copyright }} <p><small>&copy; {{ replace . "{year}" now.Year }} (<a href="/about/license/">license</a> | <a href="about/privacy">Privacy</a> )</small></p> {{ end }}
+       {{ with .Site.Params.copyright }} <p><small>&copy; {{ replace . "{year}" now.Year }} (<a href="/about/license/">license</a> | <a href="about/privacy">privacy</a> )</small></p> {{ end }}
       </div>
       <div class="col-md-2 text-md-left text-center">
         {{if .IsHome}}
