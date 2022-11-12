@@ -71,15 +71,15 @@ started exploring the use of GIS for environmental research, monitoring and mana
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#millenium" aria-expanded="false" aria-controls="millenium">The new millenium</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#millennium" aria-expanded="false" aria-controls="millennium">The new millennium</a></h4>
         </div>
-<div id="millenium" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="millenium">
+<div id="millennium" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="millennium">
         <div class="panel-body mb-4">
  <div class="row">
  <div class="col-lg-8 col-sm-12">
  <p>In September <b>2004</b>, the <a href="http://gisws.media.osaka-cu.ac.jp/grass04/">FOSS / GRASS GIS Users Conference</a> was held in Chulalongkorn university, Bangkok, Thailand. This was the first <b>FOSS4G</b> event ever ! </p>
 <p>
-In February <b>2006</b>, the Open Source Geospatial Foundation (OSGeo) was formed to support and promote worldwide use and collaborative development of Open Source geospatial technologies and data. GRASS GIS is one of its founding projects. Later that year, the GRASS Project Steering Commitee was formed which is responsible for the overall management of the project.</p>
+In February <b>2006</b>, the Open Source Geospatial Foundation (OSGeo) was formed to support and promote worldwide use and collaborative development of Open Source geospatial technologies and data. GRASS GIS is one of its founding projects. Later that year, the GRASS Project Steering Committee was formed which is responsible for the overall management of the project.</p>
 <p>
 On Dec 9, <b>2007</b> GRASS GIS started to use SVN and Trac bug tracker hosted by OSGeo. Other GRASS GIS project infrastructures like the website and mailing lists were (and still are) hosted by OSGeo. Just for fun have a look at the GRASS GIS Website evolution page.<p>
 </div>
@@ -97,7 +97,7 @@ On Dec 9, <b>2007</b> GRASS GIS started to use SVN and Trac bug tracker hosted b
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#tens" aria-expanded="false" aria-controls="millenium">The 2010s and beyond</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#tens" aria-expanded="false" aria-controls="millennium">The 2010s and beyond</a></h4>
         </div>
 <div id="tens" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="">
         <div class="panel-body mb-4">
