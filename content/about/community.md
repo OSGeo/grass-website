@@ -36,7 +36,7 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 
 | NAME | LINK | DESCRIPTION |
 |------|---------|-------------|
-| *Users*  |  [grass-user](https://lists.osgeo.org/mailman/listinfo/grass-user) | GRASS mailing list for user suppport |
+| *Users*  |  [grass-user](https://lists.osgeo.org/mailman/listinfo/grass-user) | GRASS mailing list for user support |
 | *Developer*  | [grass-dev](https://lists.osgeo.org/mailman/listinfo/grass-dev) | GRASS mailing list for developers |
 | *GRASS - R*  | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS GIS and R stats interface |
 | *Translations*  | [grass-translations](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS GIS translations |
