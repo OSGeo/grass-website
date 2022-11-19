@@ -20,5 +20,3 @@ The use of this analysis tool is based on Art. 6 para. 1 lit. f GDPR. The websit
 We use IP anonymisation for the analysis with Matomo. This means that your IP address is shortened before analysis so that it can no longer be clearly assigned to you.
 
 If you do not agree to the storage and use of your data, you can deactivate the storage and use here. In this case, an opt-out cookie will be stored in your browser, which prevents Matomo from storing usage data. If you delete your cookies, this will have the effect that the Matomo opt-out cookie will also be deleted. The opt-out must be reactivated when you visit our site again.
-
-If you do not agree with the storage and use of your data, you can disable this feature here. In this case, an opt-out cookie will be stored in your browser to prevent Matomo from storing your usage data. If you delete your cookies, this will mean that the opt-out cookie will also be deleted. You will then need to reactivate it when you return to our site if you wish your activity not to be tracked.
