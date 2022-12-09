@@ -7,10 +7,14 @@
       <div class="row">
         <div class="col-lg-8 text-center mx-auto">
           <h1><a href="{{ "/" | relURL }}"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="33%"></a></h1>
-	<div class="alert alert-warning"><h2 style="margin:10px;color:red;">Sorry, there's nothing here.<span style="display:block;margin:10px;font-size:.75em;"><a href="{{ "/" | relURL }}"><i class="fa fa-home"></i> home</a></h2></div>
+	  <div class="alert alert-warning"><h2 style="margin:10px;color:red;">Sorry, there's nothing here.<span style="display:block;margin:10px;font-size:.75em;">
+             <a href="{{ "/" | relURL }}"><i class="fa fa-home"></i> home</a><br>
+             <a href="{{ "/learn/manuals/" | relURL }}"><i class="fa fa-file-text"></i> manuals</a><br>
+             <a href="{{ "/download/" | relURL }}"><i class="fa fa-download"></i> downloads</a>
+           </h2>
+          </div>
         </div>
       </div>
     </div>
-    </header>
-
+  </header>
 {{ partial "footer.html" . }}
