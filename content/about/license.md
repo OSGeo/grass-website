@@ -1,13 +1,13 @@
 ---
 title: "License"
-date: 2020-08-08T05:05:05+05:00
+date: 2022-12-13T05:05:05+05:00
 layout: "general"
 ---
 
 ### Copyright and License Information
 
 Geographic Resources Analysis Support System (GRASS) is Copyright, 
-1999-2020 GRASS Development Team, and licensed under the terms of 
+1999-2022 GRASS Development Team, and licensed under the terms of 
 the GNU General Public License (GPL). This includes all software, 
 documentation, and associated materials.
 
@@ -37,7 +37,7 @@ Please cite GRASS when using the software in your work. Here are some choices
 depending on the version used:
 
 - GRASS Development Team, 2022. Geographic Resources Analysis Support System (GRASS)
-Software, Version 8.0. Open Source Geospatial Foundation. https://grass.osgeo.org
+Software, Version 8.2. Open Source Geospatial Foundation. https://grass.osgeo.org
 
 - GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS) 
 Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
@@ -51,7 +51,7 @@ scientific work written in LaTeX.</p>
 
 <pre style="background-color:#CCCCCC">
 @Manual{GRASS_GIS_software,
-    title = {Geographic Resources Analysis Support System (GRASS GIS) Software},
+    title = {Geographic Resources Analysis Support System (GRASS GIS) Software, Version 8.2},
     author = {{GRASS Development Team}},
     organization = {Open Source Geospatial Foundation},
     address = {USA},
