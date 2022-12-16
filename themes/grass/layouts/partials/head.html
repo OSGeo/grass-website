@@ -14,7 +14,6 @@
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-  <a rel="me" href="https://fosstodon.org/@grassgis">Mastodon</a>
   <meta name="twitter:card" content="GRASS GIS">
   <meta name="twitter:site" content="@GRASSGIS">
   <meta name="twitter:creator" content="@GRASSGIS">
