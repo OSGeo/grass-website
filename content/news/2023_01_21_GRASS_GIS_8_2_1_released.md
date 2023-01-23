@@ -30,10 +30,10 @@ been made to the available docker images, especially the base images
 rare installation problems. Overall, this release offers a **more stable
 and efficient version of GRASS GIS for users**.
 
-<a href="/images/news/TODO.png">
-  <img src="/images/news/TODO.png"
-   alt="TODO"
-   title="TODO"
+<a href="/images/news/grass82_gui_image_proc.webp">
+  <img src="/images/news/grass82_gui_image_proc.webp"
+   alt="GRASS GIS 8.2.1 graphical user interface"
+   title="GRASS GIS 8.2.1 graphical user interface"
    width="60%" style="float:right;padding-left:15px;padding-top:20px">
 </a>
 
