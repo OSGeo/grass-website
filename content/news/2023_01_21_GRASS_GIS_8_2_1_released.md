@@ -17,18 +17,18 @@ graphical user interface has also seen improvements, with issues being
 resolved for the database manager, the image group dialog, the import
 of PostGIS and SQLite geometry data, the Postscript-based mapping tool,
 and the Single-Window GUI toolbar. Additionally, a correction has been added
-to the Jupyter notebooks for bounding box reprojection for `InteractiveMap`
+to the grass.jupyter for bounding box reprojection within the `InteractiveMap` class
 and the `GridModule` now cleans up temporary mapsets when an exception occurs.
 Concerning the documentation, all addons now register their keywords in
 the main keywords index, leading to a better overview of available
 functionality. For mobile devices, viewport support and hamburger menu-style
-table of content has been added. The PROJ library support received
+table of content have been added. The PROJ library support received
 important fixes for area bounding boxes and longitude estimation.
 Compatibility fixes for PDAL 2.5.0 have been added, and updates have
 been made to the available docker images, especially the base images
 (Ubuntu and Debian). The Windows NSIS installer was also updated to fix
-rare installation problems. Overall, this release offers a more stable
-and efficient version of GRASS GIS for users.
+rare installation problems. Overall, this release offers a **more stable
+and efficient version of GRASS GIS for users**.
 
 <a href="/images/news/TODO.png">
   <img src="/images/news/TODO.png"
