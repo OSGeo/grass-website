@@ -22,8 +22,8 @@ and the `GridModule` now cleans up temporary mapsets when an exception occurs.
 Concerning the documentation, all addons now register their keywords in
 the main keywords index, leading to a better overview of available
 functionality. For mobile devices, viewport support and hamburger menu-style
-table of content have been added. The PROJ library support received
-important fixes for area bounding boxes and longitude estimation.
+table of content have been added to the manual pages. The PROJ library support
+received important fixes for area bounding boxes and longitude estimation.
 Compatibility fixes for PDAL 2.5.0 have been added, and updates have
 been made to the available docker images, especially the base images
 (Ubuntu and Debian). The Windows NSIS installer was also updated to fix
