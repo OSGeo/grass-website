@@ -361,7 +361,7 @@ table img {
   display: block;
   line-height: 1.2em;
   font-size: 2.6em;
-  color: #dde9cc;
+  color: var(--grass-color-dark);
 }
 .htl:hover {
   color: #ffffff;
@@ -705,6 +705,7 @@ pre {
 .fdiv:hover h3 {
   color: var(--grass-color-dark);
 }
+h3 
 .gdiv:hover {
   background: #ffffff !important;
 }
@@ -1177,7 +1178,7 @@ li.parent a {
 }
 
 .edt {
-  font-family: open_sansregular; !important;
+  font-family: open_sansregular !important;
 }
 
 nobullets {
@@ -1338,6 +1339,22 @@ code{
   .mb-40 {
     margin-bottom: 20px !important;
   }
+  .c1 {
+    color: var(--grass-color-dark);
+  
+  }
+  .c1:hover{
+    background: var(--grass-color-light) !important;
+  
+  }
+  /* .htl{
+    color: var(--grass-color-dark);
+  
+  } */
+  .htl:hover{
+    color : var(--grass-color-light) !important;
+  }
+  
 
   #links li span a {
     font-size: 15px !important;      
