@@ -11,10 +11,14 @@ layout: "os"
 [ [**GRASS GIS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on this website:
+<i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on
  {{< donateDialog isToggle=true >}}  
      <a href="http://grassmac.wikidot.com" target="_blank"> GRASS GIS for the Mac </a> 
  {{< /donateDialog  >}} 
+or install the latest available version from <a href="https://ports.macports.org/port/grass/"  target="_blank">Macports</a>
+<a href="https://repology.org/project/grass/versions">
+  <img src="https://repology.org/badge/version-for-repo/macports/grass.svg" alt="MacPorts package">
+</a>
 
 </div>
 
@@ -36,9 +40,8 @@ layout: "os"
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
-<a href="https://ports.macports.org/port/grass/"></i>MacPorts</a>
- {{< /donateDialog  >}} 
- 
+<a href="https://ports.macports.org/port/grass/">MacPorts</a>
+ {{< /donateDialog  >}}
 </li>
 </ul>
 

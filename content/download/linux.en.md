@@ -10,9 +10,7 @@ layout: "os"
 
 [ [**GRASS GIS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
 
-<hr>
-
-Install <tt>grass</tt> package on your Linux distribution. Have a look at 
+<i class="fa fa-arrow-right"></i> Install <tt>grass</tt> package on your Linux distribution. Have a look at 
 {{< donateDialog isToggle=true isMarkdown=true >}}[Repology](https://repology.org/project/grass/versions){{< /donateDialog  >}} for an extended
 list of GRASS GIS packages or directly check the 
 <a href="https://repology.org/badge/vertical-allrepos/grass.svg?exclude_unsupported=1&exclude_sources=modules,site&minversion=8.2.0&columns=3" class="btn btn-primary">Packaging Status</a>
@@ -26,6 +24,8 @@ to quickly know which GRASS GIS version is currently available for your distro.
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Mageia](https://madb.mageia.org/package/show/name/grass/){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable){{< /donateDialog  >}} (ubuntugis-unstable)
+
+<hr>
 
 ### <span id="GRASS-GIS-current"> GRASS GIS {{< grassVersion version="current" >}} (current)</span>
 
