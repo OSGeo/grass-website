@@ -15,11 +15,10 @@ layout: "os"
  {{< donateDialog isToggle=true >}}  
      <a href="http://grassmac.wikidot.com" target="_blank"> GRASS GIS for the Mac </a> 
  {{< /donateDialog  >}} 
-or install the latest available version from <a href="https://ports.macports.org/port/grass/"  target="_blank">Macports</a>
-<a href="https://repology.org/project/grass/versions">
+or install the latest available version from <a href="https://ports.macports.org/port/grass/" target="_blank">MacPorts</a> 
+<a href="https://repology.org/project/grass/versions" target="_blank"> 
   <img src="https://repology.org/badge/version-for-repo/macports/grass.svg" alt="MacPorts package">
 </a>
-
 </div>
 
 <hr>
