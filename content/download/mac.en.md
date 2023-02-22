@@ -17,7 +17,7 @@ layout: "os"
  {{< /donateDialog  >}} 
 or install the latest available version from <a href="https://ports.macports.org/port/grass/" target="_blank">MacPorts</a> 
 <a href="https://repology.org/project/grass/versions" target="_blank"> 
-  <img src="https://repology.org/badge/version-for-repo/macports/grass.svg" alt="MacPorts package">
+  <img class="inl" src="https://repology.org/badge/version-for-repo/macports/grass.svg" alt="MacPorts package">
 </a>
 </div>
 

@@ -791,6 +791,11 @@ img {
   height: auto;
   margin-bottom: 15px;
 }
+
+a.ext img.inl {
+    margin-bottom:0px;
+}
+
 ul {
   padding: 0;
   margin: 0 0 20px 20px;
