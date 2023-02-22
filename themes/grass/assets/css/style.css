@@ -76,7 +76,7 @@ a.nws {
   font-size:22px !important;
 }
 a.nws:hover {
-  color: var(--grass-color-dark) !important;
+  color: var(--grass-color) !important;
 }
 .releases li {
     padding:.5rem;
@@ -85,14 +85,14 @@ a.nws:hover {
     color: var(--grey-color-dark) !important;
 }
 .releases li a:hover {
-  color: var(--grass-color) !important;
+  color: var(--grass-color-light) !important;
 }
 
 .grass-green {
   color: var(--primary-color);
 }
 .grass-green-bg {
-  background: var(--grass-color);
+  background: var(--grass-color-light);
 }
 .grass-green-alt {
   color: var(--grass-color-alt);
@@ -104,13 +104,13 @@ a.nws:hover {
   color: var(--grass-color-light);
 }
 .grass-green-light-bg {
-  background: var(--grass-color-light);
+  background: var(--grass-color);
 }
 .grass-green-dark {
   color: var(--grass-color-dark);
 }
 .grass-green-dark-bg {
-  background: var(--grass-color-dark);
+  background: var(--grass-color-light);
 }
 .white-color {
   color: #FFF;
@@ -164,7 +164,7 @@ a.nws:hover {
   outline: none;
 }
 :focus-visible {
-    outline: 2px solid var(--grass-color) !important;
+    outline: 2px solid var(--grass-color-dark) !important;
 }
 
 .btn {
@@ -183,15 +183,15 @@ a.nws:hover {
   box-shadow: none;
 }
 .btn-primary {
-  background: var(--grass-color-alt);
+  background: var(--grass-color);
   color: var(--white-color);
 }
 .btn-primary:hover, .btn-primary:focus,  .btn-primary-active {
-  background: var(--grass-color);
+  background: var(--grass-color-dark);
   color: var(--white-color) !important;
 }
 .btn-primary:active {
-  background: var(--grass-color);
+  background: var(--grass-color-dark);
 }
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
   color: var(--white-color);
@@ -206,7 +206,7 @@ a.nws:hover {
   background: var(--grey-color-dark);
 }
 .btn-secondary:hover, .btn-secondary:focus {
-  background: var(--grey-color-dark);
+  background: var(--grey-color);
   color: var(--white-color) !important;
 }
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
@@ -279,7 +279,7 @@ a, button, select {
 }
 .page-title {
   margin-bottom: 40px;
-  color: var(--grass-color);
+  color: var(--grass-color-dark);
 }
 .col-title {
   margin-bottom: 40px;
@@ -296,7 +296,7 @@ a, button, select {
 }
 .section-gtitle {
   margin-bottom: 40px;
-  color: var(--grass-color);
+  color: var(--grass-color-dark);
 }
 .section-subtitle {
   color: var(--grey-color-light);
@@ -311,7 +311,7 @@ a, button, select {
   background-size: cover;
 }
 .bg-lgr {
-  background-color: var(--grass-color-light) !important;
+  background-color: var(--grass-color) !important;
 }
 .tbld {
   width: 20%;
@@ -339,10 +339,10 @@ table img {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07) !important;
 }
 .github {
-  background: var(--grass-color-light);
+  background: var(--grass-color);
 }
 .github:hover {
-  background: var(--grass-color) !important;
+  background: var(--grass-color-light) !important;
   color: var(--white-color) !important;
 }
 .command {
@@ -641,7 +641,7 @@ pre {
     color: #000000;
 }
 .navbar-brand:hover {
-  color: var(--grey-color-dark) !important;
+  color: var(--grey-color) !important;
 }
 
 /* search  form */
@@ -693,7 +693,7 @@ pre {
   padding-right: 5px;
   margin: 0;
   width: 25px;
-  color:var(--grass-color);
+  color:var(--grass-color-dark);
 }
 
 
@@ -1222,7 +1222,7 @@ code{
 }
 
 .grasscolor{
-   color: var(--grass-color);
+   color: var(--grass-color-light);
 }
 
 
@@ -1235,7 +1235,7 @@ code{
 }
 
 .grasscolor{
-   color: var(--grass-color);
+   color: var(--grass-color-dark);
 }
 
 .grassthm{
