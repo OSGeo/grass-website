@@ -423,6 +423,19 @@ pre {
 .bg-beige {
   background-color: #f1ebe1;
 }
+.hb {
+  color: var(--grass-color);
+}
+.hb:hover{
+  color:var(--grass-color-dark) ;
+}
+.plug i{
+  color: var(--grass-color-light);
+}
+
+.plug i:hover{
+  color: var(--grass-color-light);
+}
 
 .text-primary {
   color: var(--primary-color) !important;
