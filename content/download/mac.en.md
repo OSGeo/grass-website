@@ -19,6 +19,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <a href="https://repology.org/project/grass/versions" target="_blank"> 
   <img class="inl" src="https://repology.org/badge/version-for-repo/macports/grass.svg" alt="MacPorts package">
 </a>
+(see this brief <a href="https://grasswiki.osgeo.org/wiki/Compiling_on_macOS_using_MacPorts" target="_blank">introduction</a> on using MacPorts).
 </div>
 
 <hr>
