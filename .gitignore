@@ -4,3 +4,6 @@ resources/
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Ignore the Windows Hugo executable
+hugo.exe
