@@ -18,7 +18,7 @@ There is no cost to participate in the project itself or to use the software.
 But with our own budget we can produce even better software and documentation for you.
 And if you don't have time to contribute, maybe a (small) donation makes you feel better when using GRASS GIS.
 
-<div align="center"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass" target="_blank">SUPPORT GRASS GIS</a></b></button></div>
+<div align="center"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass/contribute" target="_blank">SUPPORT GRASS GIS</a></b></button></div>
 
 ### How we use the money
 
