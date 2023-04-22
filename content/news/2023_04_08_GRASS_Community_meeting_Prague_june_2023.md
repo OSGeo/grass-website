@@ -36,7 +36,7 @@ Your contribution counts!
 <br>
 <div align="center">
 <button class="btn btn-primary">
-<b><a href="https://opencollective.com/grass" target="_blank">Support GRASS GIS Community Meeting</a></b>
+<b><a href="https://opencollective.com/grass/contribute" target="_blank">Support GRASS GIS Community Meeting</a></b>
 </button>
 </div>
 
