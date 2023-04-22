@@ -33,6 +33,8 @@ See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/
 
 ### Citing GRASS GIS Software
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7764250.svg)](https://doi.org/10.5281/zenodo.7764250)
+
 Please cite GRASS when using the software in your work. Here are some choices
 depending on the version used:
 
@@ -56,7 +58,8 @@ scientific work written in LaTeX.</p>
     organization = {Open Source Geospatial Foundation},
     address = {USA},
     year = {2022},
-    url = {https://grass.osgeo.org}
+    url = {https://grass.osgeo.org},
+    doi = {10.5281/zenodo.7764250}
 }
 </pre>
 
