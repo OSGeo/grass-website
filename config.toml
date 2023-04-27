@@ -245,6 +245,10 @@ greyColorDark = "#A0A0A0"
           link = "https://gitter.im/grassgis/community"
 
     [[Languages.en.socialIcon]]
+      icon = " fab fa-mastodon"
+      link = "https://fosstodon.org/@grassgis"
+
+    [[Languages.en.socialIcon]]
       icon = " fa fa-twitter"
       link = "https://twitter.com/grassgis"    
 
