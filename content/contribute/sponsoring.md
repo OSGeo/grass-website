@@ -21,8 +21,8 @@ But with our own budget we can produce even better software and
 documentation for you. And if you don't have time to contribute,
 maybe a donation will make you feel better about using GRASS GIS in
 your company or research. Your financial support will also help
-us set up the needed efforts and infrastructure to ensure
-project and software sustainability in the long run.
+us to build up the necessary effort and infrastructure to ensure
+the long-term sustainability of the project and the software.
 
 <div align="center"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass/contribute" target="_blank">SUPPORT GRASS GIS</a></b></button></div>
 
@@ -30,8 +30,8 @@ project and software sustainability in the long run.
 
 The donations are controlled in full transparency by the GRASS
 Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC)).
-Funds offered to GRASS GIS are used to sponsor general GRASS GIS
-efforts, especially:
+Funds offered to GRASS GIS will be used to support general GRASS GIS
+efforts, in particular:
 
 - the organization of face-to-face coding sessions or [**Community Sprints**](https://grasswiki.osgeo.org/wiki/Category:Code_Sprint), *financial support can be used to make developers' participation possible*
 - offering [**Student Grants**](https://grasswiki.osgeo.org/wiki/Student_Grants) to support students while they contribute with actual coding, bug fixing, documentation or creation of educational resources.
@@ -43,10 +43,10 @@ or specific bug-bounties can be arranged (please [contact us](https://trac.osgeo
 
 We handle all donations and financial support in
 [**OpenCollective**](https://opencollective.com/grass/contribute).
-There, you can find different **sponsoring tiers** from which to choose
-and also a **donation tier** that can be customized as you prefer.
-The different sponsoring levels and suggested yearly contribution
-amounts are described below.
+There you will find several **sponsorship tiers** to choose from
+and also a **donation tier** which can be customized to suit your needs.
+The different sponsorship tiers and suggested annual contributions are
+described below.
 
 |Tier   	|Amount (USD)  |
 |---	    |---	|
@@ -60,12 +60,12 @@ amounts are described below.
 
 ### Sponsorship benefits
 
-All sponsors are important for the GRASS GIS project, no matter
-what funding level they commit to.
-In recognition of the various levels of sponsor contributions,
-each sponsor receives particular benefits. These are mostly
+All sponsors are important to the GRASS GIS project, no matter
+what level of funding they commit to.
+In recognition of the different levels of sponsorship,
+each sponsor will receive specific benefits. These are mostly
 limited to logo sizes so far, but as the PSC sees potential,
-we will enlarge the list of benefits according to support level.
+we will extend the list of benefits according to the level of support.
 
 | **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
 |---|---|---|---|---|---|
