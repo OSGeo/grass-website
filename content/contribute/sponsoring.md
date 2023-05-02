@@ -19,7 +19,7 @@ the software.
 
 But with our own budget we can produce even better software and
 documentation for you. And if you don't have time to contribute,
-maybe a donation makes you feel better when using GRASS GIS in
+maybe a donation will make you feel better about using GRASS GIS in
 your company or research. Your financial support will also help
 us set up the needed efforts and infrastructure to ensure
 project and software sustainability in the long run.
