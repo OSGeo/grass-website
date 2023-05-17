@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2023-01-23T10:12:05+02:00
+date: 2023-05-17T17:12:05+02:00
 layout: "timeline"
 ---
 
@@ -11,6 +11,27 @@ layout: "timeline"
     <div class="line text-muted"></div>
      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
+      <!-- Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2023" aria-expanded="true" aria-controls="2023">2023</a></h4>
+        </div>
+        <div id="2023" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+          <div class="panel-body">
+<ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 17 May 2023</span> Creation of the GRASS GIS 8.3 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_3">aaa5f6d</a>)</li> <!-- aaa5f6def0af133626d85e890b1fdee9a497614b -->
+
+<!-- find with git log releasebranch_8_3(not main) -->
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 21 Jan 2023</span> <b>GRASS GIS 8.2.1</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.2.1">Changelog</a> - <a href="/grass82/source/">Source Code</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <!-- /Panel -->
+
+
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -19,7 +40,6 @@ layout: "timeline"
         <div id="2022" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
-<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 21 Jan 2023</span> <b>GRASS GIS 8.2.1</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.2.1">Changelog</a> - <a href="/grass82/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 3 Jun 2022</span> <b>GRASS GIS 8.2.0</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.2.0">Changelog</a> - <a href="/grass82/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 12 May 2022</span> <b>GRASS GIS 8.0.2</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.0.2">Changelog</a> - <a href="/grass80/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 26 Apr 2022</span> Creation of the GRASS GIS 8.2 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_2">e87e515</a>)</li>
