@@ -110,12 +110,12 @@ If the md file used for generating the page has a summary, its value is used as 
 
   title: "CONFERENCE NAME"
   event:
-      start: START-DATE
-      end: END-DATE
-  where: CITY
+      start: YYYY-MM-DD
+      end: YYYY-MM-DD
+  where: CITY, COUNTRY
   website: URL
   layout: "event"
-  logo: images/conferences_logos/YOUR_LOGO.png
+  logo: images/conferences_logos/CONF_LOGO_YEAR.png
 
 
 * Add your logo to `/grass-website/images/conferences_logos` folder
