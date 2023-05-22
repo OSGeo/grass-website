@@ -61,8 +61,8 @@
   <div class="col-md-4 bg-white">
     <div class="row">
     	<h3 class="mt-20 grasscolor">@GRASSGIS</h3>
-      <a class="twitter-timeline" data-link-color="#B8C6A5" data-tweet-limit="4" data-chrome="nofooter noheader" href="https://twitter.com/GRASSGIS" height="80vh">@GRASSGIS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
+    {{ partial "twitter.html" . }}
     <div class="row">
     <h3 class="mt-20 grasscolor">Next events</h3>
     {{ $events := where ( where $.Site.Pages "Section" "events" ) ".Params.event.start" "!=" nil }}
