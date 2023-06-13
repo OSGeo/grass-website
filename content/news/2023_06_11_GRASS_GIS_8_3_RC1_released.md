@@ -8,27 +8,27 @@ author: GRASS Development Team
 ### What's new in a nutshell
 
 The GRASS GIS 8.3.0RC1 release provides more than 360 improvements 
-and fixes with respect to the 8.2 branch. This new minor release
+and fixes compared to the 8.2 branch. This new minor release
 brings in many fixes and improvements in GRASS GIS modules and the
 graphical user interface (GUI) which now has the 
 **single window layout by default**. 
 Some of the most relevant changes include: support for parallelization
-in three raster modules, new options added to different temporal modules, 
-and substantial clean-up of g.extension, the module alowing to install 
-addons. The GUI also received a lot of attention with many fixes and 
-items being re-organized.
-Furthermore, we have adopted Clang-Format and indented most of C code 
-accordingly. A lot of effort has been put in cleaning up of C/C++ code 
+in three raster modules, new options added to several temporal modules, 
+and substantial clean-up of `g.extension`, the module that allows the installation
+of add-ons. The GUI also received a lot of attention with many fixes and 
+items reorganised.
+We have also adopted the Clang format and indented most of the C code
+accordingly. A lot of effort was put into cleaning up the C/C++ code
 to fix almost all compiler warnings.
 
-Tanslations were moved from Transifex to 
-[Weblate](https://weblate.osgeo.org/projects/grass-gis/), that 
-automatically creates pull requests with the translated chunks. 
-We'd like to thank translators of all languages for your long-term 
-support!! 
+Translations have been moved from Transifex to
+[Weblate](https://weblate.osgeo.org/projects/grass-gis/), which
+automatically creates pull requests with the translated chunks.
+We'd like to thank the translators of all languages for their
+long term support!
 
-Also, docker images have been updated and moved from mundialis 
-organization to <https://hub.docker.com/r/osgeo/grass-gis/>.
+Also, docker images have been updated and moved from the mundialis 
+to the OSGeo organization at  <https://hub.docker.com/r/osgeo/grass-gis/>.
 
 We have carried out quite some work in the GitHub Actions: 
 we added support for "pre-commit" in order to reduce unnecessary 
@@ -37,8 +37,8 @@ the code checking section and we have activated renovatebot
 to automatically maintain GitHub Actions.
 
 Last but not least, we have significantly improved the automated
-release creation to reduce maintainers burden and we have 
-gained nine new contributors! Welcome!!
+release creation to reduce maintainer workload and we have 
+gained nine new contributors! Welcome all!!
 
 <a href="">
   <img src=""
