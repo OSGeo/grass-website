@@ -1,6 +1,6 @@
 ---
 title: "Docker"
-date: 2022-06-13T10:12:05+02:00
+date: 2023-06-15T10:12:05+02:00
 description: "Download GRASS GIS Docker images"
 weight: 4
 layout: "os"
@@ -10,6 +10,8 @@ layout: "os"
 #### Quick links
 
 [ [**GRASS GIS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
+
+For a list of GRASS GIS versions, see the [docker tag list](https://hub.docker.com/r/osgeo/grass-gis/tags).
 
 <hr>
 
@@ -27,6 +29,8 @@ layout: "os"
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu){{< /donateDialog  >}}  (<small>1.2 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull osgeo/grass-gis:{{< currentVersion.inline  />}}-ubuntu</code></pre>
 
+*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based with GUI support](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui){{< /donateDialog  >}}  (<small>1.3 GB, with wxPython, Python 3 and PDAL</small>)
+   <pre><code class="dockerfile">docker pull osgeo/grass-gis:releasebranch_{{< currentVersionUnderscore.inline  />}}-ubuntu_wxgui</code></pre>
 
 <hr>
 
@@ -62,6 +66,10 @@ layout: "os"
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull osgeo/grass-gis:latest-ubuntu</code></pre>
+
+*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based with GUI support](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui){{< /donateDialog  >}}  (<small>1.3 GB, with wxPython, Python 3 and PDAL</small>)
+   <pre><code class="dockerfile">docker pull osgeo/grass-gis:latest-ubuntu_wxgui</code></pre>
+
 
  {{< donateDialog >}}
  {{< /donateDialog >}}
