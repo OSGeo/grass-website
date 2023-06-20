@@ -7,8 +7,8 @@ author: Luis Moreira de Sousa and the GRASS Development Team
 
 ### The r.mblend experience
 
-<a href="https://grass.osgeo.org/grass82/manuals/addons/edges.png">
-  <img src="https://grass.osgeo.org/grass82/manuals/addons/edges.png"
+<a href="https://grass.osgeo.org/grass-stable/manuals/addons/edges.png">
+  <img src="https://grass.osgeo.org/grass-stable/manuals/addons/edges.png"
    alt="r.mblend screenshot"
    title="r.mblend screenshot"
    width="40%" style="float:right;padding-left:25px;padding-top:5px">
