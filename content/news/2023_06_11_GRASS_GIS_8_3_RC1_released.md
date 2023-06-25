@@ -1,13 +1,13 @@
 ---
-title: "First release candidate for GRASS GIS 8.3 is out"
-date: 2023-06-11T12:42:00-03:00
+title: "GRASS GIS 8.3.0 released"
+date: 2023-06-24T12:42:00-03:00
 layout: "news"
 author: GRASS Development Team
 ---
 
 ### What's new in a nutshell
 
-The GRASS GIS 8.3.0RC1 release provides more than 360 improvements 
+The GRASS GIS 8.3.0 release provides more than 360 improvements 
 and fixes compared to the 8.2 branch. This new minor release
 brings in many fixes and improvements in GRASS GIS modules and the
 graphical user interface (GUI) which now has the 
@@ -51,7 +51,7 @@ gained nine new contributors! Welcome all!!
 
 For all 360+ changes, see our detailed announcement with the full list of
 features and bugs fixed at
-[GitHub / Releases / 8.3.0RC1](https://github.com/OSGeo/grass/releases/tag/8.3.0RC1).
+[GitHub / Releases / 8.3.0](https://github.com/OSGeo/grass/releases/tag/8.3.0).
 
 Thank you all contributors!!
 
@@ -60,11 +60,12 @@ Thank you all contributors!!
 #### Binaries/Installers download
 
 - Windows
-  - [64bit standalone installer]()
+  - [64bit standalone installer](https://grass.osgeo.org/grass83/binary/mswindows/native/WinGRASS-8.3.0-1-Setup.exe)
 - macOS
   - [Official Application Bundle](http://grassmac.wikidot.com/downloads)
 - Linux
   - [Debian](https://tracker.debian.org/pkg/grass)
+  - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)
   - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
   - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
 
@@ -74,8 +75,8 @@ please check at [software downloads](/download/software/index.html).
 #### Source code download
 
 - <https://grass.osgeo.org/grass83/source/>
-- <https://grass.osgeo.org/grass83/source/grass-8.3.0RC1.tar.gz>
-- [From GitHub](https://github.com/OSGeo/grass/releases/tag/8.3.0RC1)
+- <https://grass.osgeo.org/grass83/source/grass-8.3.0.tar.gz>
+- [From GitHub](https://github.com/OSGeo/grass/releases/tag/8.3.0)
 
 First time users may explore the [**first steps tutorial**](/learn/) after
 installation.
