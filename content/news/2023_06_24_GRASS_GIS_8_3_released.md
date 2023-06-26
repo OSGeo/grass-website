@@ -7,12 +7,12 @@ author: GRASS Development Team
 
 ### What's new in a nutshell
 
-The GRASS GIS 8.3.0 release provides more than 360 improvements 
-and fixes compared to the 8.2 branch. This new minor release
-brings in many fixes and improvements in GRASS GIS modules and the
+The GRASS GIS 8.3.0 release provides more than **360 changes** 
+compared to the 8.2 branch. This new minor release
+brings in **many fixes and improvements** in GRASS GIS modules and the
 graphical user interface (GUI) which now has the 
 **single window layout by default**. 
-Some of the most relevant changes include: support for parallelization
+Some of the most relevant changes include: support for **parallelization**
 in three raster modules, new options added to several temporal modules, 
 and substantial clean-up of `g.extension`, the module that allows the installation
 of add-ons. The GUI also received a lot of attention with many fixes and 
@@ -24,8 +24,15 @@ to fix almost all compiler warnings.
 Translations have been moved from Transifex to
 [Weblate](https://weblate.osgeo.org/projects/grass-gis/), which
 automatically creates pull requests with the translated chunks.
-We'd like to thank the translators of all languages for their
+We'd like to **thank the translators of all languages** for their
 long term support!
+
+<a href="/images/news/grass83_news_screenshot.png">
+  <img src="/images/news/grass83_news_screenshot.png"
+   alt="GRASS GIS 8.3"
+   title="GRASS GIS 8.3"
+   width="60%" style="float:right;padding-left:15px;padding-top:20px">
+</a>
 
 Also, docker images have been updated and moved from the mundialis 
 to the OSGeo organization at  <https://hub.docker.com/r/osgeo/grass-gis/>.
@@ -39,13 +46,6 @@ to automatically maintain GitHub Actions.
 Last but not least, we have significantly improved the automated
 release creation to reduce maintainer workload and we have 
 gained nine new contributors! Welcome all!!
-
-<a href="">
-  <img src=""
-   alt="GRASS GIS 8.3"
-   title="GRASS GIS 8.3"
-   width="60%" style="float:right;padding-left:15px;padding-top:20px">
-</a>
 
 ### Full list of changes and contributors
 
