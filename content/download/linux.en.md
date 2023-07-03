@@ -13,7 +13,7 @@ layout: "os"
 <i class="fa fa-arrow-right"></i> Install <tt>grass</tt> package on your Linux distribution. Have a look at 
 {{< donateDialog isToggle=true isMarkdown=true >}}[Repology](https://repology.org/project/grass/versions){{< /donateDialog  >}} for an extended
 list of GRASS GIS packages or directly check the 
-<a href="https://repology.org/badge/vertical-allrepos/grass.svg?exclude_unsupported=1&exclude_sources=modules,site&minversion=8.2.0&columns=3" class="btn btn-primary">Packaging Status</a>
+<a href="https://repology.org/badge/vertical-allrepos/grass.svg?exclude_unsupported=1&exclude_sources=modules,site&minversion={{< grassVersion version="current" >}}&columns=3" class="btn btn-primary">Packaging Status</a>
 to quickly know which GRASS GIS version is currently available for your distro.
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Arch Linux](https://aur.archlinux.org/packages/grass/){{< /donateDialog  >}}
