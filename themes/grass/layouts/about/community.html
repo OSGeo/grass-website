@@ -1,11 +1,13 @@
 {{ partial "head.html" . }}
-{{ partial "banner.html" . }}
 
 
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="container bg-white">
+      {{ partial "navigation.html" . }}
+    </div>
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
@@ -13,7 +15,7 @@
 
 
 <!-- details page -->
-<section class="single section bg-gray pb-0">
+<section class="single section bg-gray pb-0 mt-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
@@ -28,7 +30,7 @@
 	<img src="/images/gallery/community/2017_grass-devteam_paris.jpg" alt="GRASS GIS dev team">
 	<label class="nm"><small><i>Some of the GRASS dev team members</i></small></label>
 	</figure>
-      <div class="mt-20">	
+      <div class="mt-20">
 	{{ partial "wiki.html" . }}
       <div class="mt-30">
 	{{ partial "osgeo.html" . }}

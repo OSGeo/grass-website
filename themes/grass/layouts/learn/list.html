@@ -1,16 +1,18 @@
 {{ partial "head.html" . }}
-{{ partial "banner.html" . }}
 
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="container bg-white">
+      {{ partial "navigation.html" . }}
+    </div>
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
-    
+
 <section class="pt-4 bg-gray">
   <div class="container">
   <div class="row">
@@ -43,7 +45,7 @@
             <b>GRASS</b> GIS<img src="/images/logos/grasslogo_wiki.png" width="34%" alt="GRASS GIS">
         </a>
     </div>
-       
+
     <div class="col-lg-8 col-sm-6 mb-4 bg-white">
         <img src="/images/gallery/temporal/tgrass_flowchart.png" width="40%" alt="TGRASS Flowchart" style="float:right;padding-top:20px">
         <a href="https://github.com/veroandreo/grass_opengeohub2019/raw/master/pdf/tgrass_lst.pdf" class="px-4 py-4 d-block htl"><h3 class="mt-2 mb-4">Time series in GRASS GIS</h3></a>
@@ -70,7 +72,7 @@
   </div>
 
 </div>
-      
+
 <div class="row justify-content-center">
 
      <div class="col-lg-8 col-sm-6 mb-4 bg-white">

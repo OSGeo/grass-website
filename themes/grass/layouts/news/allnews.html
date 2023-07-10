@@ -1,17 +1,20 @@
 {{ partial "head.html" . }}
-{{ partial "banner.html" . }}
+
 
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+<header class="shadow-bottom bg-white">
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="container bg-white">
+      {{ partial "navigation.html" . }}
+    </div>
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
 
-<section class="pt-4 bg-gray">
+<section class="pt-4 bg-gray" style="margin-top: 95px;">
   <div class="container">
   <div class="row">
         <div class="col-12 text-center">
@@ -32,7 +35,7 @@
       {{ if ne $prev 3000}}
         </div></div></div>
 	{{ end }}
-	
+
  <div class="panel-group">
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -52,7 +55,7 @@
       {{ $prev = .Date.Format "2006"}}
       {{end}}
       {{end}}
-     </ul>    
+     </ul>
    </div>
   </div>
   </div>
@@ -84,7 +87,7 @@
     </div>
     {{ end }}
     {{ end }}
-    </div>  
+    </div>
   </div>
   </div>
   </div>

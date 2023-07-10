@@ -1,12 +1,14 @@
 {{ partial "head.html" . }}
-{{ partial "banner.html" . }}
 
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="container bg-white">
+      {{ partial "navigation.html" . }}
+    </div>
   </div>
-</header>
+/header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
@@ -37,7 +39,7 @@
           <div class="row">
             <div class="col-lg-12">
 	      {{ range .Data.Pages }}
-	        {{ if not .Params.categories }}	      
+	        {{ if not .Params.categories }}
               <div class="section bg-white mb-4">
                 <div class="row nm">
                   <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/grass-{{.Title}}.jpg"></div>
@@ -71,7 +73,7 @@
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
