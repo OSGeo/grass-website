@@ -801,7 +801,7 @@ ul {
   margin: 0 0 20px 20px;
 }
 ul li a {
-  display: inline-block; 
+  display: inline-block;
   font-size: 15px;
   font-weight: 400;
   padding: 2px 0px;
@@ -980,7 +980,7 @@ li.parent a {
     background: #F6F6F6;
   }
 
-  
+
   .timeline .panel {
     position: relative;
     margin: 10px 0px 0px 40px;
@@ -1090,7 +1090,7 @@ li.parent a {
     display:block;
 }
 
-.timeline .glyphicon.glyphicon-one-fine-dot:before {   
+.timeline .glyphicon.glyphicon-one-fine-dot:before {
   content: "\25cf";
   font-size: 1.5em;
   color: #0039a6;
@@ -1189,7 +1189,7 @@ nobullets {
    list-style-type: none;
 }
 
-  /* 
+  /*
 
 .hljs {
    background:#c5c8c6;
@@ -1272,6 +1272,9 @@ code{
     margin-left:-59px;
     z-index:1;
 }
+.mt-95 {
+    margin-top: 95px;
+}
 
 
 @media (max-width: 576px) {
@@ -1296,7 +1299,7 @@ code{
   font-size: 28px !important;
   }
   h2, .h2 {
-  font-size: 24px !important;    
+  font-size: 24px !important;
   }
   h3, .h3 {
   font-size: 22px !important;
@@ -1331,7 +1334,7 @@ code{
     padding-top: 20px;
     padding-bottom: 20px;
    }
-  
+
   .section-title {
     margin-bottom: 32px;
     font-size: 22px !important;
@@ -1345,7 +1348,7 @@ code{
   }
 
   #links li span a {
-    font-size: 15px !important;      
+    font-size: 15px !important;
   }
   .entry-meta {
     font-size: 14px !important;
