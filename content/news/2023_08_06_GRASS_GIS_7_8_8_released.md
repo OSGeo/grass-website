@@ -16,7 +16,7 @@ author: GRASS Development Team
 
 The GRASS GIS 7.8.8 release provides more than **80 improvements and fixes**
 compared to the 7.8.7 release. **This release is expected to be the last 7.8 release.
-Development will continue with GRASS GIS 8.x.**
+Development continues with GRASS GIS 8.x.**
 
 The overview of features in the 7.8 release series is available at
 [new features in GRASS GIS 7.8](https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78).
