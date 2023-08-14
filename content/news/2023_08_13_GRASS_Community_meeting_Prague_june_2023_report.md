@@ -68,4 +68,4 @@ stay updated on future news and events. If you would like to see more
 developments like this in the future, please consider contributing via
 [Open Collective](https://opencollective.com/grass/contribute).
 
-*The GRASS Development Team, August 2023*
+*Markus Neteler, Anna Petrasova, Vaclav Petras, Veronica Andreo, August 2023*
