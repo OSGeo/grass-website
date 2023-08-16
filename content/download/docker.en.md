@@ -21,16 +21,16 @@ For a list of GRASS GIS versions, see the [docker tag list](https://hub.docker.c
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch {{< grassVersion version="current" type="short">}}</b></div>
 
 *   {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Alpine based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=alpine){{< /donateDialog  >}} (<small>233 MB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull osgeo/grass-gis:{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}-alpine</code></pre>
+    <pre><code class="dockerfile">docker pull osgeo/grass-gis:relesebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-alpine</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=debian){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull osgeo/grass-gis:{{< currentVersion.inline  />}}-debian</code></pre>
+    <pre><code class="dockerfile">docker pull osgeo/grass-gis:relesebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-debian</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu){{< /donateDialog  >}}  (<small>1.2 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:{{< currentVersion.inline  />}}-ubuntu</code></pre>
+   <pre><code class="dockerfile">docker pull osgeo/grass-gis:relesebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based with GUI support](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui){{< /donateDialog  >}}  (<small>1.3 GB, with wxPython, Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:releasebranch_{{< currentVersionUnderscore.inline  />}}-ubuntu_wxgui</code></pre>
+   <pre><code class="dockerfile">docker pull osgeo/grass-gis:relesebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu_wxgui</code></pre>
 
 <hr>
 
