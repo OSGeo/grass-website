@@ -59,16 +59,16 @@ For a list of GRASS GIS versions, see the [docker tag list](https://hub.docker.c
 </div>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Alpine based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=alpine){{< /donateDialog  >}} (<small>236 MB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull osgeo/grass-gis:latest-alpine</code></pre>
+    <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-alpine</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=debian){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:latest-debian</code></pre>
+   <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-debian</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:latest-ubuntu</code></pre>
+   <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-ubuntu</code></pre>
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based with GUI support](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui){{< /donateDialog  >}}  (<small>1.3 GB, with wxPython, Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:latest-ubuntu_wxgui</code></pre>
+   <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-ubuntu_wxgui</code></pre>
 
 
  {{< donateDialog >}}
