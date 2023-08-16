@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2023-05-17T17:12:05+02:00
+date: 2023-08-16T17:12:05+02:00
 layout: "timeline"
 ---
 
@@ -20,9 +20,13 @@ layout: "timeline"
         <div id="2023" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 11 Aug 2023</span> <b>GRASS GIS 7.8.8</b> &#160; (sunset release for GRASS GIS 7.x) <br><a href="https://github.com/OSGeo/grass/releases/tag/7.8.8">Changelog</a> - <a href="/grass78/source/">Source Code</a></li>
+
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 24 Jun 2023</span> <b>GRASS GIS 8.3.0</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.3.0">Changelog</a> - <a href="/grass83/source/">Source Code</a></li>
+
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 17 May 2023</span> Creation of the GRASS GIS 8.3 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_3">aaa5f6d</a>)</li> <!-- aaa5f6def0af133626d85e890b1fdee9a497614b -->
 
-<!-- find with git log releasebranch_8_3(not main) -->
+<!-- find with git log releasebranch_8_3 (not main) -->
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 21 Jan 2023</span> <b>GRASS GIS 8.2.1</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.2.1">Changelog</a> - <a href="/grass82/source/">Source Code</a></li>
 </ul>
           </div>
