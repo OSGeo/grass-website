@@ -67,7 +67,7 @@
     <div class="row">
     	<h3 class="mt-20 grasscolor">@GRASSGIS</h3>
     </div>
-    {{ partial "twitter.html" . }}
+    {{ partial "mastodon.html" . }}
     <div class="row">
     <h3 class="mt-20 grasscolor">Next events</h3>
     {{ $events := where ( where $.Site.Pages "Section" "events" ) ".Params.event.start" "!=" nil }}
