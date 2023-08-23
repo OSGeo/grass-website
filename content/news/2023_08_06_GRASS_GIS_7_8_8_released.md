@@ -31,7 +31,7 @@ bugs fixed at
 - winGRASS 7.8.8/OSGeo4W:
 [64bit OSGeo4W installer](http://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe)
 - Mac
-    - forthcoming at [Official Application Bundle](http://grassmac.wikidot.com/downloads)
+    - forthcoming at [Official Application Bundle](https://cmbarton.github.io/grass-mac/_pages/download-grass/)
     - [MacPorts](https://ports.macports.org/port/grass7/)
 - Linux
     - [Debian](https://tracker.debian.org/pkg/grass)
