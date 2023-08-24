@@ -1,6 +1,6 @@
 ---
 title: "Mac"
-date: 2020-12-21T11:02:05+06:00
+date: 2023-08-231T11:02:05+06:00
 description: "Download bundled GRASS GIS binaries for your Mac"
 weight: 3
 layout: "os"
@@ -33,7 +33,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
-    <a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a>
+    <a href="https://cmbarton.github.io/grass-mac/_pages/download-grass/"><i class="fa fa-download"></i> Download </a>
  {{< /donateDialog  >}} 
  </li>
 </ul>
@@ -56,7 +56,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
- <a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a>
+ <a href="https://cmbarton.github.io/grass-mac/_pages/download-grass/"><i class="fa fa-download"></i> Download </a>
  {{< /donateDialog  >}} 
  </li>
 </ul>
@@ -79,7 +79,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
-<a href="http://grassmac.wikidot.com/downloads"><i class="fa fa-download"></i> Download </a>
+<a href="https://cmbarton.github.io/grass-mac/_pages/download-grass/"><i class="fa fa-download"></i> Download </a>
  {{< /donateDialog  >}} 
 </li>
 </ul>

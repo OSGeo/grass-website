@@ -62,7 +62,7 @@ Thank you all contributors!!
 - Windows
   - [64bit standalone installer](https://grass.osgeo.org/grass83/binary/mswindows/native/WinGRASS-8.3.0-1-Setup.exe)
 - macOS
-  - [Official Application Bundle](http://grassmac.wikidot.com/downloads)
+  - [Official Application Bundle](https://cmbarton.github.io/grass-mac/_pages/download-grass/)
 - Linux
   - [Debian](https://tracker.debian.org/pkg/grass)
   - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)
