@@ -40,8 +40,7 @@ This restructuring is intended to improve clarity, streamline
 versioning and optimise the user experience when selecting appropriate
 image tags for deployment.
 
-In summary, as we have phased out the repository under mundialis, we
-anticipate improved maintenance and a more streamlined user experience
-for GRASS GIS Docker images within the OSGeo framework.
+In summary, as we moved the repository from mundialis to the OSGeo
+organisation, we took the opportunity to clean up the Docker tags.
 
 _Carmen Tawalika (mundialis), Markus Neteler and The GRASS Dev Team_
