@@ -40,7 +40,21 @@ This restructuring is intended to improve clarity, streamline
 versioning and optimise the user experience when selecting appropriate
 image tags for deployment.
 
+Now there are four different types of tags, while `{{ os }}` can be replaced with "alpine", "debian" or "ubuntu" (and for more recent versions also with "ubuntu_wxgui"):
+- `latest` for latest release (at this time 8.3) and with ubuntu operating system
+- `current-{{ os }}` for current releasebranch (at this time 8.3), e.g `current-ubuntu`
+- `{{ branch }}-{{ os }}` for all configured branches, e.g. `releasebranch_8_3-alpine`,  `main-debian`
+- `{{ tag }}-{{ os }}` for all published releases. e.g. `8.3.0-alpine`
+
+While naming of branches and tags is still the same, it adds `current-{{ os }}` and abandons deprecated naming style `latest-{{ os }}` and `stable-{{ os }}`. Also content of `latest` tag was changed from `main` branch to latest release.
+
+If `mundialis/grass-py3-pdal:latest-{{ os }}` was used containing the latest development version, it should now be replaced with `osgeo/grass-gis:main-{{ os }}`. For `mundialis/grass-py3-pdal:stable-{{ os }}` (which was formerly build upon releasebranch_7_8) a switch to the current stable releasebranch `osgeo/grass-gis:current-{{ os }}` is recommended or the usage of a specific releasebranch `releasebranch_8_3-{{ os }}`. Old GRASS GIS Dockerimages with version 7.8 can still be found at mundialis/grass-py3-pdal.
+
 In summary, as we moved the repository from mundialis to the OSGeo
 organisation, we took the opportunity to clean up the Docker tags.
+
+Related docker build configuration changes can be found here:
+- [docker: Update dockerhub organization](https://github.com/OSGeo/grass/pull/3001)
+- [docker: CI update and simplification](https://github.com/OSGeo/grass/pull/3075)
 
 _Carmen Tawalika (mundialis), Markus Neteler and The GRASS Dev Team_
