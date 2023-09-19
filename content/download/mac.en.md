@@ -13,7 +13,7 @@ layout: "os"
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> Find <b>GRASS GIS binaries</b> on
  {{< donateDialog isToggle=true >}}  
-     <a href="http://grassmac.wikidot.com" target="_blank"> GRASS GIS for the Mac </a> 
+     <a href="https://cmbarton.github.io/grass-mac/download/" target="_blank"> GRASS GIS for the Mac </a> 
  {{< /donateDialog  >}} 
 or install the latest available version from <a href="https://ports.macports.org/port/grass/" target="_blank">MacPorts</a> 
 <a href="https://repology.org/project/grass/versions" target="_blank"> 
@@ -33,7 +33,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
-    <a href="https://cmbarton.github.io/grass-mac/download/"><i class="fa fa-download"></i> Download </a>
+    <a href="https://cmbarton.github.io/grass-mac/download/" target="_blank"><i class="fa fa-download"></i> Download </a>
  {{< /donateDialog  >}} 
  </li>
 </ul>
@@ -56,7 +56,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
- <a href="https://cmbarton.github.io/grass-mac/download/"><i class="fa fa-download"></i> Download </a>
+ <a href="https://cmbarton.github.io/grass-mac/download/" target="_blank"><i class="fa fa-download"></i> Download </a>
  {{< /donateDialog  >}} 
  </li>
 </ul>
@@ -79,7 +79,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
-<a href="https://cmbarton.github.io/grass-mac/download/"><i class="fa fa-download"></i> Download </a>
+<a href="https://cmbarton.github.io/grass-mac/download/" target="_blank"><i class="fa fa-download"></i> Download </a>
  {{< /donateDialog  >}} 
 </li>
 </ul>
