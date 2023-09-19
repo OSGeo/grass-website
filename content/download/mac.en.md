@@ -33,7 +33,7 @@ or install the latest available version from <a href="https://ports.macports.org
 <ul>
 <li>
  {{< donateDialog isToggle=true >}}  
-    <a href="[https://cmbarton.github.io/grass-mac/download/](https://cmbarton.github.io/grass-mac/download/)"><i class="fa fa-download"></i> Download </a>
+    <a href="https://cmbarton.github.io/grass-mac/download/"><i class="fa fa-download"></i> Download </a>
  {{< /donateDialog  >}} 
  </li>
 </ul>
