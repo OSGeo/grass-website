@@ -5,6 +5,3 @@ icon: "fa fa-user"
 description: "Find support for GRASS GIS"
 layout: "commercial"
 ---
-
-
-# bla

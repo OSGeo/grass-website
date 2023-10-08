@@ -168,18 +168,12 @@ greyColorDark = "#A0A0A0"
         name = "Community"
         URL = "/support/community"
         weight = 1
-      
-      [[Languages.en.menu.main]]
-        parent = "Support"
-        name = "Wiki"
-        URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
-        weight = 2
 
       [[Languages.en.menu.main]]
         parent = "Support"
         name = "Commercial Support"
         URL = "/support/commercial"
-        weight = 3    
+        weight = 2    
       
     [[Languages.en.menu.main]]
       weight = 5
