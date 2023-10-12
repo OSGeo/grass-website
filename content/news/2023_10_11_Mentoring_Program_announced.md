@@ -22,7 +22,7 @@ The use cases include (but are not limited to):
 * integrating GRASS GIS in another software.
 
 
-The program is open to people from all walks of life regardless of employment or student status. Projects on beginner technical level are welcome.
+The program is open to people from all walks of life regardless of employment or student status. Applicants and projects on beginner technical level are welcome.
 
 Interested? To apply, follow the directions on the [Mentoring Program wiki](https://grasswiki.osgeo.org/wiki/Mentoring_Program).
 
@@ -33,7 +33,7 @@ Interested? To apply, follow the directions on the [Mentoring Program wiki](http
    width="15%" style="float:right;padding-left:25px;padding-top:15px">
 </a>
 
-The funding to cover the time of mentors is provided by the U.S. National Science Foundation, award 2303651.
+The funding to cover the mentors' time is provided by the U.S. National Science Foundation, award 2303651.
 
 
 *Vaclav (Vashek) Petras* (North Carolina State University),\
