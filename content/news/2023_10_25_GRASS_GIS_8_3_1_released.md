@@ -2,7 +2,7 @@
 title: "GRASS GIS 8.3.1 released"
 date: 2023-10-25T12:42:00-03:00
 layout: "news"
-author: GRASS Development Team
+author: Markus Neteler and the GRASS Development Team
 ---
 
 ### What's new in a nutshell
