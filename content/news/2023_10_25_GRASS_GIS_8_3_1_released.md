@@ -17,7 +17,7 @@ Some of the most relevant changes include: fixes for `r.watershed` which
 got partially broken in the 8.3.0 release; and a fix for installing addons
 on MS Windows with `g.extension`.
 
-Translations have been continued in
+Translations continue in
 [Weblate](https://weblate.osgeo.org/projects/grass-gis/), which
 automatically creates pull requests with the translated chunks.
 We'd like to **thank the translators of all languages** for their
