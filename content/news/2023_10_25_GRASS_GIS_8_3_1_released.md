@@ -23,8 +23,8 @@ automatically creates pull requests with the translated chunks.
 We'd like to **thank the translators of all languages** for their
 ongoing support!
 
-<a href="/images/news/grass83_news_screenshot.png">
-  <img src="/images/news/grass83_news_screenshot.png"
+<a href="/images/news/grass831_gui_vector.png">
+  <img src="/images/news/grass831_gui_vector.png"
    alt="GRASS GIS 8.3.1"
    title="GRASS GIS 8.3.1"
    width="60%" style="float:right;padding-left:15px;padding-top:20px">
