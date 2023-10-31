@@ -1,6 +1,6 @@
 ---
 title: "GRASS theme elements"
-date: 2018-12-27T09:10:27+06:00
+date: 2023-08-27T18:10:27+02:00
 layout: theme
 ---
 
@@ -545,7 +545,7 @@ Default
 <h3 class="mb-5">mapskin (2.0)</h3>
 <div class="row mb-4">
 <div class="col-lg-4"><i class="ms ms-grass-gis ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-vector ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-raster ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-database ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-img-o ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-osgeo ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-map-rolled-o ms-2x grey-color-dark"></i>
-<p class="mt-2"><a href="https://mapsk.in/#icons"><i class="ms ms-mapskin"></i> See the full icon list</a></p>
+<p class="mt-2"><a href="https://web.archive.org/web/20210613053834/https://mapsk.in/#software"><i class="ms ms-mapskin"></i> See the full software icon list</a></p>
 </div>
 <div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;i class="ms ms-grass-gis"&gt;&lt;/i&gt;</code></pre>
 </div>

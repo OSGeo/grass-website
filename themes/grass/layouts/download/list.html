@@ -1,17 +1,21 @@
 {{ partial "head.html" . }}
-{{ partial "banner.html" . }}
 
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-white">
+      <div class="container bg-white">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
    <section>
-      <section class="pt-4 bg-gray">
+      <section class="pt-4 bg-gray mt-95">
         <div class="container">
           <div class="row">
             <div class="col-12 text-center">
@@ -37,10 +41,10 @@
           <div class="row">
             <div class="col-lg-12">
 	      {{ range .Data.Pages }}
-	        {{ if not .Params.categories }}	      
+	        {{ if not .Params.categories }}
               <div class="section bg-white mb-4">
                 <div class="row nm">
-                  <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/grass-{{.Title}}.jpg"></div>
+                  <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/grass-{{.Title}}.jpg" width="110"></div>
                   <div class="col-8">
 		    <h3 class="mt-2 mb-2">GRASS GIS for {{ .Title }}</h3>
 		    <p>{{ .Description }}</p>
@@ -71,7 +75,7 @@
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>

@@ -1,16 +1,20 @@
 {{ partial "head.html" . }}
-{{ partial "banner.html" . }}
 
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-white">
+      <div class="container bg-white">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
-  <section class="single section bg-gray pb-0">
+  <section class="single section bg-gray pb-0 mt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -44,5 +48,5 @@
       </div>
     </div>
     </section>
-    
+
   {{ partial "footer.html" . }}

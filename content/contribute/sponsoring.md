@@ -45,9 +45,10 @@ We handle all donations and financial support in
 [**OpenCollective**](https://opencollective.com/grass/contribute).
 There you will find several **sponsorship tiers** to choose from
 and also a **donation tier** which can be customized to suit your needs.
-The different sponsorship tiers and suggested annual contributions are
+The different sponsorship tiers and **suggested annual contributions** are
 described below.
 
+{{< table "table table-striped table-bordered">}}
 |Tier   	|Amount (USD)  |
 |---	    |---	|
 |Diamond	|10000  |
@@ -55,8 +56,9 @@ described below.
 |Gold  	    |2000  	|
 |Silver  	|1000  	|
 |Bronze  	|500   	|
+{{</ table >}}
 <br>
-<div align="left"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass/contribute" target="_blank">BECOME A SPONSOR</a></b></button></div>
+<div align="center"><button class="btn btn-primary"><b><a href="https://opencollective.com/grass/contribute" target="_blank">BECOME A SPONSOR</a></b></button></div>
 
 ### Sponsorship benefits
 
@@ -64,14 +66,19 @@ All sponsors are important to the GRASS GIS project, no matter
 what level of funding they commit to.
 In recognition of the different levels of sponsorship,
 each sponsor will receive specific benefits. These are mostly
-limited to logo sizes so far, but as the PSC sees potential,
-we will extend the list of benefits according to the level of support.
+limited to logo sizes, announcements (via mailing list and website 
+news items) and social media posts ([Twitter](https://twitter.com/GRASSGIS) 
+and [Fosstodon](https://fosstodon.org/@grassgis)) so far, 
+but as the PSC sees potential, we will extend the list of benefits 
+according to the level of support.
 
+{{< table "table table-striped table-bordered">}}
 | **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
 |---|---|---|---|---|---|
 | Logo size  | 500x500  | 400x400  | 300x300  | 250x250  | 200x200  |
 | Announcement | press release  | news post  | news post  | news post  | ---  |
 | Social media  | 4 times  | 3 times  | 2 times  | 1 time  | ---  |
+{{</ table >}}
 
 ### Our Sponsors and supporters
 
