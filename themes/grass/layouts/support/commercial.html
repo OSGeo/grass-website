@@ -35,45 +35,21 @@
                 </div>
               </div>
 
-          <div class="row">
-            <div class="col-lg-12">
-	      {{ range .Data.Pages }}
-	        {{ if not .Params.categories }}	      
               <div class="section bg-white mb-4">
                 <div class="row nm">
-                  <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/grass-{{.Title}}.jpg" style="float:center;padding-top:20px;"></div>
+                  <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/cgaBlack.png" style="float:center;padding-top:50px"></div>
                   <div class="col-8">
-		    <h3 class="mt-2 mb-2">GRASS GIS for {{ .Title }}</h3>
-		    <p>{{ .Description }}</p>
-		    <a class="btn btn-primary" href="{{.File.TranslationBaseName}}">Download</a>
-                  </div>
-                </div>
-		</div>
-		{{ end }}
-	       {{ end }}
-               <div class="section bg-white mb-4">
-                <div class="row nm">
-                  <div class="col-4 text-center"><object type="image/svg+xml" data="{{.Site.BaseURL}}/images/logos/grasslogo.svg" class="grasslogo"></object></div>
-                  <div class="col-8">
-		    <h3 class="mt-2 mb-2">GRASS GIS Addons</h3>
-		     <p>Download user contributed GRASS GIS extensions</p>
-		    <a class="btn btn-primary" href="{{.Site.BaseURL}}/download/addons">Download</a>
-                  </div>
-                </div>
-		</div>
+                    <h3 class="mt-2 mb-2">Center for Geospatial Analytics at NC State University</h3>
+                    <p>At the Center for Geospatial Analytics, we develop and improve GRASS GIS open source geospatial software.
+                      Our <a href="https://cnr.ncsu.edu/geospatial/engage/service-center/">Service Center</a> builds solutions leveraging GRASS GIS and provides training.</p>
+            <a class="btn btn-primary" href="https://cnr.ncsu.edu/geospatial/engage" target="_blank">Visit our website</a>
 
-              <div class="section bg-white mb-4">
-                <div class="row nm">
-                  <div class="col-4 text-center"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grass-SampleData.jpg"></div>
-                  <div class="col-8">
-		    <h3 class="mt-2 mb-2">GRASS GIS sample data</h3>
-		     <p>Download ready-to-use GRASS GIS sample datasets</p>
-		    <a class="btn btn-primary" href="{{.Site.BaseURL}}/download/data">Download</a>
                   </div>
                 </div>
               </div>
-              
-            </div>
+
+          <div class="row">
+
           </div>
         </div>
       </section>{{ partial "footer.html" . }}
