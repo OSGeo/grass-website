@@ -15,4 +15,4 @@ layout: "support"
 
 ## [Commercial support](/support/commercial)
 <i class="fa fa-phone fa-4x" style="float:left;padding-right:10px"></i>
-If you are looking for custom development, training, or consultation, see the [list of companies and organizations](/support/commercial) that offer their professional services to address your needs.
+If you are looking for consulting, training, or custom development, see the [list of companies and organizations](/support/commercial) that offer their professional services to address your needs.
