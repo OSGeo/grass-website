@@ -56,7 +56,6 @@ Discussions in question and answer (Q&A) style may be held on these sites; you n
 | <i class="fa fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
 | <i class="fa fa-stack-exchange"></i> |  [gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS GIS on StackExchange |
 | <i class="fa fa-comments"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS GIS on Gitter |
-| <i class="fa fa-terminal"></i> |  [web.libera.chat](https://web.libera.chat/#grass) | Channel #grass |
 
 ### Social media
 
