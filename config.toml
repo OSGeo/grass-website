@@ -68,162 +68,166 @@ greyColorDark = "#A0A0A0"
       name = "Download"
       url = "/download"
 
-    [[Languages.en.menu.main]]
-          parent = "Download"
-          name = "GRASS GIS source code"
-          URL = "https://github.com/OSGeo/grass/tags"
-          weight = 1
-
-	[[Languages.en.menu.main]]
-          parent = "Download"
-          name = "GRASS GIS for Linux"
-          URL = "/download/linux"
-          weight = 2
-
- 	[[Languages.en.menu.main]]
-          parent = "Download"
-          name = "GRASS GIS for Windows"
-          URL = "/download/windows"
-          weight = 3
-
- 	[[Languages.en.menu.main]]
-          parent = "Download"
-          name = "GRASS GIS for Mac"
-          URL = "/download/mac"
-          weight = 4
-
- 	[[Languages.en.menu.main]]
-          parent = "Download"
-          name = "Docker images"
-          URL = "/download/docker"
-          weight = 5
-
-    [[Languages.en.menu.main]]
-          parent = "Download"
-          name = "Addons"
-          URL = "/download/addons"
-          weight = 6
-
- 	[[Languages.en.menu.main]]
-          parent = "Download"
-          name = "Sample data"
-          URL = "/download/data"
-          weight = 7
-        
       [[Languages.en.menu.main]]
+        parent = "Download"
+        name = "GRASS GIS source code"
+        URL = "https://github.com/OSGeo/grass/tags"
+        weight = 1
+
+	    [[Languages.en.menu.main]]
+        parent = "Download"
+        name = "GRASS GIS for Linux"
+        URL = "/download/linux"
+        weight = 2
+
+ 	    [[Languages.en.menu.main]]
+        parent = "Download"
+        name = "GRASS GIS for Windows"
+        URL = "/download/windows"
         weight = 3
-        name = "Learn"
-        url = "/learn"
 
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "General overview"
-          URL = "/learn/overview"
-          weight = 1
-
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "First time users"
-          URL = "/learn/newcomers"
-          weight = 2
-
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "Manuals"
-          URL = "/learn/manuals"
-          weight = 3 
-
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "Tutorials"
-          URL = "/learn/tutorials"
-          weight = 4 
-
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "Gallery"
-          URL = "/learn/gallery"
-          weight = 5
-	  
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "Books"
-          URL = "/learn/books"
-          weight = 6
- 
-          [[Languages.en.menu.main]]
-          parent = "Learn"
-          name = "Try online"
-          URL = "/learn/tryonline"
-          weight = 7
-
-    
-      [[Languages.en.menu.main]]
+ 	    [[Languages.en.menu.main]]
+        parent = "Download"
+        name = "GRASS GIS for Mac"
+        URL = "/download/mac"
         weight = 4
-        name = "Contribute"
-        url = "/contribute"
-        hasChildren = true
 
-          [[Languages.en.menu.main]]
-          parent = "Contribute"
-          name = "Development"
-          URL = "/contribute/development"
-          weight = 1
-
-          [[Languages.en.menu.main]]
-          parent = "Contribute"
-          name = "Sponsoring"
-          URL = "/contribute/sponsoring"
-          weight = 2
-
-          [[Languages.en.menu.main]]
-          parent = "Contribute"
-          name = "Wiki"
-          URL = "https://grasswiki.osgeo.org/wiki/GRASS-Wiki"
-          weight = 3
-	  
-          [[Languages.en.menu.main]]
-          parent = "Contribute"
-          name = "Sponsors"
-          URL = "https://grasswiki.osgeo.org/wiki/Sponsors"
-          weight = 4
-
+ 	    [[Languages.en.menu.main]]
+        parent = "Download"
+        name = "Docker images"
+        URL = "/download/docker"
+        weight = 5
 
       [[Languages.en.menu.main]]
+        parent = "Download"
+        name = "Addons"
+        URL = "/download/addons"
+        weight = 6
+
+ 	    [[Languages.en.menu.main]]
+        parent = "Download"
+        name = "Sample data"
+        URL = "/download/data"
+        weight = 7
+        
+    [[Languages.en.menu.main]]
+      weight = 3
+      name = "Learn"
+      url = "/learn"
+
+      [[Languages.en.menu.main]]
+        parent = "Learn"
+        name = "General overview"
+        URL = "/learn/overview"
+        weight = 1
+
+      [[Languages.en.menu.main]]
+        parent = "Learn"
+        name = "First time users"
+        URL = "/learn/newcomers"
+        weight = 2
+
+      [[Languages.en.menu.main]]
+        parent = "Learn"
+        name = "Manuals"
+        URL = "/learn/manuals"
+        weight = 3 
+
+      [[Languages.en.menu.main]]
+        parent = "Learn"
+        name = "Tutorials"
+        URL = "/learn/tutorials"
+        weight = 4 
+
+      [[Languages.en.menu.main]]
+        parent = "Learn"
+        name = "Gallery"
+        URL = "/learn/gallery"
         weight = 5
-        name = "About"
-        url = "/about"
-        hasChildren = true
+	  
+      [[Languages.en.menu.main]]
+        parent = "Learn"
+        name = "Books"
+        URL = "/learn/books"
+        weight = 6
+ 
+      [[Languages.en.menu.main]]
+        parent = "Learn"
+        name = "Try online"
+        URL = "/learn/tryonline"
+        weight = 7
 
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "License"
-          URL = "/about/license"
-          weight = 1
+    [[Languages.en.menu.main]]
+      weight = 4
+      name = "Support"
+      url = "/support"
+      hasChildren = true
 
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "Community"
-          URL = "/about/community"
-          weight = 2
+      [[Languages.en.menu.main]]
+        parent = "Support"
+        name = "Community"
+        URL = "/support/community"
+        weight = 1
 
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "History"
-          URL = "/about/history"
-          weight = 3
+      [[Languages.en.menu.main]]
+        parent = "Support"
+        name = "Commercial Support"
+        URL = "/support/commercial"
+        weight = 2    
+      
+    [[Languages.en.menu.main]]
+      weight = 5
+      name = "Contribute"
+      url = "/contribute"
+      hasChildren = true
 
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "Brand"
-          URL = "/about/brand"
-          weight = 4
+      [[Languages.en.menu.main]]
+        parent = "Contribute"
+        name = "Development"
+        URL = "/contribute/development"
+        weight = 1
 
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "Credits"
-          URL = "/about/credits"
-          weight = 5
+      [[Languages.en.menu.main]]
+        parent = "Contribute"
+        name = "Sponsoring"
+        URL = "/contribute/sponsoring"
+        weight = 2
+	  
+      [[Languages.en.menu.main]]
+        parent = "Contribute"
+        name = "Sponsors"
+        URL = "https://grasswiki.osgeo.org/wiki/Sponsors"
+        weight = 4
+
+    [[Languages.en.menu.main]]
+      weight = 6
+      name = "About"
+      url = "/about"
+      hasChildren = true
+
+      [[Languages.en.menu.main]]
+        parent = "About"
+        name = "License"
+        URL = "/about/license"
+        weight = 1
+
+      [[Languages.en.menu.main]]
+        parent = "About"
+        name = "History"
+        URL = "/about/history"
+        weight = 2
+
+      [[Languages.en.menu.main]]
+        parent = "About"
+        name = "Brand"
+        URL = "/about/brand"
+        weight = 3
+
+      [[Languages.en.menu.main]]
+        parent = "About"
+        name = "Credits"
+        URL = "/about/credits"
+        weight = 4
 
     # banner
     [Languages.en.params.banner]

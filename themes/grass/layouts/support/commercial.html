@@ -1,0 +1,59 @@
+{{ partial "head.html" . }}
+{{ partial "banner.html" . }}
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+   <section>
+      <section class="pt-4 bg-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="section-title">Commercial support for GRASS GIS</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="section bg-white mb-4">
+                <div class="row nm">
+                  <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/mundialis_logo.svg" style="float:center;padding-top:20px;"></div>
+                  <div class="col-8">
+                    <h3 class="mt-2 mb-2">mundialis GmbH & Co. KG</h3>
+                    <p>At mundialis we work with free geodata and free software in the field of remote sensing and GIS analysis. We generate spatial information and develop free and open source software. Both form the core of customised GIS solutions that we implement in a customer-oriented manner. We work scientifically based with regional and international project partners. In addition to our technical work, we see ourselves as an environmentally conscious and sustainable company that makes a positive contribution to society and the environment.</p>
+            <a class="btn btn-primary" href="https://www.mundialis.de/" target="_blank">Visit our website</a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="section bg-white mb-4">
+                <div class="row nm">
+                  <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/cgaNCSU.png" style="float:center;padding-top:20px"></div>
+                  <div class="col-8">
+                    <h3 class="mt-2 mb-2">Center for Geospatial Analytics at NC State University</h3>
+                    <p>At the Center for Geospatial Analytics, we develop and improve GRASS GIS open source geospatial software.
+                      Our <a href="https://cnr.ncsu.edu/geospatial/engage/service-center/">Service Center</a> builds solutions leveraging GRASS GIS and provides training.</p>
+            <a class="btn btn-primary" href="https://cnr.ncsu.edu/geospatial/engage" target="_blank">Visit our website</a>
+
+                  </div>
+                </div>
+              </div>
+
+          <div class="row">
+
+          </div>
+        </div>
+      </section>{{ partial "footer.html" . }}
+    </section>
+  </section>
+</body>
+</html>
