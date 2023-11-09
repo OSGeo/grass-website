@@ -9,32 +9,23 @@ layout: "list"
 
 ![2014 OSGeo code print in Wien](/images/gallery/community/2014_vienna_code_sprint_pano_small.jpg "2014 OSGeo code print in Wien")
 
+### Contribute financially
+<i class="fa fa-dollar-sign fa-7x" style="float:left;padding-right:15px"></i>
+Consider financially supporting GRASS GIS trough [OpenCollective](https://opencollective.com/grass/contribute). The GRASS GIS project is a volunteer-based organization and your financial support is necessary to ensure the long-term sustainability of the project and the software. See [sponsoring](/contribute/sponsoring) page for details how to donate and to understand how we use the money to build up the community and software.
+
 ### Report a bug or enhancement wish
-<i class="fa fa-bug fa-11x" style="float:right;padding-left:10px"></i>
-Bug reports and feature requests can be submitted as issues in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues).
-All new submissions in the tracker will be automatically forwarded to the GRASS GIS development mailing list.
+<i class="fa fa-bug fa-9x" style="float:right;padding-left:10px"></i>
+Bug reports and feature requests can be submitted as issues in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues/new/choose). The bug report template will help you fill out relevant information for developers in a concise manner.
 
-###### Some recommendations
-<small>
-<ul>
- <li>Check if the bug you found is still present in the current stable release version or, better, in the "main" version before reporting. If you use an older version, please consider to [upgrade](/download) first.</li>
- <li>Make sure that the developers have all the information needed to reproduce the bug (e.g. explain how to reproduce the bug using the [North Carolina example dataset](/download/data))</li>
- <li>Report only a single bug or feature request with each issue</li>
- <li>Before reporting a bug, please check that it hasn't been reported already in the [GRASS GIS bugtracking system](https://github.com/OSGeo/grass/issues)</li>
-</ul>
-We recommend to read [How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html) by Simon Tatham.
-</small>
+### Improve documentation
+<i class="fa fa-file-text fa-9x" style="float:left;padding-right:15px"></i>
 
-### Documentation
-<i class="fa fa-file-text fa-9x" style="float:left;padding-right:10px"></i>
+Writing or editing documentation and tutorials is an ideal platform for your first contribution to the project.
 
-Each GRASS GIS module comes with a respective [manual page](/learn/manuals) that provides clear and up-to-date documentation including working examples.
+Each GRASS GIS tool comes with a respective [manual page](/learn/manuals) that provides comprehensive documentation including working examples.
+There are also several [tutorials](/learn/tutorials), courses and wikis contributed by different developers and users. If you find a piece of information missing or outdated, please contribute!
 
-There are also several [tutorials](/learn/tutorials), courses and wikis contributed by different developers and users. These are a very important tool to learn how to use GRASS GIS, too.
-
-**Writing or editing documentation and tutorials is an ideal platform for your first contribution to the project.**
-
-### Translation
+### Help with translation
 <i class="fa fa-language fa-11x" style="float:right;padding-left:10px"></i>
 The great worldwide interest in GRASS suggests value in translating GRASS messages to languages other than English. 
 The GRASS Development Team is continuously seeking translators.
@@ -42,9 +33,7 @@ The GRASS Development Team is continuously seeking translators.
 This is an opportunity to contribute even for non-programmers since messages can be easily translated in a user friendly platform. 
 **No programming skills required!**
 
-#### Want to join?
-
-Great! Just sign in into [**weblate**](https://weblate.osgeo.org/), pick the GRASS GIS project and start
+To contribute, sign in into [**weblate**](https://weblate.osgeo.org/), pick the GRASS GIS project and start
 translating. The interface is really simple to use and all the changes you make will be automatically
 sent as a pull request to the [GRASS GIS repository](https://github.com/OSGeo/grass).
 Please also subscribe to the dedicated [mailing list](https://lists.osgeo.org/mailman/listinfo/grass-translations)
@@ -52,78 +41,31 @@ and check the [translation glossary](https://grasswiki.osgeo.org/wiki/GRASS_Tran
 terminology in different languages.
 
 ### Create an Addon
-<i class="fa fa-plug fa-9x" style="float:left;padding-right:10px"></i>
-Developing your own modules? Great! 
+<i class="fa fa-plug fa-9x" style="float:left;padding-right:15px"></i>
+Developing your own tools? Great!
 
-Please upload your add-ons to the **GRASS GIS Addons repository**. In this way, they become available to the community
+Please upload your addons to the **GRASS GIS Addons repository**. In this way, they become available to the community
 through the extension manager (g.extension or graphical user interface). 
-Here is the full list of [existing addons](/grass7/manuals/addons/) to get inspired.
+Here is the full list of [existing addons](/grass-stable/manuals/addons/) to get inspired.
 
 Further details about how to gain access to our [GitHub Addons repository](https://github.com/OSGeo/grass-addons/) can be
 found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASSaddonsrepository).
 
 ### Contribute to GRASS GIS core
 <i class="fa fa-gear fa-11x" style="float:right;padding-left:10px"></i>
-The GRASS GIS core consists of the libraries used by GRASS GIS modules and GUI, as well as the code used to develop the Graphic User Interface and the most important modules.
+The GRASS GIS core consists of libraries, tools and the Graphic User Interface.
+A good starting point is supporting us with [bug fixing and enhancement wishes](https://github.com/OSGeo/grass/issues).
+Review these [resources](/contribute/development) to learn how to develop and contribute code effectively.
+Feel free to announce your planned development to the [GRASS developers mailing list](https://lists.osgeo.org/mailman/listinfo/grass-dev), someone may join you or give you feedback.
 
-It may be a good idea to send a small posting to the [GRASS developers mailing list](https://lists.osgeo.org/mailman/listinfo/grass-dev) to announce your activities
-(maybe someone will join you!). Please read [how to write source code](https://trac.osgeo.org/grass/wiki/HowToProgram) before submitting. 
-
-We'd also appreciate if you could support us with [bug fixing and enhancement wishes](https://github.com/OSGeo/grass/issues).
-
-### Mirror our website
-
-Please consider to [contact us](mailto:grass-web(at)lists.osgeo.org), ideally reporting your [already running mirror](/about/mirrors/).
-
-#### Requirements:
-A GRASS mirror site requires around 14 GB space, the space requirements may vary due to the changing presence of precompiled binaries.
-If you would like to support the GRASS community, do not hesitate to set up your mirror site.
-
-#### How to set up a mirror site:
-The main site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync"](http://rsync.samba.org/) software protocol, allowing to synchronize mirrors automatically overnight. The idea of using "rsync" mirror software is that only changed files are transferred which minimizes the network traffic.
-
-#### Mirror site setup in greater detail:
-
-* Install the rsync software.
-* Check if you can connect - note the two '::' characters:
-  * `rsync -az --port=50026 grass.osgeo.org::`
-  *  This command should display the following welcome message:
-```
-      GRASS GIS Website
-      grass-website  	GRASS GIS Website
-```
-* Now generate a mirror folder on your server where to store the GRASS GIS website copy. We assume `/var/www/html/mirror/`:
-  * `mkdir /var/www/html/mirror/`
-* Change into this folder and copy the website into the subfolder `grass-website`:
-  * `cd /var/www/html/mirror/`
-  * `rsync -az --port=50026 grass.osgeo.org::grass-website grass-website`
-* Once finished, define a daily cron-job (in 'crontab') for rsync (example):
-  * `/usr/bin/rsync -az --port=50026 grass.osgeo.org::grass-website /var/www/html/mirror/grass-website`  
-  This will copy/update the GRASS site to your local directory /var/www/html/mirror/grass-website/ which needs to be made available in your web server.
-* Check if the synchronization works the next day(s).
-* Announce the new mirror site for this mirror list to [us](mailto:grass-web(at)lists.osgeo.org).
-
-### Other opportunities
-
-#### Student Grants
-
-**[Student Grants](https://grasswiki.osgeo.org/wiki/Student_Grants) is a stipend program for students by the GRASS GIS project.**
-
-The GRASS GIS project offers a limited number of student grants for projects related to GRASS GIS. These can include actual coding, bug fixing, or documentation and the creation of educational resources.
-
-#### Google Summer of Code (GSoC)
-
-**GSoC is a stipend program for students by Google.**
-
-Students are encouraged to propose their own ideas. Otherwise, they can choose from the 
-[GRASS GSoC Ideas](https://trac.osgeo.org/grass/wiki/GSoC) list. If selected, Google 
-will pay a monthly stipend for 3 months.
+For **paid opportunities** to develop code for GRASS GIS, check out our [stipend program](https://grasswiki.osgeo.org/wiki/Student_Grants) for students
+and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://trac.osgeo.org/grass/wiki/GSoC).
 
 ### Cite GRASS GIS 
-<i class="fa fa-book fa-7x" style="float:left;padding-right:10px"></i>
+<i class="fa fa-book fa-7x" style="float:left;padding-right:15px"></i>
 
 If you use GRASS GIS for developing applications, products or for your scientific
-work, please [cite](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository) 
+work, please [cite](/about/license/)
 it properly to raise awareness and visibility of the multiple uses of the
 software. 
 
