@@ -207,6 +207,12 @@ greyColorDark = "#A0A0A0"
 
       [[Languages.en.menu.main]]
         parent = "About"
+        name = "Citation"
+        URL = "/about/citation"
+        weight = 1
+
+      [[Languages.en.menu.main]]
+        parent = "About"
         name = "License"
         URL = "/about/license"
         weight = 1
