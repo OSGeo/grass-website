@@ -30,37 +30,3 @@ Questions regarding details of this policy can be directed to
 this <a href="mailto:grass-web@lists.osgeo.org" target="_blank">email address</a>.
 
 See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/licenses/gpl-faq.html).
-
-### Citing GRASS GIS Software
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
-
-Please cite GRASS when using the software in your work. Here are some choices
-depending on the version used:
-
-- GRASS Development Team, 2022. Geographic Resources Analysis Support System (GRASS)
-Software, Version 8.2. Open Source Geospatial Foundation. https://grass.osgeo.org
-
-- GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS) 
-Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
-
-- GRASS Development Team, 2022. Geographic Resources Analysis Support System (GRASS) 
-Programmer's Manual. Open Source Geospatial Foundation. Electronic document: 
-https://grass.osgeo.org/programming8/
-
-<p> Use the following BibTeX entry for citing the <b>GRASS GIS</b> software in 
-scientific work written in LaTeX.</p>
-
-<pre style="background-color:#CCCCCC">
-@Manual{GRASS_GIS_software,
-    title = {Geographic Resources Analysis Support System (GRASS GIS) Software, Version 8.2},
-    author = {{GRASS Development Team}},
-    organization = {Open Source Geospatial Foundation},
-    address = {USA},
-    year = {2022},
-    url = {https://grass.osgeo.org},
-    doi = {10.5281/zenodo.5176030}
-}
-</pre>
-
-For more options see also: [GRASS GIS Citation Repository](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository).
