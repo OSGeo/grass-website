@@ -29,10 +29,11 @@ If you would like to support the GRASS community, do not hesitate to set up your
 Please consider to [contact us](mailto:grass-web(at)lists.osgeo.org), ideally reporting your [already running mirror](/about/mirrors/).
 
 #### Requirements:
-A GRASS mirror site requires around 14 GB space, the space requirements may vary due to the changing presence of precompiled binaries.
+A GRASS mirror site requires around 23 GB space, the space requirements may vary due to the changing presence of precompiled binaries.
 
 #### How to set up a mirror site:
-The main site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync"](http://rsync.samba.org/) software protocol, allowing to synchronize mirrors automatically overnight. The idea of using "rsync" mirror software is that only changed files are transferred which minimizes the network traffic.
+
+The main site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync"](http://rsync.samba.org/) software protocol, allowing to synchronize mirrors automatically overnight. The idea of using the "rsync" mirror software is that only changed files are transferred after the initial synchronization which minimizes the network traffic.
 
 #### Mirror site setup in greater detail:
 

@@ -46,7 +46,7 @@ Developing your own tools? Great!
 
 Please upload your addons to the **GRASS GIS Addons repository**. In this way, they become available to the community
 through the extension manager (g.extension or graphical user interface). 
-Here is the full list of [existing addons](/grass7/manuals/addons/) to get inspired.
+Here is the full list of [existing addons](/grass-stable/manuals/addons/) to get inspired.
 
 Further details about how to gain access to our [GitHub Addons repository](https://github.com/OSGeo/grass-addons/) can be
 found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASSaddonsrepository).
@@ -59,7 +59,7 @@ Review these [resources](/contribute/development) to learn how to develop and co
 Feel free to announce your planned development to the [GRASS developers mailing list](https://lists.osgeo.org/mailman/listinfo/grass-dev), someone may join you or give you feedback.
 
 For **paid opportunities** to develop code for GRASS GIS, check out our [stipend program](https://grasswiki.osgeo.org/wiki/Student_Grants) for students
-and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://trac.osgeo.org/grass/wiki/GSoC) .
+and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://trac.osgeo.org/grass/wiki/GSoC).
 
 ### Cite GRASS GIS 
 <i class="fa fa-book fa-7x" style="float:left;padding-right:15px"></i>
