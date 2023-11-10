@@ -61,14 +61,16 @@ Feel free to announce your planned development to the [GRASS developers mailing 
 For **paid opportunities** to develop code for GRASS GIS, check out our [stipend program](https://grasswiki.osgeo.org/wiki/Student_Grants) for students
 and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://trac.osgeo.org/grass/wiki/GSoC).
 
-### Cite GRASS GIS 
-<i class="fa fa-book fa-7x" style="float:left;padding-right:15px"></i>
+### Cite GRASS GIS
+<i class="fa fa-book fa-9x" style="float:left;padding-right:15px"></i>
 
 If you use GRASS GIS for developing applications, products or for your scientific
-work, please [cite](/about/license/)
+work, please [cite](/about/citation/)
 it properly to raise awareness and visibility of the multiple uses of the
 software. 
 
 Have a look at our 
 [Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ)
-profile for examples of applications in the most diverse fields.
+profile for examples of GRASS GIS applications in the most diverse fields.
+Are you using GRASS GIS in your research and your publication is missing?
+[Let us know](https://forms.gle/cDEvMJu7d6nvxLKn9) and we will add it to the Google Scholar profile.
