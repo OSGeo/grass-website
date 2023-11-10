@@ -25,7 +25,7 @@ GRASS GIS will offer a number of student grants for projects that include develo
 
 
 ### How to apply?
-Express your interest in applying through the current GRASS community channels and identify a topic matching your interest. Look for ways to contribute to GRASS GIS that are related to the selected topic and submit a pull request to demonstrate your skills. Draft a proposal and share it to get feedback. For details and eligibility rules, check the [wiki](https://grasswiki.osgeo.org/wiki/Student_Grants).
+Express your interest in applying through the current GRASS community channels and identify a topic matching your interest. Look for ways to contribute to GRASS GIS that are related to the selected topic and submit a pull request to demonstrate your skills. Draft a proposal and [share](https://grasswiki.osgeo.org/wiki/Student_Grants#How_to_apply) it to get feedback. For details and eligibility rules, check the [wiki](https://grasswiki.osgeo.org/wiki/Student_Grants).
 
 
 ### Other opportunities to connect with GRASS developers
