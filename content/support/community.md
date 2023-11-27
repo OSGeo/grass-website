@@ -25,7 +25,7 @@ The strength, longevity and success of the **GRASS GIS** project relies on its w
 
 #### GRASS GIS development team
 
-The GRASS GIS project is led by a [Team] (https://grasswiki.osgeo.org/wiki/Team) of scientists, researchers and developers from around the world. GRASS GIS software development is driven by the  [Project Steering Committee](https://trac.osgeo.org/grass/wiki/PSC) which is granting developer access, managing source code releases and coordinating various community activities.
+The GRASS GIS project is led by a [Team](https://grasswiki.osgeo.org/wiki/Team) of scientists, researchers and developers from around the world. GRASS GIS software development is driven by the  [Project Steering Committee](https://trac.osgeo.org/grass/wiki/PSC) which is granting developer access, managing source code releases and coordinating various community activities.
 
 ### Mailing lists
 
@@ -55,7 +55,7 @@ Discussions in question and answer (Q&A) style may be held on these sites; you n
 |------|---------|-------------|
 | <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
 | <i class="fab fa-stack-exchange"></i> |  [gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS GIS on StackExchange |
-| <i class="fa fa-comments"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS GIS on Gitter |
+| <i class="fab fa-gitter"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS GIS on Gitter |
 
 ### Social media
 
