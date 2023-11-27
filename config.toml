@@ -247,7 +247,7 @@ greyColorDark = "#A0A0A0"
 
     # footer social icon
     [[Languages.en.socialIcon]]
-      icon = " fa fa-github"
+      icon = " fab fa-github"
       link = "https://github.com/OSGeo/grass"
 
     [[Languages.en.socialIcon]]
@@ -259,15 +259,15 @@ greyColorDark = "#A0A0A0"
       link = "https://fosstodon.org/@grassgis"
 
     [[Languages.en.socialIcon]]
-      icon = " fa fa-twitter"
+      icon = " fab fa-x-twitter"
       link = "https://twitter.com/grassgis"    
 
     [[Languages.en.socialIcon]]
-      icon = "fa fa-facebook"
+      icon = "fab fa-facebook"
       link = "https://www.facebook.com/groups/GRASS"
 
     [[Languages.en.socialIcon]]
-      icon = "fa fa-youtube"
+      icon = "fab fa-youtube"
       link = "https://www.youtube.com/results?search_query=grass+gis"
       
     [[Languages.en.socialIcon]]

@@ -18,7 +18,7 @@ layout: theme
 <div class="col-lg-8">
 <p>This is the <a class="bigr" href="#"><i class="ms ms-grass-gis ms-1-5x"></i>&#160;<span class=" black-color grass">GRASS <span class="  black-color gis">GIS</span></span></a> web theme for Hugo. </p>
 <p>Please use assets and markup described in this section for extending the GRASS GIS website consistently.</p>
-<p>Get and contribute to the website source code on <a href="https://github.com/OSGeo/grass-website"><i class="fa fa-github"></i> Github</a>. 
+<p>Get and contribute to the website source code on <a href="https://github.com/OSGeo/grass-website"><i class="fab fa-github"></i> Github</a>. 
 
 </div>
 </div>
@@ -534,9 +534,9 @@ Default
 </div>
 
 <div class="tab-pane" id="icons" role="tabpanel">
-<h3 class="mb-5">fontawesome (4.7.0)</h3>
+<h3 class="mb-5">fontawesome (6.4.2)</h3>
 <div class="row mb-4">
-<div class="col-lg-4"><i class="fa fa-download fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-book fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-user fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-github fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-twitter fa-2x grey-color-dark"></i>&#160; &#160; <i class="fa fa-facebook fa-2x grey-color-dark"></i>&#160; &#160; <i class="fa fa-youtube fa-2x grey-color-dark"></i>
+<div class="col-lg-4"><i class="fa fa-download fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-book fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-user fa-2x grey-color-dark"></i> &#160; &#160; <i class="fab fa-github fa-2x grey-color-dark"></i> &#160; &#160; <i class="fab fa-x-twitter fa-2x grey-color-dark"></i>&#160; &#160; <i class="fab fa-facebook fa-2x grey-color-dark"></i>&#160; &#160; <i class="fab fa-youtube fa-2x grey-color-dark"></i>
 <p class="mt-2"><a href="https://fontawesome.com/v4.7.0/"><i class="fa fa-font-awesome"></i> See the full icon list</a></p>
 </div>
 <div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;i class="fa fa-download"&gt;&lt;/i&gt;</code></pre>
