@@ -49,7 +49,7 @@ This is the official <b>GRASS GIS logo</b>. Please use it to refer  to the GRASS
 <div class="col-lg-6 col-sm-12">
 <p>The GRASS GIS logo text is using the <b>Fira Sans</b></a> open font family.  'GRASS' is written  with <i>FiraSans Medium</i> and 'GIS' with the <i>FiraSans Thin</i> typeface. </p>
 <ul class="list-unstyled dil">
-<li><a href="https://github.com/mozilla/Fira" target="_blank"><i class="fa fa-github"></i> mozilla/Fira</a></li>
+<li><a href="https://github.com/mozilla/Fira" target="_blank"><i class="fab fa-github"></i> mozilla/Fira</a></li>
 </ul>
 </div>
 </div>

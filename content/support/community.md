@@ -25,7 +25,7 @@ The strength, longevity and success of the **GRASS GIS** project relies on its w
 
 #### GRASS GIS development team
 
-The GRASS GIS project is led by a [Team] (https://grasswiki.osgeo.org/wiki/Team) of scientists, researchers and developers from around the world. GRASS GIS software development is driven by the  [Project Steering Committee](https://trac.osgeo.org/grass/wiki/PSC) which is granting developer access, managing source code releases and coordinating various community activities.
+The GRASS GIS project is led by a [Team](https://grasswiki.osgeo.org/wiki/Team) of scientists, researchers and developers from around the world. GRASS GIS software development is driven by the  [Project Steering Committee](https://trac.osgeo.org/grass/wiki/PSC) which is granting developer access, managing source code releases and coordinating various community activities.
 
 ### Mailing lists
 
@@ -53,9 +53,9 @@ Discussions in question and answer (Q&A) style may be held on these sites; you n
 
 | <div style="width:70px">MEDIA</div> | LINK |  |
 |------|---------|-------------|
-| <i class="fa fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
-| <i class="fa fa-stack-exchange"></i> |  [gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS GIS on StackExchange |
-| <i class="fa fa-comments"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS GIS on Gitter |
+| <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
+| <i class="fab fa-stack-exchange"></i> |  [gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS GIS on StackExchange |
+| <i class="fab fa-gitter"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS GIS on Gitter |
 
 ### Social media
 
@@ -66,9 +66,9 @@ Join the discussion also on the following channels:
 | <div style="width:70px">MEDIA</div> | LINK |  |
 |------|---------|-------------|
 | <i class="fab fa-mastodon"></i> |  [https://fosstodon.org/@grassgis](https://fosstodon.org/@grassgis) | @GRASSGIS |
-| <i class="fa fa-twitter"></i> |  [https://twitter.com/grassgis](https://twitter.com/grassgis) | @GRASSGIS |
-| <i class="fa fa-facebook"></i> |  [https://www.facebook.com/groups/GRASS](https://www.facebook.com/groups/GRASS) | @GRASSGIS |
-| <i class="fa fa-youtube"></i> |  [https://www.youtube.com/...grass+gis](https://www.youtube.com/results?search_query=grass+gis) |  |
+| <i class="fab fa-x-twitter"></i> |  [https://twitter.com/grassgis](https://twitter.com/grassgis) | @GRASSGIS |
+| <i class="fab fa-facebook"></i> |  [https://www.facebook.com/groups/GRASS](https://www.facebook.com/groups/GRASS) | @GRASSGIS |
+| <i class="fab fa-youtube"></i> |  [https://www.youtube.com/...grass+gis](https://www.youtube.com/results?search_query=grass+gis) |  |
 
 ### GRASS Wiki
 GRASS GIS uses [wiki](https://grasswiki.osgeo.org/wiki/GRASS-Wiki) to organize community activities and provides space to share educational materials and technical solutions. To edit the wiki, please sign up [here](https://grasswiki.osgeo.org/wiki/Special:RequestAccount).
