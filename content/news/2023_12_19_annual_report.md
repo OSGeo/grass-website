@@ -48,8 +48,8 @@ In December, Linda Karlovska was awarded a [GRASS Student Grant](https://grasswi
 
 ### Conferences in 2023
 
-<a href="/images/news/FOSS4G2023.png">
-  <img src="/images/news/FOSS4G2023.png"
+<a href="/images/news/FOSS4G2023.jpg">
+  <img src="/images/news/FOSS4G2023.jpg"
    alt="Martin Landa presenting at FOSS4G 2023"
    title="Martin Landa presenting at FOSS4G 2023"
    width="35%" style="float:right;padding-left:25px;padding-top:15px">
