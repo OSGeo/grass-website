@@ -26,10 +26,9 @@ greyColorDark = "#A0A0A0"
 
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
+  defaultMarkdownHandler = "blackfriday"
 
-[markup.goldmark.renderer]
-  unsafe = true
+
 
 [outputFormats]
   [outputFormats.sitemap]
