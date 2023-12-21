@@ -1,5 +1,5 @@
 ---
-title: "Annual Report 2022-2023"
+title: "Annual Report 2023"
 date: 2023-12-19T13:12:00+05:00
 layout: "news"
 author: Anna Petrasova, Vaclav Petras
