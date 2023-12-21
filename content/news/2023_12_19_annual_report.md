@@ -44,7 +44,7 @@ Nicklas Larsson, Tomas Zigo, Markus Neteler, Vaclav Petras and Anna Petrasova.
 Thanks to the other 30 core developers and contributors that contributed PRs to the project!
 We are also excited to announce we welcomed a new core contributor Edouard Choinière!
 
-In December, Linda Karlovska was awarded a [GRASS Student Grant](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Student_Grants) to improve a new history browser panel in GRASS GUI. We are looking forward to the enhancements in 2024!
+<!-- In December, Linda Karlovska was awarded a [GRASS Student Grant](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Student_Grants) to improve a new history browser panel in GRASS GUI. We are looking forward to the enhancements in 2024! -->
 
 ### Conferences in 2023
 
@@ -55,7 +55,7 @@ In December, Linda Karlovska was awarded a [GRASS Student Grant](https://grasswi
    width="35%" style="float:right;padding-left:25px;padding-top:15px">
 </a>
 
-GRASS GIS was represented on a number of events in the form of a talk or a workshop!
+GRASS GIS was represented at several events in the form of a talk or a workshop!
 
 In February, Vaclav Petras presented a talk
 [Tips and Tricks for GRASS GIS 8.2](https://wenzeslaus.github.io/grass-gis-talks/ncgis2023.html) at the North Carolina GIS conference in Winston-Salem, NC, USA.
@@ -63,7 +63,7 @@ In February, Vaclav Petras presented a talk
 In June, Martin Landa gave a [State of GRASS GIS](https://ctu-geoforall-lab.github.io/grass-gis-talk-foss4g-2023/foss4g2023.html) talk at global FOSS4G in Prizren, Kosovo.
 
 
-At the end of August, Caitlin Haedrich and Anna Petrasova promoted GRASS GIS OpenGeoHub Summer School with a workshop on
+At the end of August, Caitlin Haedrich and Anna Petrasova promoted GRASS GIS at the OpenGeoHub Summer School with a workshop on
 [Parallelization of geoprocessing workflows in GRASS GIS and Python](https://github.com/ncsu-geoforall-lab/opengeohub-2023).
 
 In October, a team from NC State University participated in FOSS4G North America in Baltimore with a series of talks and workshops:
@@ -76,6 +76,9 @@ In October, a team from NC State University participated in FOSS4G North America
 
 In November, Huidae Cho represented the GRASS community at FOSS4G Asia in Soul with his talk
 [State of GRASS GIS: 40 Years Strong and Counting](https://github.com/HuidaeCho/grass-gis-talk-foss4g-asia-2023).
+
+In December, GRASS GIS was highlighted in a number of posters and presentations covering a variety of topics including
+urban growth, flooding, or participatory modeling in the cloud.
 
 ### GRASS GIS in Industry
 
@@ -127,12 +130,24 @@ NC State also hosted a GIS week event in November featuring [Big Data Computing 
 In June, Michael Barton gave a GRASS GIS workshop to the IT group at the German Archaeological Institute (DAI) in Berlin
 and in the fall, Michael was teaching a graduate/undergraduate course on Spatial Technologies for Anthropological Research using GRASS GIS at Arizona State University School of Human Evolution & Social Change.
 
-To support researchers, the U.S. Geological Survey (USGS) released a [training video](https://www.usgs.gov/media/videos/lesson-10g1-importing-and-visualizing-elevation-data-using-grass-gis) on using GRASS GIS with 3DEP (elevation) data.
-
 Many new manuscripts using GRASS GIS were published by various authors.
 Check out GRASS GIS [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=gJ0ZB0cAAAAJ), and see around 30 new records from 2023!
 
 
+### GRASS GIS in Government
+<a href="/images/gallery/lidar/elevation.png">
+  <img src="/images/gallery/lidar/elevation.png"
+   alt="3D model of terrain"
+   title="Elevation dataset"
+   width="25%" style="float:left;padding-right:25px;padding-top:15px">
+</a>
+
+To support the use of their elevation dataset, the U.S. Geological Survey (USGS) released a [training video](https://www.usgs.gov/media/videos/lesson-10g1-importing-and-visualizing-elevation-data-using-grass-gis)
+on using GRASS GIS with 3D Elevation Program (3DEP) data.
+
+NC State University team lead by Helena Mitasova, Vaclav Petras, and Anna Petrasova
+received research support through US Department of Agriculture Natural Resources Conservation Service
+which includes development of new and enhancement of existing GRASS modules to incorporate dynamic soil survey data into surface water modeling tools. 
 
 
 *Anna Petrasova* (North Carolina State University),\
