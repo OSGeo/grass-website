@@ -77,7 +77,7 @@ In October, a team from NC State University participated in FOSS4G North America
 In November, Huidae Cho represented the GRASS community at FOSS4G Asia in Soul with his talk
 [State of GRASS GIS: 40 Years Strong and Counting](https://github.com/HuidaeCho/grass-gis-talk-foss4g-asia-2023).
 
-In December, GRASS GIS was highlighted in a number of posters and presentations covering a variety of topics including
+In December at The American Geophysical Union (AGU) Fall Meeting in San Francisco, GRASS GIS was highlighted in a number of posters and presentations covering a variety of topics including
 urban growth, flooding, or participatory modeling in the cloud.
 
 ### GRASS GIS in Industry
@@ -91,8 +91,10 @@ A subaward is going to research software engineers Vaclav Petras and Anna Petras
 from an [NSF grant awarded to Natrx](https://natrx.io/nsf-award-phaseii), a leading climate tech company, to enhance GRASS GIS.
 
 Check out the newly added [commercial support](/support/commercial) page featuring several 
-commercial support providers worldwide! The list now includes: Margosa Environmental Solutions Ltd,
-mundialis GmbH & Co. KG, Center for Geospatial Analytics at NC State University, and Kan Territory & IT.
+commercial support providers worldwide! The list now includes: [Margosa Environmental Solutions Ltd](https://margosa-env.com/),
+[mundialis GmbH & Co. KG](https://www.mundialis.de),
+[Center for Geospatial Analytics at NC State University](https://cnr.ncsu.edu/geospatial/engage),
+ and [Kan Territory & IT](https://https//kan.com.ar/).
 
 ### GRASS GIS in Academia
 
