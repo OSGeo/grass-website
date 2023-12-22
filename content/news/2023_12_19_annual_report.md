@@ -148,10 +148,10 @@ Check out GRASS GIS [Google Scholar profile](https://scholar.google.com/citation
 To support the use of their elevation dataset, the U.S. Geological Survey (USGS) released a [training video](https://www.usgs.gov/media/videos/lesson-10g1-importing-and-visualizing-elevation-data-using-grass-gis)
 on using GRASS GIS with 3D Elevation Program (3DEP) data.
 
-NC State University team lead by Helena Mitasova, Vaclav Petras, and Anna Petrasova
+NC State University team led by Helena Mitasova, Vaclav Petras, and Anna Petrasova
 received research support through US Department of Agriculture Natural Resources Conservation Service
-which includes development of new and enhancement of existing GRASS modules to incorporate dynamic soil survey data into surface water modeling tools. 
-Congratulations every one on a great year!! And welcome new contributors!
+which includes development of new and enhancement of existing GRASS modules to incorporate dynamic soil survey data into surface water modeling tools.
+Congratulations everyone on a great year!! And welcome new contributors!
 
 *Anna Petrasova* (North Carolina State University),\
 *Vaclav (Vashek) Petras* (North Carolina State University)\
