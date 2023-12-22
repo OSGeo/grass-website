@@ -13,11 +13,11 @@ author: Anna Petrasova, Vaclav Petras
 </a>
 
 2023 has been an amazing year in the advancement of the GRASS GIS project, which celebrated its 40th birthday!
-To close out the year, let’s review some of the accomplishments of the GRASS community.
+As the year draws to a close, let's look back at some of the achievements of the GRASS community.
 
 ### Community Meeting
 
-The [GRASS GIS Community Meeting](/news/2023_08_13_grass_community_meeting_prague_june_2023_report) held at the Faculty of Civil Engineering of the Czech Technical University in Prague in June
+The [GRASS GIS Community Meeting](/news/2023_08_13_grass_community_meeting_prague_june_2023_report) held at the Faculty of Civil Engineering of the Czech Technical University in Prague during the first days of June
 brought together users, supporters, contributors, power users and developers to celebrate, collaborate and chart the future of GRASS GIS.
 Thanks to the generous funding from OSGeo, FOSSGIS e.V., OSGeo.JP, and others, we were able to welcome 17 in-person participants from 9 countries on 3 continents and 4 remote participants!
 
@@ -32,17 +32,17 @@ Moreover, in November, several members of the GRASS community were able to parti
    width="35%" style="float:left;padding-right:25px;padding-top:15px">
 </a>
 
-In 2023, the maintainers published [8.3.0](/news/2023_06_24_grass_gis_8_3_released/) feature release and three maintenance releases ([7.8.8](/news/2023_08_06_grass_gis_7_8_8_released/), [8.2.1](/news/2023_01_21_grass_gis_8_2_1_released/), and [8.3.1](/news/2023_10_25_grass_gis_8_3_1_released/)).
-The feature release brought among other things single window layout in GUI,
-new support for parallelization in several raster modules, and several new options added to temporal modules.
+In 2023, the maintainers published the [8.3.0](/news/2023_06_24_grass_gis_8_3_released/) feature release and three maintenance releases ([7.8.8](/news/2023_08_06_grass_gis_7_8_8_released/), [8.2.1](/news/2023_01_21_grass_gis_8_2_1_released/), and [8.3.1](/news/2023_10_25_grass_gis_8_3_1_released/)).
+The feature release brought, among other things, the single window layout in GUI by default,
+new support for parallelization in various raster modules, and several new options added to temporal modules.
 
 GRASS developer community was able to create 418 pull requests (PRs),
-merge 387 PRs and solve 103 issues. [9 new addons](https://github.com/OSGeo/grass-addons/pulls?q=is%3Aclosed+is%3Apr+label%3A%22new+addon%22+merged%3A%3E2023-01-01) were added by 7 contributors.
+merge 387 PRs and solve 103 issues. Furthermore, [9 new addons](https://github.com/OSGeo/grass-addons/pulls?q=is%3Aclosed+is%3Apr+label%3A%22new+addon%22+merged%3A%3E2023-01-01) were added by 7 contributors.
 
-Kudos to GRASS GIS [top 5 code contributors](https://github.com/OSGeo/grass/graphs/contributors?from=2023-01-01&to=2023-12-19&type=c) (based on commits):
+Kudos to the GRASS GIS [top 5 code contributors](https://github.com/OSGeo/grass/graphs/contributors?from=2023-01-01&to=2023-12-19&type=c) (based on commits):
 Nicklas Larsson, Tomas Zigo, Markus Neteler, Vaclav Petras and Anna Petrasova.
 Thanks to the other 30 core developers and contributors that contributed PRs to the project!
-We are also excited to announce we welcomed a new core contributor Edouard Choinière!
+We are also excited to announce we welcomed a new core contributor, Edouard Choinière!
 
 <!-- In December, Linda Karlovska was awarded a [GRASS Student Grant](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Student_Grants) to improve a new history browser panel in GRASS GUI. We are looking forward to the enhancements in 2024! -->
 
@@ -55,7 +55,7 @@ We are also excited to announce we welcomed a new core contributor Edouard Choin
    width="35%" style="float:right;padding-left:25px;padding-top:15px">
 </a>
 
-GRASS GIS was represented at several events in the form of a talk or a workshop!
+GRASS GIS was represented at several events with talks or workshops led by community members!
 
 In February, Vaclav Petras presented a talk
 [Tips and Tricks for GRASS GIS 8.2](https://wenzeslaus.github.io/grass-gis-talks/ncgis2023.html) at the North Carolina GIS conference in Winston-Salem, NC, USA.
@@ -108,7 +108,7 @@ from the U.S. National Science Foundation (NSF) to bolster and broaden the commu
 and ecosystem of GRASS GIS. The grant is led by Helena Mitasova, Vaclav Petras,
 and Anna Petrasova at North Carolina State University with subawards
 going to Michael Barton (Arizona State University), Huidae Cho (New Mexico State University), and Giuseppe Amatulli (Yale University).
-See project [1st quarter report and timeline](https://grasswiki.osgeo.org/wiki/NSF_POSE_Project_2023-2025_Timeline).
+Have a look at the project [1st quarter report and timeline](https://grasswiki.osgeo.org/wiki/NSF_POSE_Project_2023-2025_Timeline).
 
 Caitlin Haedrich and Helena Mitasova received a small exploratory grant from
 NC State University to enhance teaching of an open-educational-resources course on [Geospatial Modeling and Analysis](https://ncsu-geoforall-lab.github.io/geospatial-modeling-course/grass/) currently led by Corey White.
@@ -122,13 +122,14 @@ NC State University to enhance teaching of an open-educational-resources course 
 
 In April Veronica Andreo visited NC State University as a researcher and GRASS PSC Chair giving
 a [lecture]((https://cnr.ncsu.edu/geospatial/news/2023/04/26/spring-2023-geospatial-forum-rewind/)) and a [studio](https://veroandreo.github.io/grass_ncsu_2023/)
-on leveraging remote sensing in public health, highling use of GRASS GIS in her research. 
-The visit also resulted in a news article [How Open Science Can Both Advance and Hinder Equity in Research](https://cnr.ncsu.edu/geospatial/news/2023/12/01/open-science-equity/) which featured GRASS GIS and part of Vero’s story of involvement with GRASS GIS.
+on leveraging remote sensing in public health, and highlighting use of GRASS GIS in her research. 
+The visit also resulted in a news article [How Open Science Can Both Advance and Hinder Equity in Research](https://cnr.ncsu.edu/geospatial/news/2023/12/01/open-science-equity/) which featured GRASS GIS and part of Vero’s story of involvement with the project.
 
 NC State also hosted a GIS week event in November featuring [Big Data Computing with GRASS GIS](https://github.com/ncsu-geoforall-lab/grass-workshop-gis-week-2023) workshop by Anna Petrasova and Vaclav Petras.
 
 In June, Michael Barton gave a GRASS GIS workshop to the IT group at the German Archaeological Institute (DAI) in Berlin
 and in the fall, Michael was teaching a graduate/undergraduate course on Spatial Technologies for Anthropological Research using GRASS GIS at Arizona State University School of Human Evolution & Social Change.
+In September, Veronica Andreo taught a postgraduate course at the University of Córdoba in Argentina, with focus on satellite images and time series data processing and analysis in GRASS GIS. All the [course materials](https://veroandreo.github.io/curso-grass-gis/) are in Spanish. As a result, one of the course students created [two addon toolsets](https://github.com/OSGeo/grass-addons/pull/949) which are now under review to work with Synthetic Aperture Radar (SAR) data in GRASS GIS. 
 
 Many new manuscripts using GRASS GIS were published by various authors.
 Check out GRASS GIS [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=gJ0ZB0cAAAAJ), and see around 30 new records from 2023!
@@ -148,7 +149,7 @@ on using GRASS GIS with 3D Elevation Program (3DEP) data.
 NC State University team lead by Helena Mitasova, Vaclav Petras, and Anna Petrasova
 received research support through US Department of Agriculture Natural Resources Conservation Service
 which includes development of new and enhancement of existing GRASS modules to incorporate dynamic soil survey data into surface water modeling tools. 
-
+Congratulations every one on a great year!! And welcome new contributors!
 
 *Anna Petrasova* (North Carolina State University),\
 *Vaclav (Vashek) Petras* (North Carolina State University)\
