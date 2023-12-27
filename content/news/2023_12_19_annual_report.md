@@ -60,8 +60,7 @@ GRASS GIS was represented at several events with talks or workshops led by commu
 In February, Vaclav Petras presented a talk
 [Tips and Tricks for GRASS GIS 8.2](https://wenzeslaus.github.io/grass-gis-talks/ncgis2023.html) at the North Carolina GIS conference in Winston-Salem, NC, USA.
 
-In June, Martin Landa gave a [State of GRASS GIS](https://ctu-geoforall-lab.github.io/grass-gis-talk-foss4g-2023/foss4g2023.html) talk at global FOSS4G in Prizren, Kosovo.
-
+In June, Martin Landa gave a [State of GRASS GIS](https://ctu-geoforall-lab.github.io/grass-gis-talk-foss4g-2023/foss4g2023.html) talk at the global FOSS4G in Prizren, Kosovo.
 
 At the end of August, Caitlin Haedrich and Anna Petrasova promoted GRASS GIS at the OpenGeoHub Summer School with a workshop on
 [Parallelization of geoprocessing workflows in GRASS GIS and Python](https://github.com/ncsu-geoforall-lab/opengeohub-2023).
@@ -131,6 +130,7 @@ NC State also hosted a GIS week event in November featuring [Big Data Computing 
 
 In June, Michael Barton gave a GRASS GIS workshop to the IT group at the German Archaeological Institute (DAI) in Berlin
 and in the fall, Michael was teaching a graduate/undergraduate course on Spatial Technologies for Anthropological Research using GRASS GIS at Arizona State University School of Human Evolution & Social Change.
+
 In September, Veronica Andreo taught a postgraduate course at the University of Córdoba in Argentina, with focus on satellite images and time series data processing and analysis in GRASS GIS. All the [course materials](https://veroandreo.github.io/curso-grass-gis/) are in Spanish. As a result, one of the course students created [two addon toolsets](https://github.com/OSGeo/grass-addons/pull/949) which are now under review to work with Synthetic Aperture Radar (SAR) data in GRASS GIS. 
 
 Many new manuscripts using GRASS GIS were published by various authors.
@@ -151,6 +151,7 @@ on using GRASS GIS with 3D Elevation Program (3DEP) data.
 NC State University team led by Helena Mitasova, Vaclav Petras, and Anna Petrasova
 received research support through US Department of Agriculture Natural Resources Conservation Service
 which includes development of new and enhancement of existing GRASS modules to incorporate dynamic soil survey data into surface water modeling tools.
+
 Congratulations everyone on a great year!! And welcome new contributors!
 
 *Anna Petrasova* (North Carolina State University),\
