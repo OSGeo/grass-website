@@ -44,7 +44,7 @@ Nicklas Larsson, Tomas Zigo, Markus Neteler, Vaclav Petras and Anna Petrasova.
 Thanks to the other 30 core developers and contributors that contributed PRs to the project!
 We are also excited to announce we welcomed a new core contributor, Edouard Choinière!
 
-<!-- In December, Linda Karlovska was awarded a [GRASS Student Grant](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Student_Grants) to improve a new history browser panel in GRASS GUI. We are looking forward to the enhancements in 2024! -->
+In December, Linda Karlovska was awarded a [GRASS Student Grant](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Student_Grants) to improve a new history browser panel in GRASS GUI. We are looking forward to the enhancements in 2024!
 
 ### Conferences in 2023
 
