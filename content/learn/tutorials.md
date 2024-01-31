@@ -40,7 +40,7 @@ layout: "overview"
 ##### Advanced tutorials
 
 * [GRASS GIS for remote sensing data processing and analysis](https://github.com/veroandreo/foss4g2022_grass4rs) (2022)
-* [Various GRASS GIS tutorials for ecological applications](https://ecodiv.earth/tutorials/) (2022)
+* [Various GRASS GIS tutorials for ecological applications](https://ecodiv.earth/tutorials.html#category=grass%20gis) (2022)
 * [Temporal data processing](https://grasswiki.osgeo.org/wiki/Temporal_data_processing) (2021)
 * [Analyzing space-time satellite data for disease ecology](https://github.com/veroandreo/grass_opengeohub2019/blob/master/pdf/tgrass_rstats_disease_ecology.pdf) (2021)
 * [Using GRASS commands in shell, R and RStudio](https://florisvdh.github.io/presentations/20210617_grass) (2021)
