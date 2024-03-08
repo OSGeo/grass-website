@@ -12,8 +12,8 @@ compared to 8.3.1. This new patch release includes
 **important fixes and improvements** to the GRASS GIS modules and the
 graphical user interface (GUI), making it even more stable for daily work.
 
-Some of the most important changes are: fixes for `r.horizon` and some
-other modules; also database connections in vector data have been improved
+Some of the most important changes are: fixes for `r.horizon` and 
+other modules; improvements in database connections for vector data 
 as well as selected manual pages.
 
 Translations continue in
