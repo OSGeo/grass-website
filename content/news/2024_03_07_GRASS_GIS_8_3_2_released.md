@@ -22,13 +22,6 @@ automatically creates pull requests with the translated chunks.
 We'd like to **thank the translators of all languages** for their
 ongoing support!
 
-<a href="/images/news/grass832_TODO.png">
-  <img src="/images/news/grass832_TODO.png"
-   alt="GRASS GIS 8.3.2"
-   title="GRASS GIS 8.3.2"
-   width="60%" style="float:right;padding-left:15px;padding-top:20px">
-</a>
-
 ### Full list of changes and contributors
 
 For all 30+ changes, see our detailed announcement with the full list of
@@ -36,6 +29,13 @@ features and bugs fixed at
 [GitHub / Releases / 8.3.2](https://github.com/OSGeo/grass/releases/tag/8.3.2).
 
 Thanks to all contributors!
+
+<a href="/images/news/grass832_lc_spatial_scale.png">
+  <img src="/images/news/grass832_lc_spatial_scale.png"
+   alt="GRASS GIS 8.3.2"
+   title="GRASS GIS 8.3.2"
+   width="65%" style="float:right;padding-left:15px;padding-top:15px">
+</a>
 
 ## Software downloads
 
