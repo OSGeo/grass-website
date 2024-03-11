@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2023-10-25T17:12:05+02:00
+date: 2024-03-07T14:12:05+02:00
 layout: "timeline"
 ---
 
@@ -20,6 +20,8 @@ layout: "timeline"
         <div id="2023" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
+
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 07 Mar 2024</span> <b>GRASS GIS 8.3.2</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.3.2">Changelog</a> - <a href="/grass83/source/">Source Code</a></li>
 
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 25 Oct 2023</span> <b>GRASS GIS 8.3.1</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.3.1">Changelog</a> - <a href="/grass83/source/">Source Code</a></li>
 
