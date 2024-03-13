@@ -60,8 +60,45 @@ greyColorDark = "#A0A0A0"
 
     [[Languages.en.menu.main]]
       weight = 1
-      name = "News"
-      URL = "/news"
+      name = "About Us"
+      url = "/about"
+      hasChildren = true
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "Team"
+        weight = 1
+        URL = "/about/team"
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "License"
+        URL = "/about/license"
+        weight = 2
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "History"
+        URL = "/about/history"
+        weight = 3
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "Brand"
+        URL = "/about/brand"
+        weight = 4
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "Credits"
+        URL = "/about/credits"
+        weight = 5
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "Citation"
+        URL = "/about/citation"
+        weight = 6
 
     [[Languages.en.menu.main]]
       weight = 2
@@ -197,42 +234,6 @@ greyColorDark = "#A0A0A0"
         parent = "Contribute"
         name = "Sponsors"
         URL = "https://grasswiki.osgeo.org/wiki/Sponsors"
-        weight = 4
-
-    [[Languages.en.menu.main]]
-      weight = 6
-      name = "About"
-      url = "/about"
-      hasChildren = true
-
-      [[Languages.en.menu.main]]
-        parent = "About"
-        name = "Citation"
-        URL = "/about/citation"
-        weight = 1
-
-      [[Languages.en.menu.main]]
-        parent = "About"
-        name = "License"
-        URL = "/about/license"
-        weight = 1
-
-      [[Languages.en.menu.main]]
-        parent = "About"
-        name = "History"
-        URL = "/about/history"
-        weight = 2
-
-      [[Languages.en.menu.main]]
-        parent = "About"
-        name = "Brand"
-        URL = "/about/brand"
-        weight = 3
-
-      [[Languages.en.menu.main]]
-        parent = "About"
-        name = "Credits"
-        URL = "/about/credits"
         weight = 4
 
     # banner

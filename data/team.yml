@@ -1,0 +1,66 @@
+members:
+  - name: Verónica Andreo
+    chair: true
+    psc: true
+    maintainer: true
+    image: /images/team/Veronica_Andreo_PSC.jpg
+    email: veroandreo@gmail.com
+    website: https://veroandreo.gitlab.io/
+    job: National Research Council (CONICET) - Argentinian Space Agency (CONAE), AR
+    country: AR
+  - name: Michael Barton
+    psc: true
+    image: /images/team/Michael_Barton_PSC.png
+    email: michael.barton@asu.edu
+    website: http://cmbarton.wikidot.com/
+    job: Arizona State University, US
+    country: USA
+  - name: Huidae Cho
+    psc: true
+    image: /images/team/Huidae_Cho_PSC.jpg
+    email: grass4u@gmail.com
+    website: https://www.nmsu.edu/~hcho/
+    job: New Mexico State University, US
+    country: USA
+  - name: Martin Landa
+    psc: true
+    image: /images/team/Martin_Landa_PSC.jpg
+    email: martin.landa@fsv.cvut.cz
+    website: https://geo.fsv.cvut.cz/~landa/
+    job: Czech Technical University in Prague, CZ
+    country: Czech Republic
+  - name: Helena Mitasova
+    psc: true
+    image: /images/team/Helena_Mitasova_PSC.jpg
+    email: hmitaso@ncsu.edu
+    website: https://cnr.ncsu.edu/geospatial/
+    job: Center for Geospatial Analytics (CGA), North Carolina State University, Raleigh NC, USA
+    country: USA
+  - name: Markus Neteler
+    psc: true
+    image: /images/team/Markus_Neteler_PSC.png
+    email: neteler@osgeo.org
+    website: https://www.mundialis.de/
+    job: mundialis, Bonn, DE
+    country: Germany
+  - name: Vaclav Petras
+    psc: true
+    image: /images/team/Vaclav_Petras_PSC.jpeg
+    email: wenzeslaus@gmail.com
+    website: https://cnr.ncsu.edu/geospatial/
+    job: Center for Geospatial Analytics (CGA), North Carolina State University, Raleigh NC, USA
+    country: USA
+  - name: Anna Petrášová
+    psc: true
+    image: /images/team/Anna_Petrasova_PSC.jpeg
+    email: kratochanna@gmail.com
+    website: https://cnr.ncsu.edu/geospatial/
+    job: Center for Geospatial Analytics (CGA), North Carolina State University, Raleigh NC, USA
+    country: USA
+  - name: Helmut Kudrnovsky
+    psc: true
+    image: /images/team/Helmut_Kudrnovsky_PSC.png
+    email: hellik@web.de
+    website: https://www.umweltbundesamt.at/
+    job: Environment Agency Austria, Vienna, AT
+    country: Austria

@@ -1,0 +1,103 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-white">
+      <div class="container bg-white">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
+  </div>
+/header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+<section class="single section bg-gray pb-0 mt-5">
+    <div class="container">
+       
+        <div class="row">
+            <div class="p-5 bg-white">
+                <h2>Meet the GRASS Team</h2>
+                <h3>Project Steering Committee (PSC)</h3>
+                <p>The Project Steering Committee (PSC) plays a pivotal role in the governance and operational direction of GRASS GIS. Here's a brief overview of the key responsibilities and resources managed by the PSC:</p>
+                    
+                    <h4>Mailing List</h4>
+                    <p>Stay connected and informed with the PSC's activities through our <a href="http://lists.osgeo.org/mailman/listinfo/grass-psc" target="_blank">Public Mailing List</a>. It's the best way to keep up with the discussions, decisions, and directions taken by the committee.</p>
+                    
+                    <h4>Meeting Agenda</h4>
+                    
+                    <p>The PSC meticulously maintains an Agenda that outlines dates for important issues requiring votes or further discussion. This ensures transparency and structured decision-making within our project.</p>
+                    
+                    <h4>RFCs and Motions</h4>
+                    
+                        <h5>Request For Comment (RFC) List:</h5> 
+                        <p>Dive into the RFCs to explore proposed changes or enhancements to the project. The list is also accessible on GitHub, providing a platform for community feedback and collaboration.</p>
+                        <h5>PSC Motions:</h5>
+                        <p>Review the formal decisions and motions passed by the PSC, reflecting our project's evolving needs and objectives.</p>
+                    
+                    <h4>Developer Contributions</h4>
+                    
+                    <p>A core function of the PSC is to grant SVN / GitHub write access to new core or addon developers. This process ensures that contributors who have demonstrated commitment and quality in their work are able to more directly influence the project's development.</p>
+                    
+                    <p>Join us in shaping the future of GRASS GIS. Whether you're looking to contribute, provide feedback on RFCs, or simply stay informed, the PSC welcomes your participation and support.</p>
+            </div>
+        </div>
+
+        <!-- Chair -->
+        <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text-primary">Chair</h3>
+                </div>
+                <div class="p-5 bg-white">
+                {{ $teamMembers := .Site.Data.team.members }}
+                {{ range $index, $element := $teamMembers }}
+
+                    {{ if and $element.psc $element.chair }}
+                            <div class="col-lg-12">
+                                {{ partial "team-list.html" $element }}
+                            </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+
+        <!-- PSC Members -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-primary">Members</h3>
+            </div>
+                {{ $.Scratch.Set "counter" 0 }}
+                {{ range $index, $element := $teamMembers }}
+                {{ if and $element.psc (not $element.chair) }}
+                    {{ $.Scratch.Add "counter" 1 }}
+                    {{ if eq (mod ($.Scratch.Get "counter") 3) 0 }}
+                        <!-- Every 3 items, close the previous row and start a new one -->
+                        </div><div class="row">
+                    {{ end }}
+                    <div class="col-lg-4">
+                        <div class="p-5 bg-white">
+                            {{ partial "team-list.html" . }}
+                        </div>
+                    </div>
+                {{ end }}
+                {{ end }}
+            </div>
+    </div>
+</section>
+
+<section class="single section bg-gray pb-0 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="p-5 bg-white">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  {{ partial "footer.html" . }}
