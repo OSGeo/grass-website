@@ -2,15 +2,15 @@
     <!-- Images stored in themes/grass/assests/images/team/ for processing-->
     {{ $original := resources.Get .image }}
     {{ $cropped := $original.Fill "300x300 smart"}}
-    {{ $small := $cropped.Resize "150x150" }}
-    {{ $medium := $cropped.Resize "200x200" }}
+    {{ $small := $cropped.Resize "200x200" }}
+    {{ $medium := $cropped.Resize "250x250" }}
     {{ $large := $cropped.Resize "300x300" }}
     <img src="{{ $medium.RelPermalink }}"
-         srcset="{{ $small.RelPermalink }} 150w,
-                 {{ $medium.RelPermalink }} 200w,
+         srcset="{{ $small.RelPermalink }} 200w,
+                 {{ $medium.RelPermalink }} 250w,
                  {{ $large.RelPermalink }} 300w"
-         sizes="(max-width: 768px) 100px,
-                (max-width: 1024px) 200px,
+         sizes="(max-width: 768px) 200px,
+                (max-width: 1024px) 250px,
                 300px"
          alt="{{ .name }}" class="img-fluid">
     <h3>{{ .name }}</h3>
