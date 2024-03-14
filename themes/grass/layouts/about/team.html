@@ -37,7 +37,7 @@
                     {{ if eq $element.psc.role "chair"}}
                             <div class="col-lg-12">
                                 <div style="text-align: center;">
-                                <h3 class="text-primary">Chair</h3>
+                                <h2 class="text-primary">Chair</h2>
                                 <h4>{{ $element.psc.chair.terms }}</h4>
                             </div>
                                 {{ partial "team-list.html" $element }}
@@ -55,20 +55,55 @@
             </div>
                 {{ $.Scratch.Set "counter" -1 }}
                 {{ range $index, $element := $teamMembers }}
-                {{ if and (eq $element.psc.role "member") }}
+                {{ if and (eq $element.psc.role "member") (eq $element.psc.status "active")}}
                     {{ $.Scratch.Add "counter" 1 }}
                     {{ if eq (mod ($.Scratch.Get "counter") 3) 0 }}
                         <!-- Every 3 items, close the previous row and start a new one -->
                         </div><div class="row">
                     {{ end }}
                     <div class="col-lg-4">
-                        <div class="p-5 bg-white">
-                            {{ partial "team-list.html" . }}
-                        </div>
+                        {{ partial "team-list.html" . }}
                     </div>
                 {{ end }}
                 {{ end }}
             </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Former PSC Members -->
+<section class="single section bg-gray pb-0 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-primary" style="text-align: center;">Former Members</h3>
+            </div>
+            {{ range $pindex, $period := .Site.Data.team.periods }}
+            {{if ne $period.end 2025}}
+    
+            <div class="col-lg-12">
+                <h3 class="text-primary" style="text-align: center;">{{$period.start}} - {{$period.end}}</h3>
+            </div>
+                {{ $.Scratch.Set "past_counter" -1 }}
+                {{ range $index, $pastmember := $teamMembers }}
+                    {{ if eq $pastmember.psc.status "former" }}
+                        {{range $pi, $pscPeriod  := $pastmember.psc.periods}}
+                            {{ if and (eq $pscPeriod.start $period.start) (eq $pscPeriod.end $period.end) }}
+                                {{ $.Scratch.Add "past_counter" 1 }}
+                                {{ if eq (mod ($.Scratch.Get "past_counter") 3) 0 }}
+                                    <!-- Every 3 items, close the previous row and start a new one -->
+                                    </div><div class="row">
+                                {{ end }}
+                            <div class="col-lg-4">
+                                {{ partial "team-list.html" $pastmember }}
+                            </div>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ end }}
         </div>
     </div>
 </section>

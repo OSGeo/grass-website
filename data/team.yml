@@ -1,12 +1,15 @@
 members:
-  - name: Verónica Andreo
+  - name: Dr. Verónica Andreo
     psc:
         status: active
         role: chair
+        periods:
+          - start: 2021
+            end: 2025
         chair:
-          terms: 2021 - present
+          terms: 2021 - Present
     maintainer: true
-    image: /images/team/Veronica_Andreo_PSC.jpg
+    image: /images/team/Veronica_Andreo_PSC_Chair.jpg
     website: https://veroandreo.gitlab.io/
     job: National Research Council (CONICET) - Argentinian Space Agency (CONAE), AR
     country: AR
@@ -21,10 +24,13 @@ members:
       - icon: fab fa-x-twitter
         link: https://twitter.com/VeronicaAndreo
 
-  - name: Michael Barton
+  - name: Dr. Michael Barton
     psc:
         status: active
         role: member
+        periods:
+          - start: 2021
+            end: 2025
     image: /images/team/Michael_Barton_PSC.png
     website: http://cmbarton.wikidot.com/
     job: Arizona State University, US
@@ -33,10 +39,13 @@ members:
       - icon: fa fa-envelope
         link: mailto:michael.barton@asu.edu
 
-  - name: Huidae Cho
+  - name: Dr. Huidae Cho
     psc:
        status: active
        role: member
+       periods:
+          - start: 2021
+            end: 2025
     image: /images/team/Huidae_Cho_PSC.jpg
     job: New Mexico State University, US
     country: US
@@ -50,10 +59,13 @@ members:
       - icon: fab fa-x-twitter
         link: https://twitter.com/huidaecho
         
-  - name: Martin Landa
+  - name: Dr. Martin Landa
     psc:
         status: active
         role: member
+        periods:
+          - start: 2021
+            end: 2025
     image: /images/team/Martin_Landa_PSC.jpg
     website: https://geo.fsv.cvut.cz/~landa/
     job: Czech Technical University in Prague, CZ
@@ -66,10 +78,13 @@ members:
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/martin-landa-04b19b6a/
 
-  - name: Helena Mitasova
+  - name: Dr. Helena Mitasova
     psc:
         status: active
         role: member
+        periods:
+          - start: 2021
+            end: 2025
     image: /images/team/Helena_Mitasova_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
@@ -80,10 +95,13 @@ members:
       - icon: fab fa-github
         link: https://github.com/hmitaso
 
-  - name: Markus Neteler
+  - name: Dr. Markus Neteler
     psc:
         status: active
         role: member
+        periods:
+          - start: 2021
+            end: 2025
         chair:
           terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
     image: /images/team/Markus_Neteler_PSC.png
@@ -102,10 +120,13 @@ members:
       - icon: fab fa-mastodon
         link: https://mastodon.social/@neteler
       
-  - name: Vaclav Petras
+  - name: Dr. Vaclav Petras
     psc:
         status: active
         role: member
+        periods:
+          - start: 2021
+            end: 2025
     image: /images/team/Vaclav_Petras_PSC.jpeg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
@@ -120,10 +141,13 @@ members:
       - icon: fab fa-x-twitter
         link: https://twitter.com/vaclavpetras
 
-  - name: Anna Petrášová
+  - name: Dr. Anna Petrášová
     psc:
         status: active
         role: member
+        periods:
+          - start: 2021
+            end: 2025
     image: /images/team/Anna_Petrasova_PSC.jpeg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
@@ -136,10 +160,13 @@ members:
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/anna-petrasova/
 
-  - name: Helmut Kudrnovsky
+  - name: Dr. Helmut Kudrnovsky
     psc:
         status: active
         role: member
+        periods:
+          - start: 2021
+            end: 2025
     image: /images/team/Helmut_Kudrnovsky_PSC.png
     email: hellik@web.de
     website: https://www.umweltbundesamt.at/
@@ -150,3 +177,199 @@ members:
         link: https://github.com/hellik
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/helmut-kudrnovsky-a717b351/
+
+  - name: Moritz Lennert
+    psc:
+        status: former
+        role: member
+        periods:
+          - start: 2021
+            end: 2023
+    image: /images/team/Moritz_Lennert_PSC.jpeg
+    email: mlennert@club.worldonline.be
+    website: https://bluesquarehub.com/about-us/team/moritz-lennert-senior-geospatial-expert/
+    job: Bluesquare, Brussels, BE 
+    country: Belgium
+    social:
+      - icon: fa fa-envelope
+        link: mlennert@club.worldonline.be
+      - icon: fab fa-github
+        link: https://github.com/mlennert
+      - icon: fab fa-x-twitter
+        link: https://twitter.com/MoritzLennert
+
+  - name: Margherita Di Leo
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2016
+          end: 2020
+    website: https://ec.europa.eu/jrc/
+    image: /images/team/Margherita_Di_Leo_PSC.jpg
+    job: European Commission, Joint Research Centre (JRC), IT
+    country: Italy
+    social:
+      - icon: fa fa-envelope
+        link: mailto:dileomargherita@gmail.com
+
+  - name: Peter Löwe
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2016
+          end: 2020
+    email: peter.loewe@gmx.de
+    website: https://www.tib.eu/
+    image: /images/team/Peter_Loewe_PSC.jpeg
+    job: TIB Hannover, DE
+    country: Germany
+    social:
+      - icon: fa fa-envelope
+        link: mailto:peter.loewe@gmx.de
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/peterloewe/
+
+# Period 2012-2016:
+  - name: Hamish Bowman
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2012
+          end: 2016
+    website: https://www.otago.ac.nz/geology/staff/hamish-bowman
+    image: /images/team/Hamish_Bowman_PSC.jpg
+    job: University of Otago. Dunedin, NZ
+    country: New Zealand
+    social:
+      - icon: fa fa-envelope
+        link: mailto:hamish.bowman@otago.ac.nz
+
+  - name: Markus Metz
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2012
+          end: 2016
+    website: https://www.mundialis.de/en/team/dr-markus-metz/
+    image: /images/team/Markus_Metz_PSC.jpeg
+    job: mundialis, Bonn, DE
+    country: Germany
+    social:
+      - icon: fa fa-envelope
+        link: mailto:hamish.bowman@otago.ac.nz
+      - icon: fab fa-github
+        link: https://github.com/metzm
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/markus-metz-a9628528/
+
+  - name: Scott Mitchell
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2012
+          end: 2016
+    website: https://carleton.ca/geography/people/mitchell-scott/
+    image: /images/team/Scott_Mitchell_PSC.jpg
+    job: Carleton University, Ottawa, CA
+    country: USA
+    social:
+      - icon: fa fa-envelope
+        link: mailto:scott.mitchell@carleton.ca
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/scott-mitchell-7b9b6574
+      - icon: fab fa-x-twitter
+        link: https://twitter.com/Smitch_ca
+
+  - name: Massimiliano Cannata
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2012
+          end: 2016
+    website: https://wiki.osgeo.org/wiki/Massimiliano_Cannata
+    image: /images/team/Massimiliano_Cannata_PSC.jpg
+    job:  University of Applied Sciences and Arts of Southern Switzerland (SUPSI) 
+    country: CH
+    social:
+      - icon: fa fa-envelope
+        link: mailto:massimiliano.cannata@supsi.ch
+
+
+# Period 2006-2012:
+  - name: Dylan Beaudette
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2006
+          end: 2012
+    website: https://casoilresource.lawr.ucdavis.edu/people/dylan-e-beaudette
+    image: /images/team/Dylan_Beaudette_PSC.jpg
+    job:  University of California, Davis, US
+    country: USA
+    social:
+      - icon: fa fa-envelope
+        link: mailto:debeaudette@ucdavis.edu
+
+  - name: Brad Douglas
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2006
+          end: 2012
+    website: https://casoilresource.lawr.ucdavis.edu/people/dylan-e-beaudette
+    image: /images/team/Brad_Douglas_PSC.jpeg
+    job:  California, US
+    country: USA
+    social:
+      - icon: fa fa-envelope
+        link: mailto:rez@touchofmadness.com
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/bdouglas/
+
+  - name: Paul Kelly
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2006
+          end: 2012
+    website: https://grasswiki.osgeo.org/wiki/Team
+    image: /images/team/Grass_Default_PSC.png
+    job:  United Kingdom
+    country: UK
+    
+  - name: Maciej Sieczka
+    psc:
+      status: former
+      role: member
+      periods:
+        - start: 2006
+          end: 2012
+    website: http://www.sieczka.org/
+    image: /images/team/Grass_Default_PSC.png
+    job: Poland
+    country: PL
+    social:
+      - icon: fa fa-envelope
+        link: mailto:msieczka@sieczka.org
+# Maciej Sieczka (msieczka * sieczka org) ​Home page, PL 
+
+periods:
+  - start: 2021
+    end: 2025
+  - start: 2021
+    end: 2023
+  - start: 2016
+    end: 2020
+  - start: 2012
+    end: 2016
+  - start: 2006
+    end: 2012
