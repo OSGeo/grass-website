@@ -34,11 +34,11 @@
                 {{ $teamMembers := .Site.Data.team.members }}
                 {{ range $index, $element := $teamMembers }}
 
-                    {{ if eq $element.chair "current"}}
+                    {{ if eq $element.psc.role "chair"}}
                             <div class="col-lg-12">
                                 <div style="text-align: center;">
                                 <h3 class="text-primary">Chair</h3>
-                                <h4>{{ $element.terms }}</h4>
+                                <h4>{{ $element.psc.chair.terms }}</h4>
                             </div>
                                 {{ partial "team-list.html" $element }}
                                 <p>{{ $element.bio }}</p>
@@ -55,7 +55,7 @@
             </div>
                 {{ $.Scratch.Set "counter" -1 }}
                 {{ range $index, $element := $teamMembers }}
-                {{ if and $element.psc (ne $element.chair "current") }}
+                {{ if and (eq $element.psc.role "member") }}
                     {{ $.Scratch.Add "counter" 1 }}
                     {{ if eq (mod ($.Scratch.Get "counter") 3) 0 }}
                         <!-- Every 3 items, close the previous row and start a new one -->

@@ -1,8 +1,10 @@
 members:
   - name: Verónica Andreo
-    chair: current
-    terms: 2021 - present
-    psc: true
+    psc:
+        status: active
+        role: chair
+        chair:
+          terms: 2021 - present
     maintainer: true
     image: /images/team/Veronica_Andreo_PSC.jpg
     website: https://veroandreo.gitlab.io/
@@ -20,7 +22,9 @@ members:
         link: https://twitter.com/VeronicaAndreo
 
   - name: Michael Barton
-    psc: true
+    psc:
+        status: active
+        role: member
     image: /images/team/Michael_Barton_PSC.png
     website: http://cmbarton.wikidot.com/
     job: Arizona State University, US
@@ -30,7 +34,9 @@ members:
         link: mailto:michael.barton@asu.edu
 
   - name: Huidae Cho
-    psc: true
+    psc:
+       status: active
+       role: member
     image: /images/team/Huidae_Cho_PSC.jpg
     job: New Mexico State University, US
     country: US
@@ -45,7 +51,9 @@ members:
         link: https://twitter.com/huidaecho
         
   - name: Martin Landa
-    psc: true
+    psc:
+        status: active
+        role: member
     image: /images/team/Martin_Landa_PSC.jpg
     website: https://geo.fsv.cvut.cz/~landa/
     job: Czech Technical University in Prague, CZ
@@ -59,7 +67,9 @@ members:
         link: https://www.linkedin.com/in/martin-landa-04b19b6a/
 
   - name: Helena Mitasova
-    psc: true
+    psc:
+        status: active
+        role: member
     image: /images/team/Helena_Mitasova_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
@@ -71,9 +81,11 @@ members:
         link: https://github.com/hmitaso
 
   - name: Markus Neteler
-    chair: former
-    terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
-    psc: true
+    psc:
+        status: active
+        role: member
+        chair:
+          terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
     image: /images/team/Markus_Neteler_PSC.png
     website: https://www.mundialis.de/
     job: mundialis, Bonn, DE
@@ -91,7 +103,9 @@ members:
         link: https://mastodon.social/@neteler
       
   - name: Vaclav Petras
-    psc: true
+    psc:
+        status: active
+        role: member
     image: /images/team/Vaclav_Petras_PSC.jpeg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
@@ -107,7 +121,9 @@ members:
         link: https://twitter.com/vaclavpetras
 
   - name: Anna Petrášová
-    psc: true
+    psc:
+        status: active
+        role: member
     image: /images/team/Anna_Petrasova_PSC.jpeg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
@@ -121,7 +137,9 @@ members:
         link: https://www.linkedin.com/in/anna-petrasova/
 
   - name: Helmut Kudrnovsky
-    psc: true
+    psc:
+        status: active
+        role: member
     image: /images/team/Helmut_Kudrnovsky_PSC.png
     email: hellik@web.de
     website: https://www.umweltbundesamt.at/

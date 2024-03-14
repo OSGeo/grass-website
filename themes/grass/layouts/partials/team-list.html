@@ -15,8 +15,8 @@
          alt="{{ .name }}" class="img-fluid">
     <h3>{{ .name }}</h3>
     <p><strong>{{ .job }}</strong></p>
-    {{ if eq .chair "former" }}
-    <p>Former Chair: {{.terms}}</p>
+    {{ if .psc.chair }}
+    <p>Former Chair: {{.psc.chair.terms}}</p>
     {{ end }}
     <a href="{{ .website }}" target="_blank">Learn More</a>
     <ul class="list-inline mb-3">
