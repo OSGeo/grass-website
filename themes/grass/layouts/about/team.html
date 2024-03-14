@@ -22,41 +22,23 @@
                 <h2>Meet the GRASS Team</h2>
                 <h3>Project Steering Committee (PSC)</h3>
                 <p>The Project Steering Committee (PSC) plays a pivotal role in the governance and operational direction of GRASS GIS. Here's a brief overview of the key responsibilities and resources managed by the PSC:</p>
-                    
-                    <h4>Mailing List</h4>
-                    <p>Stay connected and informed with the PSC's activities through our <a href="http://lists.osgeo.org/mailman/listinfo/grass-psc" target="_blank">Public Mailing List</a>. It's the best way to keep up with the discussions, decisions, and directions taken by the committee.</p>
-                    
-                    <h4>Meeting Agenda</h4>
-                    
-                    <p>The PSC meticulously maintains an Agenda that outlines dates for important issues requiring votes or further discussion. This ensures transparency and structured decision-making within our project.</p>
-                    
-                    <h4>RFCs and Motions</h4>
-                    
-                        <h5>Request For Comment (RFC) List:</h5> 
-                        <p>Dive into the RFCs to explore proposed changes or enhancements to the project. The list is also accessible on GitHub, providing a platform for community feedback and collaboration.</p>
-                        <h5>PSC Motions:</h5>
-                        <p>Review the formal decisions and motions passed by the PSC, reflecting our project's evolving needs and objectives.</p>
-                    
-                    <h4>Developer Contributions</h4>
-                    
-                    <p>A core function of the PSC is to grant SVN / GitHub write access to new core or addon developers. This process ensures that contributors who have demonstrated commitment and quality in their work are able to more directly influence the project's development.</p>
-                    
-                    <p>Join us in shaping the future of GRASS GIS. Whether you're looking to contribute, provide feedback on RFCs, or simply stay informed, the PSC welcomes your participation and support.</p>
             </div>
         </div>
 
         <!-- Chair -->
         <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="text-primary">Chair</h3>
-                </div>
-                <div class="p-5 bg-white">
+            <div class="col-lg-12">
+                 <h3 class="text-primary">Chair</h3>
+            </div>
+            <div class="p-5 bg-white">
                 {{ $teamMembers := .Site.Data.team.members }}
                 {{ range $index, $element := $teamMembers }}
 
-                    {{ if and $element.psc $element.chair }}
+                    {{ if eq $element.chair "current"}}
                             <div class="col-lg-12">
+                                <h4 class="text-primary" style="text-align: center;">{{ $element.terms }}</h4>
                                 {{ partial "team-list.html" $element }}
+                                <p>{{ $element.bio }}</p>
                             </div>
                     {{ end }}
                 {{ end }}
@@ -68,9 +50,9 @@
             <div class="col-lg-12">
                 <h3 class="text-primary">Members</h3>
             </div>
-                {{ $.Scratch.Set "counter" 0 }}
+                {{ $.Scratch.Set "counter" -1 }}
                 {{ range $index, $element := $teamMembers }}
-                {{ if and $element.psc (not $element.chair) }}
+                {{ if and $element.psc (ne $element.chair "current") }}
                     {{ $.Scratch.Add "counter" 1 }}
                     {{ if eq (mod ($.Scratch.Get "counter") 3) 0 }}
                         <!-- Every 3 items, close the previous row and start a new one -->
@@ -84,6 +66,7 @@
                 {{ end }}
                 {{ end }}
             </div>
+        </div>
     </div>
 </section>
 
@@ -91,13 +74,34 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="p-5 bg-white">
-            {{ .Content }}
-          </div>
+            <div class="p-5 bg-white">
+                <h2>Learn Moare about the PSC</h2>
+                <p>The Project Steering Committee (PSC) plays a pivotal role in the governance and operational direction of GRASS GIS. Here's a brief overview of the key responsibilities and resources managed by the PSC:</p>
+                    
+                    <h4>Mailing List</h4>
+                    <p>Stay connected and informed with the PSC's activities through our <a href="http://lists.osgeo.org/mailman/listinfo/grass-psc" target="_blank">Public Mailing List</a>. It's the best way to keep up with the discussions, decisions, and directions taken by the committee.</p>
+                    
+                    <h4>Meeting Agenda</h4>
+                    
+                    <p>The PSC meticulously maintains an <a href="https://trac.osgeo.org/grass/wiki/PSC/Agenda" target="_blank">Agenda</a> that outlines dates for important issues requiring votes or further discussion. This ensures transparency and structured decision-making within our project.</p>
+                    
+                    <h4>RFCs and Motions</h4>
+                    
+                        <h5>Request For Comment (RFC) List</h5> 
+                        <p>Dive into the <a href="https://trac.osgeo.org/grass/wiki/RFC" target="_blank">RFCs</a> to explore proposed changes or enhancements to the project. The list is also accessible on <a href="https://github.com/OSGeo/grass/tree/main/doc/development/rfc" target="_blank">GitHub</a>, providing a platform for community feedback and collaboration.</p>
+                        <h5>PSC Motions</h5>
+                        <p>Review the formal decisions and <a href="https://trac.osgeo.org/grass/wiki/PSC/Motions" target="_blank">motions</a> passed by the PSC, reflecting our project's evolving needs and objectives.</p>
+                    
+                    <h4>Developer Contributions</h4>
+                    
+                    <p>A core function of the PSC is to <a href="https://trac.osgeo.org/grass/wiki/PSC/RequestingSVNWriteAccess" target="_blank">grant SVN / GitHub write access</a> to new core or addon developers. This process ensures that contributors who have demonstrated commitment and quality in their work are able to more directly influence the project's development.</p>
+                    
+                    <p>Join us in shaping the future of GRASS GIS. Whether you're looking to contribute, provide feedback on RFCs, or simply stay informed, the PSC welcomes your participation and support.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
   
   
   {{ partial "footer.html" . }}

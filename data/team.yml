@@ -1,62 +1,125 @@
 members:
   - name: Verónica Andreo
-    chair: true
+    chair: current
+    terms: 2021 - present
     psc: true
     maintainer: true
     image: /images/team/Veronica_Andreo_PSC.jpg
-    email: veroandreo@gmail.com
     website: https://veroandreo.gitlab.io/
     job: National Research Council (CONICET) - Argentinian Space Agency (CONAE), AR
     country: AR
+    bio: Veronica Andreo holds a PhD in Biology and an MSc in Remote Sensing and GIS Applications. She is part of the GRASS Dev Team, and serves as PSC chair since 2021. She is currently working at the Center for Geospatial Analytics, NC State University, within an NSF grant aimed at bolstering and broadening the software ecosystem of GRASS GIS. Her research interests include the development of open-source tools for spatial data analysis, and the application of remote sensing and GIS for environmental monitoring and natural resources management.
+    social:
+      - icon: fa fa-envelope
+        link: mailto:veroandreo@gmail.com
+      - icon: fab fa-github
+        link: https://github.com/veroandreo
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/veronica-andreo-0a4b3278/
+      - icon: fab fa-x-twitter
+        link: https://twitter.com/VeronicaAndreo
+
   - name: Michael Barton
     psc: true
     image: /images/team/Michael_Barton_PSC.png
-    email: michael.barton@asu.edu
     website: http://cmbarton.wikidot.com/
     job: Arizona State University, US
-    country: USA
+    country: US
+    social:
+      - icon: fa fa-envelope
+        link: mailto:michael.barton@asu.edu
+
   - name: Huidae Cho
     psc: true
     image: /images/team/Huidae_Cho_PSC.jpg
-    email: grass4u@gmail.com
-    website: https://www.nmsu.edu/~hcho/
     job: New Mexico State University, US
-    country: USA
+    country: US
+    social:
+      - icon: fa fa-envelope
+        link: mailto:grass4u@gmail.com
+      - icon: fab fa-github
+        link: https://github.com/HuidaeCho
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/huidaecho/
+      - icon: fab fa-x-twitter
+        link: https://twitter.com/huidaecho
+        
   - name: Martin Landa
     psc: true
     image: /images/team/Martin_Landa_PSC.jpg
-    email: martin.landa@fsv.cvut.cz
     website: https://geo.fsv.cvut.cz/~landa/
     job: Czech Technical University in Prague, CZ
     country: Czech Republic
+    social:
+      - icon: fa fa-envelope
+        link: mailto:martin.landa@fsv.cvut.cz
+      - icon: fab fa-github
+        link: https://github.com/landam
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/martin-landa-04b19b6a/
+
   - name: Helena Mitasova
     psc: true
     image: /images/team/Helena_Mitasova_PSC.jpg
-    email: hmitaso@ncsu.edu
     website: https://cnr.ncsu.edu/geospatial/
-    job: Center for Geospatial Analytics (CGA), North Carolina State University, Raleigh NC, USA
-    country: USA
+    job: North Carolina State University, Raleigh NC, US
+    country: US
+    social:
+      - icon: fa fa-envelope
+        link: mailto:hmitaso@ncsu.edu
+      - icon: fab fa-github
+        link: https://github.com/hmitaso
+
   - name: Markus Neteler
+    chair: former
+    terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
     psc: true
     image: /images/team/Markus_Neteler_PSC.png
-    email: neteler@osgeo.org
     website: https://www.mundialis.de/
     job: mundialis, Bonn, DE
     country: Germany
+    social:
+      - icon: fa fa-envelope
+        link: mailto:neteler@osgeo.org
+      - icon: fab fa-github
+        link: https://github.com/neteler
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/markusneteler/
+      - icon: fab fa-x-twitter
+        link: https://twitter.com/MarkusNeteler
+      - icon: fab fa-mastodon
+        link: https://mastodon.social/@neteler
+      
   - name: Vaclav Petras
     psc: true
     image: /images/team/Vaclav_Petras_PSC.jpeg
-    email: wenzeslaus@gmail.com
     website: https://cnr.ncsu.edu/geospatial/
-    job: Center for Geospatial Analytics (CGA), North Carolina State University, Raleigh NC, USA
-    country: USA
+    job: North Carolina State University, Raleigh NC, US
+    country: US
+    social:
+      - icon: fa fa-envelope
+        link: mailto:wenzeslaus@gmail.com
+      - icon: fab fa-github
+        link: https://github.com/wenzeslaus
+      - icon: fab fa-linkedin
+        link:  https://www.linkedin.com/in/vaclav-petras/
+      - icon: fab fa-x-twitter
+        link: https://twitter.com/vaclavpetras
+
   - name: Anna Petrášová
     psc: true
     image: /images/team/Anna_Petrasova_PSC.jpeg
-    email: kratochanna@gmail.com
     website: https://cnr.ncsu.edu/geospatial/
-    job: Center for Geospatial Analytics (CGA), North Carolina State University, Raleigh NC, USA
-    country: USA
+    job: North Carolina State University, Raleigh NC, US
+    country: US
+    social:
+      - icon: fa fa-envelope
+        link: mailto:wenzeslaus@gmail.com
+      - icon: fab fa-github
+        link: https://github.com/petrasovaa
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/anna-petrasova/
+
   - name: Helmut Kudrnovsky
     psc: true
     image: /images/team/Helmut_Kudrnovsky_PSC.png
@@ -64,3 +127,8 @@ members:
     website: https://www.umweltbundesamt.at/
     job: Environment Agency Austria, Vienna, AT
     country: Austria
+    social:
+      - icon: fab fa-github
+        link: https://github.com/hellik
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/helmut-kudrnovsky-a717b351/
