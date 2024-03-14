@@ -23,6 +23,8 @@ members:
         link: https://www.linkedin.com/in/veronica-andreo-0a4b3278/
       - icon: fab fa-x-twitter
         link: https://twitter.com/VeronicaAndreo
+      - icon: fab fa-mastodon
+        link: https://fosstodon.org/@VeronicaAndreo
 
   - name: Dr. Michael Barton
     psc:
