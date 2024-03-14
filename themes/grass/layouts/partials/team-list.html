@@ -1,5 +1,17 @@
 <div class="member">
-    <img src="{{ .image }}" alt="{{ .name }}" class="img-fluid">
+    <!-- Images stored in themes/grass/assests/images/team/ for processing-->
+    {{ $original := resources.Get .image }}
+    {{ $small := $original.Resize "150x auto" }}
+    {{ $medium := $original.Resize "200x auto" }}
+    {{ $large := $original.Resize "300x auto" }}
+    <img src="{{ $medium.RelPermalink }}"
+         srcset="{{ $small.RelPermalink }} 150w,
+                 {{ $medium.RelPermalink }} 200w,
+                 {{ $large.RelPermalink }} 280w"
+         sizes="(max-width: 768px) 100px,
+                (max-width: 1024px) 200px,
+                300px"
+         alt="{{ .name }}" class="img-fluid">
     <h3>{{ .name }}</h3>
     <h5>{{ .job }}</h5>
     <a href="mailto:{{ .email }}">Contact</a> |

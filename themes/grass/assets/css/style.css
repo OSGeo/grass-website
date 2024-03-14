@@ -1396,9 +1396,6 @@ code{
   text-align: center;
 }
 .member img {
-  width: 250px;
-  height: 250px; 
-  max-width: 250px;
   border-radius: 50%;
   object-fit: cover;
 }
