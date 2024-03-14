@@ -28,7 +28,7 @@
         <!-- Chair -->
         <div class="row">
             <div class="col-lg-12">
-                 <h3 class="text-primary">Chair</h3>
+                <h3 class="text-primary"></h3>
             </div>
             <div class="p-5 bg-white">
                 {{ $teamMembers := .Site.Data.team.members }}
@@ -36,7 +36,10 @@
 
                     {{ if eq $element.chair "current"}}
                             <div class="col-lg-12">
-                                <h4 class="text-primary" style="text-align: center;">{{ $element.terms }}</h4>
+                                <div style="text-align: center;">
+                                <h3 class="text-primary">Chair</h3>
+                                <h4>{{ $element.terms }}</h4>
+                            </div>
                                 {{ partial "team-list.html" $element }}
                                 <p>{{ $element.bio }}</p>
                             </div>
