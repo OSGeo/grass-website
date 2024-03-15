@@ -88,7 +88,7 @@ members:
           - start: 2021
             end: 2025
     image: /images/team/Helena_Mitasova_PSC.jpg
-    website: https://cnr.ncsu.edu/geospatial/
+    website: https://cnr.ncsu.edu/geospatial/people/helena-mitasova/
     job: North Carolina State University, Raleigh NC, US
     country: US
     social:
@@ -130,7 +130,7 @@ members:
           - start: 2021
             end: 2025
     image: /images/team/Vaclav_Petras_PSC.jpg
-    website: https://cnr.ncsu.edu/geospatial/
+    website: https://cnr.ncsu.edu/geospatial/people/vaclav-petras/
     job: North Carolina State University, Raleigh NC, US
     country: US
     social:
@@ -143,7 +143,7 @@ members:
       - icon: fab fa-x-twitter
         link: https://twitter.com/vaclavpetras
 
-  - name: Dr. Anna Petrášová
+  - name: Dr. Anna Petrasova
     psc:
         status: active
         role: member
@@ -151,12 +151,12 @@ members:
           - start: 2021
             end: 2025
     image: /images/team/Anna_Petrasova_PSC.jpg
-    website: https://cnr.ncsu.edu/geospatial/
+    website: https://cnr.ncsu.edu/geospatial/people/anna-petrasova/
     job: North Carolina State University, Raleigh NC, US
     country: US
     social:
       - icon: fa fa-envelope
-        link: mailto:wenzeslaus@gmail.com
+        link: mailto:kratochanna@gmail.com
       - icon: fab fa-github
         link: https://github.com/petrasovaa
       - icon: fab fa-linkedin
