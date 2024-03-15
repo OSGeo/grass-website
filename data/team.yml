@@ -104,6 +104,15 @@ members:
         periods:
           - start: 2021
             end: 2025
+          - start: 2016
+            end: 2020
+            role: chair
+          - start: 2012
+            end: 2016
+            role: chair
+          - start: 2006
+            end: 2012
+            role: chair
         chair:
           terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
     image: /images/team/Markus_Neteler_PSC.jpg
@@ -215,7 +224,7 @@ members:
       - icon: fa fa-envelope
         link: mailto:dileomargherita@gmail.com
 
-  - name: Peter Löwe
+  - name: Dr. Peter Löwe
     psc:
       status: former
       role: member
@@ -249,7 +258,7 @@ members:
       - icon: fa fa-envelope
         link: mailto:hamish.bowman@otago.ac.nz
 
-  - name: Markus Metz
+  - name: Dr. Markus Metz
     psc:
       status: former
       role: member
@@ -266,9 +275,9 @@ members:
       - icon: fab fa-github
         link: https://github.com/metzm
       - icon: fab fa-linkedin
-        link: https://www.linkedin.com/in/markus-metz-a9628528/
+        link: https://ifwww.linkedin.com/in/markus-metz-a9628528/
 
-  - name: Scott Mitchell
+  - name: Dr. Scott Mitchell
     psc:
       status: former
       role: member
@@ -287,7 +296,7 @@ members:
       - icon: fab fa-x-twitter
         link: https://twitter.com/Smitch_ca
 
-  - name: Massimiliano Cannata
+  - name: Dr. Massimiliano Cannata
     psc:
       status: former
       role: member
@@ -304,7 +313,7 @@ members:
 
 
 # Period 2006-2012:
-  - name: Dylan Beaudette
+  - name: Dr. Dylan Beaudette
     psc:
       status: former
       role: member

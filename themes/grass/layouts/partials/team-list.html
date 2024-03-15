@@ -1,25 +1,28 @@
-<div class="member p-5 bg-white">
+<div class="member p-4 bg-white">
     <!-- Images stored in themes/grass/assests/images/team/ for processing-->
     {{ $original := resources.Get .image }}
-    {{ $cropped := $original.Fill "300x300 smart"}}
-    {{ $small := $cropped.Resize "200x200" }}
-    {{ $medium := $cropped.Resize "250x250" }}
-    {{ $large := $cropped.Resize "300x300" }}
-    <img src="{{ $medium.RelPermalink }}"
-         srcset="{{ $small.RelPermalink }} 200w,
-                 {{ $medium.RelPermalink }} 250w,
-                 {{ $large.RelPermalink }} 300w"
-         sizes="(max-width: 768px) 200px,
-                (max-width: 1024px) 250px,
-                300px"
+    {{ $cropped := $original.Fill "200x200 smart"}}
+    {{ $small := $cropped.Resize "150x150" }}
+    {{ $medium := $cropped.Resize "200x200" }}
+    {{ $large := $cropped.Resize "200x200" }}
+    <!-- Add Chair class to the image if the person is the chair of the PSC -->
+    <img class="{{ if .psc.chair }}psc-chair{{ end }}" src="{{ $medium.RelPermalink }}"
+         srcset="{{ $small.RelPermalink }} 150w,
+                 {{ $medium.RelPermalink }} 200w,
+                 {{ $large.RelPermalink }} 200w"
+         sizes="(max-width: 768px) 150px,
+                (max-width: 1024px) 200px,
+                200px"
          alt="{{ .name }}" class="img-fluid">
-    <h3>{{ .name }}</h3>
+    <h4>{{ .name }}</h4>
     <p><strong>{{ .job }}</strong></p>
-    {{ if .psc.chair }}
+    <!-- Added past terms if the person is a former chair -->
+    {{ if and .psc.chair (ne .psc.role "chair") }}
     <p>Former Chair: {{.psc.chair.terms}}</p>
     {{ end }}
     <a href="{{ .website }}" target="_blank">Learn More</a>
-    <ul class="list-inline mb-3">
+    <!-- Add Social Media Links -->
+    <ul class="list-inline mb-1">
         {{ range .social }}
         <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="{{ .link }}"><i class="{{ .icon }}"></i></a></li>
         {{ end }}
