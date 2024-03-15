@@ -106,7 +106,7 @@ members:
             end: 2025
         chair:
           terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
-    image: /images/team/Markus_Neteler_PSC.png
+    image: /images/team/Markus_Neteler_PSC.jpg
     website: https://www.mundialis.de/
     job: mundialis, Bonn, DE
     country: Germany
@@ -129,7 +129,7 @@ members:
         periods:
           - start: 2021
             end: 2025
-    image: /images/team/Vaclav_Petras_PSC.jpeg
+    image: /images/team/Vaclav_Petras_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
     country: US
@@ -150,7 +150,7 @@ members:
         periods:
           - start: 2021
             end: 2025
-    image: /images/team/Anna_Petrasova_PSC.jpeg
+    image: /images/team/Anna_Petrasova_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/
     job: North Carolina State University, Raleigh NC, US
     country: US
@@ -187,7 +187,7 @@ members:
         periods:
           - start: 2021
             end: 2023
-    image: /images/team/Moritz_Lennert_PSC.jpeg
+    image: /images/team/Moritz_Lennert_PSC.jpg
     email: mlennert@club.worldonline.be
     website: https://bluesquarehub.com/about-us/team/moritz-lennert-senior-geospatial-expert/
     job: Bluesquare, Brussels, BE 
@@ -224,7 +224,7 @@ members:
           end: 2020
     email: peter.loewe@gmx.de
     website: https://www.tib.eu/
-    image: /images/team/Peter_Loewe_PSC.jpeg
+    image: /images/team/Peter_Loewe_PSC.jpg
     job: TIB Hannover, DE
     country: Germany
     social:
@@ -257,7 +257,7 @@ members:
         - start: 2012
           end: 2016
     website: https://www.mundialis.de/en/team/dr-markus-metz/
-    image: /images/team/Markus_Metz_PSC.jpeg
+    image: /images/team/Markus_Metz_PSC.jpg
     job: mundialis, Bonn, DE
     country: Germany
     social:
@@ -327,7 +327,7 @@ members:
         - start: 2006
           end: 2012
     website: https://casoilresource.lawr.ucdavis.edu/people/dylan-e-beaudette
-    image: /images/team/Brad_Douglas_PSC.jpeg
+    image: /images/team/Brad_Douglas_PSC.jpg
     job:  California, US
     country: USA
     social:
