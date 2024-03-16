@@ -47,7 +47,7 @@ See for example the Natural Earth GRASS dataset at <https://doi.org/10.5281/zeno
 Since DOI can be interlinked by meta data, connected networks of GRASS GIS related 
 resources can be established, linking code, data and additional information, such as
 video recordings about GRASS GIS. Well known examples are the 
-GRASS code [evolution video](https://doi.org/10.5446/14652), 
+GRASS GIS code [evolution video](https://doi.org/10.5446/14652), 
 [conference recordings](https://doi.org/10.5446/55251) or the historic
 [USACERL GRASS GIS commercial from 1987](https://doi.org/10.5446/12963),
 narrated by William Shatner of Star Trek fame.
