@@ -39,8 +39,8 @@ See for example the Natural Earth GRASS dataset at <https://doi.org/10.5281/zeno
 
 <a href="/images/news/grass_in_zenodo_citation.png">
   <img src="/images/news/grass_in_zenodo_citation.png"
-   alt="GRASS GIS 8.3.2 in Zenodo"
-   title="GRASS GIS 8.3.2 in Zenodo"
+   alt="Citation of GRASS GIS 8.3.2 in Zenodo"
+   title="Citation of GRASS GIS 8.3.2 in Zenodo"
    width="35%" style="float:right;padding-left:15px;padding-top:15px">
 </a>
 
