@@ -4,8 +4,8 @@ members:
         status: active
         role: chair
         periods:
-          - start: 2021
-            end: 2025
+          - start: 2020
+            end: 2024
         chair:
           terms: 2021 - Present
     maintainer: true
@@ -26,13 +26,54 @@ members:
       - icon: fab fa-mastodon
         link: https://fosstodon.org/@VeronicaAndreo
 
+  - name: Dr. Markus Neteler
+    psc:
+        status: active
+        role: member
+        periods:
+          - start: 2006
+            end: 2012
+            role: chair
+          - start: 2012
+            end: 2016
+            role: chair
+          - start: 2016
+            end: 2020
+            role: chair
+          - start: 2020
+            end: 2024
+            role: member
+        chair:
+          terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
+    image: /images/team/Markus_Neteler_PSC.jpg
+    website: https://www.mundialis.de/
+    job: mundialis, Bonn, DE
+    country: Germany
+    social:
+      - icon: fa fa-envelope
+        link: mailto:neteler@osgeo.org
+      - icon: fab fa-github
+        link: https://github.com/neteler
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/markusneteler/
+      - icon: fab fa-x-twitter
+        link: https://twitter.com/MarkusNeteler
+      - icon: fab fa-mastodon
+        link: https://mastodon.social/@neteler
+
   - name: Dr. Michael Barton
     psc:
         status: active
         role: member
         periods:
-          - start: 2021
-            end: 2025
+          - start: 2006
+            end: 2012
+          - start: 2012
+            end: 2016
+          - start: 2016
+            end: 2020
+          - start: 2020
+            end: 2024
     image: /images/team/Michael_Barton_PSC.png
     website: http://cmbarton.wikidot.com/
     job: Arizona State University, US
@@ -46,8 +87,8 @@ members:
        status: active
        role: member
        periods:
-          - start: 2021
-            end: 2025
+          - start: 2020
+            end: 2024
     image: /images/team/Huidae_Cho_PSC.jpg
     job: New Mexico State University, US
     country: US
@@ -66,8 +107,12 @@ members:
         status: active
         role: member
         periods:
-          - start: 2021
-            end: 2025
+          - start: 2012
+            end: 2016
+          - start: 2016
+            end: 2020
+          - start: 2020
+            end: 2024
     image: /images/team/Martin_Landa_PSC.jpg
     website: https://geo.fsv.cvut.cz/~landa/
     job: Czech Technical University in Prague, CZ
@@ -85,8 +130,14 @@ members:
         status: active
         role: member
         periods:
-          - start: 2021
-            end: 2025
+          - start: 2006
+            end: 2012
+          - start: 2012
+            end: 2016
+          - start: 2016
+            end: 2020
+          - start: 2020
+            end: 2024
     image: /images/team/Helena_Mitasova_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/people/helena-mitasova/
     job: North Carolina State University, Raleigh NC, US
@@ -96,48 +147,16 @@ members:
         link: mailto:hmitaso@ncsu.edu
       - icon: fab fa-github
         link: https://github.com/hmitaso
-
-  - name: Dr. Markus Neteler
-    psc:
-        status: active
-        role: member
-        periods:
-          - start: 2021
-            end: 2025
-          - start: 2016
-            end: 2020
-            role: chair
-          - start: 2012
-            end: 2016
-            role: chair
-          - start: 2006
-            end: 2012
-            role: chair
-        chair:
-          terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
-    image: /images/team/Markus_Neteler_PSC.jpg
-    website: https://www.mundialis.de/
-    job: mundialis, Bonn, DE
-    country: Germany
-    social:
-      - icon: fa fa-envelope
-        link: mailto:neteler@osgeo.org
-      - icon: fab fa-github
-        link: https://github.com/neteler
-      - icon: fab fa-linkedin
-        link: https://www.linkedin.com/in/markusneteler/
-      - icon: fab fa-x-twitter
-        link: https://twitter.com/MarkusNeteler
-      - icon: fab fa-mastodon
-        link: https://mastodon.social/@neteler
       
   - name: Dr. Vaclav Petras
     psc:
         status: active
         role: member
         periods:
-          - start: 2021
-            end: 2025
+          - start: 2016
+            end: 2020
+          - start: 2020
+            end: 2024
     image: /images/team/Vaclav_Petras_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/people/vaclav-petras/
     job: North Carolina State University, Raleigh NC, US
@@ -157,8 +176,10 @@ members:
         status: active
         role: member
         periods:
-          - start: 2021
-            end: 2025
+          - start: 2016
+            end: 2020
+          - start: 2020
+            end: 2024
     image: /images/team/Anna_Petrasova_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/people/anna-petrasova/
     job: North Carolina State University, Raleigh NC, US
@@ -176,8 +197,8 @@ members:
         status: active
         role: member
         periods:
-          - start: 2021
-            end: 2025
+          - start: 2020
+            end: 2024
     image: /images/team/Helmut_Kudrnovsky_PSC.png
     email: hellik@web.de
     website: https://www.umweltbundesamt.at/
@@ -194,8 +215,12 @@ members:
         status: former
         role: member
         periods:
-          - start: 2021
-            end: 2023
+          - start: 2012
+            end: 2016
+          - start: 2016
+            end: 2020
+          - start: 2020
+            end: 2023 
     image: /images/team/Moritz_Lennert_PSC.jpg
     email: mlennert@club.worldonline.be
     website: https://bluesquarehub.com/about-us/team/moritz-lennert-senior-geospatial-expert/
@@ -214,6 +239,8 @@ members:
       status: former
       role: member
       periods:
+        - start: 2012
+          end: 2016
         - start: 2016
           end: 2020
     website: https://ec.europa.eu/jrc/
@@ -248,6 +275,8 @@ members:
       status: former
       role: member
       periods:
+        - start: 2006
+          end: 2012
         - start: 2012
           end: 2016
     website: https://www.otago.ac.nz/geology/staff/hamish-bowman
@@ -282,6 +311,8 @@ members:
       status: former
       role: member
       periods:
+        - start: 2006
+          end: 2012
         - start: 2012
           end: 2016
     website: https://carleton.ca/geography/people/mitchell-scott/
@@ -301,6 +332,8 @@ members:
       status: former
       role: member
       periods:
+        - start: 2006
+          end: 2012
         - start: 2012
           end: 2016
     website: https://wiki.osgeo.org/wiki/Massimiliano_Cannata
@@ -374,9 +407,9 @@ members:
 # Maciej Sieczka (msieczka * sieczka org) ​Home page, PL 
 
 periods:
-  - start: 2021
-    end: 2025
-  - start: 2021
+  - start: 2020
+    end: 2024
+  - start: 2020
     end: 2023
   - start: 2016
     end: 2020
