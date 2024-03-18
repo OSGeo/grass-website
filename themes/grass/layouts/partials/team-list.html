@@ -1,4 +1,4 @@
-<div class="member p-4 bg-white">
+<div class="member p-1 bg-white">
     <!-- Images stored in themes/grass/assests/images/team/ for processing-->
     {{ $original := resources.Get .image }}
     {{ $cropped := $original.Fill "200x200 smart"}}
@@ -24,7 +24,7 @@
     <!-- Add Social Media Links -->
     <ul class="list-inline mb-1">
         {{ range .social }}
-        <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="{{ .link }}"><i class="{{ .icon }}"></i></a></li>
+        <li class="list-inline-item"><a class="text-color d-inline-block p-1" href="{{ .link }}"><i class="{{ .icon }}"></i></a></li>
         {{ end }}
       </ul>
 </div>
