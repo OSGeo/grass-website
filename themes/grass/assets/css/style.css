@@ -215,6 +215,34 @@ a.nws:hover {
   border-color: var(--grey-color);
 }
 
+.btn-grass {
+  font-size: 18px;
+  color: var(--white-color) !important;
+  background: var(--grass-color);
+  border-radius: 5px;
+}
+.btn-grass:active {
+  background: var(--grass-color-alt);
+}
+.btn-grass:hover, .btn-grass:focus {
+  background: var(--grass-color-alt);
+  color: var(--white-color) 
+}
+.btn-grass:not(:disabled):not(.disabled).active, .btn-grass:not(:disabled):not(.disabled):active, .show>.btn-grass.dropdown-toggle {
+  color: var(--white-color);
+  background-color: var(--grass-color-alt);
+  border-color: var(--grass-color-alt);
+}
+.btn-grass a {
+  color: var(--white-color);
+}
+.btn-grass a:focus {
+  color: var(--white-color);
+}
+.btn-grass a:hover {
+  color: var(--white-color) !important;
+}
+
 .badge {
     font-size: 1rem !important;
 }

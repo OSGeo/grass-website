@@ -47,8 +47,8 @@ via [OpenCollective](https://opencollective.com/osgeo/projects/grass/contribute)
 Your contribution makes a difference!!
 
 <div align="center">
-<button class="btn btn-primary">
-<b><a href="https://opencollective.com/grass/contribute" target="_blank">Support GRASS GIS Community Meeting</a></b>
+<button class="btn btn-grass">
+<a href="https://opencollective.com/grass/contribute" target="_blank">Support GRASS GIS Community Meeting</a>
 </button>
 </div>
 
