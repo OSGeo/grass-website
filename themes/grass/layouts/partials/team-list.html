@@ -6,7 +6,7 @@
     {{ $medium := $cropped.Resize "200x200" }}
     {{ $large := $cropped.Resize "200x200" }}
     <!-- Add Chair class to the image if the person is the chair of the PSC -->
-    <img class="{{ if .psc.chair }}psc-chair{{ end }}" src="{{ $medium.RelPermalink }}"
+    <img src="{{ $medium.RelPermalink }}"
          srcset="{{ $small.RelPermalink }} 150w,
                  {{ $medium.RelPermalink }} 200w,
                  {{ $large.RelPermalink }} 200w"

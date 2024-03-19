@@ -1400,8 +1400,5 @@ code{
 .member img {
   border-radius: 50%;
   object-fit: cover;
-}
-
-.psc-chair {
-  border: 4px solid var(--grass-color-dark);
+  /* border: 4px solid var(--grass-color-dark); */
 }
