@@ -1,11 +1,11 @@
 ---
-title: "GRASS GIS Community meeting in Prague! Again!!"
+title: "2024 GRASS GIS Community meeting in Prague!"
 date: 2024-03-18T14:12:42-05:00
 layout: "news"
 author: Veronica Andreo and the GRASS Development Team
 ---
 
-#### Once more the GRASS GIS team is organizing the annual **Community Meeting**!! 
+#### GRASS GIS team announcing the annual **Community Meeting**!! 
 
 <a href="/images/news/grass_community2023_prague_fotowall.jpg">
   <img src="/images/news/grass_community2023_prague_fotowall.jpg"
@@ -15,7 +15,7 @@ author: Veronica Andreo and the GRASS Development Team
 </a>
 
 The [GRASS GIS Community Meeting](https://grasswiki.osgeo.org/wiki/GRASS_Community_Meeting_Prague_2024) 
-will take place from **June 13 to 19, 2023**, at the 
+will take place from **June 14 to 19, 2024**, at the 
 [NC State European Center in Prague](https://prague.ncsu.edu/about/), Czech Republic.
 
 Community meetings are great opportunities to support the development of GRASS GIS by 
