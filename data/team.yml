@@ -46,7 +46,7 @@ members:
         chair:
           terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
     image: /images/team/Markus_Neteler_PSC.jpg
-    website: https://www.mundialis.de/
+    website: https://www.mundialis.de/team/dr-markus-neteler/
     job: mundialis, Bonn, DE
     country: Germany
     social:
@@ -115,7 +115,7 @@ members:
           - start: 2020
             end: 2024
     image: /images/team/Martin_Landa_PSC.jpg
-    website: https://geo.fsv.cvut.cz/~landa/
+    website: https://geomatics.fsv.cvut.cz/en/employees/martin-landa/
     job: Czech Technical University in Prague, CZ
     country: Czech Republic
     social:
@@ -202,7 +202,7 @@ members:
             end: 2024
     image: /images/team/Helmut_Kudrnovsky_PSC.png
     email: hellik@web.de
-    website: https://www.umweltbundesamt.at/
+    website: https://www.osgeo.org/member/kudrnovsky/
     job: Environment Agency Austria, Vienna, AT
     country: Austria
     social:
