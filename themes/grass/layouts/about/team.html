@@ -1,0 +1,154 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-white">
+      <div class="container bg-white">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
+  </div>
+/header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+<section class="single section bg-gray pb-0 mt-5">
+    <div class="container">
+       
+        <div class="row">
+            <div class="p-5 bg-white">
+                <h2>Meet the GRASS Team</h2>
+                <h3>Project Steering Committee (PSC)</h3>
+                <p>The Project Steering Committee (PSC) plays a pivotal role in the governance and operational direction of GRASS GIS. Meet our current PSC members!</p>
+            </div>
+        </div>
+
+        <!-- Chair -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-primary"></h3>
+            </div>
+            <div class="p-5 bg-white">
+                {{ $teamMembers := .Site.Data.team.members }}
+                {{ range $index, $element := $teamMembers }}
+
+                    {{ if eq $element.psc.role "chair"}}
+                            <div class="col-lg-12">
+                                <div style="text-align: center;">
+                                <h2 class="text-primary">Chair</h2>
+                                <h4>{{ $element.psc.chair.terms }}</h4>
+                            </div>
+                                {{ partial "team-list.html" $element }}
+                                <p>{{ $element.bio }}</p>
+                            </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+
+        <!-- PSC Members -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-primary" style="text-align: center;">Members</h3>
+            </div>
+                {{ $.Scratch.Set "counter" -1 }}
+                {{ range $index, $element := $teamMembers }}
+                {{ if and (eq $element.psc.role "member") (eq $element.psc.status "active")}}
+                    {{ $.Scratch.Add "counter" 1 }}
+                    {{ if eq (mod ($.Scratch.Get "counter") 4) 0 }}
+                        <!-- Every 3 items, close the previous row and start a new one -->
+                        </div><div class="row">
+                    {{ end }}
+                    <div class="col-lg-3">
+                        {{ partial "team-list.html" . }}
+                    </div>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="single section bg-gray mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="p-5 bg-white">
+                <h2>Learn more about the PSC</h2>
+                <p>The Project Steering Committee (PSC) plays a pivotal role in the governance and operational direction of GRASS GIS. Here's a brief overview of the key responsibilities and resources managed by the PSC:</p>
+                    
+                    <h4>Mailing List</h4>
+                    <p>Stay connected and informed with the PSC's activities through our <a href="http://lists.osgeo.org/mailman/listinfo/grass-psc" target="_blank">Public Mailing List</a>. It's the best way to keep up with the discussions, decisions, and directions taken by the committee.</p>
+                    
+                    <h4>Meeting Agenda</h4>
+                    
+                    <p>The PSC holds regular meetings and keeps <a href="https://grasswiki.osgeo.org/wiki/PSC#PSC_meeting_agenda_and_minutes" target="_blank">meeting minutes</a> that summarize discussed issues and decisions. This ensures transparency and structured decision-making within our project.</p>
+                    
+                    <h4>RFCs and Motions</h4>
+                    
+                        <h5>Request For Comment (RFC) List</h5> 
+                        <p>The GRASS team uses RFC documents as tools to collectively delineate different procedures and  functions. The list of RFC documents that were adopted is accessible on <a href="https://github.com/OSGeo/grass/tree/main/doc/development/rfc" target="_blank">GitHub</a>, providing a platform for community feedback and collaboration.</p>
+                        <h5>PSC Motions</h5>
+                        <p>Review the formal decisions and <a href="https://grasswiki.osgeo.org/wiki/PSC#Motions" target="_blank">motions</a> passed by the PSC, reflecting our project's evolving needs and objectives.</p>
+                    
+                    <h4>Developer Contributions</h4>
+                    
+                    <p>A core function of the PSC is to grant GitHub write access to new core developers. This process ensures that contributors who have demonstrated commitment and quality in their work are able to more directly influence the project's development.</p>
+                    
+                    <p>Join us in shaping the future of GRASS GIS. Whether you're looking to contribute, provide feedback on RFCs, or simply stay informed, the PSC welcomes your participation and support.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add text-center class to center the button -->
+<div class="pt-5"> 
+    <p class="text-center">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseFormerPSCMembers" aria-expanded="false" aria-controls="collapseFormerPSCMembers">
+            View Former Members
+        </button>
+    </p>
+</div>
+
+<!-- Former PSC Members -->
+<section class="single section bg-gray pb-0 mt-5">
+    
+    <div class="container collapse" id="collapseFormerPSCMembers">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-primary" style="text-align: center;">Former Members</h3>
+            </div>
+            {{ range $pindex, $period := .Site.Data.team.periods }}
+            {{if ne $period.end 2024}}
+    
+            <div class="col-lg-12">
+                <h3 class="text-primary" style="text-align: center;">{{$period.start}} - {{$period.end}}</h3>
+            </div>
+                {{ $.Scratch.Set "past_counter" -1 }}
+                {{ range $index, $pastmembers := $teamMembers }}
+                 
+                        {{range $pi, $pscPeriod  := $pastmembers.psc.periods}}
+                            {{ if and (eq $pscPeriod.start $period.start) (eq $pscPeriod.end $period.end) }}
+                                {{ $.Scratch.Add "past_counter" 1 }}
+                                {{ if eq (mod ($.Scratch.Get "past_counter") 4) 0 }}
+                                    <!-- Every 3 items, close the previous row and start a new one -->
+                                    </div><div class="row">
+                                {{ end }}
+                            <div class="col-lg-3">
+                                {{ partial "team-list.html" $pastmembers }}
+                            </div>
+                            {{ end }}
+                        {{ end }}
+                   
+                {{ end }}
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+  
+  {{ partial "footer.html" . }}
