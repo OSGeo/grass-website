@@ -2,6 +2,7 @@
 title: "Sponsoring"
 date: 2021-02-02T11:02:05+06:00
 layout: "general"
+aliases: [/contribute/sponsoring/]
 ---
 
 ## Sponsoring the GRASS GIS project

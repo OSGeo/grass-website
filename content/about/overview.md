@@ -2,6 +2,7 @@
 title: "What is GRASS GIS?"
 date: 2022-04-25T10:12:05+02:00
 layout: "overview"
+aliases: [/learn/overview]
 ---
 
 <div class="container">
