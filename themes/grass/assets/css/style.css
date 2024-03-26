@@ -513,6 +513,7 @@ pre {
 .np {
   padding: 0 !important;
 }
+
 .mt-20 {
   margin-top: 20px !important;
 }
@@ -665,6 +666,15 @@ pre {
   margin-right: 7px;
     color: var(--grass-color) !important;
 }
+
+.gitter-banner {
+  background: linear-gradient(45deg, var(--grass-color-dark) 0%, var(--grass-color) 50%,var(--grass-color-dark) 100%); 
+  text-align: center;
+  color:whitesmoke;
+  font-weight: bolder;
+  padding: 2px 15px 3px
+}
+
 .navbar-brand {
     color: #000000;
 }
@@ -1301,7 +1311,8 @@ code{
     z-index:1;
 }
 .mt-95 {
-    margin-top: 95px;
+    /* margin-top: 95px; */
+    margin-top: 6rem;
 }
 
 
@@ -1359,8 +1370,8 @@ code{
   }
 
   .section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
    }
 
   .section-title {
