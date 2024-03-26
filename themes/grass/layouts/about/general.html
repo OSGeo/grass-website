@@ -11,24 +11,25 @@
       </div>
     </div>
   </div>
-/header>
+</header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
 
 
 <!-- details page -->
-<section class="single section bg-gray pb-0 mt-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="p-5 bg-white">
-	      {{ .Content }}
+<section class="section">
+  <section class="single bg-gray pb-0 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="p-5 bg-white">
+          {{ .Content }}
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </section>
-
 
 {{ partial "footer.html" . }}
