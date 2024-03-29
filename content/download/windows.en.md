@@ -28,7 +28,7 @@ Standalone installer: install GRASS GIS with the required support packages.
 
  
 *  {{< donateDialog isToggle=true >}}  
-<a href="/grass{{< currentVersionNoDots.inline  >}}{{- .Site.Data.grass.current_version_nodots -}}{{</currentVersionNoDots.inline >}}/binary/mswindows/native/WinGRASS-{{< currentVersion.inline  />}}-3-Setup.exe" target="blank">
+<a href="/grass{{< currentVersionNoDots.inline  >}}{{- .Site.Data.grass.current_version_nodots -}}{{</currentVersionNoDots.inline >}}/binary/mswindows/native/WinGRASS-{{< currentVersion.inline  />}}-1-Setup.exe" target="blank">
 <i class="fa fa-download"></i> Download 64bit 
 </a>
 {{< /donateDialog  >}} 
