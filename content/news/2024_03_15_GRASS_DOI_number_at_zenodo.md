@@ -57,7 +57,7 @@ GRASS GIS code repository on GitHub with the Open Access repository
 [Zenodo](https://zenodo.org/), which is also based on Open Source.
 
 A GRASS GIS DOI link will always resolve to a landing page within the Zenodo 
-repository, which is linked to the respective GutHub code repository. The 
+repository, which is linked to the respective GitHub code repository. The 
 landing pages in Zenodo include a convenient feature for scientific citation: 
 The “Citation” section generates on the fly well formatted citation 
 strings in thousands of citation styles.
