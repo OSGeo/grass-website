@@ -513,7 +513,9 @@ pre {
 .np {
   padding: 0 !important;
 }
-
+.mt-10 {
+  margin-top: 10px !important;
+}
 .mt-20 {
   margin-top: 20px !important;
 }
@@ -1321,6 +1323,11 @@ code{
     margin-top: 6.05rem;
 }
 
+#carouselUI .carousel-inner .carousel-item .container.position-relative .row.justify-content-center {
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8)
+  /* background: radial-gradient(circle, var(--white-color) 80%, transparent 90%); */
+}
 
 @media (max-width: 576px) {
 
