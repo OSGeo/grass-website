@@ -668,6 +668,20 @@ pre {
   margin-right: 7px;
     color: var(--grass-color) !important;
 }
+
+.gitter-banner {
+  background: linear-gradient(45deg, var(--grass-color-dark) 0%, var(--grass-color) 50%,var(--grass-color-dark) 100%); 
+  text-align: center;
+  color:whitesmoke;
+  font-weight: bolder;
+  padding: 2px 15px 3px
+}
+
+.gitter-banner a {
+  text-decoration: underline !important;
+  color: var(--white-color) !important;
+}
+
 .navbar-brand {
     color: #000000;
 }
@@ -1213,7 +1227,7 @@ li.parent a {
 }
 
 .edt {
-  font-family: open_sansregular; !important;
+  font-family: open_sansregular !important;
 }
 
 nobullets {
@@ -1304,7 +1318,9 @@ code{
     z-index:1;
 }
 .mt-95 {
-    margin-top: 95px;
+    /* This equals the fixed hight of the gitter banner and the nav bar
+     96.8px when the base font size of the document is (16px) */
+    margin-top: 6.05rem;
 }
 
 #carouselUI .carousel-inner .carousel-item .container.position-relative .row.justify-content-center {
@@ -1367,8 +1383,8 @@ code{
   }
 
   .section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
    }
 
   .section-title {
