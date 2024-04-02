@@ -675,6 +675,11 @@ pre {
   padding: 2px 15px 3px
 }
 
+.gitter-banner a {
+  text-decoration: underline !important;
+  color: var(--white-color) !important;
+}
+
 .navbar-brand {
     color: #000000;
 }
@@ -1220,7 +1225,7 @@ li.parent a {
 }
 
 .edt {
-  font-family: open_sansregular; !important;
+  font-family: open_sansregular !important;
 }
 
 nobullets {
@@ -1311,8 +1316,9 @@ code{
     z-index:1;
 }
 .mt-95 {
-    /* margin-top: 95px; */
-    margin-top: 6rem;
+    /* This equals the fixed hight of the gitter banner and the nav bar
+     96.8px when the base font size of the document is (16px) */
+    margin-top: 6.05rem;
 }
 
 
