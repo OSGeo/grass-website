@@ -61,4 +61,45 @@
 	  $(this).html($(this).html() == 'View more' ? 'View less' : 'View more');
 	  e.preventDefault();
     });
+
+    function detectOSFromUserAgent() {
+      return new Promise((resolve) => {
+        const userAgent = window.navigator.userAgent;
+
+        if (userAgent.includes("Win")) resolve("Windows");
+        else if (userAgent.includes("Mac")) resolve("macOS");
+        else if (userAgent.includes("Linux")) resolve("Linux");
+        else if (userAgent.includes("Android")) resolve("Android");
+        else if (userAgent.includes("like Mac") && /iPhone|iPad|iPod/.test(userAgent)) resolve("iOS");
+        else resolve("Unknown OS");
+      });
+    }
+
+    $(document).ready(function() {
+      (async () => {
+          const os = await detectOSFromUserAgent();
+          const button = $(".grass-os-download-button");
+          console.log(os);
+          // Add text and data based on the user's OS
+          switch (os) {
+              case "Windows":
+                  button.text("Download for Windows");
+                  button.data("os", "windows");
+                  break;
+              case "macOS":
+                  button.text("Download for macOS");
+                  button.data("os", "mac");
+                  break;
+              case "Linux":
+                  button.text("Download for Linux");
+                  button.data("os", "linux");
+                  break;
+              default:
+                  button.text("Download");
+                  button.data("os", "unknown");
+                  break;
+          }
+      })(jQuery);
+  });
+  
 })(jQuery);
