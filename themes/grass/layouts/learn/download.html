@@ -40,16 +40,20 @@
         </ul>
         <div class="tab-content" id="downloadTabContent">
             <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
-                <div class="grass-os-download-button btn btn-primary btn-lg mt-5" type="button">Download</div>
+              {{ with .Site.GetPage "download" "linux" }}{{ .Content }}{{ end }}
             </div>
             <div class="tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab">
-                {{ with .Site.GetPage "download" "mac" }}{{ .Content }}{{ end }}
+              {{ $download_data := dict "os" "Mac" "url" "https://cmbarton.github.io/grass-mac/download/" "version" .Site.Data.grass.current_version }}
+              {{ partial "grass-download.html" $download_data }}
+              {{ partial "code-copy.html" .Site.Data.grass.install.mac_ports }}
             </div>
             <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
-                {{ with .Site.GetPage "download" "windows" }}{{ .Content }}{{ end }}
+              {{ $windows_url := printf "/grass%s/binary/mswindows/native/WinGRASS-%s-1-Setup.exe" .Site.Data.grass.current_version_nodots .Site.Data.grass.current_version }}
+              {{ $download_data := dict "os" "Windows" "url" $windows_url "version" .Site.Data.grass.current_version }}
+              {{ partial "grass-download.html" $download_data }}
             </div>
             <div class="tab-pane fade" id="docker" role="tabpanel" aria-labelledby="docker-tab">
-                {{ with .Site.GetPage "download" "docker" }}{{ .Content }}{{ end }}
+              {{ with .Site.GetPage "download" "docker" }}{{ .Content }}{{ end }}
             </div>
         </div>
     </div>

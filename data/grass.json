@@ -10,5 +10,14 @@
     "preview_version":"8.4.0",
     "preview_version_short":"8.4",
     "preview_version_underscore": "8_4",
-    "preview_version_nodots":"84"
+    "preview_version_nodots":"84",
+    "install": {
+        "mac_ports": { 
+            "id": "mac_ports",
+            "title": "MacPorts",
+            "code": "sudo port install grass",
+            "url": "https://ports.macports.org/port/grass/"
+        }
+    }
+    
 }

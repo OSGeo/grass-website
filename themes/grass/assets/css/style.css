@@ -1431,3 +1431,51 @@ code{
   object-fit: cover;
   /* border: 4px solid var(--grass-color-dark); */
 }
+
+.download-card {
+  max-width: 600px; /* Sets a max-width for the card */
+  box-shadow: 0 4px 6px rgba(0,0,0,.1); /* Adds a subtle shadow to the card */
+  border: none; /* Removes the default card border */
+}
+.download-btn {
+  background-color: var(--grass-color);
+  border: none; /* Removes the border */
+  padding: .75rem 1.5rem; /* Larger padding for the button */
+  font-size: 1rem; /* Larger font size */
+  color: var(--white-color); /* White text color */
+}
+.download-btn:hover {
+  color: var(--white-color) !important;
+  background-color: var(--grass-color-alt); /* Darker blue on hover */
+}
+
+.support-btn {
+  background-color: hsl(334, 89%, 59%);
+  border: none; /* Removes the border */
+  padding: .75rem 1.5rem; /* Larger padding for the button */
+  font-size: 1rem; /* Larger font size */
+  color: var(--white-color); /* White text color */
+}
+.support-btn:hover, .support-btn:focus {
+  color: var(--white-color) !important;
+  background-color: hsla(334, 89%, 59%, 0.5); /* Darker blue on hover */
+}
+
+.code-container {
+  position: relative;
+  background-color: #777;
+}
+.btn-clipboard {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  z-index: 10;
+  display: block;
+  padding: .25rem .5rem;
+  font-size: 75%;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  border-radius: .25rem;
+}
