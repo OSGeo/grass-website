@@ -76,6 +76,7 @@
     }
 
     $(document).ready(function() {
+      // Detect the user's OS and update the download button text
       (async () => {
           const os = await detectOSFromUserAgent();
           const button = $(".grass-os-download-button");
@@ -87,7 +88,7 @@
                   button.data("os", "windows");
                   $('#downloadTab a[href="#windows"]').tab('show');
                   if (window.location.pathname === "/learn/download/") {
-                    window.location.hash = "windows";
+                    history.replaceState(null, null, "#windows");
                   }
                   break;
               case "macOS":
@@ -95,15 +96,14 @@
                   button.data("os", "mac");
                   $('#downloadTab a[href="#mac"]').tab('show');
                   if (window.location.pathname === "/learn/download/") {
-                    window.location.hash = "mac";
+                    history.replaceState(null, null, "#mac");
                   }
                   break;
               case "Linux":
                   button.text("Download for Linux");
                   button.data("os", "linux");
-                  $('#downloadTab a[href="#linux"]').tab('show');
                   if (window.location.pathname === "/learn/download/") {
-                    window.location.hash = "linux";
+                    history.replaceState(null, null, "#linux");
                   }
                   break;
               default:
