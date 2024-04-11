@@ -85,14 +85,26 @@
               case "Windows":
                   button.text("Download for Windows");
                   button.data("os", "windows");
+                  $('#downloadTab a[href="#windows"]').tab('show');
+                  if (window.location.pathname === "/learn/download/") {
+                    window.location.hash = "windows";
+                  }
                   break;
               case "macOS":
                   button.text("Download for macOS");
                   button.data("os", "mac");
+                  $('#downloadTab a[href="#mac"]').tab('show');
+                  if (window.location.pathname === "/learn/download/") {
+                    window.location.hash = "mac";
+                  }
                   break;
               case "Linux":
                   button.text("Download for Linux");
                   button.data("os", "linux");
+                  $('#downloadTab a[href="#linux"]').tab('show');
+                  if (window.location.pathname === "/learn/download/") {
+                    window.location.hash = "linux";
+                  }
                   break;
               default:
                   button.text("Download");

@@ -39,22 +39,59 @@
             </li>
         </ul>
         <div class="tab-content" id="downloadTabContent">
+            <!-- Linux Section -->
             <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
               {{ with .Site.GetPage "download" "linux" }}{{ .Content }}{{ end }}
             </div>
+
+            <!-- Mac Section -->
             <div class="tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab">
               {{ $download_data := dict "os" "Mac" "url" "https://cmbarton.github.io/grass-mac/download/" "version" .Site.Data.grass.current_version }}
               {{ partial "grass-download.html" $download_data }}
               {{ partial "code-copy.html" .Site.Data.grass.install.mac_ports }}
             </div>
+
+            <!-- Windows Section -->
             <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
               {{ $windows_url := printf "/grass%s/binary/mswindows/native/WinGRASS-%s-1-Setup.exe" .Site.Data.grass.current_version_nodots .Site.Data.grass.current_version }}
               {{ $download_data := dict "os" "Windows" "url" $windows_url "version" .Site.Data.grass.current_version }}
               {{ partial "grass-download.html" $download_data }}
+              <!-- Add text-center class to center the button -->
+              <!-- <div class="pt-5"> 
+                <p class="text-center">
+                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseWindowsAdditionalOptions" aria-expanded="false" aria-controls="collapseWindowsAdditionalOptions">
+                        Additional Options
+                    </button>
+                </p>
+              </div> -->
+              <!-- <div class="container collapse" id="collapseWindowsAdditionalOptions"> -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h3>Additional Options</h3>
+                    <div class="row mb-5 text-primary">
+                      <div class="col-12">
+                        <h4>OSGeo4W</h4>
+                        <p>OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more).</p>
+                        <a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank"><i class="fa-solid fa-download"></i> Download OSGeo4W v2</a>
+                      </div>
+                    </div>
+                    <div class="row mb-5 text-primary">
+                      <div class="col-12">
+                        <h4>QGIS users</h4>
+                        <p>In order to have GRASS GIS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <!-- Docker Section -->
             <div class="tab-pane fade" id="docker" role="tabpanel" aria-labelledby="docker-tab">
               {{ with .Site.GetPage "download" "docker" }}{{ .Content }}{{ end }}
             </div>
+
         </div>
     </div>
 </section>
