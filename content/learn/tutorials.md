@@ -70,6 +70,7 @@ layout: "overview"
 * [Αναπαραγωγή του χάρτη CORINE με το GRASS-GIS](https://sourceforge.net/projects/gregis.berlios/files/corine_grass-gis_el.pdf/download)
 
 ### Portuguese
+<img src="/images/gallery/temporal/grass760_temporal_plot_labels.png" width="40%" style="float:right">
 
 * [Curso - Introdução ao SIG com Software Livre (GRASS)](http://carlosgrohmann.com/downloads/sigcomsl_dados/aula_intro_grass_2021.pdf) (2021)
 * [Playlist de aulas sobre GRASS-GIS](https://www.youtube.com/playlist?list=PL9GztlLGb7RovKMMO2ohYdfxfILXjxwEy)
