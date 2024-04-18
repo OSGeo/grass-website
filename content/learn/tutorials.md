@@ -62,22 +62,12 @@ layout: "overview"
 ### Czech
 <img src="https://grasswiki.osgeo.org/w/images/ICC_workshop_3Dview_ortho.png" width="40%" style="float:right">
 
-* [FreeGIS portal](http://freegis.fsv.cvut.cz/gwiki/GRASS_GIS)
 * [GISMentors - GRASS GIS for beginners](https://training.gismentors.eu/grass-gis-zacatecnik/)
 * [GISMentors - GRASS GIS for advanced users](https://training.gismentors.eu/grass-gis-pokrocily)
 
 ### Greek
 
 * [Αναπαραγωγή του χάρτη CORINE με το GRASS-GIS](https://sourceforge.net/projects/gregis.berlios/files/corine_grass-gis_el.pdf/download)
-
-### Italian
-
-* [GRASS 7 tutorial in Italian language](http://www.ing.unitn.it/~grass/docs/tutorial_70/)
-
-### Korean
-<img src="/images/gallery/temporal/grass760_temporal_plot_labels.png" width="40%" style="float:right">
-
-* [GRASS tutorial in Korean language](http://pinus.gntech.ac.kr/~grass/)
 
 ### Portuguese
 
