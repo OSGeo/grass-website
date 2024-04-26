@@ -28,7 +28,7 @@ started exploring the use of GIS for environmental research, monitoring and mana
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
   <iframe src="https://av.tib.eu/player/12963" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
-US Army CERL official GRASS GIS video narrated by William Shatner. <a href="https://doi.org/10.5446/12963" target="_blank">DOI.</a>
+Official GRASS GIS video of the US Army CERL, narrated by William Shatner (<a href="https://doi.org/10.5446/12963" target="_blank">DOI</a>)
 <br><br>
 <h4 class="mt-4">Further reading</h4>
 <ul>
