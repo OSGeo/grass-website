@@ -21,7 +21,7 @@ layout: "timeline"
           <div class="panel-body">
 <ul class="list-unstyled releases">
 
-<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 10 July 2024</span> Creation of the GRASS GIS 8.4 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_4">87847c2</a>)</li> <!-- 87847c25b85868298807c07743d17856d37fdf4a -->
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 10 June 2024</span> Creation of the GRASS GIS 8.4 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_4">87847c2</a>)</li> <!-- 87847c25b85868298807c07743d17856d37fdf4a -->
 
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 07 Mar 2024</span> <b>GRASS GIS 8.3.2</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.3.2">Changelog</a> - <a href="/grass83/source/">Source Code</a></li>
 
