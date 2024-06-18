@@ -7,6 +7,10 @@ Mailing list for discussions: https://lists.osgeo.org/mailman/listinfo/grass-web
 Below some instructions how to contribute by running a local instance for testing
 prior to commit changes as pull requests.
 
+## Hugo version in the server
+
+Currently, the website is built with hugo version 0.113.0.
+
 ## How to build your own local web server
 
     git clone https://github.com/OSGeo/grass-website.git
