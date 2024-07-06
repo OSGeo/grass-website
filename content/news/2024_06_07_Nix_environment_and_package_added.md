@@ -18,7 +18,7 @@ The Nix development environment provides a stable and reproducible environment
 for all developers and can significantly simplify the onboarding process of new
 contributors.
 
-To start hacking on GRASS, run `nix develop` command in source code root
+To start hacking on GRASS, run `nix develop` command within the source code root
 directory to create a temporary shell environment containing all build
 dependencies with instructions how to build and test the code.
 
