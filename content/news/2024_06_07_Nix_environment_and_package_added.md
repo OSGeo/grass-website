@@ -56,7 +56,7 @@ run GRASS in one step.
    width="90%" style="float:center;padding-left:10px;padding-top:20px">
 </a>
 
-To install it, run `nix profile install github:OSGeo/grass#grass`.
+If you want to install GRASS instead, run `nix profile install github:OSGeo/grass#grass`.
 
 Check out [How to use Nix](https://github.com/OSGeo/grass/blob/main/NIX.md) for more instructions.
 
