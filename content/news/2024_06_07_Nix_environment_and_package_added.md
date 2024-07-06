@@ -15,7 +15,7 @@ of running GRASS directly from the Git source code was implemented using the
 in Prague.
 
 The Nix development environment provides a stable and reproducible environment
-for all developers and can significantly simplify onboarding process of new
+for all developers and can significantly simplify the onboarding process of new
 contributors.
 
 To start hacking on GRASS, run `nix develop` command in source code root
