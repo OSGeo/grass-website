@@ -43,7 +43,7 @@ Note: run 'nix flake update' from time to time to update dependencies.
 Run 'dev-help' to see this message again. 
 ```  
 
-On the other hand, possibility to run GRASS directly from a Git
+On the other hand, the possibility to run GRASS directly from the Git
 source code improves the feedback loop during development and will allow to install
 GRASS on any Linux distribution immediately after a new version is out.
 
