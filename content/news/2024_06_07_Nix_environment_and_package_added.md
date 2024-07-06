@@ -2,7 +2,7 @@
 title: "Nix development environment and package"
 date: 2024-07-06T12:00:00+02:00
 layout: "news"
-author: Ivan Mincik and Veronica Andreo
+author: Ivan Mincik and the GRASS Dev Team
 ---
 
 ## Nix development environment and package
