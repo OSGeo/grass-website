@@ -20,7 +20,7 @@ contributors.
 
 To start hacking on GRASS, run `nix develop` command within the source code root
 directory to create a temporary shell environment containing all build
-dependencies with instructions how to build and test the code.
+dependencies and get instructions on how to build and test the code.
 
 ```
 $ nix develop
