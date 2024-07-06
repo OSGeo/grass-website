@@ -47,7 +47,7 @@ On the other hand, possibility to run GRASS directly from a Git
 source code improves the feedback loop during development and will allow to install
 GRASS on any Linux distribution immediately after a new version is out.
 
-To run latest development version of GRASS directly from a Git source code, run
+To run the latest development version of GRASS directly from the Git source code, run
 `nix run github:OSGeo/grass#grass` command which will compile (if needed) and
 run GRASS in one step.
 
