@@ -60,4 +60,4 @@ If you want to install GRASS instead, run `nix profile install github:OSGeo/gras
 
 Check out [How to use Nix](https://github.com/OSGeo/grass/blob/main/NIX.md) for more instructions.
 
-*Ivan Mincik and Veronica Andreo*
+*Ivan Mincik*
