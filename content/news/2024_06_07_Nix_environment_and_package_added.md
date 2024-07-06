@@ -7,11 +7,10 @@ author: Ivan Mincik and the GRASS Dev Team
 
 ## Nix development environment and package
 
-New option for creating a GRASS development environment and unique way
-of running GRASS directly from a Git source code was implemented using
+A new option for creating a GRASS development environment and a unique way
+of running GRASS directly from the Git source code was implemented using the 
 [Nix package manager](https://nixos.org/). This idea was presented by
-[Ivan Mincik](https://github.com/imincik)
-during a
+[Ivan Mincik](https://github.com/imincik) during the
 [GRASS GIS Community Meeting](https://grasswiki.osgeo.org/wiki/GRASS_Community_Meeting_Prague_2024)
 in Prague.
 
