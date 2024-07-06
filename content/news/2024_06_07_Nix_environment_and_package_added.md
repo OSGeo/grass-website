@@ -14,7 +14,7 @@ of running GRASS directly from the Git source code was implemented using the
 [GRASS GIS Community Meeting](https://grasswiki.osgeo.org/wiki/GRASS_Community_Meeting_Prague_2024)
 in Prague.
 
-Nix development environment provides a stable and reproducible environment
+The Nix development environment provides a stable and reproducible environment
 for all developers and can significantly simplify onboarding process of new
 contributors.
 
