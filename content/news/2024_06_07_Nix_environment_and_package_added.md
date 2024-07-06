@@ -53,7 +53,7 @@ run GRASS in one step.
 
 <a href="/images/news/nix-run-grass.png">
   <img src="/images/news/nix-run-grass.png" alt="nix run grass" title="Nix running GRASS"
-   width="70%" style="float:center;padding-left:10px;padding-top:20px">
+   width="90%" style="float:center;padding-left:10px;padding-top:20px">
 </a>
 
 To install it, run `nix profile install github:OSGeo/grass#grass`.
