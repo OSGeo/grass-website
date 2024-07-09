@@ -5,7 +5,7 @@ layout: "news"
 author: Ivan Mincik and the GRASS Dev Team
 ---
 
-### You can now develop and run GRASS with Nix
+### You can now develop and run GRASS GIS with Nix
 
 A new option for creating a GRASS development environment and a unique way
 of running GRASS directly from the Git source code was implemented using the 
