@@ -1234,13 +1234,10 @@ nobullets {
    list-style-type: none;
 }
 
-  /*
-
 .hljs {
-   background:#c5c8c6;
+   background:#ebeaea;
    color: #1d1f21;
 }
-
 
 .hljs-keyword{
    color: #1d1f21;
@@ -1249,7 +1246,6 @@ nobullets {
 code{
    color: #1d1f21;
 }
- */
 
 .fa-11x {
   font-size: 11em;
