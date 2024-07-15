@@ -22,7 +22,7 @@ To start hacking on GRASS, run `nix develop` command within the source code root
 directory to create a temporary shell environment containing all build
 dependencies and get instructions on how to build and test the code.
 
-```
+``` bash
 $ nix develop
 
 Welcome to a GRASS development environment !
@@ -56,8 +56,8 @@ run GRASS in one step.
    width="90%" style="float:center;padding-left:10px;padding-top:20px">
 </a>
 
-If you want to install GRASS instead, run `nix profile install github:OSGeo/grass#grass`.
+If you want to install GRASS instead, run: `nix profile install github:OSGeo/grass#grass`.
 
-Check out [How to use Nix](https://github.com/OSGeo/grass/blob/main/NIX.md) for more instructions.
+Check out [How to use Nix](https://github.com/OSGeo/grass/blob/main/doc/NIX.md) for more instructions.
 
 *Ivan Mincik*
