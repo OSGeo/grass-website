@@ -70,6 +70,7 @@ please check at [software downloads](/download/software/).
 - <https://grass.osgeo.org/grass84/source/>
 - <https://grass.osgeo.org/grass84/source/grass-8.4.0.tar.gz>
 - [From GitHub](https://github.com/OSGeo/grass/releases/tag/8.4.0)
+- DOI: [10.5281/zenodo.13102854](https://doi.org/10.5281/zenodo.13102854)
 
 First time users may explore the [**first steps tutorial**](/learn/) after
 installation.
