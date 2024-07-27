@@ -1,14 +1,14 @@
 {
-    "current_version": "8.3.2",
-    "current_version_short": "8.3",
-    "current_version_underscore": "8_3",
-    "current_version_nodots": "83",
+    "current_version": "8.4.0",
+    "current_version_short": "8.4",
+    "current_version_underscore": "8_4",
+    "current_version_nodots": "84",
     "legacy_version": "7.8.8",
     "legacy_version_short": "7.8",
     "legacy_version_underscore": "7_8",
     "legacy_version_nodots": "78",
-    "preview_version":"8.4.0",
-    "preview_version_short":"8.4",
-    "preview_version_underscore": "8_4",
-    "preview_version_nodots":"84"
+    "preview_version":"8.5.0",
+    "preview_version_short":"8.5",
+    "preview_version_underscore": "8_5",
+    "preview_version_nodots":"85"
 }
