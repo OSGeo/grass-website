@@ -41,8 +41,8 @@ features and bugs fixed at
 
 Thanks to all contributors!
 
-<a href="/images/news/grass840_XXX.png">
-  <img src="/images/news/grass840_XXX..png"
+<a href="/images/news/grass840_gui_multiple_map_displays_and_history.png">
+  <img src="/images/news/grass840_gui_multiple_map_displays_and_history.png"
    alt="GRASS GIS 8.4.0"
    title="GRASS GIS 8.4.0"
    width="65%" style="float:right;padding-left:15px;padding-top:15px">
