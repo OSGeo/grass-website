@@ -9,8 +9,8 @@ author: Markus Neteler and the GRASS Development Team
 
 The GRASS GIS 8.4.0 release contains more than **520 changes**
 compared to 8.3.2. This new minor release includes
-**important fixes and improvements** to the GRASS GIS modules and the
-graphical user interface (GUI), making it even more stable for daily work.
+**important fixes and improvements** to the GRASS GIS tools, libraries and the
+graphical user interface (GUI), making it even more stable and robust for daily work.
 
 Most importantly: _location_ becomes _project_: The Python API, command line,
 and graphical user interface are now using _project_ instead of _location_
@@ -20,7 +20,7 @@ Further relevant changes:
 
 - Python: the creation of new projects in Python has been greatly simplified (no more
   chicken and egg problems) - also for Jupyter notebooks.
-- GUI: New easy command history navigation through the History browser panel.
+- GUI: easy command history navigation through the new **History browser panel**.
 - New [GRASS GIS Programming Style Guide](https://github.com/OSGeo/grass/blob/main/doc/development/style_guide.md).
 - For r.univar, the computation extended statistics is now parallelized.
 - JSON output format support (format="json") has been added in multiple tools
@@ -39,7 +39,7 @@ For all 520 changes, see our detailed announcement with the full list of
 features and bugs fixed at
 [GitHub / Releases / 8.4.0](https://github.com/OSGeo/grass/releases/tag/8.4.0).
 
-Thanks to all contributors!
+Thanks to all contributors and financial supporters!
 
 <a href="/images/news/grass840_gui_multiple_map_displays_and_history.png">
   <img src="/images/news/grass840_gui_multiple_map_displays_and_history.png"
