@@ -7,7 +7,7 @@ author: Markus Neteler and the GRASS Development Team
 
 ### What's new in a nutshell
 
-The GRASS GIS 8.4.0 maintenance release contains more than **520 changes**
+The GRASS GIS 8.4.0 release contains more than **520 changes**
 compared to 8.3.2. This new minor release includes
 **important fixes and improvements** to the GRASS GIS modules and the
 graphical user interface (GUI), making it even more stable for daily work.
