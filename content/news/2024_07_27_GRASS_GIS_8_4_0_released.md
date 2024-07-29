@@ -48,7 +48,7 @@ Thanks to all contributors and financial supporters!
    width="65%" style="float:right;padding-left:15px;padding-top:15px">
 </a>
 
-## Software downloads
+## Software download
 
 #### Binaries/Installers download
 
@@ -72,18 +72,12 @@ please check at [software downloads](/download/software/).
 - [From GitHub](https://github.com/OSGeo/grass/releases/tag/8.4.0)
 - DOI: [10.5281/zenodo.13102854](https://doi.org/10.5281/zenodo.13102854)
 
-First time users may explore the [**first steps tutorial**](/learn/) after
-installation.
 
-**About GRASS GIS**
+### More about GRASS GIS
 
-The Geographic Resources Analysis Support System
-([https://grass.osgeo.org/](/)), commonly referred to as GRASS GIS, is
-an Open Source Geographic Information System providing powerful raster,
-vector and [geospatial processing capabilities](https://grass.osgeo.org/learn/overview/).
-It can be used either as a stand-alone application, as backend for other
-software packages such as QGIS and R, or in the cloud. It is
-distributed freely under the terms of the GNU General Public License (GPL).
-GRASS GIS is a founding member of the Open Source Geospatial Foundation (OSGeo).
+- First time users may explore our list of [tutorials](https://grass.osgeo.org/learn/tutorials/).
+- See GRASS [tools manual pages](https://grass.osgeo.org/grass-stable/manuals/index.html) for details and examples.
+- [Get in touch with us](https://grass.osgeo.org/support/community/).
+- Feel like supporting the project? [Donate or sponsor us!](https://opencollective.com/osgeo/projects/grass/contribute)
 
 _The GRASS Dev Team_
