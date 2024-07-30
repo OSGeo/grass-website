@@ -61,6 +61,7 @@ Thanks to all contributors and financial supporters!
   - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)
   - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
   - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
+  - [AUR](https://aur.archlinux.org/packages/grass)
 
 Further binary packages for other platforms and distributions will follow shortly,
 please check at [software downloads](/download/software/).
