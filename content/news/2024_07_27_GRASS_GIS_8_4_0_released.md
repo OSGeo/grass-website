@@ -58,7 +58,7 @@ Thanks to all contributors and financial supporters!
   - [Official Application Bundle](https://cmbarton.github.io/grass-mac/download/)
 - Linux
   - [Debian](https://tracker.debian.org/pkg/grass)
-  - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable)
+  - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass)
   - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
   - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
   - [AUR](https://aur.archlinux.org/packages/grass)
