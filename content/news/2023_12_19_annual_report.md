@@ -93,7 +93,7 @@ Check out the newly added [commercial support](/support/commercial) page featuri
 commercial support providers worldwide! The list now includes: [Margosa Environmental Solutions Ltd](https://margosa-env.com/),
 [mundialis GmbH & Co. KG](https://www.mundialis.de),
 [Center for Geospatial Analytics at NC State University](https://cnr.ncsu.edu/geospatial/engage),
- and [Kan Territory & IT](https://https//kan.com.ar/).
+ and [Kan Territory & IT](https://kan.com.ar/).
 
 ### GRASS GIS in Academia
 
@@ -122,7 +122,7 @@ NC State University to enhance teaching of an open-educational-resources course 
 </a>
 
 In April Veronica Andreo visited NC State University as a researcher and GRASS PSC Chair giving
-a [lecture]((https://cnr.ncsu.edu/geospatial/news/2023/04/26/spring-2023-geospatial-forum-rewind/)) and a [studio](https://veroandreo.github.io/grass_ncsu_2023/)
+a [lecture](https://cnr.ncsu.edu/geospatial/news/2023/04/26/spring-2023-geospatial-forum-rewind/) and a [studio](https://veroandreo.github.io/grass_ncsu_2023/)
 on leveraging remote sensing in public health, and highlighting use of GRASS GIS in her research. 
 The visit also resulted in a news article [How Open Science Can Both Advance and Hinder Equity in Research](https://cnr.ncsu.edu/geospatial/news/2023/12/01/open-science-equity/) which featured GRASS GIS and part of Vero’s story of involvement with the project.
 
