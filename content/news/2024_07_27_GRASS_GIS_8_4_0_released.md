@@ -62,6 +62,7 @@ Thanks to all contributors and financial supporters!
   - [Fedora/Centos/EPEL](https://src.fedoraproject.org/rpms/grass)
   - [Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass)
   - [AUR](https://aur.archlinux.org/packages/grass)
+  - [Nix](https://search.nixos.org/packages?channel=unstable&show=grass&size=1&type=packages&query=grass+gis)
 
 Further binary packages for other platforms and distributions will follow shortly,
 please check at [software downloads](/download/software/).
