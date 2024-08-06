@@ -10,7 +10,6 @@ layout: "timeline"
   <div class="timeline">
     <div class="line text-muted"></div>
      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -42,8 +41,6 @@ layout: "timeline"
         </div>
       </div>
       <!-- /Panel -->
-
-
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -65,7 +62,6 @@ layout: "timeline"
         </div>
       </div>
       <!-- /Panel -->
-
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -83,7 +79,6 @@ layout: "timeline"
         </div>
       </div>
       <!-- /Panel -->
-
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -101,7 +96,6 @@ layout: "timeline"
         </div>
       </div>
       <!-- /Panel -->
-
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -124,7 +118,6 @@ layout: "timeline"
       </div>
       </div>
       <!-- /Panel -->
-
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -337,7 +330,6 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
-
  <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
