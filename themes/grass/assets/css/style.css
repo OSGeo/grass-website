@@ -887,7 +887,7 @@ blockquote {
   padding: 10px 40px;
   border-left: 2px solid var(--grass-color);
   margin: 40px 0;
-  font-weight: bold;
+  background-color: var(--grass-color-light);
 }
 .list-styled li {
   padding-left: 20px;
