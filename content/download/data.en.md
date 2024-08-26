@@ -115,25 +115,25 @@ the short <a href="/sampledata/spearDB.pdf">documentation</a> and
 <hr>
 
 ### <a name="GlobalDatasets"></a> Global datasets
-Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS GIS location with global
+Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS GIS project with global
 background maps is available in the World Geodetic System 1984 (WGS84). It is provided in two versions, a smaller, basic one and 
 a more comprehensive collection with additional hydrological and ecological data: 
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="https://zenodo.org/record/3762852#.XrBt0vmxXIE" target="_blank"> Basic global dataset </a></span>
-  <a href="https://zenodo.org/record/3762852/files/natural-earth-dataset.zip?download=1" class="inl btn btn-primary" target="_blank">Download ZIP (117 MB)</a>
+  <span class="mwl"><a href="https://doi.org/10.5281/zenodo.3762773" target="_blank"> Basic global dataset </a></span>
+  <a href="https://zenodo.org/records/13370131/files/natural_earth_dataset.zip?download=1" class="inl btn btn-primary" target="_blank">Download ZIP (121.3 MB)</a>
   </li>
 </ul>
 
 <ul id="links" class="list-unstyled version">
  <li>
-  <span class="mwl"><a href="https://zenodo.org/record/3359632#.XrBvnPmxXIE" target="_blank"> Full global dataset </a></span>
-  <a href="https://zenodo.org/record/3359632/files/global-dataset.zip?download=1" class="inl btn btn-primary" target="_blank">Download ZIP (1.3 GB)</a>
+  <span class="mwl"><a href="https://doi.org/10.5281/zenodo.13370326" target="_blank"> Full global dataset </a></span>
+  <a href="https://zenodo.org/records/13370326/files/global-dataset.zip?download=1" class="inl btn btn-primary" target="_blank">Download ZIP (2.2 GB)</a>
   </li>
 </ul>
 
 
 In the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) wiki, the community shares information on other open datasets
-all over the globe and how they are imported into GRASS GIS.
+all over the globe and how they can be imported into GRASS GIS.
 
 <hr>
