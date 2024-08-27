@@ -66,6 +66,12 @@ greyColorDark = "#A0A0A0"
       url = "/about"
       hasChildren = true
 
+    [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "Governance"
+        weight = 1
+        URL = "/about/governance"
+
       [[Languages.en.menu.main]]
         parent = "About Us"
         name = "Team"
