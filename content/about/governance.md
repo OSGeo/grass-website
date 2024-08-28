@@ -1,10 +1,9 @@
 ---
 title: "Governance"
 date: 2024-08-27T10:12:05+02:00
-layout: "general"
+layout: "governance"
 ---
 
-# Governance
 The Project Steering Committee guides the GRASS project’s direction, budget, and
 governance, making decisions through voting and overseeing the Developer Team
 which manages source code changes. The project operates under the support of the
