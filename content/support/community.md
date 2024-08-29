@@ -67,6 +67,7 @@ Join the discussion also on the following channels:
 |------|---------|-------------|
 | <i class="fab fa-mastodon"></i> |  [https://fosstodon.org/@grassgis](https://fosstodon.org/@grassgis) | @GRASSGIS |
 | <i class="fab fa-x-twitter"></i> |  [https://twitter.com/grassgis](https://twitter.com/grassgis) | @GRASSGIS |
+| <i class="fab fa-linkedin"></i> | [https://www.linkedin.com/company/grass-gis](https://www.linkedin.com/company/grass-gis) |  |
 | <i class="fab fa-facebook"></i> |  [https://www.facebook.com/groups/GRASS](https://www.facebook.com/groups/GRASS) | @GRASSGIS |
 | <i class="fab fa-youtube"></i> |  [https://www.youtube.com/...grass+gis](https://www.youtube.com/results?search_query=grass+gis) |  |
 
