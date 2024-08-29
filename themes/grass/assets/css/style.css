@@ -31,28 +31,31 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .h1 {
   font-size: 36px;
-  color: var(--grey-color-light);
+  margin-bottom: 16px;
 }
 h2, .h2 {
   font-size: 32px;
-  color: var(--grass-color);
-  margin-bottom: 30px;
+  margin-top: 28px;
+  margin-bottom: 14px;
 }
 h3, .h3 {
   font-size: 26px;
-  margin-top: 40px;
-  margin-bottom: 15px;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 h4, .h4 {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 h5, .h5 {
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-top: 16px;
+  margin-bottom: 11px;
 }
 h6, .h6 {
   font-size: 14px;
+  margin-top: 12px;
   margin-bottom: 10px;
 }
 .dbl {
