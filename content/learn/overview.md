@@ -41,14 +41,14 @@ and the full list of
 <a href="/about/history/releases" target="_blank">releases</a>
 for more details.</p>
 
-<p>The strength and success of GRASS GIS relies on the user community. 
+<!-- <p>The strength and success of GRASS GIS relies on the user community. 
 The <i>philosophy</i> of the GRASS GIS Development Team is to encourage users 
 to develop their own unique tools and applications as well as to improve 
-the existent ones.</p>
+the existing ones.</p> -->
 
 </div>
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/gallery/gui/grass70_gui_example.png" width="89%" alt="GRASS GIS">
+<img class="bsh" src="/images/news/grass83_news_screenshot.png" width="99%" alt="GRASS GIS">
 </div>
 
 </div>
@@ -60,7 +60,7 @@ the existent ones.</p>
 <div class="row mt-20">
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/gallery/gui/gui-grass-example-2.png" width="89%" alt="GRASS GIS">
+<img class="bsh" src="/images/gallery/vector/hexagons_3d_white_outlier.png" width="95%" alt="GRASS GIS">
 </div>
 
 <div class="col-lg-6">
@@ -109,7 +109,7 @@ Some selected relevant features are:
 <div class="row mt-20">
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/other/grass_through_qgis.png" width="90%" alt="GRASS GIS through QGIS">
+<img class="bsh" src="/images/news/jupyter_interactive_viewshed.png" width="90%" alt="GRASS GIS through QGIS">
 </div>
 
 <div class="col-lg-6">
