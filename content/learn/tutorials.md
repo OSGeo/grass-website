@@ -70,13 +70,15 @@ layout: "overview"
 * [Αναπαραγωγή του χάρτη CORINE με το GRASS-GIS](https://sourceforge.net/projects/gregis.berlios/files/corine_grass-gis_el.pdf/download)
 
 ### Portuguese
-<img src="/images/gallery/temporal/grass760_temporal_plot_labels.png" width="40%" style="float:right">
 
 * [Curso - Introdução ao SIG com Software Livre (GRASS)](http://carlosgrohmann.com/downloads/sigcomsl_dados/aula_intro_grass_2021.pdf) (2021)
 * [Playlist de aulas sobre GRASS-GIS](https://www.youtube.com/playlist?list=PL9GztlLGb7RovKMMO2ohYdfxfILXjxwEy)
 * [Geoprocessamento com GRASS-GIS (2016)](https://figshare.com/articles/Geoprocessamento_com_GRASS-GIS/3502184)
 * [Geoprocessamento com Software Livre: GRASS-GIS e QGIS (2012)](https://figshare.com/articles/Geoprocessamento_com_Software_Livre_GRASS_GIS_e_QGIS/1004167)
+<img src="/images/gallery/temporal/grass760_temporal_plot_labels.png" width="33%" style="float:right">
 * [Introdução à Análise Digital de Terreno com GRASS-GIS (2008)](https://figshare.com/articles/Introdu_o_An_lise_Digital_de_Terreno_com_GRASS_GIS/1004165)
+
+
 
 ### Spanish
 
