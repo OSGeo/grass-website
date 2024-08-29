@@ -5,11 +5,11 @@ layout: "governance"
 ---
 
 The Project Steering Committee guides the GRASS project’s direction, budget, and
-governance, making decisions through voting and overseeing the GRASS Development
+governance, making decisions through voting and overseeing the Core Development
 Team which manages source code changes. The project operates under the auspices
-of the Open Source Geospatial Foundation (OSGeo).
+of the [Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo).
 
-## Guided by a Project Steering Committee
+## Guided by the Project Steering Committee
 
 <a href="/images/other/grass_psc_team_prague_2024.jpg">
   <img src="/images/other/grass_psc_team_prague_2024.jpg"
@@ -29,8 +29,8 @@ contributor community.
 
 The PSC has a Chair selected from and by the <a href="/about/team">PSC
 members</a>. The PSC may create additional roles such as a treasurer and appoint
-people to these roles. The PSC appoints and oversees the Development Team and
-other teams or groups as needed. The PSC makes decisions by voting on RFC
+people to these roles. The PSC appoints and oversees the Core Development Team
+and other teams or groups as needed. The PSC makes decisions by voting on RFC
 documents, by voting on simple motions, or by consensus among members. The PSC
 operations follow [RFC 1: Project Steering Committee
 Guidelines](https://github.com/OSGeo/grass/blob/main/doc/development/rfc/PSC_guidelines.md)
@@ -48,46 +48,47 @@ Procedures](https://github.com/OSGeo/grass/blob/main/doc/development/rfc/PSC_vot
 GRASS GIS is under the umbrella of the Open Source Geospatial Foundation
 (OSGeo), a not-for-profit organization that aims to foster the global adoption
 of open geospatial technology. OSGeo provides GRASS GIS with legal, fiscal, and
-technical infrastructure. In the OSGeo organizational structure, the PSC is a
-committee which provides updates about the GRASS GIS project to the OSGeo Board.
+technical infrastructure. Within the OSGeo organizational structure, the GRASS
+PSC is a committee which provides updates about the GRASS GIS project to the
+OSGeo Board.
 
 
-## Driven by a Development Team
+## Driven by the Core Development Team
 <a href="/images/other/developer_team.jpg"> <img
   src="/images/other/developer_team.jpg" alt="OSGeo logo" title="Open Source
    Geospatial Foundation" width="35%"
    style="float:left;padding-right:25px;padding-top:15px"> </a> 
    
-The GRASS Development Team determines what code additions and changes should be
-included in the source code using a change request approval process. The
+The Core Development Team determines what code additions and changes should be
+included in the source code using a change request approval process. The Core
 Development Team consists of developers with write access to the project's main
 source code repository as approved by the PSC.
 
-GRASS Development Team members are appointed by the PSC and have write access to
-the main project’s source code repository. The Development Team further decides
-on its internal organization for administrative purposes. The Development Team
-may grant individuals limited access to additional repositories and other
-resources as needed. The Development Team reports any repository and access
-rights changes to the PSC and PSC may request the Development Team to report on
-additional specific issues.
+Team members are appointed by the PSC and have write access to the main
+project’s source code repository. The Core Development Team further decides on
+its internal organization for administrative purposes. It may grant individuals
+limited access to additional repositories and other resources as needed. The
+Core Development Team reports any repository and access rights changes to the
+PSC and PSC may request the Core Development Team to report on additional
+specific issues.
 
 ## Shaped by Reviewed Code Contributions
 <i class="fa fa-code-pull-request fa-7x"
 style="float:right;padding-left:10px"></i>
 
-Source code changes are controlled by the GRASS Development Team using a change
+Source code changes are controlled by the Core Development Team using a change
 request approval process. A change request (also known as pull request and merge
-request) can be submitted by anyone. The change request is reviewed by the
+request) can be submitted by anyone. The change request is reviewed by the Core
 Development Team and a broader consensus is sought out for larger or high impact
 change requests. Anyone, including the original change request contributor, may
 participate in the discussion about suitability of the proposed code changes or
-provide reviews. However, at least one formal approving review by a Development
-Team member is required for inclusion into the source code. The same rules apply
-when a Development Team member creates a change request, i.e., another member
-needs to perform the review and approve the change.
+provide reviews. However, at least one formal approving review by a Core
+Development Team member is required for inclusion into the source code. The same
+rules apply when a Core Development Team member creates a change request, i.e.,
+another member needs to perform the review and approve the change.
 
-Development Team members may involve or may defer a decision to the PSC or its
-individual members where consensus cannot be reached or when circumstances seem
-to require involvement of the PSC members.
+Core Development Team members may involve or may defer a decision to the PSC or
+its individual members when consensus cannot be reached or when circumstances
+seem to require involvement of the PSC members.
 
 
