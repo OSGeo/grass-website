@@ -1,0 +1,206 @@
+{{ partial "head.html" . }} {{ partial "banner.html" . }}
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<section>
+  <section class="pt-4 bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="page-title">{{ .Title }}</h1>
+        </div>
+        <div class="col-12">
+          <p>The GRASS GIS project roadmap, established in September 2024,
+          provides a clear outline of our key priorities and strategic
+          objectives for the next 3 years. While we welcome all kinds of
+          contributions, the following efforts are most likely to get broad
+          support from the project maintainers.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-rocket
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Software releases</h3>
+            <p>The GRASS GIS mission is to bring advanced geospatial
+            technologies to the world. To that end, we plan to release one minor
+            version per year and micro versions as needed:
+              <ul>
+                <li>8.5.0: 1st quarter of 2025</li>
+                <li>8.6.0: 1st quarter of 2026</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-cloud-download-alt
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Software distribution</h3>
+            <p>In order to make GRASS GIS run as smoothly as possible on all
+            platforms, we plan to:
+              <ul>
+                <li>Release and maintain a GRASS conda package.</li>
+                <li>Transition to CMake to streamline compilation.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-chart-line
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Integration into data science pipelines</h3>
+            <p>GRASS GIS has robust and unique models and tools for geoprocessing
+              and analysis that can be used together with other software packages
+              (eg., R and Python) in data science pipelines. While the conda
+              package described above serves this area of focus, we also aim to:
+              <ul>
+                <li>Create tutorials on different topics, applications and use
+                  cases demonstrating how GRASS GIS can be combined with other
+                  software packages in notebooks or scripts.</li>
+                <li>Improve Python and R APIs to streamline integrations.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-lightbulb
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Facilitate researchers' contributions</h3>
+            <p>We want to streamline researchers' unique contributions to keep
+              bringing advanced geospatial technologies to the world. Our goals in
+              this focus area are:
+              <ul>
+                <li>Develop and enhance existing onboarding guidelines to
+                  streamline contributions of scientific models and tools.</li>
+                <li>Encourage acknowledgement and citation of GRASS tools used
+                  in research.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-shield-alt
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Code quality and security</h3>
+            <p>We are committed to provide robust, secure and high quality
+              software by introducing tools to detect vulnerabilities, code
+              quality and formatting issues. To maintain high standards, we will:
+              <ul>
+                <li>Fix security and quality issues reported by the different
+                  tools.</li>
+                <li>Maintain and enhance CI workflows that help contributors
+                  comply with the standards.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-book fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Documentation</h3>
+            <p>We are committed to offer complete and up to date documentation
+              for newcomers, users and contributors. Our goals are to:
+              <ul>
+                <li>Enhance tools' manuals by adding examples and figures where
+                  missing.</li>
+                <li>Convert html documentation to markdown to lower the barrier
+                  for contributions.</li>
+                <li>Provide tutorials on a wide variety of topics, both
+                  introductory and advanced.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-users
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Community growth</h3>
+            <p>Growing the GRASS GIS community is essential for fostering
+              innovation, collaboration, and the long-term sustainability of the
+              project. To grow and diversify our community, we aim to:
+              <ul>
+                <li>Foster community involvement by organizing yearly community
+                  meetings and promoting smaller local events.</li>
+                <li>Participate in mentoring programs (Google Summer of Code,
+                  GRASS student grants) to grow the base of users, contributors
+                  and promote inclusion.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-seedling
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Sustainability</h3>
+            <p>A diverse group of contributors have invested their time and
+            financial support to ensure the ongoing development of GRASS GIS. To
+            ensure GRASS' long-term success, we aim to:
+              <ul>
+                <li>Improve and document the project's governance, procedures,
+                  infrastructure and established practices.</li>
+                <li>Attract new funding through grants, sponsors and
+                  donations.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-sm bg-white mb-1">
+        <div class="row nm align-items-center">
+          <div class="col-2 text-center"><i class="fas fa-bullhorn
+          fa-7x"></i></div>
+          <div class="col-10">
+            <h3 class="mt-2 mb-2">Communication</h3>
+            <p>GRASS GIS is used in several different ways by different users
+            and in different contexts. To showcase GRASS versatility and
+            innovation, we aim to:
+              <ul>
+                <li>Highlight GRASS capabilities and new developments on our
+                  website, social media channels, and conferences.</li>
+                <li>Migrate the mailing lists to modern discussion forums.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      </div>
+
+    </div>
+  </section>{{ partial "footer.html" . }}
+</section>
+</section>
+</body>
+
+</html>
