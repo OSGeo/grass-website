@@ -562,7 +562,7 @@ pre {
   z-index: 1;
 }
 .hero-section {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 .navbar {
   padding: 0;
@@ -1389,9 +1389,9 @@ code{
   .section-title {
     margin-bottom: 32px;
     font-size: 22px !important;
-}
+  }
   .hero-section {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
 
   .mb-40 {
