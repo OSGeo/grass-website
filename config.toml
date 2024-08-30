@@ -275,9 +275,9 @@ greyColorDark = "#A0A0A0"
       icon = "fab fa-facebook"
       link = "https://www.facebook.com/groups/GRASS"
 
-    [[Languages.en.params.socialIcon]]
-      icon = "fab fa-youtube"
-      link = "https://www.youtube.com/results?search_query=grass+gis"
+    #[[Languages.en.params.socialIcon]]
+    #  icon = "fab fa-youtube"
+    #  link = "https://www.youtube.com/results?search_query=grass+gis"
       
     [[Languages.en.params.socialIcon]]
       icon = "fa fa-rss"
