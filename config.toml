@@ -47,7 +47,7 @@ greyColorDark = "#A0A0A0"
 [Languages]
 
   # English Language
-  [Languages.en]
+  [Languages.en.params]
   languageName = "En"
   weight = 1
   languageCode = "en-us"
@@ -261,30 +261,30 @@ greyColorDark = "#A0A0A0"
       title = "Geographic Resources Analysis Support System"
 
     # footer social icon
-    [[Languages.en.socialIcon]]
+    [[Languages.en.params.socialIcon]]
       icon = " fab fa-github"
       link = "https://github.com/OSGeo/grass"
 
-    [[Languages.en.socialIcon]]
+    [[Languages.en.params.socialIcon]]
           icon = " fa fa-comments"
           link = "https://gitter.im/grassgis/community"
 
-    [[Languages.en.socialIcon]]
+    [[Languages.en.params.socialIcon]]
       icon = " fab fa-mastodon"
       link = "https://fosstodon.org/@grassgis"
 
-    [[Languages.en.socialIcon]]
+    [[Languages.en.params.socialIcon]]
       icon = " fab fa-x-twitter"
       link = "https://twitter.com/grassgis"    
 
-    [[Languages.en.socialIcon]]
+    [[Languages.en.params.socialIcon]]
       icon = "fab fa-facebook"
       link = "https://www.facebook.com/groups/GRASS"
 
-    [[Languages.en.socialIcon]]
-      icon = "fab fa-youtube"
-      link = "https://www.youtube.com/results?search_query=grass+gis"
+    #[[Languages.en.params.socialIcon]]
+    #  icon = "fab fa-youtube"
+    #  link = "https://www.youtube.com/results?search_query=grass+gis"
       
-    [[Languages.en.socialIcon]]
+    [[Languages.en.params.socialIcon]]
       icon = "fa fa-rss"
       link = "https://grass.osgeo.org/index.xml" 
