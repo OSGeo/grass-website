@@ -66,12 +66,6 @@ greyColorDark = "#A0A0A0"
       url = "/about"
       hasChildren = true
 
-    [[Languages.en.menu.main]]
-        parent = "About Us"
-        name = "Governance"
-        weight = 1
-        URL = "/about/governance"
-
       [[Languages.en.menu.main]]
         parent = "About Us"
         name = "Team"
@@ -80,33 +74,45 @@ greyColorDark = "#A0A0A0"
 
       [[Languages.en.menu.main]]
         parent = "About Us"
+        name = "Roadmap"
+        weight = 2
+        URL = "/about/roadmap"
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
+        name = "Governance"
+        weight = 3
+        URL = "/about/governance"
+
+      [[Languages.en.menu.main]]
+        parent = "About Us"
         name = "License"
         URL = "/about/license"
-        weight = 2
+        weight = 4
 
       [[Languages.en.menu.main]]
         parent = "About Us"
         name = "History"
         URL = "/about/history"
-        weight = 3
+        weight = 5
 
       [[Languages.en.menu.main]]
         parent = "About Us"
         name = "Brand"
         URL = "/about/brand"
-        weight = 4
+        weight = 6
 
       [[Languages.en.menu.main]]
         parent = "About Us"
         name = "Credits"
         URL = "/about/credits"
-        weight = 5
+        weight = 7
 
       [[Languages.en.menu.main]]
         parent = "About Us"
         name = "Citation"
         URL = "/about/citation"
-        weight = 6
+        weight = 8
 
     [[Languages.en.menu.main]]
       weight = 2
