@@ -3,8 +3,8 @@ theme = "grass"
 enableInlineShortcodes = true
 
 [params]
-description = "GRASS GIS is a free Geographic Information System (GIS) software used for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization."
-keywords = "open source gps, GRASS, FOSS4G, open source gis, open source gis grass, open source web gis, open source gis software, free open source gis, gis, mapping, open source software, mapping software, cartography, gis data, geospatial, open source 3d, geographic information system, geographic information systems, gis software, mapping data, free software, raster, topology, vector, image processing, visualization, hydrology, archeology, archaeology, 3D GIS"
+description = "GRASS GIS is a powerful engine for raster, vector, and geospatial processing, enabling advanced modeling, data management, imagery processing, and time series analysis with a Python API, optimized for large-scale analysis."
+keywords = "python, science, data science, machine learning, jupyter, vector, geospatial, parallel computing, gis, image processing, raster, spatial, open science, remote sensing, arrays, earth observation, geospatial analysis, timeseries analysis, open source, GRASS, FOSS4G, free open source GIS, mapping, mapping software, cartography, GIS data, open source 3D, geographic information system, free software, libre software, topology, visualization, hydrology, archaeology, 3D GIS"
 primaryColor = "#088B36"
 secondaryColor = "#f9f9f9"
 textColor = "#636363"
