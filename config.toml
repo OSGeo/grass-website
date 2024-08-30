@@ -47,7 +47,7 @@ greyColorDark = "#A0A0A0"
 [Languages]
 
   # English Language
-  [Languages.en]
+  [Languages.en.params]
   languageName = "En"
   weight = 1
   languageCode = "en-us"
