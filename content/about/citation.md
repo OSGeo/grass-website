@@ -1,6 +1,6 @@
 ---
 title: "Citation"
-date: 2023-11-09T05:05:05+05:00
+date: 2024-07-28T05:05:05+05:00
 layout: "general"
 ---
 
@@ -11,8 +11,8 @@ layout: "general"
 Please cite GRASS GIS when using the software in your work. Here are some choices
 depending on the version used:
 
-- GRASS Development Team, 2023. Geographic Resources Analysis Support System (GRASS)
-Software, Version 8.3. Open Source Geospatial Foundation. https://grass.osgeo.org
+- GRASS Development Team, 2024. Geographic Resources Analysis Support System (GRASS)
+Software, Version 8.4. Open Source Geospatial Foundation. https://grass.osgeo.org
 
 - GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS)
 Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
@@ -26,11 +26,11 @@ scientific work written in LaTeX.</p>
 
 <pre style="background-color:#CCCCCC">
 @Manual{GRASS_GIS_software,
-    title = {Geographic Resources Analysis Support System (GRASS GIS) Software, Version 8.3},
+    title = {Geographic Resources Analysis Support System (GRASS GIS) Software, Version 8.4},
     author = {{GRASS Development Team}},
     organization = {Open Source Geospatial Foundation},
     address = {USA},
-    year = {2023},
+    year = {2024},
     url = {https://grass.osgeo.org},
     doi = {10.5281/zenodo.5176030}
 }
