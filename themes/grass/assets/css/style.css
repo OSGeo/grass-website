@@ -421,7 +421,7 @@ pre {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgb(5, 83, 32, 0.5);
+  background: var(--primary-color);
 }
 .overlayg {
   position: relative;
@@ -670,7 +670,7 @@ pre {
 }
 
 .gitter-banner {
-  background: linear-gradient(45deg, var(--grass-color-dark) 0%, var(--grass-color) 50%,var(--grass-color-dark) 100%); 
+  background: var(--primary-color);
   text-align: center;
   color:whitesmoke;
   font-weight: bolder;
