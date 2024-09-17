@@ -421,10 +421,7 @@ pre {
   width: 100%;
   top: 0;
   left: 0;
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 0.47) 59%, rgba(255, 255, 255, 0) 100%);
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 0.47) 59%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 0.47) 59%, rgba(255, 255, 255, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
+  background: var(--primary-color);
 }
 .overlayg {
   position: relative;
@@ -648,9 +645,9 @@ pre {
   background: transparent;
 }
 .banner p {
-  font-size: 24px;
-  color: #000000;
-  background: rgba(255, 255, 255, .45)
+  font-family: open_sansbold;
+  font-size: 22px;
+  color: #ffffff;
 }
 .banner .text-dark {
   color: var(--dark-color);
@@ -673,7 +670,7 @@ pre {
 }
 
 .gitter-banner {
-  background: linear-gradient(45deg, var(--grass-color-dark) 0%, var(--grass-color) 50%,var(--grass-color-dark) 100%); 
+  background: var(--primary-color);
   text-align: center;
   color:whitesmoke;
   font-weight: bolder;
