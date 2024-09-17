@@ -85,7 +85,7 @@ Official GRASS GIS video of the US Army CERL, narrated by William Shatner (<a hr
 <p>
 In February <b>2006</b>, the Open Source Geospatial Foundation (OSGeo) was formed to support and promote worldwide use and collaborative development of Open Source geospatial technologies and data. GRASS GIS is one of its founding projects. Later that year, the GRASS Project Steering Committee was formed which is responsible for the overall management of the project.</p>
 <p>
-On Dec 9, <b>2007</b> GRASS GIS started to use SVN and Trac bug tracker hosted by OSGeo. Other GRASS GIS project infrastructures like the website and mailing lists were (and still are) hosted by OSGeo. Just for fun have a look at the GRASS GIS Website evolution page.<p>
+On Dec 9, <b>2007</b> GRASS GIS started to use SVN and Trac bug tracker hosted by OSGeo. Other GRASS GIS project infrastructures like the website and mailing lists were (and still are) hosted by OSGeo. Just for fun have a look at the GRASS GIS <a href="/about/history/web-evolution">website evolution page</a>.<p>
 </div>
 <div class="col-lg-4 col-sm-12">
  <img src="/images/conferences_logos/FOSS4G2004_Mayuri.png"  width="93%" />		   
