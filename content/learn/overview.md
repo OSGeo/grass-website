@@ -16,7 +16,7 @@ Information System (GIS) technology built for vector and raster geospatial
 data management, geoprocessing, spatial modelling and visualization.</p>
 <p><b>GRASS GIS</b> is Free and Open Source Software released under the 
 terms of the <a href="/about/license">GNU General Public License (GPL >= v2)</a>. 
-GRASS GIS is also a founding member and an affiliated  project of the
+GRASS GIS is a project of the
 <a href="https://osgeo.org">Open Source Geospatial Foundation (OSGeo)</a>.</p>
 </div>
 </div>
