@@ -124,7 +124,7 @@ Over the next year, we will:
 
 * Organize a [developer
   summit](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_Raleigh_2025)
-  in Raleigh, North Carolina, May 19 - May 24.
+  in Raleigh, North Carolina, May 19 - May 24, 2025.
 * Continue engaging with a wider community through more workshops,
   presentations, and outreach events.
 * Support contributions from new developers and scientists through mentorship
