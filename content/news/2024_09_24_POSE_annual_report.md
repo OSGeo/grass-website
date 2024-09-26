@@ -6,13 +6,13 @@ author: Anna Petrasova, Vaclav Petras
 ---
 
 
-In 2023, our team of researchers from four U.S. universities started a project
+In 2023, our team of researchers from four U.S. universities started a two-year project
 with support from an NSF grant (award
 [2303651](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303651)). This
 project aims to modernize and expand the GRASS GIS platform, strengthen its role
 as a key geospatial processing engine, and build a diverse, vibrant global
 community of users and developers. We are excited to share the progress we have
-made so far toward these goals.
+made so far toward these goals in the first half of the project.
 
 ## Growing the GRASS community
 <a href="/images/news/2024_community_meeting_collage.png">
@@ -120,7 +120,7 @@ efforts aim to create a more sustainable and resilient future for GRASS GIS.
 ## Looking ahead
 We maintain a detailed overview of the project efforts on [GRASS
 wiki](https://grasswiki.osgeo.org/wiki/NSF_POSE_Project_2023-2025_Timeline#Other_sustainability_activities).
-Over the next year, we will:
+Over the second half of the project, we will:
 
 * Organize a [developer
   summit](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_Raleigh_2025)
