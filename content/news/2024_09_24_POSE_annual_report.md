@@ -22,7 +22,7 @@ made so far toward these goals.
    width="55%" style="float:left;padding-right:15px;padding-top:15px">
 </a>
 
-A core part of our mission is to build a diverse community around GRASS GIS we
+A core part of our mission is to build a diverse community around GRASS GIS. We
 have launched several initiatives to grow the user and contributor base:
 
 **Mentoring activities:** We’ve established a [mentoring
@@ -40,7 +40,7 @@ audiences to GRASS GIS and introduced a new image of GRASS GIS. GRASS GIS was
 also featured in courses for advanced audiences: [coastal dynamics
 workshop](https://github.com/ncsu-geoforall-lab/csdms-grass-2024) for Community
 Surface Dynamic Modeling System
-([CSDMS](https://csdms.colorado.edu/wiki/Main_Page)) community by lead by
+([CSDMS](https://csdms.colorado.edu/wiki/Main_Page)) community lead by
 Caitlin Haedrich,  [Geocomputation & Machine Learning for Environmental
 Applications](https://spatial-ecology.net/docs/build/html/COURSESAROUNDTHEWORLD/course_geocomp_ml_04-05_2024.html)
 course, and
@@ -81,7 +81,7 @@ A key focus of the grant has been to modernize and improve the GRASS GIS
 software infrastructure.
 
 Together with other contributors, we have addressed many **code quality and
-security issues** in Python and C and C++ code that were reported by Flake8,
+security issues** in Python, C and C++ code that were reported by Flake8,
 Coverity Scan, and Cppcheck. Resolving these issues will enable us to apply more
 strict automated checks on new code contributions, resulting in easier
 maintenance and high quality code. Several reviewers, not supported by the NSF
