@@ -6,8 +6,9 @@ author: Anna Petrasova, Vaclav Petras
 ---
 
 
-In 2023, our team of researchers from four U.S. universities started a two-year project
-with support from an NSF grant (award
+In 2023, our team of researchers from four U.S. universities
+[announced](/news/2023_09_06_nsf_grant_awarded/) a two-year project with
+support from an NSF grant (award
 [2303651](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2303651)). This
 project aims to modernize and expand the GRASS GIS platform, strengthen its role
 as a key geospatial processing engine, and build a diverse, vibrant global
@@ -29,7 +30,7 @@ have launched several initiatives to grow the user and contributor base:
 program](/news/2023_10_11_mentoring_program_announced/) for developers and
 researchers, helping them integrate GRASS GIS into their workflows or gain the
 skills needed to contribute to and innovate within the GRASS GIS ecosystem.
-Mentees typically come from academia and federal agencies. We also provided
+Mentees typically come from academia and US federal agencies. We also provided
 mentoring for the [GRASS Student Grant
 program](/news/2023_11_09_student_grants_announced/) awardee and
 [GSoC](/news/2024_05_27_gsoc_2024_students/) participants.
@@ -39,9 +40,8 @@ as FOSS4GNA, FOSS4G Asia, FOSS4G Europe, useR!, and AGU, we introduced new
 audiences to GRASS GIS and introduced a new image of GRASS GIS. GRASS GIS was
 also featured in courses for advanced audiences: [coastal dynamics
 workshop](https://github.com/ncsu-geoforall-lab/csdms-grass-2024) for Community
-Surface Dynamic Modeling System
-([CSDMS](https://csdms.colorado.edu/wiki/Main_Page)) community lead by
-Caitlin Haedrich,  [Geocomputation & Machine Learning for Environmental
+Surface Dynamic Modeling System (CSDMS) community lead by Caitlin Haedrich,
+[Geocomputation & Machine Learning for Environmental
 Applications](https://spatial-ecology.net/docs/build/html/COURSESAROUNDTHEWORLD/course_geocomp_ml_04-05_2024.html)
 course, and
 [GEO-OPEN-HACK-2024](https://spatial-ecology.net/docs/build/html/COURSESAROUNDTHEWORLD/course_GEO-OPEN-HACK-2024_06_2024.html)
@@ -62,17 +62,19 @@ collaborate and chart the future of the project.
 </a>
 
 Comprehensive and up-to-date documentation is one of the priorities of this
-project. Veronica Andreo and others developed new, modern-looking **tutorials**
+project.
+
+**Tutorials:** Veronica Andreo and others developed new, modern-looking tutorials
 for GRASS beginners, data scientists, and researchers, that will be available
 soon on a platform powered by Quarto. We encourage the community to contribute
 tutorials from their discipline to cover a wide range of topics. Alongside the
 tutorials, we are also developing localized datasets.
 
-Onboarding contributors, developers and maintainers got easier thanks to the new
-[Programming Style
+**Contributor onboarding:** Onboarding contributors, developers and maintainers
+got easier thanks to the new [Programming Style
 Guide](https://github.com/OSGeo/grass/blob/main/doc/development/style_guide.md).
 Contributing to GRASS addons is now easier too, with a [Cookiecutter-powered
-addon template](https://github.com/petrasovaa/cookiecutter-grass-addon).
+addon template](https://github.com/OSGeo/grass-addon-cookiecutter).
 
 
 ## Software infrastructure improvements
@@ -80,20 +82,20 @@ addon template](https://github.com/petrasovaa/cookiecutter-grass-addon).
 A key focus of the grant has been to modernize and improve the GRASS GIS
 software infrastructure.
 
-Together with other contributors, we have addressed many **code quality and
-security issues** in Python, C and C++ code that were reported by Flake8,
-Coverity Scan, and Cppcheck. Resolving these issues will enable us to apply more
-strict automated checks on new code contributions, resulting in easier
-maintenance and high quality code. Several reviewers, not supported by the NSF
-POSE project, played crucial roles in reviewing the pull requests. Given GRASS's
-large code base, this work will continue into the year ahead to tackle as many
-issues as we can.
+**Code quality:** Together with other contributors, we have addressed many code
+quality and security issues in Python, C and C++ code that were reported by
+Flake8, Coverity Scan, and Cppcheck. Resolving these issues will enable us to
+apply more strict automated checks on new code contributions, resulting in
+easier maintenance and high quality code. Several reviewers, not supported by
+the NSF POSE project, played crucial roles in reviewing the pull requests. Given
+GRASS's large code base, this work will continue into the year ahead to tackle
+as many issues as we can.
 
-Thanks to the efforts of Huidae Cho, his team and several GRASS community
+**Distribution:** Thanks to the efforts of Huidae Cho, his team and several GRASS community
 members, we are close to introducing [CMake
 build](https://github.com/OSGeo/grass/pull/3621). CMake, a modern system for
 building code, will simplify building GRASS GIS with other projects and will
-make build system maintenance easier. **Recipe for conda**, a popular package
+make build system maintenance easier. Recipe for conda, a popular package
 manager for Python and R, is also on the way, bringing easier distribution of
 GRASS GIS to researchers and data scientists.
 
@@ -119,7 +121,7 @@ efforts aim to create a more sustainable and resilient future for GRASS GIS.
 
 ## Looking ahead
 We maintain a detailed overview of the project efforts on [GRASS
-wiki](https://grasswiki.osgeo.org/wiki/NSF_POSE_Project_2023-2025_Timeline#Other_sustainability_activities).
+wiki](https://grasswiki.osgeo.org/wiki/NSF_POSE_Project_2023-2025_Timeline).
 Over the second half of the project, we will:
 
 * Organize a [developer
