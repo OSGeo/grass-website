@@ -80,13 +80,17 @@
       (async () => {
           const os = await detectOSFromUserAgent();
           const button = $(".grass-os-download-button");
-          console.log(os);
+       
           // Add text and data based on the user's OS
           switch (os) {
               case "Windows":
                   button.text("Download for Windows");
                   button.data("os", "windows");
-                  $('#downloadTab a[href="#windows"]').tab('show');
+                  // TODO: This doesn't work
+                  // $('a[data-toggle="tab"]').on("shown.bs.tab", (e) => {
+                  //   history.replaceState(null, null, "#windows");
+                  //   window.location.hash = "#windows";
+                  // });
                   if (window.location.pathname === "/learn/download/") {
                     history.replaceState(null, null, "#windows");
                   }
