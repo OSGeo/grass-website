@@ -29,8 +29,13 @@
 <script src="{{ .Site.BaseURL }}plugins/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <script src="{{ .Site.BaseURL }}plugins/gallery/photoswipe.js"></script>
-{{ $script := resources.Get "js/script.js" | minify}}
-{{ $script := resources.Get "js/contributor_ad.js"}}
-<script src="{{ $script.Permalink }}"></script>
+
+<!-- Bundle, minifiy and fingerprint js assets before loading -->
+{{ $contrib := resources.Get "js/contributor_ad.js" }}
+{{ $script := resources.Get "js/script.js" }}
+{{ $js := slice $contrib $script | resources.Concat "js/bundle.js" | minify }}
+{{ $secureJS := $js | resources.Fingerprint "sha512" }}
+<script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+
 </body>
 </html>
