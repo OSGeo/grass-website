@@ -37,7 +37,6 @@ Subscribe to start the conversation, and please follow the <a href="https://gras
 | NAME | LINK | DESCRIPTION |
 |------|---------|-------------|
 | *Users*  |  [grass-user](https://lists.osgeo.org/mailman/listinfo/grass-user) | GRASS mailing list for user support |
-| *Developer*  | [grass-dev](https://lists.osgeo.org/mailman/listinfo/grass-dev) | GRASS mailing list for developers |
 | *GRASS - R*  | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS GIS and R stats interface |
 | *Translations*  | [grass-translations](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS GIS translations |
 | *PSC*  | [grass-psc](https://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
@@ -53,6 +52,7 @@ Discussions in question and answer (Q&A) style may be held on these sites; you n
 
 | <div style="width:70px">MEDIA</div> | LINK |  |
 |------|---------|-------------|
+| <i class="fab fa-discourse"></i> |  [Discourse](https://discourse.osgeo.org/c/grass/developer/61) | OSGeo Discourse forum for GRASS developers |
 | <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS GIS |
 | <i class="fab fa-stack-exchange"></i> |  [gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS GIS on StackExchange |
 | <i class="fab fa-gitter"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS GIS on Gitter |
