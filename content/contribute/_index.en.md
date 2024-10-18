@@ -11,7 +11,7 @@ layout: "list"
 
 ### Contribute financially
 <i class="fa fa-dollar-sign fa-7x" style="float:left;padding-right:15px"></i>
-Consider financially supporting GRASS GIS trough [OpenCollective](https://opencollective.com/grass/contribute). The GRASS GIS project is a volunteer-based organization and your financial support is necessary to ensure the long-term sustainability of the project and the software. See [sponsoring](/contribute/sponsoring) page for details how to donate and to understand how we use the money to build up the community and software.
+Consider financially supporting GRASS GIS through [OpenCollective](https://opencollective.com/grass/contribute). The GRASS GIS project is a volunteer-based organization and your financial support is necessary to ensure the long-term sustainability of the project and the software. See [sponsoring](/contribute/sponsoring) page for details how to donate and to understand how we use the money to build up the community and software.
 
 ### Report a bug or enhancement wish
 <i class="fa fa-bug fa-9x" style="float:right;padding-left:10px"></i>
