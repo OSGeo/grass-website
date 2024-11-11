@@ -57,7 +57,6 @@ members:
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/markusneteler/
       - icon: fab fa-x-twitter
-        link: https://x.com/MarkusNeteler
       - icon: fab fa-mastodon
         link: https://mastodon.social/@neteler
 
@@ -139,8 +138,6 @@ members:
         link: https://github.com/ecodiv
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/paulo-van-breugel/
-      - icon: fab fa-x-twitter
-        link: https://x.com/ecodiv
       - icon: fab fa-mastodon
         link: https://fosstodon.org/@ecodiv
 
