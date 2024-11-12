@@ -27,8 +27,8 @@ The GRASS PSC is now composed of the following nine members:
 * Nicklas Larsson (new member, 30 votes)
 * Paulo van Breugel (new member, 29 votes)
 
-For completeness, election resuts and
-details about the voting process, are available on the
+For completeness, the election results and the
+details about the voting process are available on the
 [**PSC Election 2024**](https://grasswiki.osgeo.org/wiki/PSC_Election_2024) page.
 
 The newly formed PSC held its first meeting on November 8 to discuss
