@@ -56,7 +56,6 @@ members:
         link: https://github.com/neteler
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/markusneteler/
-      - icon: fab fa-x-twitter
       - icon: fab fa-mastodon
         link: https://mastodon.social/@neteler
 
