@@ -22,7 +22,7 @@ members:
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/veronica-andreo-0a4b3278/
       - icon: fab fa-x-twitter
-        link: https://twitter.com/VeronicaAndreo
+        link: https://x.com/VeronicaAndreo
       - icon: fab fa-mastodon
         link: https://fosstodon.org/@VeronicaAndreo
 
@@ -56,14 +56,12 @@ members:
         link: https://github.com/neteler
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/markusneteler/
-      - icon: fab fa-x-twitter
-        link: https://twitter.com/MarkusNeteler
       - icon: fab fa-mastodon
         link: https://mastodon.social/@neteler
 
   - name: Dr. Michael Barton
     psc:
-        status: active
+        status: former
         role: member
         periods:
           - start: 2006
@@ -101,11 +99,67 @@ members:
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/huidaecho/
       - icon: fab fa-x-twitter
-        link: https://twitter.com/huidaecho
-        
-  - name: Dr. Martin Landa
+        link: https://x.com/huidaecho
+
+  - name: Linda Karlovska
     psc:
         status: active
+        role: member
+        periods:
+          - start: 2024
+            end: 2024
+    image: /images/team/Linda_Karlovska_PSC.jpg
+    website: https://geomatics.fsv.cvut.cz/en/employees/linda-karlovska/
+    job: Czech Technical University in Prague, CZ
+    country: Czech Republic
+    social:
+      - icon: fa fa-envelope
+        link: mailto:linda.karlovska@seznam.cz
+      - icon: fab fa-github
+        link: https://github.com/lindakarlovska
+
+
+  - name: Dr. Paulo van Breugel
+    psc:
+        status: active
+        role: member
+        periods:
+          - start: 2024
+            end: 2024
+    image: /images/team/Paulo_van_Breugel_PSC.jpg
+    website: https://ecodiv.earth/about.html
+    job: HAS green academy, NL
+    country: Netherlands
+    social:
+      - icon: fa fa-envelope
+        link: mailto:p.vanbreugel@gmail.com
+      - icon: fab fa-github
+        link: https://github.com/ecodiv
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/paulo-van-breugel/
+      - icon: fab fa-mastodon
+        link: https://fosstodon.org/@ecodiv
+
+  - name: Nicklas Larsson
+    psc:
+        status: active
+        role: member
+        periods:
+          - start: 2024
+            end: 2024
+    image: /images/team/Nicklas_Larsson_PSC.jpg
+    website: https://github.com/nilason
+    job: Hungarian National Museum, HU
+    country: Hungary
+    social:
+      - icon: fa fa-envelope
+        link: mailto:n_larsson.yahoo.com
+      - icon: fab fa-github
+        link: https://github.com/nilason
+
+  - name: Dr. Martin Landa
+    psc:
+        status: former
         role: member
         periods:
           - start: 2012
@@ -128,7 +182,7 @@ members:
 
   - name: Dr. Helena Mitasova
     psc:
-        status: active
+        status: former
         role: member
         periods:
           - start: 2006
@@ -170,7 +224,7 @@ members:
       - icon: fab fa-linkedin
         link:  https://www.linkedin.com/in/vaclav-petras/
       - icon: fab fa-x-twitter
-        link: https://twitter.com/vaclavpetras
+        link: https://x.com/vaclavpetras
 
   - name: Dr. Anna Petrasova
     psc:
@@ -200,7 +254,7 @@ members:
         periods:
           - start: 2020
             end: 2024
-    image: /images/team/Helmut_Kudrnovsky_PSC.png
+    image: /images/team/Helmut_Kudrnovsky_PSC.jpg
     email: hellik@web.de
     website: https://www.osgeo.org/member/kudrnovsky/
     job: Environment Agency Austria, Vienna, AT
@@ -221,7 +275,7 @@ members:
           - start: 2016
             end: 2020
           - start: 2020
-            end: 2023 
+            end: 2024
     image: /images/team/Moritz_Lennert_PSC.jpg
     email: mlennert@club.worldonline.be
     website: https://bluesquarehub.com/about-us/team/moritz-lennert-senior-geospatial-expert/
@@ -233,7 +287,7 @@ members:
       - icon: fab fa-github
         link: https://github.com/mlennert
       - icon: fab fa-x-twitter
-        link: https://twitter.com/MoritzLennert
+        link: https://x.com/MoritzLennert
 
   - name: Margherita Di Leo
     psc:
@@ -326,7 +380,7 @@ members:
       - icon: fab fa-linkedin
         link: https://www.linkedin.com/in/scott-mitchell-7b9b6574
       - icon: fab fa-x-twitter
-        link: https://twitter.com/Smitch_ca
+        link: https://x.com/Smitch_ca
 
   - name: Dr. Massimiliano Cannata
     psc:
@@ -410,8 +464,6 @@ members:
 periods:
   - start: 2020
     end: 2024
-  - start: 2020
-    end: 2023
   - start: 2016
     end: 2020
   - start: 2012
