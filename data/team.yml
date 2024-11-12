@@ -141,14 +141,14 @@ members:
       - icon: fab fa-mastodon
         link: https://fosstodon.org/@ecodiv
 
-  - name: Dr. Nicklas Larsson
+  - name: Nicklas Larsson
     psc:
         status: active
         role: member
         periods:
           - start: 2024
             end: 2024
-    image: /images/team/Grass_Default_PSC.png
+    image: /images/team/Nicklas_Larsson_PSC.jpg
     website: https://github.com/nilason
     job: Hungarian National Museum, HU
     country: Hungary
