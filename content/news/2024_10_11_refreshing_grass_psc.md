@@ -7,11 +7,11 @@ author: Linda Karlovská
 
 ### Welcome to the Newly Elected Members of the GRASS GIS PSC!
 
-By mid-September, the GRASS GIS community began the election process 
-to replace four of the nine Project Steering Committee (PSC) seats .
-These were previously held by **Helena Mitasova**, **Helmut Kudrnovsky**, 
-**Martin Landa**, and **Michael Barton**. After nominations from the community, 
-*10 GRASS GIS community members* stood as candidates for the positions.
+In mid-September, the GRASS GIS community began the election process
+to replace four of the nine seats on the Project Steering Committee (PSC).
+These seats were previously held by **Helena Mitasova**, **Helmut Kudrnovsky**, 
+**Martin Landa**, and **Michael Barton**. Following nominations from the community,
+*10 members of the GRASS GIS community* ran for these positions.
 
 After the election itself, the GRASS GIS PSC welcomed the new members, 
 namely **Linda Karlovska**, **Nicklas Larsson**, and **Paulo van Breugel**, 
