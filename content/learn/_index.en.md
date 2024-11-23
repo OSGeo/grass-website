@@ -1,6 +1,6 @@
 ---
 title: "Learn"
-date: 2020-06-289T11:02:05+05:00
+date: 2024-11-23T11:30:00Z
 icon: "fa fa-book"
 description: "Get to know the GRASS GIS ecosystem with manuals, tutorials and more"
 type : "pages"
