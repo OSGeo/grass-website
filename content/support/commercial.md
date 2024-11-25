@@ -1,6 +1,6 @@
 ---
 title: "Commercial support"
-date: 2023-06-04 T10:12:05+02:00
+date: 2024-11-23T13:15:00Z
 icon: "fa fa-user"
 description: "Find support for GRASS GIS"
 layout: "commercial"
