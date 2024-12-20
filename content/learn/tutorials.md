@@ -23,7 +23,7 @@ layout: "overview"
 
 ## All
 
-* [GRASS GIS Youtube videos](https://www.youtube.com/results?search_query=grass+gis)
+* [GRASS GIS Youtube channel](https://www.youtube.com/@grass-gis)
 
 ### English
 

@@ -60,7 +60,7 @@ Discussions in question and answer (Q&A) style may be held on these sites; you n
 ### Social media
 
 <div class="alert rounded-0 alert-default">
-Join the discussion also on the following channels:
+Follow the latest developments and news on these channels:
 </div>
 
 | <div style="width:70px">MEDIA</div> | LINK |  |
@@ -69,7 +69,7 @@ Join the discussion also on the following channels:
 | <i class="fab fa-x-twitter"></i> |  [https://twitter.com/grassgis](https://twitter.com/grassgis) | @GRASSGIS |
 | <i class="fab fa-linkedin"></i> | [https://www.linkedin.com/company/grass-gis](https://www.linkedin.com/company/grass-gis) |  |
 | <i class="fab fa-facebook"></i> |  [https://www.facebook.com/groups/GRASS](https://www.facebook.com/groups/GRASS) | @GRASSGIS |
-<!-- | <i class="fab fa-youtube"></i> |  [https://www.youtube.com/...grass+gis](https://www.youtube.com/results?search_query=grass+gis) |  | -->
+| <i class="fab fa-youtube"></i> |  [https://www.youtube.com/@grass-gis](https://www.youtube.com/@grass-gis) | @grass-gis |
 
 ### GRASS Wiki
 GRASS GIS uses [wiki](https://grasswiki.osgeo.org/wiki/GRASS-Wiki) to organize community activities and provides space to share educational materials and technical solutions. To edit the wiki, please sign up [here](https://grasswiki.osgeo.org/wiki/Special:RequestAccount).
