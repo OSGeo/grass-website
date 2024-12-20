@@ -57,20 +57,5 @@ about how these specific domains are handled in GRASS GIS.
 
 #### Videos
 
-There are many sources of videos with presentations about GRASS GIS and
-tutorials on different topics online.
-For example, you can just search YouTube for the [GRASS GIS videos](https://www.youtube.com/results?search_query=grass+gis) 
-<i class="fa fa-video-camera fa-5x" style="float:left;padding-right:30px"></i>
-available there or check different [FOSS4G](https://foss4g.org/) events in the last years 
-(have a look at FOSS4G Bucharest 2019 [videos](https://media.ccc.de/c/foss4g2019)). 
-Here are, however, some pointers to selected videos that might be 
-particularly useful for you as a beginner:
-
-* An [introduction to GRASS GIS](https://www.youtube.com/watch?v=wT5SbZtZ12E) 
-by Vaclav Petras from the NC State University's Center for Geospatial Analytics. 
-Best watched in combination with the [related website](http://ncsu-geoforall-lab.github.io/grass-intro-workshop/)
-* [Isaac Ullah's collection](https://www.youtube.com/channel/UCnXYZpB1oDiK44tV2w9ypvA/search?query=GRASS) 
-of tutorials used for his classes, regularly updated to new versions of GRASS.
-* [GRASS GIS workshops](https://www.youtube.com/channel/UC6HFFFYiV4zEYJlQMIXemWA/search?query=grass+gis)
-at the [OpenGeoHub Summer School](https://opengeohub.org/) by Veronica Andreo 
-and Markus Neteler.
+Check out our [YouTube channel](https://www.youtube.com/@grass-gis)
+for tutorials and recorded workshops and talks about GRASS GIS.
