@@ -1398,6 +1398,10 @@ code{
     margin-bottom: 20px !important;
   }
 
+  .col-2.text-center {
+    display: none;
+  }
+
   #links li span a {
     font-size: 15px !important;
   }
