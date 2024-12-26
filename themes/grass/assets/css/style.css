@@ -1327,7 +1327,11 @@ code{
   background: rgba(255, 255, 255, 0.8)
   /* background: radial-gradient(circle, var(--white-color) 80%, transparent 90%); */
 }
-
+@media (max-width: 992px) {
+  .col-2 i {
+    font-size: 3rem;
+    }
+}
 @media (max-width: 576px) {
 
   body {
@@ -1394,12 +1398,12 @@ code{
     padding-bottom: 0px;
   }
 
+  .col-2 i {
+    font-size: 1.5rem;
+    }
+
   .mb-40 {
     margin-bottom: 20px !important;
-  }
-
-  .col-2.text-center {
-    display: none;
   }
 
   #links li span a {
