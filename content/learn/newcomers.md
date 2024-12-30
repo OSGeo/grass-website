@@ -35,7 +35,7 @@ exist into the marvellous world of GRASS GIS.
 #### Written
 
 You can find many tutorials in different languages on the 
-[tutorials](/learn/tutorials) page. But here are some links to specific
+[tutorials](https://grass-tutorials.osgeo.org/) page. But here are some links to specific
 resources that might help you get started:
 
 <img src="/images/gallery/gui/grass75_ndvi_rgb_rio_cuarto.png" width="45%" alt="" style="float:right;padding-left:10px">

@@ -77,7 +77,7 @@ please check at [software downloads](/download/software/).
 
 ### More about GRASS GIS
 
-- First time users may explore our list of [tutorials](https://grass.osgeo.org/learn/tutorials/).
+- First time users may explore our list of [tutorials](https://grass-tutorials.osgeo.org).
 - See GRASS [tools manual pages](https://grass.osgeo.org/grass-stable/manuals/index.html) for details and examples.
 - [Get in touch with us](https://grass.osgeo.org/support/community/).
 - Feel like supporting the project? [Donate or sponsor us!](https://opencollective.com/osgeo/projects/grass/contribute)
