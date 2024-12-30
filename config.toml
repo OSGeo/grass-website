@@ -189,7 +189,7 @@ greyColorDark = "#A0A0A0"
       [[Languages.en.menu.main]]
         parent = "Learn"
         name = "Tutorials"
-        URL = "https://osgeo.github.io/grass-tutorials/"
+        URL = "https://grass-tutorials.osgeo.org"
         weight = 4 
 
       [[Languages.en.menu.main]]
