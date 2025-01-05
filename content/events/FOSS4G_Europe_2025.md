@@ -7,5 +7,5 @@ where: Mostar, Bosnia and Herzegovina
 website: https://2025.europe.foss4g.org/
 layout: "event"
 author: neteler
-logo: images/conferences_logos/L_Color_F4G_Valmiera.png
+logo: images/conferences_logos/foss4g_europe_2025_logo.jpg
 ---
