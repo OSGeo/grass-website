@@ -14,9 +14,9 @@ layout: "timeline"
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2023" aria-expanded="true" aria-controls="2023">2023</a></h4>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2024" aria-expanded="true" aria-controls="2024">2024</a></h4>
         </div>
-        <div id="2023" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+        <div id="2024" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
 
@@ -25,6 +25,20 @@ layout: "timeline"
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 10 June 2024</span> Creation of the GRASS GIS 8.4 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_4">87847c2</a>)</li> <!-- 87847c25b85868298807c07743d17856d37fdf4a -->
 
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 07 Mar 2024</span> <b>GRASS GIS 8.3.2</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.3.2">Changelog</a> - <a href="/grass83/source/">Source Code</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <!-- /Panel -->
+      <!-- Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2023" aria-expanded="true" aria-controls="2023">2023</a></h4>
+        </div>
+        <div id="2023" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+          <div class="panel-body">
+<ul class="list-unstyled releases">
 
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 25 Oct 2023</span> <b>GRASS GIS 8.3.1</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.3.1">Changelog</a> - <a href="/grass83/source/">Source Code</a></li>
 
