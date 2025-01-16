@@ -7,5 +7,5 @@ where: St Louis, MO, USA
 website: https://www.foss4gna.org/
 layout: "event"
 author: neteler
-logo: images/conferences_logos/foss4g_na_2024_logo.jpg
+logo: images/conferences_logos/foss4g_NA_2024.png
 ---

@@ -7,5 +7,5 @@ where: Tartu, Estonia
 website: https://2024.europe.foss4g.org/
 layout: "event"
 author: neteler
-logo: images/conferences_logos/foss4g_europe_2024_logo.jpg
+logo: images/conferences_logos/foss4g_europe_2024_logo.png
 ---

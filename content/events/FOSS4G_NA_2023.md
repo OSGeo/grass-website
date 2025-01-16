@@ -7,5 +7,5 @@ where: Baltimore, Maryland, USA
 website: https://www.osgeo.org/events/foss4g-na-2023/
 layout: "event"
 author: neteler
-logo: images/conferences_logos/foss4g_na_2023_logo.jpg
+logo: images/conferences_logos/foss4g_NA_2023.png
 ---
