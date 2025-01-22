@@ -88,12 +88,12 @@ OSGeo4W is an installer for a broad set of open source geospatial software packa
 Legacy download (OSGeo4W v1)
 
 *  {{< donateDialog isToggle=true >}}  
-<a href="https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64-v1.exe" target="blank">
+<a href="https://download.osgeo.org/osgeo4w/v1/osgeo4w-setup-x86_64-v1.exe" target="blank">
 <i class="fa fa-download"></i> Download OSGeo4W 64bit version 1
 </a>
 {{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true >}}  
-<a href="https://download.osgeo.org/osgeo4w/osgeo4w-setup-x86-v1.exe" target="blank">
+<a href="https://download.osgeo.org/osgeo4w/v1/osgeo4w-setup-x86-v1.exe" target="blank">
 <i class="fa fa-download"></i> Download OSGeo4W 32bit version 1
 </a>
 {{< /donateDialog  >}}
