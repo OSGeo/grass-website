@@ -23,7 +23,7 @@ Bug reports and feature requests can be submitted as issues in the [GRASS GIS bu
 Writing or editing documentation and tutorials is an ideal platform for your first contribution to the project.
 
 Each GRASS GIS tool comes with a respective [manual page](/learn/manuals) that provides comprehensive documentation including working examples.
-There are also several [tutorials](/learn/tutorials), courses and wikis contributed by different developers and users. If you find a piece of information missing or outdated, please contribute!
+There are also various [tutorials](https://grass-tutorials.osgeo.org/) contributed by different developers and users. If you find a piece of information missing or outdated, please contribute!
 
 ### Help with translation
 <i class="fa fa-language fa-11x" style="float:right;padding-left:10px"></i>

@@ -13,7 +13,7 @@ weight: 2
 There are plenty of resources online to get started and learn GRASS GIS: from 
 [manual pages](/learn/manuals) for each module and addon with examples, 
 [wiki](https://grasswiki.osgeo.org/wiki/GRASS-Wiki) pages with applications 
-and use cases to beginner and advanced [courses and workshops](/learn/tutorials), 
+and use cases to beginner and advanced [courses and workshops](https://grass-tutorials.osgeo.org/),
 videos and presentations for specific topics, 
 [jupyter notebooks](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Jupyter_notebooks) 
 with different workflows and [books](/learn/books). There is also a 
