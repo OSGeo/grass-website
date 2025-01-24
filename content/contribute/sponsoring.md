@@ -86,3 +86,13 @@ Many thanks to all our supporters and sponsors throughout the years!
 
 Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors)
 in the GRASS GIS Wiki for details.
+
+### GRASS GIS Developer Summit 2025 Sponsorship
+
+#### Why sponsor the GRASS GIS Developer Summit?
+
+The GRASS GIS Developer Summit is an event that brings together the global community of GRASS GIS developers and users. It is an opportunity to meet face-to-face, discuss the latest developments, and plan the future of the project. The event is organized by the GRASS Project Steering Committee ([PSC](https://trac.osgeo.org/grass/wiki/PSC)) and is open to everyone.
+
+The GRASS GIS Developer Summit is a unique opportunity to support the development of GRASS GIS and to help shape the future of the project. By sponsoring the event, you will be supporting the work of the GRASS GIS developers and helping to ensure the long-term sustainability of the project.
+
+{{< fundraising-chart >}}

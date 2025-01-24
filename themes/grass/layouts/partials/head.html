@@ -29,23 +29,26 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
   <style>
-  :root{
-    --primary-color:{{ .Site.Params.primaryColor }};
-    --secondary-color:{{ .Site.Params.secondaryColor }};
-    --text-color:{{ .Site.Params.textColor }};
-    --text-color-dark:{{ .Site.Params.textColorDark }};
-    --grass-color:{{ .Site.Params.grassColor }};
-    --grass-color-alt:{{ .Site.Params.grassColorAlt }};
-    --grass-color-light:{{ .Site.Params.grassColorLight }};
-    --grass-color-dark:{{ .Site.Params.grassColorDark }};
-    --grey-color:{{ .Site.Params.greyColor }};
-    --grey-color-light:{{ .Site.Params.greyColorLight }};
-    --grey-color-dark:{{ .Site.Params.greyColorDark }};
-    --white-color:{{ .Site.Params.whiteColor }};
+    :root{
+      --primary-color:{{ .Site.Params.primaryColor }};
+      --secondary-color:{{ .Site.Params.secondaryColor }};
+      --text-color:{{ .Site.Params.textColor }};
+      --text-color-dark:{{ .Site.Params.textColorDark }};
+      --grass-color:{{ .Site.Params.grassColor }};
+      --grass-color-alt:{{ .Site.Params.grassColorAlt }};
+      --grass-color-light:{{ .Site.Params.grassColorLight }};
+      --grass-color-dark:{{ .Site.Params.grassColorDark }};
+      --grey-color:{{ .Site.Params.greyColor }};
+      --grey-color-light:{{ .Site.Params.greyColorLight }};
+      --grey-color-dark:{{ .Site.Params.greyColorDark }};
+      --white-color:{{ .Site.Params.whiteColor }};
     }  
   </style>{{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
   <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
+  <script src="{{ .Site.BaseURL }}plugins/chartjs/chart.umd.js"></script>
+  <script type="module" src="{{ .Site.BaseURL }}plugins/chartjs/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script type="module" src="{{ .Site.BaseURL }}plugins/chartjs/chartjs-plugin-annotation.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon/favicon-16x16.png">
@@ -56,7 +59,6 @@
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <script src="{{ .Site.BaseURL }}plugins/tracking/matomo.js"></script>
-
 </head>
 <body>
   <noscript>Please enable javascript :)</noscript>
