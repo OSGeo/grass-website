@@ -2,9 +2,7 @@
     $(document).ready(function() {
         $("#{{ .id }}").on('click', function() {
             const code = $(this).prev().text();
-            navigator.clipboard.writeText(code).then(() => {
-                alert(code);
-            }).catch(err => {
+            navigator.clipboard.writeText(code).catch(err => {
                 console.error('Error in copying text: ', err);
             });
         });
