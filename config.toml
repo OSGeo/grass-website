@@ -18,6 +18,7 @@ blackColor = "#000000"
 greyColor = "#6b6b6b"
 greyColorLight = "#CCCCCC"
 greyColorDark = "#A0A0A0"
+codeBackgroundColor = "##040404"
 
 [sitemap]
   changefreq = "monthly"

@@ -1210,19 +1210,17 @@ li.parent a {
 }
 
 .edt {
-  font-family: open_sansregular; !important;
+  font-family: open_sansregular;
 }
 
 nobullets {
    list-style-type: none;
 }
 
+
   /*
 
-.hljs {
-   background:#c5c8c6;
-   color: #1d1f21;
-}
+.
 
 
 .hljs-keyword{
@@ -1463,8 +1461,14 @@ code{
 
 .code-container {
   position: relative;
-  background-color: #777;
+  background: var(--code-background-color);
 }
+
+/* .hljs {
+  background: var(--code-background-color) !important; 
+  color: #1d1f21;
+} */
+
 .btn-clipboard {
   position: absolute;
   top: .5rem;

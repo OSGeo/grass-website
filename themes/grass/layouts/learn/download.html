@@ -29,7 +29,7 @@
               <a class="nav-link active" id="linux-tab" data-toggle="tab" href="#linux" role="tab" aria-controls="linux" aria-selected="true">Linux</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="mac-tab" data-toggle="tab" href="#mac" role="tab" aria-controls="mac" aria-selected="false">Mac</a>
+              <a class="nav-link" id="mac-tab" data-toggle="tab" href="#mac" role="tab" aria-controls="mac" aria-selected="false">macOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="windows-tab" data-toggle="tab" href="#windows" role="tab" aria-controls="windows" aria-selected="false">Windows</a>
@@ -105,18 +105,18 @@
                 {{ partial "code-copy.html" $value }}
               {{ end }}
 
-              <h2>Docker</h2>
+              <h2>Getting Started with Docker</h2>
 
               <p>Build a docker image using the downloaded source code (run this in the directory containing the source code):</p>
               
               <h3>A. Docker image <strong>without graphical user interface - wxGUI</strong></h3>
               
-              <pre><code>docker build -t grassgis .</code></pre>
+              <pre><code style="background: #212220;">docker build -t grassgis .</code></pre>
               
               <p>A test run (assuming you have the existing GRASS GIS test location; it can be downloaded from 
               <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip">here</a>)</p>
               
-              <pre><code># case 1: launching in the grassdata directory in which the location is stored:
+              <pre><code style="background: #212220;"># case 1: launching in the grassdata directory in which the location is stored:
               docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
                   --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
                       --exec g.region -p
@@ -131,7 +131,7 @@
               
               <p>To run the tests (again assuming local location):</p>
               
-              <pre><code># case 1: launching in the grassdata directory in which the location is stored:
+              <pre><code style="background: #212220;"># case 1: launching in the grassdata directory in which the location is stored:
               docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
                   --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
                       --exec g.region -p
@@ -146,11 +146,11 @@
               
               <h3>B. Docker image <strong>with graphical user interface - wxGUI</strong></h3>
               
-              <pre><code>docker build -t grassgis -f docker/ubuntu_wxgui/Dockerfile .</code></pre>
+              <pre><code style="background: #212220;">docker build -t grassgis -f docker/ubuntu_wxgui/Dockerfile .</code></pre>
               
               <p>Note that the first <code>grassgis</code> is the name of the image while the second <code>grass</code> is the name of the executable.</p>
               
-              <pre><code>xhost local:$(id -u)
+              <pre><code style="background: #212220;">xhost local:$(id -u)
               docker run -it --privileged --user=$(id -u):$(id -g) --rm \
                   --volume="$(pwd)/:/data" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
                   --env HOME=/data/ --env DISPLAY=$DISPLAY \
@@ -160,7 +160,7 @@
               
               <p>Note: If you compiled locally before building the Docker image, you may encounter problems as the local configuration and the locally compiled files are copied to and used in the Docker image. To make sure you don't have this issue, clean all the compiled files from the source code:</p>
               
-              <pre><code>make distclean</code></pre>
+              <pre><code style="background: #212220;">make distclean</code></pre>
               
   
           </div>
