@@ -10,5 +10,91 @@
     "preview_version":"8.4.0",
     "preview_version_short":"8.4",
     "preview_version_underscore": "8_4",
-    "preview_version_nodots":"84"
+    "preview_version_nodots":"84",
+    "install": {
+        "mac": {
+            "mac_ports": { 
+                "id": "mac_ports",
+                "title": "MacPorts",
+                "code": "sudo port install grass",
+                "url": "https://ports.macports.org/port/grass/"
+            }
+        },
+        "linux":{
+            "arch_linux": {
+                "id": "arch_linux",
+                "title": "Arch Linux",
+                "code": "sudo pacman -S grass",
+                "url": "https://aur.archlinux.org/packages/grass"
+            },
+            "debian": {
+                "id": "debian",
+                "title": "Debian",
+                "code": "sudo apt-get install grass",
+                "url": "https://packages.debian.org/search?keywords=grass"
+            },
+            "generic_64_bit":{
+                "id": "generic_64_bit",
+                "title": "Generic 64-bit",
+                "code": "add me",
+                "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
+            },
+            "EPEL": {
+                "id": "EPEL",
+                "title": "EPEL",
+                "code": "sudo yum install grass",
+                "url": "https://src.fedoraproject.org/rpms/grass"
+            },
+            "fedora":{
+                "id": "fedora",
+                "title": "Fedora",
+                "code": "sudo dnf install grass",
+                "url": "https://apps.fedoraproject.org/packages/grass"
+            },
+            "gentoo": {
+                "id": "gentoo",
+                "title": "Gentoo",
+                "code": "sudo emerge grass",
+                "url": "https://packages.gentoo.org/packages/sci-geosciences/grass"
+            },
+            "openSUSE": {
+                "id": "openSUSE",
+                "title": "openSUSE",
+                "code": "sudo zypper install grass",
+                "url": "https://build.opensuse.org/package/show/Application:Geo/grass"
+            },
+            "ubuntu": {
+                "id": "ubuntu",
+                "title": "Ubuntu",
+                "code": "sudo apt-get install grass",
+                "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
+            }
+        },
+        "docker": {
+            "alpine": {
+                "id": "alpine",
+                "title": "Alpine based (233 MB, with Python 3 and PDAL)",
+                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-alpine"
+            },
+            "debian": {
+                "id": "debian",
+                "title": "Debian based (1.2 GB, with Python 3 and PDAL)",
+                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-debian"
+            },
+            "ubuntu": {
+                "id": "ubuntu",
+                "title": "Ubuntu based (1.2 GB, with Python 3 and PDAL)",
+                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-ubuntu"
+            },
+            "wxPython": {
+                "id": "wxPython",
+                "title": "Ubuntu based (1.3 GB, with wxPython, Python 3 and PDAL)",
+                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-ubuntu_wxgui"
+            }
+
+        }
+        
+    }
+    
 }
+
