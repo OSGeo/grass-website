@@ -1429,6 +1429,9 @@ code{
   object-fit: cover;
   /* border: 4px solid var(--grass-color-dark); */
 }
+.grass-download {
+  margin: 0 auto 5px auto;
+}
 
 .download-card {
   max-width: 600px; /* Sets a max-width for the card */
