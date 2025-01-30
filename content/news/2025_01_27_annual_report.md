@@ -60,7 +60,7 @@ The project conducted [Project Steering Committee (PSC) elections](/news/2024_10
 To better communicate the project's governance, a new [governance](/about/governance) document clarifies procedures, checks and balances in the development process and project management. Additionally, OSGeo-followed [Code of Conduct](https://github.com/OSGeo/grass/blob/main/CODE_OF_CONDUCT.md) was added to the main repository.
 
 
-To welcome new members into our community, we updated our communication channels.
+We enhanced our communication channels to better connect with new and existing community members.
 Connect with us professionally on the [GRASS LinkedIn page](https://www.linkedin.com/company/grass-gis/) and explore our refreshed Youtube channel ([@grass-gis](https://www.youtube.com/@grass-gis)) with new playlists and updated branding. Thanks to Veronica Andreo and others who maintain the project's social presence.
 The grass-dev mailing list was transitioned to [OSGeo Discourse](https://discourse.osgeo.org/c/grass/developer/61), featuring a modern, user-friendly interface that enhances community interaction and collaboration while preserving access to past discussions. The user mailing list will follow in 2025. 
 
@@ -89,7 +89,7 @@ At FOSS4G NA in St. Louis, Missouri, Vaclav Petras delivered [State of GRASS GIS
    width="40%" style="float:right;padding-left:25px;padding-top:15px">
 </a>
 
-The end of the year got busy with FOSS4G in Belém, Brazil, featuring a keynote on Veronica Andreo's [Journey of Open Source Discovery and Nurturing a New Generation of Contributors](https://veroandreo.github.io/grass-gis-talks/foss4g2024_keynote.html) and [State of GRASS](https://veroandreo.github.io/grass-gis-talks/foss4g2024_state_of_grass.html#/Front%20page) talk. Shortly after, Markus Neteler gave a keynote at FOSS4G Asia celebrating four decades of innovation of the GRASS GIS project.
+The end of the year got busy with FOSS4G in Belém, Brazil, featuring a keynote on Veronica Andreo's [Journey of Open Source Discovery and Nurturing a New Generation of Contributors](https://veroandreo.github.io/grass-gis-talks/foss4g2024_keynote.html) and [State of GRASS](https://veroandreo.github.io/grass-gis-talks/foss4g2024_state_of_grass.html#/Front%20page) talk. Shortly after, Markus Neteler gave a keynote at FOSS4G Asia [celebrating four decades of innovation of the GRASS GIS project](https://htmlpreview.github.io/?https://github.com/neteler/grass-gis-talks-markus/blob/main/foss4g_asia2024.html).
 During the same time GRASS GIS was prominently featured at the AGU24 Annual Meeting in Washington, D.C. through a booth in the Exhibit Hall, showcasing Tangible Landscape setup to demonstrate GRASS capabilities. Vaclav Petras, Anna Petrasova, Corey White, Caitlin Haedrich, Pratikshya Regmi and Huidae Cho authored and co-authored over 10 talks and posters covering a variety of topics including hydrology, participatory modeling, and open science. Caitlin even highlighted GRASS GIS in her [talk](https://www.youtube.com/watch?v=oCwNH-kSZ2k) delivered on the NASA Hyperwall!
 
 
@@ -103,7 +103,7 @@ During the same time GRASS GIS was prominently featured at the AGU24 Annual Meet
    width="40%" style="float:left;padding-right:25px;padding-top:15px">
 </a>
 
-What is coming in 2025? Major updates to documentation, the transition to CMake, and the addition of a Conda package are underway. We have also launched a new, modern platform for [tutorials](https://grass-tutorials.osgeo.org/) and with the help from the community, we will be adding new tutorials.
+What is coming in 2025? Major updates to documentation, the transition to CMake, and the addition of a Conda package are underway. We have also launched a new, modern platform for [tutorials](https://grass-tutorials.osgeo.org/) with several new tutorials contributed by Veronica Andreo. With the help from the community, we will be adding new ones.
 With the support of the U.S. National Science Foundation, [this year's community meeting](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_Raleigh_2025) will be in Raleigh, North Carolina, USA. See you there!
 
 Congratulations everyone on a great year!!
