@@ -1,5 +1,5 @@
 ---
-title: "Annual Report 2024"
+title: "GRASS Annual Report 2024"
 date: 2025-01-27T13:12:00+05:00
 layout: "news"
 author: Anna Petrasova, Vaclav Petras
@@ -67,7 +67,7 @@ The grass-dev mailing list was transitioned to [OSGeo Discourse](https://discour
 
 Our science community maintains GRASS GIS [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=gJ0ZB0cAAAAJ) (around 30 new records from 2024) and a new [Zenodo community](https://zenodo.org/communities/grass).
 
-### Conferences and Workshops in 2024
+### Conferences and Workshops
 
 <a href="/images/news/2024_12_04_foss4g_brazil_keynote.jpg">
   <img src="/images/news/2024_12_04_foss4g_brazil_keynote.jpg"
