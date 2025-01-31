@@ -38,7 +38,7 @@ Edouard Choinière, Shubham Vasudeo Desai, Arohan Ajit, Anna Petrasova, and Vacl
 Many of these contributions focused on enhancing code security and documentation workflows. New tools, including Bandit, Coverity Scan, and a configured Cppcheck, were adopted to improve code quality in Python and C, with numerous issues resolved across these tools and CodeQL. A public GitHub project for GRASS security was launched, tracking 153 resolved and 5 in-progress items.
 Efforts to improve manual page indexing included revising the sitemap, fixing robots.txt, restoring older manuals with canonical URLs, and optimizing server redirects. These changes ensured better search visibility and streamlined documentation workflows for improved accessibility.
 
-In summer, we mentored [3 Google Summer of Code participants](/news/2024_05_27_gsoc_2024_students) resulting in improved user experience in Jupyter Notebook,  JSON outputs to several tools in C, and EODAG support for satellite data download.
+During the summer, we mentored [3 Google Summer of Code participants](/news/2024_05_27_gsoc_2024_students) resulting in improved user experience in Jupyter Notebook,  JSON outputs to several tools in C, and EODAG support for satellite data download.
 Additionally, Linda Karlovska finished her work on a new history browser panel in GRASS as part of the [GRASS Student Grants](https://grasswiki.osgeo.org/wiki/Student_Grants).
 
 
