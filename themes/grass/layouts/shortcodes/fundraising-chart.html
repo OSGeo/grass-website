@@ -1,0 +1,209 @@
+<!-- layouts/shortcodes/fundraising-chart.html -->
+
+<div class="fundraising-chart-container">
+    <canvas id="fundraisingChart" width="800" height="400"></canvas>
+</div>
+
+<script>
+    // Ensure the script runs after the page content is loaded
+    document.addEventListener("DOMContentLoaded", function() {
+        // Define the collective slug and API endpoint
+        const hostSlug = 'osgeo'; // Host collective
+        const projectSlug = 'grass'; // Project collective
+        const collectiveSlug = 'grass';
+        const apiUrl = 'https://api.opencollective.com/graphql/v2/';
+        // const API_TOKEN = "";
+
+        // Function to fetch donation transactions
+        async function fetchDonations() {
+            // GraphQL query to fetch contribution transactions
+            const query = `
+                query($slug: String!) {
+                    project(slug: $slug) {
+                        transactions(type: CREDIT, limit: 1000) {
+                            nodes {
+                                amount {
+                                    value
+                                    currency
+                                    valueInCents
+                                }
+                                createdAt
+                                fromAccount {
+                                    name
+                                }
+                            }
+                        }
+                    }
+                }
+                `;
+
+                const variables = { slug: collectiveSlug };
+
+            
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        // 'Authorization': `Bearer ${API_TOKEN}`, // Uncomment if authentication is required
+                    },
+                    body: JSON.stringify({ query, variables }),
+                });
+
+                const result = await response.json();
+                return result.data.project.transactions.nodes;
+            } catch (error) {
+                console.error('Error fetching donations:', error);
+                return [];
+            }
+        }
+
+        // Function to process and aggregate donation data
+        function processDonations(transactions) {
+            const donationMap = {};
+
+            transactions.forEach(tx => {
+                // Convert timestamp to YYYY-MM-DD format
+                const date = new Date(tx.createdAt).toISOString().split('T')[0];
+                // Convert amount from cents to dollars (assuming USD)
+                const amount = tx.amount.valueInCents / 100;
+
+                if (donationMap[date]) {
+                    donationMap[date] += amount;
+                } else {
+                    donationMap[date] = amount;
+                }
+            });
+
+            // Sort the dates
+            const sortedDates = Object.keys(donationMap).sort();
+            const aggregatedAmounts = sortedDates.map(date => donationMap[date]);
+
+            return { dates: sortedDates, amounts: aggregatedAmounts };
+        }
+
+        // Function to calculate total donations
+    function calculateTotalDonations(transactions) {
+        let total = 0;
+        transactions.forEach(tx => {
+            // Convert amount from cents to dollars (assuming USD)
+            const amount = tx.amount.valueInCents / 100;
+            total += amount;
+        });
+        return total;
+    }
+
+        // Initialize the Chart.js chart
+        let fundraisingChart;
+
+        async function initializeChart() {
+            const transactions = await fetchDonations();
+            const ctx = document.getElementById('fundraisingChart').getContext('2d');
+            const totalDonations = calculateTotalDonations(transactions);
+            const fundraisingGoal = 10000;
+            console.log(totalDonations);
+            fundraisingChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Donations'],
+                    datasets: [{
+                        label: 'Total Donations (USD)',
+                        data: [totalDonations],
+                        backgroundColor: totalDonations >= fundraisingGoal ? 'rgba(75, 192, 192, 0.6)' : 'rgba(8, 139, 54, 0.6)',
+                        borderColor: totalDonations >= fundraisingGoal ? 'rgba(75, 192, 192, 1)' : 'rgba(8, 139, 54, 1)',
+                        borderRadius: 50,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'x', // Makes the bar horizontal
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `$${context.parsed.y.toLocaleString()}`;
+                                }
+                            }
+                        },
+                        annotation: {
+                            annotations: {
+                                goalLine: {
+                                    type: 'line',
+                                    yMin: fundraisingGoal,
+                                    yMax: fundraisingGoal,
+                                    borderColor: 'rgba(230, 11, 11, 1)',
+                                    borderWidth: 2,
+                                    label: {
+                                        enabled: true,
+                                        content: 'Goal: $10,000',
+                                        // content: ['This is my text', 'This is my text, second line'],
+                                        position: 'end',
+                                        backgroundColor: 'rgba(230, 11, 11, 0.8)',
+                                        color: '#000',
+                                        xAdjust: -10
+                                    }
+                                },
+                                label1: {
+                                    type: 'label',
+                                    yValue: fundraisingGoal - 0,
+                                    xValue: 0,
+                                    rotation: 0,
+                                    backgroundColor: 'rgba(245,245,245)',
+                                    content: ['Goal'],
+                                    font: {
+                                        size: 18
+                                    }
+                                }
+                            }    
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: fundraisingGoal + 1500, // Set maximum value to $10,000
+                            title: {
+                                display: true,
+                                text: 'Amount (USD)'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return `$${value}`;
+                                }
+                            }
+                        },
+                        x: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }
+
+        // Function to update the chart with new data
+        async function updateChart() {
+            const transactions = await fetchDonations();
+            const data = processDonations(transactions);
+
+            fundraisingChart.data.labels = data.dates;
+            fundraisingChart.data.datasets[0].data = data.amounts;
+            fundraisingChart.update();
+        }
+
+        // Initialize the chart
+        initializeChart();
+
+        // Update the chart every 5 minutes (300,000 milliseconds)
+        setInterval(updateChart, 300000);
+    });
+</script>
+
+<style>
+    .fundraising-chart-container {
+        max-width: 700px;
+        margin: 40px auto;
+    }
+</style>
