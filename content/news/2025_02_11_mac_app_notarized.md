@@ -20,6 +20,8 @@ essential software components, including GDAL 3.10.1, PDAL 2.8.3, PROJ 9.5.1,
 and Python 3.12. Future releases will also be signed and notarized to
 ensure continued security and compliance.
 
+Download the GRASS GIS App for Mac [here](https://cmbarton.github.io/grass-mac/download/)!
+
 Note: Upon launching the GRASS GIS application for the first time, users will
 receive a notification indicating that the application was downloaded from the
 Internet. This occurs because the application was not obtained from Apple's
