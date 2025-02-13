@@ -1302,6 +1302,19 @@ code{
     margin-top: 95px;
 }
 
+/* Used for the gitter banner partial */
+.gitter-banner {
+  background: linear-gradient(45deg, var(--grass-color-dark) 0%, var(--grass-color) 50%,var(--grass-color-dark) 100%); 
+  text-align: center;
+  color:whitesmoke;
+  font-weight: bolder;
+  padding: 2px 15px 3px
+}
+
+.gitter-banner a {
+  text-decoration: underline !important;
+  color:white !important;
+}
 
 @media (max-width: 576px) {
 
