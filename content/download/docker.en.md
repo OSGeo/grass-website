@@ -32,6 +32,9 @@ For a list of GRASS GIS versions, see the [docker tag list](https://hub.docker.c
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based with GUI support](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui){{< /donateDialog  >}}  (<small>1.3 GB, with wxPython, Python 3 and PDAL</small>)
    <pre><code class="dockerfile">docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu_wxgui</code></pre>
 
+```bash
+docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu
+```
 <hr>
 
 
