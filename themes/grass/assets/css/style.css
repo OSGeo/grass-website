@@ -186,11 +186,11 @@ a.nws:hover {
   box-shadow: none;
 }
 .btn-primary {
-  background: var(--grass-color-alt);
+  background: var(--grass-color);
   color: var(--white-color);
 }
 .btn-primary:hover, .btn-primary:focus,  .btn-primary-active {
-  background: var(--grass-color);
+  background: var(--grass-color-alt);
   color: var(--white-color) !important;
 }
 .btn-primary:active {
