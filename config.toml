@@ -290,3 +290,7 @@ greyColorDark = "#A0A0A0"
     [[Languages.en.params.socialIcon]]
       icon = "fa fa-rss"
       link = "https://grass.osgeo.org/index.xml" 
+
+    [[Languages.en.params.socialIcon]]
+      icon = "fa fa-linkedin"
+      link = "https://www.linkedin.com/company/grass-gis" 
