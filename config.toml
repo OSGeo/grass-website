@@ -272,6 +272,10 @@ greyColorDark = "#A0A0A0"
           link = "https://gitter.im/grassgis/community"
 
     [[Languages.en.params.socialIcon]]
+      icon = "fab fa-linkedin"
+      link = "https://www.linkedin.com/company/grass-gis/"
+
+    [[Languages.en.params.socialIcon]]
       icon = " fab fa-mastodon"
       link = "https://fosstodon.org/@grassgis"
 
@@ -286,9 +290,6 @@ greyColorDark = "#A0A0A0"
     [[Languages.en.params.socialIcon]]
       icon = "fab fa-youtube"
       link = "https://www.youtube.com/@grass-gis"
-    [[Languages.en.params.socialIcon]]
-      icon = "fab fa-linkedin"
-      link = "https://www.linkedin.com/company/grass-gis/"
       
     [[Languages.en.params.socialIcon]]
       icon = "fa fa-rss"
