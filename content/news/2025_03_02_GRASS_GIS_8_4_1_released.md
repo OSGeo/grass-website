@@ -1,6 +1,6 @@
 ---
 title: "GRASS 8.4.1 released"
-date: 2025-02-02T10:42:00+01:00
+date: 2025-03-02T10:42:00+01:00
 layout: "news"
 author: Markus Neteler and the GRASS Development Team
 ---
@@ -53,7 +53,7 @@ Thanks to all contributors and financial supporters!
 - Windows
   - [64bit standalone installer](https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.1-1-Setup.exe)
 - macOS
-  - [Official Application Bundle](https://cmbarton.github.io/grass-mac/download/)
+  - [Official notarized application bundle](https://cmbarton.github.io/grass-mac/download/)
 - Linux
   - [Debian](https://tracker.debian.org/pkg/grass)
   - [Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable/+packages?field.name_filter=grass)
