@@ -12,12 +12,10 @@ author: Vaclav Petras and the Developer Summit 2025 Organizing Committee
 
 The GRASS team is excited to announce the **GRASS Developer Summit 2025**, the main community meeting of the year! This 6-day event will bring together contributors, developers, power users, and geospatial enthusiasts to collaborate, code, document, and shape the future of GRASS.
 
-<a href="/images/news/grass_community2023_prague_fotowall.jpg">
-  <img src="/images/news/grass_community2023_prague_fotowall.jpg"
-   alt="Prague 2023 Community Meeting"
-   title="Prague 2023 Community Meeting"
-   width="55%" style="float:right;padding-left:25px;padding-top:15px">
-</a>
+<img src="/images/news/grass_community2023_prague_fotowall.jpg"
+  alt="Prague 2023 Community Meeting"
+  title="Prague 2023 Community Meeting"
+  width="55%" style="float:right;padding-left:25px;padding-top:15px">
 
 ## What to Expect
 
@@ -37,7 +35,7 @@ Day-by-Day Focus Areas:
 
 Flexible Participation: You’re welcome to join the sessions that match your interests and spend the rest of the time working on your own GRASS contributions. The event’s main language will be English, but with confirmed participants speaking eight other languages, collaboration in multiple languages is encouraged!
 
-📢 [Register](https://forms.gle/q6zzsGeHo2YkUVnx5) now for the event, or explore more at our [event page](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_2025). We look forward to seeing you in Raleigh!
+📢 [Register](https://forms.gle/q6zzsGeHo2YkUVnx5) now for the event, or explore more at our [event page](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_Raleigh_2025). We look forward to seeing you in Raleigh!
 
 ## Support the Event
 
