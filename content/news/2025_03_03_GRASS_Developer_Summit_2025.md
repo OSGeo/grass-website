@@ -24,7 +24,7 @@ The GRASS team is excited to announce the **GRASS Developer Summit 2025**, the m
 * Self-organized discussions shaped by attendees
 * Dedicated time for coding, documentation, testing, and other contributions
 
-Day-by-Day Focus Areas:
+Day-by-day focus areas:
 
 * **Day 1:** Getting started – contributing via GitHub, making your first contribution
 * **Day 2:** Writing GRASS tools, interfacing with QGIS
