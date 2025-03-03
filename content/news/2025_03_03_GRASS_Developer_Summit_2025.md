@@ -1,0 +1,54 @@
+---
+title: "GRASS Developer Summit 2025"
+date: 2024-03-18T14:12:42-05:00
+layout: "news"
+author: Vaclav Petras and the Developer Summit 2025 Organizing Committee
+---
+
+# Join Us for the GRASS Developer Summit 2025 at NC State!
+
+📅 **Dates:** Monday, May 19 – Saturday, May 24, 2025  
+📍 **Location:** North Carolina State University, Raleigh, NC, USA  
+
+The GRASS team is excited to announce the **GRASS Developer Summit 2025**, the main community meeting of the year! This 6-day event will bring together contributors, developers, power users, and geospatial enthusiasts to collaborate, code, document, and shape the future of GRASS.
+
+<a href="/images/news/grass_community2023_prague_fotowall.jpg">
+  <img src="/images/news/grass_community2023_prague_fotowall.jpg"
+   alt="Prague 2023 Community Meeting"
+   title="Prague 2023 Community Meeting"
+   width="55%" style="float:right;padding-left:25px;padding-top:15px">
+</a>
+
+## What to Expect
+
+* Scheduled sessions on development, documentation, and project strategy
+* Self-organized discussions shaped by attendees
+* Three business meals
+* Dedicated time for coding, documentation, testing, and other contributions
+
+Day-by-Day Focus Areas:
+
+* **Day 1:** Getting started – contributing via GitHub, making your first contribution
+* **Day 2:** Writing GRASS tools, interfacing with QGIS
+* **Day 3:** Non-coding contributions – documentation, translation, internationalization
+* **Day 4:** Project vision, computational engine, lightning talks & reception at the Center for Geospatial Analytics
+* **Day 5:** Project Steering Committee meeting, interfacing with R
+* **Day 6:** NSF POSE project evaluation, contributor feedback, future planning
+
+## Flexible Participation
+
+You’re welcome to join the sessions that match your interests and spend the rest of the time working on your own GRASS contributions. The event’s main language will be English, but with confirmed participants speaking eight other languages, collaboration in multiple languages is encouraged!
+
+## Support the Event
+
+Want to help the project, but can't make it in person? Consider sponsoring via **[OpenCollective](https://opencollective.com/grass-gis)**. Your support makes a difference!
+
+<div align="center">
+<button class="btn btn-grass">
+<a href="https://opencollective.com/grass/contribute" target="_blank">Support GRASS GIS Community Meeting</a>
+</button>
+</div>
+
+📢 [Register](https://forms.gle/q6zzsGeHo2YkUVnx5) for the event, and stay tuned for updates on our [event page](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_2025). We look forward to seeing you in Raleigh!
+
+*Vaclav Petras and the Developer Summit 2025 Organizing Committee*
