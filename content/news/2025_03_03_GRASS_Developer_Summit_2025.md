@@ -12,9 +12,9 @@ author: Vaclav Petras and the Developer Summit 2025 Organizing Committee
 
 The GRASS team is excited to announce the **GRASS Developer Summit 2025**, the main community meeting of the year! This 6-day event will bring together contributors, developers, power users, and geospatial enthusiasts to collaborate, code, document, and shape the future of GRASS.
 
-<img src="/images/news/grass_community2023_prague_fotowall.jpg"
-  alt="Prague 2023 Community Meeting"
-  title="Prague 2023 Community Meeting"
+<img src="/images/news/NCSU_developer_summit_venue_2025_collage.jpg"
+  alt="Collage for the Developer Summit 2025 venue, people, chairs, lake"
+  title="North Carolina State University, its spaces, and its surroundings"
   width="55%" style="float:right;padding-left:25px;padding-top:15px">
 
 ## What to Expect
