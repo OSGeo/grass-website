@@ -19,9 +19,9 @@ The GRASS team is excited to announce the **GRASS Developer Summit 2025**, the m
 
 ## What to Expect
 
-* Scheduled sessions on development, documentation, and project strategy
+* Sessions on development, documentation, and project strategy
+* Sessions for first-time contributors
 * Self-organized discussions shaped by attendees
-* Three business meals
 * Dedicated time for coding, documentation, testing, and other contributions
 
 Day-by-Day Focus Areas:
@@ -39,7 +39,7 @@ Flexible Participation: You’re welcome to join the sessions that match your in
 
 ## Support the Event
 
-Want to help the project, but can't make it in person? Consider sponsoring via **[Open Collective](https://opencollective.com/osgeo/projects/grass/contribute/grass-developer-summit-2025-84759/checkout)**. Your support makes a difference!
+Want to support GRASS, but can't make it to the event? Consider sponsoring via **[Open Collective](https://opencollective.com/osgeo/projects/grass/contribute/grass-developer-summit-2025-84759/checkout)**. Your support makes a difference for the project! Check out the [current sponsors](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_Raleigh_2025#Sponsors).
 
 <div align="center">
 <button class="btn btn-grass">
