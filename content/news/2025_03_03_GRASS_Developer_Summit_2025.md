@@ -1,6 +1,6 @@
 ---
 title: "GRASS Developer Summit 2025"
-date: 2024-03-18T14:12:42-05:00
+date: 2025-03-03T10:12:42-05:00
 layout: "news"
 author: Vaclav Petras and the Developer Summit 2025 Organizing Committee
 ---
@@ -35,20 +35,18 @@ Day-by-Day Focus Areas:
 * **Day 5:** Project Steering Committee meeting, interfacing with R
 * **Day 6:** NSF POSE project evaluation, contributor feedback, future planning
 
-## Flexible Participation
+Flexible Participation: You’re welcome to join the sessions that match your interests and spend the rest of the time working on your own GRASS contributions. The event’s main language will be English, but with confirmed participants speaking eight other languages, collaboration in multiple languages is encouraged!
 
-You’re welcome to join the sessions that match your interests and spend the rest of the time working on your own GRASS contributions. The event’s main language will be English, but with confirmed participants speaking eight other languages, collaboration in multiple languages is encouraged!
+📢 [Register](https://forms.gle/q6zzsGeHo2YkUVnx5) now for the event, or explore more at our [event page](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_2025). We look forward to seeing you in Raleigh!
 
 ## Support the Event
 
-Want to help the project, but can't make it in person? Consider sponsoring via **[OpenCollective](https://opencollective.com/grass-gis)**. Your support makes a difference!
+Want to help the project, but can't make it in person? Consider sponsoring via **[Open Collective](https://opencollective.com/osgeo/projects/grass/contribute/grass-developer-summit-2025-84759/checkout)**. Your support makes a difference!
 
 <div align="center">
 <button class="btn btn-grass">
-<a href="https://opencollective.com/grass/contribute" target="_blank">Support GRASS GIS Community Meeting</a>
+<a href="https://opencollective.com/osgeo/projects/grass/contribute/grass-developer-summit-2025-84759/checkout" target="_blank">Support GRASS Developer Summit 2025</a>
 </button>
 </div>
-
-📢 [Register](https://forms.gle/q6zzsGeHo2YkUVnx5) for the event, and stay tuned for updates on our [event page](https://grasswiki.osgeo.org/wiki/GRASS_Developer_Summit_2025). We look forward to seeing you in Raleigh!
 
 *Vaclav Petras and the Developer Summit 2025 Organizing Committee*
