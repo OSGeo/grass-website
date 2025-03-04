@@ -39,8 +39,8 @@ features and bugs fixed at
 
 Thanks to all contributors and financial supporters!
 
-<a href="/images/news/grass841_XXX.png">
-  <img src="/images/news/grass841_XXX.png"
+<a href="/images/news/r_sim_water.png">
+  <img src="/images/news/r_sim_water.png"
    alt="GRASS 8.4.1"
    title="GRASS 8.4.1"
    width="65%" style="float:right;padding-left:15px;padding-top:15px">
