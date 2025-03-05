@@ -1463,3 +1463,82 @@ code{
   object-fit: cover;
   /* border: 4px solid var(--grass-color-dark); */
 }
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --secondary-color: #f1f1f1;
+  --primary-color: #007bff;
+  --grey-color: #6c757d;
+  --grey-color-dark: #343a40;
+  --grey-color-light: #f8f9fa;
+  --grass-color: #28a745;
+  --grass-color-dark: #155724;
+  --grass-color-light: #d4edda;
+  --grass-color-alt: #218838;
+}
+
+body.dark-mode {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --secondary-color: #1e1e1e;
+  --primary-color: #bb86fc;
+  --grey-color: #9e9e9e;
+  --grey-color-dark: #212121;
+  --grey-color-light: #424242;
+  --grass-color: #03dac6;
+  --grass-color-dark: #018786;
+  --grass-color-light: #80deea;
+  --grass-color-alt: #03dac5;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.bg-cover {
+  background-color: var(--secondary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.btn-secondary {
+  background-color: var(--grey-color);
+  color: var(--text-color);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary-active {
+  background-color: var(--grass-color-alt);
+  color: var(--text-color);
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: var(--grey-color-dark);
+  color: var(--text-color);
+}
+
+.dark-mode-toggle-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#dark-mode-toggle {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#dark-mode-toggle:hover {
+  background-color: var(--grass-color-alt);
+}

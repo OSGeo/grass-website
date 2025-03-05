@@ -9,6 +9,10 @@
             <li style="list-style: none">{{ end }}{{ end }}</li>
         </ul>
 
+        <button id="theme-toggle" class="btn btn-outline-secondary ml-3" aria-label="Toggle theme">
+            <i class="fa fa-moon"></i>
+        </button>
+
         <form class="search-form" id="search-form" onsubmit="searchContent(event)"> 
             <input id="search-input" class="search-input" type="search" name="searchString">
             <label for="search-input" class="search-icon" aria-label="Search">
@@ -24,6 +28,20 @@
                 const searchURL = "https://duckduckgo.com?q=" + searchString;
                 
                 window.open(searchURL)
+            }
+
+            document.getElementById('theme-toggle').addEventListener('click', function() {
+                document.body.classList.toggle('dark-mode');
+                if (document.body.classList.contains('dark-mode')) {
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    localStorage.removeItem('theme');
+                }
+            });
+
+            // Load theme from local storage
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
             }
         </script>
     </div>
