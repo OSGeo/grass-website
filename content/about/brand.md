@@ -9,18 +9,17 @@ layout: "brand"
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-6 text-center panel">
-<img src="../../images/logos/grasslogo.svg" width="33%" alt="GRASS GIS">
+<img src="../../images/logos/gs-green.svg" width="33%" alt="GRASS">
 </div>
 
 <div class="col-lg-6">
-This is the official <b>GRASS GIS logo</b>. Please use it to refer  to the GRASS GIS project, software or community, and do not alter its shape or color.
+This is the official <b>GRASS logo</b>. Please use it to refer  to the GRASS project, software or community, and do not alter its shape or color.
 <div class="row mt-30">
 <div class="col-lg-5">
 <h4 class="grey-color-light">Vector</h4>
 <hr>
 <ul class="list-unstyled dil">
-<li><a href="/images/logos/grasslogo.svg"> <i class="fa fa-download"></i> Download SVG &#160; </a></li>
-<li><a href="/images/logos/grasslogo.eps"> <i class="fa fa-download"></i> Download EPS &#160; </a></li>
+<li><a href="/images/logos/gs-green.svg"> <i class="fa fa-download"></i> Download SVG &#160; </a></li>
 </ul>
 </div>
 
@@ -43,11 +42,11 @@ This is the official <b>GRASS GIS logo</b>. Please use it to refer  to the GRASS
 <div class="row mt-30 mb-2">
 
 <div class="col-lg-6 col-sm-12">
-<p class="hdlg grass black-color text-center">GRASS <span class="gis">GIS</span></p>	
+<p class="hdlg grass black-color text-center">GRASS</p>	
 </div>
 
 <div class="col-lg-6 col-sm-12">
-<p>The GRASS GIS logo text is using the <b>Fira Sans</b></a> open font family.  'GRASS' is written  with <i>FiraSans Medium</i> and 'GIS' with the <i>FiraSans Thin</i> typeface. </p>
+<p>The GRASS logo text is using the <b>Fira Sans</b></a> open font family.  'GRASS' is written  with <i>FiraSans Medium</i> typeface. </p>
 <ul class="list-unstyled dil">
 <li><a href="https://github.com/mozilla/Fira" target="_blank"><i class="fab fa-github"></i> mozilla/Fira</a></li>
 </ul>
@@ -64,9 +63,9 @@ This is the official <b>GRASS GIS logo</b>. Please use it to refer  to the GRASS
     <div class="card grass-green-bg mb-2"></div>
 	<small>
 <ul class="list-unstyled">
-<li><b>HEX</b>  &#160; #088B36</li>
-<li><b>RGB</b>  &#160; 8,139,54</li>
-<li><b>HSL</b> &#160; 141%,89%,29%</li>
+<li><b>HEX</b>  &#160; #4cb05b</li>
+<li><b>RGB</b>  &#160;rgb(76, 176, 91)</li>
+<li><b>HSL</b> &#160;hsl(129, 39.70%, 49.40%)</li>
 </ul>
 </small>
 <hr class="mb-4">
@@ -93,7 +92,7 @@ This is the official <b>GRASS GIS logo</b>. Please use it to refer  to the GRASS
 <hr></div>
 
    <div class="col-lg-6 col-sm-12">
-    <p>These are the three <b>main colors</b> used for the <b>GRASS GIS logo</b>. The GRASS weed is green,  frame and text are black. Monochrome version of the logo is also allowed. </p>
+    <p>These are the three <b>main colors</b> used for the <b>GRASS logo</b>. The GRASS weed is green,  frame and text are black. Monochrome version of the logo is also allowed. </p>
 	</div>
 </div>
 
@@ -104,11 +103,11 @@ This is the official <b>GRASS GIS logo</b>. Please use it to refer  to the GRASS
 
 <div class="col-lg-6">
 <div class="grassthm text-center overlay">
-<img class="alt="GRASS GIS" src="../../images/logos/grasslogo.svg" width="28%">
+<img class="" alt="GRASS" src="../../images/logos/gs-green.svg" width="28%">
 </div>
 </div>
 <div class="col-lg-6">
-<p>This website is using the <a class="bigr" href="/about/theme"><i class="ms ms-grass-gis ms-1-5x"></i>&#160;<span class=" black-color grass">GRASS <span class="  black-color gis">GIS</span></span></a> web theme for Hugo, which extends the GRASS GIS brand for web and mobile.</p>
+<p>This website is using the <a class="bigr" href="/about/theme"><i class="ms ms-grass-gis ms-1-5x"></i>&#160;<span class=" black-color grass">GRASS <span class="  black-color gis">GIS</span></span></a> web theme for Hugo, which extends the GRASS brand for web and mobile.</p>
 
 <ul class="list-unstyled dil">
 <li><a href="/about/theme"><i class="ms ms-grass-gis"></i> View theme</a></li>

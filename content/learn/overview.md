@@ -7,7 +7,7 @@ layout: "overview"
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-4 text-center">
-<img src="/images/logos/grasslogo.svg" width="42%" alt="GRASS GIS">
+<img src="/images/logos/gs-green.svg" width="42%" alt="GRASS GIS">
 </div>
 <div class="col-lg-8">
 <p><b>G</b>eographic <b>R</b>esources <b>A</b>nalysis <b>S</b>upport 
