@@ -1,6 +1,6 @@
   {{ partial "head.html" . }}
 
-  <header class="hero-section overlay bg-cover banner" data-background="{{.Site.BaseURL}}/images/logos/banner.jpg">
+  <header class="hero-section overlay bg-cover banner">
     <div class="fixed-top">
       {{ partial "banner.html" . }}
       <div class="bg-white">
@@ -13,8 +13,8 @@
         <div class="container">
         <div class="row">
             <div class="col-lg-8 text-center mx-auto">
-            <h1 class="mb-3"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="25%"></h1>{{ with .Site.Params.banner.description }}
-            <p class=" text-bold mb-4">{{ . }}</p>{{ end }}
+            <h1 class="mb-3"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grass_gis.svg" width="25%"></h1>{{ with .Site.Params.banner.description }}
+            <p class="mb-4">{{ . }}</p>{{ end }}
             </div>
         </div>
         </div>
