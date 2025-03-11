@@ -20,37 +20,49 @@ For a list of GRASS GIS versions, see the [docker tag list](https://hub.docker.c
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch {{< grassVersion version="current" type="short">}}</b></div>
 
-*   {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Alpine based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=alpine){{< /donateDialog  >}} (<small>233 MB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-alpine</code></pre>
+*   **Alpine based** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=alpine), 233 MB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-alpine
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=debian){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-debian</code></pre>
+*   **Debian 10 based** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=debian), 1.2 GB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-debian
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu){{< /donateDialog  >}}  (<small>1.2 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu</code></pre>
+*   **Ubuntu 22.04 based** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu), 1.2 GB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based with GUI support](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui){{< /donateDialog  >}}  (<small>1.3 GB, with wxPython, Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu_wxgui</code></pre>
+*   **Ubuntu 22.04 based with GUI support** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui), 1.3 GB, with wxPython, Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:releasebranch_{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version_underscore -}}{{</currentVersion.inline >}}-ubuntu_wxgui
+    ```
 
 <hr>
-
 
 ### <span id="GRASS-GIS-old"> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)</span>
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b> (<a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS GIS {{< grassVersion version="legacy" type="short">}} new features</a>)</div>
+<i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS releasebranch_7_8</b></div>
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Alpine based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=alpine){{< /donateDialog  >}}  (<small>184 MB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}-alpine</code></pre>
+*   **Alpine based** ([Download](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=alpine), 184 MB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}-alpine
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=debian){{< /donateDialog  >}}  (<small>1.2 GB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  />}}-debian</code></pre>
+*   **Debian 10 based** ([Download](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=debian), 1.2 GB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  />}}-debian
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 20.04 based](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu){{< /donateDialog  >}}  (<small>1.2 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  />}}-ubuntu</code></pre>
+*   **Ubuntu 20.04 based** ([Download](https://hub.docker.com/r/mundialis/grass-py3-pdal/tags?page=1&name=ubuntu), 1.2 GB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull mundialis/grass-py3-pdal:{{< legacyVersion.inline  />}}-ubuntu
+    ```
 
 <hr>
-
 
 ### <span id="GRASS-GIS-devel"> GRASS GIS {{< grassVersion version="preview" >}} (preview)</span>
 
@@ -58,18 +70,22 @@ For a list of GRASS GIS versions, see the [docker tag list](https://hub.docker.c
 <i class="fa fa-info-circle"></i> The following Docker images are generated from the <b>GRASS GIS main branch</b>
 </div>
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Alpine based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=alpine){{< /donateDialog  >}} (<small>236 MB, with Python 3 and PDAL</small>)
-    <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-alpine</code></pre>
+*   **Alpine based** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=alpine), 236 MB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:main-alpine
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Debian 10 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=debian){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-debian</code></pre>
+*   **Debian 10 based** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=debian), 1.2 GB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:main-debian
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu){{< /donateDialog  >}} (<small>1.2 GB, with Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-ubuntu</code></pre>
+*   **Ubuntu 22.04 based** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu), 1.2 GB, with Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:main-ubuntu
+    ```
 
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[<i class="fa fa-download"></i> Ubuntu 22.04 based with GUI support](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui){{< /donateDialog  >}}  (<small>1.3 GB, with wxPython, Python 3 and PDAL</small>)
-   <pre><code class="dockerfile">docker pull osgeo/grass-gis:main-ubuntu_wxgui</code></pre>
-
-
- {{< donateDialog >}}
- {{< /donateDialog >}}
+*   **Ubuntu 22.04 based with GUI support** ([Download](https://hub.docker.com/r/osgeo/grass-gis/tags?page=1&name=ubuntu_wxgui), 1.3 GB, with wxPython, Python 3 and PDAL)
+    ```dockerfile
+    docker pull osgeo/grass-gis:main-ubuntu_wxgui
+    
