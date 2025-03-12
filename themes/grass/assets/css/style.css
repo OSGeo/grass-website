@@ -217,16 +217,16 @@ a.nws:hover {
   background: var(--gs-primary-color-dark);
 }
 .white-color {
-  color: #FFF;
+  color: var(--gs-white-color);
 }
 .white-color-bg {
-  background: #FFF;
+  background: var(--gs-white-color);
 }
 .black-color {
-  color: #000;
+  color: var(--gs-black-color);
 }
 .black-color-bg {
-  background: #000;
+  background: var(--gs-black-color);
 }
 .grey-color-dark {
   color: var(--gs-dark-gray-color);
@@ -273,7 +273,6 @@ a.nws:hover {
 
 .btn {
   font-size: 14px;
-  font-family: open_sansregular;
   text-transform: uppercase;
   padding: 6px 14px;
   border-radius: 0px;
@@ -422,7 +421,6 @@ a, button, select {
 .section-title {
   margin-bottom: 32px;
   color: var(--gs-dark-gray-color) !important;
-  font-family: open_sansregular !important;
   font-size: 28px;
   font-weight:100 !important;
 
@@ -439,10 +437,7 @@ a, button, select {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.bg-lgreen {
-  background-color: #eff4e8;
-  background-size: cover;
-}
+
 .bg-lgr {
   background-color: var(--gs-primary-light-color) !important;
 }
@@ -457,7 +452,7 @@ table tr td {
   padding: 0 10px 0 10px !important;
 }
 table img {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+  box-shadow: 0 5px 15px var(--gs-black-color--lightest) !important;
 }
 
 #books table tr td:first-child {
@@ -469,7 +464,7 @@ table img {
 
 #books table img {
     max-width:7rem !important;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+  box-shadow: 0 5px 15px var(--gs-black-color--lightest) !important;
 }
 .github {
   background: var(--gs-primary-light-color);
@@ -487,17 +482,15 @@ table img {
 .github:hover .command {
   color: var(--gs-white-color) !important;
 }
-.lgreen {
-  color: #eff4e8 !important;
-}
+
 .htl {
   display: block;
   line-height: 1.2em;
   font-size: 2.6em;
-  color: #dde9cc;
+  color: var(--gs-primary-color-light--lighter);
 }
 .htl:hover {
-  color: #ffffff;
+  color: var(--gs-primary-color-light--lighter);
 }
 .htd {
   display: block;
@@ -508,7 +501,7 @@ table img {
   color: var(--gs-primary-color);
 }
 .border-primary {
-  border-color: #f2f2f2 !important;
+  border-color: var(--gs-white-color--light) !important;
 }
 pre {
   background: transparent;
@@ -538,7 +531,7 @@ pre {
   width: 100%;
   top: 0;
   left: 0;
-  background: #eff4e8;
+  background: var(--gs-grey-light-color);
 }
 
 .d-unset {
@@ -554,7 +547,7 @@ pre {
   background-color: var(--gs-white-color);
 }
 .bg-beige {
-  background-color: #f1ebe1;
+  background-color: var(--gs-grey-light-color);
 }
 
 .text-primary {
@@ -684,7 +677,7 @@ pre {
   transform: scaleX(1);
 }
 .navbar .dropdown-menu {
-  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 9px 0px var(--gs-black-color--lightest);
   padding: 15px;
   border: 0;
   top: 60px;
@@ -735,7 +728,6 @@ pre {
   position: relative;
   color: var(--gs-dark-gray-color);
   transition: .2s ease;
-  font-family: open_sansregular;
 }
 @media (max-width: 991px) {
   .navbar .dropdown-item {
@@ -777,7 +769,7 @@ pre {
 .gitter-banner {
   background: linear-gradient(45deg, var(--gs-primary-color-dark) 0%, var(--gs-primary-color) 50%,var(--gs-primary-color-dark) 100%); 
   text-align: center;
-  color:whitesmoke;
+  color: var(--gs-grey-light-color);
   font-weight: bolder;
   padding: 2px 15px 3px
 }
@@ -788,7 +780,7 @@ pre {
 }
 
 .navbar-brand {
-    color: #000000;
+    color: var(--gs-black-color);
 }
 .navbar-brand:hover {
   color: var(--gs-dark-gray-color) !important;
@@ -809,7 +801,7 @@ pre {
 .search-form:focus-within {
   width: 150px;
   outline: 1px solid;
-  background-color: white;
+  background-color: var(--gs-white-color);
 }
 
 .search-form:focus-within .search-icon {
@@ -820,11 +812,11 @@ pre {
 @media (max-width: 991px) {
   .search-form {
     width: 150px;
-    background-color: white;
+    background-color: var(--gs-white-color);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    border: 1px solid #ced4da ;
+    border: 1px solid var(--gs-grey-light-color);
   }
 }
 
@@ -856,7 +848,7 @@ pre {
   color: var(--gs-primary-color-dark);
 }
 .gdiv:hover {
-  background: #ffffff !important;
+  background: var(--gs-white-color) !important;
 }
 /* search */
 
@@ -880,7 +872,7 @@ pre {
   overflow: hidden;
   border-radius: 6px;
   z-index: 9999;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 5px 15px var(--gs-black-color--lightest);
 }
 @media (min-width: 576px) {
   .ui-menu {
@@ -926,7 +918,7 @@ textarea.form-control {
   box-shadow: 0 4px 12px rgba(0, 0, 0, .17) !important;
 }
 .shadow {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+  box-shadow: 0 5px 15px var(--gs-black-color--lightest) !important;
   transition: .3s ease;
 }
 .shadow-bottom {
@@ -1102,7 +1094,7 @@ li.parent a {
   }
 
   .separator {
-    border-top: 1px solid #F6F6F6;
+    border-top: 1px solid var(--gs-grey-light-color);
     padding: 5px;
     padding-left: 40px;
     font-style: italic;
@@ -1127,7 +1119,7 @@ li.parent a {
     height: 0;
     display: block;
     border-radius: 50%;
-    background: #F6F6F6;
+    background: var(--gs-grey-light-color);
   }
 
 
@@ -1216,13 +1208,12 @@ li.parent a {
     display:block;
     text-align: left;
     padding-bottom:9px;
-    border-bottom:1px solid #E1E1E1;
+    border-bottom:1px solid var(--gs-grey-light-color);
 }
 
 .collapsible-link::before {
     content: '\f078';
     display: inline-block;
-    float:right;
     font-family: 'FontAwesome';
     font-size: 1rem;
     padding:5px;
@@ -1332,7 +1323,9 @@ li.parent a {
 }
 
 .edt {
-  font-family: open_sansregular !important;
+  font-family: var(--gs-header-font);
+  font-weight: normal !important;
+  font-size: 1.0em !important;
 }
 
 nobullets {
@@ -1340,16 +1333,16 @@ nobullets {
 }
 
 .hljs {
-   background:#ebeaea;
-   color: #1d1f21;
+   background:var(--gs-white-color);
+   color: var(--gs-black-color-light);
 }
 
 .hljs-keyword{
-   color: #1d1f21;
+   color: var(--gs-black-color-light);
 }
 
 code{
-   color: #1d1f21;
+   color: var(--gs-black-color-light);
 }
 
 .fa-11x {
@@ -1406,7 +1399,8 @@ code{
 
 .grassthm-sq{
     border:1px solid #dee2e6;
-    background:url(/images/logos/banner.jpg);
+    /* background:url(/images/logos/banner.jpg); */
+    background-color: var(--gs-primary-color);
     background-size:cover;
     height:199px;
     z-index:1;
@@ -1426,7 +1420,7 @@ code{
 
 #carouselUI .carousel-inner .carousel-item .container.position-relative .row.justify-content-center {
   bottom: 0;
-  background: rgba(255, 255, 255, 0.8)
+  background: var(--gs-white-color--light);
   /* background: radial-gradient(circle, var(--gs-white-color) 80%, transparent 90%); */
 }
 @media (max-width: 992px) {
