@@ -15,14 +15,19 @@
 	<p><small><a href="https://github.com/OSGeo/grass-website/tree/master/content/{{ .Section }}/{{ with .File }}{{ .BaseFileName }}{{ end }}.md" class="fab fa-github"> <span class="edt">Edit this page on GitHub</span></a></small></p>
   {{end}}
       </div>
-      <div class="col-md-4 text-md-right text-center">	
-	<ul class="list-inline mb-3">
-          {{ range .Site.Params.socialIcon }}
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="{{ .link }}"><i class="{{ .icon }}"></i></a></li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
+<div class="col-md-4 text-md-right text-center">	
+  <ul class="list-inline mb-3 d-flex justify-content-center justify-content-md-end align-items-center">
+    {{ range .Site.Params.socialIcon }}
+      <li class="list-inline-item d-flex align-items-center">
+        <a class="text-color d-inline-block p-2" href="{{ .link }}">
+          <i class="{{ .icon }}"></i>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+</div>
+
   </div>
 </footer>
 <script src="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.js"></script>
