@@ -1,0 +1,85 @@
+{{- $colorName := .Get "colorName" -}}
+{{- /* Get the hex color parameter passed in from the Markdown file. */ -}}
+{{- $hex := .Get "hex" | lower -}}
+
+{{- /* Strip off the leading # if present. */ -}}
+{{- $hexClean := cond (eq (substr $hex 0 1) "#") (substr $hex 1 6) $hex -}}
+
+{{- /* Split the 6-digit hex string into R, G, B substrings. */ -}}
+{{- $rHex := substr $hexClean 0 2 -}}
+{{- $gHex := substr $hexClean 2 2 -}}
+{{- $bHex := substr $hexClean 4 2 -}}
+
+{{- /* Convert those hex substrings into integer R, G, B values. */ -}}
+{{- $r := printf "0x%s" $rHex | int -}}
+{{- $g := printf "0x%s" $gHex | int -}}
+{{- $b := printf "0x%s" $bHex | int -}}
+
+{{- /* Create an RGB string. */ -}}
+{{- $rgb := print $r "," $g "," $b -}}
+
+{{- /* Convert R,G,B from [0..255] to fractional [0..1] for HSL math. */ -}}
+{{- $rf := div (float $r) 255 -}}
+{{- $gf := div (float $g) 255 -}}
+{{- $bf := div (float $b) 255 -}}
+
+{{- /* Max/Min among rf, gf, bf. (cond is basically an inline if-else in Hugo) */ -}}
+{{- $max := cond (gt $rf $gf) (cond (gt $rf $bf) $rf $bf) (cond (gt $gf $bf) $gf $bf) -}}
+{{- $min := cond (lt $rf $gf) (cond (lt $rf $bf) $rf $bf) (cond (lt $gf $bf) $gf $bf) -}}
+{{- $d := sub $max $min | float -}}
+{{- $l := div (add $max $min) 2 | float -}}
+
+{{- /* Hue, Saturation default to zero. */ -}}
+{{- $h := float 0 -}}
+{{- $s := float 0 -}}
+
+{{- $epsilon := 1e-9 -}}
+{{- if lt (mul $d $d) (mul $epsilon $epsilon) }}
+<!-- This is a near-gray color (max == min). So H=0, S=0. -->
+{{ else }}
+{{- if lt $l 0.5 }}
+<!-- s = d / (max + min) -->
+{{- $s = div $d (add $max $min) | float -}}
+{{ else }}
+<!-- s = d / (2 - (max + min)) -->
+{{- $sumMaxMin := add $max $min -}}
+{{- $twoMinusSum := sub (float 2) $sumMaxMin -}}
+{{- $s = div $d $twoMinusSum | float -}}
+{{ end }}
+
+<!-- Compute hue in degrees. -->
+{{- if eq $max $rf }}
+{{- $h = mul (sub $gf $bf) (div 60 $d) | float -}}
+{{ else if eq $max $gf }}
+{{- $h = add 120 (mul (sub $bf $rf) (div 60 $d)) | float -}}
+{{ else }}
+{{- $h = add 240 (mul (sub $rf $gf) (div 60 $d)) | float -}}
+{{ end }}
+
+<!-- Ensure hue is non-negative. -->
+{{- if lt $h 0 }}
+{{- $h = add $h 360 -}}
+{{ end }}
+{{ end }}
+
+
+
+{{- /* Convert S & L to percentages and round to 0 decimals. */ -}}
+{{- $sPercent := mul $s 100.0 | printf "%.0f" -}}
+{{- $lPercent := mul $l 100.0 | printf "%.0f" -}}
+
+
+
+<div class="col-lg-3 col-sm-12">
+    <h4>{{ $colorName }}</h4>
+    <hr>
+    <div class="card mb-2" style="background-color: #{{ $hexClean }}; height: 40px;"></div>
+    <small>
+        <ul class="list-unstyled">
+            <li><b>HEX</b> &#160; #{{ $hexClean }}</li>
+            <li><b>RGB</b> &#160; rgb({{ $rgb }})</li>
+            <li><b>HSL</b> &#160; hsl({{ $h | printf "%.0f" }}, {{ $sPercent }}%, {{ $lPercent }}%)</li>
+        </ul>
+    </small>
+    <hr class="mb-4">
+</div>

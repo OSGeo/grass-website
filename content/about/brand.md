@@ -53,49 +53,14 @@ This is the official <b>GRASS logo</b>. Please use it to refer  to the GRASS pro
 </div>
 </div>
 
-
 ### Colors
 
-<div class="row mt-30 mb-2">
-	
-<div class="col-lg-2 col-sm-12">
-    <h4>GRASS green</h4><hr>
-    <div class="card grass-green-bg mb-2"></div>
-	<small>
-<ul class="list-unstyled">
-<li><b>HEX</b>  &#160; #4cb05b</li>
-<li><b>RGB</b>  &#160;rgb(76, 176, 91)</li>
-<li><b>HSL</b> &#160;hsl(129, 39.70%, 49.40%)</li>
-</ul>
-</small>
-<hr class="mb-4">
-</div>
-
-<div class="col-lg-2 col-sm-12"><h4 >Black</h4><hr><div class="card black-color-bg mb-2"></div>
-<small>
-<ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #000000</li>
-<li><b>RGB</b>   &#160; 0,0,0</li>
-<li><b>HSL</b>  &#160; 0%,0%,0%</li>
-</ul>
-</small>
-
-<hr></div>
-<div class="col-lg-2 col-sm-12"><h4 >White</h4><hr><div class="card white-color-bg mb-2"></div>
-<small>
-<ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #FFFFFF</li>
-<li><b>RGB</b>   &#160; 255,255,255</li>
-<li><b>HSL</b>  &#160; 0%,0%,100%</li>
-</ul>
-</small>
-<hr></div>
-
-   <div class="col-lg-6 col-sm-12">
-    <p>These are the three <b>main colors</b> used for the <b>GRASS logo</b>. The GRASS weed is green,  frame and text are black. Monochrome version of the logo is also allowed. </p>
-	</div>
-</div>
-
+{{< brandColorList >}}
+    {{< brandColor colorName="Primary"   hex="#4cb05b" >}}
+    {{< brandColor colorName="Secondary" hex="#00393f" >}}
+    {{< brandColor colorName="Black"     hex="#021905" >}}
+    {{< brandColor colorName="White"     hex="#f7f7f7" >}}
+{{</ brandColorList >}}
 
 ### Web theme
 
