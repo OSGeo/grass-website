@@ -1,7 +1,124 @@
+/* Fonts */
+/* Miriam Libre */
+
+@font-face {
+  font-family: "Miriam Libre";
+  src: url('../fonts/Miriam_Libre/MiriamLibre-VariableFont_wght.woff2') format('woff2'),
+       url('../fonts/Miriam_Libre/MiriamLibre-VariableFont_wght.woff') format('woff'),
+       url('../fonts/Miriam_Libre/MiriamLibre-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 700;
+  font-style: normal;
+}
+
+/* Sintony Regular */
+@font-face {
+  font-family: "Sintony";
+  src: url('../fonts/Sintony/Sintony-Regular.woff2') format('woff2'),
+       url('../fonts/Sintony/Sintony-Regular.woff') format('woff'),
+       url('../fonts/Sintony/Sintony-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Sintony Bold */
+@font-face {
+  font-family: "Sintony";
+  src: url('../fonts/Sintony/Sintony-Bold.woff2') format('woff2'),
+       url('../fonts/Sintony/Sintony-Bold.woff') format('woff'), 
+       url('../fonts/Sintony/Sintony-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root>* {
+
+  /* GRASS Variables
+  Use these variables to customize the GRASS theme.
+  ----------------------------------------------------------------------------- */
+  /* Fonts */
+  --gs-body-font: 'Sintony', sans-serif;
+  --gs-header-font: 'Miriam Libre', sans-serif;
+
+  /* Colors */
+
+  --gs-primary-color: rgb(76, 176, 91);
+  --gs-primary-alt-color: rgb(110, 208, 121);
+  --gs-primary-light-color: rgb(135, 233, 145);
+  --gs-secondary-color: rgb(0, 57, 63);
+  --gs-secondary-alt-color: rgb(39, 87, 92);
+  --gs-secondary-light-color: rgb(74, 121, 127);
+
+  /* Special Colors */
+  --gs-support-color: rgb(243, 57, 138);
+  --gs-support-color--dark: rgba(243, 57, 138, 0.541);
+  --gs-support-color--light: rgba(243, 57, 138, 0.322);
+
+  /* White */
+  --gs-white-color: rgb(247, 247, 247);
+  --gs-white-color--light: rgba(247, 247, 247, 0.541);
+  --gs-white-color--lighter: rgba(247, 247, 247, 0.322);
+  --gs-white-color--lightest: rgba(247, 247, 247, 0.071);
+  
+  /* Black */
+  --gs-black-color: rgb(2, 25, 5);
+  --gs-black-color--light: rgba(2, 25, 5, 0.541);
+  --gs-black-color--lighter: rgba(2, 25, 5, 0.322);
+  --gs-black-color--lightest: rgba(2, 25, 5, 0.071);
+
+  /* Grey */
+  --gs-grey-color: rgb(145, 144, 143);
+  --gs-grey-alt-color: rgb(216, 216, 216);
+  --gs-grey-light-color: rgb(240, 240, 241);
+  --gs-dark-gray-color: rgb(117, 116, 115);
+  --gs-dark-gray-alt-color: rgb(90, 89, 88);
+  --gs-dark-gray-light-color: rgb(78, 77, 76);
+
+
+
+
+
+  /* Dark green */
+  --gs-primary-color--light: rgba(76, 176, 91, 0.541);
+  --gs-primary-color--lighter: rgba(76, 176, 91, 0.322);
+  --gs-primary-color--lightest: rgba(76, 176, 91, 0.071);
+  --gs-primary-color-light: rgba(158, 210, 156, 1);
+  /* Light green */
+  --gs-primary-color-light--light: rgba(158, 210, 156, 0.541);
+  --gs-primary-color-light--lighter: rgba(158, 210, 156, 0.322);
+  --gs-primary-color-light--lightest: rgba(158, 210, 156, 0.071);
+  --gs-primary-color-dark: rgba(8, 139, 54, 1);
+  /* Dark green */
+  --gs-secondary-color: var(--gs-osgeo-blue);
+  /* OSGeo Blue */
+  --gs-secondary-color--light: rgba(0, 58, 64, 0.541);
+  --gs-secondary-color--lighter: rgba(0, 58, 64, 0.322);
+  --gs-secondary-color--lightest: rgba(0, 58, 64, 0.071);
+  --gs-primary-bg-color: var(--gs-white-color);
+  /* White */
+  --gs-primary-bg-color-dark: rgba(135, 135, 135, 0.1);
+
+  --md-admonition-icon--grass-icon: url('grass_logo.svg');
+
+
+  /* Old Variables Bootstrap v4.1.1 Variables */
+  --primary-color: var(--gs-primary-color);
+  --secondary-color: var(--gs-secondary-color);
+  --text-color: var(--gs-black-color);
+  --text-color-dark: var(--gs-dark-gray-color);
+  --grass-color: var(--gs-primary-color);
+  --grass-color-alt: var(--gs-primary-alt-color);
+  --grass-color-light: var(--gs-primary-light-color);
+  --grass-color-dark: var(--gs-primary-color-dark);
+  --grey-color: var(--gs-grey-color);
+  --grey-color-light: var(--gs-grey-light-color);
+  --grey-color-dark: var(--gs-dark-gray-color);
+  --white-color: var(--gs-white-color);
+
+}
+
 body {
   line-height: 1.8;
-  font-family: open_sansregular;
-  -webkit-font-smoothing: antialiased;
+  font-family: var(--gs-body-font);
   font-size: 16px;
   color: var(--text-color);
   background-color: var(--secondary-color);
@@ -13,20 +130,19 @@ p, .paragraph {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.8;
-  font-family: open_sansregular;
+  /* font-family: open_sansregular; */
 }
 .grass{
-    font-family: fira_sansmedium;
+    /* font-family: fira_sansmedium; */
 }
 .gis{
-    font-family: fira_sansthin;
+    /* font-family: fira_sansthin; */
     margin-left: -.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: open_sansbold;
+  font-family: var(--gs-header-font);
   font-weight: 700;
-  line-height: 1.2;
 }
 
 h1, .h1 {

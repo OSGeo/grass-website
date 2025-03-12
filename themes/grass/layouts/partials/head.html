@@ -20,6 +20,11 @@
   <meta name="twitter:title" content="{{ .Site.Title }}">
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
   <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/share-img.png">
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/Sintony/Sintony-Regular.woff2" as="font"
+    type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/Sintony/Sintony-Bold.woff2" as="font" type="font/woff2"
+      crossorigin>
+  <link rel="preload"href="{{ .Site.BaseURL }}fonts/Miriam_Libre/MiriamLibre-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/hybrid.css"> 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
@@ -28,22 +33,7 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
-  <style>
-  :root{
-    --primary-color:{{ .Site.Params.primaryColor }};
-    --secondary-color:{{ .Site.Params.secondaryColor }};
-    --text-color:{{ .Site.Params.textColor }};
-    --text-color-dark:{{ .Site.Params.textColorDark }};
-    --grass-color:{{ .Site.Params.grassColor }};
-    --grass-color-alt:{{ .Site.Params.grassColorAlt }};
-    --grass-color-light:{{ .Site.Params.grassColorLight }};
-    --grass-color-dark:{{ .Site.Params.grassColorDark }};
-    --grey-color:{{ .Site.Params.greyColor }};
-    --grey-color-light:{{ .Site.Params.greyColorLight }};
-    --grey-color-dark:{{ .Site.Params.greyColorDark }};
-    --white-color:{{ .Site.Params.whiteColor }};
-    }  
-  </style>{{ $styles := resources.Get "css/style.css" | minify}}
+  {{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
   <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon.png">
