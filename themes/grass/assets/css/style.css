@@ -436,6 +436,7 @@ a, button, select {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-color: var(--gs-primary-color);
 }
 
 .bg-lgr {
@@ -516,10 +517,10 @@ pre {
   width: 100%;
   top: 0;
   left: 0;
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 0.47) 59%, rgba(255, 255, 255, 0) 100%);
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 0.47) 59%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 0.47) 59%, rgba(255, 255, 255, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
+  background: -moz-linear-gradient(top, var(--gs-primary-color) 12%, var(--gs-primary-color--light) 23%,var(--gs-primary-color--lighter) 47%, var(--gs-primary-color--lightest) 100%);
+  background: -webkit-linear-gradient(top, var(--gs-primary-color) 12%, var(--gs-primary-color--light) 23%, var(--gs-primary-color--lighter) 47%, var(--gs-primary-color--lightest) 100%);
+  background: linear-gradient(to bottom, rgba(76, 176, 91, 1) 12%, rgba(76, 176, 91, 0.47) 59%, rgba(76, 176, 91, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4cb051', endColorstr='#004cb051', GradientType=0);
 }
 .overlayg {
   position: relative;
@@ -743,8 +744,7 @@ pre {
 }
 .banner p {
   font-size: 24px;
-  color: #000000;
-  background: rgba(255, 255, 255, .45)
+  color: var(--gs-white-color);
 }
 .banner .text-dark {
   color: var(--dark-color);
