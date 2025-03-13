@@ -269,9 +269,10 @@ a.nws:hover {
 .btn-primary {
   background: var(--gs-primary-color);
   color: var(--gs-white-color);
+  font-weight: 600;
 }
 .btn-primary:hover, .btn-primary:focus,  .btn-primary-active {
-  background: var(--gs-primary-alt-color);
+  background: var(--gs-primary-color-dark);
   color: var(--gs-white-color) !important;
 }
 .btn-primary:active {
@@ -290,13 +291,13 @@ a.nws:hover {
   background: var(--gs-dark-gray-color);
 }
 .btn-secondary:hover, .btn-secondary:focus {
-  background: var(--gs-dark-gray-color);
+  background: var(--gs-secondary-color);
   color: var(--gs-white-color) !important;
 }
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
   color: var(--gs-white-color);
-  background-color: var(--gs-grey-color);
-  border-color: var(--gs-grey-color);
+  background-color: var(--gs-secondary-color);
+  border-color: var(--gs-secondary-color);
 }
 
 .btn-grass {
@@ -373,10 +374,10 @@ a, a:focus, a:hover {
   text-decoration: none !important;
 }
 a {
-  color: var(--gs-primary-color);
+  color: var(--gs-secondary-color);
 }
 a:hover, a:focus {
-  color: var(--gs-secondary) !important;
+  color: var(--gs-secondary-alt-color) !important;
 }
 a, button, select {
   cursor: pointer;
@@ -402,7 +403,7 @@ a, button, select {
 .section-title {
   margin-bottom: 32px;
   color: var(--gs-dark-gray-color) !important;
-  font-family: open_sansregular !important;
+  font-family: var(--gs-body-font) !important;
   font-size: 28px;
   font-weight:100 !important;
 
