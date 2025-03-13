@@ -1,43 +1,12 @@
-/* Fonts */
-/* Miriam Libre */
-
-@font-face {
-  font-family: "Miriam Libre";
-  src: url('../fonts/Miriam_Libre/MiriamLibre-VariableFont_wght.woff2') format('woff2'),
-       url('../fonts/Miriam_Libre/MiriamLibre-VariableFont_wght.woff') format('woff'),
-       url('../fonts/Miriam_Libre/MiriamLibre-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 700;
-  font-style: normal;
-}
-
-/* Sintony Regular */
-@font-face {
-  font-family: "Sintony";
-  src: url('../fonts/Sintony/Sintony-Regular.woff2') format('woff2'),
-       url('../fonts/Sintony/Sintony-Regular.woff') format('woff'),
-       url('../fonts/Sintony/Sintony-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Sintony Bold */
-@font-face {
-  font-family: "Sintony";
-  src: url('../fonts/Sintony/Sintony-Bold.woff2') format('woff2'),
-       url('../fonts/Sintony/Sintony-Bold.woff') format('woff'), 
-       url('../fonts/Sintony/Sintony-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 :root>* {
 
   /* GRASS Variables
   Use these variables to customize the GRASS theme.
   ----------------------------------------------------------------------------- */
   /* Fonts */
-  --gs-body-font: 'Sintony', sans-serif;
-  --gs-header-font: 'Miriam Libre', sans-serif;
+  --gs-body-font: open_sansregular;
+  --gs-header-font: open_sansbold;
+  --gs-grass-font: fira_sansmedium;
 
   /*  Main Colors 
   ------------------------------------------------------------------------------*/
@@ -109,34 +78,12 @@
   --gs-dark-gray-color: rgb(117, 116, 115);
   --gs-dark-gray-alt-color: rgb(90, 89, 88);
   --gs-dark-gray-light-color: rgb(78, 77, 76);
-
-  /* Dark green */
-  /* --gs-primary-color--light: rgba(76, 176, 91, 0.541); */
-  /* --gs-primary-color--lighter: rgba(76, 176, 91, 0.322);
-  --gs-primary-color--lightest: rgba(76, 176, 91, 0.071);
-  --gs-primary-color-light: rgba(158, 210, 156, 1); */
-  /* Light green */
-  /* --gs-primary-color-light--light: rgba(158, 210, 156, 0.541);
-  --gs-primary-color-light--lighter: rgba(158, 210, 156, 0.322);
-  --gs-primary-color-light--lightest: rgba(158, 210, 156, 0.071);
-  --gs-primary-color-dark: rgba(8, 139, 54, 1); */
-  /* Dark green */
-  /* --gs-secondary-color: var(--gs-osgeo-blue); */
-  /* OSGeo Blue */
-  /* --gs-secondary-color--light: rgba(0, 58, 64, 0.541);
-  --gs-secondary-color--lighter: rgba(0, 58, 64, 0.322);
-  --gs-secondary-color--lightest: rgba(0, 58, 64, 0.071); */
-
-/* Figure these out */
-  --gs-primary-bg-color: var(--gs-white-color);
-  --gs-primary-bg-color-dark: rgba(135, 135, 135, 0.1);
-  --md-admonition-icon--grass-icon: url('grass_logo.svg');
-
 }
 
 body {
   line-height: 1.8;
-  font-family: var(--gs-body-font);
+  font-family: var(--gs-body-font); 
+  -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: var(--gs-black-color);
   background-color: var(--gs-white-color--lightest);
@@ -148,13 +95,13 @@ p, .paragraph {
   color: var(--gs-black-color);
   font-size: 16px;
   line-height: 1.8;
-  /* font-family: open_sansregular; */
+  font-family: var(--gs-body-font);
 }
 .grass{
-    /* font-family: fira_sansmedium; */
+    font-family: var(--gs-grass-font);
 }
 .gis{
-    /* font-family: fira_sansthin; */
+    font-family: fira_sansthin;
     margin-left: -.25rem;
 }
 
@@ -306,6 +253,7 @@ a.nws:hover {
 
 .btn {
   font-size: 14px;
+  font-family: var(--gs-body-font); 
   text-transform: uppercase;
   padding: 6px 14px;
   border-radius: 0px;
@@ -454,6 +402,7 @@ a, button, select {
 .section-title {
   margin-bottom: 32px;
   color: var(--gs-dark-gray-color) !important;
+  font-family: open_sansregular !important;
   font-size: 28px;
   font-weight:100 !important;
 
@@ -762,6 +711,7 @@ pre {
   position: relative;
   color: var(--gs-dark-gray-color);
   transition: .2s ease;
+  font-family: var(--gs-body-font); 
 }
 @media (max-width: 991px) {
   .navbar .dropdown-item {
@@ -1361,7 +1311,7 @@ li.parent a {
 }
 
 .edt {
-  font-family: var(--gs-header-font);
+  font-family: open_sansregular !important;
   font-weight: normal !important;
   font-size: 1.0em !important;
 }
