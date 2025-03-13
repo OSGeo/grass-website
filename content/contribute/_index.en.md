@@ -2,7 +2,7 @@
 title: "Contribute"
 date: 2022-04-25T10:12:05+02:00
 icon: "fa fa-user"
-description: "Contribute to Open Source Geospatial through GRASS GIS development"
+description: "Get started with open source develpment with GRASS"
 type : "pages"
 layout: "list"
 ---
