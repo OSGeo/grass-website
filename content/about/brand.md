@@ -13,17 +13,19 @@ layout: "brand"
 </div>
 
 <div class="col-lg-6">
-This is the official <b>GRASS logo</b>. Please use it to refer  to the GRASS project, software or community, and do not alter its shape or color.
+This is the official <b class="grass-green">GRASS</b> logo. Please use it to refer  to the GRASS project, software or community, and do not alter its shape or color.
 <div class="row mt-30">
-<div class="col-lg-5">
+<div class="col-lg-6">
 <h4>Vector</h4>
 <hr>
 <ul class="list-unstyled dil">
-<li><a href="/images/logos/gs-green.svg"> <i class="fa fa-download"></i> Download SVG &#160; </a></li>
+<li><a href="/images/logos/gs-green.svg"> <i class="fa fa-download"></i> (Green) Download SVG &#160; </a></li>
+<li><a href="/images/logos/gs-blue.svg"> <i class="fa fa-download"></i> (Blue) Download SVG &#160; </a></li>
+<li><a href="/images/logos/gs-white.svg"> <i class="fa fa-download"></i> (White) Download SVG &#160; </a></li>
 </ul>
 </div>
 
-<div class="col-lg-7">
+<div class="col-lg-6">
 <h4>Raster</h4>
 <hr>
 <ul class="list-unstyled dil">
@@ -35,7 +37,6 @@ This is the official <b>GRASS logo</b>. Please use it to refer  to the GRASS pro
 </div>
  </div>
  </div>
-
 
 ### Logotext
 
@@ -68,18 +69,13 @@ This is the official <b>GRASS logo</b>. Please use it to refer  to the GRASS pro
 
 <div class="col-lg-6">
 <div class="grassthm text-center overlay">
-<img class="" alt="GRASS" src="../../images/logos/gs-green.svg" width="28%">
+<img alt="GRASS" src="../../images/logos/gs-white.svg" width="28%">
 </div>
 </div>
 <div class="col-lg-6">
-<p>This website is using the <a class="bigr" href="/about/theme"><i class="ms ms-grass-gis ms-1-5x"></i>&#160;<span class=" black-color grass">GRASS <span class="  black-color gis">GIS</span></span></a> web theme for Hugo, which extends the GRASS brand for web and mobile.</p>
+<p>This website is using the <a class="bigr" href="/about/theme"><span class="grass-green grass">GRASS</span></a> web theme for Hugo, which extends the GRASS brand for web and mobile.</p>
 
-<ul class="list-unstyled dil">
-<li><a href="/about/theme"><i class="ms ms-grass-gis"></i> View theme</a></li>
-</ul>
+<a class="btn btn-secondary" href="/about/theme">View theme</a>
+
 </div>
 </div>
-
-
-
-

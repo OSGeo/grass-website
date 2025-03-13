@@ -284,14 +284,14 @@ a.nws:hover {
   border-color: var(--gs-primary-color);
 }
 .btn-secondary {
-  background: var(--gs-grey-light-color);
+  background: var(--gs-secondary-color);
   color: var(--gs-white-color);
 }
 .btn-secondary:active {
-  background: var(--gs-dark-gray-color);
+  background: var(--gs-secondary-color);
 }
 .btn-secondary:hover, .btn-secondary:focus {
-  background: var(--gs-secondary-color);
+  background: var(--gs-secondary-alt-color);
   color: var(--gs-white-color) !important;
 }
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
@@ -393,7 +393,7 @@ a, button, select {
 }
 .page-title {
   margin-bottom: 40px;
-  color: var(--gs-primary-color);
+  color: var(--gs-secondary-color);
 }
 .col-title {
   margin-bottom: 40px;
@@ -1373,9 +1373,9 @@ code{
 
 .grassthm{
     border:1px solid #dee2e6;
-    background:url(/images/logos/banner.jpg);
+    background-color: var(--gs-primary-color);
     background-size:cover;
-    height:269px;
+    height:250px;
     z-index:1;
 }
 .grassthm img{
