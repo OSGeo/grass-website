@@ -423,7 +423,7 @@ a, button, select {
 }
 
 .bg-lgr {
-  background-color: var(--gs-primary-light-color) !important;
+  background-color: var(--gs-grey-light-color) !important;
 }
 .tbld {
   width: 20%;
@@ -992,7 +992,7 @@ blockquote {
 }
 .alert-default {
   color: var(--gs-black-color) !important;
-  background: var(--gs-secondary-color);
+  background: var(--gs-grey-light-color);
 }
 .pagination {
   justify-content: space-between;
