@@ -48,28 +48,44 @@
                 <div class="carousel slide pdt-20" data-interval="3000" data-ride="carousel" id="carouselUI">
 
                     <div class="carousel-inner">
-                        <div class="carousel-item active">     
-                            <div class="container position-relative">            
-                            <img alt="GRASS team" class="d-block w-100 m-0" src="{{.Site.BaseURL}}/images/other/grass_team_prague_2023_hike.jpg">
-                            <div class="row justify-content-center position-absolute w-100"><a href="https://grasswiki.osgeo.org/wiki/GRASS_Community_Meeting_Prague_2024" target="_blank" style="font-size:1.2em;">Join the GRASS Community Meeting</a></div>
+                        <div class="carousel-item active">
+                            <div class="carousel-item-container">           
+                                <img alt="GRASS team" src="{{.Site.BaseURL}}/images/other/grass_team_prague_2023_hike.jpg">
+                                <div class="carousel-item-overlay">
+                                    <a href="https://grasswiki.osgeo.org/wiki/GRASS_Community_Meeting_Prague_2024" target="_blank" class="carousel-link-light">
+                                        Old Join the GRASS Community Meeting
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="container position-relative">
-                            <img alt="GRASS mentoring program" class="d-block w-100 m-0" src="{{.Site.BaseURL}}/images/other/grass_gis_mentoring.jpg">
-                            <div class="row justify-content-center position-absolute w-100"><a href="https://grasswiki.osgeo.org/wiki/Mentoring_Program" target="_blank" style="font-size:1.2em;">Join the GRASS Mentoring program</a></div>
+                            <div class="carousel-item-container">
+                                <img alt="GRASS mentoring program" src="{{.Site.BaseURL}}/images/other/grass_gis_mentoring.jpg">
+                                <div class="carousel-item-overlay">
+                                    <a href="https://grasswiki.osgeo.org/wiki/Mentoring_Program" target="_blank" class="carousel-link-light">
+                                        Join the GRASS Mentoring program
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="container position-relative">
-                            <img alt="GRASS student grants" class="d-block w-100 m-0" src="{{.Site.BaseURL}}/images/other/grass_gis_student_grants.jpg">
-                            <div class="row justify-content-center position-absolute w-100"><a href="https://grasswiki.osgeo.org/wiki/Student_Grants" target="_blank" style="font-size:1.2em;">Apply for a GRASS Student grant</a></div>
-                            </div>                        
+                            <div class="carousel-item-container">
+                                <img alt="GRASS student grants" src="{{.Site.BaseURL}}/images/other/grass_gis_student_grants.jpg">
+                                <div class="carousel-item-overlay">
+                                    <a href="https://grasswiki.osgeo.org/wiki/Student_Grants" target="_blank" class="carousel-link-light">
+                                        Apply for a GRASS Student grant
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="container position-relative">
-                            <img alt="GRASS latest release" class="d-block w-100 m-0" src="{{.Site.BaseURL}}/images/other/grass_release.png">
-                            <div class="row justify-content-center position-absolute w-100"><a href="https://github.com/OSGeo/grass/releases" target="_blank" style="font-size:1.2em;">Check the latest GRASS release</a></div>
+                            <div class="carousel-item-container">
+                                <img alt="GRASS latest release" src="{{.Site.BaseURL}}/images/other/grass_release.png">
+                                <div class="carousel-item-overlay">
+                                    <a href="https://github.com/OSGeo/grass/releases" target="_blank" class="carousel-link-light">
+                                        Check the latest GRASS release
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,7 +102,7 @@
                     <main role="main">
                         <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
                         <h3 class="entry-title" itemprop="headline"><a class="nws" href="{{.RelPermalink}}">{{ .Title }}</a></h3>
-		        <span class="entry-meta"> <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}"><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>{{ end }}
+		        <span class="entry-meta"> <time itemprop="datePublished" datetime='{{ .Date.Format "2006-01-02" }}'><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>{{ end }}
                         <div class="row justify-content-center pd-40">
                             <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
                         </div>

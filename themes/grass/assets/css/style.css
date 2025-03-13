@@ -39,14 +39,51 @@
   --gs-body-font: 'Sintony', sans-serif;
   --gs-header-font: 'Miriam Libre', sans-serif;
 
-  /* Colors */
+  /*  Main Colors 
+  ------------------------------------------------------------------------------*/
 
+  /* Primary Color */
   --gs-primary-color: rgb(76, 176, 91);
+  --gs-primary-color--light: rgba(76, 176, 91, 0.541);
+  --gs-primary-color--lighter: rgba(76, 176, 91, 0.322);
+  --gs-primary-color--lightest: rgba(76, 176, 91, 0.071);
+
+  /* Primary Alt Color */
   --gs-primary-alt-color: rgb(110, 208, 121);
+  --gs-primary-alt-color--light: rgba(110, 208, 121, 0.541);
+  --gs-primary-alt-color--lighter: rgba(110, 208, 121, 0.322);
+  --gs-primary-alt-color--lightest: rgba(110, 208, 121, 0.071);
+
+  /* Primary Light Color */
   --gs-primary-light-color: rgb(135, 233, 145);
+  --gs-primary-light-color--light: rgba(135, 233, 145, 0.541);
+  --gs-primary-light-color--lighter: rgba(138, 233, 145, 0.322);
+  --gs-primary-light-color--lightest: rgba(138, 233, 145, 0.071);
+
+  /* Primary Dark Color */
+  --gs-primary-color-dark: rgba(8, 139, 54, 1);
+  --gs-primary-color-dark--light: rgba(8, 139, 54, 0.541);
+  --gs-primary-color-dark--lighter: rgba(8, 139, 54, 0.322);
+  --gs-primary-color-dark--lightest: rgba(8, 139, 54, 0.071);
+
+
+  /* Secondary Color */
   --gs-secondary-color: rgb(0, 57, 63);
+  --gs-secnodary-color--light: rgba(0, 57, 63, 0.541);
+  --gs-secnodary-color--lighter: rgba(0, 57, 63, 0.322);
+  --gs-secnodary-color--lightest: rgba(0, 57, 63, 0.071);
+
+  /* Secondary Alt Color */
   --gs-secondary-alt-color: rgb(39, 87, 92);
+  --gs-secondary-alt-color--light: rgba(39, 87, 92, 0.541);
+  --gs-secondary-alt-color--lighter: rgba(39, 87, 92, 0.322);
+  --gs-secondary-alt-color--lightest: rgba(39, 87, 92, 0.071);
+
+  /* Secondary Light Color */
   --gs-secondary-light-color: rgb(74, 121, 127);
+  --gs-secondary-light-color--light: rgba(74, 121, 127, 0.541);
+  --gs-secondary-light-color--lighter: rgba(74, 121, 127, 0.322);
+  --gs-secondary-light-color--lightest: rgba(74, 121, 127, 0.071);
 
   /* Special Colors */
   --gs-support-color: rgb(243, 57, 138);
@@ -73,30 +110,26 @@
   --gs-dark-gray-alt-color: rgb(90, 89, 88);
   --gs-dark-gray-light-color: rgb(78, 77, 76);
 
-
-
-
-
   /* Dark green */
-  --gs-primary-color--light: rgba(76, 176, 91, 0.541);
-  --gs-primary-color--lighter: rgba(76, 176, 91, 0.322);
+  /* --gs-primary-color--light: rgba(76, 176, 91, 0.541); */
+  /* --gs-primary-color--lighter: rgba(76, 176, 91, 0.322);
   --gs-primary-color--lightest: rgba(76, 176, 91, 0.071);
-  --gs-primary-color-light: rgba(158, 210, 156, 1);
+  --gs-primary-color-light: rgba(158, 210, 156, 1); */
   /* Light green */
-  --gs-primary-color-light--light: rgba(158, 210, 156, 0.541);
+  /* --gs-primary-color-light--light: rgba(158, 210, 156, 0.541);
   --gs-primary-color-light--lighter: rgba(158, 210, 156, 0.322);
   --gs-primary-color-light--lightest: rgba(158, 210, 156, 0.071);
-  --gs-primary-color-dark: rgba(8, 139, 54, 1);
+  --gs-primary-color-dark: rgba(8, 139, 54, 1); */
   /* Dark green */
   /* --gs-secondary-color: var(--gs-osgeo-blue); */
   /* OSGeo Blue */
-  --gs-secondary-color--light: rgba(0, 58, 64, 0.541);
+  /* --gs-secondary-color--light: rgba(0, 58, 64, 0.541);
   --gs-secondary-color--lighter: rgba(0, 58, 64, 0.322);
-  --gs-secondary-color--lightest: rgba(0, 58, 64, 0.071);
-  --gs-primary-bg-color: var(--gs-white-color);
-  /* White */
-  --gs-primary-bg-color-dark: rgba(135, 135, 135, 0.1);
+  --gs-secondary-color--lightest: rgba(0, 58, 64, 0.071); */
 
+/* Figure these out */
+  --gs-primary-bg-color: var(--gs-white-color);
+  --gs-primary-bg-color-dark: rgba(135, 135, 135, 0.1);
   --md-admonition-icon--grass-icon: url('grass_logo.svg');
 
 }
@@ -391,11 +424,11 @@ img[src*="#grass"] {
 a, a:focus, a:hover {
   text-decoration: none !important;
 }
-a, a:focus {
+a {
   color: var(--gs-primary-color);
 }
-a:hover {
-  color: var(--gs-primary-color-dark) !important;
+a:hover, a:focus {
+  color: var(--gs-secondary) !important;
 }
 a, button, select {
   cursor: pointer;
@@ -767,7 +800,12 @@ pre {
 }
 
 .gitter-banner {
-  background: linear-gradient(45deg, var(--gs-primary-color-dark) 0%, var(--gs-primary-color) 50%,var(--gs-primary-color-dark) 100%); 
+  background: linear-gradient(
+    45deg, 
+    rgb(135, 233, 145) 0%, /*--gs-primary-light-color*/
+    rgba(8, 139, 54, 1) 50%, /*--gs-primary-dark-color*/
+    rgb(135, 233, 145) 100% /*--gs-primary-light-color*/
+  ); 
   text-align: center;
   color: var(--gs-grey-light-color);
   font-weight: bolder;
@@ -842,10 +880,10 @@ pre {
 
 
 .fdiv:hover {
-  background: var(--gs-primary-light-color) !important;
+  background: var(--gs-primary-light-color--lightest) !important;
 }
 .fdiv:hover h3 {
-  color: var(--gs-primary-color-dark);
+  color: var(--gs-secondary-color) !important;
 }
 .gdiv:hover {
   background: var(--gs-white-color) !important;
@@ -961,7 +999,7 @@ ul li.hdl a {
   color: var(--gs-primary-alt-color);
 }
 .entry-meta {
-  color: var(--gs-grey-light-color);
+  color: var(--gs-secondary-alt-color);
   font-size: 16px;
 }
 .all-posts .entry-title {
@@ -1418,11 +1456,43 @@ code{
     margin-top: 6.05rem;
 }
 
-#carouselUI .carousel-inner .carousel-item .container.position-relative .row.justify-content-center {
-  bottom: 0;
-  background: var(--gs-white-color--light);
-  /* background: radial-gradient(circle, var(--gs-white-color) 80%, transparent 90%); */
+.carousel-item-container {
+  position: relative;
+  display: inline-block;
 }
+
+.carousel-item-container img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-item-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  background: var(--gs-secnodary-color--light);
+  padding: 1em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.carousel-link-light {
+  color: var(--gs-white-color) !important;
+  font-size: 1.0rem;
+  font-weight: 500;
+}
+
+.carousel-link-light:hover {
+  color: var(--gs-white-color) !important;
+  font-weight: 600;
+}
+
+.carousel-link-light:focus {
+  color: var(--gs-white-color) !important;
+  font-weight: 600;
+}
+
 @media (max-width: 992px) {
   .col-2 i {
     font-size: 3rem;
