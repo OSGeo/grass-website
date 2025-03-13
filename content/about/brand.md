@@ -16,7 +16,7 @@ layout: "brand"
 This is the official <b>GRASS logo</b>. Please use it to refer  to the GRASS project, software or community, and do not alter its shape or color.
 <div class="row mt-30">
 <div class="col-lg-5">
-<h4 class="grey-color-light">Vector</h4>
+<h4>Vector</h4>
 <hr>
 <ul class="list-unstyled dil">
 <li><a href="/images/logos/gs-green.svg"> <i class="fa fa-download"></i> Download SVG &#160; </a></li>
@@ -24,7 +24,7 @@ This is the official <b>GRASS logo</b>. Please use it to refer  to the GRASS pro
 </div>
 
 <div class="col-lg-7">
-<h4 class="grey-color-light">Raster</h4>
+<h4>Raster</h4>
 <hr>
 <ul class="list-unstyled dil">
 <li><a href="/images/logos/grassgis_logo_colorlogo_text_whitebg.png"><i class="fa fa-download"></i>  Download PNG color &#160; </a></li>
