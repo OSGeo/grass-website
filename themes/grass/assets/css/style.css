@@ -1569,7 +1569,7 @@ code{
 .member {
   margin: 10px;
   text-align: center;
-  background: linear-gradient(to bottom, var(--gs-primary-light-color) 15%, transparent 50%);
+  background: linear-gradient(to bottom, var(--gs-primary-color) 15%, transparent 50%);
 }
 
 .member img {
