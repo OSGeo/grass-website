@@ -445,7 +445,7 @@ a, button, select {
 }
 .page-title {
   margin-bottom: 40px;
-  color: var(--gs-secondary-color);
+  color: var(--gs-secondary-alt-color);
 }
 .col-title {
   margin-bottom: 40px;
