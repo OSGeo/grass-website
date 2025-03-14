@@ -57,8 +57,8 @@ This is the official <b class="grass-green">GRASS</b> logo. Please use it to ref
 </div>
 </div>
 </div>
- </div>
- </div>
+</div>
+</div>
 
 ### Logotext
 
