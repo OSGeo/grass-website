@@ -29,8 +29,30 @@ This is the official <b class="grass-green">GRASS</b> logo. Please use it to ref
 <h4>Raster</h4>
 <hr>
 <ul class="list-unstyled dil">
-<li><a href="/images/logos/grassgis_logo_colorlogo_text_whitebg.png"><i class="fa fa-download"></i>  Download PNG color &#160; </a></li>
-<li><a href="/images/logos/grassgis_logo_graylogo_text_whitebg.png"><i class="fa fa-download"></i> Download PNG black & white &#160; </a></li>
+    <i class="fa fa-download grass-blue"></i> Green
+    <ul class="list-unstyled dil">
+        <li><span>
+            <a href="/images/logos/grass-green-small.png">small &#160; </a>
+            <a href="/images/logos/grass-green-medium.png">medium &#160; </a>
+            <a href="/images/logos/grass-green-large.png">large &#160; </a>
+        </span></li>
+    </ul>
+    <i class="fa fa-download grass-blue"></i> Blue
+    <ul class="list-unstyled dil">
+        <li><span>
+            <a href="/images/logos/grass-blue-small.png">small &#160; </a>
+            <a href="/images/logos/grass-blue-medium.png">medium &#160; </a>
+            <a href="/images/logos/grass-blue-large.png">large &#160; </a>
+        </span></li>
+    </ul>
+    <i class="fa fa-download grass-blue"></i> White
+    <ul class="list-unstyled dil">
+        <li><span>
+            <a href="/images/logos/grass-white-small.png">small &#160; </a>
+            <a href="/images/logos/grass-white-medium.png">medium &#160; </a>
+            <a href="/images/logos/grass-white-large.png">large &#160; </a>
+        </span></li>
+    </ul>
 </ul>
 </div>
 </div>
