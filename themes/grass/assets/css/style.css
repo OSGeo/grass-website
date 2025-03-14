@@ -38,9 +38,9 @@
 
   /* Secondary Color */
   --gs-secondary-color: rgb(0, 57, 63);
-  --gs-secnodary-color--light: rgba(0, 57, 63, 0.541);
-  --gs-secnodary-color--lighter: rgba(0, 57, 63, 0.322);
-  --gs-secnodary-color--lightest: rgba(0, 57, 63, 0.071);
+  --gs-secondary-color--light: rgba(0, 57, 63, 0.541);
+  --gs-secondary-color--lighter: rgba(0, 57, 63, 0.322);
+  --gs-secondary-color--lightest: rgba(0, 57, 63, 0.071);
 
   /* Secondary Alt Color */
   --gs-secondary-alt-color: rgb(39, 87, 92);
@@ -64,6 +64,7 @@
   --gs-support-color: rgb(243, 57, 138);
   --gs-support-color--dark: rgba(243, 57, 138, 0.541);
   --gs-support-color--light: rgba(243, 57, 138, 0.322);
+  --gs-yard-sign-color: rgb(116, 93, 2);
 
   /* White */
   --gs-white-color: rgb(247, 247, 247);
@@ -552,11 +553,53 @@ pre {
   width: 100%;
   top: 0;
   left: 0;
-  background: -moz-linear-gradient(top, var(--gs-primary-color) 12%, var(--gs-primary-color--light) 23%,var(--gs-primary-color--lighter) 47%, var(--gs-primary-color--lightest) 100%);
-  background: -webkit-linear-gradient(top, var(--gs-primary-color) 12%, var(--gs-primary-color--light) 23%, var(--gs-primary-color--lighter) 47%, var(--gs-primary-color--lightest) 100%);
-  background: linear-gradient(to bottom, rgba(76, 176, 91, 1) 12%, rgba(76, 176, 91, 0.47) 59%, rgba(76, 176, 91, 0) 100%);
+  background: -moz-linear-gradient(top,
+    var(--gs-primary-color) 12%,
+    var(--gs-primary-color--light) 23%,
+    var(--gs-primary-color--lighter) 47%,
+    var(--gs-primary-color--lightest) 100%);
+  background: -webkit-linear-gradient(top,
+    var(--gs-primary-color) 12%,
+    var(--gs-primary-color--light) 23%,
+    var(--gs-primary-color--lighter) 47%,
+    var(--gs-primary-color--lightest) 100%
+  );
+  background: linear-gradient(to bottom,
+  rgba(76, 176, 91, 1) 12%,
+  rgba(76, 176, 91, 0.47) 59%,
+  rgba(76, 176, 91, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4cb051', endColorstr='#004cb051', GradientType=0);
 }
+
+.overlay-blue {
+  position: relative;
+}
+.overlay-blue::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: -moz-linear-gradient(top,
+    var(--gs-secondary-color--light) 33%,
+    var(--gs-secondary-color--lighter) 55%,
+    var(--gs-secondary-color--lightest) 100%);
+  background: -webkit-linear-gradient(top,
+    var(--gs-secondary-color--light) 33%,
+    var(--gs-secondary-color--lighter) 55%,
+    var(--gs-secondary-color--lightest) 100%);
+  background: linear-gradient(to bottom,
+    var(--gs-secondary-color--light) 40%,
+    var(--gs-secondary-color--lighter) 80%,
+    var(--gs-secondary-color--lightest) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr=var(--gs-secondary-color--light),
+    endColorstr=var(--gs-secondary-color--lightest),
+    GradientType=0
+  );
+}
+
 .overlayg {
   position: relative;
 }
@@ -1474,7 +1517,7 @@ code{
   bottom: 15px;
   left: 0;
   width: 100%;
-  background: var(--gs-secnodary-color--light);
+  background: var(--gs-secondary-color--light);
   padding: 1em;
   text-align: center;
   box-sizing: border-box;
@@ -1605,17 +1648,27 @@ code{
   .grasslogo {
     width: 40%;
   }
+  .yard-sign img {
+    width: 25%;
+  }
 }
 
 @media (min-width: 768px) {
   .grasslogo {
     width: 49%;
   }
+  .yard-sign img {
+      width: 25%;
+  }
 }
 
 @media (min-width: 992px) {
   .grasslogo {
     width: 31%;
+  }
+
+  .yard-sign img {
+      width: 25%;
   }
 }
 
@@ -1635,4 +1688,66 @@ code{
 .shortcode-brand-color-varibale-list {
   font-size: smaller !important;
   margin-bottom: 0;
+}
+
+
+
+
+.yard-sign {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: var(--gs-grey-light-color);
+    border: 3px solid var(--gs-dark-grey-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--gs-black-color--lighter);
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+            
+/* The pole using a pseudo-element */
+.yard-sign::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 80px;
+  background: var(--gs-yard-sign-color);
+  box-shadow: 0 4px 8px var(--gs-black-color--lighter);
+  border-radius: 4px;
+}
+            
+/* Style for the image on the sign */
+.yard-sign img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0px;
+}
+
+.yard-sign h3 {
+  font-size: 1.5rem;
+
+  color: var(--gs-primary-color);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+            
+/* Style the text input below the image */
+.yard-sign p {
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  background: transparent;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: var(--gs-secondary-color);
 }
