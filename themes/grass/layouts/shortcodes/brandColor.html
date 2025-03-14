@@ -1,4 +1,6 @@
 {{- $colorName := .Get "colorName" -}}
+{{- $className := .Get "className" -}}
+{{- $cssVariableName := .Get "cssVariableName" -}}
 {{- /* Get the hex color parameter passed in from the Markdown file. */ -}}
 {{- $hex := .Get "hex" | lower -}}
 
@@ -75,11 +77,33 @@
     <hr>
     <div class="card mb-2" style="background-color: #{{ $hexClean }}; height: 40px;"></div>
     <small>
+        <strong>Values</strong>
         <ul class="list-unstyled">
             <li><b>HEX</b> &#160; #{{ $hexClean }}</li>
             <li><b>RGB</b> &#160; rgb({{ $rgb }})</li>
             <li><b>HSL</b> &#160; hsl({{ $h | printf "%.0f" }}, {{ $sPercent }}%, {{ $lPercent }}%)</li>
         </ul>
+    
+    {{- if $cssVariableName }}
+    <strong>CSS Variables</strong>
+    <ul class="list-unstyled">
+        <li>
+            <p class="shortcode-brand-color-varibale-list">var(--gs-{{ $cssVariableName }}-color)</p>
+            <p class="shortcode-brand-color-varibale-list">var(--gs-{{ $cssVariableName }}-color--light)</p>
+            <p class="shortcode-brand-color-varibale-list">var(--gs-{{ $cssVariableName }}-color--lighter)</p>
+            <p class="shortcode-brand-color-varibale-list">var(--gs-{{ $cssVariableName }}-color--lightest)</p>
+        </li>
+    </ul>
+    {{- end }}
+
+    {{- if $className }}
+    <strong>CSS Classes</strong>
+    <ul class="list-unstyled">
+        <li>
+            <p class="shortcode-brand-color-varibale-list">.{{ $className }}</p>
+        </li>
+    </ul>
+    {{- end }}
     </small>
     <hr class="mb-4">
 </div>

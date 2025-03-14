@@ -63,6 +63,12 @@ This is the official <b class="grass-green">GRASS</b> logo. Please use it to ref
     {{< brandColor colorName="White"     hex="#f7f7f7" >}}
 {{</ brandColorList >}}
 
+<div class="col-lg-6 col-sm-12">
+    These are the <strong>main colors</strong> used for the <strong>GRASS logo</strong>.
+    The GRASS weed is green, frame and text are black.
+    Monochrome version of the logo is also allowed.
+</div>
+
 ### Web theme
 
 <div class="row mt-30 mb-2">

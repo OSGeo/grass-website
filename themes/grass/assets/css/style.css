@@ -30,7 +30,7 @@
   --gs-primary-light-color--lightest: rgba(138, 233, 145, 0.071);
 
   /* Primary Dark Color */
-  --gs-primary-color-dark: rgba(8, 139, 54, 1);
+  --gs-primary-color-dark: rgb(8, 139, 54);
   --gs-primary-color-dark--light: rgba(8, 139, 54, 0.541);
   --gs-primary-color-dark--lighter: rgba(8, 139, 54, 0.322);
   --gs-primary-color-dark--lightest: rgba(8, 139, 54, 0.071);
@@ -49,10 +49,16 @@
   --gs-secondary-alt-color--lightest: rgba(39, 87, 92, 0.071);
 
   /* Secondary Light Color */
-  --gs-secondary-light-color: rgb(74, 121, 127);
+  --gs-secondary-light-color: rgb(74, 120, 125);
   --gs-secondary-light-color--light: rgba(74, 121, 127, 0.541);
   --gs-secondary-light-color--lighter: rgba(74, 121, 127, 0.322);
   --gs-secondary-light-color--lightest: rgba(74, 121, 127, 0.071);
+
+  /* Secondary Dark Color */
+  --gs-secondary-dark-color: rgb(0, 32, 36);
+  --gs-secondary-dark-color--light: rgba(0, 32, 36, 0.541);
+  --gs-secondary-dark-color--lighter: rgba(0, 32, 36, 0.322);
+  --gs-secondary-dark-color--lightest: rgba(0, 32, 36, 0.071);
 
   /* Special Colors */
   --gs-support-color: rgb(243, 57, 138);
@@ -73,11 +79,27 @@
 
   /* Grey */
   --gs-grey-color: rgb(145, 144, 143);
+  --gs-grey-color-light: rgba(145, 144, 143, 0.541);
+  --gs-grey-color-lighter: rgba(145, 144, 143, 0.322);
+  --gs-grey-color-lightest: rgba(145, 144, 143, 0.071);
+
+  /* Grey Alt */
   --gs-grey-alt-color: rgb(216, 216, 216);
+  --gs-grey-alt-color--light: rgba(216, 216, 216, 0.541);
+  --gs-grey-alt-color--lighter: rgba(216, 216, 216, 0.322);
+  --gs-grey-alt-color--lightest: rgba(216, 216, 216, 0.071);
+
+  /* Grey Light */
   --gs-grey-light-color: rgb(240, 240, 241);
+  --gs-grey-light-color--light: rgba(240, 240, 241, 0.541);
+  --gs-grey-light-color--lighter: rgba(240, 240, 241, 0.322);
+  --gs-grey-light-color--lightest: rgba(240, 240, 241, 0.071);
+
+  /* Dark Gray */
   --gs-dark-gray-color: rgb(117, 116, 115);
-  --gs-dark-gray-alt-color: rgb(90, 89, 88);
-  --gs-dark-gray-light-color: rgb(78, 77, 76);
+  --gs-dark-gray-color--light: rgba(117, 116, 115, 0.541);
+  --gs-dark-gray-color--lighter: rgba(117, 116, 115, 0.322);
+  --gs-dark-gray-color--lightest: rgba(117, 116, 115, 0.071);
 }
 
 body {
@@ -214,11 +236,40 @@ a.nws:hover {
 .grey-color-dark-bg {
   background: var(--gs-dark-gray-color);
 }
+.grey-color-alt {
+  color: var(--gs-grey-alt-color);
+}
+.grey-color-alt-bg {
+  background: var(--gs-grey-alt-color);
+}
 .grey-color-light {
   color: var(--gs-grey-light-color);
 }
 .grey-color-light-bg {
   background: var(--gs-grey-light-color);
+}
+.grass-blue {
+  color: var(--gs-secondary-color);
+}
+
+.grass-blue-bg {
+  background: var(--gs-secondary-color);
+}
+
+.grass-blue-alt {
+  color: var(--gs-secondary-alt-color);
+}
+
+.grass-blue-alt-bg {
+  background: var(--gs-secondary-alt-color);
+}
+
+.grass-blue-light {
+  color: var(--gs-secondary-light-color);
+}
+
+.grass-blue-light-bg {
+  background: var(--gs-secondary-light-color);
 }
 .mwl {
   display: inline-block;
@@ -1578,4 +1629,9 @@ code{
   border-radius: 50%;
   object-fit: cover;
   /* border: 4px solid var(--gs-primary-color-dark); */
+}
+
+.shortcode-brand-color-varibale-list {
+  font-size: smaller !important;
+  margin-bottom: 0;
 }
