@@ -426,7 +426,7 @@ a, a:focus, a:hover {
   text-decoration: none !important;
 }
 a {
-  color: var(--gs-secondary-color);
+  color: var(--gs-secondary-alt-color);
 }
 a:hover, a:focus {
   color: var(--gs-secondary-light-color) !important;
