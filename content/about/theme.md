@@ -4,20 +4,20 @@ date: 2023-08-27T18:10:27+02:00
 layout: theme
 ---
 
-## GRASS GIS web theme
+## Web Theme
 
 
 <div class="row mb-5">
 <div class="col-lg-4">
 <div class="">
 <div class="grassthm-sq text-center overlay">
-<img class="alt="GRASS GIS" src="../../images/logos/grass-white.svg" width="33%">
+<img alt="GRASS" src="../../images/logos/grass-white.svg" width="33%">
 </div>
 </div>
 </div>
 <div class="col-lg-8">
 <p>This is the <a class="bigr" href="#"><span class="grass grass-green">GRASS</span></a> web theme for Hugo. </p>
-<p>Please use assets and markup described in this section for extending the GRASS GIS website consistently.</p>
+<p>Please use assets and markup described in this section for extending the GRASS website consistently.</p>
 <p>Get and contribute to the website source code on <a href="https://github.com/OSGeo/grass-website"><i class="fab fa-github"></i> Github</a>. 
 
 </div>
