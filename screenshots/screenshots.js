@@ -52,12 +52,11 @@ import path from 'path';
           }
           screenshotCounter++;
           const screenshotPath = path.join(screenshotDir, `screenshot_${screenshotCounter}_${cleanPath}.png`);
-          console.log(`Screenshot path: ${screenshotPath}`);
           try {
             const page = await browser.newPage();
             await page.setViewport({ width: 1080, height: 1024 });
             console.log(`Taking screenshot of ${pageUrl}`);
-            await page.goto(pageUrl, { waitUntil: 'networkidle2' });
+            await page.goto(pageUrl, { waitUntil: 'networkidle0' });
             await page.screenshot({ path: screenshotPath, fullPage: true });
             await page.close();
             console.log(`Screenshot saved to ${screenshotPath}`);
