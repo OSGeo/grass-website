@@ -337,6 +337,7 @@ a.nws:hover {
 .btn-secondary {
   background: var(--gs-secondary-color);
   color: var(--gs-white-color);
+  font-weight: 600;
 }
 .btn-secondary:active {
   background: var(--gs-secondary-color);
@@ -428,7 +429,7 @@ a {
   color: var(--gs-secondary-color);
 }
 a:hover, a:focus {
-  color: var(--gs-secondary-alt-color) !important;
+  color: var(--gs-secondary-light-color) !important;
 }
 a, button, select {
   cursor: pointer;
@@ -589,7 +590,7 @@ pre {
   color: var(--gs-primary-color) !important;
 }
 .text-secondary {
-  color: var(--green-color) !important;
+  color: var(--gs-secondary-color) !important;
 }
 .text-color {
   color: var(--gs-black-color);
