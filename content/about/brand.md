@@ -9,7 +9,7 @@ layout: "brand"
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-6 text-center panel">
-<img src="../../images/logos/gs-green.svg" width="33%" alt="GRASS">
+<img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS">
 </div>
 
 <div class="col-lg-6">
@@ -19,9 +19,9 @@ This is the official <b class="grass-green">GRASS</b> logo. Please use it to ref
 <h4>Vector</h4>
 <hr>
 <ul class="list-unstyled dil">
-<li><a href="/images/logos/gs-green.svg"> <i class="fa fa-download"></i> (Green) Download SVG &#160; </a></li>
-<li><a href="/images/logos/gs-blue.svg"> <i class="fa fa-download"></i> (Blue) Download SVG &#160; </a></li>
-<li><a href="/images/logos/gs-white.svg"> <i class="fa fa-download"></i> (White) Download SVG &#160; </a></li>
+<li><a href="/images/logos/grass-green.svg"> <i class="fa fa-download"></i> (Green) Download SVG &#160; </a></li>
+<li><a href="/images/logos/grass-blue.svg"> <i class="fa fa-download"></i> (Blue) Download SVG &#160; </a></li>
+<li><a href="/images/logos/grass-white.svg"> <i class="fa fa-download"></i> (White) Download SVG &#160; </a></li>
 </ul>
 </div>
 
@@ -75,7 +75,7 @@ This is the official <b class="grass-green">GRASS</b> logo. Please use it to ref
 
 <div class="col-lg-6">
 <div class="grassthm text-center overlay">
-<img alt="GRASS" src="../../images/logos/gs-white.svg" width="28%">
+<img alt="GRASS" src="../../images/logos/grass-white.svg" width="28%">
 </div>
 </div>
 <div class="col-lg-6">

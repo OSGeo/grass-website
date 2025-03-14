@@ -11,7 +11,7 @@ layout: theme
 <div class="col-lg-4">
 <div class="">
 <div class="grassthm-sq text-center overlay">
-<img class="alt="GRASS GIS" src="../../images/logos/gs-white.svg" width="33%">
+<img class="alt="GRASS GIS" src="../../images/logos/grass-white.svg" width="33%">
 </div>
 </div>
 </div>
@@ -183,12 +183,12 @@ layout: theme
 
 <div class="row mt-30">
 <div class="col-lg-4 text-center panel">
-<img src="../../images/logos/gs-green.svg" width="33%" alt="GRASS GIS">
+<img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS GIS">
 </div>
 
 <div class="col-lg-8">
 <small>HTML</small>
-<pre class="nm"><code class="hljs xml">&lt;img src="../../images/logos/gs-green.svg" width="33%" alt="GRASS GIS" /&gt;</code></pre>
+<pre class="nm"><code class="hljs xml">&lt;img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS GIS" /&gt;</code></pre>
 
 </div>
 </div>
