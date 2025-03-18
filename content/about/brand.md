@@ -4,6 +4,8 @@ date: 2018-12-29T11:02:05+06:00
 layout: "brand"
 ---
 
+Welcome to the GRASS branding guide! Here you can learn about how to use GRASS logos and colors.
+
 ## Logos
 
 {{< brandLogoList >}}
@@ -39,8 +41,9 @@ Monochrome version of the logo is also allowed.
 <div class="row mt-30 mb-2">
 
 <div class="col-lg-6">
-<div class="grassthm text-center overlay">
-<img alt="GRASS" src="../../images/logos/grass-white.svg" width="28%">
+<div class="text-center grass-green-bg mx-auto">
+<h1 class="mb-0"><img alt="GRASS" src="../../images/logos/grass-white.svg" width="40%">
+<p class="text-bold mb-4 white-color">Bringing advanced geospatial technologies to the world</p></h1>
 </div>
 </div>
 <div class="col-lg-6">
