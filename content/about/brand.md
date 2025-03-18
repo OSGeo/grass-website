@@ -4,79 +4,24 @@ date: 2018-12-29T11:02:05+06:00
 layout: "brand"
 ---
 
-### Logotype
+## Logos
 
-<div class="container">
-<div class="row mt-30">
-<div class="col-lg-6 text-center panel">
-<img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS">
-</div>
+{{< brandLogoList >}}
+    {{< brandLogo colorName="Green"        logo="/images/logos/grass-green.svg"  >}}
+        The primary logo of the GRASS GIS project is the green logo. It is used in most cases to represent the project, including official documentation, promotional materials, and the website. This logo should be used whenever possible to maintain brand consistency and recognition.
+    {{</ brandLogo >}}
+    {{< brandLogo colorName="White"        logo="/images/logos/grass-white.svg" >}}
+        The monochrome logo of the GRASS GIS project is the white logo. It is used in contexts where color is not available or where a monochrome design is preferred, such as on printed materials or in black-and-white publications or on a <b class="grass-green">GRASS primary green</b> background.
+    {{</ brandLogo >}}
+    {{< brandLogo colorName="Blue"         logo="/images/logos/grass-blue.svg"  >}}
+        The secondary logo of the GRASS GIS project is the blue logo. It is used in contexts where a different color scheme is needed, such as on darker backgrounds or in materials where the primary green logo does not fit the design aesthetics.
+    {{</ brandLogo >}}
+    {{< brandLogo colorName="Gradient"     logo="/images/logos/grass-blue.svg"  >}}
+        The gradient logo of the GRASS GIS project is used in contexts where a gradient design is needed, such as on promotional materials or in materials where the primary green logo does not fit the design aesthetics.
+    {{</ brandLogo >}}
+{{</ brandLogoList >}}
 
-<div class="col-lg-6">
-This is the official <b class="grass-green">GRASS</b> logo. Please use it to refer  to the GRASS project, software or community, and do not alter its shape or color.
-<div class="row mt-30">
-<div class="col-lg-6">
-<h4>Vector</h4>
-<hr>
-<ul class="list-unstyled dil">
-<li><a href="/images/logos/grass-green.svg"> <i class="fa fa-download"></i> (Green) Download SVG &#160; </a></li>
-<li><a href="/images/logos/grass-blue.svg"> <i class="fa fa-download"></i> (Blue) Download SVG &#160; </a></li>
-<li><a href="/images/logos/grass-white.svg"> <i class="fa fa-download"></i> (White) Download SVG &#160; </a></li>
-</ul>
-</div>
-
-<div class="col-lg-6">
-<h4>Raster</h4>
-<hr>
-<ul class="list-unstyled dil">
-    <i class="fa fa-download grass-blue"></i> Green
-    <ul class="list-unstyled dil">
-        <li><span>
-            <a href="/images/logos/grass-green-small.png">small &#160; </a>
-            <a href="/images/logos/grass-green-medium.png">medium &#160; </a>
-            <a href="/images/logos/grass-green-large.png">large &#160; </a>
-        </span></li>
-    </ul>
-    <i class="fa fa-download grass-blue"></i> Blue
-    <ul class="list-unstyled dil">
-        <li><span>
-            <a href="/images/logos/grass-blue-small.png">small &#160; </a>
-            <a href="/images/logos/grass-blue-medium.png">medium &#160; </a>
-            <a href="/images/logos/grass-blue-large.png">large &#160; </a>
-        </span></li>
-    </ul>
-    <i class="fa fa-download grass-blue"></i> White
-    <ul class="list-unstyled dil">
-        <li><span>
-            <a href="/images/logos/grass-white-small.png">small &#160; </a>
-            <a href="/images/logos/grass-white-medium.png">medium &#160; </a>
-            <a href="/images/logos/grass-white-large.png">large &#160; </a>
-        </span></li>
-    </ul>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-### Logotext
-
-<div class="row mt-30 mb-2">
-
-<div class="col-lg-6 col-sm-12">
-<p class="hdlg grass black-color text-center">GRASS</p>	
-</div>
-
-<div class="col-lg-6 col-sm-12">
-<p>The GRASS logo text is using the <b>Fira Sans</b></a> open font family.  'GRASS' is written  with <i>FiraSans Medium</i> typeface. </p>
-<ul class="list-unstyled dil">
-<li><a href="https://github.com/mozilla/Fira" target="_blank"><i class="fab fa-github"></i> mozilla/Fira</a></li>
-</ul>
-</div>
-</div>
-
-### Colors
+## Colors
 
 {{< brandColorList >}}
     {{< brandColor colorName="Primary"   hex="#4cb05b" >}}
@@ -85,11 +30,9 @@ This is the official <b class="grass-green">GRASS</b> logo. Please use it to ref
     {{< brandColor colorName="White"     hex="#f7f7f7" >}}
 {{</ brandColorList >}}
 
-<div class="col-lg-6 col-sm-12">
-    These are the <strong>main colors</strong> used for the <strong>GRASS logo</strong>.
-    The GRASS weed is green, frame and text are black.
-    Monochrome version of the logo is also allowed.
-</div>
+These are the **main colors** used for the  **GRASS logo**.
+The GRASS weed is green, frame and text are black.
+Monochrome version of the logo is also allowed.
 
 ### Web theme
 
