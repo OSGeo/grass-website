@@ -38,18 +38,4 @@ Monochrome version of the logo is also allowed.
 
 ### Web theme
 
-<div class="row mt-30 mb-2">
-
-<div class="col-lg-6">
-<div class="text-center grass-green-bg mx-auto">
-<h1 class="mb-0"><img alt="GRASS" src="../../images/logos/grass-white.svg" width="40%">
-<p class="text-bold mb-4 white-color">Bringing advanced geospatial technologies to the world</p></h1>
-</div>
-</div>
-<div class="col-lg-6">
-<p>This website is using the <a class="bigr" href="/about/theme"><span class="grass-green grass">GRASS</span></a> web theme for Hugo, which extends the GRASS brand for web and mobile.</p>
-
-<a class="btn btn-secondary" href="/about/theme">View theme</a>
-
-</div>
-</div>
+{{< brandWebBanner >}}
