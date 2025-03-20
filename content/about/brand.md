@@ -10,16 +10,16 @@ Welcome to the GRASS branding guide! Here you can learn about how to use GRASS l
 
 {{< brandLogoList >}}
     {{< brandLogo colorName="Green"        logo="/images/logos/grass-green.svg"  >}}
-        The primary logo of the GRASS project is the green logo. It is used in most cases to represent the project, including official documentation, promotional materials, and the website. This logo should be used whenever possible to maintain brand consistency and recognition.
+        The green logo is the primary version of the logo for white and light gray backgrounds. This logo should be used whenever possible to maintain brand consistency.
     {{</ brandLogo >}}
     {{< brandLogo colorName="White"        logo="/images/logos/grass-white.svg" >}}
-        The monochrome logo of the GRASS project is the white logo. It is used in contexts where color is not available or where a monochrome design is preferred, such as on printed materials or in black-and-white publications or on a <b class="grass-green">GRASS primary green</b> background.
+        The white logo should be used on green backgrounds, photographs of grass, and other pictures as long as they provide sufficient contrast. Use with the brand green color or a grass photograph in the background is preferred to maintain brand consistency.
     {{</ brandLogo >}}
     {{< brandLogo colorName="Blue"         logo="/images/logos/grass-blue.svg"  >}}
         The secondary logo of the GRASS project is the blue logo. It is used in contexts where a different color scheme is needed, such as on darker backgrounds or in materials where the primary green logo does not fit the design aesthetics.
     {{</ brandLogo >}}
     {{< brandLogo colorName="Gradient"     logo="/images/logos/grass-blue.svg"  >}}
-        The gradient logo of the GRASS project is used in contexts where a gradient design is needed, such as on promotional materials or in materials where the primary green logo does not fit the design aesthetics.
+        The gradient logo can be used when it fits the overall design context or when multiple colors are required and the combination of the brand green color and white color are not sufficient. The gradient logo should be used only with extra care. The gradient logo should not be used on a (any) green or (any) blue background or with multicolor backgrounds. An example of appropriate usage is for a sticker, or white T-shirt.
     {{</ brandLogo >}}
 {{</ brandLogoList >}}
 
