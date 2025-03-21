@@ -4,7 +4,7 @@ date: 2018-12-29T11:02:05+06:00
 layout: "brand"
 ---
 
-Welcome to the GRASS branding guide! Here you can learn about how to use GRASS logos and colors.
+Whether you are contributing to GRASS or creating materials which involve GRASS, help the project by keeping these branding guidelines.
 
 ## Logos
 
@@ -15,10 +15,7 @@ Welcome to the GRASS branding guide! Here you can learn about how to use GRASS l
     {{< brandLogo colorName="White"        logo="/images/logos/grass-white.svg" >}}
         The white logo should be used on green backgrounds, photographs of grass, and other pictures as long as they provide sufficient contrast. Use with the brand green color or a grass photograph in the background is preferred to maintain brand consistency.
     {{</ brandLogo >}}
-    {{< brandLogo colorName="Blue"         logo="/images/logos/grass-blue.svg"  >}}
-        The secondary logo of the GRASS project is the blue logo. It is used in contexts where a different color scheme is needed, such as on darker backgrounds or in materials where the primary green logo does not fit the design aesthetics.
-    {{</ brandLogo >}}
-    {{< brandLogo colorName="Gradient"     logo="/images/logos/grass-blue.svg"  >}}
+    {{< brandLogo colorName="Gradient"     logo="/images/logos/grass-gradient.svg"  >}}
         The gradient logo can be used when it fits the overall design context or when multiple colors are required and the combination of the brand green color and white color are not sufficient. The gradient logo should be used only with extra care. The gradient logo should not be used on a (any) green or (any) blue background or with multicolor backgrounds. An example of appropriate usage is for a sticker, or white T-shirt.
     {{</ brandLogo >}}
 {{</ brandLogoList >}}
@@ -26,15 +23,40 @@ Welcome to the GRASS branding guide! Here you can learn about how to use GRASS l
 ## Colors
 
 {{< brandColorList >}}
-    {{< brandColor colorName="Primary"   hex="#4cb05b" >}}
-    {{< brandColor colorName="Secondary" hex="#00393f" >}}
-    {{< brandColor colorName="Black"     hex="#021905" >}}
-    {{< brandColor colorName="White"     hex="#f7f7f7" >}}
+    {{< brandColor colorName="Green"   hex="#4cb05b" className="grass-green" cssVariableName="primary" >}}
+    {{< brandColor colorName="Alt-Green"   hex="#6ed079" className="grass-green-alt" cssVariableName="primary-alt" >}}
+    {{< brandColor colorName="Light Green"   hex="#87e991" className="grass-green-light" cssVariableName="primary-ligh" >}}
+    {{< brandColor colorName="Dark Green"   hex="#088b36" className="grass-green-dark" cssVariableName="primary-dark" >}}
 {{</ brandColorList >}}
 
-These are the **main colors** used for the  **GRASS logo**.
-The GRASS weed is green, frame and text are black.
-Monochrome version of the logo is also allowed.
+{{< brandColorList >}}
+    {{< brandColor colorName="Blue" hex="#00393f" className="grass-blue" cssVariableName="secondary" >}}
+    {{< brandColor colorName="Alt-Blue" hex="#27575c" className="grass-blue" cssVariableName="secondary-alt" >}}
+    {{< brandColor colorName="Light Blue" hex="#4a787d" className="grass-blue" cssVariableName="secondary-light" >}}
+    {{< brandColor colorName="Dark Blue" hex="#002024" className="grass-blue" cssVariableName="secondary-dark" >}}
+{{</ brandColorList >}}
+
+{{< brandColorList >}}
+    {{< brandColor colorName="Grey" className="grey-color" cssVariableName="grey"    hex="#91908f" >}}
+    {{< brandColor colorName="Alt-Grey"     hex="#d8d8d8" className="grey-color-alt" cssVariableName="grey-alt" >}}
+    {{< brandColor colorName="Light Grey"     hex="#f0f0f1" className="grey-color-light" cssVariableName="grey-light" >}}
+    {{< brandColor colorName="Dark Grey"     hex="#757473" className="grey-color-dark" cssVariableName="grey-dark" >}}
+{{</ brandColorList >}}
+
+{{< brandColorList >}}
+  {{< brandColor
+    colorName="Black"
+    hex="#021905"
+    className="black-color"
+    cssVariableName="black"
+  >}}
+  {{< brandColor
+    colorName="White"
+    hex="#f7f7f7"
+    className="white-color"
+    cssVariableName="white"
+  >}}
+{{</ brandColorList >}}
 
 ### Web theme
 

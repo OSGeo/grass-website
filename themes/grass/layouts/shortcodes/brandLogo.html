@@ -1,18 +1,17 @@
 {{- $logo := .Get "logo" -}}
 {{- $colorName := .Get "colorName" -}}
 
-<div class="col-lg-4 col-sm-12">
-    <h3 class="grass-{{ $colorName | lower }}">{{ $colorName }}</h3>
+<div class="col-lg-3 col-sm-12 mb-3">
     {{- if eq $colorName "White" -}}
     <img class="grass-green-bg" width="90%" src="{{ $logo }}" alt="logo-{{ $colorName | lower }}">
     {{- else}}
-    <img class="white-color-bg" width="90%" src="{{ $logo }}" alt="logo-{{ $colorName | lower }}">
+    <img class="bg-base-white" width="90%" src="{{ $logo }}" alt="logo-{{ $colorName | lower }}">
     {{- end}}
-    <div class="col-sm-12">
+    <div class="col-sm-12 brand-logo-download">
         <b>SVG:</b> &#160;<a href="/images/logos/grass-{{ $colorName | lower }}.svg"> <i class="fa fa-download"></i> Vector
             &#160; </a>
         <div>
-            <span>
+            <span >
                 <b>PNG:</b> &#160;
                 <a href="/images/logos/grass-{{ $colorName | lower }}-small.png"> <i class="fa fa-download"></i> sm &#160; </a>
                 <a href="/images/logos/grass-{{ $colorName | lower }}-medium.png"> <i class="fa fa-download"></i> md &#160; </a>
@@ -21,8 +20,14 @@
         </div>
     </div>
 </div>
-<div class="col-lg-8 col-sm-12">
-    <div class="h3">&#160;</div>
+<div class="col-lg-3 col-sm-12">
+    {{- if eq $colorName "White" -}}
+    <img class="grass-bg-image " width="90%" src="{{ $logo }}" alt="logo-{{ $colorName | lower }}">
+    {{- else}}
+    <img class="white-color-bg" width="90%" src="{{ $logo }}" alt="logo-{{ $colorName | lower }}">
+    {{- end}}
+</div>
+<div class="col-lg-6 col-sm-12">
     {{ .Inner }}
 </div>
 
