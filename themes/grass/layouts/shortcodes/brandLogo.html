@@ -1,5 +1,9 @@
 {{- $colorName := .Get "colorName" -}}
-
+<div class="col-lg-12">
+    <h4>{{ $colorName }}</h4>
+    {{ .Inner }}
+    <hr>
+</div>
 <div class="col-lg-3 col-sm-12 mb-3">
     {{- if eq $colorName "White" -}}
     <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" download>
@@ -16,76 +20,77 @@
         <img class="bg-base-white p-2" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" alt="logo-{{ $colorName | lower }}">
     </a>
     {{- end}}
-    <div class="col-sm-12 brand-logo-download">
-        <b>SVG:</b> &#160;<a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"> <i class="fa fa-download"></i> vector
-            &#160; </a><a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"> <i class="fa fa-download"></i> vector-no-text
-                &#160; </a>
-        <div>
-            <span >
-                <b>PNG:</b> &#160;
-                <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-small.png"> <i class="fa fa-download"></i> sm &#160; </a>
-                <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-medium.png"> <i class="fa fa-download"></i> md &#160; </a>
-                <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-large.png"> <i class="fa fa-download"></i> lg &#160; </a>
-            </span>
-        </div>
-    </div>
+    
 </div>
 <div class="col-lg-3 col-sm-12">
     {{- if eq $colorName "White" -}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" download>
-        <img class="grass-bg-image" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" alt="logo-{{ $colorName | lower }}">
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
+        download>
+        <img class="grass-bg-image" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
+            alt="logo-{{ $colorName | lower }}">
     </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" download>
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+        download>
         <img class="grass-bg-image p-2" width="100%"
-            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" alt="logo-{{ $colorName | lower }}">
+            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+            alt="logo-{{ $colorName | lower }}">
     </a>
     {{- else}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" download>
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
+        download>
         <img class="white-color-bg" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
             alt="logo-{{ $colorName | lower }}">
     </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" download>
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+        download>
         <img class="white-color-bg p-2" width="100%"
-                src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" alt="logo-{{ $colorName | lower }}">
+            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+            alt="logo-{{ $colorName | lower }}">
     </a>
     {{- end}}
 </div>
+
 <div class="col-lg-6 col-sm-12">
-    <div class="row">
-        <hr>
-        <div class="col-lg-12">
-            {{ .Inner }}
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-            {{- if eq $colorName "White" -}}
-            <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
-                <img class="grass-green-bg p-2 mt-4" width="100%"
+    {{- if eq $colorName "White" -}}
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
+        <img class="grass-green-bg p-2" width="100%"
+            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+                alt="logo-{{ $colorName | lower }}">
+    </a>
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
+        <img class="grass-bg-image p-2" width="100%"
                 src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
                 alt="logo-{{ $colorName | lower }}">
-            </a>
-            <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
-                <img class="grass-bg-image p-2" width="100%"
-                    src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
-                    alt="logo-{{ $colorName | lower }}">
-            </a>
-            {{- else}}
-            <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
-                <img class="bg-base-white p-2 mt-4" width="100%"
-                    src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
-                    alt="logo-{{ $colorName | lower }}">
-            </a>
-            <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
-                <img class="white-color-bg p-2" width="100%"
-                    src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
-                    alt="logo-{{ $colorName | lower }}">
-            </a>
-            {{- end}}
-        </div>
-        
+        </a>
+    {{- else}}
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
+        <img class="bg-base-white p-2" width="100%"
+            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+            alt="logo-{{ $colorName | lower }}">
+    </a>
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
+        <img class="white-color-bg p-2" width="100%"
+            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+            alt="logo-{{ $colorName | lower }}">
+        </a>
+        {{- end}}
+</div>
+<div class="col-sm-12 brand-logo-download">
+    <b>{{ $colorName }} SVG:</b> &#160;<a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"> <i
+            class="fa fa-download"></i> vector
+        &#160; </a><a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"> <i
+            class="fa fa-download"></i> vector-no-text
+        &#160; </a>
+    <div>
+        <span>
+            <b>{{ $colorName }} PNG:</b> &#160;
+            <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-small.png"> <i
+                    class="fa fa-download"></i> sm &#160; </a>
+            <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-medium.png"> <i
+                    class="fa fa-download"></i> md &#160; </a>
+            <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-large.png"> <i
+                    class="fa fa-download"></i> lg &#160; </a>
+        </span>
     </div>
 </div>
-
 

@@ -1793,9 +1793,7 @@ code{
 
 .brand-logo-download-image::after {
   content: "\f019";
-  /* Font Awesome download icon */
   font-family: "Font Awesome 5 Free";
-  /* Ensure Font Awesome is loaded */
   font-weight: 900;
   position: absolute;
   top: 50%;
@@ -1812,7 +1810,7 @@ code{
   opacity: 1;
 }
 
-.grass-gradient-text {
+.grass-gradient {
   /* font-size: 2.25rem;
   margin-bottom: 1rem; */
   font-family: var(--gs-grass-font);

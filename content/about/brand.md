@@ -58,6 +58,6 @@ Whether you are contributing to GRASS or creating materials which involve GRASS,
   >}}
 {{</ brandColorList >}}
 
-### Web theme
+<!-- ### Web theme
 
-{{< brandWebBanner >}}
+{{< brandWebBanner >}} -->
