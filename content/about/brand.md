@@ -9,13 +9,13 @@ Whether you are contributing to GRASS or creating materials which involve GRASS,
 ## Logos
 
 {{< brandLogoList >}}
-    {{< brandLogo colorName="Green"        logo="/images/logos/grass-green.svg"  >}}
+    {{< brandLogo colorName="Green" >}}
         The green logo is the primary version of the logo for white and light gray backgrounds. This logo should be used whenever possible to maintain brand consistency.
     {{</ brandLogo >}}
-    {{< brandLogo colorName="White"        logo="/images/logos/grass-white.svg" >}}
+    {{< brandLogo colorName="White" >}}
         The white logo should be used on green backgrounds, photographs of grass, and other pictures as long as they provide sufficient contrast. Use with the brand green color or a grass photograph in the background is preferred to maintain brand consistency.
     {{</ brandLogo >}}
-    {{< brandLogo colorName="Gradient"     logo="/images/logos/grass-gradient.svg"  >}}
+    {{< brandLogo colorName="Gradient" >}}
         The gradient logo can be used when it fits the overall design context or when multiple colors are required and the combination of the brand green color and white color are not sufficient. The gradient logo should be used only with extra care. The gradient logo should not be used on a (any) green or (any) blue background or with multicolor backgrounds. An example of appropriate usage is for a sticker, or white T-shirt.
     {{</ brandLogo >}}
 {{</ brandLogoList >}}

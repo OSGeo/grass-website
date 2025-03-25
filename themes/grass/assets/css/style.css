@@ -1774,9 +1774,50 @@ code{
   font-size: 0.75rem
 }
 
-.grass-gradient-h1 {
-  font-size: 72px;
+.brand-logo-download-image {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.brand-logo-download-image img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.brand-logo-download-image:hover img {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.brand-logo-download-image::after {
+  content: "\f019";
+  /* Font Awesome download icon */
+  font-family: "Font Awesome 5 Free";
+  /* Ensure Font Awesome is loaded */
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--gs-secondary-dark-color);
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.brand-logo-download-image:hover::after {
+  opacity: 1;
+}
+
+.grass-gradient-text {
+  /* font-size: 2.25rem;
+  margin-bottom: 1rem; */
+  font-family: var(--gs-grass-font);
   background: -webkit-linear-gradient(var(--gs-primary-color), var(--gs-secondary-color));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
