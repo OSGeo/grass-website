@@ -7,3 +7,13 @@ resources/
 
 # Ignore the Windows Hugo executable
 hugo.exe
+
+# Node
+node_modules/
+
+# Python
+.venv/
+.python-version
+uv.lock
+
+screenshots/images/screenshot*.png
