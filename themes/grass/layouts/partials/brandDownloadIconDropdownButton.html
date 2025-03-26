@@ -1,0 +1,200 @@
+{{ $colorName := .Params.colorName }}
+{{ $colorNameLower := $colorName | lower }}
+
+{{ $grassLogoBase := printf "%simages/logos/grass-logo/grass-logo-%s" .Site.BaseURL $colorNameLower }}
+
+{{ $grassLogoWhiteBg05x := printf "%s-white-bg@05x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoWhiteBg1x := printf "%s-white-bg@1x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoWhiteBg2x := printf "%s-white-bg@2x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoWhiteBg3x := printf "%s-white-bg@3x.png" $grassLogoBase | safeHTMLAttr }}
+
+{{ $grassLogoGreyBg05x := printf "%s-grey-bg@05x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoGreyBg1x := printf "%s-grey-bg@1x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoGreyBg2x := printf "%s-grey-bg@2x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoGreyBg3x := printf "%s-grey-bg@3x.png" $grassLogoBase | safeHTMLAttr }}
+
+{{ $grassLogoImageBg05x := printf "%s-image-bg@05x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoImageBg1x := printf "%s-image-bg@1x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoImageBg2x := printf "%s-image-bg@2x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoImageBg3x := printf "%s-image-bg@3x.png" $grassLogoBase | safeHTMLAttr }}
+
+{{ $grassLogoTransparentBg05x := printf "%s-transparent@05x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoTransparentBg1x := printf "%s-transparent@1x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoTransparentBg2x := printf "%s-transparent@2x.png" $grassLogoBase | safeHTMLAttr }}
+{{ $grassLogoTransparentBg3x := printf "%s-transparent@3x.png" $grassLogoBase | safeHTMLAttr }}
+
+{{ $grassLogoSimpleBase := printf "%simages/logos/grass-logo-simple/grass-logo-%s-simple" .Site.BaseURL $colorNameLower }}
+{{ $grassLogoSimple05x := printf "%s@05x.png" $grassLogoSimpleBase | safeHTMLAttr }}
+{{ $grassLogoSimple1x := printf "%s@1x.png" $grassLogoSimpleBase | safeHTMLAttr }}
+{{ $grassLogoSimple2x := printf "%s@2x.png" $grassLogoSimpleBase | safeHTMLAttr }}
+{{ $grassLogoSimple3x := printf "%s@3x.png" $grassLogoSimpleBase | safeHTMLAttr }}
+
+
+{{ $grassLogoHorizontalBase := printf "%simages/logos/grass-horizontal/grass-logo-%s-horizontal" .Site.BaseURL $colorNameLower }}
+{{ $grassLogoHorizontal05x := printf "%s@05x.png" $grassLogoHorizontalBase | safeHTMLAttr }}
+{{ $grassLogoHorizontal1x := printf "%s@1x.png" $grassLogoHorizontalBase | safeHTMLAttr }}
+{{ $grassLogoHorizontal2x := printf "%s@2x.png" $grassLogoHorizontalBase | safeHTMLAttr }}
+{{ $grassLogoHorizontal3x := printf "%s@3x.png" $grassLogoHorizontalBase | safeHTMLAttr }}
+
+
+
+<div class="col-lg-6 col-sm-12 mr-1">
+    <!-- Logo -->
+    <div class="btn-group mr-1">
+        <div class="dropdown mr-1">
+        <button 
+            class="btn dropdown-toggle"
+            id="dropdownDowloadLogoButton{{ $colorName }}"
+            type="button"
+            aria-haspopup="true"
+            data-toggle="dropdown"
+            aria-expanded="false">
+        <i class="fa fa-download"></i> Logo
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownDowloadLogoButton{{ $colorName }}">
+                <h6 class="dropdown-header">Transparent Background</h6>
+                <a class="dropdown-item" 
+                    href="{{ $grassLogoTransparentBg05x }}" 
+                    download> 
+                    <i class="fa fa-download"></i> 0.5x
+                    &#160; 
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoTransparentBg1x }}"
+                    download>
+                    <i class="fa fa-download"></i> 1x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoTransparentBg2x }}"
+                    download>
+                    <i class="fa fa-download"></i> 2x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoTransparentBg3x }}"
+                    download>
+                    <i class="fa fa-download"></i> 3x
+                    &#160;
+                </a>
+
+                <h6 class="dropdown-header">White Background</h6>
+                <a class="dropdown-item" href="{{ $grassLogoWhiteBg05x }}" download>
+                    <i class="fa fa-download"></i> 0.5x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoWhiteBg1x }}" download>
+                    <i class="fa fa-download"></i> 1x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoWhiteBg2x }}" download>
+                    <i class="fa fa-download"></i> 2x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoWhiteBg3x }}" download>
+                    <i class="fa fa-download"></i> 3x
+                    &#160;
+                </a>
+
+                <h6 class="dropdown-header">Grey Background</h6>
+                <a class="dropdown-item" href="{{ $grassLogoGreyBg05x }}" download>
+                    <i class="fa fa-download"></i> 0.5x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoGreyBg1x }}" download>
+                    <i class="fa fa-download"></i> 1x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoGreyBg2x }}" download>
+                    <i class="fa fa-download"></i> 2x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoGreyBg3x }}" download>
+                    <i class="fa fa-download"></i> 3x
+                    &#160;
+                </a>
+
+                <h6 class="dropdown-header">Image Background</h6>
+                <a class="dropdown-item" href="{{ $grassLogoImageBg05x }}" download>
+                    <i class="fa fa-download"></i> 0.5x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoImageBg1x }}" download>
+                    <i class="fa fa-download"></i> 1x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoImageBg2x }}" download>
+                    <i class="fa fa-download"></i> 2x
+                    &#160;
+                </a>
+                <a class="dropdown-item" href="{{ $grassLogoImageBg3x }}" download>
+                    <i class="fa fa-download"></i> 3x
+                    &#160;
+                </a>
+        </div>
+        </div>
+
+
+
+        <!-- Simple Logo -->
+        <div class="dropdown mr-1">
+        <button class="btn dropdown-toggle" id="dropdownDowloadLogoButtonSimple{{ $colorName }}" type="button"
+            aria-haspopup="true" data-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-download"></i> Simple Logo
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownDowloadLogoButtonSimple{{ $colorName }}">
+            <h6 class="dropdown-header">Simple Logo</h6>
+            <a class="dropdown-item"
+                href="{{ $grassLogoSimple05x }}"
+                download>
+                <i class="fa fa-download"></i> 0.5x
+                &#160;
+            </a>
+            <a class="dropdown-item"
+                href="{{ $grassLogoSimple1x }}"
+                download>
+                <i class="fa fa-download"></i> 1x
+                &#160;
+            </a>
+            <a class="dropdown-item"
+                href="{{ $grassLogoSimple2x }}"
+                download>
+                <i class="fa fa-download"></i> 2x
+                &#160;
+            </a>
+            <a class="dropdown-item"
+                href="{{ $grassLogoSimple3x }}"
+                download>
+                <i class="fa fa-download"></i> 3x
+                &#160;
+            </a>
+        </div>
+    </div>
+
+
+
+        <!-- Horizontal logo -->
+        <div class="dropdown mr-1">
+        <button class="btn dropdown-toggle" id="dropdownDowloadLogoHorizontal{{ $colorName }}" type="button"
+            aria-haspopup="true" data-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-download"></i> Horizontal Logo
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownDowloadLogoHorizontal{{ $colorName }}">
+            <h6 class="dropdown-header">Horizontal Logo</h6>
+            <a class="dropdown-item" href="{{ $grassLogoHorizontal05x }}" download>
+                <i class="fa fa-download"></i> 0.5x
+                &#160;
+            </a>
+            <a class="dropdown-item" href="{{ $grassLogoHorizontal1x }}" download>
+                <i class="fa fa-download"></i> 1x
+                &#160;
+            </a>
+            <a class="dropdown-item" href="{{ $grassLogoHorizontal2x }}" download>
+                <i class="fa fa-download"></i> 2x
+                &#160;
+            </a>
+            <a class="dropdown-item" href="{{ $grassLogoHorizontal3x }}" download>
+                <i class="fa fa-download"></i> 3x
+                &#160;
+            </a>
+            </div>
+        </div>
+    </div>
+</div>

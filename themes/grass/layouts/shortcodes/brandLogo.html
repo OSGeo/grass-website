@@ -76,12 +76,12 @@
         {{- end}}
 </div>
 <div class="col-sm-12 brand-logo-download">
-    <b>{{ $colorName }} SVG:</b> &#160;<a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"> <i
+    <!-- <b>{{ $colorName }} SVG:</b> &#160;<a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"> <i
             class="fa fa-download"></i> vector
         &#160; </a><a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"> <i
             class="fa fa-download"></i> vector-no-text
-        &#160; </a>
-    <div>
+        &#160; </a> -->
+    <!-- <div>
         <span>
             <b>{{ $colorName }} PNG:</b> &#160;
             <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-small.png"> <i
@@ -91,6 +91,7 @@
             <a href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-large.png"> <i
                     class="fa fa-download"></i> lg &#160; </a>
         </span>
-    </div>
+    </div> -->
+    {{ partial "brandDownloadIconDropdownButton.html" . }}
 </div>
 
