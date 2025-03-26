@@ -132,6 +132,13 @@ p, .paragraph {
     margin-left: -.25rem;
 }
 
+.grass-icon {
+  width: 1em;
+  height: 1em;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--gs-header-font);
   font-weight: 700;
