@@ -289,9 +289,8 @@ a.nws:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-image: linear-gradient(to bottom,
-        var(--gs-secondary-color--light) 40%,
-        var(--gs-secondary-color--lighter) 80%,
-        var(--gs-secondary-color--lightest) 100%),
+        var(--gs-secondary-color--light) 0%,
+        var(--gs-secondary-color--light) 100%),
         var(--gs-grass-background-image);
 }
 .mwl {
