@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
   {{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
+  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-3.3.1.slim.min.js"></script>
   <link rel="android-chrome-192x192" sizes="192x192" href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="android-chrome-512x512" sizes="512x512" href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-57x57.png">
