@@ -870,12 +870,7 @@ pre {
 }
 
 .gitter-banner {
-  background: linear-gradient(
-    45deg, 
-    rgb(135, 233, 145) 0%, /*--gs-primary-light-color*/
-    rgba(8, 139, 54, 1) 50%, /*--gs-primary-dark-color*/
-    rgb(135, 233, 145) 100% /*--gs-primary-light-color*/
-  ); 
+  background: var(--gs-secondary-color);
   text-align: center;
   color: var(--gs-grey-light-color);
   font-weight: bolder;
