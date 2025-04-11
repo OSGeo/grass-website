@@ -17,8 +17,8 @@ Before giving you some tips on how to start, two remarks:
 
 * The GRASS GIS [**community**](/about/community) is a very friendly 
 environment and newbies are well treated whatever your questions
-or difficulties. So, you should never hesitate to sign up to the 
-[**grass-user mailing list**](https://lists.osgeo.org/mailman/listinfo/grass-user) 
+or difficulties. So, you should never hesitate to ask on the
+[**GRASS user forum**](https://discourse.osgeo.org/c/grass/user/70)
 or use any of the social media channels to reach out and call for help.
 * GRASS GIS is extremely powerful and the more you understand some 
 of the **basic concepts** behind GRASS GIS, the more you will be 

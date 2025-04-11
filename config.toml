@@ -255,6 +255,10 @@ icon = " fab fa-github"
 link = "https://github.com/OSGeo/grass"
 
 [[Languages.en.params.socialIcon]]
+icon = " fab fa-discourse"
+link = "https://discourse.osgeo.org/c/grass/62"
+
+[[Languages.en.params.socialIcon]]
 icon = " fa fa-comments"
 link = "https://gitter.im/grassgis/community"
 
