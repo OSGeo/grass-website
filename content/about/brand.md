@@ -57,7 +57,3 @@ Whether you are contributing to GRASS or creating materials which involve GRASS,
     cssVariableName="white"
   >}}
 {{</ brandColorList >}}
-
-<!-- ### Web theme
-
-{{< brandWebBanner >}} -->
