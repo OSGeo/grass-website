@@ -16,9 +16,7 @@
     <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" download>
         <img class="bg-base-white" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" alt="logo-{{ $colorName | lower }}">
     </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" download>
-        <img class="bg-base-white p-2" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" alt="logo-{{ $colorName | lower }}">
-    </a>
+
     {{- end}}
     
 </div>
@@ -36,17 +34,12 @@
             alt="logo-{{ $colorName | lower }}">
     </a>
     {{- else}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
-        download>
-        <img class="white-color-bg" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
-            alt="logo-{{ $colorName | lower }}">
-    </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
-        download>
-        <img class="white-color-bg p-2" width="100%"
-            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
-            alt="logo-{{ $colorName | lower }}">
-    </a>
+        <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+            download>
+            <img class="bg-base-white p-2" width="100%"
+                src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+                alt="logo-{{ $colorName | lower }}">
+        </a>
     {{- end}}
 </div>
 
@@ -62,19 +55,20 @@
                 src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
                 alt="logo-{{ $colorName | lower }}">
         </a>
-    {{- else}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
+    {{- end}}
+</div>
+
+{{- if ne $colorName "White" -}}
+<div class="col-lg-6 col-sm-12">
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+            download>
         <img class="bg-base-white p-2" width="100%"
             src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
             alt="logo-{{ $colorName | lower }}">
     </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
-        <img class="white-color-bg p-2" width="100%"
-            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
-            alt="logo-{{ $colorName | lower }}">
-        </a>
-        {{- end}}
 </div>
+{{- end}}
+
 <div class="col-sm-12 brand-logo-download">
     <p>(Click Icons to download the SVG)</p>
     <h5>PNG Download</h5>
