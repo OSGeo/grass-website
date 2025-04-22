@@ -37,13 +37,6 @@ Whether you are contributing to GRASS or creating materials which involve GRASS,
 {{</ brandColorList >}}
 
 {{< brandColorList >}}
-    {{< brandColor colorName="Grey" className="grey-color" cssVariableName="grey"    hex="#91908f" >}}
-    {{< brandColor colorName="Alt-Grey"     hex="#d8d8d8" className="grey-color-alt" cssVariableName="grey-alt" >}}
-    {{< brandColor colorName="Light Grey"     hex="#f0f0f1" className="grey-color-light" cssVariableName="grey-light" >}}
-    {{< brandColor colorName="Dark Grey"     hex="#757473" className="grey-color-dark" cssVariableName="grey-dark" >}}
-{{</ brandColorList >}}
-
-{{< brandColorList >}}
   {{< brandColor
     colorName="Black"
     hex="#021905"
