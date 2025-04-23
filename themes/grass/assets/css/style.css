@@ -74,6 +74,7 @@
   --gs-white-color--lightest: rgba(247, 247, 247, 0.071);
   
   /* Black */
+  --gs-base-black-color: rgb(0, 0, 0);
   --gs-black-color: rgb(2, 25, 5);
   --gs-black-color--light: rgba(2, 25, 5, 0.541);
   --gs-black-color--lighter: rgba(2, 25, 5, 0.322);
@@ -98,10 +99,10 @@
   --gs-grey-light-color--lightest: rgba(240, 240, 241, 0.071);
 
   /* Dark Gray */
-  --gs-grey-dark-color: rgb(117, 116, 115);
-  --gs-grey-dark-color--light: rgba(117, 116, 115, 0.541);
-  --gs-grey-dark-color--lighter: rgba(117, 116, 115, 0.322);
-  --gs-grey-dark-color--lightest: rgba(117, 116, 115, 0.071);
+  --gs-grey-dark-color: rgb(78, 77, 76);
+  --gs-grey-dark-color--light: rgba(78, 77, 76, 0.541);
+  --gs-grey-dark-color--lighter: rgba(78, 77, 76, 0.322);
+  --gs-grey-dark-color--lightest: rgba(78, 77, 76, 0.071);
 
   /* Images */
   --gs-grass-background-image: url("/images/logos/banner.jpg");
