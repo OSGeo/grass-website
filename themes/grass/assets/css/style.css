@@ -4,9 +4,10 @@
   Use these variables to customize the GRASS theme.
   ----------------------------------------------------------------------------- */
   /* Fonts */
-  --gs-body-font: open_sansregular;
-  --gs-header-font: open_sansbold;
-  --gs-grass-font: fira_sansmedium;
+  --gs-grass-font: 'Fira Sans Regular', sans-serif;
+  --gs-grass-font--medium: 'Fira Sans Medium', sans-serif;
+  --gs-grass-font--bold: 'Fira Sans Bold', sans-serif;
+  --gs-grass-font--light: 'Fira Sans ExtraLight', sans-serif;
 
   /*  Main Colors 
   ------------------------------------------------------------------------------*/
@@ -110,7 +111,7 @@
 
 body {
   line-height: 1.8;
-  font-family: var(--gs-body-font); 
+  font-family: var(--gs-grass-font); 
   -webkit-font-smoothing: antialiased;
   font-size: 1rem;
   color: var(--gs-black-color);
@@ -123,10 +124,10 @@ p, .paragraph {
   color: var(--gs-black-color);
   font-size: 1rem;
   line-height: 1.8;
-  font-family: var(--gs-body-font);
+  font-family: var(--gs-grass-font);
 }
 .grass{
-    font-family: var(--gs-grass-font);
+    font-family: var(--gs-grass-font--medium);
 }
 .gis{
     font-family: fira_sansthin;
@@ -141,7 +142,7 @@ p, .paragraph {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--gs-header-font);
+  font-family: var(---gs-grass-font--bold);
   font-weight: 700;
 }
 
@@ -327,7 +328,7 @@ a.nws:hover {
 
 .btn {
   font-size: 14px;
-  font-family: var(--gs-body-font); 
+  font-family: var(--gs-grass-font); 
   text-transform: uppercase;
   padding: 6px 14px;
   border-radius: 0px;
@@ -478,7 +479,7 @@ a, button, select {
 .section-title {
   margin-bottom: 32px;
   color: var(--gs-grey-dark-color) !important;
-  font-family: var(--gs-body-font) !important;
+  font-family: var(--gs-grass-font) !important;
   font-size: 28px;
   font-weight:100 !important;
 
@@ -832,7 +833,7 @@ pre {
   position: relative;
   color: var(--gs-grey-dark-color);
   transition: .2s ease;
-  font-family: var(--gs-body-font); 
+  font-family: var(--gs-grass-font); 
 }
 @media (max-width: 991px) {
   .navbar .dropdown-item {
