@@ -2,7 +2,7 @@
 title: "Support"
 date: 2024-11-23T12:00:00Z
 icon: "fa fa-life-ring"
-description: "Find community and commercial support for GRASS GIS software"
+description: "Find community and commercial support"
 type: "pages"
 layout: "support"
 ---
