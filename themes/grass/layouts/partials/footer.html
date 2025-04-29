@@ -1,35 +1,36 @@
 <footer class="section bg-gray pb-0">
-<div class="container">
-     <div class="row">
-      <div class="col-md-4 text-md-left text-center">
-       {{ with .Site.Params.copyright }} <p><small>&copy; {{ replace . "{year}" now.Year }} (<a href="/about/license/">license</a>&nbsp;|&nbsp;<a href="/about/privacy">privacy</a>)</small></p> {{ end }}
-      </div>
-      <div class="col-md-4 text-md-left text-center">
-        {{if .IsHome}}
-        <p><small><a href="about/mirrors">Mirror sites</a>
-        <a href="https://fosstodon.org/@grassgis" rel="me"></a> <!-- needed for verification -->
-        </small></p>
-        {{end}}
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-md-left text-center">
+        {{ with .Site.Params.copyright }} <p><small>&copy; {{ replace . "{year}" now.Year }} (<a href="/about/license/">license</a>&nbsp;|&nbsp;<a href="/about/privacy">privacy</a>)</small></p> {{ end }}
+        </div>
+        <div class="col-md-4 text-md-left text-center">
+          {{if .IsHome}}
+          <p><small><a href="about/mirrors">Mirror sites</a>
+          <a href="https://fosstodon.org/@grassgis" rel="me"></a> <!-- needed for verification -->
+          </small></p>
+          {{end}}
 
-	{{if not .IsHome}}
-	<p><small><a href="https://github.com/OSGeo/grass-website/tree/master/content/{{ .Section }}/{{ with .File }}{{ .BaseFileName }}{{ end }}.md" class="fab fa-github"> <span class="edt">Edit this page on GitHub</span></a></small></p>
-  {{end}}
-      </div>
-<div class="col-md-4 text-md-right text-center">	
-  <ul class="list-inline mb-3 d-flex justify-content-center justify-content-md-end align-items-center">
-    {{ range .Site.Params.socialIcon }}
-      <li class="list-inline-item d-flex align-items-center">
-        <a class="text-color d-inline-block p-2" href="{{ .link }}">
-          <i class="{{ .icon }}"></i>
-        </a>
-      </li>
-    {{ end }}
-  </ul>
-</div>
-</div>
-
+    {{if not .IsHome}}
+    <p><small><a href="https://github.com/OSGeo/grass-website/tree/master/content/{{ .Section }}/{{ with .File }}{{ .BaseFileName }}{{ end }}.md" class="fab fa-github"> <span class="edt">Edit this page on GitHub</span></a></small></p>
+    {{end}}
+        </div>
+  <div class="col-md-4 text-md-right text-center">	
+    <ul class="list-inline mb-3 d-flex justify-content-center justify-content-md-end align-items-center">
+      {{ range .Site.Params.socialIcon }}
+        <li class="list-inline-item d-flex align-items-center">
+          <a class="color-secondary d-inline-block p-2" href="{{ .link }}">
+            <i class="{{ .icon }}"></i>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
   </div>
+  </div>
+
+    </div>
 </footer>
+<script src="{{ .Site.BaseURL }}plugins/popper/popper.min.js"></script>
 <script src="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.js"></script>
 <script src="{{ .Site.BaseURL }}plugins/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>

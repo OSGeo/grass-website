@@ -4,20 +4,20 @@ date: 2023-08-27T18:10:27+02:00
 layout: theme
 ---
 
-## GRASS GIS web theme
+## Web Theme
 
 
 <div class="row mb-5">
 <div class="col-lg-4">
 <div class="">
 <div class="grassthm-sq text-center overlay">
-<img class="alt="GRASS GIS" src="../../images/logos/grasslogo.svg" width="33%">
+<img alt="GRASS" src="../../images/logos/grass-white.svg" width="33%">
 </div>
 </div>
 </div>
 <div class="col-lg-8">
-<p>This is the <a class="bigr" href="#"><i class="ms ms-grass-gis ms-1-5x"></i>&#160;<span class=" black-color grass">GRASS <span class="  black-color gis">GIS</span></span></a> web theme for Hugo. </p>
-<p>Please use assets and markup described in this section for extending the GRASS GIS website consistently.</p>
+<p>This is the <a class="bigr" href="#"><span class="grass grass-green">GRASS</span></a> web theme for Hugo. </p>
+<p>Please use assets and markup described in this section for extending the GRASS website consistently.</p>
 <p>Get and contribute to the website source code on <a href="https://github.com/OSGeo/grass-website"><i class="fab fa-github"></i> Github</a>. 
 
 </div>
@@ -129,114 +129,53 @@ layout: theme
 </div>
 </div>
 
-
 <h3>Colors</h3>
 
-<div class="row">
-  <div class="col-lg-3 col-sm-6">
-    <h4 class="grey-color-dark">GRASS green</h4><hr>
-    <div class="card grass-green-bg mb-4"></div>
-    <p class="command d-none d-lg-block">var(--grass-color)</p>
-	<small>
-		<ul class="list-unstyled">
-			<li><b>HEX</b>  &#160; #088B36</li>
-			<li><b>RGB</b>  &#160; 8,139,54</li>
-			<li><b>HSL</b> &#160; 120,100%,28%</li>
-		</ul>
-		</small>
-			<pre class="nm"><code class="hljs css">.grass-color</code></pre>
-	<hr class="mb-4">
-   </div>
+#### Primary
 
-<div class="col-lg-3 col-sm-6">
-<h4 class="grey-color-dark">Soft green</h4><hr><div class="card
-grass-green-alt-bg mb-4"></div>
-    <p class="command d-none d-lg-block">var(--grass-color-alt)</p>
-<small>
-<ul class="list-unstyled">
-<li><b>HEX</b>  &#160; #9ED29C</li>
-<li><b>RGB</b>  &#160; 158,210,156</li>
-<li><b>HSL</b> &#160; 188,38%,72%</li>
-</ul>
-</small>
-	<pre class="nm"><code class="hljs css">.grass-color-alt</code></pre>
-<hr></div>
+{{< brandColorList >}}
+    {{< brandColor colorName="Green"   hex="#4cb05b" className="grass-green" cssVariableName="primary" >}}
+    {{< brandColor colorName="Alt-Green"   hex="#6ed079" className="grass-green-alt" cssVariableName="primary-alt" >}}
+    {{< brandColor colorName="Light Green"   hex="#87e991" className="grass-green-light" cssVariableName="primary-ligh" >}}
+    {{< brandColor colorName="Dark Green"   hex="#088b36" className="grass-green-dark" cssVariableName="primary-dark" >}}
+{{</ brandColorList >}}
 
-<div class="col-lg-3"><h4 class="grey-color-dark">Light green</h4><hr><div class="card
-grass-green-light-bg mb-4"></div>
-    <p class="command d-none d-lg-block">var(--grass-color-light)</p>
-<small>
-<ul class="list-unstyled">
-<li><b>HEX</b>   &#160; #EFF4E8</li>
-<li><b>RGB</b>  &#160; 239,244,232</li>
-<li><b>HSL</b>  &#160;  85,35%,93%</li>
-</ul>
-</small>
-			<pre class="nm"><code class="hljs css">.grass-color-light</code></pre>
-<hr></div>
+#### Secondary
 
-<div class="col-lg-3"><h4 class="grey-color-dark">Dark green</h4><hr><div class="card grass-green-dark-bg mb-4"></div>
-    <p class="command d-none d-lg-block">var(--grass-color-dark)</p>
-<small>
-<ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #B8C6A5</li>
-<li><b>RGB</b>   &#160; 184,198,165</li>
-<li><b>HSL</b>  &#160; 85,22%,71%</li>
-</ul>
-</small>
-<pre class="nm"><code class="hljs css">.grass-color-dark</code></pre>
-<hr></div>
+{{< brandColorList >}}
+    {{< brandColor colorName="Blue" hex="#00393f" className="grass-blue" cssVariableName="secondary" >}}
+    {{< brandColor colorName="Alt-Blue" hex="#27575c" className="grass-blue" cssVariableName="secondary-alt" >}}
+    {{< brandColor colorName="Light Blue" hex="#4a787d" className="grass-blue" cssVariableName="secondary-light" >}}
+    {{< brandColor colorName="Dark Blue" hex="#002024" className="grass-blue" cssVariableName="secondary-dark" >}}
+{{</ brandColorList >}}
 
-<div class="col-lg-3"><h4 class="grey-color-dark">White</h4><hr><div class="card white-color-bg mb-2"></div>
-    <p class="command d-none d-lg-block">var(--white-color)</p> 
-<small>
-<ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #FFFFFF</li>
-<li><b>RGB</b>   &#160; 255,255,255</li>
-<li><b>HSL</b>  &#160; 0,0%,100%</li>
-</ul>
-</small>
-<pre class="nm"><code class="hljs css">.white-color</code></pre>
-<hr></div>
+#### Grey
 
-<div class="col-lg-3"><h4 class="grey-color-dark">Light grey</h4><hr><div class="card grey-color-light-bg mb-2"></div>
-<p class="command d-none d-lg-block">var(--grey-color-light)</p>
-<small>
-<ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #CCCCCC</li>
-<li><b>RGB</b>   &#160; 204,204,204</li>
-<li><b>HSL</b>  &#160; 0,0%,80%</li>
-</ul>
-</small>
-<pre class="nm"><code class="hljs css">.grey-color-light</code></pre>
-<hr></div>
+{{< brandColorList >}}
+{{< brandColor colorName="Grey" className="grey-color" cssVariableName="grey"    hex="#91908f" >}}
+{{< brandColor colorName="Alt-Grey"     hex="#d8d8d8" className="grey-color-alt" cssVariableName="grey-alt" >}}
+{{< brandColor colorName="Light Grey"     hex="#f0f0f1" className="grey-color-light" cssVariableName="grey-light" >}}
+{{< brandColor colorName="Dark Grey"     hex="#757473" className="grey-color-dark" cssVariableName="grey-dark" >}}
+{{</ brandColorList >}}
 
-<div class="col-lg-3"><h4 class="grey-color-dark">Dark grey</h4><hr><div class="card grey-color-dark-bg mb-2"></div>
-<p class="command d-none d-lg-block">var(--grey-color-dark)</p>
-<small>
-<ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #A0A0A0</li>
-<li><b>RGB</b>   &#160; 160,160,160</li>
-<li><b>HSL</b>  &#160; 0,0%,63%</li>
-</ul>
-</small>
-<pre class="nm"><code class="hljs css">.grey-color-dark</code></pre>
-<hr></div>
+#### Black & White
 
-<div class="col-lg-3"><h4 class="grey-color-dark">Black</h4><hr><div class="card black-color-bg mb-2"></div>
-    <p class="command d-none d-lg-block">var(--black-color)</p> 
-<small>
-<ul class="list-unstyled clr">
-<li><b>HEX</b>   &#160; #000000</li>
-<li><b>RGB</b>   &#160; 0,0,0</li>
-<li><b>HSL</b>  &#160; 0,0%,0%</li>
-</ul>
-</small>
-<pre class="nm"><code class="hljs css">.black-color</code></pre>
-<hr></div>
-</div>
+{{< brandColorList >}}
+  {{< brandColor
+    colorName="Black"
+    hex="#021905"
+    className="black-color"
+    cssVariableName="black"
+  >}}
+  {{< brandColor
+    colorName="White"
+    hex="#f7f7f7"
+    className="white-color"
+    cssVariableName="white"
+  >}}
+{{</ brandColorList >}}
 
-</div>
+</div> <!-- This div closes the assets tab -->
 
 <div class="tab-pane" id="tabs-1" role="tabpanel">
 <h3>Official logo</h3>
@@ -244,12 +183,12 @@ grass-green-light-bg mb-4"></div>
 
 <div class="row mt-30">
 <div class="col-lg-4 text-center panel">
-<img src="../../images/logos/grasslogo.svg" width="33%" alt="GRASS GIS">
+<img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS GIS">
 </div>
 
 <div class="col-lg-8">
 <small>HTML</small>
-<pre class="nm"><code class="hljs xml">&lt;img src="../../images/logos/grasslogo.svg" width="33%" alt="GRASS GIS" /&gt;</code></pre>
+<pre class="nm"><code class="hljs xml">&lt;img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS GIS" /&gt;</code></pre>
 
 </div>
 </div>
@@ -618,13 +557,5 @@ Default
 </code>
 </div>
 </div>
-
-
 </div>
-
-
-
-
-
-
 </div>

@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "GRASS",
+    "short_name": "GRASS",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
@@ -11,6 +11,15 @@
             "src": "android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "favicon.ico",
+            "sizes": "16x16 32x32 48x48 57x57 60x60 64x64 72x72 76x76 114x114 128x128 152x152 167x167 180x180 196x196 256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon-grass-green.svg",
+            "sizes": "any"
         }
     ],
     "theme_color": "#ffffff",
