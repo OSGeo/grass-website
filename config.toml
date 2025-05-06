@@ -128,7 +128,7 @@ weight = 3
 
 [[Languages.en.menu.main]]
 parent = "Download"
-name = "GRASS GIS for Mac"
+name = "GRASS for Mac"
 URL = "/download/mac"
 weight = 4
 
@@ -241,7 +241,7 @@ weight = 4
 
 # banner
 [Languages.en.params.banner]
-title = "GRASS GIS"
+title = "GRASS"
 description = "Bringing advanced geospatial technologies to the world"
 image = "/images/banner.jpg"
 
