@@ -4,27 +4,27 @@ date: 2025-05-11T10:12:05+02:00
 layout: "general"
 ---
 
-### Official main site via HTTP/FTP
+### Official main site
 
 * [Official main site: grass.osgeo.org](https://grass.osgeo.org/) (Portland, USA)
 
 ### African Web site mirrors
 
-* [South Africa](https://grass.mirror.ac.za/) (Tier 1,TENET)
-* [Morocco](https://grass.marwan.ma/) (Moroccan National Research and Education Network, MARWAN)
+* [Morocco](https://grass.marwan.ma/) (Tier 1, Moroccan National Research and Education Network, MARWAN)
+* [South Africa](https://grass.mirror.ac.za/) (Tier 1, TENET)
 
 ### European Web site mirrors
 
-* [Italy](https://grass.mirror.download.it) (Tier 1)
+* [Italy](https://grass.mirror.download.it) (Tier 1, Download.it)
 
 ### US Web site mirrors
 
-- [USA](https://mirrors.ibiblio.org/grass/html/) (Tier 1)
+- [USA](https://mirrors.ibiblio.org/grass/html/) (Tier 1, ibiblio)
 
 ### Mirror our website
 
 If you would like to support the GRASS community, do not hesitate to set up your mirror site.
-Please consider to [contact us](mailto:grass-web(at)lists.osgeo.org), ideally reporting your [already running mirror](/about/mirrors/).
+Please consider to [contact us](/support/), ideally reporting your [already running mirror](/about/mirrors/).
 
 #### Requirements:
 A GRASS mirror site requires around 23 GB space, the space requirements may vary due to the changing presence of precompiled binaries.
@@ -54,4 +54,4 @@ The main site hosted at OSGeo (grass.osgeo.org) can be mirrored with the ["rsync
   * `/usr/bin/rsync -az --port=50026 grass.osgeo.org::grass-website /var/www/html/mirror/grass-website`
   * This will copy/update the GRASS site to your local directory /var/www/html/mirror/grass-website/ which needs to be made available in your web server.
 * Check if the synchronization works the next day(s).
-* Announce the new mirror site for this mirror list to [us](mailto:grass-web(at)lists.osgeo.org).
+* Tell [us](/support/) about your new mirror site.
