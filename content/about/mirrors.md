@@ -14,16 +14,16 @@ layout: "general"
 
 ### African Web site mirrors
 
-- [Morocco](https://grass.marwan.ma/) (Tier 1, Moroccan National Research and Education Network, MARWAN)
-- [South Africa](https://grass.mirror.ac.za/) (Tier 1, TENET)
+- [Morocco](https://grass.marwan.ma/) (Moroccan National Research and Education Network, MARWAN)
+- [South Africa](https://grass.mirror.ac.za/) (TENET)
 
 ### European Web site mirrors
 
-- [Italy](https://grass.mirror.download.it) (Tier 1, Download.it)
+- [Italy](https://grass.mirror.download.it) (Download.it)
 
 ### US Web site mirrors
 
-- [USA](https://mirrors.ibiblio.org/grass/html/) (Tier 1, ibiblio)
+- [USA](https://mirrors.ibiblio.org/grass/html/) (ibiblio)
 
 ### Mirror our website
 
