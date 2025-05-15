@@ -3,7 +3,7 @@ theme = "grass"
 enableInlineShortcodes = true
 
 [params]
-description = "GRASS is a powerful engine for raster, vector, and geospatial processing, enabling advanced modeling, data management, imagery processing, and time series analysis with a Python API, optimized for large-scale analysis."
+description = "GRASS is a powerful open-source geospatial processing engine that supports advanced modeling, time series analysis, and spatial data management."
 keywords = "python, science, data science, machine learning, jupyter, vector, geospatial, parallel computing, gis, image processing, raster, spatial, open science, remote sensing, arrays, earth observation, geospatial analysis, timeseries analysis, open source, GRASS, FOSS4G, free open source GIS, mapping, mapping software, cartography, GIS data, open source 3D, geographic information system, free software, libre software, topology, visualization, hydrology, archaeology, 3D GIS"
 
 [sitemap]
