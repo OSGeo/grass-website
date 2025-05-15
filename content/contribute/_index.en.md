@@ -56,7 +56,7 @@ found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#Write
 The GRASS GIS core consists of libraries, tools and the Graphic User Interface.
 A good starting point is supporting us with [bug fixing and enhancement wishes](https://github.com/OSGeo/grass/issues).
 Review these [resources](/contribute/development) to learn how to develop and contribute code effectively.
-Feel free to announce your planned development to the [GRASS developers mailing list](https://lists.osgeo.org/mailman/listinfo/grass-dev), someone may join you or give you feedback.
+Feel free to announce your planned development to the [GRASS developers community](https://discourse.osgeo.org/c/grass/developer/61) on Discourse, someone may join you or give you feedback.
 
 For **paid opportunities** to develop code for GRASS GIS, check out our [stipend program](https://grasswiki.osgeo.org/wiki/Student_Grants) for students
 and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://trac.osgeo.org/grass/wiki/GSoC).
