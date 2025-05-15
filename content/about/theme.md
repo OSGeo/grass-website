@@ -1,561 +1,1232 @@
 ---
-title: "GRASS theme elements"
-date: 2023-08-27T18:10:27+02:00
+title: GRASS Quarto Design Guide
+description: Adopted from Quarto Documentation
+image: images/LinkedIn-Post-Image.png
+title-block-banner: true
+author:
+  - name: Corey White
+  - name: Sarah White
+date: May 5, 2025
+date-modified: today
+categories:
+  - design
+  - guide
+  - styling
+format:
+  hugo-md:
+    other-links:
+      - text: GRASS Website
+        href: https://grass.osgeo.org
+      - text: Quarto
+        href: https://quarto.org/
+    code-links:
+      - text: Data Import Code
+        icon: file-code
+        href: data-import.py
+    notebook-links: inline
+    code-tools: true
+    code-copy: true
+    code-fold: true
+    code-summary: Show the code
+    code-overflow: wrap
+profile: local
+toc: true
+toc-depth: 3
+listing:
+  - id: lab-reports
+    contents: '*.qmd'
+    type: table
+  - id: meeting-notes
+    contents: '*.qmd'
+    type: grid
+  - id: default-notes
+    contents: '*.qmd'
+    type: default
+citation:
+  type: article-journal
+  container-title: GRASS
+  volume: 1
+  issue: 1
+  issued: 2025-05
+  issn: 0000-0000
+  doi: 10.0000/0000000
+execute:
+  eval: true
+  echo: true
+  output: true
 layout: theme
 ---
 
-## Web Theme
+This document demonstrates various components available in Quarto.
 
+Heading 1 is bolded and used as the title of the page.
 
-<div class="row mb-5">
-<div class="col-lg-4">
-<div class="">
-<div class="grassthm-sq text-center overlay">
-<img alt="GRASS" src="../../images/logos/grass-white.svg" width="33%">
-</div>
-</div>
-</div>
-<div class="col-lg-8">
-<p>This is the <a class="bigr" href="#"><span class="grass grass-green">GRASS</span></a> web theme for Hugo. </p>
-<p>Please use assets and markup described in this section for extending the GRASS website consistently.</p>
-<p>Get and contribute to the website source code on <a href="https://github.com/OSGeo/grass-website"><i class="fab fa-github"></i> Github</a>. 
+# Heading 1
 
-</div>
-</div>
+``` md
+# Heading 1
+```
 
+Heading 2 is thined and used to introduce a new section or topic within a page.
 
-<ul id="tabt" class="nav nav-tabs nm" role="tablist">
-	<li class="nav-item">
-		<a class="nav-link active" data-toggle="tab" href="#assets" role="tab">Assets</a>
-		</li>
-		<li class="nav-item">
-		<a class="nav-link" data-toggle="tab" href="#tabs-1" role="tab">Logo</a>
-		</li>
-		<li class="nav-item">
-		<a class="nav-link" data-toggle="tab" href="#text" role="tab">Text</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" data-toggle="tab" href="#links" role="tab">Links</a>
-		</li>
-		<li class="nav-item">
-		<a class="nav-link" data-toggle="tab" href="#icons" role="tab">Icons</a>
-	</li>
-	<li class="nav-item">
-	<a class="nav-link" data-toggle="tab" href="#images" role="tab">Images</a>
-	</li>
-</ul>
-
-<div class="tab-content">
-
-<div class="tab-pane active" id="assets" role="tabpanel">
-
-<h3>Fonts</h3>
-
-<div class="row">
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: fira_sansmedium;color:#A0A0A0">Fira Sans Medium</p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: fira_sansmedium</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: fira_sansthin;color:#A0A0A0">Fira Sans Thin </p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: fira_sansthin</code></pre>
-</div>
-</div>
-<hr>
-<div class="row">
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sanslight;color:#A0A0A0">Open Sans Light </p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sanslight</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sanslight_italic;color:#A0A0A0">Open Sans Light Italic </p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sanslight_italic</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sansregular;color:#A0A0A0">Open Sans Regular </p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sansregular</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sansitalic;color:#A0A0A0">Open Sans Italic </p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sansitalic</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sanssemibold;color:#A0A0A0">Open Sans Semi Bold </p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sanssemibold</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sanssemibold_italic;color:#A0A0A0">Open Sans Semi Bold Italic</p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sanssemibold_italic</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sansbold;color:#A0A0A0">Open Sans Bold </p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sansbold</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sansbold_italic;color:#A0A0A0">Open Sans Bold Italic</p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sansbold_italic</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.6em;font-family: open_sansextrabold;color:#A0A0A0">Open Sans Extra Bold</p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sansextrabold</code></pre>
-</div>
-<div class="col-lg-4 panel">
-<p style="line-height:1em;font-size:1.5em;font-family: open_sansextrabold_italic;color:#A0A0A0">Open Sans Extra Bold Italic</p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs css">font-family: open_sansextrabold_italic</code></pre>
-</div>
-</div>
+## Heading 2
 
-<h3>Colors</h3>
-
-#### Primary
-
-{{< brandColorList >}}
-    {{< brandColor colorName="Green"   hex="#4cb05b" className="grass-green" cssVariableName="primary" >}}
-    {{< brandColor colorName="Alt-Green"   hex="#6ed079" className="grass-green-alt" cssVariableName="primary-alt" >}}
-    {{< brandColor colorName="Light Green"   hex="#87e991" className="grass-green-light" cssVariableName="primary-ligh" >}}
-    {{< brandColor colorName="Dark Green"   hex="#088b36" className="grass-green-dark" cssVariableName="primary-dark" >}}
-{{</ brandColorList >}}
-
-#### Secondary
-
-{{< brandColorList >}}
-    {{< brandColor colorName="Blue" hex="#00393f" className="grass-blue" cssVariableName="secondary" >}}
-    {{< brandColor colorName="Alt-Blue" hex="#27575c" className="grass-blue" cssVariableName="secondary-alt" >}}
-    {{< brandColor colorName="Light Blue" hex="#4a787d" className="grass-blue" cssVariableName="secondary-light" >}}
-    {{< brandColor colorName="Dark Blue" hex="#002024" className="grass-blue" cssVariableName="secondary-dark" >}}
-{{</ brandColorList >}}
-
-#### Grey
-
-{{< brandColorList >}}
-{{< brandColor colorName="Grey" className="grey-color" cssVariableName="grey"    hex="#91908f" >}}
-{{< brandColor colorName="Alt-Grey"     hex="#d8d8d8" className="grey-color-alt" cssVariableName="grey-alt" >}}
-{{< brandColor colorName="Light Grey"     hex="#f0f0f1" className="grey-color-light" cssVariableName="grey-light" >}}
-{{< brandColor colorName="Dark Grey"     hex="#757473" className="grey-color-dark" cssVariableName="grey-dark" >}}
-{{</ brandColorList >}}
-
-#### Black & White
-
-{{< brandColorList >}}
-  {{< brandColor
-    colorName="Black"
-    hex="#021905"
-    className="black-color"
-    cssVariableName="black"
-  >}}
-  {{< brandColor
-    colorName="White"
-    hex="#f7f7f7"
-    className="white-color"
-    cssVariableName="white"
-  >}}
-{{</ brandColorList >}}
-
-</div> <!-- This div closes the assets tab -->
-
-<div class="tab-pane" id="tabs-1" role="tabpanel">
-<h3>Official logo</h3>
-<p class="mb-4">The GRASS GIS <a href="../brand/#logotype">logo</a> is used as scalable vector graphics (SVG).</p>
-
-<div class="row mt-30">
-<div class="col-lg-4 text-center panel">
-<img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS GIS">
-</div>
+``` md
+## Heading 2
+```
 
-<div class="col-lg-8">
-<small>HTML</small>
-<pre class="nm"><code class="hljs xml">&lt;img src="../../images/logos/grass-green.svg" width="33%" alt="GRASS GIS" /&gt;</code></pre>
+Heading 3 is bolded and used to introduce a new subsection or subtopic within a page.
 
-</div>
-</div>
+### Heading 3
 
-<h3>Simplified logo</h3>
-<p class="mb-4">The GRASS GIS logo is also used as a simplified vector shape able to scale across media.</p>
+``` md
+### Heading 3
+```
 
-<div class="row mt-30">
-<div class="col-lg-4 text-center panel">
-<i class="ms ms-grass-gis ms-7x"></i>
-</div>
+Headings 4, 5 and 6 are inceasing smaller and can be used as need after heading 3.
 
-<div class="col-lg-8">
-<small>HTML</small>
-<pre class="nm"><code class="hljs xml">&lt;i class="ms ms-grass-gis ms-7x">&lt;/i&gt;</code></pre>
-<br><br><br></div>
+#### Heading 4
 
-<div class="col-lg-4 text-center panel">
-<i class="ms ms-grass-gis ms-5x grass-green-alt"></i>
-</div>
+##### Heading 5
 
-<div class="col-lg-8">
-<small>HTML</small>
-<pre class="nm"><code class="hljs xml">&lt;i class="ms ms-grass-gis ms-5x grass-green-alt">&lt;/i&gt;</code></pre><br><br>
-</div>
+###### Heading 6
 
-<div class="col-lg-4 text-center panel">
-<br>
-<i class="ms ms-grass-gis ms-2x grass-green"></i>
-</div>
+``` md
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
 
-<div class="col-lg-8">
-<small>HTML</small>
-<pre class="nm"><code class="hljs xml">&lt;i class="ms ms-grass-gis ms-2x grass-green">&lt;/i&gt;</code></pre>
-</div>
+> All heading are enforced as **sentence case**.
 
-</div>
+## Text Formatting
 
-</div>
+**Bold Text**  
+*Italic Text*  
+~~Strikethrough~~  
+`Inline Code`
 
+superscript<sup>2</sup> / subscript<sub>2</sub>
 
-<div class="tab-pane" id="text" role="tabpanel">
-<h3 class="mb-5">Text</h3>
+``` md
+**Bold Text**  
+*Italic Text*  
+~~Strikethrough~~  
+`Inline Code`
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<h1 class="nm np section-title">Section title</h1>
-</div>
-<div class="col-lg-8">
-<code class="hljs md">
-# Section title
-</code>
-</div>
-</div>
+superscript^2^ / subscript~2~
+```
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<h2 class="nm np">Page title</h2>
-</div>
-<div class="col-lg-8">
-<code class="hljs md">
-## Page title
-</code>
-</div>
-</div>
+## Lists
 
-<div class="row">
-<div class="col-lg-4">
-<h3 class="nm np">Section subtitle</h3>
-</div>
-<div class="col-lg-8">
-<code class="hljs md">
-### Section subtitle
-</code>
-</div>
-</div>
-<hr class="mt-30 mb-4">
-<div class="row mb-4">
-<div class="col-lg-4">
-<p class="nm np">Default</p>
-</div>
-<div class="col-lg-8">
-<code class="hljs md">
-Default
-</code>
-</div>
-</div>
+### Ordered List
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<p class="nm np"><i>Italic</i></p>
-</div>
-<div class="col-lg-8">
-<code class="hljs md">
-*Italic*
-</code>
-</div>
-</div>
+1. First item
+2. Second item
+3. Third item
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<p class="nm np"><b>Bold</b></p>
-</div>
-<div class="col-lg-8">
-<code class="hljs md">
-**Bold**
-</code>
-</div>
-</div>
+``` md
+1. First item
+2. Second item
+3. Third item
+```
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<blockquote class="nm np">
-<p>&#160; &#160; &#160; Blockquote</p>
-</blockquote>
-</div>
-<div class="col-lg-8">
-<code class="hljs md">
->  Blockquote
-</code>
-</div>
-</div>
+### Unordered List
 
-<hr>
+- Item 1
+- Item 2
+- Item 3
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<p class="command nm np">code</p>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs xml">&lt;p class="command"&gtcode&lt;/p&gt;</code></pre>
-</div>
-</div>
+``` md
+- Item 1
+- Item 2
+- Item 3
+```
 
-<hr>
+- unordered list
+  - sub-item 1
+  - sub-item 2
+    - sub-sub-item 1
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<span class="grey-color-dark"><i class="fa fa-calendar"></i> date</span>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs xml">&lt;span class="grey-color-dark"&gt;&lt;i class="fa fa-calendar"&gt;&lt;/i&gt; date&lt;/span&gt;</code></pre>
-</div>
-</div>
-<div class="row mb-4">
-<div class="col-lg-4">
-<span class="badge badge-pill bg-lgr grass-green" style="display:inline-block;padding:12px"><i class="fa fa-calendar"></i> date badge</span>
-</div>
-<div class="col-lg-8">
-<pre class="nm"><code class="hljs xml">&lt;span class="badge badge-pill bg-lgr grass-green"&gt;&lt;i class="fa fa-calendar"&gt;&lt;/i&gt; 11 Dec 2019 &gt;/span&gt;</code></pre>
-</div>
-</div>
+``` md
+* unordered list
+    + sub-item 1
+    + sub-item 2
+        - sub-sub-item 1
+```
 
-<hr>
-
-<div class="row mb-4">
-<div class="col-lg-4">
-<div class="alert rounded-0 alert-default nm">
-  Default alert
-  </div>
-  </div>
-  <div class="col-lg-8"><pre class="nm"><code class="hljs xml"> &lt;div class="alert rounded-0 alert-default"&gt;Default alert &lt/div&gt;</code></pre>
-</div>
-</div>
+- item 2
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<div class="alert rounded-0 alert-info nm">
-  Info alert
-  </div>
-  </div>
-  <div class="col-lg-8"><pre class="nm"><code class="hljs xml"> &lt;div class="alert rounded-0 alert-info"&gt;Info alert &lt/div&gt;</code></pre>
-</div>
-</div>
+    Continued (indent 4 spaces)
 
+``` md
+*   item 2
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<div class="alert rounded-0 alert-success nm">
-  Success alert
-  </div>
-  </div>
-  <div class="col-lg-8"><pre class="nm"><code class="hljs xml"> &lt;div class="alert rounded-0 alert-success"&gt;Success alert &lt/div&gt;</code></pre>
-</div>
-</div>
+    Continued (indent 4 spaces)
+```
 
+1. A list which numbering
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<div class="alert rounded-0 alert-warning nm">
-  Warning alert
-  </div>
-  </div>
-  <div class="col-lg-8"><pre class="nm"><code class="hljs xml"> &lt;div class="alert rounded-0 alert-success"&gt;Warning alert &lt/div&gt;</code></pre>
-</div>
-</div>
+continues after
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<div class="alert rounded-0 alert-danger nm">
-  Danger alert
-  </div>
-  </div>
-  <div class="col-lg-8"><pre class="nm"><code class="hljs xml"> &lt;div class="alert rounded-0 alert-success"&gt;Danger alert &lt/div&gt;</code></pre>
-</div>
-</div>
+1. an interruption
 
+``` md
+(@)  A list which numbering
 
+continues after
 
-<div class="row mb-4">
-<div class="col-lg-4">
-<div class="card mb-1-5">
-<h4 class="mt-20 tind"><i class="fa fa-info-circle"></i> Card</h4>
-</div>
-</div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml nm">&lt;div class="card"&gt;
-&lt;h4&gt;&lt;i class="fa fa-info-circle"&gt;&lt;/i&gt; Card&lt;/h4&gt;
-&lt;/div&gt;</code></pre></div>
-</div>
-<hr class="mt-30">
-</div>
+(@)  an interruption
+```
 
+### Tasks
 
+- [ ] Task 1
+- [x] Task 2
 
-<div class="tab-pane" id="links" role="tabpanel">
-<h3 class="mb-5">Links</h3>
+``` md
+- [ ] Task 1
+- [x] Task 2
+```
 
-<div class="row mb-4">
-<div class="col-lg-4"><a href="#">Default md link</a></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs md nm">[Default md link](http://domain.org)</code></pre></div>
-</div>
+## Blockquotes
 
-<div class="row mb-4">
-<div class="col-lg-4"><a href="#">Default html link</a></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml nm">&lt;a href="http://domain.org"&gt;Default html link&lt;/a&gt;</code></pre></div>
-</div>
+### `>` Blockquote
 
+> This is a blockquote.  
+> It can span multiple lines.
 
-<hr>
+``` md
+> This is a blockquote.  
+> It can span multiple lines.
+```
 
+### Line Block
 
-<div class="row mb-4">
-<div class="col-lg-4"><a href="#"><i class="fa fa-thumbs-o-up"></i> Link with icon</a></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml nm">&lt;a href="http://domain.org"&gt;Default html link&lt;/a&gt;</code></pre></div>
-</div>
+Line Block  
+  Spaces and newlines  
+  are preserved
 
-<hr>
+``` md
+| Line Block
+|   Spaces and newlines
+|   are preserved
+```
 
+## Footnotes
 
+Here is a footnote reference,[^1] and another.[^2]
 
+This paragraph won't be part of the note, because it
+isn't indented.
 
-<div class="row mb-4">
-<div class="col-lg-4"><button class="btn btn-primary nm">Primary Button</button></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml nm">&lt;a href="http://domain.org" class="btn btn-primary"&gt;Primary Button&lt;/a&gt;</code></pre></div>
-</div>
+Here is an inline note.[^3]
 
-<div class="row mb-4">
-<div class="col-lg-4"><button class="btn btn-secondary nm">Secondary Button</button></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;a href="http://domain.org" class="btn btn-secondary"&gt;Secondary Button&lt;/a&gt;</code></pre>
-</div>
-</div>
+``` md
+Here is a footnote reference,[^1] and another.[^longnote]
 
-<div class="row mb-4">
-<div class="col-lg-4"><button class="btn btn-info nm">Info Button</button></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;a href="http://domain.org" class="btn btn-info"&gt;Info Button&lt;/a&gt;</code></pre>
-</div>
-</div>
+[^1]: Here is the footnote.
 
-<div class="row mb-4">
-<div class="col-lg-4"><button class="btn btn-warning nm">Warning Button</button></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;a href="http://domain.org" class="btn btn-warning"&gt;Warning Button&lt;/a&gt;</code></pre>
-</div>
-</div>
+[^longnote]: Here's one with multiple blocks.
 
-<div class="row mb-4">
-<div class="col-lg-4"><button class="btn btn-danger nm">Danger Button</button></div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;a href="http://domain.org" class="btn btn-danger"&gt;Danger Button&lt;/a&gt;</code></pre>
-</div>
-</div>
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
 
-<hr class="mt-30">
-</div>
+        { some.code }
 
-<div class="tab-pane" id="icons" role="tabpanel">
-<h3 class="mb-5">fontawesome (6.4.2)</h3>
-<div class="row mb-4">
-<div class="col-lg-4"><i class="fa fa-download fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-book fa-2x grey-color-dark"></i> &#160; &#160; <i class="fa fa-user fa-2x grey-color-dark"></i> &#160; &#160; <i class="fab fa-github fa-2x grey-color-dark"></i> &#160; &#160; <i class="fab fa-x-twitter fa-2x grey-color-dark"></i>&#160; &#160; <i class="fab fa-facebook fa-2x grey-color-dark"></i>&#160; &#160; <i class="fab fa-youtube fa-2x grey-color-dark"></i>
-<p class="mt-2"><a href="https://fontawesome.com/v4.7.0/"><i class="fa fa-font-awesome"></i> See the full icon list</a></p>
-</div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;i class="fa fa-download"&gt;&lt;/i&gt;</code></pre>
-</div>
-</div>
-<h3 class="mb-5">mapskin (2.0)</h3>
-<div class="row mb-4">
-<div class="col-lg-4"><i class="ms ms-grass-gis ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-vector ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-raster ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-database ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-img-o ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-osgeo ms-2x grey-color-dark"></i>&#160; &#160;<i class="ms ms-map-rolled-o ms-2x grey-color-dark"></i>
-<p class="mt-2"><a href="https://web.archive.org/web/20210613053834/https://mapsk.in/#software"><i class="ms ms-mapskin"></i> See the full software icon list</a></p>
-</div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;i class="ms ms-grass-gis"&gt;&lt;/i&gt;</code></pre>
-</div>
-</div>
+    The whole paragraph can be indented, or just the first
+    line. In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
 
-<h3 class="mb-4">flag-icons</h3>
-<div class="row mb-4">
-<div class="col-lg-4">
-<i class="flag-icon flag-icon-de"></i>&#160; &#160;<i class="flag-icon flag-icon-us"></i>&#160; &#160; <i class="flag-icon flag-icon-it"></i&#160; &#160; <i class="flag-icon flag-icon-fr"></i>&#160; &#160; <i class="flag-icon flag-icon-ar"></i>&#160; &#160; <i class="flag-icon flag-icon-be"></i&#160; &#160; <i class="flag-icon flag-icon-fr"></i>
-<p class="mt-2"><a href="https://flagicons.lipis.dev/"><i class="ms ms-information"></i> See the full icon list</a></p>
-</div>
-<div class="col-lg-8"><pre class="nm"><code class="hljs xml">&lt;i class="flag-icon flag-icon-de"&gt;&lt;/i&gt;</code></pre>
-</div>
-</div>
+This paragraph won't be part of the note, because it
+isn't indented.
 
-</div>
+Here is an inline note.^[Inlines notes are easier to write,
+since you don't have to pick an identifier and move down to
+type the note.]
+```
 
+## Tables
 
-<div class="tab-pane" id="images" role="tabpanel">
-<h3>Images</h3>
-<div class="row mb-4">
-<div class="col-lg-4">
-<img src="../../../images/logos/banner.jpg">
-</div>
-<div class="col-lg-8">
-<small>Markdown</small>
-<code class="hljs md">
-![GRASS GIS banner](/images/logos/banner.jpg "GRASS GIS banner")
-</code>
-<small>HTML</small>
-<code class="hljs xml">
-&lt;img href="/images/logos/banner.jpg" alt="GRASS GIS banner" /&gt;
-</code>
-</div>
-<div class="col-lg-4">
-<img src="../../../images/other/Black_canyon_map.jpg">
-</div>
-<div class="col-lg-8">
-<small>Markdown</small>
-<code class="hljs md">
-![Black Canyon](/images/other/Black_canyon_map.jpg "Black Canyon Map")
-</code>
-<small>HTML</small>
-<code class="hljs xml">
-&lt;img href="/images/other/Black_canyon_map.jpg" alt="Black Canyon Map" /&gt;
-</code>
-</div>
-</div>
-<hr>
-<div class="row mb-4">
-<div class="col-lg-4">
-<img src="../../../images/other/GRASS_analysis.jpg" width="200px" >
-</div>
-<div class="col-lg-8">
-<small>HTML</small>
-<code class="hljs xml">
-&lt;img href="/images/other/GRASS_analysis.jpg" alt="Analysis" width="200" /&gt;
-</code>
-</div>
-</div>
-<hr>
-<div class="row mb-4">
-<div class="col-lg-4">
-<img src="../../../images/gallery/raster/d_rast_arrow_magnitude.png" width="100px"  height="100px" />
-</div>
-<div class="col-lg-8">
-<small>HTML</small>
-<code class="hljs xml">
-&lt;img href="/images/gallery/raster/d_rast_arrow_magnitude.png" alt="flow" width="100" /&gt;
-</code>
-</div>
-</div>
-</div>
-</div>
+### Default
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data 1   | Data 2   |
+| Row 2    | Data 3   | Data 4   |
+
+``` md
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1    | Data 1   | Data 2   |
+| Row 2    | Data 3   | Data 4   |
+```
+
+### Column Aligned
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+``` md
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+```
+
+### Pipe Format
+
+| fruit  | price |
+|--------|------:|
+| apple  |  2.05 |
+| pear   |  1.37 |
+| orange |  3.09 |
+
+Demonstration of pipe table syntax
+
+``` md
+fruit| price
+-----|-----:
+apple|2.05
+pear|1.37
+orange|3.09
+
+: Demonstration of pipe table syntax
+```
+
+### Pipe Format Striped
+
+| fruit  | price |
+|--------|-------|
+| apple  | 2.05  |
+| pear   | 1.37  |
+| orange | 3.09  |
+
+Fruit prices
+
+``` md
+| fruit  | price  |
+|--------|--------|
+| apple  | 2.05   |
+| pear   | 1.37   |
+| orange | 3.09   |
+
+: Fruit prices {.striped .hover}
+```
+
+### Pipe Format Custom Col widths
+
+| fruit  | price |
+|--------|-------|
+| apple  | 2.05  |
+| pear   | 1.37  |
+| orange | 3.09  |
+
+Fruit prices
+
+``` md
+| fruit  | price  |
+|--------|--------|
+| apple  | 2.05   |
+| pear   | 1.37   |
+| orange | 3.09   |
+
+: Fruit prices {tbl-colwidths="[75,25]"}
+```
+
+### Grid Table
+
+<table style="width:62%;">
+<caption>Sample grid table.</caption>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr>
+<th>Fruit</th>
+<th>Price</th>
+<th>Advantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bananas</td>
+<td>$1.34</td>
+<td><ul>
+<li>built-in wrapper</li>
+<li>bright color</li>
+</ul></td>
+</tr>
+<tr>
+<td>Oranges</td>
+<td>$2.10</td>
+<td><ul>
+<li>cures scurvy</li>
+<li>tasty</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+``` md
++-----------+-----------+--------------------+
+| Fruit     | Price     | Advantages         |
++===========+===========+====================+
+| Bananas   | $1.34     | - built-in wrapper |
+|           |           | - bright color     |
++-----------+-----------+--------------------+
+| Oranges   | $2.10     | - cures scurvy     |
+|           |           | - tasty            |
++-----------+-----------+--------------------+
+
+: Sample grid table.
+```
+
+## Cross Reference
+
+<div id="tbl-letters">
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+Table 1: My Caption
+</div>
+
+See <a href="#tbl-letters" class="quarto-xref">Table 1</a>.
+
+``` md
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: My Caption {#tbl-letters}
+
+See @tbl-letters.
+```
+
+### Subtables
+
+<div id="tbl-panel">
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: center;"><div width="50.0%" data-layout-align="center">
+<div id="tbl-first">
+<table>
+<thead>
+<tr>
+<th>Col1</th>
+<th>Col2</th>
+<th>Col3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+</tr>
+<tr>
+<td>E</td>
+<td>F</td>
+<td>G</td>
+</tr>
+<tr>
+<td>A</td>
+<td>G</td>
+<td>G</td>
+</tr>
+</tbody>
+</table>
+(a) First Table
+</div>
+</div></td>
+<td style="text-align: center;"><div width="50.0%" data-layout-align="center">
+<div id="tbl-second">
+<table>
+<thead>
+<tr>
+<th>Col1</th>
+<th>Col2</th>
+<th>Col3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+</tr>
+<tr>
+<td>E</td>
+<td>F</td>
+<td>G</td>
+</tr>
+<tr>
+<td>A</td>
+<td>G</td>
+<td>G</td>
+</tr>
+</tbody>
+</table>
+(b) Second Table
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+
+Table 2: Main Caption
+
+</div>
+
+See <a href="#tbl-panel" class="quarto-xref">Table 2</a> for details, especially <a href="#tbl-second" class="quarto-xref">Table 2 (b)</a>.
+
+``` md
+::: {#tbl-panel layout-ncol=2}
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: First Table {#tbl-first}
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: Second Table {#tbl-second}
+
+Main Caption
+:::
+
+See @tbl-panel for details, especially @tbl-second.
+```
+
+## Links & Images
+
+### Links
+
+[GRASS Website](https://grass.osgeo.org)
+
+``` md
+[GRASS Website](https://grass.osgeo.org)
+```
+
+### Images
+
+<figure>
+<img src="../../images/logos/large/grass-gradient-horizontal.svg" style="width:25.0%" alt="Width 25%" />
+<figcaption aria-hidden="true">Width 25%</figcaption>
+</figure>
+
+``` md
+![Width 25%](../../images/logos/large/grass-gradient-horizontal.svg){width=25%}
+```
+
+<figure>
+<img src="../../images/logos/large/grass-gradient-horizontal.svg" style="width:50.0%" alt="Width 50%" />
+<figcaption aria-hidden="true">Width 50%</figcaption>
+</figure>
+
+``` md
+![Width 50%](../../images/logos/large/grass-gradient-horizontal.svg){width=50%}
+```
+
+<figure>
+<img src="../../images/logos/large/grass-gradient-horizontal.svg" style="width:75.0%" alt="Width 75%" />
+<figcaption aria-hidden="true">Width 75%</figcaption>
+</figure>
+
+``` md
+![Width 75%](../../images/logos/large/grass-gradient-horizontal.svg){width=75%}
+```
+
+<figure>
+<img src="../../images/logos/large/grass-gradient-horizontal.svg" style="width:100.0%" alt="Width 100%" />
+<figcaption aria-hidden="true">Width 100%</figcaption>
+</figure>
+
+``` md
+![Width 100%](../../images/logos/large/grass-gradient-horizontal.svg){width=100%}
+```
+
+### Image Link
+
+<figure>
+<a href="https://grass.osgeo.org"><img src="../../images/logos/large/grass-gradient.svg" style="width:20.0%" /></a>
+<figcaption>Caption</figcaption>
+</figure>
+
+``` md
+[![Caption](../../images/logos/large/grass-gradient.svg){width=20%}](https://grass.osgeo.org)
+```
+
+### Image Link with Alt-Text
+
+<figure>
+<a href="https://grass.osgeo.org"><img src="../../images/logos/large/grass-gradient.svg" title="Alt text" style="width:20.0%" /></a>
+<figcaption>Caption</figcaption>
+</figure>
+
+``` md
+[![Caption](../../images/logos/large/grass-gradient.svg "Alt text"){width=20%}](https://grass.osgeo.org)
+```
+
+### Aligned Images
+
+<img src="../../images/logos/large/grass-gradient.svg" title="Alt text" style="width:20.0%" data-fig-align="left" alt="Aligned Left" />
+<img src="../../images/logos/large/grass-gradient.svg" title="Alt text" style="width:20.0%" data-fig-align="right" alt="Aligned Right" />
+
+``` md
+![Aligned Left](../../images/logos/large/grass-gradient.svg "Alt text"){width=20% fig-align="left"}
+![Aligned Right](../../images/logos/large/grass-gradient.svg "Alt text"){width=20% fig-align="right"}
+```
+
+### Lightbox
+
+<figure>
+<img src="../../images/logos/large/grass-gradient.svg" title="Alt text" class="lightbox" style="width:20.0%" data-fig-align="center" alt="Lightbox" />
+<figcaption aria-hidden="true">Lightbox</figcaption>
+</figure>
+
+``` md
+![Lightbox](../../images/logos/large/grass-gradient.svg "Alt text"){width=20% fig-align="center" .lightbox}
+```
+
+### Placeholders
+
+![](data:image/svg+xml;base64,PHN2ZyB3aWR0aCA9ICI0MDAiIGhlaWdodCA9ICIyMDAiIHhtbG5zID0gImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94ID0gIjAgMCA0MDAgMjAwIj48cmVjdCB3aWR0aCA9ICI0MDAiIGhlaWdodCA9ICIyMDAiIGZpbGwgPSAiI2RkZCIgLz48dGV4dCB4ID0gIjUwJSIgeSA9ICI1MCUiIGZvbnQtZmFtaWx5ID0gInNhbnMtc2VyaWYiIGZvbnQtc2l6ZSA9ICIyMCIgZmlsbCA9ICIjMDAwIiB0ZXh0LWFuY2hvciA9ICJtaWRkbGUiPjQwMCB4IDIwMDwvdGV4dD48L3N2Zz4=)
+
+``` md
+<!-- Uses placeholder shortcode -->
+data:image/svg+xml;base64,PHN2ZyB3aWR0aCA9ICI0MDAiIGhlaWdodCA9ICIyMDAiIHhtbG5zID0gImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94ID0gIjAgMCA0MDAgMjAwIj48cmVjdCB3aWR0aCA9ICI0MDAiIGhlaWdodCA9ICIyMDAiIGZpbGwgPSAiI2RkZCIgLz48dGV4dCB4ID0gIjUwJSIgeSA9ICI1MCUiIGZvbnQtZmFtaWx5ID0gInNhbnMtc2VyaWYiIGZvbnQtc2l6ZSA9ICIyMCIgZmlsbCA9ICIjMDAwIiB0ZXh0LWFuY2hvciA9ICJtaWRkbGUiPjQwMCB4IDIwMDwvdGV4dD48L3N2Zz4=
+```
+
+## Callouts
+
+Note that there are five types of callouts, including:
+`note`, `tip`, `warning`, `caution`, and `important`.
+
+### Note
+
+> **Note**
+>
+> This is a note callout.
+
+``` md
+::: {.callout-note}
+This is a note callout.
+:::
+```
+
+### Tip
+
+> **Tip**
+>
+> This is a tip callout.
+
+``` md
+::: {.callout-tip}
+This is a tip callout.
+:::
+```
+
+### Warning
+
+> **Warning**
+>
+> This is a warning callout.
+
+``` md
+::: {.callout-warning}
+This is a warning callout.
+:::
+```
+
+### Important
+
+> **Important**
+>
+> This is an important callout.
+
+``` md
+::: {.callout-important}
+This is an important callout.
+:::
+```
+
+### Caution
+
+> **Caution**
+>
+> This is a caution callout.
+
+``` md
+::: {.callout-caution}
+This is a caution callout.
+:::
+```
+
+### Collapsable Callout
+
+> **Expand To Learn About Collapse**
+>
+> This is a caution callout.
+
+``` md
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+This is a caution callout.
+:::
+```
+
+## Math
+
+### Inline
+
+Inline math: $E = mc^2$
+
+### Block
+
+Block math:  
+$$
+\int_a^b f(x) dx = F(b) - F(a)
+$$
+
+## Buttons
+
+### Solid Color
+
+<a href="#" class="btn btn-primary" role="button">Primary</a>
+<a href="#" class="btn btn-secondary" role="button">Secondary</a>
+<a href="#" class="btn btn-success" role="button">Success</a>
+<a href="#" class="btn btn-danger" role="button">Danger</a>
+<a href="#" class="btn btn-warning" role="button">Warning</a>
+<a href="#" class="btn btn-info" role="button">Info</a>
+<a href="#" class="btn btn-light" role="button">Light</a>
+<a href="#" class="btn btn-dark" role="button">Dark</a>
+<a href="#" class="btn btn-link" role="button">Link</a>
+
+``` md
+[Primary](#){.btn .btn-primary .btn role="button"}
+[Secondary](#){.btn .btn-secondary .btn role="button"}
+[Success](#){.btn .btn-success .btn role="button"}
+[Danger](#){.btn .btn-danger .btn role="button"}
+[Warning](#){.btn .btn-warning .btn role="button"}
+[Info](#){.btn .btn-info .btn role="button"}
+[Light](#){.btn .btn-light .btn role="button"}
+[Dark](#){.btn .btn-dark .btn role="button"}
+[Link](#){.btn .btn-link .btn role="button"}
+```
+
+### Outline Color
+
+<a href="#" class="btn btn-outline-primary" role="button">Primary Outline</a>
+<a href="#" class="btn btn-outline-secondary" role="button">Secondary Outline</a>
+<a href="#" class="btn btn-outline-success" role="button">Success Outline</a>
+<a href="#" class="btn btn-outline-danger" role="button">Danger Outline</a>
+<a href="#" class="btn btn-outline-warning" role="button">Warning Outline</a>
+<a href="#" class="btn btn-outline-info" role="button">Info Outline</a>
+<a href="#" class="btn btn-outline-light" role="button">Light Outline</a>
+<a href="#" class="btn btn-outline-dark" role="button">Dark Outline</a>
+<a href="#" class="btn btn-outline-link" role="button">Link Outline</a>
+
+``` md
+[Primary Outline](#){.btn .btn-outline-primary .btn role="button"}
+[Secondary Outline](#){.btn .btn-outline-secondary .btn role="button"}
+[Success Outline](#){.btn .btn-outline-success .btn role="button"}
+[Danger Outline](#){.btn .btn-outline-danger .btn role="button"}
+[Warning Outline](#){.btn .btn-outline-warning .btn role="button"}
+[Info Outline](#){.btn .btn-outline-info .btn role="button"}
+[Light Outline](#){.btn .btn-outline-light .btn role="button"}
+[Dark Outline](#){.btn .btn-outline-dark .btn role="button"}
+[Link Outline](#){.btn .btn-outline-link .btn role="button"}
+```
+
+### Special Buttons
+
+We have custom support buttons ([More Info](#includes)) that link to GRASS's [Open Collective page](https://opencollective.com/grass/contribute)
+
+<!-- Custom button for contributing to GRASS -->
+
+<a href="https://opencollective.com/grass/contribute" class="btn btn-support" role="button"> Support</a>
+
+<a href="https://opencollective.com/grass/contribute" class="btn btn-outline-support" role="button"> Support</a>
+
+## Alerts
+
+This is a success alert.
+
+``` md
+::: {.alert .alert-success}
+This is a success alert.
+:::
+```
+
+This is a danger alert.
+
+``` md
+::: {.alert .alert-danger}
+This is a danger alert.
+:::
+```
+
+## Code Blocks with Syntax Highlighting
+
+### Default
+
+``` default
+code
+```
+
+### Python
+
+``` python
+# Comment
+import sys
+import subprocess
+
+sys.path.append(
+    subprocess.check_output(["grass", "--config", "python_path"], text=True).strip()
+)
+
+import grass.script as gs
+import grass.jupyter as gj
+```
+
+### Terminal
+
+``` bash
+grass "~/grassdata/" --exec script.py 
+```
+
+### R
+
+``` r
+library(rgrass)
+
+session <- initGRASS(gisBase = "/usr/lib/grass84", # where grass binaries live, `grass --config path`
+                     gisDbase = "/home/user/grassdata", # path to grass database or folder where your project lives
+                     location = "nc_basic_spm_grass7", # existing project name
+                     mapset = "PERMANENT" # mapset name
+                     )
+```
+
+## Tabsets
+
+## R
+
+``` r
+execGRASS(
+  "r.slope.aspect",
+  parameters = list(
+    elevation = "elevation",
+    slope = "slope",
+    aspect="aspect"
+  )
+)
+```
+
+## Python
+
+``` python
+gs.run_command(
+  "r.slope.aspect",
+  elevation = "elevation",
+  slope = "slope",
+  aspect="aspect"
+)
+```
+
+``` md
+::: {.panel-tabset}
+
+Your panel content here
+
+:::
+```
+
+For more information about tabsets refer to the Quarto Docs [here](https://quarto.org/docs/output-formats/html-basics.html#tabsets)
+
+## Raw Content
+
+<iframe src="https://grass.osgeo.org/" width="500" height="400"></iframe>
+
+``` md
+\```{=html}
+<iframe src="https://grass.osgeo.org/" width="500" height="400"></iframe>
+```\
+```
+
+## Diagrams
+
+### Flowchart
+
+<details class="code-fold">
+<summary>Show the code</summary>
+
+``` default
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+</details>
+
+<figure class=''>
+
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+
+</figure>
+
+### Sequence Diagram
+
+<details class="code-fold">
+<summary>Show the code</summary>
+
+``` default
+sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+    John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts <br/>prevail!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
+
+</details>
+
+<figure class=''>
+
+<pre class="mermaid mermaid-js">sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice-&gt;&gt;John: Hello John, how are you?
+  loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts &lt;br/&gt;prevail!
+  John--&gt;&gt;Alice: Great!
+  John-&gt;&gt;Bob: How about you?
+  Bob--&gt;&gt;John: Jolly good!
+</pre>
+
+</figure>
+
+### Dot
+
+<details class="code-fold">
+<summary>Show the code</summary>
+
+``` dot
+graph G {
+  layout=neato
+  run -- intr;
+  intr -- runbl;
+  runbl -- run;
+  run -- kernel;
+  kernel -- zombie;
+  kernel -- sleep;
+  kernel -- runmem;
+  sleep -- swap;
+  swap -- runswap;
+  runswap -- new;
+  runswap -- runmem;
+  new -- runmem;
+  sleep -- runmem;
+}
+```
+
+</details>
+
+<figure class=''>
+
+<svg width="768" height="480" viewbox="0.00 0.00 370.99 246.71" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 242.71)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-242.71 366.99,-242.71 366.99,4 -4,4"></polygon>
+<!-- run -->
+<g id="node1" class="node">
+<title>run</title>
+<ellipse fill="none" stroke="black" cx="105.22" cy="-110.03" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="105.22" y="-105.83" font-family="Times,serif" font-size="14.00">run</text>
+</g>
+<!-- intr -->
+<g id="node2" class="node">
+<title>intr</title>
+<ellipse fill="none" stroke="black" cx="48.11" cy="-59.71" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="48.11" y="-55.51" font-family="Times,serif" font-size="14.00">intr</text>
+</g>
+<!-- run&#45;&#45;intr -->
+<g id="edge1" class="edge">
+<title>run--intr</title>
+<path fill="none" stroke="black" d="M88.7,-95.48C81.19,-88.86 72.32,-81.04 64.79,-74.4"></path>
+</g>
+<!-- kernel -->
+<g id="node4" class="node">
+<title>kernel</title>
+<ellipse fill="none" stroke="black" cx="180.95" cy="-137.54" rx="35.33" ry="18"></ellipse>
+<text text-anchor="middle" x="180.95" y="-133.34" font-family="Times,serif" font-size="14.00">kernel</text>
+</g>
+<!-- run&#45;&#45;kernel -->
+<g id="edge4" class="edge">
+<title>run--kernel</title>
+<path fill="none" stroke="black" d="M129.18,-118.73C136.46,-121.38 144.54,-124.31 152.1,-127.06"></path>
+</g>
+<!-- runbl -->
+<g id="node3" class="node">
+<title>runbl</title>
+<ellipse fill="none" stroke="black" cx="31.42" cy="-126.16" rx="31.34" ry="18"></ellipse>
+<text text-anchor="middle" x="31.42" y="-121.96" font-family="Times,serif" font-size="14.00">runbl</text>
+</g>
+<!-- intr&#45;&#45;runbl -->
+<g id="edge2" class="edge">
+<title>intr--runbl</title>
+<path fill="none" stroke="black" d="M43.64,-77.51C41.25,-87.05 38.3,-98.76 35.91,-108.3"></path>
+</g>
+<!-- runbl&#45;&#45;run -->
+<g id="edge3" class="edge">
+<title>runbl--run</title>
+<path fill="none" stroke="black" d="M61.01,-119.7C67.11,-118.36 73.48,-116.97 79.43,-115.67"></path>
+</g>
+<!-- zombie -->
+<g id="node5" class="node">
+<title>zombie</title>
+<ellipse fill="none" stroke="black" cx="168.31" cy="-220.71" rx="39.42" ry="18"></ellipse>
+<text text-anchor="middle" x="168.31" y="-216.51" font-family="Times,serif" font-size="14.00">zombie</text>
+</g>
+<!-- kernel&#45;&#45;zombie -->
+<g id="edge5" class="edge">
+<title>kernel--zombie</title>
+<path fill="none" stroke="black" d="M178.21,-155.58C176.09,-169.54 173.17,-188.76 171.05,-202.7"></path>
+</g>
+<!-- sleep -->
+<g id="node6" class="node">
+<title>sleep</title>
+<ellipse fill="none" stroke="black" cx="253.25" cy="-154.97" rx="30.76" ry="18"></ellipse>
+<text text-anchor="middle" x="253.25" y="-150.77" font-family="Times,serif" font-size="14.00">sleep</text>
+</g>
+<!-- kernel&#45;&#45;sleep -->
+<g id="edge6" class="edge">
+<title>kernel--sleep</title>
+<path fill="none" stroke="black" d="M212.87,-145.23C216.81,-146.18 220.81,-147.15 224.69,-148.08"></path>
+</g>
+<!-- runmem -->
+<g id="node7" class="node">
+<title>runmem</title>
+<ellipse fill="none" stroke="black" cx="240.17" cy="-83.36" rx="43.44" ry="18"></ellipse>
+<text text-anchor="middle" x="240.17" y="-79.16" font-family="Times,serif" font-size="14.00">runmem</text>
+</g>
+<!-- kernel&#45;&#45;runmem -->
+<g id="edge7" class="edge">
+<title>kernel--runmem</title>
+<path fill="none" stroke="black" d="M198.4,-121.57C205.9,-114.71 214.67,-106.69 222.23,-99.77"></path>
+</g>
+<!-- sleep&#45;&#45;runmem -->
+<g id="edge13" class="edge">
+<title>sleep--runmem</title>
+<path fill="none" stroke="black" d="M249.95,-136.9C247.98,-126.13 245.49,-112.49 243.51,-101.67"></path>
+</g>
+<!-- swap -->
+<g id="node8" class="node">
+<title>swap</title>
+<ellipse fill="none" stroke="black" cx="330.95" cy="-148.25" rx="30.77" ry="18"></ellipse>
+<text text-anchor="middle" x="330.95" y="-144.05" font-family="Times,serif" font-size="14.00">swap</text>
+</g>
+<!-- sleep&#45;&#45;swap -->
+<g id="edge8" class="edge">
+<title>sleep--swap</title>
+<path fill="none" stroke="black" d="M283.96,-152.31C289.3,-151.85 294.86,-151.37 300.21,-150.91"></path>
+</g>
+<!-- runswap -->
+<g id="node9" class="node">
+<title>runswap</title>
+<ellipse fill="none" stroke="black" cx="319.23" cy="-73.46" rx="43.51" ry="18"></ellipse>
+<text text-anchor="middle" x="319.23" y="-69.26" font-family="Times,serif" font-size="14.00">runswap</text>
+</g>
+<!-- swap&#45;&#45;runswap -->
+<g id="edge9" class="edge">
+<title>swap--runswap</title>
+<path fill="none" stroke="black" d="M328.11,-130.15C326.28,-118.47 323.91,-103.35 322.08,-91.66"></path>
+</g>
+<!-- runswap&#45;&#45;runmem -->
+<g id="edge11" class="edge">
+<title>runswap--runmem</title>
+<path fill="none" stroke="black" d="M276.92,-78.76C276.78,-78.77 276.63,-78.79 276.48,-78.81"></path>
+</g>
+<!-- new -->
+<g id="node10" class="node">
+<title>new</title>
+<ellipse fill="none" stroke="black" cx="278.31" cy="-18" rx="27.25" ry="18"></ellipse>
+<text text-anchor="middle" x="278.31" y="-13.8" font-family="Times,serif" font-size="14.00">new</text>
+</g>
+<!-- runswap&#45;&#45;new -->
+<g id="edge10" class="edge">
+<title>runswap--new</title>
+<path fill="none" stroke="black" d="M306.51,-56.21C301.35,-49.22 295.42,-41.18 290.33,-34.29"></path>
+</g>
+<!-- new&#45;&#45;runmem -->
+<g id="edge12" class="edge">
+<title>new--runmem</title>
+<path fill="none" stroke="black" d="M268.49,-34.83C263.01,-44.21 256.2,-55.89 250.62,-65.44"></path>
+</g>
+</g>
+</svg>
+
+</figure>
+
+## Videos
+
+Use the [video shortcode](https://quarto.org/docs/authoring/videos.html)
+
+<https://www.youtube.com/embed/zboP3Z7VBuU>
+
+## Page Break
+
+page 1
+
+page 2
+
+## Divs & Spans
+
+### Border
+
+This content can be styled with a border
+
+``` md
+::: {.border}
+This content can be styled with a border
+:::
+```
+
+### Spans
+
+<span class="class" key="val">This is *some text*</span>
+
+``` md
+[This is *some text*]{.class key="val"}
+```
+
+<span class="custom-span">This is a custom span.</span>
+
+``` md
+<span class="custom-span">This is a custom span.</span>
+```
+
+### Span Styling
+
+#### Small Caps
+
+<span class="smallcaps">smallcaps</span>
+
+``` md
+[smallcaps]{.smallcaps}
+```
+
+#### Underline
+
+<u>underlined</u>
+
+``` md
+[underlined]{.underline}
+```
+
+#### Highlight
+
+<span class="mark">highlighted</span>
+
+    [highlighted]{.mark}
+
+### Order of Attribute
+
+The order of attribute for divs and spans follow rules defined in the [pandoc](https://pandoc.org/MANUAL.html#divs-and-spans) documentation.
+
+#### Good
+
+``` md
+[Good]{#id .class key="val"}
+```
+
+#### Bad
+
+``` md
+[This is *some text*]{.class key="val"}
+```
+
+## Listing
+
+### Table
+
+### Grid
+
+### Default
+
+## Layout
+
+### Column Full screen inset
+
+<figure>
+<img src="images/LinkedIn-Post-Image.png" alt="A full screen image" />
+<figcaption aria-hidden="true">A full screen image</figcaption>
+</figure>
+
+### Column Full screen shaded inset
+
+<figure>
+<img src="images/LinkedIn-Post-Image.png" alt="A full screen image" />
+<figcaption aria-hidden="true">A full screen image</figcaption>
+</figure>
+
+### Column Margin
+
+<figure>
+<img src="images/LinkedIn-Post-Image.png" alt="An image in the margin" />
+<figcaption aria-hidden="true">An image in the margin</figcaption>
+</figure>
+
+## Lipsum
+
+Lipsum shortcode docs found [here](https://quarto.org/docs/authoring/lipsum.html).
+
+### Single Paragraph
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+### Multi Paragraph
+
+Praesent ornare dolor turpis, sed tincidunt nisl pretium eget. Curabitur sed iaculis ex, vitae tristique sapien. Quisque nec ex dolor. Quisque ut nisl a libero egestas molestie. Nulla vel porta nulla. Phasellus id pretium arcu. Etiam sed mi pellentesque nibh scelerisque elementum sed at urna. Ut congue molestie nibh, sit amet pretium ligula consectetur eu. Integer consectetur augue justo, at placerat erat posuere at. Ut elementum urna lectus, vitae bibendum neque pulvinar quis. Suspendisse vulputate cursus eros id maximus. Duis pulvinar facilisis massa, et condimentum est viverra congue. Curabitur ornare convallis nisl. Morbi dictum scelerisque turpis quis pellentesque. Etiam lectus risus, luctus lobortis risus ut, rutrum vulputate justo. Nulla facilisi.
+
+Proin sodales neque erat, varius cursus diam tincidunt sit amet. Etiam scelerisque fringilla nisl eu venenatis. Donec sem ipsum, scelerisque ac venenatis quis, hendrerit vel mauris. Praesent semper erat sit amet purus condimentum, sit amet auctor mi feugiat. In hac habitasse platea dictumst. Nunc ac mauris in massa feugiat bibendum id in dui. Praesent accumsan urna at lacinia aliquet. Proin ultricies eu est quis pellentesque. In vel lorem at nisl rhoncus cursus eu quis mi. In eu rutrum ante, quis placerat justo. Etiam euismod nibh nibh, sed elementum nunc imperdiet in. Praesent gravida nunc vel odio lacinia, at tempus nisl placerat. Aenean id ipsum sed est sagittis hendrerit non in tortor.
+
+## Custom
