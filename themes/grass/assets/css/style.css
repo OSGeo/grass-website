@@ -167,6 +167,7 @@ h3 {
 }
 h4 {
   color: var(--gs-primary-color);
+  font-family: var(--gs-grass-font--light);
   margin: 1rem 0;
   font-size: 1.2rem;
   font-weight: 700;
@@ -180,6 +181,8 @@ h5 {
   letter-spacing: -0.01em;
 }
 h6 {
+  color: var(--gs-black-color--light);
+  font-family: var(--gs-grass-font--light);
   font-size: 1rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
