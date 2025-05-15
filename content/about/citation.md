@@ -4,7 +4,7 @@ date: 2024-07-28T05:05:05+05:00
 layout: "general"
 ---
 
-### Citing GRASS GIS Software
+## Citing GRASS GIS Software
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
 

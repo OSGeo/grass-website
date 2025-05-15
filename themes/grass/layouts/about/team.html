@@ -5,8 +5,8 @@
 <header class="shadow-bottom position-relative">
   <div class="fixed-top">
     {{ partial "banner.html" . }}
-    <div class="bg-white">
-      <div class="container bg-white">
+    <div class="bg-primary">
+      <div class="container bg-primary">
         {{ partial "navigation.html" . }}
       </div>
     </div>
@@ -18,7 +18,7 @@
     <div class="container">
        
         <div class="row">
-            <div class="p-5 bg-white">
+            <div class="p-3 bg-white">
                 <h2>Meet the GRASS Team</h2>
                 <h3>Project Steering Committee (PSC)</h3>
                 <p>The Project Steering Committee (PSC) plays a pivotal role in the governance and operational direction of GRASS GIS. Meet our current PSC members!</p>
@@ -28,16 +28,16 @@
         <!-- Chair -->
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="text-primary"></h3>
+                <h3></h3>
             </div>
-            <div class="p-5 bg-white">
+            <div class="bg-white">
                 {{ $teamMembers := .Site.Data.team.members }}
                 {{ range $index, $element := $teamMembers }}
 
                     {{ if eq $element.psc.role "chair"}}
                             <div class="col-lg-12">
                                 <div style="text-align: center;">
-                                <h2 class="text-primary">Chair</h2>
+                                <h2>Chair</h2>
                                 <h4>{{ $element.psc.chair.terms }}</h4>
                             </div>
                                 {{ partial "team-list.html" $element }}
