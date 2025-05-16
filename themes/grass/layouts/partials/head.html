@@ -6,7 +6,7 @@
   <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}"/>
   <meta name="keywords" content="{{.Site.Params.Keywords }}">
   <meta property="og:url" content="{{.Site.BaseURL}}">
-  <meta property="og:image" content="{{.Site.BaseURL}}images/other/share-img.png">
+  <meta property="og:image" content="{{.Site.BaseURL}}images/other/default-social-image.png">
   <meta property="og:title" content="{{ .Site.Title }}">
   <meta property="og:description" content="{{ .Site.Params.description }}">
   {{ hugo.Generator }}
@@ -14,12 +14,16 @@
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-  <meta name="twitter:card" content="GRASS GIS">
+  <meta name="twitter:card" content="GRASS">
   <meta name="twitter:site" content="@GRASSGIS">
   <meta name="twitter:creator" content="@GRASSGIS">
   <meta name="twitter:title" content="{{ .Site.Title }}">
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
-  <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/share-img.png">
+  <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/default-social-image.png">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="GRASS" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="canonical" href="{{ .Permalink }}" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/hybrid.css"> 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
@@ -28,36 +32,28 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
-  <style>
-  :root{
-    --primary-color:{{ .Site.Params.primaryColor }};
-    --secondary-color:{{ .Site.Params.secondaryColor }};
-    --text-color:{{ .Site.Params.textColor }};
-    --text-color-dark:{{ .Site.Params.textColorDark }};
-    --grass-color:{{ .Site.Params.grassColor }};
-    --grass-color-alt:{{ .Site.Params.grassColorAlt }};
-    --grass-color-light:{{ .Site.Params.grassColorLight }};
-    --grass-color-dark:{{ .Site.Params.grassColorDark }};
-    --grey-color:{{ .Site.Params.greyColor }};
-    --grey-color-light:{{ .Site.Params.greyColorLight }};
-    --grey-color-dark:{{ .Site.Params.greyColorDark }};
-    --white-color:{{ .Site.Params.whiteColor }};
-    --code-background-color:{{ .Site.Params.codeBackgroundColor }};
-    }  
-  </style>{{ $styles := resources.Get "css/style.css" | minify}}
+  {{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-1.12.4.js"></script>
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon/favicon-16x16.png">
+  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-3.3.1.slim.min.js"></script>
+  <link rel="android-chrome-192x192" sizes="192x192" href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
+  <link rel="android-chrome-512x512" sizes="512x512" href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-152x157.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-180x180.png">
   <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/favicon/safari-pinned-tab.svg" color="#088b36">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/logos/favicon-grass-green.svg" color="#ffffff">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <script src="{{ .Site.BaseURL }}plugins/tracking/matomo.js"></script>
-
 </head>
 <body>
   <noscript>Please enable javascript :)</noscript>

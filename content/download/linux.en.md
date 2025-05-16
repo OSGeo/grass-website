@@ -19,8 +19,8 @@ to quickly know which GRASS GIS version is currently available for your distro. 
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Arch Linux](https://aur.archlinux.org/packages/grass/){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Debian](https://packages.debian.org/grass){{< /donateDialog  >}}
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}}
-*  {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}}
+*  {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL](https://packages.fedoraproject.org/pkgs/grass/grass/){{< /donateDialog  >}}
+*  {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://packages.fedoraproject.org/pkgs/grass/grass/){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Mageia](https://madb.mageia.org/package/show/name/grass/){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass){{< /donateDialog  >}}
@@ -37,8 +37,8 @@ to quickly know which GRASS GIS version is currently available for your distro. 
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Debian](https://packages.debian.org/grass){{< /donateDialog  >}}
 * {{< donateDialog isToggle=true >}}<a href="/grass{{< currentVersionNoDots.inline  >}}{{- .Site.Data.grass.current_version_nodots -}}{{</currentVersionNoDots.inline >}}/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}} (weekly binary snapshot)
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass){{< /donateDialog  >}}
-* {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} (RHEL8/Centos8)
-* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass){{< /donateDialog  >}} and {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora-COPR](https://copr.fedorainfracloud.org/coprs/neteler/grass{{< currentVersionNoDots.inline  />}}/){{< /donateDialog  >}}
+* {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://packages.fedoraproject.org/pkgs/grass/grass/){{< /donateDialog  >}} (RHEL8/Centos8)
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://packages.fedoraproject.org/pkgs/grass/grass/){{< /donateDialog  >}} and {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora-COPR](https://copr.fedorainfracloud.org/coprs/neteler/grass{{< currentVersionNoDots.inline  />}}/){{< /donateDialog  >}}
 * {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass){{< /donateDialog  >}}
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable){{< /donateDialog  >}} (ubuntugis-unstable)
 
@@ -52,8 +52,8 @@ to quickly know which GRASS GIS version is currently available for your distro. 
 
 * {{< donateDialog isToggle=true  >}} <a href="/grass{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}}  (weekly binary snapshot)
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Gentoo](https://packages.gentoo.org/packages/sci-geosciences/grass) {{< /donateDialog  >}} 
-* {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}}  (RHEL8/Centos8)
-* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://src.fedoraproject.org/rpms/grass) {{< /donateDialog  >}} 
+* {{< donateDialog isToggle=true isMarkdown=true >}}[EPEL8](https://packages.fedoraproject.org/pkgs/grass/grass/) {{< /donateDialog  >}}  (RHEL8/Centos8)
+* {{< donateDialog isToggle=true isMarkdown=true >}}[Fedora](https://packages.fedoraproject.org/pkgs/grass/grass/) {{< /donateDialog  >}} 
 * {{< donateDialog isToggle=true isMarkdown=true >}}[openSUSE](https://build.opensuse.org/package/show/Application:Geo/grass)  {{< /donateDialog  >}} 
 * {{< donateDialog isToggle=true isMarkdown=true >}}[Ubuntu](https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable) {{< /donateDialog  >}}  (ubuntugis-unstable)
 

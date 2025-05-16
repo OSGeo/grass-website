@@ -1,6 +1,6 @@
 ---
 title: "Mac"
-date: 2023-08-231T11:02:05+06:00
+date: 2024-11-23T10:00:00Z
 description: "Download bundled GRASS GIS binaries for your Mac"
 weight: 3
 layout: "os"

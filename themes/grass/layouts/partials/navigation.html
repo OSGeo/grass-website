@@ -1,9 +1,36 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="{{.Site.BaseURL}}"><i class="ms ms-grass-gis ms-1-5x"></i><span class="grass">{{.Site.Params.logo}}</span></a> <button aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler border-0" data-target="#navigation" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+    <a class="navbar-brand" href="{{.Site.BaseURL}}">
+        <img class="grass-icon" alt="GRASS Logo" src="{{.Site.BaseURL}}images/logos/grass-white-no-text.svg">
+        <span class="grass text-white">{{.Site.Params.logo}}</span>
+    </a>
+    <button 
+        aria-controls="navigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler border-0"
+        data-target="#navigation"
+        data-toggle="collapse"
+        type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
             <li style="list-style: none">{{ range .Site.Menus.main}}{{if .HasChildren}} </li>
-            <li class="nav-item dropdown"><a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="{{.URL}}" role="button">{{ .Name }}</a><div class="dropdown-menu">{{ range .Children }}<a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>{{end}}</div></li>
+            <li class="nav-item dropdown">
+                <a 
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="nav-link dropdown-toggle text-light"
+                    data-toggle="dropdown"
+                    href="{{.URL}}"
+                    role="button">{{ .Name }}
+                </a>
+                <div class="dropdown-menu">
+                    {{ range .Children }}
+                    <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
+                    {{end}}
+                </div>
+            </li>
             <li style="list-style: none">{{ else }}</li>
             <li class="nav-item"><a class="nav-link text-dark" href="{{.URL}}">{{ .Name }}</a></li>
             <li style="list-style: none">{{ end }}{{ end }}</li>

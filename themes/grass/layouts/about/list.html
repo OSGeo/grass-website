@@ -4,8 +4,8 @@
 <header class="shadow-bottom position-relative">
   <div class="fixed-top">
     {{ partial "banner.html" . }}
-    <div class="bg-white">
-      <div class="container bg-white">
+    <div class="bg-primary">
+      <div class="container bg-primary">
         {{ partial "navigation.html" . }}
       </div>
     </div>
@@ -14,7 +14,7 @@
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
-    <section>
+    <section class="section">
       <section class="pt-4 bg-gray mt-95">
         <div class="container">
           <div class="row">
@@ -26,12 +26,11 @@
 	      <div class="container">
           <div class="row">
             <div class="col-12 bg-white mb-4">
-              The Geographic Resources Analysis Support System (<a href="https://grass.osgeo.org/" target="_blank">https://grass.osgeo.org/</a>),
-              commonly referred to as GRASS GIS, is an Open Source Geographic Information System providing powerful raster, vector and geospatial
-              processing capabilities. It can be used either as a stand-alone application or as backend for other software packages such as
-              <a href="https://qgis.org" target="_blank">QGIS</a> and <a href="https://www.r-project.org/" target="_blank">R</a>
-              or in the cloud. It is distributed freely under the terms of the GNU General Public License (GPL).
-              GRASS GIS is a founding member of the Open Source Geospatial Foundation (<a href="https://www.osgeo.org" target="_blank">OSGeo</a>).
+              <p><b>GRASS GIS</b>
+                is a powerful computational engine for raster, vector, and geospatial processing.
+                It supports terrain and ecosystem modeling, hydrology, data management, and imagery processing.
+                With a built-in temporal framework and Python API, it enables advanced time series analysis
+                and rapid geospatial programming, optimized for large-scale analysis on various hardware configurations.</p>
             </div>
           </div>
 	      </div>

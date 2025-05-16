@@ -25,7 +25,11 @@ started exploring the use of GIS for environmental research, monitoring and mana
 <p>Several universities adopted GRASS as an important training and research environment and many conducted short-courses for the public, in addition to using GRASS in their own curricula. Indeed, in 1988, GRASS received an award for quality software from the Urban and Regional Information Systems Association (URISA) in <b>1988</b>, only 4 years after the first release.</p>
 </div>
 <div class="col-lg-4 col-sm-12">
-<a href="https://av.tib.eu/media/12963" target="_blank"><img src="/images/gallery/marketing/grass_movie_CERL_1987.png"  width="93%" /></a>
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://av.tib.eu/player/12963" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+Official GRASS GIS video of the US Army CERL, narrated by William Shatner (<a href="https://doi.org/10.5446/12963" target="_blank">DOI</a>)
+<br><br>
 <h4 class="mt-4">Further reading</h4>
 <ul>
 <li><a href="https://tldp.org/HOWTO/GIS-GRASS/history.html"> A Brief History of GRASS <small> (D. Hastings) </small></a></li>
@@ -81,7 +85,7 @@ started exploring the use of GIS for environmental research, monitoring and mana
 <p>
 In February <b>2006</b>, the Open Source Geospatial Foundation (OSGeo) was formed to support and promote worldwide use and collaborative development of Open Source geospatial technologies and data. GRASS GIS is one of its founding projects. Later that year, the GRASS Project Steering Committee was formed which is responsible for the overall management of the project.</p>
 <p>
-On Dec 9, <b>2007</b> GRASS GIS started to use SVN and Trac bug tracker hosted by OSGeo. Other GRASS GIS project infrastructures like the website and mailing lists were (and still are) hosted by OSGeo. Just for fun have a look at the GRASS GIS Website evolution page.<p>
+On Dec 9, <b>2007</b> GRASS GIS started to use SVN and Trac bug tracker hosted by OSGeo. Other GRASS GIS project infrastructures like the website and mailing lists were (and still are) hosted by OSGeo. Just for fun have a look at the GRASS GIS <a href="/about/history/web-evolution">website evolution page</a>.<p>
 </div>
 <div class="col-lg-4 col-sm-12">
  <img src="/images/conferences_logos/FOSS4G2004_Mayuri.png"  width="93%" />		   

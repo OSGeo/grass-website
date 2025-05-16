@@ -1,23 +1,42 @@
 {{ partial "head.html" . }}
-  <header class="hero-section overlay bg-cover banner" data-background="{{.Site.BaseURL}}/images/logos/banner.jpg">
-    <div class="container mb-20">
-    {{ partial "navigation.html" . }}
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 text-center mx-auto">
-          <h1><a href="{{ "/" | relURL }}"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="33%"></a></h1>
-          <div class="alert alert-warning">
-           <h2 style="margin:10px;color:red;">Sorry, nothing growing here.
-             <span style="display:block;margin:10px;font-size:.75em;">
-             <a href="{{ "/" | relURL }}"><i class="fa fa-home"></i> home</a><br>
-             <a href="{{ "/learn/manuals/" | relURL }}"><i class="fa fa-file-text"></i> manuals</a><br>
-             <a href="{{ "/download/" | relURL }}"><i class="fa fa-download"></i> downloads</a>
-           </h2>
-           <p style="color: #088B36;">Current version: GRASS GIS {{ .Site.Data.grass.current_version }}</p>
-          </div>
+
+  <header class="hero-section overlay-blue bg-cover banner" data-background="{{.Site.BaseURL}}/images/logos/banner.jpg">
+    <div class="fixed-top">
+      {{ partial "banner.html" . }}
+      <div class="bg-primary">
+        <div class="container bg-primary">
+          {{ partial "navigation.html" . }}
         </div>
       </div>
     </div>
+    <section class="pt-3 mt-95">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 text-center mx-auto yard-sign">
+              <div class="grass-green text-bold">
+                <img alt="GRASS" src="{{.Site.BaseURL}}/images/logos/grass-blue.svg">
+                <h3>Sorry, nothing growing here.</h3>
+                <p class="text-bold">The page you are looking for is not available.<br>Please check the URL or go back to the</p>
+                <a class="btn btn-primary" href="{{.Site.BaseURL}}">home page</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
+
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      {{ range (where .Site.Pages "Type" "pages") }}{{ if not (in .Section "about") }}
+      <div class="col-lg-3 col-sm-6 mb-4">
+          <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i
+        class="{{ .Params.Icon }} icon d-block mb-40"></i>
+          <h3 class="mb-3">{{ .Title }}</h3>
+          <p class="mb-0">{{ .Params.Description }}</p>
+        </a>
+  </div>
+  {{ end }}{{ end }} </div>
+    </div>
+  </div>
 {{ partial "footer.html" . }}

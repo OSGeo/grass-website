@@ -12,7 +12,7 @@ aliases: [/contribute/sponsoring/]
 ### Why sponsor?
 
 *The GRASS GIS project is a volunteer-based organization*, 
-it is an affiliated project and founding member of the
+it is a project of the
 Open Source Geospatial Foundation ([OSGeo](https://osgeo.org/)).
 
 There is no cost to participate in the project itself or to use

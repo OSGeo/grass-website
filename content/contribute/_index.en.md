@@ -2,7 +2,7 @@
 title: "Contribute"
 date: 2022-04-25T10:12:05+02:00
 icon: "fa fa-user"
-description: "Contribute to Open Source Geospatial through GRASS GIS development"
+description: "Get started with open source develpment with GRASS"
 type : "pages"
 layout: "list"
 ---
@@ -11,7 +11,7 @@ layout: "list"
 
 ### Contribute financially
 <i class="fa fa-dollar-sign fa-7x" style="float:left;padding-right:15px"></i>
-Consider financially supporting GRASS GIS trough [OpenCollective](https://opencollective.com/grass/contribute). The GRASS GIS project is a volunteer-based organization and your financial support is necessary to ensure the long-term sustainability of the project and the software. See [sponsoring](/contribute/sponsoring) page for details how to donate and to understand how we use the money to build up the community and software.
+Consider financially supporting GRASS GIS through [OpenCollective](https://opencollective.com/grass/contribute). The GRASS GIS project is a volunteer-based organization and your financial support is necessary to ensure the long-term sustainability of the project and the software. See [sponsoring](/contribute/sponsoring) page for details how to donate and to understand how we use the money to build up the community and software.
 
 ### Report a bug or enhancement wish
 <i class="fa fa-bug fa-9x" style="float:right;padding-left:10px"></i>
@@ -23,7 +23,7 @@ Bug reports and feature requests can be submitted as issues in the [GRASS GIS bu
 Writing or editing documentation and tutorials is an ideal platform for your first contribution to the project.
 
 Each GRASS GIS tool comes with a respective [manual page](/learn/manuals) that provides comprehensive documentation including working examples.
-There are also several [tutorials](/learn/tutorials), courses and wikis contributed by different developers and users. If you find a piece of information missing or outdated, please contribute!
+There are also various [tutorials](https://grass-tutorials.osgeo.org/) contributed by different developers and users. If you find a piece of information missing or outdated, please contribute!
 
 ### Help with translation
 <i class="fa fa-language fa-11x" style="float:right;padding-left:10px"></i>
@@ -56,7 +56,7 @@ found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#Write
 The GRASS GIS core consists of libraries, tools and the Graphic User Interface.
 A good starting point is supporting us with [bug fixing and enhancement wishes](https://github.com/OSGeo/grass/issues).
 Review these [resources](/contribute/development) to learn how to develop and contribute code effectively.
-Feel free to announce your planned development to the [GRASS developers mailing list](https://lists.osgeo.org/mailman/listinfo/grass-dev), someone may join you or give you feedback.
+Feel free to announce your planned development to the [GRASS developers community](https://discourse.osgeo.org/c/grass/developer/61) on Discourse, someone may join you or give you feedback.
 
 For **paid opportunities** to develop code for GRASS GIS, check out our [stipend program](https://grasswiki.osgeo.org/wiki/Student_Grants) for students
 and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://trac.osgeo.org/grass/wiki/GSoC).

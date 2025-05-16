@@ -8,7 +8,7 @@ aliases: [/learn/overview]
 <div class="container">
 <div class="row mt-30">
 <div class="col-lg-4 text-center">
-<img src="/images/logos/grasslogo.svg" width="42%" alt="GRASS GIS">
+<img src="/images/logos/grass-green.svg" width="42%" alt="GRASS GIS">
 </div>
 <div class="col-lg-8">
 <p><b>G</b>eographic <b>R</b>esources <b>A</b>nalysis <b>S</b>upport 
@@ -17,7 +17,7 @@ Information System (GIS) technology built for vector and raster geospatial
 data management, geoprocessing, spatial modelling and visualization.</p>
 <p><b>GRASS GIS</b> is Free and Open Source Software released under the 
 terms of the <a href="/about/license">GNU General Public License (GPL >= v2)</a>. 
-GRASS GIS is also a founding member and an affiliated  project of the
+GRASS GIS is a project of the
 <a href="https://osgeo.org">Open Source Geospatial Foundation (OSGeo)</a>.</p>
 </div>
 </div>
@@ -42,14 +42,14 @@ and the full list of
 <a href="/about/history/releases" target="_blank">releases</a>
 for more details.</p>
 
-<p>The strength and success of GRASS GIS relies on the user community. 
+<!-- <p>The strength and success of GRASS GIS relies on the user community. 
 The <i>philosophy</i> of the GRASS GIS Development Team is to encourage users 
 to develop their own unique tools and applications as well as to improve 
-the existent ones.</p>
+the existing ones.</p> -->
 
 </div>
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/gallery/gui/grass70_gui_example.png" width="89%" alt="GRASS GIS">
+<img class="bsh" src="/images/news/grass83_news_screenshot.png" width="99%" alt="GRASS GIS">
 </div>
 
 </div>
@@ -61,7 +61,7 @@ the existent ones.</p>
 <div class="row mt-20">
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/gallery/gui/gui-grass-example-2.png" width="89%" alt="GRASS GIS">
+<img class="bsh" src="/images/gallery/vector/hexagons_3d_white_outlier.png" width="95%" alt="GRASS GIS">
 </div>
 
 <div class="col-lg-6">
@@ -110,7 +110,7 @@ Some selected relevant features are:
 <div class="row mt-20">
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/other/grass_through_qgis.png" width="90%" alt="GRASS GIS through QGIS">
+<img class="bsh" src="/images/news/jupyter_interactive_viewshed.png" width="90%" alt="GRASS GIS through QGIS">
 </div>
 
 <div class="col-lg-6">
@@ -122,7 +122,7 @@ GRASS GIS can be used through various interfaces:
 <li><a href="https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library" target="_blank">Scripting library</a> and <a href="https://grasswiki.osgeo.org/wiki/Python/pygrass" target="_blank">object-oriented</a> <strong>Python API</strong>.</li>
 <li><a href="https://grasswiki.osgeo.org/wiki/GRASS_GIS_Jupyter_notebooks" target="_blank">Jupyter Notebooks</a>.</li>
 <li><strong>Web interface</strong> through <a href="https://grasswiki.osgeo.org/wiki/WPS" target="_blank">WPS servers</a>.</li>
-<li><a href="https://docs.qgis.org/3.10/en/docs/user_manual/grass_integration/grass_integration.html" target="_blank">QGIS</a> provides two different ways to run GRASS GIS modules: Processing toolbox and the GRASS GIS plugin.</li>
+<li><a href="https://docs.qgis.org/latest/en/docs/user_manual/grass_integration/grass_integration.html" target="_blank">QGIS</a> provides two different ways to run GRASS GIS modules: Processing toolbox and the GRASS GIS plugin.</li>
 <li>R provides an <a href="https://grasswiki.osgeo.org/wiki/R_statistics" target="_blank">interface to GRASS GIS</a> through the package <strong><i>rgrass</i></strong>.</li>
 <li>It is also possible to <a href="/learn/tryonline" target="_blank">try GRASS online</a>!</li>
 </ul>
