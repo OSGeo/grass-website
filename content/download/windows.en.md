@@ -1,7 +1,7 @@
 ---
 title: "Windows"
 date: 2021-12-29T11:02:05+02:00
-description: "Download GRASS GIS installers for Windows"
+description: "Download GRASS installers for Windows"
 weight: 2
 layout: "os"
 ---
@@ -12,16 +12,16 @@ layout: "os"
 [ [**Standalone installers**](#standalone-installers) | [**OSGeo4W**](#OSGeo4W) ]
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> Install GRASS GIS on Windows using a standalone installer or OSGeo4W. </div>
+<i class="fa fa-arrow-right"></i> Install GRASS on Windows using a standalone installer or OSGeo4W. </div>
 
 <hr>
 
 
 ### <span id="standalone-installers"> Standalone installers </span>
 
-Standalone installer: install GRASS GIS with the required support packages.
+Standalone installer: install GRASS with the required support packages.
 
-#### <span id="GRASS-GIS-current"> GRASS GIS {{< grassVersion version="current" >}} (current)</span>
+#### <span id="GRASS-GIS-current"> GRASS {{< grassVersion version="current" >}} (current)</span>
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>New stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}">release announcement</a> for more information.</div>
@@ -37,10 +37,10 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 <hr>
 
-#### <span id="GRASS-GIS-old"> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)</span>
+#### <span id="GRASS-GIS-old"> GRASS {{< grassVersion version="legacy" >}} (legacy)</span>
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS GIS {{< grassVersion version="legacy" type="short">}} new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">GRASS GIS {{< grassVersion version="legacy" >}}  announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS {{< grassVersion version="legacy" type="short">}} new features</a> and <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">GRASS {{< grassVersion version="legacy" >}} announcement</a> for more information.
 </div>
 
 *  {{< donateDialog isToggle=true >}}  
@@ -55,10 +55,10 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 <hr>
 
-#### <span id="GRASS-GIS-devel"> GRASS GIS {{< grassVersion version="preview" >}} (preview)</span>
+#### <span id="GRASS-GIS-devel"> GRASS {{< grassVersion version="preview" >}} (preview)</span>
 
 <div class="alert rounded-0 alert-info">
-<i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
+<i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS</b> version.
 </div>
 
 *  {{< donateDialog isToggle=true >}}  
@@ -72,7 +72,7 @@ Standalone installer: install GRASS GIS with the required support packages.
 
 ### <span id="OSGeo4W"> OSGeo4W  </span>
 
-OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more).
+OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS as well as many other packages (QGIS, GDAL/OGR, and more).
 
 *   {{< donateDialog isToggle=true >}}  
 <a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="blank">
@@ -116,7 +116,7 @@ osgeo4w-setup.exe -q -k -P grass -s https://download.osgeo.org/osgeo4w/v2/x86_64
 </pre>
 
 ##### QGIS users:
-In order to have GRASS GIS support (also in QGIS-Processing) you need to install the "qgis*-grass-plugin" packages.
+In order to have GRASS support (also in QGIS-Processing) you need to install the "qgis*-grass-plugin" packages.
 
 
  {{< donateDialog >}}  

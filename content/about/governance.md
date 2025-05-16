@@ -18,7 +18,7 @@ of the [Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo).
    width="35%" style="float:left;padding-right:25px;padding-top:15px">
 </a>
 
-The Project Steering Committee (PSC) of the GRASS GIS project oversees the
+The Project Steering Committee (PSC) of the GRASS project oversees the
 overall direction of the project, budget, and necessary changes to governance or
 processes. More specifically, the PSC votes on write access to the source code
 repositories, reimbursements, and other issues that are difficult to decide by
@@ -45,11 +45,11 @@ Procedures](https://github.com/OSGeo/grass/blob/main/doc/development/rfc/PSC_vot
    width="25%" style="float:right;padding-left:25px;padding-top:15px">
 </a>
 
-GRASS GIS is under the umbrella of the Open Source Geospatial Foundation
+GRASS is under the umbrella of the Open Source Geospatial Foundation
 (OSGeo), a not-for-profit organization that aims to foster the global adoption
-of open geospatial technology. OSGeo provides GRASS GIS with legal, fiscal, and
+of open geospatial technology. OSGeo provides GRASS with legal, fiscal, and
 technical infrastructure. Within the OSGeo organizational structure, the GRASS
-PSC is a committee which provides updates about the GRASS GIS project to the
+PSC is a committee which provides updates about the GRASS project to the
 OSGeo Board.
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Gallery"
-description: "GRASS GIS screenshots"
+description: "GRASS screenshots"
 date: 2020-05-03T11:02:05+06:00
 layout: "gallery"
 ---

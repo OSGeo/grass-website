@@ -1,7 +1,7 @@
 ---
 title: "Addons"
 date: 2020-04-13T11:02:05+0600
-description: "Download GRASS GIS addon extension modules"
+description: "Download GRASS addon extension modules"
 weight: 
 categories: [nl]
 layout: "addons"
@@ -13,7 +13,7 @@ layout: "addons"
 
 ### <a name="Overview"></a>Overview of addons
 
-There is a [growing list of GRASS GIS addons](/grass8/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
+There is a [growing list of GRASS addons](/grass8/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
 
 ### <a name="Common-user"></a>Beginner users
 

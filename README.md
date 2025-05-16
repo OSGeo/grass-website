@@ -1,8 +1,8 @@
-# Hugo theme for GRASS GIS website
+# Hugo theme for GRASS website
 
-This repository contains the code of the GRASS GIS project website: https://grass.osgeo.org/
+This repository contains the code of the GRASS project website: https://grass.osgeo.org/
 
-Mailing list for discussions: https://lists.osgeo.org/mailman/listinfo/grass-web
+# Contribute
 
 Below some instructions how to contribute by running a local instance for testing
 prior to commit changes as pull requests.
@@ -47,7 +47,7 @@ Content must be created in .md files using markdown syntax. HTML markup can also
 Useful resources:
  * [Hugo docs](https://gohugo.io/documentation/)
  * [Markdown guide](https://www.markdownguide.org/basic-syntax/)
- * [GRASS GIS Website style guide](https://grass.osgeo.org/about/theme/)
+ * [GRASS Website style guide](https://grass.osgeo.org/about/theme/)
 
 ### Add a news item
 

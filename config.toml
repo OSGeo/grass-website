@@ -169,7 +169,7 @@ weight = 2
 
 [[Languages.en.menu.main]]
 parent = "Learn"
-name = "Manuals"
+name = "Documentation"
 URL = "/learn/manuals"
 weight = 3
 

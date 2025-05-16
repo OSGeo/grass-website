@@ -38,7 +38,7 @@ layout: "credits"
 
 #### Legal notice
 
-This is a community maintained website. The  GRASS Development Team and the GRASS GIS Project Steering Committee are not responsible for the content quality and accuracy.
+This is a community maintained website. The GRASS Development Team and the GRASS Project Steering Committee are not responsible for the content quality and accuracy.
 
 #### Privacy policy
 
@@ -51,7 +51,7 @@ This website is licensed under the GNU General Public License v3.0<br>
 
 #### Copyright
 
-&#9400; Copyright, 1998-2022 GRASS Development Team
+&#9400; Copyright, 1998-2025 GRASS Development Team
 
 #### Acknowledgments
 
