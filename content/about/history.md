@@ -21,7 +21,7 @@ layout: "general"
 <div class="col-lg-8 col-sm-12">
 <p>GRASS (Geographic Resources Analysis Support System) has been under continuous development since <b>1982</b>, when the U.S. Army Corps of Engineers' Construction Engineering Research Laboratory (USA/CERL)
 started exploring the use of GIS for environmental research, monitoring and management of military lands.</p>
-<p>Since no other software package available back then met all their requirements, they designed and  developed their own. GRASS was born under the name of Fort Hood Information System (FHIS). Meanwhile, other US federal agencies and environmental offices became interested and the more general purpose <b>GRASS was born</b>. </p>
+<p>Since no other software package available back then met all their requirements, they designed and developed their own. GRASS was born under the name of Fort Hood Information System (FHIS). Meanwhile, other US federal agencies and environmental offices became interested, and the more general purpose <b>GRASS was born</b>. </p>
 <p>Several universities adopted GRASS as an important training and research environment and many conducted short-courses for the public, in addition to using GRASS in their own curricula. Indeed, in 1988, GRASS received an award for quality software from the Urban and Regional Information Systems Association (URISA) in <b>1988</b>, only 4 years after the first release.</p>
 </div>
 <div class="col-lg-4 col-sm-12">
@@ -85,7 +85,7 @@ Official GRASS video of the US Army CERL, narrated by William Shatner (<a href="
 <p>
 In February <b>2006</b>, the Open Source Geospatial Foundation (OSGeo) was formed to support and promote worldwide use and collaborative development of Open Source geospatial technologies and data. GRASS is one of its founding projects. Later that year, the GRASS Project Steering Committee was formed which is responsible for the overall management of the project.</p>
 <p>
-On Dec 9, <b>2007</b> GRASS started to use SVN and Trac bug tracker hosted by OSGeo. Other GRASS project infrastructures like the website and mailing lists were (and still are) hosted by OSGeo. Just for fun have a look at the GRASS <a href="/about/history/web-evolution">website evolution page</a>.<p>
+On December 9, <b>2007</b> GRASS started to use SVN and Trac bug tracker hosted by OSGeo. Other GRASS project infrastructures like the website and mailing lists were (and still are) hosted by OSGeo. Just for fun have a look at the GRASS <a href="/about/history/web-evolution">website evolution page</a>.<p>
 </div>
 <div class="col-lg-4 col-sm-12">
  <img src="/images/conferences_logos/FOSS4G2004_Mayuri.png"  width="93%" />		   
