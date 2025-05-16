@@ -816,6 +816,13 @@ pre {
 .navbar .nav-item .nav-link .text-dark:hover {
   color: var(--gs-primary-color);
 }
+
+.nav-tabs .nav-link.active {
+  color: var(--gs-primary-color);
+  background-color: var(--gs-white-color);
+  border-color: var(--gs-grey-alt-color) var(--gs-grey-alt-color) var(--gs-white-color) var(--gs-grey-alt-color);
+}
+
 .navbar .dropdown:hover .dropdown-menu {
   visibility: visible;
   opacity: 1;
