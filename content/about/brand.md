@@ -1,10 +1,10 @@
 ---
 title: "Brand"
-date: 2018-12-29T11:02:05+06:00
+date: 2025-05-15T11:02:05+06:00
 layout: "brand"
 ---
 
-Whether you are contributing to GRASS or creating materials which involve GRASS, help the project by keeping these branding guidelines.
+<span style="font-size:1.25em;" class="text-secondary">Whether you are contributing to GRASS or creating materials which involve GRASS, help the project by keeping these branding guidelines.</span>
 
 ## Logos
 

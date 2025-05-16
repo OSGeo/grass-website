@@ -5,9 +5,3 @@ description: "Get your free and open source copy of the GRASS GIS software"
 type : "pages"
 weight: 1
 ---
-
-
-
-
-
-
