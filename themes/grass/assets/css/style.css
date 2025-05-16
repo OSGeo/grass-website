@@ -8,6 +8,7 @@
   --gs-grass-font--medium: 'Fira Sans Medium', sans-serif;
   --gs-grass-font--bold: 'Fira Sans Bold', sans-serif;
   --gs-grass-font--light: 'Fira Sans ExtraLight', sans-serif;
+  --gs-grass-font--mono: 'Fira Sans Mono', sans-serif;
 
   /*  Main Colors 
   ------------------------------------------------------------------------------*/
@@ -1487,7 +1488,7 @@ nobullets {
 
 .hljs,
 .hljs-subst  {
-   background:var(--gs-white-color);
+   background:var(--gs-grey-color-lightest);
    color: var(--gs-black-color-light);
 }
 
@@ -1495,8 +1496,21 @@ nobullets {
    color: var(--gs-primary-color);
 }
 
+.hljs-comment {
+  color: var(--gs-grey-color);
+}
+
+.hljs-string,
+.hljs-section,
+.hljs-selector-class,
+.hljs-template-variable,
+.hljs-deletion {
+  color: var(--gs-primary-color);
+}
+
 code {
    color: var(--gs-black-color-light);
+   font-family: var(--gs-grass-font--mono);
 }
 
 .fa-11x {
@@ -1757,6 +1771,7 @@ code {
   color: var(--gs-white-color); /* White text color */
   align-items: center;
   gap: 0.5rem;
+  margin: 0.2rem;
   display: inline-flex;
 }
 
@@ -1771,6 +1786,7 @@ code {
   padding: .75rem 1.5rem; /* Larger padding for the button */
   font-size: 1rem; /* Larger font size */
   color: var(--gs-support-color); /* White text color */
+  margin: 0.2rem;
   align-items: center;
   gap: 0.5rem;
   display: inline-flex;
@@ -1799,11 +1815,6 @@ code {
   background: var(--gs-grey-light-color);
 }
 
-/* .hljs {
-  background: var(--code-background-color) !important; 
-  color: #1d1f21;
-} */
-
 .btn-clipboard {
   position: absolute;
   top: .5rem;
@@ -1812,7 +1823,7 @@ code {
   display: block;
   padding: .25rem .5rem;
   font-size: 75%;
-  color: #ffffff;
+  color: var(--gs-primary-color);
   cursor: pointer;
   background-color: transparent;
   border: 0;
