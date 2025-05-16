@@ -2,7 +2,6 @@
 title: "GRASS GIS books"
 date: 2020-04-29T11:02:05+06:00
 layout: "books"
-aliases: [/learn/books]
 ---
 
 | | |
