@@ -10,7 +10,7 @@ weight: 2
 
 <h3 class="mt-2 mb-4">Plenty of resources</h3>
 
-There are plenty of resources online to get started and learn GRASS GIS: from 
+There are plenty of resources online to get started and learn GRASS: from 
 [manual pages](/learn/manuals) for each module and addon with examples, 
 [wiki](https://grasswiki.osgeo.org/wiki/GRASS-Wiki) pages with applications 
 and use cases to beginner and advanced [courses and workshops](https://grass-tutorials.osgeo.org/),

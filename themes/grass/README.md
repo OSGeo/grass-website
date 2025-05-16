@@ -1,3 +1,3 @@
-# Hugo Theme for GRASS GIS website 
+# Hugo Theme for GRASS website 
 
 This is a work in progress

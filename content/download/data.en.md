@@ -1,7 +1,7 @@
 ---
 title: "Data"
 date: 2022-10-15T11:02:05+06:00
-description: "Download sample data ready for GRASS GIS"
+description: "Download sample data ready for GRASS"
 weight: 
 categories: [nl]
 layout: "data"
@@ -16,9 +16,9 @@ layout: "data"
 <div class="row">
   <div class="col-sm-4">
     <div class="alert rounded-0 alert-default row">
-    <span><i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS GIS. Datasets are made available as ready-to-use GRASS GIS <b>locations</b> and sample data in other
-    common GIS formats.</span>
-    <span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <b>download button on the GRASS GIS GUI</b>.</span>
+    <span><i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS. Datasets are made available as ready-to-use GRASS  <b>projects</b> and sample data in other
+    common formats.</span>
+    <span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <b>download button on the GRASS GUI</b>.</span>
     </div>
   </div>
   <div class="col-sm-8 text-center">
@@ -100,7 +100,7 @@ The North Carolina dataset can be downloaded in two versions:
 
 ### <a name="SpearFishDataset"></a> Spearfish dataset
 
-This is the classical GRASS GIS dataset from the 1980th covering a part of
+This is the classical GRASS dataset from the 1980th covering a part of
 Spearfish, South Dakota, USA, with raster, vector and point data. For more information on the dataset see
 the short <a href="/sampledata/spearDB.pdf">documentation</a> and
 <a href="/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
@@ -115,7 +115,7 @@ the short <a href="/sampledata/spearDB.pdf">documentation</a> and
 <hr>
 
 ### <a name="GlobalDatasets"></a> Global datasets
-Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS GIS project with global
+Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS project with global
 background maps is available in the World Geodetic System 1984 (WGS84). It is provided in two versions, a smaller, basic one and 
 a more comprehensive collection with additional hydrological and ecological data: 
 <ul id="links" class="list-unstyled version">
@@ -134,6 +134,6 @@ a more comprehensive collection with additional hydrological and ecological data
 
 
 In the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) wiki, the community shares information on other open datasets
-all over the globe and how they can be imported into GRASS GIS.
+all over the globe and how they can be imported into GRASS.
 
 <hr>
