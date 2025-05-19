@@ -494,8 +494,9 @@ a {
   color: var(--gs-secondary-alt-color);
 }
 a:hover, a:focus {
-  color: var(--gs-secondary-light-color) !important;
+  color: var(--gs-secondary-light-color);
 }
+
 a, button, select {
   cursor: pointer;
   transition: .2s ease;
@@ -1824,16 +1825,24 @@ code {
   border-color: var(--gs-support-color);
 }
 
-.btn-footer {
+.btn-outline-white {
   background-color: none;
   border: solid 1px var(--gs-white-color);
   padding: .75rem 1.5rem; 
   font-size: 1rem; /* Larger font size */
   color: var(--gs-white-color); /* White text color */
   align-items: center;
+  text-align: center;
   gap: 0.5rem;
   margin: 0.2rem;
-  display: inline-flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: inherit;
+}
+
+.btn-outline-white:hover, .btn-outline-white:focus {
+  color: var(--gs-primary-alt-color);
+  border-color: var(--gs-primary-alt-color);
 }
 
 @media (max-width: 991px) {
