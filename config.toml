@@ -261,7 +261,7 @@ link = "https://discourse.osgeo.org/c/grass/62"
 label = "GRASS Discourse"
 
 [[Languages.en.params.socialIcon]]
-icon = " fa fa-comments"
+icon = " fab fa-gitter"
 link = "https://gitter.im/grassgis/community"
 label = "GRASS Gitter Community"
 
@@ -279,11 +279,6 @@ label = "GRASS on Mastodon"
 icon = " fab fa-x-twitter"
 link = "https://twitter.com/grassgis"
 label = "GRASS on Twitter/X"
-
-[[Languages.en.params.socialIcon]]
-icon = "fab fa-facebook"
-link = "https://www.facebook.com/groups/GRASS"
-label = "GRASS on Facebook"
 
 [[Languages.en.params.socialIcon]]
 icon = "fab fa-youtube"
