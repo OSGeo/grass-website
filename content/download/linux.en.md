@@ -10,7 +10,8 @@ layout: "os"
 
 [ [**GRASS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
 
-<i class="fa fa-arrow-right"></i> Install <tt>grass</tt> package on your Linux distribution. Have a look at 
+The packaging status does not work
+<!-- <i class="fa fa-arrow-right"></i> Install <tt>grass</tt> package on your Linux distribution. Have a look at 
 {{< donateDialog isToggle=true isMarkdown=true >}}[Repology](https://repology.org/project/grass/versions){{< /donateDialog  >}} for an extended
 list of GRASS packages or directly check the 
 <a href="https://repology.org/badge/vertical-allrepos/grass.svg?exclude_unsupported=1&exclude_sources=modules,site&minversion={{< grassVersion version="current" >}}&columns=3" class="btn btn-primary">Packaging Status</a>

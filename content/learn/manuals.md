@@ -51,12 +51,12 @@ layout: "manuals"
   <a href="/programming8/" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl-l"><a href="https://github.com/OSGeo/grass/tree/main/doc/vector/v.example " target="_blank"> GRASS Example Vector Module in C</a></span>
-  <a href="https://github.com/OSGeo/grass/tree/main/doc/vector/v.example" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl-l"><a href="https://github.com/OSGeo/grass/tree/main/doc/examples/vector/v.example " target="_blank"> GRASS GIS Example Vector Module in C</a></span>
+  <a href="https://github.com/OSGeo/grass/tree/main/doc/examples/vector/v.example" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
-  <span class="mwl-l"><a href="https://github.com/OSGeo/grass/tree/main/doc/raster/r.example " target="_blank"> GRASS Example Raster Module in C</a></span>
-  <a href="https://github.com/OSGeo/grass/tree/main/doc/raster/r.example" class="inl btn btn-primary" target="_blank">View HTML</a>
+  <span class="mwl-l"><a href="https://github.com/OSGeo/grass/tree/main/doc/examples/raster/r.example " target="_blank"> GRASS GIS Example Raster Module in C</a></span>
+  <a href="https://github.com/OSGeo/grass/tree/main/doc/examples/raster/r.example" class="inl btn btn-primary" target="_blank">View HTML</a>
   </li>
  <li>
   <span class="mwl-l"><a href="/grass{{< currentVersionNodots.inline  />}}/manuals/libpython/index.html " target="_blank"> GRASS Python Library Manual</a></span>

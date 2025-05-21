@@ -6,7 +6,7 @@ title-block-banner: true
 author:
   - name: Corey White
   - name: Sarah White
-date: May 5, 2025
+date: 2025-05-16
 date-modified: today
 categories:
   - design

@@ -8,6 +8,7 @@
   --gs-grass-font--medium: 'Fira Sans Medium', sans-serif;
   --gs-grass-font--bold: 'Fira Sans Bold', sans-serif;
   --gs-grass-font--light: 'Fira Sans ExtraLight', sans-serif;
+  --gs-grass-font--mono: 'Fira Sans Mono', sans-serif;
 
   /*  Main Colors 
   ------------------------------------------------------------------------------*/
@@ -63,8 +64,8 @@
 
   /* Special Colors */
   --gs-support-color: rgb(243, 57, 138);
-  --gs-support-color--dark: rgba(243, 57, 138, 0.541);
-  --gs-support-color--light: rgba(243, 57, 138, 0.322);
+  --gs-support-color-dark: rgb(150, 35, 84);
+  --gs-support-color--light: rgba(243, 57, 138, 0.8);
   --gs-yard-sign-color: rgb(116, 93, 2);
 
   /* White */
@@ -415,6 +416,34 @@ a.nws:hover {
 }
 .btn-grass a:hover {
   color: var(--gs-white-color) !important;
+}
+
+.btn-grass {
+  font-size: 18px;
+  color: var(--white-color) !important;
+  background: var(--grass-color);
+  border-radius: 5px;
+}
+.btn-grass:active {
+  background: var(--grass-color-alt);
+}
+.btn-grass:hover, .btn-grass:focus {
+  background: var(--grass-color-alt);
+  color: var(--white-color) 
+}
+.btn-grass:not(:disabled):not(.disabled).active, .btn-grass:not(:disabled):not(.disabled):active, .show>.btn-grass.dropdown-toggle {
+  color: var(--white-color);
+  background-color: var(--grass-color-alt);
+  border-color: var(--grass-color-alt);
+}
+.btn-grass a {
+  color: var(--white-color);
+}
+.btn-grass a:focus {
+  color: var(--white-color);
+}
+.btn-grass a:hover {
+  color: var(--white-color) !important;
 }
 
 .badge {
@@ -787,6 +816,13 @@ pre {
 .navbar .nav-item .nav-link .text-dark:hover {
   color: var(--gs-primary-color);
 }
+
+.nav-tabs .nav-link.active {
+  color: var(--gs-primary-color);
+  background-color: var(--gs-white-color);
+  border-color: var(--gs-grey-alt-color) var(--gs-grey-alt-color) var(--gs-white-color) var(--gs-grey-alt-color);
+}
+
 .navbar .dropdown:hover .dropdown-menu {
   visibility: visible;
   opacity: 1;
@@ -794,12 +830,12 @@ pre {
   transform: scaleX(1);
 }
 .navbar .dropdown-menu {
-  box-shadow: 0px 3px 9px 0px var(--gs-black-color--lightest);
+  box-shadow: 0px 3px 9px 0px var(--gs-black-color--lighter);
   padding: 15px;
   border: 0;
   top: 60px;
   left: -25px;
-  border-radius: 0;
+  border-radius: 0.4;
   display: block;
   visibility: hidden;
   transition: .3s ease;
@@ -934,6 +970,25 @@ pre {
     margin-right: auto;
     margin-bottom: 20px;
     border: 1px solid var(--gs-grey-light-color);
+  }
+
+  .search-input {
+    background-color: var(--gs-white-color) !important;
+    outline: none !important;
+  }
+
+  .search-input:focus {
+    background-color: var(--gs-white-color);
+    color: var(--gs-black-color);
+    outline: none !important;
+  }
+
+  .search-icon {
+    padding:  0;
+    padding-right: 5px;
+    margin: 0;
+    width: 25px;
+    color:var(--gs-primary-color) !important;
   }
 }
 
@@ -1457,17 +1512,31 @@ nobullets {
    list-style-type: none;
 }
 
-.hljs {
-   background:var(--gs-white-color);
+.hljs,
+.hljs-subst  {
+   background:var(--gs-grey-color-lightest);
    color: var(--gs-black-color-light);
 }
 
 .hljs-keyword{
-   color: var(--gs-black-color-light);
+   color: var(--gs-primary-color);
 }
 
-code{
+.hljs-comment {
+  color: var(--gs-grey-color);
+}
+
+.hljs-string,
+.hljs-section,
+.hljs-selector-class,
+.hljs-template-variable,
+.hljs-deletion {
+  color: var(--gs-primary-color);
+}
+
+code {
    color: var(--gs-black-color-light);
+   font-family: var(--gs-grass-font--mono);
 }
 
 .fa-11x {
@@ -1704,6 +1773,87 @@ code{
   padding: 10px;
   border-radius: 50%;
   object-fit: cover;
+  /* border: 4px solid var(--grass-color-dark); */
+}
+.grass-download {
+  margin: 0 auto 5px auto;
+}
+
+.download-card {
+  max-width: 600px; /* Sets a max-width for the card */
+  box-shadow: 0 4px 6px var(--gs-black-color--light); /* Adds a subtle shadow to the card */
+  border: none; /* Removes the default card border */
+}
+
+.grass-download-button-group {
+  display: inline-flex;
+}
+
+.btn-download {
+  background-color: var(--gs-primary-color);
+  border: none; /* Removes the border */
+  padding: .75rem 1.5rem; /* Larger padding for the button */
+  font-size: 1rem; /* Larger font size */
+  color: var(--gs-white-color); /* White text color */
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.2rem;
+  display: inline-flex;
+}
+
+.btn-download:hover, .btn-download:focus {
+  color: var(--gs-white-color) !important;
+  background-color: var(--gs-primary-color-dark); /* Darker blue on hover */
+}
+
+.btn-outline-support {
+  background-color: var(--gs-base-white-color);
+  border: solid 1px var(--gs-support-color);
+  padding: .75rem 1.5rem; /* Larger padding for the button */
+  font-size: 1rem; /* Larger font size */
+  color: var(--gs-support-color); /* White text color */
+  margin: 0.2rem;
+  align-items: center;
+  gap: 0.5rem;
+  display: inline-flex;
+}
+
+.btn-outline-support:hover, .btn-outline-support:focus {
+  color: var(--gs-white-color) !important;
+  background-color: var(--gs-support-color);
+  border-color: var(--gs-support-color);
+}
+
+@media (max-width: 991px) {
+ .grass-download-button-group {
+    display: grid;
+  }
+  .btn-download {
+    display: inline;
+  }
+  .btn-outline-support {
+    display: inline;
+  }
+}
+
+.code-container {
+  position: relative;
+  background: var(--gs-grey-light-color);
+}
+
+.btn-clipboard {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  z-index: 10;
+  display: block;
+  padding: .25rem .5rem;
+  font-size: 75%;
+  color: var(--gs-primary-color);
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  border-radius: .25rem;
   /* border: 4px solid var(--gs-primary-color-dark); */
 }
 
@@ -1711,9 +1861,6 @@ code{
   font-size: smaller !important;
   margin-bottom: 0;
 }
-
-
-
 
 .yard-sign {
     position: relative;
