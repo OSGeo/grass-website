@@ -1,6 +1,6 @@
 ---
 title: "Learn"
-date: 2024-11-23T11:30:00Z
+date: 2025-05-21T11:30:00Z
 icon: "fa fa-book"
 description: "Get to know the GRASS ecosystem"
 type : "pages"

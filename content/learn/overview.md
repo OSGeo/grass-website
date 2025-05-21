@@ -1,6 +1,6 @@
 ---
 title: "What is GRASS?"
-date: 2022-04-25T10:12:05+02:00
+date: 2025-05-21T10:12:05+02:00
 layout: "overview"
 ---
 

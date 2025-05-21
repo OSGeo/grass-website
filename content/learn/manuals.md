@@ -1,6 +1,6 @@
 ---
 title: "Documentation"
-date: 2022-10-08T10:11:05+02:00
+date: 2025-05-21T10:11:05+02:00
 layout: "manuals"
 ---
 

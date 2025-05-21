@@ -1,6 +1,6 @@
 ---
 title: "Governance"
-date: 2024-08-27T10:12:05+02:00
+date: 2025-05-21T10:12:05+02:00
 layout: "governance"
 ---
 

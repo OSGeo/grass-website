@@ -1,6 +1,6 @@
 ---
 title: "Try GRASS online"
-date: 2020-04-13T11:02:05+02:00
+date: 2025-05-21T11:02:05+02:00
 layout: "overview"
 ---
 

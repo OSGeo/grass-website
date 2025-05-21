@@ -1,6 +1,6 @@
 ---
 title: "Contribute"
-date: 2022-04-25T10:12:05+02:00
+date: 2025-05-21T10:12:05+02:00
 icon: "fa fa-user"
 description: "Get started with open source develpment with GRASS"
 type : "pages"

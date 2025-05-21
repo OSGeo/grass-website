@@ -1,6 +1,6 @@
 ---
 title: "Windows"
-date: 2021-12-29T11:02:05+02:00
+date: 2025-05-21T11:02:05+02:00
 description: "Download GRASS installers for Windows"
 weight: 2
 layout: "os"
