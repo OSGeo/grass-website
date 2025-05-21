@@ -10,10 +10,9 @@ layout: "overview"
 <img src="/images/logos/grass-green.svg" width="42%" alt="GRASS">
 </div>
 <div class="col-lg-8">
-<p><b>G</b>eographic <b>R</b>esources <b>A</b>nalysis <b>S</b>upport 
-<b>S</b>ystem, commonly referred to as <b>GRASS</b>, is a powerful computational
-engine for vector and raster geospatial data management, geoprocessing, 
-spatial modelling and visualization.</p>
+<p><b>GRASS</b>, Geographic Resources Analysis Support 
+System, is a powerful computational engine for vector and raster 
+data management, geoprocessing, spatial modelling and visualization.</p>
 <p><b>GRASS</b> is Free and Open Source Software released under the 
 terms of the <a href="/about/license">GNU General Public License (GPL >= v2)</a>. 
 GRASS is a project of the
@@ -109,13 +108,13 @@ Some selected relevant features are:
 <div class="row mt-20">
 
 <div class="col-lg-6 text-center">
-<img class="bsh" src="/images/news/jupyter_interactive_viewshed.png" width="90%" alt="GRASS GIS through QGIS">
+<img class="bsh" src="/images/news/jupyter_interactive_viewshed.png" width="90%" alt="GRASS through QGIS">
 </div>
 
 <div class="col-lg-6">
-GRASS can be used through various interfaces: 
+GRASS has various interfaces: 
 <ul>
-<li>The simplest for new users is the <strong>Graphical User Interface</strong>.</li>
+<li>Some users prefer to use GRASS as a Desktop GIS through the <strong>Graphical User Interface</strong>.</li>
 <li>Power users prefer the text-based <strong>command line interface</strong>.</li>
 <li><a href="https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs#The_C-API" target="_blank"><strong>C API</strong></a> for programming.</li>
 <li><a href="https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library" target="_blank">Scripting library</a> and <a href="https://grasswiki.osgeo.org/wiki/Python/pygrass" target="_blank">object-oriented</a> <strong>Python API</strong>.</li>
