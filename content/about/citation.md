@@ -25,8 +25,8 @@ https://grass.osgeo.org/programming8/
 scientific work written in LaTeX.</p>
 
 <pre style="background-color:#CCCCCC">
-@Manual{GRASS_software,
-    title = {Geographic Resources Analysis Support System (GRASS) Software, Version 8.4},
+@Manual{GRASS_GIS_software,
+    title = {Geographic Resources Analysis Support System (GRASS GIS) Software, Version 8.4},
     author = {{GRASS Development Team}},
     organization = {Open Source Geospatial Foundation},
     address = {USA},
