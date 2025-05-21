@@ -1,6 +1,6 @@
 ---
 title: "Linux"
-date: 2022-08-15T11:02:05+02:00
+date: 2025-05-21T11:02:05+02:00
 description: "Download GRASS packages for your favorite Linux distribution"
 weight: 1
 layout: "os"
