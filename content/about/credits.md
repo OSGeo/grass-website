@@ -15,9 +15,9 @@ layout: "credits"
   Ruta Provincial C45 Km 8<br>
   5187 Falda del Cañete<br>
   Córdoba, Argentina<br>
-  <a href="mailto:grass-web@lists.osgeo.org" target="_blank">grass-web@lists.osgeo.org</a>
-<br>
-  <a href="https://grass.osgeo.org" target="_blank">https://grass.osgeo.org</a>
+  <a href="https://grass.osgeo.org" target="_blank">https://grass.osgeo.org</a><br>
+  <a href="https://grass.osgeo.org/support/commercial/" target="_blank">Commercial Support</a><br>
+  <a href="https://grass.osgeo.org/support/community/" target="_blank">Community Support</a>
   </p>
 </div>
 
@@ -30,9 +30,6 @@ layout: "credits"
   Beaverton, Oregon<br>
   United States<br>
   97005-2343<br>
-  <a href="mailto:grass-web@lists.osgeo.org" target="_blank">grass-web@lists.osgeo.org</a>
-<br>
-  <a href="https://grass.osgeo.org" target="_blank">https://grass.osgeo.org</a>
   </p>
 </div>
 
