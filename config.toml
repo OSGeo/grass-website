@@ -223,15 +223,21 @@ hasChildren = true
 
 [[Languages.en.menu.main]]
 parent = "Contribute"
+name = "Translate"
+URL = "https://weblate.osgeo.org/projects/grass-gis/"
+weight = 1
+
+[[Languages.en.menu.main]]
+parent = "Contribute"
 name = "Development"
 URL = "/contribute/development"
-weight = 1
+weight = 2
 
 [[Languages.en.menu.main]]
 parent = "Contribute"
 name = "Sponsoring"
 URL = "/contribute/sponsoring"
-weight = 2
+weight = 3
 
 [[Languages.en.menu.main]]
 parent = "Contribute"
