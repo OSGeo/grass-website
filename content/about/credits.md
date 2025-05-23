@@ -30,9 +30,6 @@ layout: "credits"
   Beaverton, Oregon<br>
   United States<br>
   97005-2343<br>
-  <a href="https://grass.osgeo.org" target="_blank">https://grass.osgeo.org</a><br>
-  For support, contact us <a href="https://grass.osgeo.org/support/commercial/" target="_blank">here</a> for commercial services and <a href="https://grass.osgeo.org/support/community/" target="_blank">here</a> for
-  community help.
   </p>
 </div>
 
@@ -51,7 +48,7 @@ This website is licensed under the GNU General Public License v3.0<br>
 
 #### Copyright
 
-&#9400; Copyright, 1998-2022 GRASS Development Team
+&#9400; Copyright, 1998-2025 GRASS Development Team
 
 #### Acknowledgments
 

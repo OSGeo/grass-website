@@ -26,7 +26,4 @@ If you are not sure about the differences between public domain
 software, Free Software and proprietary products, have a look 
 at this graphic describing [categories of Free and Non-Free Software](https://www.gnu.org/philosophy/categories.html).
 
-Questions regarding details of this policy can be directed to any of
-the <a href="https://discourse.osgeo.org/c/grass/62" target="_blank">GRASS Discourse</a> channels.
-
 See also the [Frequently Asked Questions about the GNU GPL](https://www.gnu.org/licenses/gpl-faq.html).
