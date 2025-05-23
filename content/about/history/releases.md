@@ -4,7 +4,7 @@ date: 2025-02-24T15:12:05+02:00
 layout: "timeline"
 ---
 
-## GRASS GIS releases over time
+## GRASS releases over time
 
 <div class="row">
   <div class="timeline">

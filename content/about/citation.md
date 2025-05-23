@@ -1,14 +1,14 @@
 ---
 title: "Citation"
-date: 2024-07-28T05:05:05+05:00
+date: 2025-05-21T05:05:05+05:00
 layout: "general"
 ---
 
-## Citing GRASS GIS Software
+## Citing GRASS Software
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
 
-Please cite GRASS GIS when using the software in your work. Here are some choices
+Please cite GRASS when using the software in your work. Here are some choices
 depending on the version used:
 
 - GRASS Development Team, 2024. Geographic Resources Analysis Support System (GRASS)
@@ -36,11 +36,11 @@ scientific work written in LaTeX.</p>
 }
 </pre>
 
-For more options see also: [GRASS GIS Citation Repository](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository).
+For more options see also: [GRASS Citation Repository](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository).
 
-#### GRASS GIS Google Scholar profile
-Citing GRASS GIS in your work enables us to track the impact of this open source software on research.
+#### GRASS Google Scholar profile
+Citing GRASS in your work enables us to track the impact of this open source software on research.
 Have a look at our [Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ)
-profile for examples of GRASS GIS applications in the most diverse fields.
-Are you using GRASS GIS in your research and your publication is missing?
+profile for examples of GRASS applications in the most diverse fields.
+Are you using GRASS in your research and your publication is missing?
 [Let us know](https://forms.gle/cDEvMJu7d6nvxLKn9) and we will add it to the profile.

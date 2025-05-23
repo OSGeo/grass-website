@@ -1,6 +1,6 @@
 ---
-title: "GRASS GIS books"
-date: 2020-04-29T11:02:05+06:00
+title: "GRASS books"
+date: 2025-05-21T11:02:05+06:00
 layout: "books"
 ---
 

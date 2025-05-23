@@ -1,21 +1,21 @@
 ---
 title: "Linux"
-date: 2022-08-15T11:02:05+02:00
-description: "Download GRASS GIS packages for your favorite Linux distribution"
+date: 2025-05-21T11:02:05+02:00
+description: "Download GRASS packages for your favorite Linux distribution"
 weight: 1
 layout: "os"
 ---
 
 #### Quick links
 
-[ [**GRASS GIS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
+[ [**GRASS {{< grassVersion version="current" type="short">}} (current)**](#GRASS-GIS-current) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#GRASS-GIS-old) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#GRASS-GIS-devel) ]
 
 The packaging status does not work
 <!-- <i class="fa fa-arrow-right"></i> Install <tt>grass</tt> package on your Linux distribution. Have a look at 
 {{< donateDialog isToggle=true isMarkdown=true >}}[Repology](https://repology.org/project/grass/versions){{< /donateDialog  >}} for an extended
-list of GRASS GIS packages or directly check the 
+list of GRASS packages or directly check the 
 <a href="https://repology.org/badge/vertical-allrepos/grass.svg?exclude_unsupported=1&exclude_sources=modules,site&minversion={{< grassVersion version="current" >}}&columns=3" class="btn btn-primary">Packaging Status</a>
-to quickly know which GRASS GIS version is currently available for your distro. -->
+to quickly know which GRASS version is currently available for your distro.
 
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Arch Linux](https://aur.archlinux.org/packages/grass/){{< /donateDialog  >}}
 *  {{< donateDialog isToggle=true isMarkdown=true >}}[Debian](https://packages.debian.org/grass){{< /donateDialog  >}}
@@ -28,7 +28,7 @@ to quickly know which GRASS GIS version is currently available for your distro. 
 
 <hr>
 
-### <span id="GRASS-GIS-current"> GRASS GIS {{< grassVersion version="current" >}} (current)</span>
+### <span id="GRASS-GIS-current"> GRASS {{< grassVersion version="current" >}} (current)</span>
 
 <div class="alert rounded-0 alert-success">
 <i class="fa fa-info-circle"></i> <u>Current stable release</u>, see the <a href="https://github.com/OSGeo/grass/releases/tag/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}">release announcement</a> for more information.</div>
@@ -44,10 +44,10 @@ to quickly know which GRASS GIS version is currently available for your distro. 
 
 <hr>
 
-### <span id="GRASS-GIS-old"> GRASS GIS {{< grassVersion version="legacy" >}} (legacy)</span>
+### <span id="GRASS-GIS-old"> GRASS {{< grassVersion version="legacy" >}} (legacy)</span>
 
 <div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS GIS {{< grassVersion version="legacy" type="short">}} new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">GRASS GIS {{< grassVersion version="legacy" >}} announcement</a> for more information.
+<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}">GRASS {{< grassVersion version="legacy" type="short">}} new features</a> and  <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">GRASS {{< grassVersion version="legacy" >}} announcement</a> for more information.
 </div>
 
 * {{< donateDialog isToggle=true  >}} <a href="/grass{{< legacyVersionNoDots.inline  >}}{{- .Site.Data.grass.legacy_version_nodots -}}{{</legacyVersionNoDots.inline >}}/binary/linux/snapshot" target="blank">Generic 64bit</a>{{< /donateDialog  >}}  (weekly binary snapshot)
@@ -59,10 +59,10 @@ to quickly know which GRASS GIS version is currently available for your distro. 
 
 <hr>
 
-### <span id="GRASS-GIS-devel"> GRASS GIS {{< grassVersion version="preview" >}} (preview)</span>
+### <span id="GRASS-GIS-devel"> GRASS {{< grassVersion version="preview" >}} (preview)</span>
 
 <div class="alert rounded-0 alert-info">
-<i class="fa fa-info-circle"></i> Active <u>development</u>, <u>experimental</u> <b>GRASS GIS</b> version.
+<i class="fa fa-info-circle"></i> Active <u>development</u>, <u>experimental</u> <b>GRASS</b> version.
 </div>
 
 *  {{< donateDialog isToggle=true  >}}
