@@ -5,7 +5,7 @@ layout: "news"
 author: Vaclav Petras, Veronica Andreo and Caitlin Haedrich
 ---
 
-# A Week of Collaboration in Raleigh
+# A week of collaboration in Raleigh
 
 <a href="/images/news/grass_devs_talley_stairs.JPG">
 <img src="/images/news/grass_devs_talley_stairs.JPG"
