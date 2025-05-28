@@ -38,7 +38,7 @@ focused on translation and documentation strategies, the contribution
 process for new users, and how to better support scientific and educational
 use cases. There was time dedicated to planning GRASS roadmap and discussing
 next steps for maintaining and enhancing its core and add-on functionality.
-Contributors also worked on parallelization of algorithms, continuous
+Contributors also worked on parallelization of algorithms, development of new addons, continuous
 integration, *conda packaging*, CMake build, compliance with the Filesystem
 Hierarchy Standard (FHS), large language models (LLMs), and tutorials for
 the [new tutorials website](https://grass-tutorials.osgeo.org/).
