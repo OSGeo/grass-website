@@ -111,39 +111,16 @@ url = "/download"
 
 [[Languages.en.menu.main]]
 parent = "Download"
-name = "Installer"
+name = "Install"
 URL = "/download"
 weight = 1
+aliases = ['/download/linux', '/download/windows', '/download/mac', '/download/docker']
 
 [[Languages.en.menu.main]]
 parent = "Download"
 name = "Source code"
 URL = "https://github.com/OSGeo/grass/tags"
 weight = 2
-
-# [[Languages.en.menu.main]]
-# parent = "Download"
-# name = "GRASS GIS for Linux"
-# URL = "/download/linux"
-# aliases = ['linux.en.md']
-
-# [[Languages.en.menu.main]]
-# parent = "Download"
-# name = "GRASS GIS for Windows"
-# URL = "/download/windows"
-# aliases = ['windows.en.md']
-
-# [[Languages.en.menu.main]]
-# parent = "Download"
-# name = "GRASS for Mac"
-# URL = "/download/mac"
-# aliases = ['mac.en.md']
-
-# [[Languages.en.menu.main]]
-# parent = "Download"
-# name = "Docker images"
-# URL = "/download/docker"
-# aliases = ['docker.en.md']
 
 [[Languages.en.menu.main]]
 parent = "Download"
