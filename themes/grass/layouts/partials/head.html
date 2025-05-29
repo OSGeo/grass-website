@@ -2,28 +2,30 @@
 <html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
 <head>
   <title>{{ .Title }}</title>
-  <meta charset="UTF-8"/> 
-  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}"/>
+  <meta charset="UTF-8"> 
+  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
   <meta name="keywords" content="{{.Site.Params.Keywords }}">
   <meta property="og:url" content="{{.Site.BaseURL}}">
+  <meta property="og:site_name" content="{{.Site.Params.SiteName }}">
+  <meta property="og:type" content="website">
   <meta property="og:image" content="{{.Site.BaseURL}}images/other/default-social-image.png">
   <meta property="og:title" content="{{ .Site.Title }}">
   <meta property="og:description" content="{{ .Site.Params.description }}">
   {{ hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-  <meta name="twitter:card" content="GRASS">
+  <meta name="twitter:card" content="{{.Site.Params.SiteName }}">
   <meta name="twitter:site" content="@GRASSGIS">
   <meta name="twitter:creator" content="@GRASSGIS">
   <meta name="twitter:title" content="{{ .Site.Title }}">
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
   <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/default-social-image.png">
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="GRASS" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <link rel="canonical" href="{{ .Permalink }}" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/default.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
@@ -44,7 +46,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-114x114.png">
   <link rel="apple-touch-icon" sizes="120x120" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-120x120.png">
   <link rel="apple-touch-icon" sizes="144x144" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-152x157.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="167x167" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-180x180.png">
   <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
