@@ -82,7 +82,7 @@
             button.text("Download for Windows");
             button.data("os", "windows");
             $('#downloadTab a[href="#windows"]').tab('show');
-            if (window.location.pathname === "/download") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#windows");
             }
             break;
@@ -90,7 +90,7 @@
             button.text("Download for macOS");
             button.data("os", "mac");
             $('#downloadTab a[href="#mac"]').tab('show');
-            if (window.location.pathname === "/download") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#mac");
             }
             break;
@@ -98,7 +98,7 @@
             button.text("Download for Linux");
             button.data("os", "linux");
             $('#downloadTab a[href="#linux"]').tab('show');
-            if (window.location.pathname === "/download") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#linux");
             }
             break;
@@ -106,7 +106,7 @@
             button.text("Docker Container");
             button.data("os", "docker");
             $('#downloadTab a[href="#docker"]').tab('show');
-            if (window.location.pathname === "/download") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#docker");
             }
             break;

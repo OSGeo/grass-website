@@ -6,6 +6,11 @@ description: "Get your free and open source copy of GRASS"
 weight: 1
 type: "pages"
 layout: "tabs"
+aliases:
+    - /download/linux
+    - /download/windows
+    - /download/mac
+    - /download/docker
 ---
 
 

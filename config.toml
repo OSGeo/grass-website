@@ -114,7 +114,7 @@ parent = "Download"
 name = "Install"
 URL = "/download"
 weight = 1
-aliases = ['/download/linux', '/download/windows', '/download/mac', '/download/docker']
+
 
 [[Languages.en.menu.main]]
 parent = "Download"
