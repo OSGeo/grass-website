@@ -2,8 +2,6 @@
 title: "Mac"
 date: 2025-05-21T10:00:00Z
 description: "Download bundled GRASS binaries for your Mac"
-weight: 3
-layout: "os"
 ---
 
 #### Quick links

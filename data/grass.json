@@ -36,7 +36,7 @@
             "generic_64_bit":{
                 "id": "generic_64_bit",
                 "title": "Generic 64-bit",
-                "code": "add me",
+                "code": "sudo apt install grass",
                 "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
             },
             "EPEL": {
