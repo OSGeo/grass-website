@@ -13,11 +13,11 @@
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
-<section class="pt-4 bg-gray mt-95">
+<section class="pt-4 mt-95 bg-white">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="section-title">#Download</h2>
+            <div class="col-12">
+                <h1>Download</h1>
             </div>
         </div>
     </div>
@@ -41,13 +41,14 @@
         <div class="tab-content" id="downloadTabContent">
             <!-- Linux Section -->
             <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
-              <!-- {{ with .Site.GetPage "download" "linux" }}{{ .Content }}{{ end }} -->
-              {{ $download_data := dict "os" "Linux" "url" "https://github.com/OSGeo/grass/releases/tag/8.4.0" "version" .Site.Data.grass.current_version }}
+              {{ $download_data := dict "os" "Linux" "url" "https://github.com/OSGeo/grass/releases/tag/8.4.1" "version" .Site.Data.grass.current_version }}
               {{ partial "grass-download.html" $download_data }}
               <h2>Installation</h2>
               {{ range $key, $value := .Site.Data.grass.install.linux }}
                 {{ partial "code-copy.html" $value }}
               {{ end }}
+              <h2>Compile and Install</h2>
+              <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
             </div>
 
             <!-- Mac Section -->
@@ -62,15 +63,6 @@
               {{ $windows_url := printf "/grass%s/binary/mswindows/native/WinGRASS-%s-1-Setup.exe" .Site.Data.grass.current_version_nodots .Site.Data.grass.current_version }}
               {{ $download_data := dict "os" "Windows" "url" $windows_url "version" .Site.Data.grass.current_version }}
               {{ partial "grass-download.html" $download_data }}
-              <!-- Add text-center class to center the button -->
-              <!-- <div class="pt-5"> 
-                <p class="text-center">
-                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseWindowsAdditionalOptions" aria-expanded="false" aria-controls="collapseWindowsAdditionalOptions">
-                        Additional Options
-                    </button>
-                </p>
-              </div> -->
-              <!-- <div class="container collapse" id="collapseWindowsAdditionalOptions"> -->
               <div class="container">
                 <div class="row">
                   <div class="col-12">
@@ -78,14 +70,14 @@
                     <div class="row mb-5 text-primary">
                       <div class="col-12">
                         <h4>OSGeo4W</h4>
-                        <p>OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more).</p>
+                        <p>OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS as well as many other packages (QGIS, GDAL/OGR, and more).</p>
                         <a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank"><i class="fa-solid fa-download"></i> Download OSGeo4W v2</a>
                       </div>
                     </div>
                     <div class="row mb-5 text-primary">
                       <div class="col-12">
                         <h4>QGIS users</h4>
-                        <p>In order to have GRASS GIS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
+                        <p>In order to have GRASS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
                       </div>
                     </div>
                   </div>
@@ -113,7 +105,7 @@
               
               <pre><code>docker build -t grassgis .</code></pre>
               
-              <p>A test run (assuming you have the existing GRASS GIS test location; it can be downloaded from 
+              <p>A test run (assuming you have the existing GRASS test location; it can be downloaded from 
               <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip">here</a>)</p>
               
               <pre><code># case 1: launching in the grassdata directory in which the location is stored:

@@ -110,14 +110,18 @@
   --gs-grass-background-image: url("/images/logos/banner.jpg");
 }
 
+html {
+  background-color: var(--gs-white-color);
+}
 body {
   line-height: 1.8;
   font-family: var(--gs-grass-font); 
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: var(--gs-black-color);
-  background-color: var(--gs-white-color--lightest);
+  background-color: var(--gs-white-color);
 }
+
 main {
   display: block;
 }
@@ -1515,8 +1519,8 @@ nobullets {
 
 .hljs,
 .hljs-subst  {
-   background:var(--gs-grey-color-lightest);
-   color: var(--gs-black-color-light);
+   color: var(--gs-secondary-color);
+   background-color: var(--gs-grey-light-color);
 }
 
 .hljs-keyword{
@@ -1527,6 +1531,10 @@ nobullets {
   color: var(--gs-grey-color);
 }
 
+.hljs-title {
+  color: var(--gs-secondary-alt-color);
+}
+
 .hljs-string,
 .hljs-section,
 .hljs-selector-class,
@@ -1535,9 +1543,10 @@ nobullets {
   color: var(--gs-primary-color);
 }
 
-code {
-   color: var(--gs-black-color-light);
-   font-family: var(--gs-grass-font--mono);
+pre code {
+  color: var(--gs-secondary-color);
+  font-family: var(--gs-grass-font--mono);
+  background-color: var(--gs-grey-light-color);
 }
 
 .fa-11x {
