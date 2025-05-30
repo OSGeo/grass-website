@@ -31,7 +31,7 @@
                 "id": "debian",
                 "title": "Debian",
                 "code": "sudo apt-get install grass",
-                "url": "https://packages.debian.org/search?keywords=grass"
+                "url": "https://packages.debian.org/grass"
             },
             "generic_64_bit":{
                 "id": "generic_64_bit",

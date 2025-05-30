@@ -11,6 +11,7 @@
 
 <div>
     <h3>{{ .title }}</h3>
+    <a href="{{ .url }}" target="_blank">{{ .url }}</a>
     <div class="code-container m-3 rounded">
         <pre><code>{{ .code }}</code></pre>
         <button id="{{ .id }}" class="btn btn-primary btn-clipboard">Copy</button>
