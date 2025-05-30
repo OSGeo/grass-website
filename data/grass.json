@@ -30,7 +30,7 @@
             "debian": {
                 "id": "debian",
                 "title": "Debian",
-                "code": "sudo apt-get install grass",
+                "code": "sudo apt install grass",
                 "url": "https://packages.debian.org/grass"
             },
             "generic_64_bit":{
