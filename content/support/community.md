@@ -8,20 +8,8 @@ layout: "community"
 
 The strength, longevity and success of the **GRASS** project relies on its worldwide community of users and developers. Everyone interested is welcome to join the  international, diverse and inclusive GRASS community.
 
-<!--- 
-#### GRASS GIS user groups
-
-| <div style="width:70px">FLAG</div> | <div style="width:140px"> COUNTRY</div> | DESCRIPTION |
-|------|---------|-------------|
-| <span class="flag-icon flag-icon-ca"></span>  | Canada |  [ Ottawa GRASS User's Group](https://wiki.osgeo.org/index.php/Ottawa_Chapter)  |
-| <span class="flag-icon flag-icon-cz"></span>  | Czech Rep. |  [Českésdružení uživatelů GISu GRASS](http://grass.fsv.cvut.cz/) |
-| <span class="flag-icon flag-icon-de"></span>  | Germany |  [FOSSGIS e.V.](http://www.fossgis.de/) |
-| <span class="flag-icon flag-icon-in"></span>  | India |  [OSGeo India local chapter](https://wiki.osgeo.org/index.php/India) |
-| <span class="flag-icon flag-icon-it"></span>  | Italy |  [GFOSS.it](https://www.gfoss.it/) |
-| <span class="flag-icon flag-icon-pl"></span>  | Poland |  [GRASS Poland](http://www.grass-gis.pl/) |
-| <span class="flag-icon flag-icon-us"></span>  | USA |  [Los Angeles GRASS user group](http://www.meetup.com/Los-Angeles-Area-GRASS-Users-Group) |
-\
---->
+GRASS follows the [NumFOCUS Code of Conduct](https://numfocus.org/code-of-conduct)
+to ensure a welcoming and respectful environment for all community members.
 
 ### Q&A websites and chat
 
