@@ -11,63 +11,150 @@
     "preview_version_short":"8.5",
     "preview_version_underscore": "8_5",
     "preview_version_nodots":"85",
+    "linux_binaries_url": "https://download.osgeo.org/grass",
+    "windows_binaries_url": "https://grass.osgeo.org/grass84/binary/mswindows/native/",
+    "mac_binaries_url": "https://download.osgeo.org/grass/mac/",
     "install": {
         "mac": {
-            "mac_ports": { 
-                "id": "mac_ports",
-                "title": "MacPorts",
-                "code": "sudo port install grass",
-                "url": "https://ports.macports.org/port/grass/"
+            "binaries" : [
+                {
+                    "id": "8-4-1-arm64",
+                    "title": "Current - 8.4.1 (arm64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.4.1-arm64.dmg",
+                    "size": "646.2 MiB",
+                    "date": "2025-05-22"
+                },
+                {
+                    "id": "8-4-1x86_64",
+                    "title": "Current - 8.4.1 (x86_64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.4.1-x86_64.dmg",
+                    "size": "677.0 MiB",
+                    "date": "2025-05-22"
+                },
+                {
+                    "id": "8-5-arm64",
+                    "title": "Preview - 8.5.0 (arm64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.5.0dev-arm64.dmg",
+                    "size": "684.8 MiB",
+                    "date": "2025-05-22"
+                },
+                {
+                    "id": "8-5x86_64",
+                    "title": "Preview - 8.5.0 (x86_64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.5.0dev-x86_64.dmg",
+                    "size": "715.5 MiB",
+                    "date": "2025-05-22"
+                }
+            ],
+            "installers": {
+                "mac_ports": { 
+                    "id": "mac_ports",
+                    "title": "MacPorts",
+                    "code": "sudo port install grass",
+                    "url": "https://ports.macports.org/port/grass/"
+                }
             }
         },
         "linux":{
-            "arch_linux": {
-                "id": "arch_linux",
-                "title": "Arch Linux",
-                "code": "sudo pacman -S grass",
-                "url": "https://aur.archlinux.org/packages/grass"
-            },
-            "debian": {
-                "id": "debian",
-                "title": "Debian",
-                "code": "sudo apt-get install grass",
-                "url": "https://packages.debian.org/grass"
-            },
-            "generic_64_bit":{
-                "id": "generic_64_bit",
-                "title": "Generic 64-bit",
-                "code": "sudo apt install grass",
-                "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
-            },
-            "EPEL": {
-                "id": "EPEL",
-                "title": "EPEL",
-                "code": "sudo yum install grass",
-                "url": "https://src.fedoraproject.org/rpms/grass"
-            },
-            "fedora":{
-                "id": "fedora",
-                "title": "Fedora",
-                "code": "sudo dnf install grass",
-                "url": "https://apps.fedoraproject.org/packages/grass"
-            },
-            "gentoo": {
-                "id": "gentoo",
-                "title": "Gentoo",
-                "code": "sudo emerge grass",
-                "url": "https://packages.gentoo.org/packages/sci-geosciences/grass"
-            },
-            "openSUSE": {
-                "id": "openSUSE",
-                "title": "openSUSE",
-                "code": "sudo zypper install grass",
-                "url": "https://build.opensuse.org/package/show/Application:Geo/grass"
-            },
-            "ubuntu": {
-                "id": "ubuntu",
-                "title": "Ubuntu",
-                "code": "sudo apt-get install grass",
-                "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
+            "binaries" : [
+                {
+                    "id": "source-8.4.1",
+                    "title": "Current - 8.4.1 (tar.gz)",
+                    "size": "66.7 MB",
+                    "date": "2025-02-24",
+                    "md5": "https://download.osgeo.org/grass/grass84/source/grass-8.4.1.md5sum",
+                    "url": "https://download.osgeo.org/grass/grass84/source/grass-8.4.1.tar.gz"
+                },
+                {
+                    "id": "source-8.4.0",
+                    "title": "Current - 8.4.0 (tar.gz)",
+                    "size": "67.0 MB",
+                    "date": "2024-07-27",
+                    "md5": "https://download.osgeo.org/grass/grass84/source/grass-8.4.0.md5sum",
+                    "url": "https://download.osgeo.org/grass/grass84/source/grass-8.4.0.tar.gz"
+                }
+            ],
+            "installers": {
+                "arch_linux": {
+                    "id": "arch_linux",
+                    "title": "Arch Linux",
+                    "code": "sudo pacman -S grass",
+                    "url": "https://aur.archlinux.org/packages/grass"
+                },
+                "debian": {
+                    "id": "debian",
+                    "title": "Debian",
+                    "code": "sudo apt-get install grass",
+                    "url": "https://packages.debian.org/grass"
+                },
+                "generic_64_bit":{
+                    "id": "generic_64_bit",
+                    "title": "Generic 64-bit",
+                    "code": "sudo apt install grass",
+                    "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
+                },
+                "EPEL": {
+                    "id": "EPEL",
+                    "title": "EPEL",
+                    "code": "sudo yum install grass",
+                    "url": "https://src.fedoraproject.org/rpms/grass"
+                },
+                "fedora":{
+                    "id": "fedora",
+                    "title": "Fedora",
+                    "code": "sudo dnf install grass",
+                    "url": "https://apps.fedoraproject.org/packages/grass"
+                },
+                "gentoo": {
+                    "id": "gentoo",
+                    "title": "Gentoo",
+                    "code": "sudo emerge grass",
+                    "url": "https://packages.gentoo.org/packages/sci-geosciences/grass"
+                },
+                "openSUSE": {
+                    "id": "openSUSE",
+                    "title": "openSUSE",
+                    "code": "sudo zypper install grass",
+                    "url": "https://build.opensuse.org/package/show/Application:Geo/grass"
+                },
+                "ubuntu": {
+                    "id": "ubuntu",
+                    "title": "Ubuntu",
+                    "code": "sudo apt-get install grass",
+                    "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
+                }
+            }
+        },
+        "windows": {
+            "binaries" : [
+                {
+                    "id": "64-bit",
+                    "title": "64-bit",
+                    "url": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.1-1-Setup.exe",
+                    "md5": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.0-1-Setup.exe.md5sum",
+                    "size": "917 MB",
+                    "date": "2025-03-02"
+                },
+                {
+                    "id": "OSGeo4W-v2",
+                    "title": "OSGeo4W (v2)",
+                    "url": "https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe",
+                    "md5": "https://download.osgeo.org/osgeo4w/v2/md5sums",
+                    "size": "1.0 MB",
+                    "date": "2024-11-07"
+                }
+            ],
+            "installers": {
+                "osgeo4w64": {
+                    "id": "osgeo4w64",
+                    "title": "OSGeo4W64",
+                    "code": "osgeo4w-setup-x86_64.exe -q -P grass"
+                },
+                "osgeo4w32": {
+                    "id": "osgeo4w32",
+                    "title": "OSGeo4W32",
+                    "code": "osgeo4w-setup-x86.exe -q -P grass"
+                }
             }
         },
         "docker": {

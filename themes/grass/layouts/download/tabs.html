@@ -14,13 +14,13 @@
 {{ "<!-- /navigation -->" | safeHTML }}
 
 <section class="pt-4 mt-95 bg-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Download</h1>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Download</h1>
+      </div>
     </div>
+  </div>
     
     <!-- Download Tab Sections -->
     <div class="container download-grass">
@@ -37,61 +37,61 @@
             <li class="nav-item">
                 <a class="nav-link" id="windows-tab" data-toggle="tab" href="#docker" role="tab" aria-controls="docker" aria-selected="false">Docker</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="source-tab" data-toggle="tab" href="#source" role="tab" aria-controls="source"
+                aria-selected="false">Source Code</a>
+            </li>
         </ul>
         <div class="tab-content" id="downloadTabContent">
-            <!-- Linux Section -->
-            <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
-              {{ $download_data := dict "os" "Linux" "url" "https://github.com/OSGeo/grass/releases/tag/8.4.1" "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
-              <h2>Installation</h2>
-              {{ range $key, $value := .Site.Data.grass.install.linux }}
-                {{ partial "code-copy.html" $value }}
-              {{ end }}
-              <h2>Compile and Install</h2>
+          <!-- Linux Section -->
+          <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
+            {{ $download_data := dict "os" "Linux" "version" .Site.Data.grass.current_version "binaries" .Site.Data.grass.install.linux.binaries "binaries_url" .Site.Data.grass.binaries_url }}
+            {{ partial "grass-download.html" $download_data }}
+            <h2>Installation</h2>
+            {{ range $key, $value := .Site.Data.grass.install.linux.installers }}
+              {{ partial "code-copy.html" $value }}
+            {{ end }}
+            <h2>Compile and Install</h2>
               <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
-            </div>
+          </div>
 
-            <!-- Mac Section -->
-            <div class="tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab">
-              {{ $download_data := dict "os" "Mac" "url" "https://cmbarton.github.io/grass-mac/download/" "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
-              {{ partial "code-copy.html" .Site.Data.grass.install.mac.mac_ports }}
-            </div>
+          <!-- Mac Section -->
+          <div class="tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab">
+            {{ $download_data := dict "os" "Mac" "version" .Site.Data.grass.current_version "binaries"
+              .Site.Data.grass.install.mac.binaries "binaries_url" .Site.Data.grass.mac_binaries_url }}
+            {{ partial "grass-download.html" $download_data }}
+            {{ range $key, $value := .Site.Data.grass.install.mac.installers }}
+              {{ partial "code-copy.html" $value }}
+            {{ end }}
+          </div>
 
-            <!-- Windows Section -->
-            <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
-              {{ $windows_url := printf "/grass%s/binary/mswindows/native/WinGRASS-%s-1-Setup.exe" .Site.Data.grass.current_version_nodots .Site.Data.grass.current_version }}
-              {{ $download_data := dict "os" "Windows" "url" $windows_url "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
-              <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <h3>Additional Options</h3>
-                    <div class="row mb-5 text-primary">
-                      <div class="col-12">
-                        <h4>OSGeo4W</h4>
-                        <p>OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS as well as many other packages (QGIS, GDAL/OGR, and more).</p>
-                        <a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank"><i class="fa-solid fa-download"></i> Download OSGeo4W v2</a>
-                      </div>
-                    </div>
-                    <div class="row mb-5 text-primary">
-                      <div class="col-12">
-                        <h4>QGIS users</h4>
-                        <p>In order to have GRASS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
-                      </div>
+          <!-- Windows Section -->
+          <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
+            {{ $download_data := dict "os" "Windows" "version" .Site.Data.grass.current_version "binaries"
+              .Site.Data.grass.install.windows.binaries "binaries_url" .Site.Data.grass.windows_binaries_url }}
+            {{ partial "grass-download.html" $download_data }}
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3>Additional Options</h3>
+                  <div class="row mb-5 text-primary">
+                    <div class="col-12">
+                      <h4>QGIS users</h4>
+                      <p>In order to have GRASS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <!-- Docker Section -->
-            <div class="tab-pane fade" id="docker" role="tabpanel" aria-labelledby="docker-tab">
-              <!-- {{ with .Site.GetPage "download" "docker" }}{{ .Content }}{{ end }} -->
-              {{ $download_data := dict "os" "Docker" "url" "https://hub.docker.com/r/osgeo/grass-gis/" "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
-
-              <h2>Installation</h2>
+          </div>
+          
+          <!-- Docker Section -->
+          <div class="tab-pane fade" id="docker" role="tabpanel" aria-labelledby="docker-tab">
+            <div class="grass-download">
+              <h2>Docker Hub</h2>
+              Offical GRASS Docker images are available on <a href="https://hub.docker.com/r/osgeo/grass-gis/" target="_blank">Docker Hub (osgeo/grass-gis)</a>. You can pull the latest image using the following command:
+            </div>
+            <h2>Installation</h2>
 
               {{ range $key, $value := .Site.Data.grass.install.docker }}
                 {{ partial "code-copy.html" $value }}
@@ -153,11 +153,19 @@
               <p>Note: If you compiled locally before building the Docker image, you may encounter problems as the local configuration and the locally compiled files are copied to and used in the Docker image. To make sure you don't have this issue, clean all the compiled files from the source code:</p>
               
               <pre><code>make distclean</code></pre>
-              
-  
           </div>
-            </div>
 
+        <!-- Source Section -->
+        <div class="tab-pane fade" id="source" role="tabpanel" aria-labelledby="source-tab">
+          <h2>Source Code</h2>
+          Source code is avaliable on <a href="https://github.com/OSGeo/grass/" target="_blank">GitHub</a>. You can download the latest release at
+          <a href="https://github.com/OSGeo/grass/releases" target="_blank">https://github.com/OSGeo/grass/releases</a>
+
+          <h2>Compile and Install</h2>
+          <p>To compile and install GRASS from source, follow these steps from the <a
+                href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
+        </div>
+      </div>
 
     </div>
 </section>

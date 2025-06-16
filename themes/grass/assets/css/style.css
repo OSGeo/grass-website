@@ -1801,7 +1801,7 @@ pre code {
 
 .btn-download {
   background-color: var(--gs-primary-color);
-  border: none; /* Removes the border */
+  border: solid 1px var(--gs-primary-color); /* Removes the border */
   padding: .75rem 1.5rem; /* Larger padding for the button */
   font-size: 1rem; /* Larger font size */
   color: var(--gs-white-color); /* White text color */
