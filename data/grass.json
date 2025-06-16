@@ -91,7 +91,7 @@
                 "generic_64_bit":{
                     "id": "generic_64_bit",
                     "title": "Generic 64-bit",
-                    "code": "sudo apt install grass",
+                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-16_06_2025-install.sh",
                     "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
                 },
                 "EPEL": {
