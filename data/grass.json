@@ -14,6 +14,7 @@
     "linux_binaries_url": "https://download.osgeo.org/grass",
     "windows_binaries_url": "https://grass.osgeo.org/grass84/binary/mswindows/native/",
     "mac_binaries_url": "https://download.osgeo.org/grass/mac/",
+    "docker_hub_url": "https://hub.docker.com/r/osgeo/grass-gis/",
     "install": {
         "mac": {
             "binaries" : [
