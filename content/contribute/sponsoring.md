@@ -40,11 +40,11 @@ Funds offered to GRASS will be used to support general GRASS efforts, in particu
 
 We handle all donations and financial support through
 [**NumFOCUS**](https://numfocus.org/donate-to-grass).
+You can choose any donation amount—every contribution makes a difference.
 
-There you will find several **sponsorship tiers** to choose from
-and also a **donation tier** which can be customized to suit your needs.
-The different sponsorship tiers and **suggested annual contributions** are
-described below.
+If you're an organization interested in long-term support or public recognition,
+see the following sponsorship levels and please [contact us](/about/team)
+to discuss different sponsorship options.
 
 {{< table "table table-striped table-bordered">}}
 |Tier   	|Amount (USD)  |
