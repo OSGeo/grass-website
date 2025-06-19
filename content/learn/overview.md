@@ -17,7 +17,7 @@ data management, geoprocessing, spatial modelling and visualization.</p>
 terms of the <a href="/about/license">GNU General Public License (GPL >= v2)</a>. 
 GRASS is a project of the
 <a href="https://osgeo.org">Open Source Geospatial Foundation (OSGeo)</a>
-and is sponsored by <a href="https://numfocus.org">NumFOCUS</a>.</p>
+and is fiscally sponsored by <a href="https://numfocus.org">NumFOCUS</a>.</p>
 </div>
 </div>
 </div>
