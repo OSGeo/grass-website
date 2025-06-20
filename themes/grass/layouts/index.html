@@ -32,7 +32,7 @@
                 It supports terrain and ecosystem modeling, hydrology, data management, and imagery processing.
                 With a built-in temporal framework and Python API, it enables advanced time series analysis
                 and rapid geospatial programming, optimized for large-scale analysis on various hardware configurations.</p>{{ end }}</div>
-	{{ range (where .Site.Pages "Type" "pages") }}{{ if not (in  .Section "about") }}
+	{{ range (where .Site.Pages "Type" "in" (slice "pages" "tabs")) }}{{ if not (in  .Section "about") }}
           <div class="col-lg-3 col-sm-6 mb-4">
           <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mb-40"></i>
           <h3 class="mb-3">{{ .Title }}</h3>
