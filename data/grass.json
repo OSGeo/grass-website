@@ -121,6 +121,12 @@
                 "ubuntu": {
                     "id": "ubuntu",
                     "title": "Ubuntu",
+                    "pre_install": [
+                        "# Add the ubuntugis-unstable PPA to your system:",
+                        "sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable",
+                        "# Update your package list:",
+                        "sudo apt-get update"
+                    ],
                     "code": "sudo apt-get install grass",
                     "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
                 }
