@@ -11,7 +11,7 @@ layout: "list"
 
 ### Contribute financially
 <i class="fa fa-dollar-sign fa-7x" style="float:left;padding-right:15px"></i>
-Consider financially supporting GRASS through [OpenCollective](https://opencollective.com/grass/contribute). The GRASS project is a volunteer-based organization and your financial support is necessary to ensure the long-term sustainability of the project and the software. See [sponsoring](/contribute/sponsoring) page for details how to donate and to understand how we use the money to build up the community and software.
+Consider financially supporting GRASS through [NumFOCUS](https://numfocus.org/donate-to-grass). The GRASS project is a volunteer-based organization and your financial support is necessary to ensure the long-term sustainability of the project and the software. See [sponsoring](/contribute/sponsoring) page for details how to donate and to understand how we use the money to build up the community and software.
 
 ### Report a bug or enhancement wish
 <i class="fa fa-bug fa-9x" style="float:right;padding-left:10px"></i>
@@ -44,12 +44,10 @@ terminology in different languages.
 <i class="fa fa-plug fa-9x" style="float:left;padding-right:15px"></i>
 Developing your own tools? Great!
 
-Please upload your addons to the **GRASS Addons repository**. In this way, they become available to the community
+Please upload your addons to the [GRASS Addons repository](https://github.com/OSGeo/grass-addons). In this way, they become available to the community
 through the extension manager (g.extension or graphical user interface). 
-Here is the full list of [existing addons](/grass-stable/manuals/addons/) to get inspired.
-
-Further details about how to gain access to our [GitHub Addons repository](https://github.com/OSGeo/grass-addons/) can be
-found in [this document](https://trac.osgeo.org/grass/wiki/HowToContribute#WriteaccesstotheGRASSaddonsrepository).
+Here is the full list of [existing addons](/grass-stable/manuals/addons/) to get inspired
+and a [template](https://github.com/OSGeo/grass-addon-cookiecutter) to get started.
 
 ### Contribute to GRASS core
 <i class="fa fa-gear fa-11x" style="float:right;padding-left:10px"></i>
@@ -59,7 +57,7 @@ Review these [resources](/contribute/development) to learn how to develop and co
 Feel free to announce your planned development to the [GRASS developers community](https://discourse.osgeo.org/c/grass/developer/61) on Discourse, someone may join you or give you feedback.
 
 For **paid opportunities** to develop code for GRASS, check out our [stipend program](https://grasswiki.osgeo.org/wiki/Student_Grants) for students
-and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://trac.osgeo.org/grass/wiki/GSoC).
+and [Google Summer of Code](https://summerofcode.withgoogle.com) program for students and open source beginners with our [list of ideas](https://grasswiki.osgeo.org/wiki/Category:GSoC).
 
 ### Cite GRASS
 <i class="fa fa-book fa-9x" style="float:left;padding-right:15px"></i>

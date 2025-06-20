@@ -7,7 +7,8 @@ layout: "governance"
 The Project Steering Committee guides the GRASS project’s direction, budget, and
 governance, making decisions through voting and overseeing the Core Development
 Team which manages source code changes. The project operates under the auspices
-of the [Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo).
+of the [Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo)
+and is fiscally sponsored by [NumFOCUS](https://numfocus.org/).
 
 ## Guided by the Project Steering Committee
 
@@ -15,7 +16,7 @@ of the [Open Source Geospatial Foundation](https://www.osgeo.org/) (OSGeo).
   <img src="/images/other/grass_psc_team_prague_2024.jpg"
    alt="PSC members at Prague 2024 Community Meeting"
    title="PSC members at Prague 2024 Community Meeting"
-   width="35%" style="float:left;padding-right:25px;padding-top:15px">
+   width="35%" style="float:right;padding-left:25px;padding-top:15px">
 </a>
 
 The Project Steering Committee (PSC) of the GRASS project oversees the
@@ -37,26 +38,45 @@ Guidelines](https://github.com/OSGeo/grass/blob/main/doc/development/rfc/PSC_gui
 and [RFC 3: PSC Voting
 Procedures](https://github.com/OSGeo/grass/blob/main/doc/development/rfc/PSC_voting_procedures.md).
 
-## Backed by OSGeo Foundation
+## Hosted by OSGeo Foundation
 <a href="https://osgeo.org">
-  <img src="/images/conferences_logos/osgeo_logo_300.png"
+  <img src="/images/logos/osgeo-project.svg"
    alt="OSGeo logo"
    title="Open Source Geospatial Foundation"
-   width="25%" style="float:right;padding-left:25px;padding-top:15px">
+   width="25%" style="float:left;padding-right:25px;padding-top:45px">
 </a>
 
 GRASS is under the umbrella of the Open Source Geospatial Foundation
 (OSGeo), a not-for-profit organization that aims to foster the global adoption
-of open geospatial technology. OSGeo provides GRASS with legal, fiscal, and
-technical infrastructure. Within the OSGeo organizational structure, the GRASS
+of open geospatial technology.
+As an OSGeo project, GRASS meets established standards for professional governance and development.
+OSGeo provides GRASS with technical infrastructure, community coordination,
+and a platform for advocacy within the broader open source geospatial ecosystem.
+Within the OSGeo organizational structure, the GRASS
 PSC is a committee which provides updates about the GRASS project to the
 OSGeo Board.
 
+## Fiscally sponsored by NumFOCUS
+<a href="https://numfocus.org/">
+  <img src="/images/logos/numfocus_logo.svg"
+   alt="Fiscally sponsored project of NumFOCUS"
+   title="NumFOCUS"
+   width="25%" style="float:right;padding-left:25px;padding-top:15px">
+</a>
+
+GRASS is a fiscally sponsored project of NumFOCUS, a
+nonprofit dedicated to supporting the open-source scientific computing community.
+Through this sponsorship, NumFOCUS provides financial oversight, legal support,
+and administrative services, helping ensure the sustainability
+and growth of the GRASS project.
+NumFOCUS formally recognizes the GRASS PSC as the project's governing body,
+with one PSC member serving as the liaison between GRASS and NumFOCUS.
+Regular check-in meetings support ongoing communication and collaboration.
 
 ## Driven by the Core Development Team
 <a href="/images/other/developer_team.jpg"> <img
-  src="/images/other/developer_team.jpg" alt="OSGeo logo" title="Open Source
-   Geospatial Foundation" width="35%"
+  src="/images/other/developer_team.jpg" alt="OSGeo logo"
+  title="GRASS developers" width="35%"
    style="float:left;padding-right:25px;padding-top:15px"> </a> 
    
 The Core Development Team determines what code additions and changes should be
