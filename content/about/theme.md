@@ -765,13 +765,13 @@ $$
 
 ### Special Buttons
 
-We have custom support buttons ([More Info](#includes)) that link to GRASS's [Open Collective page](https://opencollective.com/grass/contribute)
+We have custom support buttons ([More Info](#includes)) that link to GRASS's [donation page](https://numfocus.org/donate-to-grass)
 
 <!-- Custom button for contributing to GRASS -->
 
-<a href="https://opencollective.com/grass/contribute" class="btn btn-support" role="button"> Support</a>
+<a href="https://numfocus.org/donate-to-grass" class="btn btn-support" role="button"> Support</a>
 
-<a href="https://opencollective.com/grass/contribute" class="btn btn-outline-support" role="button"> Support</a>
+<a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-support" role="button"> Support</a>
 
 ## Alerts
 
