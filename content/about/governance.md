@@ -57,7 +57,7 @@ PSC is a committee which provides updates about the GRASS project to the
 OSGeo Board.
 
 ## Fiscally sponsored by NumFOCUS
-<a href="https://osgeo.org">
+<a href="https://numfocus.org/">
   <img src="/images/logos/numfocus_logo.svg"
    alt="Fiscally sponsored project of NumFOCUS"
    title="NumFOCUS"
