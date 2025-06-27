@@ -48,15 +48,15 @@
             {{ $download_data := dict "os" "Linux" "version" .Site.Data.grass.current_version "binaries" .Site.Data.grass.install.linux.binaries "binaries_url" .Site.Data.grass.binaries_url }}
             <!-- {{ partial "grass-download.html" $download_data }} -->
             <h2>Installation</h2>
-            {{ range $key, $value := .Site.Data.grass.install.linux.installers }}
+            {{ range sort .Site.Data.grass.install.linux.installers "id" "desc" }}
               <h3>{{ .title }}</h3>
-              {{ if $value.pre_install }}
-                {{ range $pre_value := $value.pre_install }}
+              {{ if .pre_install }}
+                {{ range $pre_value := .pre_install }}
                   <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
                   {{ partial "code-copy.html" $pre_value }}
                 {{ end }}
               {{ end}}
-              {{ partial "code-copy.html" $value }}
+              {{ partial "code-copy.html" . }}
               <a class="btn btn-primary" href="{{ .url }}" target="_blank">View Source</a>
             {{ end }}
             <h2>Compile and Install</h2>

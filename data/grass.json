@@ -76,6 +76,28 @@
                 }
             ],
             "installers": {
+                "ubuntu": {
+                    "id": "ubuntu",
+                    "title": "Ubuntu",
+                    "pre_install": [
+                        {"id": "ubuntu_comment_1", "text": "Add the ubuntugis-unstable PPA to your system:", "code": "sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable"},
+                        {"id": "ubuntu_comment_2", "text": "Update your package list:", "code": "sudo apt-get update"}
+                    ],
+                    "code": "sudo apt-get install grass",
+                    "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
+                },
+                "fedora":{
+                    "id": "fedora",
+                    "title": "Fedora",
+                    "code": "sudo dnf install grass",
+                    "url": "https://apps.fedoraproject.org/packages/grass"
+                },
+                "EPEL": {
+                    "id": "EPEL",
+                    "title": "EPEL",
+                    "code": "sudo yum install grass",
+                    "url": "https://src.fedoraproject.org/rpms/grass"
+                },
                 "arch_linux": {
                     "id": "arch_linux",
                     "title": "Arch Linux",
@@ -87,24 +109,6 @@
                     "title": "Debian",
                     "code": "sudo apt install grass",
                     "url": "https://packages.debian.org/grass"
-                },
-                "generic_64_bit":{
-                    "id": "generic_64_bit",
-                    "title": "Generic 64-bit",
-                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-16_06_2025-install.sh",
-                    "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
-                },
-                "EPEL": {
-                    "id": "EPEL",
-                    "title": "EPEL",
-                    "code": "sudo yum install grass",
-                    "url": "https://src.fedoraproject.org/rpms/grass"
-                },
-                "fedora":{
-                    "id": "fedora",
-                    "title": "Fedora",
-                    "code": "sudo dnf install grass",
-                    "url": "https://apps.fedoraproject.org/packages/grass"
                 },
                 "gentoo": {
                     "id": "gentoo",
@@ -118,15 +122,11 @@
                     "code": "sudo zypper install grass",
                     "url": "https://build.opensuse.org/package/show/Application:Geo/grass"
                 },
-                "ubuntu": {
-                    "id": "ubuntu",
-                    "title": "Ubuntu",
-                    "pre_install": [
-                        {"id": "ubuntu_comment_1", "text": "Add the ubuntugis-unstable PPA to your system:", "code": "sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable"},
-                        {"id": "ubuntu_comment_2", "text": "Update your package list:", "code": "sudo apt-get update"}
-                    ],
-                    "code": "sudo apt-get install grass",
-                    "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
+                "generic_64_bit":{
+                    "id": "generic_64_bit",
+                    "title": "Generic 64-bit",
+                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-16_06_2025-install.sh",
+                    "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
                 }
             }
         },
