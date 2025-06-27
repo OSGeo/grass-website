@@ -107,7 +107,7 @@
   --gs-grey-dark-color--lightest: rgba(78, 77, 76, 0.071);
 
   /* Images */
-  --gs-grass-background-image: url("/images/logos/banner.jpg");
+  --gs-grass-background-image: url("/images/banners/banner.jpg");
 }
 
 body {
@@ -1594,7 +1594,7 @@ code {
 
 .grassthm-sq{
     border:1px solid #dee2e6;
-    /* background:url(/images/logos/banner.jpg); */
+    /* background:url(/images/banners/banner.jpg); */
     background-color: var(--gs-primary-color);
     background-size:cover;
     height:199px;
