@@ -10,15 +10,8 @@
 </script>
 
 <div>
-    <h3>{{ .title }}</h3>
     <div class="code-container m-3 rounded">
-        {{ if .pre_install }}
-            {{ range $value := .pre_install }}
-            <pre><code>{{ $value }}</code></pre>
-            {{ end }}
-        {{ end}}
         <pre><code>{{ .code }}</code></pre>
         <button id="{{ .id }}" class="btn btn-primary btn-clipboard">Copy</button>
     </div>
-    <a href="{{ .url }}" target="_blank">View Source</a>
 </div>

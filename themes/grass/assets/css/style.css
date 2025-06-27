@@ -1517,10 +1517,13 @@ nobullets {
    list-style-type: none;
 }
 
-.hljs,
-.hljs-subst  {
-   color: var(--gs-secondary-color);
-   background-color: var(--gs-grey-light-color);
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: var(--gs-secondary-color);
+  background: var(--gs-grey-light-color);
+  font-family: var(--gs-grass-font--mono);
 }
 
 .hljs-keyword{
@@ -1541,12 +1544,6 @@ nobullets {
 .hljs-template-variable,
 .hljs-deletion {
   color: var(--gs-primary-color);
-}
-
-pre code {
-  color: var(--gs-secondary-color);
-  font-family: var(--gs-grass-font--mono);
-  background-color: var(--gs-grey-light-color);
 }
 
 .fa-11x {

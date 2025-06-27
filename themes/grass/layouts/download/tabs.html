@@ -49,7 +49,15 @@
             <!-- {{ partial "grass-download.html" $download_data }} -->
             <h2>Installation</h2>
             {{ range $key, $value := .Site.Data.grass.install.linux.installers }}
+              <h3>{{ .title }}</h3>
+              {{ if $value.pre_install }}
+                {{ range $pre_value := $value.pre_install }}
+                  <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                  {{ partial "code-copy.html" $pre_value }}
+                {{ end }}
+              {{ end}}
               {{ partial "code-copy.html" $value }}
+              <a class="btn btn-primary" href="{{ .url }}" target="_blank">View Source</a>
             {{ end }}
             <h2>Compile and Install</h2>
               <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
