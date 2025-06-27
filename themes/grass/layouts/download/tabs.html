@@ -46,7 +46,6 @@
           <!-- Linux Section -->
           <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
             {{ $download_data := dict "os" "Linux" "version" .Site.Data.grass.current_version "binaries" .Site.Data.grass.install.linux.binaries "binaries_url" .Site.Data.grass.binaries_url }}
-            <!-- {{ partial "grass-download.html" $download_data }} -->
             <h2>Installation</h2>
             {{ range sort .Site.Data.grass.install.linux.installers "id" "desc" }}
               <h3>{{ .title }}</h3>
@@ -56,8 +55,12 @@
                   {{ partial "code-copy.html" $pre_value }}
                 {{ end }}
               {{ end}}
+              <p>Install with the following shell command:</p>
               {{ partial "code-copy.html" . }}
-              <a class="btn btn-primary" href="{{ .url }}" target="_blank">View Source</a>
+              <div class="grass-download-button-group">
+                <a class="btn btn-download" href="{{ .url }}" target="_blank">View Source</a>
+                {{ partial "support-button.html" $download_data }}
+              </div>
             {{ end }}
             <h2>Compile and Install</h2>
               <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
@@ -68,8 +71,21 @@
             {{ $download_data := dict "os" "Mac" "version" .Site.Data.grass.current_version "binaries"
               .Site.Data.grass.install.mac.binaries "binaries_url" .Site.Data.grass.mac_binaries_url }}
             {{ partial "grass-download.html" $download_data }}
-            {{ range $key, $value := .Site.Data.grass.install.mac.installers }}
-              {{ partial "code-copy.html" $value }}
+            <h2>Installation</h2>
+            {{ range sort .Site.Data.grass.install.mac.installers "id" "desc" }}
+            <h3>{{ .title }}</h3>
+            {{ if .pre_install }}
+              {{ range $pre_value := .pre_install }}
+                <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                {{ partial "code-copy.html" $pre_value }}
+              {{ end }}
+            {{ end}}
+            <p>Install with the following shell command:</p>
+            {{ partial "code-copy.html" . }}
+            <div class="grass-download-button-group">
+              <a class="btn btn-download" href="{{ .url }}" target="_blank">View Source</a>
+              {{ partial "support-button.html" $download_data }}
+            </div>
             {{ end }}
           </div>
 

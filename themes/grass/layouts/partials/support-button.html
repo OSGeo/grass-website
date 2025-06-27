@@ -1,0 +1,15 @@
+<!--
+    Renders a "Donate" button linking to the GRASS donation page on NumFOCUS.
+    - The button uses Font Awesome's heart icon and the label "Donate".
+    - The button's style is determined by the `.style` variable:
+        - If `.style` equals "outline", the button uses the 'btn-outline-support' class.
+        - Otherwise, it uses the 'btn-support' class.
+    - The link opens in a new browser tab.
+-->
+<a 
+    href="https://numfocus.org/donate-to-grass"
+    class='btn {{ if eq .style "outline" }}btn-outline-support{{ else }}btn-support{{ end }}'
+    target="_blank"
+>
+    <i class="fa-solid fa-heart"></i> Donate
+</a>

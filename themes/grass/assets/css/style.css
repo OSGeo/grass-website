@@ -1813,6 +1813,29 @@ nobullets {
   background-color: var(--gs-primary-color-dark); /* Darker blue on hover */
 }
 
+.btn-support {
+  background-color: var(--gs-support-color);
+  border: solid 1px var(--gs-support-color);
+  /* Removes the border */
+  padding: .75rem 1.5rem;
+  /* Larger padding for the button */
+  font-size: 1rem;
+  /* Larger font size */
+  color: var(--gs-white-color);
+  /* White text color */
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.2rem;
+  display: inline-flex;
+}
+
+.btn-support:hover,
+.btn-support:focus {
+  color: var(--gs-white-color);
+  background-color: var(--gs-support-color-dark);
+  border: solid 1px var(--gs-support-color-dark);
+}
+
 .btn-outline-support {
   background-color: var(--gs-base-white-color);
   border: solid 1px var(--gs-support-color);
