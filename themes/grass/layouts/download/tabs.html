@@ -64,6 +64,12 @@
             {{ end }}
             <h2>Compile and Install</h2>
               <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
+
+            <h2>Contribute</h2>
+              <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+              <div class="grass-download-button-group mb-5">
+                {{ partial "support-button.html" $download_data }}
+              </div>
           </div>
 
           <!-- Mac Section -->
@@ -82,11 +88,16 @@
             {{ end}}
             <p>Install with the following shell command:</p>
             {{ partial "code-copy.html" . }}
-            <div class="grass-download-button-group">
+            <!-- <div class="grass-download-button-group">
               <a class="btn btn-download" href="{{ .url }}" target="_blank">View Source</a>
               {{ partial "support-button.html" $download_data }}
-            </div>
+            </div> -->
             {{ end }}
+            <h2>Contribute</h2>
+            <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+            <div class="grass-download-button-group mb-5">
+              {{ partial "support-button.html" $download_data }}
+            </div>
           </div>
 
           <!-- Windows Section -->
@@ -129,6 +140,12 @@
                         <h4 class="alert-heading">QGIS users</h4>
                         <p>In order to have GRASS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
                       </div>
+
+                      <h2>Contribute</h2>
+                      <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+                      <div class="grass-download-button-group mb-5">
+                        {{ partial "support-button.html" $download_data }}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -142,16 +159,30 @@
               <h2>Docker Hub</h2>
               Offical GRASS Docker images are available on <a href="https://hub.docker.com/r/osgeo/grass-gis/" target="_blank">Docker Hub (osgeo/grass-gis)</a>. You can pull the latest image using the following command:
             </section>
-            <h2>Installation</h2>
 
-              {{ range $key, $value := .Site.Data.grass.install.docker }}
-                {{ partial "code-copy.html" $value }}
-              {{ end }}
+              <h2>Installation</h2>
+                {{ range sort .Site.Data.grass.install.docker.installers "id" "desc" }}
+              <h3>{{ .title }}</h3>
+                {{ if .pre_install }}
+                  {{ range $pre_value := .pre_install }}
+                    <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                    {{ partial "code-copy.html" $pre_value }}
+                  {{ end }}
+                {{ end}}
+                <p>Install with the following shell command:</p>
+                {{ partial "code-copy.html" . }}
+              {{ end}}
               
             <section class="container mb-5">
-              <h2>Run GRASS in Docker</h2>
+              <h2>Run GRASS as a Docker container</h2>
               Please refer to the <a href="https://github.com/OSGeo/grass/blob/main/docker/README.md" target="_blank">GRASS Docker README</a>
             </section>
+
+            <h2>Contribute</h2>
+            <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+            <div class="grass-download-button-group mb-5">
+              {{ partial "support-button.html" $download_data }}
+            </div>
           </div>
 
         <!-- Source Section -->
@@ -163,6 +194,12 @@
           <h2>Compile and Install</h2>
           <p>To compile and install GRASS from source, follow these steps from the <a
                 href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
+          
+          <h2>Contribute</h2>
+          <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+          <div class="grass-download-button-group mb-5">
+            {{ partial "support-button.html" $download_data }}
+          </div>
         </div>
       </div>
     </div>
