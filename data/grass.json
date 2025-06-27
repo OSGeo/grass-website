@@ -11,6 +11,8 @@
     "preview_version_short":"8.5",
     "preview_version_underscore": "8_5",
     "preview_version_nodots":"85",
+    "release_notes": "https://github.com/OSGeo/grass/releases/tag/8.4.1",
+    "install_wiki_url": "https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer",
     "linux_binaries_url": "https://download.osgeo.org/grass",
     "windows_binaries_url": "https://grass.osgeo.org/grass84/binary/mswindows/native/",
     "mac_binaries_url": "https://download.osgeo.org/grass/mac/",
@@ -134,19 +136,24 @@
             "binaries" : [
                 {
                     "id": "64-bit",
-                    "title": "64-bit",
+                    "title": "Current (v8.4.1)",
                     "url": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.1-1-Setup.exe",
                     "md5": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.0-1-Setup.exe.md5sum",
                     "size": "917 MB",
                     "date": "2025-03-02"
                 },
                 {
-                    "id": "OSGeo4W-v2",
-                    "title": "OSGeo4W (v2)",
-                    "url": "https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe",
-                    "md5": "https://download.osgeo.org/osgeo4w/v2/md5sums",
-                    "size": "1.0 MB",
-                    "date": "2024-11-07"
+                    "id": "legacy_version",
+                    "title": "Legacy (v7.8.8)",
+                    "url": "https://grass.osgeo.org/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.8-3-Setup-x86_64.exe",
+                    "md5": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-7.8.8-3-Setup-x86.exe.md5sum",
+                    "size": "917 MB",
+                    "date": "2025-03-02"
+                },
+                {
+                    "id": "64-bit-preview",
+                    "title": "Preview (v8.5.0)",
+                    "url": "https://wingrass.fsv.cvut.cz/grass85/"
                 }
             ],
             "installers": {
@@ -154,11 +161,6 @@
                     "id": "osgeo4w64",
                     "title": "OSGeo4W64",
                     "code": "osgeo4w-setup-x86_64.exe -q -P grass"
-                },
-                "osgeo4w32": {
-                    "id": "osgeo4w32",
-                    "title": "OSGeo4W32",
-                    "code": "osgeo4w-setup-x86.exe -q -P grass"
                 }
             }
         },

@@ -97,11 +97,38 @@
             <div class="container">
               <div class="row">
                 <div class="col-12">
-                  <h3>Additional Options</h3>
+                  <h2>Additional intall options</h2>
                   <div class="row mb-5 text-primary">
                     <div class="col-12">
-                      <h4>QGIS users</h4>
-                      <p>In order to have GRASS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
+                      <h3>Online (OSGeo4W v2) installer:</h3>
+                      <p>Download the OSGeo4W v2 installer to install GRASS and other OSGeo software on Windows.</p>
+                      <a class="btn btn-download mb-2" href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank"><i class="fa-solid fa-download"></i> OSGeo4W v2 installer</a>
+                      
+                      <h2>Installation</h2>
+                        <p>The following install modes are offered (see also the dedicated <a href="{{ .Site.Data.grass.install_wiki_url }}" alt="GRASS Install Wiki" target="_blank">wiki</a> page for further details):</p>
+                        <h3 class="text-secondary">Express Desktop Install mode</h3>
+                          <p>Run the downloaded installer as administrator and select the grass (stable) or grass-daily (development) packages to
+                            install. All needed dependencies (e.g. GDAL, common python packages) will be automatically downloaded.</p>
+                        <h3 class="text-secondary">Advanced Install mode</h3>
+                          <p>Run the downloaded installer as administrator and select the grass (stable) or grass-daily (development) packages to
+                          install. All needed dependencies (e.g. GDAL, common python packages) will be automatically downloaded.</p>
+                        <h3 class="text-secondary">Command line installation</h3>
+                          {{ range sort .Site.Data.grass.install.windows.installers "id" "desc" }}
+                            <h4>{{ .title }}</h4>
+                            {{ if .pre_install }}
+                              {{ range $pre_value := .pre_install }}
+                                <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                                {{ partial "code-copy.html" $pre_value }}
+                              {{ end }}
+                            {{ end}}
+                          <p>Install with the following shell command:</p>
+                        {{ partial "code-copy.html" . }}
+                      {{ end }}
+
+                      <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">QGIS users</h4>
+                        <p>In order to have GRASS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
