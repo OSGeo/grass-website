@@ -26,7 +26,26 @@
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
+  {{ with resources.Get "sass/main.scss" }}
+    {{ $opts := dict
+      "enableSourceMap" false
+      "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+      "silenceDeprecations" true
+      "targetPath" "css/main.css"
+      "transpiler" "dartsass"
+      "vars" site.Params.styles
+      "includePaths" (slice "node_modules")
+    }}
+    {{ with . | toCSS $opts }}
+      {{ if hugo.IsDevelopment }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
+      {{ else }}
+        {{ with . | fingerprint }}
+          <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/default.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
@@ -34,27 +53,6 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
-  {{ $styles := resources.Get "css/style.css" | minify}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  {{ with resources.Get "sass/main.scss" }}
-  {{ $opts := dict
-    "enableSourceMap" hugo.IsDevelopment
-    "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
-    "targetPath" "css/main.css"
-    "transpiler" "dartsass"
-    "vars" site.Params.styles
-    "includePaths" (slice "node_modules/bootstrap/scss")
-  }}
-  {{ with . | toCSS $opts }}
-    {{ if hugo.IsDevelopment }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{ else }}
-      {{ with . | fingerprint }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
   <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-3.3.1.slim.min.js"></script>
   <link rel="android-chrome-192x192" sizes="192x192" href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="android-chrome-512x512" sizes="512x512" href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
