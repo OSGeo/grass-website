@@ -42,19 +42,19 @@
 
 <div class="col-lg-6 col-sm-12 mr-1">
     <!-- Logo -->
-    <div class="btn-group mr-1">
-        <div class="dropdown mr-1" id="{{ $colorName }}-logo">
+    <div class="btn-group mr-1" role="group" aria-label="Dropdown button group of {{ $colorNameLower }} logos">
+        <div class="dropdown mr-1">
             <button
-                class="btn dropdown-toggle"
-                id="dropdownDowloadLogoButton{{ $colorName }}"
+                id="dropdown-button-{{ $colorNameLower }}-logo"
                 type="button"
+                class="btn dropdown-toggle"
                 aria-haspopup="true"
                 data-toggle="dropdown"
                 aria-expanded="false"
-                href="#{{ $colorName }}-logo">
+                href="#{{ $colorNameLower }}-logo">
             <i class="fa fa-download"></i> Logo
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownDowloadLogoButton{{ $colorName }}">
+            <div class="dropdown-menu" aria-labelledby="dropdown-button-{{ $colorNameLower }}-logo">
                 <h6 class="dropdown-header">Transparent Background</h6>
                 <a class="dropdown-item" 
                     href="{{ $grassLogoTransparentBg05x }}" download> 
@@ -137,16 +137,16 @@
         <div class="dropdown mr-1">
             <button 
                 class="btn dropdown-toggle"
-                id="dropdownDowloadLogoButtonSimple{{ $colorName }}"
+                id="dropdown-button-{{ $colorNameLower }}-simple-logo"
                 type="button"
                 aria-haspopup="true"
                 data-toggle="dropdown"
                 aria-expanded="false"
-                href="#{{ $colorName }}-logo"
+                href="#{{ $colorNameLower }}-logo"
                 >
                 <i class="fa fa-download"></i> Simple Logo
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownDowloadLogoButtonSimple{{ $colorName }}">
+            <div class="dropdown-menu" aria-labelledby="dropdown-button-{{ $colorNameLower }}-simple-logo">
                 <h6 class="dropdown-header">Transparent Background</h6>
                 <a class="dropdown-item"
                     href="{{ $grassLogoSimple05x }}"
@@ -179,15 +179,15 @@
         <div class="dropdown mr-1">
             <button 
                 class="btn dropdown-toggle"
-                id="dropdownDowloadLogoHorizontal{{ $colorName }}"
+                id="dropdown-button-{{ $colorNameLower }}-horizontal-logo"
                 type="button"
                 aria-haspopup="true"
                 data-toggle="dropdown"
                 aria-expanded="false"
-                href="#{{ $colorName }}-logo">
+                href="#{{ $colorNameLower }}-logo">
                 <i class="fa fa-download"></i> Horizontal Logo
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownDowloadLogoHorizontal{{ $colorName }}">
+            <div class="dropdown-menu" aria-labelledby="dropdown-button-{{ $colorNameLower }}-horizontal-logo">
                 <h6 class="dropdown-header">Transparent Background</h6>
                 <a class="dropdown-item" href="{{ $grassLogoHorizontal05x }}" download>
                     <i class="fa fa-download"></i> 0.5x
