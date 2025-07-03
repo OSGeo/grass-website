@@ -1,0 +1,154 @@
+//-- scss:defaults --*/
+// GRASS Theme
+/* GRASS Variables
+Use these variables to customize the GRASS theme.
+----------------------------------------------------------------------------- */
+/* GRASS Font */
+$gs-grass-font: 'Fira Sans Regular', sans-serif;
+$gs-grass-font--medium: 'Fira Sans Medium', sans-serif;
+$gs-grass-font--bold: 'Fira Sans Bold', sans-serif;
+$gs-grass-font--light: 'Fira Sans ExtraLight', sans-serif;
+$gs-grass-font--mono: 'Fira Mono', monospace;
+
+/* Primary Color */
+$gs-primary-color: rgb(76, 176, 91);
+$gs-primary-color--light: rgba(76, 176, 91, 0.541);
+$gs-primary-color--lighter: rgba(76, 176, 91, 0.322);
+$gs-primary-color--lightest: rgba(76, 176, 91, 0.071);
+
+/* Primary Alt Color */
+$gs-primary-alt-color: rgb(110, 208, 121);
+$gs-primary-alt-color--light: rgba(110, 208, 121, 0.541);
+$gs-primary-alt-color--lighter: rgba(110, 208, 121, 0.322);
+$gs-primary-alt-color--lightest: rgba(110, 208, 121, 0.071);
+
+/* Primary Light Color */
+$gs-primary-light-color: rgb(135, 233, 145);
+$gs-primary-light-color--light: rgba(135, 233, 145, 0.541);
+$gs-primary-light-color--lighter: rgba(138, 233, 145, 0.322);
+$gs-primary-light-color--lightest: rgba(138, 233, 145, 0.071);
+
+/* Primary Dark Color */
+$gs-primary-dark-color: rgb(8, 139, 54);
+$gs-primary-dark-color--light: rgba(8, 139, 54, 0.541);
+$gs-primary-dark-color--lighter: rgba(8, 139, 54, 0.322);
+$gs-primary-dark-color--lightest: rgba(8, 139, 54, 0.071);
+
+/* Secondary Color */
+$gs-secondary-color: rgb(0, 57, 63);
+$gs-secondary-color--light: rgba(0, 57, 63, 0.541);
+$gs-secondary-color--lighter: rgba(0, 57, 63, 0.322);
+$gs-secondary-color--lightest: rgba(0, 57, 63, 0.071);
+
+/* Secondary Alt Color */
+$gs-secondary-alt-color: rgb(39, 87, 92);
+$gs-secondary-alt-color--light: rgba(39, 87, 92, 0.541);
+$gs-secondary-alt-color--lighter: rgba(39, 87, 92, 0.322);
+$gs-secondary-alt-color--lightest: rgba(39, 87, 92, 0.071);
+
+/* Secondary Light Color */
+$gs-secondary-light-color: rgb(74, 120, 125);
+$gs-secondary-light-color--light: rgba(74, 121, 127, 0.541);
+$gs-secondary-light-color--lighter: rgba(74, 121, 127, 0.322);
+$gs-secondary-light-color--lightest: rgba(74, 121, 127, 0.071);
+
+/* Secondary Dark Color */
+$gs-secondary-dark-color: rgb(0, 32, 36);
+$gs-secondary-dark-color--light: rgba(0, 32, 36, 0.541);
+$gs-secondary-dark-color--lighter: rgba(0, 32, 36, 0.322);
+$gs-secondary-dark-color--lightest: rgba(0, 32, 36, 0.071);
+
+/* White */
+$gs-white-base-color: rgb(255, 255, 255);
+$gs-white-color: rgb(247, 247, 247);
+$gs-white-color--light: rgba(247, 247, 247, 0.541);
+$gs-white-color--lighter: rgba(247, 247, 247, 0.322);
+$gs-white-color--lightest: rgba(247, 247, 247, 0.071);
+
+/* Black */
+$gs-black-base-color: rgb(0, 0, 0);
+$gs-black-color: rgb(2, 25, 5);
+$gs-black-color--light: rgba(2, 25, 5, 0.541);
+$gs-black-color--lighter: rgba(2, 25, 5, 0.322);
+$gs-black-color--lightest: rgba(2, 25, 5, 0.071);
+
+/* Grey */
+$gs-grey-color: rgb(145, 144, 143);
+$gs-grey-color--light: rgba(145, 144, 143, 0.541);
+$gs-grey-color--lighter: rgba(145, 144, 143, 0.322);
+$gs-grey-color--lightest: rgba(145, 144, 143, 0.071);
+
+/* Grey Alt */
+$gs-grey-alt-color: rgb(216, 216, 216);
+$gs-grey-alt-color--light: rgba(216, 216, 216, 0.541);
+$gs-grey-alt-color--lighter: rgba(216, 216, 216, 0.322);
+$gs-grey-alt-color--lightest: rgba(216, 216, 216, 0.071);
+
+/* Grey Light */
+$gs-grey-light-color: rgb(240, 240, 241);
+$gs-grey-light-color--light: rgba(240, 240, 241, 0.541);
+$gs-grey-light-color--lighter: rgba(240, 240, 241, 0.322);
+$gs-grey-light-color--lightest: rgba(240, 240, 241, 0.071);
+
+/* Grey Dark */
+$gs-grey-dark-color: rgb(78, 77, 76);
+$gs-grey-dark-color--light: rgba(78, 77, 76, 0.541);
+$gs-grey-dark-color--lighter: rgba(78, 77, 76, 0.322);
+$gs-grey-dark-color--lightest: rgba(78, 77, 76, 0.071);
+
+/* Special Colors */
+$gs-support-color: rgb(243, 57, 138);
+$gs-support-color--dark: rgba(243, 57, 138, 0.541);
+$gs-support-color--light: rgba(243, 57, 138, 0.322);
+$gs-yard-sign-color: rgb(116, 93, 2);
+
+/* Bootstrap Mapping Colors */
+// $gs-primary-color: $gs-primary-color; Defined above
+// $gs-secondonary-color: $gs-secondary-color; Defined above
+$gs-danger-color: rgb(176, 76, 76);
+$gs-warning-color: rgb(176, 154, 76);
+$gs-success-color: $gs-primary-alt-color;
+$gs-info-color: $gs-secondary-alt-color;
+$gs-light-color: $gs-grey-light-color;
+
+/* Images */
+$gs-images-base-path: 'images';
+$gs-images-logos-small-path: $gs-images-base-path + '/logos/small';
+$gs-svg-logos-base-path: $gs-images-base-path + '/logos/large';
+$gs-icons-base-path: $gs-images-base-path + '/icons';
+
+
+/* Icons */
+$gs-grass-logo-white-simple: url($gs-images-logos-small-path + '/grass-logo-green-simple@05x.png');
+$gs-grass-logo-simple-svg: url($gs-svg-logos-base-path + '/grass-green-no-text.svg');
+$gs-grass-icon: url($gs-icons-base-path + '/grass-icon.svg');
+
+// Description: This file defines Bootstrap theme variables by mapping them 
+//              to custom color variables. These variables are used to 
+//              customize the appearance of the Bootstrap framework.
+// Bootstrap Variables: https: //github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+// Variables:
+// - $primary: Primary theme color, mapped to $gs-primary-color.
+// - $secondary: Secondary theme color, mapped to $gs-secondary-color.
+// - $success: Success state color, mapped to $gs-success-color.
+// - $info: Informational state color, mapped to $gs-info-color.
+// - $warning: Warning state color, mapped to $gs-warning-color.
+// - $danger: Danger/error state color, mapped to $gs-danger-color.
+// - $light: Light theme color, mapped to $gs-grey-light-color.
+// - $dark: Dark theme color, mapped to $gs-grey-dark-color.
+// Bootstrap Variables
+/*---------------------------------------------------------------------------*/
+$primary: $gs-primary-color;
+$secondary: $gs-secondary-color;
+$success: $gs-success-color;
+$info: $gs-info-color;
+$warning: $gs-warning-color;
+$danger: $gs-danger-color;
+$light: $gs-grey-light-color;
+$dark: $gs-grey-dark-color;
+
+// Control the color of the active tab in a tabset
+$nav-tabs-link-active-color: $gs-secondary-alt-color;
+
+// Control listing card title color
+$card-title-color: $gs-grey-dark-color;
