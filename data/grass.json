@@ -84,9 +84,9 @@
                     "title": "Ubuntu",
                     "pre_install": [
                         {"id": "ubuntu_comment_1", "text": "Add the ubuntugis-unstable PPA to your system:", "code": "sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable"},
-                        {"id": "ubuntu_comment_2", "text": "Update your package list:", "code": "sudo apt-get update"}
+                        {"id": "ubuntu_comment_2", "text": "Update your package list:", "code": "sudo apt update"}
                     ],
-                    "code": "sudo apt-get install grass",
+                    "code": "sudo apt install grass",
                     "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
                 },
                 "generic_64_bit":{
