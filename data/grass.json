@@ -87,50 +87,77 @@
                         {"id": "ubuntu_comment_2", "text": "Update your package list:", "code": "sudo apt update"}
                     ],
                     "code": "sudo apt install grass",
-                    "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
+                    "url": {
+                        "href": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable",
+                        "label": "ubuntugis-unstable"
+                    }
                 },
                 "generic_64_bit":{
                     "id": "02_generic_64_bit",
                     "title": "Generic 64-bit",
-                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-16_06_2025-install.sh",
-                    "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
+                    "pre_install": [
+                        {"id": "generic_64_bit_comment_1", "text": "Download the latest weekly GRASS binary snapshot.", "code": "curl -O https://grass.osgeo.org/grass84/binary/linux/snapshot/grass-8.4.2dev-x86_64-pc-linux-gnu-18_07_2025-install.sh"}
+                    ],
+                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-18_07_2025-install.sh",
+                    "url": {
+                        "href": "https://grass.osgeo.org/grass84/binary/linux/snapshot/",
+                        "label": "snapshots"
+                    }
                 },
                 "debian": {
                     "id": "03_debian",
                     "title": "Debian",
                     "code": "sudo apt install grass",
-                    "url": "https://packages.debian.org/grass"
+                    "url": {
+                        "href": "https://packages.debian.org/grass",
+                        "label": "debian packages"
+                    }
                 },
                 "fedora":{
                     "id": "04_fedora",
                     "title": "Fedora",
                     "code": "sudo dnf install grass",
-                    "url": "https://apps.fedoraproject.org/packages/grass"
+                    "url": {
+                        "href": "https://packages.fedoraproject.org/pkgs/grass/grass/",
+                        "label": "Fedora packages"
+                    }
                 },
                 "EPEL": {
                     "id": "EPEL",
-                    "title": "EPEL",
+                    "title": "EPEL8",
                     "code": "sudo yum install grass",
-                    "url": "https://src.fedoraproject.org/rpms/grass"
+                    "url": {
+                        "href": "https://packages.fedoraproject.org/pkgs/grass/grass/",
+                        "label": "EPEL8 (RHEL8/Centos8) packages"
+                    }
                 },
                 "arch_linux": {
                     "id": "arch_linux",
                     "title": "Arch Linux",
                     "code": "sudo pacman -S grass",
-                    "url": "https://aur.archlinux.org/packages/grass"
+                    "url": {
+                        "href": "https://aur.archlinux.org/packages/grass/",
+                        "label": "Arch Linux packages"
+                    }
                 },
                 
                 "gentoo": {
                     "id": "gentoo",
                     "title": "Gentoo",
                     "code": "sudo emerge grass",
-                    "url": "https://packages.gentoo.org/packages/sci-geosciences/grass"
+                    "url": {
+                        "href": "https://packages.gentoo.org/packages/sci-geosciences/grass",
+                        "label": "Gentoo packages"
+                    }
                 },
                 "openSUSE": {
                     "id": "openSUSE",
                     "title": "openSUSE",
                     "code": "sudo zypper install grass",
-                    "url": "https://build.opensuse.org/package/show/Application:Geo/grass"
+                    "url": {
+                        "href": "https://build.opensuse.org/package/show/Application:Geo/grass",
+                        "label": "openSUSE packages"
+                    }
                 }
             }
         },

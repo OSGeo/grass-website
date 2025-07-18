@@ -49,6 +49,8 @@
             {{ partial "support-button.html" (dict "style" "outline" "text" "Support Us") }}
             {{ $download_data := dict "os" "Linux" "version" .Site.Data.grass.current_version "binaries" .Site.Data.grass.install.linux.binaries "binaries_url" .Site.Data.grass.binaries_url }}
             <h2>Installation</h2>
+            <p>Install grass package on your Linux distribution. Have a look at <a href="https://repology.org/project/grass-gis/versions" target="_blank">Repology</a> 
+              for an extended list of GRASS packages or directly check the <a href="https://repology.org/badge/vertical-allrepos/grass-gis.svg?exclude_unsupported=1&exclude_sources=modules,site&minversion=%3Cspan%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%208.4.1%20%20%20%20%20%20%20%20%20%20%20%20%3C/span%3E&columns=3" target="_blank">packaging status</a> to quickly know which GRASS version is currently available for your distro.</p>
             {{ range sort .Site.Data.grass.install.linux.installers "id" "asc" }}
               <h3>{{ .title }}</h3>
               {{ if .pre_install }}
@@ -59,6 +61,7 @@
               {{ end}}
               <p>Install with the following shell command:</p>
               {{ partial "code-copy.html" . }}
+              <p>For more information visit <a href="{{ .url.href }}">{{ .url.label }}</a>.</p>
             {{ end }}
             <h2>Compile and Install</h2>
               <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
