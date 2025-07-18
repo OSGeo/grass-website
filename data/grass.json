@@ -78,8 +78,9 @@
                 }
             ],
             "installers": {
+
                 "ubuntu": {
-                    "id": "ubuntu",
+                    "id": "01_ubuntu",
                     "title": "Ubuntu",
                     "pre_install": [
                         {"id": "ubuntu_comment_1", "text": "Add the ubuntugis-unstable PPA to your system:", "code": "sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable"},
@@ -88,8 +89,20 @@
                     "code": "sudo apt-get install grass",
                     "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
                 },
+                "generic_64_bit":{
+                    "id": "02_generic_64_bit",
+                    "title": "Generic 64-bit",
+                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-16_06_2025-install.sh",
+                    "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
+                },
+                "debian": {
+                    "id": "03_debian",
+                    "title": "Debian",
+                    "code": "sudo apt install grass",
+                    "url": "https://packages.debian.org/grass"
+                },
                 "fedora":{
-                    "id": "fedora",
+                    "id": "04_fedora",
                     "title": "Fedora",
                     "code": "sudo dnf install grass",
                     "url": "https://apps.fedoraproject.org/packages/grass"
@@ -106,12 +119,7 @@
                     "code": "sudo pacman -S grass",
                     "url": "https://aur.archlinux.org/packages/grass"
                 },
-                "debian": {
-                    "id": "debian",
-                    "title": "Debian",
-                    "code": "sudo apt install grass",
-                    "url": "https://packages.debian.org/grass"
-                },
+                
                 "gentoo": {
                     "id": "gentoo",
                     "title": "Gentoo",
@@ -123,12 +131,6 @@
                     "title": "openSUSE",
                     "code": "sudo zypper install grass",
                     "url": "https://build.opensuse.org/package/show/Application:Geo/grass"
-                },
-                "generic_64_bit":{
-                    "id": "generic_64_bit",
-                    "title": "Generic 64-bit",
-                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-16_06_2025-install.sh",
-                    "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
                 }
             }
         },

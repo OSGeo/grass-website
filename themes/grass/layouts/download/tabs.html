@@ -49,7 +49,7 @@
             <h2>Installation</h2>
             <a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-support" target="_blank"><i
                 class="fa-solid fa-heart"></i> Support Us</a>
-            {{ range sort .Site.Data.grass.install.linux.installers "id" "desc" }}
+            {{ range sort .Site.Data.grass.install.linux.installers "id" "asc" }}
               <h3>{{ .title }}</h3>
               {{ if .pre_install }}
                 {{ range $pre_value := .pre_install }}
