@@ -47,6 +47,8 @@
           <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
             {{ $download_data := dict "os" "Linux" "version" .Site.Data.grass.current_version "binaries" .Site.Data.grass.install.linux.binaries "binaries_url" .Site.Data.grass.binaries_url }}
             <h2>Installation</h2>
+            <a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-support" target="_blank"><i
+                class="fa-solid fa-heart"></i> Support Us</a>
             {{ range sort .Site.Data.grass.install.linux.installers "id" "desc" }}
               <h3>{{ .title }}</h3>
               {{ if .pre_install }}
@@ -57,10 +59,6 @@
               {{ end}}
               <p>Install with the following shell command:</p>
               {{ partial "code-copy.html" . }}
-              <div class="grass-download-button-group">
-                <a class="btn btn-download" href="{{ .url }}" target="_blank">View Source</a>
-                {{ partial "support-button.html" $download_data }}
-              </div>
             {{ end }}
             <h2>Compile and Install</h2>
               <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
