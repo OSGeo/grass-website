@@ -45,10 +45,10 @@
         <div class="tab-content" id="downloadTabContent">
           <!-- Linux Section -->
           <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
+            <h2>Download GRASS for Linux</h2>
+            {{ partial "support-button.html" (dict "style" "outline" "text" "Support Us") }}
             {{ $download_data := dict "os" "Linux" "version" .Site.Data.grass.current_version "binaries" .Site.Data.grass.install.linux.binaries "binaries_url" .Site.Data.grass.binaries_url }}
             <h2>Installation</h2>
-            <a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-support" target="_blank"><i
-                class="fa-solid fa-heart"></i> Support Us</a>
             {{ range sort .Site.Data.grass.install.linux.installers "id" "asc" }}
               <h3>{{ .title }}</h3>
               {{ if .pre_install }}
@@ -148,8 +148,10 @@
           <!-- Docker Section -->
           <div class="tab-pane fade" id="docker" role="tabpanel" aria-labelledby="docker-tab">
             <section class="grass-download">
+              <h2>GRASS Docker images</h2>
+              {{ partial "support-button.html" (dict "style" "outline" "text" "Support Us") }}
               <h2>Docker Hub</h2>
-              Offical GRASS Docker images are available on <a href="https://hub.docker.com/r/osgeo/grass-gis/" target="_blank">Docker Hub (osgeo/grass-gis)</a>. You can pull the latest image using the following command:
+              Offical GRASS Docker images are available on <a href="https://hub.docker.com/r/osgeo/grass-gis/" target="_blank">Docker Hub (osgeo/grass-gis)</a>. You can pull the latest image using the following commands.
             </section>
 
               <h2>Installation</h2>
@@ -165,10 +167,10 @@
                 {{ partial "code-copy.html" . }}
               {{ end}}
               
-            <section class="container mb-5">
-              <h2>Run GRASS as a Docker container</h2>
-              Please refer to the <a href="https://github.com/OSGeo/grass/blob/main/docker/README.md" target="_blank">GRASS Docker README</a>
-            </section>
+          
+            <h2>Run GRASS as a Docker container</h2>
+            <p>Please refer to the <a href="https://github.com/OSGeo/grass/blob/main/docker/README.md" target="_blank">GRASS Docker README</a></p>
+     
 
             <h2>Contribute</h2>
             <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
@@ -182,8 +184,8 @@
           <h2>Source Code</h2>
           Source code is avaliable on <a href="https://github.com/OSGeo/grass/" target="_blank">GitHub</a>. You can download the latest release at
           <a href="https://github.com/OSGeo/grass/releases" target="_blank">https://github.com/OSGeo/grass/releases</a>
-
-          <h2>Compile and Install</h2>
+          
+          <h2>Compile and install</h2>
           <p>To compile and install GRASS from source, follow these steps from the <a
                 href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
           

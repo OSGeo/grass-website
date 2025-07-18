@@ -11,5 +11,5 @@
     class='btn {{ if eq .style "outline" }}btn-outline-support{{ else }}btn-support{{ end }}'
     target="_blank"
 >
-    <i class="fa-solid fa-heart"></i> Donate
+    <i class="fa-solid fa-heart"></i> {{ .text | default "Support Us" }}
 </a>

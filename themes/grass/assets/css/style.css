@@ -1831,9 +1831,9 @@ nobullets {
 
 .btn-support:hover,
 .btn-support:focus {
-  color: var(--gs-white-color);
-  background-color: var(--gs-support-color-dark);
-  border: solid 1px var(--gs-support-color-dark);
+  color: var(--gs-support-color);
+  background-color: var(--gs-base-white-color);
+  border: solid 1px var(--gs-support-color);
 }
 
 .btn-outline-support {
