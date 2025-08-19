@@ -1,5 +1,5 @@
 ---
-title: "GRASS Developer Summit 2025"
+title: "GRASS Developer Summit 2025 Report"
 date: 2025-05-26T10:42:00+01:00
 layout: "news"
 author: Vaclav Petras, Veronica Andreo and Caitlin Haedrich
