@@ -13,7 +13,6 @@ layout: "general"
 ## Mirror sites
 
 - [Morocco](https://grass.marwan.ma/) (Moroccan National Research and Education Network, MARWAN)
-- [South Africa](https://grass.mirror.ac.za/) (TENET)
 - [Italy](https://grass.mirror.download.it) (Download.it)
 - [USA](https://mirrors.ibiblio.org/grass/html/) (ibiblio)
 
