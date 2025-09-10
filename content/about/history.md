@@ -115,7 +115,7 @@ On December 9, <b>2007</b> GRASS started to use SVN and Trac bug tracker hosted 
 </ul>
 </div>
 <div class="col-lg-4 col-sm-12">
- <center><img src="/images/logos/30-years-grass-gis-logo-black-300px.png"  width="83%" /></center>
+ <center><img src="/images/logos/historical_logos/30-years-grass-gis-logo-black-300px.png"  width="83%" /></center>
 </div>
 </div>
 </div>
