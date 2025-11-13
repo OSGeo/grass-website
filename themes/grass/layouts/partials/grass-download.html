@@ -1,11 +1,27 @@
 <div class="grass-download">
-    <h1 class="text-dark pt-2">Download GRASS for {{ .os }}</h1>
+    <h2>Download GRASS for {{ .os }}</h2>
     <p class="card-text">Click the button below to download the latest {{ .os }} version of GRASS.</p>
-              <!-- Replace the href value with the actual download link for the Windows version of GRASS GIS -->
     <div class="grass-download-button-group">
-        <a href="{{ .url }}" 
-            class="btn btn-download"
-            target="_blank"><i class="fa-solid fa-download"></i> Download GRASS ( {{ .version }} )</a>
+        <div class="dropdown">
+            <button 
+                class="btn btn-download dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                href="#"
+                >
+                <i class="fa-solid fa-download"></i> Download
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                {{ range $key, $value := .binaries }}
+                    <a class="dropdown-item" href="{{ .url }}">{{ .title }}</a>
+                {{ end }}
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="{{ .binaries_url }}">All binaries</a>
+            </div>
+        </div>
         <a href="https://numfocus.org/donate-to-grass"
             class="btn btn-outline-support" 
             target="_blank"><i class="fa-solid fa-heart"></i> Support Us</a>
