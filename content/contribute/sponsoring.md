@@ -4,6 +4,29 @@ date: 2025-05-21T11:02:05+06:00
 layout: "general"
 ---
 
+<style>
+  .btn-grass-sponsor {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+  }
+  
+  .btn-grass-sponsor a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .btn-grass-sponsor:hover {
+    background-color: #449d44;
+    border-color: #449d44;
+  }
+
+  .btn-grass-sponsor:hover a {
+    color: white;
+    text-decoration: none;
+  }
+</style>
+
 ## Sponsoring the GRASS project
 
 <img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_fotowall.jpg" width="55%" alt="Bonn code sprint 2018" style="float:right;padding-left:15px">
@@ -25,7 +48,7 @@ your company or research. Your financial support will also help
 us to build up the necessary effort and infrastructure to ensure
 the long-term sustainability of the project and the software.
 
-<div align="center"><button class="btn btn-primary"><b><a href="https://numfocus.org/donate-to-grass" target="_blank">SUPPORT GRASS</a></b></button></div>
+<div align="center"><button class="btn btn-primary btn-grass-sponsor"><b><a href="https://numfocus.org/donate-to-grass" target="_blank">SUPPORT GRASS</a></b></button></div>
 
 ### How we use the money
 
@@ -47,16 +70,16 @@ see the following sponsorship levels and please [contact us](/about/team)
 to discuss different sponsorship options.
 
 {{< table "table table-striped table-bordered">}}
-|Tier   	|Amount (USD)  |
-|---	    |---	|
-|Diamond	|10000  |
-|Platinum	|5000  	|
-|Gold  	    |2000  	|
-|Silver  	|1000  	|
-|Bronze  	|500   	|
+|Tier     	|Amount (USD) 	|
+|---   		|---   	|
+|Diamond 	|10000 	|
+|Platinum 	|5000 	|
+|Gold   	|2000 	|
+|Silver 	|1000 	|
+|Bronze 	|500   	|
 {{</ table >}}
 <br>
-<div align="center"><button class="btn btn-primary"><b><a href="https://numfocus.org/donate-to-grass" target="_blank">BECOME A SPONSOR</a></b></button></div>
+<div align="center"><button class="btn btn-primary btn-grass-sponsor"><b><a href="https://numfocus.org/donate-to-grass" target="_blank">BECOME A SPONSOR</a></b></button></div>
 
 ### Sponsorship benefits
 
@@ -71,11 +94,11 @@ but as the PSC sees potential, we will extend the list of benefits
 according to the level of support.
 
 {{< table "table table-striped table-bordered">}}
-| **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
+| **Sponsorship** | **Diamond** | **Platinum** | **Gold** | **Silver** | **Bronze** |
 |---|---|---|---|---|---|
-| Logo size  | 500x500  | 400x400  | 300x300  | 250x250  | 200x200  |
-| Announcement | press release  | news post  | news post  | news post  | ---  |
-| Social media  | 4 times  | 3 times  | 2 times  | 1 time  | ---  |
+| Logo size 	| 500x500 	| 400x400 	| 300x300 	| 250x250 	| 200x200 	|
+| Announcement | press release 	| news post 	| news post 	| news post 	| --- 	|
+| Social media 	| 4 times 	| 3 times 	| 2 times 	| 1 time 	| --- 	|
 {{</ table >}}
 
 ### Our Sponsors and supporters
