@@ -6,24 +6,22 @@ layout: "community"
 
 ### GRASS community
 
-The strength, longevity and success of the **GRASS** project relies on its worldwide community of users and developers. Everyone interested is welcome to join the  international, diverse and inclusive GRASS community.
+The strength, longevity and success of the **GRASS** project relies on its worldwide community of users and developers. Everyone interested is welcome to join the  international, diverse and inclusive GRASS community.
 
 GRASS follows the [NumFOCUS Code of Conduct](https://numfocus.org/code-of-conduct)
 to ensure a welcoming and respectful environment for all community members.
-
 ### Q&A websites and chat
-
 <div class="alert rounded-0 alert-default">
 Discourse forums are the most popular ways to ask and answer questions about GRASS.
 </div>
 
-| <div style="width:70px">MEDIA</div> | LINK |
-|------|---------|
-| <i class="fab fa-discourse"></i> |  [OSGeo Discourse (Users)](https://discourse.osgeo.org/c/grass/user/70) |
-| <i class="fab fa-discourse"></i> |  [OSGeo Discourse (Developers)](https://discourse.osgeo.org/c/grass/developer/61) |
-| <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) |
-| <i class="fab fa-stack-exchange"></i> |  [GRASS on StackExchange](https://gis.stackexchange.com/questions/tagged/grass) |
-| <i class="fab fa-gitter"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) |
+| <div style="width:70px">MEDIA</div> | LINK |  |
+|------|---------|-------------|
+| <i class="fab fa-discourse"></i> |  [Discourse](https://discourse.osgeo.org/c/grass/user/70) | OSGeo Discourse forum for GRASS users |
+| <i class="fab fa-discourse"></i> |  [Discourse](https://discourse.osgeo.org/c/grass/developer/61) | OSGeo Discourse forum for GRASS developers |
+| <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS |
+| <i class="fab fa-stack-exchange"></i> |  [gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS on StackExchange |
+| <i class="fab fa-gitter"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS on Gitter |
 
 ### Social media
 
@@ -47,12 +45,12 @@ Subscribe to start the conversation on a dedicated topic, and please follow the 
 
 | NAME | LINK | DESCRIPTION |
 |------|---------|-------------|
-| *GRASS - R* | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats) 	| Dedicated to GRASS and R stats interface |
-| *Translations* | [grass-translations](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS translations |
-| *PSC* | [grass-psc](https://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
-| *Git Commit* | [grass-commits](https://lists.osgeo.org/mailman/listinfo/grass-commit) | GRASS git commit mailing list |
-| *Website* | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS website mailing list |
-| *Announcement* |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS project announcements |
+| *GRASS - R*  | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS and R stats interface |
+| *Translations*  | [grass-translations](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS translations |
+| *PSC*  | [grass-psc](https://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
+| *Git Commit*  | [grass-commits](https://lists.osgeo.org/mailman/listinfo/grass-commit) | GRASS git commit mailing list |
+| *Website*  | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS website mailing list |
+| *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS project announcements |
 
 ### GRASS Wiki
 GRASS uses [wiki](https://grasswiki.osgeo.org/wiki/GRASS-Wiki) to organize community activities and provides space to share educational materials and technical solutions. To edit the wiki, please sign up [here](https://grasswiki.osgeo.org/wiki/Special:RequestAccount).
