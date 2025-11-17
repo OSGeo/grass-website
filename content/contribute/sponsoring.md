@@ -3,6 +3,7 @@ title: "Sponsoring"
 date: 2025-05-21T11:02:05+06:00
 layout: "general"
 ---
+
 ## Sponsoring the GRASS project
 
 <img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_fotowall.jpg" width="55%" alt="Bonn code sprint 2018" style="float:right;padding-left:15px">
@@ -23,6 +24,7 @@ maybe a donation will make you feel better about using GRASS in
 your company or research. Your financial support will also help
 us to build up the necessary effort and infrastructure to ensure
 the long-term sustainability of the project and the software.
+
 <div align="center">
   <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-success **text-white** **text-decoration-none**">
     SUPPORT GRASS
@@ -48,7 +50,6 @@ If you're an organization interested in long-term support or public recognition,
 see the following sponsorship levels and please [contact us](/about/team)
 to discuss different sponsorship options.
 
-
 {{< table "table table-striped table-bordered">}}
 |Tier   	|Amount (USD)  |
 |---	    |---	|
@@ -59,8 +60,6 @@ to discuss different sponsorship options.
 |Bronze  	|500   	|
 {{</ table >}}
 <br>
-
-
 <div align="center">
   <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-success **text-white** text-decoration-none">
     BECOME A SPONSOR
@@ -80,11 +79,11 @@ but as the PSC sees potential, we will extend the list of benefits
 according to the level of support.
 
 {{< table "table table-striped table-bordered">}}
-| **Sponsorship** | **Diamond** | **Platinum** | **Gold** | **Silver** | **Bronze** |
+| **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
 |---|---|---|---|---|---|
-| Logo size 	| 500x500 	| 400x400 	| 300x300 	| 250x250 	| 200x200 	|
-| Announcement | press release 	| news post 	| news post 	| news post 	| --- 	|
-| Social media 	| 4 times 	| 3 times 	| 2 times 	| 1 time 	| --- 	|
+| Logo size  | 500x500  | 400x400  | 300x300  | 250x250  | 200x200  |
+| Announcement | press release  | news post  | news post  | news post  | ---  |
+| Social media  | 4 times  | 3 times  | 2 times  | 1 time  | ---  |
 {{</ table >}}
 
 ### Our Sponsors and supporters
