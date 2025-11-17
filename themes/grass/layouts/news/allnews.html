@@ -14,7 +14,8 @@
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
-<section class="pt-4 bg-gray" style="margin-top: 95px;">
+<section class="pt-4 bg-gray" style="margin-top:95px;">
+
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -23,98 +24,111 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container mt-4">
     <div class="row">
-      <!-- ==================== MAIN COLUMN – YEAR BUTTONS + NEWS BELOW ==================== -->
+
+      <!-- MAIN COLUMN -->
       <div class="col-lg-8">
         <div id="news" class="p-5 bg-white">
           <h2 class="page-title">{{ .Title }}</h2>
 
-          <!-- ==== COLLECT UNIQUE YEARS ==== -->
+          {{/* Collect unique years */}}
           {{ $allYears := slice }}
-          {{ range where $.Data.Pages "Section" "news" }}
+          {{ range where $.Site.Pages "Section" "news" }}
             {{ if .Date }}
               {{ $allYears = $allYears | append (.Date.Format "2006") }}
             {{ end }}
           {{ end }}
+
           {{ $uniqueYears := slice }}
           {{ range $allYears }}
             {{ if not (in $uniqueYears .) }}
               {{ $uniqueYears = $uniqueYears | append . }}
             {{ end }}
           {{ end }}
+
           {{ $uniqueYears = sort $uniqueYears "value" "desc" }}
+          {{ $currentYear := now.Format "2006" }}
 
-          <!-- ==== RENDER EACH YEAR BUTTON + NEWS LIST ==== -->
-          {{ $first := true }}
+          <!-- LOOP YEARS -->
           {{ range $year := $uniqueYears }}
-            <!-- Year Button - WHITE BACKGROUND, BLACK TEXT, WHITE BORDER -->
-            <div class="panel panel-default mb-3">
-              <div class="panel-heading p-0 border-0 bg-white">
-                <h4 class="panel-title mb-0">
-                  <a class="year-toggle-link d-block py-3 px-4 text-decoration-none text-black fw-bold fs-3"
-                     data-bs-toggle="collapse"
-                     href="#news-{{ $year }}"
-                     aria-expanded="{{ if $first }}true{{ else }}false{{ end }}">
-                    <span class="arrow me-3">{{ if $first }}▲{{ else }}▼{{ end }}</span> {{ $year }}
-                  </a>
-                </h4>
-              </div>
+            {{ $collapseID := printf "news-%s" $year }}
 
-              <!-- News List -->
-              <div id="news-{{ $year }}" class="panel-collapse collapse {{ if $first }}show{{ end }}">
-                <ul class="all-posts list-unstyled mb-5 px-4 pt-3">
-                  {{ range where $.Site.Pages "Section" "news" }}
+            <div class="mb-4">
+
+              <!-- YEAR TITLE WITH ICON -->
+              <a class="d-block h3 text-dark text-decoration-none"
+                 data-bs-toggle="collapse"
+                 href="#{{ $collapseID }}"
+                 aria-expanded="{{ if eq $year $currentYear }}true{{ else }}false{{ end }}">
+
+                {{ if eq $year $currentYear }}
+                  <i class="fa-solid fa-chevron-up me-2"></i>{{ $year }}
+                {{ else }}
+                  <i class="fa-solid fa-chevron-down me-2"></i>{{ $year }}
+                {{ end }}
+
+              </a>
+
+              <!-- POSTS -->
+              <div id="{{ $collapseID }}"
+                   class="collapse {{ if eq $year $currentYear }}show{{ end }}">
+
+                <ul class="list-unstyled mt-3">
+                  {{ range sort (where $.Site.Pages "Section" "news") "Date" "desc" }}
                     {{ if and .Date (eq (.Date.Format "2006") $year) }}
                       <li class="mb-4">
-                        <h3 class="entry-title" itemprop="headline">
+                        <h3 class="entry-title h5 mb-1">
                           <a href="{{ .RelPermalink }}" class="nws">{{ .Title }}</a>
                         </h3>
-                        <span class="entry-meta text-muted">
-                          <i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}
-                        </span>
+                        <div class="entry-meta text-muted small">
+                          <i class="fa fa-calendar"></i>
+                          {{ .Date.Format "January 02, 2006" }}
+                        </div>
                       </li>
                     {{ end }}
                   {{ end }}
                 </ul>
+
               </div>
             </div>
 
-            {{ $first = false }}
           {{ end }}
+
         </div>
       </div>
 
-      <!-- ==================== SIDEBAR ==================== -->
+      <!-- SIDEBAR -->
       <div class="col-lg-4 bg-white">
-        <!-- Mastodon -->
+
         <div class="mb-4">
-          <h3 class="mt-20 grasscolor fs-4 fw-bold">@GRASSGIS on Mastodon</h3>
+          <h3 class="mt-20 grasscolor">@GRASSGIS on Mastodon</h3>
           {{ partial "mastodon.html" . }}
         </div>
 
-        <!-- X (Twitter) - BIG, BELOW Mastodon, ABOVE Next events -->
         <div class="mb-4">
-          <h3 class="grasscolor fs-3 fw-bold mb-3">@GRASSGIS on X</h3>
+          <h3 class="mt-20 grasscolor">@GRASSGIS on X</h3>
           {{ partial "twitter.html" . }}
         </div>
 
-        <!-- Next events -->
         <div>
-          <h3 class="grasscolor fs-4 fw-bold">Next events</h3>
+          <h3 class="mt-20 grasscolor">Next events</h3>
+
           {{ $events := where (where $.Site.Pages "Section" "events") ".Params.event.start" "!=" nil }}
           {{ range first 3 (sort $events ".Params.event.start" "asc") }}
             {{ if (time .Params.event.start).After now }}
               <div class="mb-3">
                 <div class="row align-items-center">
                   <div class="col-4">
-                    <img src="{{ .Site.BaseURL }}/{{ .Params.logo }}" class="eventslogo img-fluid" alt="{{ .Title }}">
+                    <img src="{{ .Site.BaseURL }}{{ .Params.logo }}" class="eventslogo img-fluid" alt="{{ .Title }}">
                   </div>
                   <div class="col-8">
-                    <h3 class="entry-title event-title">
-                      <a href="{{ .Params.website }}" target="_blank" class="nws">{{ .Title }}</a>
-                    </h3>
-                    <p class="mb-0">
+                    <h4 class="h6 mb-1">
+                      <a href="{{ .Params.website }}" target="_blank" rel="noopener" class="nws">
+                        {{ .Title }}
+                      </a>
+                    </h4>
+                    <p class="mb-0 small text-muted">
                       {{ .Params.where }}<br>
                       {{ .Params.event.start }} – {{ .Params.event.end }}
                     </p>
@@ -123,98 +137,12 @@
               </div>
             {{ end }}
           {{ end }}
+
         </div>
-      </div>
+
     </div>
   </div>
+
 </section>
 
 {{ partial "footer.html" . }}
-
-<!-- Arrow toggle only (NO background change) -->
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.year-toggle-link').forEach(link => {
-      link.addEventListener('click', function () {
-        const expanded = this.getAttribute('aria-expanded') === 'true';
-        const arrow = this.querySelector('.arrow');
-        if (arrow) {
-          arrow.textContent = expanded ? '▼' : '▲';
-        }
-      });
-    });
-
-    // Sync with Bootstrap collapse events
-    document.querySelectorAll('.panel-collapse').forEach(panel => {
-      panel.addEventListener('shown.bs.collapse', function () {
-        const year = this.id.replace('news-', '');
-        const link = document.querySelector(`a[href="#news-${year}"] .arrow`);
-        if (link) link.textContent = '▲';
-      });
-      panel.addEventListener('hidden.bs.collapse', function () {
-        const year = this.id.replace('news-', '');
-        const link = document.querySelector(`a[href="#news-${year}"] .arrow`);
-        if (link) link.textContent = '▼';
-      });
-    });
-  });
-</script>
-
-<style>
-  /* Year button - WHITE background, BLACK text, WHITE border */
-  .year-toggle-link {
-    background-color: white !important;
-    color: black !important;
-    border: 3px solid white !important;
-    border-radius: 8px !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: all 0.2s ease;
-    display: block;
-    font-size: 1.8rem !important;
-  }
-
-  .year-toggle-link:hover {
-    background-color: #f8f9fa !important;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  }
-
-  /* NO BLUE on active - stay white */
-  .year-toggle-link[aria-expanded="true"],
-  .year-toggle-link.collapsed {
-    background-color: white !important;
-    color: black !important;
-  }
-
-  .year-toggle-link .arrow {
-    font-weight: bold;
-    transition: transform 0.3s ease;
-    display: inline-block;
-  }
-
-  .year-toggle-link[aria-expanded="true"] .arrow {
-    transform: rotate(180deg);
-  }
-
-  /* Panel styling like original */
-  .panel-default {
-    border: none;
-    margin-bottom: 1rem;
-  }
-
-  .panel-heading {
-    padding: 0;
-    background-color: transparent;
-  }
-
-  .all-posts {
-    background-color: #f8f9fa;
-    padding: 1rem 1.5rem;
-    border-radius: 0 0 8px 8px;
-    margin-top: -1rem;
-  }
-
-  .grasscolor {
-    color: #28a745 !important;
-  }
-</style>

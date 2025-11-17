@@ -1,3 +1,4 @@
+{{/* themes/grass/layouts/partials/footer.html — original layout, fixed JS loading for Bootstrap 5 */}}
 <footer class="section grass-blue-bg text-light pt-5 pb-3">
   <div class="container">
     <div class="row">
@@ -53,11 +54,11 @@
       </div>
 
     </div>
-
+    
     <!-- Bottom row -->
     <div class="row mt-4 align-items-center">
-
-      <!-- Left column: Copyright -->
+      
+      <!-- Left column: Copyright et al -->
       <div class="col-md-6 text-md-left text-center">
         <p class="mb-0 text-light small">
           {{ with .Site.Params.copyright }}
@@ -65,11 +66,11 @@
           <a href="/about/license/" class="text-light">License</a> &nbsp;|&nbsp;
           <a href="/about/privacy/" class="text-light">Privacy</a> &nbsp;|&nbsp;
           <a href="/about/mirrors/" class="text-light">Mirror sites</a>
-          <a href="https://fosstodon.org/@grassgis" rel="me"></a>
+          <a href="https://fosstodon.org/@grassgis" rel="me"></a> <!--needed for verification-->
           {{ end }}
         </p>
       </div>
-
+    
       <!-- Right column: Social icons -->
       <div class="col-md-6 text-md-right text-center">
         <ul class="list-inline mb-0">
@@ -82,23 +83,19 @@
           {{ end }}
         </ul>
       </div>
-
     </div>
   </div>
 </footer>
 
-<footer class="section grass-blue-bg text-light pt-5 pb-3"> <div class="container"> <div class="row"> <!-- Logo --> <div class="col-md-2 text-center text-md-left mb-4 mb-md-0"> <img src="{{.Site.BaseURL}}/images/logos/gs-white-small.png" alt="GRASS GIS logo" style="max-width: 100px;"> </div> <!-- Quick Links --> <div class="col-md-2 text-center text-md-left mb-4 mb-md-0"> <h6 class="text-uppercase text-light">About Us</h6> <ul class="list-unstyled small"> <li><a href="/about/team" class="text-light">Team</a></li> <li><a href="/about/roadmap" class="text-light">Roadmap</a></li> <li><a href="/about/governance" class="text-light">Governance</a></li> </ul> </div> <div class="col-md-2 text-center text-md-left mb-4 mb-md-0"> <h6 class="text-uppercase text-light">Learn</h6> <ul class="list-unstyled small"> <li><a href="/learn/manuals" class="text-light">Documentation</a></li> <li><a href="https://grass-tutorials.osgeo.org/" class="text-light">Tutorials</a></li> <li><a href="/learn/books" class="text-light">Books</a></li> </ul> </div> <div class="col-md-2 text-center text-md-left mb-4 mb-md-0"> <h6 class="text-uppercase text-light">Support</h6> <ul class="list-unstyled small"> <li><a href="/support/community" class="text-light">Community</a></li> <li><a href="/support/commercial" class="text-light">Commercial</a></li> <li><a href="https://discourse.osgeo.org/c/grass/62" class="text-light">Contact Us</a></li> </ul> </div> <div class="col-md-2 text-center text-md-left mb-4 mb-md-0"> <h6 class="text-uppercase text-light">Contribute</h6> <ul class="list-unstyled small"> <li><a href="https://github.com/OSGeo/grass/blob/main/doc/development/github_guide.md" class="text-light">How to git</a></li> <li><a href="https://github.com/OSGeo/grass/blob/main/doc/development/style_guide.md" class="text-light">Style guide</a></li> <li><a href="https://github.com/OSGeo/grass/issues" class="text-light">Report a bug</a></li> </ul> </div> <!-- Download button --> <div class="col-md-2 text-center mb-4 mb-md-0"> <a class="btn btn-outline-white" href="/download/">Download</a> <a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-white" target="_blank"><i class="fa-solid fa-heart"></i> Donate</a> </div> </div> <!-- Bottom row --> <div class="row mt-4 align-items-center"> <!-- Left column: Copyright et al --> <div class="col-md-6 text-md-left text-center"> <p class="mb-0 text-light small"> {{ with .Site.Params.copyright }} &copy; {{ replace . "{year}" now.Year }} &nbsp;|&nbsp; <a href="/about/license/" class="text-light">License</a> &nbsp;|&nbsp; <a href="/about/privacy/" class="text-light">Privacy</a> &nbsp;|&nbsp; <a href="/about/mirrors/" class="text-light">Mirror sites</a> <a href="https://fosstodon.org/@grassgis" rel="me"></a> <!--needed for verification--> {{ end }} </p> </div> <!-- Right column: Social icons --> <div class="col-md-6 text-md-right text-center"> <ul class="list-inline mb-0"> {{ range .Site.Params.socialIcon }} <li class="list-inline-item"> <a class="text-light p-2" aria-label="{{ .label }}" href="{{ .link }}"> <i class="{{ .icon }} fa-lg"></i> </a> </li> {{ end }} </ul> </div> </div> </div> </footer> <!-- <footer class="section bg-gray pb-0"> <div class="container"> <div class="row"> <div class="col-md-4 text-md-left text-center"> {{ with .Site.Params.copyright }} <p><small>&copy; {{ replace . "{year}" now.Year }} (<a href="/about/license/">license</a>&nbsp;|&nbsp;<a href="/about/privacy">privacy</a>)</small></p> {{ end }} </div> <div class="col-md-4 text-md-left text-center"> {{if .IsHome}} <p><small><a href="about/mirrors">Mirror sites</a> <a href="https://fosstodon.org/@grassgis" rel="me"></a> <!-- needed for verification </small></p> {{end}} {{if not .IsHome}} <p><small><a href="https://github.com/OSGeo/grass-website/tree/master/content/{{ .Section }}/{{ with .File }}{{ .BaseFileName }}{{ end }}.md" class="fab fa-github"> <span class="edt">Edit this page on GitHub</span></a></small></p> {{end}} </div> <div class="col-md-4 text-md-right text-center"> <ul class="list-inline mb-3 d-flex justify-content-center justify-content-md-end align-items-center"> {{ range .Site.Params.socialIcon }} <li class="list-inline-item d-flex align-items-center"> <a class="color-secondary d-inline-block p-2" aria-label="{{ .label }}" href="{{ .link }}"> <i class="{{ .icon }}"></i> </a> </li> {{ end }} </ul> </div> </div> </div> </footer> --> <script src="{{ .Site.BaseURL }}plugins/popper/popper.min.js"></script> <script src="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.js"></script> <script src="{{ .Site.BaseURL }}plugins/highlight/highlight.min.js"></script> <script>hljs.highlightAll();</script> <script src="{{ .Site.BaseURL }}plugins/gallery/photoswipe.js"></script> <!-- Bundle, minifiy and fingerprint js assets before loading --> {{ $contrib := resources.Get "js/contributor_ad.js" }} {{ $script := resources.Get "js/script.js" }} {{ $js := slice $contrib $script | resources.Concat "js/bundle.js" | minify }} {{ $secureJS := $js | resources.Fingerprint "sha512" }} <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script> </body> </html>
-<!-- ############### FIXED SECTION ############### -->
-<!-- Remove old Bootstrap/Popper JS and load Bootstrap 5 bundle -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<!-- ############# END FIXED SECTION ############# -->
+<!-- Load Bootstrap 5 bundle (includes Popper). Replace with a local Bootstrap 5 bundle if you prefer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="" crossorigin="anonymous"></script>
 
-
+<!-- highlight & gallery -->
 <script src="{{ .Site.BaseURL }}plugins/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
 <script src="{{ .Site.BaseURL }}plugins/gallery/photoswipe.js"></script>
 
-<!-- Bundle, minifiy and fingerprint js assets before loading -->
+<!-- Bundle, minify and fingerprint js assets before loading -->
 {{ $contrib := resources.Get "js/contributor_ad.js" }}
 {{ $script := resources.Get "js/script.js" }}
 {{ $js := slice $contrib $script | resources.Concat "js/bundle.js" | minify }}
