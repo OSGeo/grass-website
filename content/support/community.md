@@ -54,3 +54,4 @@ Subscribe to start the conversation on a dedicated topic, and please follow the 
 
 ### GRASS Wiki
 GRASS uses [wiki](https://grasswiki.osgeo.org/wiki/GRASS-Wiki) to organize community activities and provides space to share educational materials and technical solutions. To edit the wiki, please sign up [here](https://grasswiki.osgeo.org/wiki/Special:RequestAccount).
+

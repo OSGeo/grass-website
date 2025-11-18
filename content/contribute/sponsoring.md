@@ -95,3 +95,4 @@ Many thanks to all our supporters and sponsors throughout the years!
 
 Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors)
 in the GRASS Wiki for details.
+
