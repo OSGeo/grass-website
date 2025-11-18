@@ -15,13 +15,13 @@ to ensure a welcoming and respectful environment for all community members.
 Discourse forums are the most popular ways to ask and answer questions about GRASS.
 </div>
 
-| <div style="width:70px">MEDIA</div> | LINK |  |
+| <div style="padding-right:1rem">MEDIA</div> | LINK |
 |------|---------|-------------|
-| <i class="fab fa-discourse"></i> |  [Discourse](https://discourse.osgeo.org/c/grass/user/70) | OSGeo Discourse forum for GRASS users |
-| <i class="fab fa-discourse"></i> |  [Discourse](https://discourse.osgeo.org/c/grass/developer/61) | OSGeo Discourse forum for GRASS developers |
-| <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions) | GitHub Discussions for GRASS |
-| <i class="fab fa-stack-exchange"></i> |  [gis.stackexchange.com](https://gis.stackexchange.com/questions/tagged/grass) | GRASS on StackExchange |
-| <i class="fab fa-gitter"></i> |  [Gitter chat room](https://gitter.im/grassgis/community) | GRASS on Gitter |
+| <i class="fab fa-discourse"></i> |  [OSGeo GRASS users Discourse](https://discourse.osgeo.org/c/grass/user/70) |
+| <i class="fab fa-discourse"></i> |  [OSGeo GRASS developers Discourse](https://discourse.osgeo.org/c/grass/developer/61) |
+| <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions)  |
+| <i class="fab fa-stack-exchange"></i> |  [GRASS on GIS StackExchange](https://gis.stackexchange.com/questions/tagged/grass) |
+| <i class="fab fa-gitter"></i> |  [Gitter](https://gitter.im/grassgis/community) |
 
 ### Social media
 
@@ -29,13 +29,13 @@ Discourse forums are the most popular ways to ask and answer questions about GRA
 Follow the latest developments and news on these channels:
 </div>
 
-| <div style="width:70px">MEDIA</div> | ACCOUNT |
-|------|---------|
-| <i class="fab fa-mastodon"></i> | [@GRASSGIS](https://fosstodon.org/@grassgis) |
-| <i class="fab fa-x-twitter"></i> |  [@GRASSGIS](https://twitter.com/grassgis) |
-| <i class="fab fa-linkedin"></i> | [GRASS GIS](https://www.linkedin.com/company/grass-gis) |
-| <i class="fab fa-facebook"></i> |  [GRASS Facebook Group](https://www.facebook.com/groups/GRASS) |
-| <i class="fab fa-youtube"></i> |  [@grass-gis](https://www.youtube.com/@grass-gis) |
+| <div style="padding-right:1rem">MEDIA</div> | ACCOUNT                                              |
+|---------------------------------------------|------------------------------------------------------|
+| <i class="fab fa-mastodon"></i>             | [@GRASSGIS](https://fosstodon.org/@grassgis)         |
+| <i class="fab fa-x-twitter"></i>            | [@GRASSGIS](https://twitter.com/grassgis)            |
+| <i class="fab fa-linkedin"></i>             | [@GRASS](https://www.linkedin.com/company/grass-gis) |
+| <i class="fab fa-facebook"></i>             | [@GRASSGIS](https://www.facebook.com/groups/GRASS)   |
+| <i class="fab fa-youtube"></i>              | [@grass-gis](https://www.youtube.com/@grass-gis)     |
 
 ### Mailing lists
 

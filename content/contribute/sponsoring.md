@@ -26,8 +26,8 @@ us to build up the necessary effort and infrastructure to ensure
 the long-term sustainability of the project and the software.
 
 <div align="center">
-  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-success **text-white** **text-decoration-none**">
-    SUPPORT GRASS
+  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-download">
+    Support Us
   </a>
 </div>
 
@@ -61,8 +61,8 @@ to discuss different sponsorship options.
 {{</ table >}}
 <br>
 <div align="center">
-  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-success **text-white** text-decoration-none">
-    BECOME A SPONSOR
+  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-download">
+    Sponsor Us
   </a>
 </div>
 
@@ -78,6 +78,7 @@ and [Fosstodon](https://fosstodon.org/@grassgis)) so far,
 but as the PSC sees potential, we will extend the list of benefits 
 according to the level of support.
 
+<div style="overflow-x:auto; width:100%;">
 {{< table "table table-striped table-bordered">}}
 | **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
 |---|---|---|---|---|---|
@@ -85,6 +86,8 @@ according to the level of support.
 | Announcement | press release  | news post  | news post  | news post  | ---  |
 | Social media  | 4 times  | 3 times  | 2 times  | 1 time  | ---  |
 {{</ table >}}
+
+</div>
 
 ### Our Sponsors and supporters
 
