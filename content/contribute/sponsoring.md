@@ -78,7 +78,7 @@ and [Fosstodon](https://fosstodon.org/@grassgis)) so far,
 but as the PSC sees potential, we will extend the list of benefits 
 according to the level of support.
 
-<div style="overflow-x:auto; width:100%;">
+<div class="table-responsive-md">
 {{< table "table table-striped table-bordered">}}
 | **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
 |---|---|---|---|---|---|

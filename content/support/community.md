@@ -17,8 +17,8 @@ Discourse forums are the most popular ways to ask and answer questions about GRA
 
 | <div style="padding-right:1rem">MEDIA</div> | LINK |
 |------|---------|-------------|
-| <i class="fab fa-discourse"></i> |  [OSGeo GRASS users Discourse](https://discourse.osgeo.org/c/grass/user/70) |
-| <i class="fab fa-discourse"></i> |  [OSGeo GRASS developers Discourse](https://discourse.osgeo.org/c/grass/developer/61) |
+| <i class="fab fa-discourse"></i> |  [OSGeo Discourse: GRASS users](https://discourse.osgeo.org/c/grass/user/70) |
+| <i class="fab fa-discourse"></i> |  [OSGeo Discourse: GRASS developers](https://discourse.osgeo.org/c/grass/developer/61) |
 | <i class="fab fa-github"></i> |  [GitHub Discussions](https://github.com/OSGeo/grass/discussions)  |
 | <i class="fab fa-stack-exchange"></i> |  [GRASS on GIS StackExchange](https://gis.stackexchange.com/questions/tagged/grass) |
 | <i class="fab fa-gitter"></i> |  [Gitter](https://gitter.im/grassgis/community) |
