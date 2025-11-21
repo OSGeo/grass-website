@@ -43,14 +43,13 @@ Follow the latest developments and news on these channels:
 Subscribe to start the conversation on a dedicated topic, and please follow the <a href="https://grasswiki.osgeo.org/wiki/Mailing_list_etiquette" target="_blank">mailing list etiquette</a>.
 </div>
 
-| NAME | LINK | DESCRIPTION |
-|------|---------|-------------|
-| *GRASS - R*  | [grass-stats](https://lists.osgeo.org/mailman/listinfo/grass-stats)  | Dedicated to GRASS and R stats interface |
-| *Translations*  | [grass-translations](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS translations |
-| *PSC*  | [grass-psc](https://lists.osgeo.org/mailman/listinfo/grass-psc) | Project Steering Committee mailing list |
-| *Git Commit*  | [grass-commits](https://lists.osgeo.org/mailman/listinfo/grass-commit) | GRASS git commit mailing list |
-| *Website*  | [grass-web](https://lists.osgeo.org/mailman/listinfo/grass-web) | GRASS website mailing list |
-| *Announcement*  |  [grass-announce](https://lists.osgeo.org/mailman/listinfo/grass-announce) | General GRASS project announcements |
+| <div style="padding-right:1rem">NAME</div>                                    |  DESCRIPTION                            |
+|-------------------------------------------------------------------------------|-----------------------------------      |
+| [*GRASS - R*](https://lists.osgeo.org/mailman/listinfo/grass-stats)           | Dedicated to GRASS and R stats interface|   
+| [*Translations*](https://lists.osgeo.org/mailman/listinfo/grass-translations) | Dedicated to GRASS translations         |
+| [*PSC*](https://lists.osgeo.org/mailman/listinfo/grass-psc)                   | Project Steering Committee mailing list |
+| [*Announcement*](https://lists.osgeo.org/mailman/listinfo/grass-announce)     | General GRASS project announcements     |
+
 
 ### GRASS Wiki
 GRASS uses [wiki](https://grasswiki.osgeo.org/wiki/GRASS-Wiki) to organize community activities and provides space to share educational materials and technical solutions. To edit the wiki, please sign up [here](https://grasswiki.osgeo.org/wiki/Special:RequestAccount).
