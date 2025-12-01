@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2025-02-24T15:12:05+02:00
+date: 2025-11-27T15:12:05+02:00
 layout: "timeline"
 ---
 
@@ -14,14 +14,29 @@ layout: "timeline"
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2025" aria-expanded="true" aria-controls="2025">2025</a></h4>
+        </div>
+        <div id="2025" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+          <div class="panel-body">
+<ul class="list-unstyled releases">
+
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 27 Nov 2025</span> <b>GRASS GIS 8.4.2</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.4.2">Changelog</a> - <a href="/grass84/source/">Source Code</a></li>
+
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 24 Feb 2025</span> <b>GRASS GIS 8.4.1</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.4.1">Changelog</a> - <a href="/grass84/source/">Source Code</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <!-- /Panel -->
+      <!-- Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
           <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2024" aria-expanded="true" aria-controls="2024">2024</a></h4>
         </div>
         <div id="2024" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
-
-
-<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 24 Feb 2025</span> <b>GRASS GIS 8.4.1</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.4.1">Changelog</a> - <a href="/grass84/source/">Source Code</a></li>
 
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 27 Jul 2024</span> <b>GRASS GIS 8.4.0</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.4.0">Changelog</a> - <a href="/grass84/source/">Source Code</a></li>
 
