@@ -11,7 +11,7 @@ you get familiar with GRASS, how it works and what it offers,
 you will ask yourself how you could live without it before 
 <i class="fa fa-smile-o"></i>
 
-<img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_a_.jpg" width="37%" style="float:right;padding-left:10px">
+<img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_a_.jpg" width="400px" style="float:right;padding-left:10px">
 
 Before giving you some tips on how to start, two remarks:
 
@@ -38,7 +38,7 @@ You can find many tutorials in different languages on the
 [tutorials](https://grass-tutorials.osgeo.org/) page. But here are some links to specific
 resources that might help you get started:
 
-<img src="/images/gallery/gui/grass75_ndvi_rgb_rio_cuarto.png" width="45%" alt="" style="float:right;padding-left:10px">
+<img src="/images/gallery/gui/grass75_ndvi_rgb_rio_cuarto.png" width="400px" alt="" style="float:right;padding-left:10px">
 
 * The [Quickstart](/grass-stable/manuals/helptext.html) 
 in the manual pages.
