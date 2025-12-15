@@ -17,3 +17,4 @@ node_modules/
 uv.lock
 
 screenshots/images/screenshot*.png
+vscode.tar.gz
