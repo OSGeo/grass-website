@@ -1,131 +1,158 @@
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <header class="hero-section grass-bg-image banner">
-    <div class="fixed-top">
-      {{ partial "banner.html" . }}
-      <div class="bg-primary">
-        <div class="container">
-          {{ partial "navigation.html" . }}
+<header class="hero-section grass-bg-image banner">
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-primary">
+      <div class="container">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
+  </div>
+  <section class="pt-3 mt-95">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-center mx-auto">
+          <h1 class="mb-0">
+            GRASS GIS – Open Source Geospatial Software
+            <img alt="GRASS logo" src="{{.Site.BaseURL}}/images/logos/grass-white.svg" width="26%">
+          </h1>
+          <h2 class="mb-3">Your Geographic Data, Your Control</h2>
+          <p class="text-bold mb-4">
+            GRASS GIS is a free and open-source geospatial software suite for raster, vector, and spatial data management. 
+            It is widely used in environmental science, hydrology, remote sensing, terrain analysis, and spatial modeling 
+            by researchers and professionals worldwide. With a built-in temporal framework and Python API, it enables 
+            advanced time series analysis and rapid geospatial programming, optimized for large-scale analysis on various hardware.
+          </p>
         </div>
       </div>
     </div>
-    <section class="pt-3 mt-95">
-        <div class="container">
-        <div class="row">
-            <div class="col-lg-8 text-center mx-auto">
-            <h1 class="mb-0"><img alt="GRASS" src="{{.Site.BaseURL}}/images/logos/grass-white.svg" width="26%"></h1>{{ with .Site.Params.banner.description }}
-            <p class="text-bold mb-4">{{ . }}</p>{{ end }}
-            </div>
-        </div>
-        </div>
-    </section>
-  </header>
-
-
-  <section class="section bg-gray">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center">{{with .Site.Params.topics.title}}
-            <p class="pd-20 bigr"><b class="text-primary">GRASS</b>,
-                Geographic Resources Analysis Support System, 
-                is a powerful computational engine for raster, vector, and geospatial processing.
-                It supports terrain and ecosystem modeling, hydrology, data management, and imagery processing.
-                With a built-in temporal framework and Python API, it enables advanced time series analysis
-                and rapid geospatial programming, optimized for large-scale analysis on various hardware configurations.</p>{{ end }}</div>
-	{{ range (where .Site.Pages "Type" "pages") }}{{ if not (in  .Section "about") }}
-          <div class="col-lg-3 col-sm-6 mb-4">
-          <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mb-40"></i>
-          <h3 class="mb-3">{{ .Title }}</h3>
-          <p class="mb-0">{{ .Params.Description }}</p></a>
-	    </div>
-	{{ end }}{{ end }}    </div>
-    </div>
   </section>
-  <section class="section npt bg-gray">
-   <div class="container">
+</header>
+
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        {{with .Site.Params.topics.title}}
+        <p class="pd-20 bigr">
+          <b class="text-primary">GRASS</b>, Geographic Resources Analysis Support System, is a powerful computational engine 
+          for raster, vector, and geospatial processing. It supports terrain and ecosystem modeling, hydrology, data management, 
+          and imagery processing. With a built-in temporal framework and Python API, it enables advanced time series analysis 
+          and rapid geospatial programming, optimized for large-scale analysis on various hardware configurations.
+        </p>
+        {{ end }}
+      </div>
+
+      {{ range (where .Site.Pages "Type" "pages") }}
+      {{ if not (in .Section "about") }}
+      <div class="col-lg-3 col-sm-6 mb-4">
+        <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}">
+          <i class="{{ .Params.Icon }} icon d-block mb-40"></i>
+          <h3 class="mb-3">{{ .Title }}</h3>
+          <p class="mb-0">{{ .Params.Description }}</p>
+        </a>
+      </div>
+      {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+<section class="section npt bg-gray">
+  <div class="container">
     <div class="row">
-        <div class="col-lg-6">
-            <div class="bg-white" id="slides">
-                <div class="carousel slide pdt-20" data-interval="3000" data-ride="carousel" id="carouselUI">
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="carousel-item-container">
-                                <img alt="GRASS team" src="{{.Site.BaseURL}}/images/other/website-dev-summit-2025carousel-image.png">
-                                <div class="carousel-item-overlay">
-                                    <a href="{{.Site.BaseURL}}/news/2025_05_27_grass_dev_summit_report/" target="_blank" class="carousel-link-light">
-                                        See what happened at the Developer Summit
-                                    </a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-item-container">
-                                <img alt="GRASS mentoring program" src="{{.Site.BaseURL}}/images/other/grass_gis_mentoring.jpg">
-                                <div class="carousel-item-overlay">
-                                    <a href="https://grasswiki.osgeo.org/wiki/Mentoring_Program" target="_blank" class="carousel-link-light">
-                                        Join the GRASS Mentoring program
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-item-container">
-                                <img alt="GRASS student grants" src="{{.Site.BaseURL}}/images/other/grass_gis_student_grants.jpg">
-                                <div class="carousel-item-overlay">
-                                    <a href="https://grasswiki.osgeo.org/wiki/Student_Grants" target="_blank" class="carousel-link-light">
-                                        Apply for a GRASS Student grant
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="carousel-item-container">
-                                <img alt="GRASS latest release" src="{{.Site.BaseURL}}/images/other/grass_release.png">
-                                <div class="carousel-item-overlay">
-                                    <a href="https://github.com/OSGeo/grass/releases" target="_blank" class="carousel-link-light">
-                                        Check the latest GRASS release
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center pd-40">
-                        <a class="btn btn-primary dbl" href="https://numfocus.org/donate-to-grass">SUPPORT US!</a>
-                        <!-- <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/learn/gallery">View gallery</a> -->
-                    </div>
+      <div class="col-lg-6">
+        <div class="bg-white" id="slides">
+          <div class="carousel slide pdt-20" data-interval="3000" data-ride="carousel" id="carouselUI">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-item-container">
+                  <img alt="GRASS Developer Summit 2025" src="{{.Site.BaseURL}}/images/other/website-dev-summit-2025carousel-image.png">
+                  <div class="carousel-item-overlay">
+                    <a href="{{.Site.BaseURL}}/news/2025_05_27_grass_dev_summit_report/" target="_blank" class="carousel-link-light">
+                      See what happened at the Developer Summit
+                    </a>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="bg-white" id="news">
-                <div class="row justify-content-center pd-40 mb-40">
-                    <main role="main">
-                        <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
-                        <h3 class="entry-title" itemprop="headline"><a class="nws" href="{{.RelPermalink}}">{{ .Title }}</a></h3>
-		        <span class="entry-meta"> <time itemprop="datePublished" datetime='{{ .Date.Format "2006-01-02" }}'><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>{{ end }}
-                        <div class="row justify-content-center pd-40">
-                            <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
-                        </div>
-                    </main>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-item-container">
+                  <img alt="GRASS Mentoring Program" src="{{.Site.BaseURL}}/images/other/grass_gis_mentoring.jpg">
+                  <div class="carousel-item-overlay">
+                    <a href="https://grasswiki.osgeo.org/wiki/Mentoring_Program" target="_blank" class="carousel-link-light">
+                      Join the GRASS Mentoring program
+                    </a>
+                  </div>
                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-item-container">
+                  <img alt="GRASS Student Grants" src="{{.Site.BaseURL}}/images/other/grass_gis_student_grants.jpg">
+                  <div class="carousel-item-overlay">
+                    <a href="https://grasswiki.osgeo.org/wiki/Student_Grants" target="_blank" class="carousel-link-light">
+                      Apply for a GRASS Student grant
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-item-container">
+                  <img alt="Latest GRASS Release" src="{{.Site.BaseURL}}/images/other/grass_release.png">
+                  <div class="carousel-item-overlay">
+                    <a href="https://github.com/OSGeo/grass/releases" target="_blank" class="carousel-link-light">
+                      Check the latest GRASS release
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="row justify-content-center pd-40">
+              <a class="btn btn-primary dbl" href="https://numfocus.org/donate-to-grass">SUPPORT US!</a>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="bg-white" id="news">
+          <div class="row justify-content-center pd-40 mb-40">
+            <main role="main">
+              <h2 class="section-gtitle mb-4">Latest news</h2>
+              {{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
+              <h3 class="entry-title" itemprop="headline">
+                <a class="nws" href="{{.RelPermalink}}">{{ .Title }}</a>
+              </h3>
+              <span class="entry-meta">
+                <time itemprop="datePublished" datetime='{{ .Date.Format "2006-01-02" }}'>
+                  <i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}
+                </time>
+              </span>
+              {{ end }}
+              <div class="row justify-content-center pd-40">
+                <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Bottom Row -->
     <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4">
-            {{ partial "osgeo.html" . }}
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-            {{ partial "zenodo-card.html"}}
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-            {{ partial "numfocus.html" . }}
-        </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ partial "osgeo.html" . }}
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ partial "zenodo-card.html" . }}
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ partial "numfocus.html" . }}
+      </div>
     </div>
 
-</div>
-  </section>{{ partial "footer.html" . }}
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
