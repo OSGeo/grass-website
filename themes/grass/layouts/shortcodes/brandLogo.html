@@ -1,6 +1,6 @@
 {{- $colorName := .Get "colorName" -}}
-<div class="col-lg-12">
-    <h4>{{ $colorName }}</h4>
+<div id="{{ $colorName }}-logo" class="col-lg-12" >
+    <h3>{{ $colorName }}</h3>
     {{ .Inner }}
     <hr>
 </div>

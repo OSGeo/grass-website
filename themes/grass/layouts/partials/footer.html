@@ -1,3 +1,4 @@
+{{/* themes/grass/layouts/partials/footer.html — original layout, fixed JS loading for Bootstrap 5 */}}
 <footer class="section grass-blue-bg text-light pt-5 pb-3">
   <div class="container">
     <div class="row">
@@ -47,9 +48,9 @@
       <!-- Download button -->
       <div class="col-md-2 text-center mb-4 mb-md-0">
         <a class="btn btn-outline-white" href="/download/">Download</a>
-        <a href="https://numfocus.org/donate-to-grass"
-        class="btn btn-outline-white" 
-        target="_blank"><i class="fa-solid fa-heart"></i> Donate</a>
+        <a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-white" target="_blank">
+          <i class="fa-solid fa-heart"></i> Donate
+        </a>
       </div>
 
     </div>
@@ -60,7 +61,7 @@
       <!-- Left column: Copyright et al -->
       <div class="col-md-6 text-md-left text-center">
         <p class="mb-0 text-light small">
-          {{ with .Site.Params.copyright }}
+           {{ with .Site.Copyright }}
           &copy; {{ replace . "{year}" now.Year }} &nbsp;|&nbsp;
           <a href="/about/license/" class="text-light">License</a> &nbsp;|&nbsp;
           <a href="/about/privacy/" class="text-light">Privacy</a> &nbsp;|&nbsp;
@@ -86,13 +87,15 @@
   </div>
 </footer>
 
- <script src="{{ .Site.BaseURL }}plugins/popper/popper.min.js"></script>
-<script src="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.js"></script>
+<!-- Load Bootstrap 5 bundle (includes Popper). Replace with a local Bootstrap 5 bundle if you prefer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="" crossorigin="anonymous"></script>
+
+<!-- highlight & gallery -->
 <script src="{{ .Site.BaseURL }}plugins/highlight/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
 <script src="{{ .Site.BaseURL }}plugins/gallery/photoswipe.js"></script>
 
-<!-- Bundle, minifiy and fingerprint js assets before loading -->
+<!-- Bundle, minify and fingerprint js assets before loading -->
 {{ $contrib := resources.Get "js/contributor_ad.js" }}
 {{ $script := resources.Get "js/script.js" }}
 {{ $js := slice $contrib $script | resources.Concat "js/bundle.js" | minify }}

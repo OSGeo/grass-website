@@ -13,10 +13,10 @@ layout: "os"
 <div class="alert rounded-0 alert-default">
 <i class="fa fa-arrow-right"></i> Find <b>GRASS binaries</b> on
  {{< donateDialog isToggle=true >}}  
-     <a href="https://cmbarton.github.io/grass-mac/download/" target="_blank"> GRASS for the Mac </a> 
+     <a href="https://cmbarton.github.io/grass-mac/download/" target="_blank"> GRASS for the Mac </a>
  {{< /donateDialog  >}} 
 or install the latest available version from <a href="https://ports.macports.org/port/grass/" target="_blank">MacPorts</a> 
-<a href="https://repology.org/project/grass/versions" target="_blank"> 
+<a href="https://repology.org/project/grass-gis/versions" target="_blank">
   <img class="inl" src="https://repology.org/badge/version-for-repo/macports/grass-gis.svg" alt="MacPorts package">
 </a>
 (see this brief <a href="https://grasswiki.osgeo.org/wiki/Compiling_on_macOS_using_MacPorts" target="_blank">introduction</a> on using MacPorts).
