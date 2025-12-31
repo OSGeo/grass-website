@@ -1,0 +1,144 @@
+---
+title: "GRASS Annual Report 2025"
+date: 2025-12-31T13:12:00+05:00
+layout: "news"
+author: Anna Petrasova, Vaclav Petras
+---
+
+<a href="/images/news/grass_devs_on_the_grass.JPG">
+<img src="/images/news/grass_devs_on_the_grass.JPG"
+  alt=""
+  title=""
+  width="45%" style="float:left;padding-right:25px;padding-top:20px">
+</a>
+
+It's been another exciting year for the GRASS project! From improved interfaces for Python users to modernized documentation and a major developer gathering in North Carolina, the year 2025 brought significant advances on multiple fronts. Let's take a look back at what our community accomplished.
+
+
+
+<!-- <img src="/images/news/grass_devs_on_the_grass.JPG"
+  alt="GRASS devs group picture next to Hunt Library, NC State"
+  title="GRASS devs group picture"
+  width="100%"> -->
+
+
+
+
+### Development Activity
+
+A major theme of 2025 was improving how users interact with GRASS across different interfaces. This work touched everything from tool outputs to Python APIs to documentation, creating a more cohesive and accessible experience.
+
+The **new GRASS Python API**, available in the [grass.tools](https://grass.osgeo.org/grass-devel/manuals/python_intro.html) module, was developed by Vaclav Petras and Anna Petrasova as part of a collaboration with [Natrx](https://natrx.io)—a company focused on coastal infrastructure solutions—funded through an NSF SBIR Phase II grant (Award 2322073). The API presents GRASS tools as native Python functions with automatic JSON parsing, smart return values, proper exception handling, and seamless NumPy integration. This is a great example of how commercial applications of GRASS can result in improvements that benefit the entire open-source community. We organized a [webinar on the new Python API](https://www.youtube.com/watch?v=6VI9bfglP3c) to introduce these capabilities
+
+Complementing the new API, we continued adding **JSON outputs** to tools as part of our roadmap item "Integration into data science pipelines." This effort standardizes output settings through a *format* parameter, with some tools also supporting CSV or plain text. During the summer, Google Summer of Code (GSoC) contributor Nishant Bansal [added JSON output to several tools in C](https://grasswiki.osgeo.org/wiki/GRASS_GSoC_2025_Add_JSON_output_to_different_tools_in_C), continuing this important work. The work was led and reviewed by Anna Petrasova, Vaclav Petras, Corey White, Edouard Choinière, Nicklass Larson, and Markus Metz.
+
+The API work also introduced [**RegionManager**](https://grass.osgeo.org/grass-devel/manuals/libpython/grass.script.html#grass.script.RegionManager)
+and [**MaskManager**](https://grass.osgeo.org/grass-devel/manuals/libpython/grass.script.html#grass.script.MaskManager)—context managers that make resource handling clean and Pythonic. A particularly significant change is the new ability to concurrently use multiple 2D raster masks in the same mapset, which required modifications to GRASS's C libraries. Previously, only one mask named MASK could exist per mapset, limiting parallelization possibilities. The mask improvements benefit all GRASS scripting interfaces, not just Python.
+
+<a href="/images/news/new_documentation.png">
+<img src="/images/news/new_documentation.png"
+  alt="People with GRASS swag on grass"
+  title="GRASS community on grass"
+  width="45%" style="float:right;padding-left:25px;padding-bottom:25px">
+</a>
+
+The **GRASS Markdown documentation project** resulted in a complete redesign of our user documentation. The [modernized documentation](https://grass.osgeo.org/grass85/manuals/index.html) integrates access to user and developer web pages, incorporates Python syntax into tool manuals, and features numerous improvements including better indexing and search. Each tool's manual page now shows tabs for Command line, Python (grass.script), and Python (grass.tools) usage, making it easier for users to find the right syntax for their preferred interface.
+
+We also made progress on **parallelization**, with *r.mapcalc* for raster algebra now parallelized—benefiting the many other tools that depend on it.
+
+Background refactoring of Python code for project and session handling contributed to broader interdependent efforts led by Huidae Cho and Nicklas Larsson on **CMake build**, **Filesystem Hierarchy Standard (FHS) compliance**, and the upcoming **conda package**—work that will make GRASS easier to install and integrate into data science workflows.
+
+For macOS users, the [GRASS App for Mac is now notarized](/news/2025_02_11_mac_app_notarized/), representing a significant improvement in both security and user convenience. Thanks to Nicklas Larsson's work, users no longer face the security warnings that previously complicated installation.
+
+
+
+<a href="/images/news/i.hyper_example.jpg">
+<img src="/images/news/i.hyper_example.jpg"
+  alt=""
+  title="PRISMA SWIR-geology composite generated with i.hyper.import"
+  width="40%" style="float:right;padding-left:25px;padding-bottom:25px">
+</a>
+
+The year also saw an impressive roster of **new addons** contributed by community members: the *i.hyper* toolset for hyperspectral imagery processing by Alen Mangafić and Tomaž Žagar; hydrology tools *r.timeofconcentration*, *r.runoff*, and *r.curvenumber* by Abdullah Azzam; *r.lfp* by Huidae Cho; *r.gravity.terrain* by David Farris; *r.earthworks* for terrain modeling by Brendan Harmon; *i.sam2* and *v.surf.rst.cv* by Corey White; *r.stone* by Fausto Guzzetti, Massimiliano Alvioli, and Andrea Antonello; and *r.slopeunits* by Ivan Marchesini, Massimiliano Alvioli, Markus Metz, and Carmen Tawalika.
+
+Laurent Courty developed an [Xarray backend for GRASS](https://github.com/lrntct/xarray-grass), further expanding GRASS integration with the Python data science ecosystem. The **rgrass** R package moved to the OSGeo GitHub organization, ensuring the infrastructure is community-maintained rather than depending on specific individuals.
+
+Kudos to our [top 5 code contributors](https://github.com/OSGeo/grass/graphs/contributors) based on commits to the main repository: Edouard Choinière, Shubham Vasudeo Desai, Vaclav Petras, Anna Petrasova, and Nicklas Larsson. In total, 44 people made contributions to the main repository this year.
+
+In the role of release manager, Markus Neteler led preparation and publishing of maintenance releases 8.4.1 and 8.4.2, keeping the stable branch updated with bug fixes and improvements. The 8.5.0 feature release was postponed to 2026 so that all the improvements to documentation, JSON outputs, parallelization, and the new Python API can be part of the release.
+
+### Community Meetings
+
+<a href="/images/news/grass_devs_talley_stairs.JPG">
+<img src="/images/news/grass_devs_talley_stairs.JPG"
+  alt=""
+  title=""
+  width="45%" style="float:right;padding-left:25px;padding-bottom:25px">
+</a>
+
+The [GRASS Developer Summit 2025](/news/2025_05_27_grass_dev_summit_report/) brought together more than 30 contributors from around the world for six days of focused collaboration at North Carolina State University in Raleigh. Held May 19–24, the event was made possible through the generous support of the U.S. National Science Foundation (award 2303651), Bohannan Huston, Inc., and the Center for Geospatial Analytics at NC State.
+
+The week featured a mix of hands-on hacking, roadmap discussions, and topic-based working sessions. Participants explored a wide range of ideas—from improving access to GRASS tools and simplifying color table workflows, to adding support for hyperspectral data, creating a GRASS backend for xarray, and integrating Jupyter into the GRASS GUI. Other sessions focused on translation and documentation strategies, the contribution process for new users, and how to better support scientific and educational use cases. Contributors also worked on parallelization of algorithms, development of new addons, continuous integration, conda packaging, CMake build, and tutorials for our [new tutorials website](https://grass-tutorials.osgeo.org/).
+
+<a href="/images/news/NCSU_GRASS_Developer_Summit_Natrx.JPG">
+<img src="/images/news/NCSU_GRASS_Developer_Summit_Natrx.JPG"
+  alt=""
+  title=""
+  width="30%" style="float:left;padding-right:25px;padding-top:20px">
+</a>
+
+
+As part of our outreach to the local geospatial community, the [Center for Geospatial Analytics](https://cnr.ncsu.edu/geospatial/) hosted an evening of lightning talks highlighting the diverse capabilities of GRASS. Presentations covered trench planning for optical cables, elevation-derived hydrography, coastal erosion assessments, urban growth modeling, species distribution, continental-scale hydrology, and agricultural runoff modeling with [Tangible Landscape](https://tangible-landscape.github.io/). These talks are now available on YouTube. A [local GRASS meetup](https://grasswiki.osgeo.org/wiki/Local_GRASS_Meetup_at_NC_State_Center_for_Geospatial_Analytics_2025) was also held at NC State, bringing together the regional geospatial community.
+
+
+### Community and Governance
+
+
+
+This year brought important changes to how GRASS presents itself to the world. We aligned our branding with OSGeo and simplified our name: we're now officially just **GRASS**, not "GRASS GIS"—returning to the project's original name while reflecting how the community has referred to it colloquially for years. We've also launched an official [GRASS Swag Shop on Redbubble](https://www.redbubble.com/people/grassgis/shop) featuring 17 designs with the new logo and branding as well as the old one.
+
+On the organizational front, the GRASS project is now using **NumFOCUS as a fiscal sponsor**. This provides a lightweight way to create invoices for sponsors—with the first invoice created and paid this year. In the long term, we aim to build a budget that directly supports ongoing maintenance. GRASS continues to present itself as an OSGeo Project while also being a NumFOCUS Fiscally Sponsored Project. The best way to contribute financially directly to GRASS is now through [NumFOCUS](https://numfocus.org/donate-to-grass).
+
+Our [YouTube channel](https://www.youtube.com/@grass-gis) had a productive year, publishing 11 new videos and organizing 50 videos from other sources into playlists. We now have 3.09K subscribers, following the channel renewal last year! The Wiki main page was also redesigned and optimized for its most common uses: governance, events, and organization of resources.
+
+### Workshops and Tutorials
+
+<a href="/images/news/examples_of_tutorials.png">
+<img src="/images/news/examples_of_tutorials.png"
+  alt=""
+  title=""
+  width="50%" style="float:right;padding-left:15px;padding-top:15px;padding-bottom:15px">
+</a>
+
+
+Our [tutorial platform](https://grass-tutorials.osgeo.org) grew significantly this year, with 20 new tutorials bringing the total to over 50. The new additions include 2 tutorial collections, 2 translations into Portuguese, and several externally linked tutorials from community blogs. Special kudos to Veronica Andreo, Brendan Harmon, Michael Barton, Doug Newcomb, and Anna Petrasova for their contributions. Highlights include tutorials on NumPy integration with Landlab by Anna Petrasova, series of tutorials on spatio-temporal data handling by Veronica Andreo, hydro-flattening DEMs by Doug Newcomb, generating and modeling terrain by Brendan Harmon, and introductory geospatial tutorials by Michael Barton.
+
+The community delivered workshops at several events throughout the year. A workshop on physically-based hydrologic modeling using GRASS was delivered by Huidae Cho and Nelson Kandel at the New Mexico State University in January. Michael Barton and Eunice Villaseñor Iribe taught *Beyond the GIS Map: Open Source Tools for Geospatial Research* at Arizona State University in March. Caitlin Haedrich helped lead workshops introducing GRASS in Jupyter notebooks to different communities throughout the spring and summer—at IALE–North America in April with Anna Petrasova, at the CSDMS Annual Meeting in May with Pratikshya Regmi, and at the Geomorphometry conference in June with Corey White.
+At FOSS4G North America 2025, Corey White and Caitlin delivered a workshop on GRASS addon tool development with Python. At NCSU GIS Week in November, Anna Petrasova and Vaclav Petras led *Getting Started in GRASS with Python, Pixels, and Pigs*.
+
+
+### Conferences and Research
+
+<a href="/images/news/Auckland_state_of_GRASS.jpg">
+<img src="/images/news/Auckland_state_of_GRASS.jpg"
+  alt=""
+  title=""
+  width="45%" style="float:right;padding-left:15px;padding-top:15px;padding-bottom:15px">
+</a>
+
+
+GRASS continues to be well-cited in scientific literature, reaching 51K citations on [Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ)—a testament to its widespread use in research and scientific applications.
+
+Community members represented GRASS at conferences around the globe. At FOSS4G New Zealand in November, Alen Mangafić and Tomaž Žagar presented on hyperspectral imagery processing with *i.hyper* and scalable impervious land mapping, Luca Delucchi delivered the State of GRASS, and Tim Barnes demonstrated tree shadow modeling with QGIS and GRASS. At FOSS4G NA, Corey White presented the State of GRASS alongside the addon development workshop.
+
+The FOSS4G Europe conference in Mostar featured Alen Mangafić's comprehensive [State of GRASS talk](https://talks.osgeo.org/foss4g-europe-2025/talk/C89KXN/), covering everything from our new governance structure and NumFOCUS sponsorship to technical advances like the CMake transition and conda packaging. State of GRASS presentations were also delivered at [FOSS4G.NL](https://ecodiv.earth/share/foss4gnl2025/), [FOSS4G.be](https://discourse.osgeo.org/t/state-of-grass-talk-at-foss4g-be/148210), and [FOSSGIS](https://htmlpreview.github.io/?https://github.com/neteler/grass-gis-talks-markus/blob/main/fossgis_grass_LT_2025.html).
+
+At IALE–North America in April, Anna Petrasova and Caitlin Haedrich presented on building geospatial models from Python workflows to Tangible Landscape. Vaclav Petras highlighted how well code curation and reusability of research code works in GRASS, questioning the current common practices in science. Corey White presented work on Topographic Impacts of Hurricane Helene in Western NC which heavily used GRASS and was followed by Pratikshya Regmi’s related poster on a multi-sensor geospatial analysis in western North Carolina at  American Geophysical Union Annual Meeting in December.
+
+### Looking Ahead
+
+This year’s work on the Python API, JSON outputs, and documentation prepared the ground for future improvements such as subcommand interfaces and no-project processing, which will require new funding to move forward. The upcoming 8.5.0 release will bring these improvements to users, and the conda package will simplify installation for data scientists. If you want to see continued development in 2026, consider hiring one of our [commercial support providers](/support/commercial) or [contributing financially](https://numfocus.org/donate-to-grass) to the project.
+
+Congratulations everyone on a great year!
+
+With input from the community, this report was prepared by *Anna Petrasova* and *Vaclav Petras* (North Carolina State University) as part of their work on U.S. National Science Foundation (NSF #2303651).
