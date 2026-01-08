@@ -110,14 +110,18 @@
   --gs-grass-background-image: url("/images/banners/banner.jpg");
 }
 
+html {
+  background-color: var(--gs-white-color);
+}
 body {
   line-height: 1.8;
   font-family: var(--gs-grass-font); 
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: var(--gs-black-color);
-  background-color: var(--gs-white-color--lightest);
+  background-color: var(--gs-white-color);
 }
+
 main {
   display: block;
 }
@@ -1513,10 +1517,13 @@ nobullets {
    list-style-type: none;
 }
 
-.hljs,
-.hljs-subst  {
-   background:var(--gs-grey-color-lightest);
-   color: var(--gs-black-color-light);
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: var(--gs-secondary-color);
+  background: var(--gs-grey-light-color);
+  font-family: var(--gs-grass-font--mono);
 }
 
 .hljs-keyword{
@@ -1527,17 +1534,16 @@ nobullets {
   color: var(--gs-grey-color);
 }
 
+.hljs-title {
+  color: var(--gs-secondary-alt-color);
+}
+
 .hljs-string,
 .hljs-section,
 .hljs-selector-class,
 .hljs-template-variable,
 .hljs-deletion {
   color: var(--gs-primary-color);
-}
-
-code {
-   color: var(--gs-black-color-light);
-   font-family: var(--gs-grass-font--mono);
 }
 
 .fa-11x {
@@ -1792,7 +1798,7 @@ code {
 
 .btn-download {
   background-color: var(--gs-primary-color);
-  border: none; /* Removes the border */
+  border: solid 1px var(--gs-primary-color); /* Removes the border */
   padding: .75rem 1.5rem; /* Larger padding for the button */
   font-size: 1rem; /* Larger font size */
   color: var(--gs-white-color); /* White text color */
@@ -1805,6 +1811,29 @@ code {
 .btn-download:hover, .btn-download:focus {
   color: var(--gs-white-color) !important;
   background-color: var(--gs-primary-dark-color); /* Darker blue on hover */
+}
+
+.btn-support {
+  background-color: var(--gs-support-color);
+  border: solid 1px var(--gs-support-color);
+  /* Removes the border */
+  padding: .75rem 1.5rem;
+  /* Larger padding for the button */
+  font-size: 1rem;
+  /* Larger font size */
+  color: var(--gs-white-color);
+  /* White text color */
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.2rem;
+  display: inline-flex;
+}
+
+.btn-support:hover,
+.btn-support:focus {
+  color: var(--gs-support-color);
+  background-color: var(--gs-base-white-color);
+  border: solid 1px var(--gs-support-color);
 }
 
 .btn-outline-support {
@@ -1858,24 +1887,34 @@ code {
 }
 
 .code-container {
+  display: flex;
+  align-items: center;
   position: relative;
+  padding: 0.5rem;
   background: var(--gs-grey-light-color);
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.code-container pre {
+  margin-bottom: 0;
+  flex-grow: 1;
+  background: none;
+  border: none;
 }
 
 .btn-clipboard {
-  position: absolute;
-  top: .5rem;
-  right: .5rem;
-  z-index: 10;
-  display: block;
-  padding: .25rem .5rem;
-  font-size: 75%;
-  color: var(--gs-primary-color);
+  color: var(--gs-grey-color);
   cursor: pointer;
   background-color: transparent;
-  border: 0;
-  border-radius: .25rem;
-  /* border: 4px solid var(--gs-primary-dark-color); */
+}
+
+.btn-clipboard:hover,
+.btn-clipboard:focus {
+  color: var(--gs-primary-color);
+  border-color: var(--gs-primary-alt-color);
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .shortcode-brand-color-varibale-list {

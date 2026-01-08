@@ -10,9 +10,9 @@
 </script>
 
 <div>
-    <h3>{{ .title }}</h3>
-    <div class="code-container m-3 rounded">
-        <pre><code class="language-sh">{{ .code }}</code></pre>
-        <button id="{{ .id }}" class="btn btn-primary btn-clipboard">Copy</button>
+    <div class="code-container m-3 rounded d-flex align-items-center position-relative">
+        <pre><code>{{ .code }}</code></pre>
+        <button id="{{ .id }}" class="btn btn-clipboard"><i class="fa fa-copy"></i></button>
+        
     </div>
 </div>

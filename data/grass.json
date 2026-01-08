@@ -11,87 +11,211 @@
     "preview_version_short":"8.5",
     "preview_version_underscore": "8_5",
     "preview_version_nodots":"85",
+    "release_notes": "https://github.com/OSGeo/grass/releases/tag/8.4.1",
+    "install_wiki_url": "https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer",
+    "linux_binaries_url": "https://download.osgeo.org/grass",
+    "windows_binaries_url": "https://grass.osgeo.org/grass84/binary/mswindows/native/",
+    "mac_binaries_url": "https://download.osgeo.org/grass/mac/",
+    "docker_hub_url": "https://hub.docker.com/r/osgeo/grass-gis/",
     "install": {
         "mac": {
-            "mac_ports": { 
-                "id": "mac_ports",
-                "title": "MacPorts",
-                "code": "sudo port install grass",
-                "url": "https://ports.macports.org/port/grass/"
+            "binaries" : [
+                {
+                    "id": "8-4-1-arm64",
+                    "title": "Current - 8.4.1 (arm64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.4.1-arm64.dmg",
+                    "size": "646.2 MiB",
+                    "date": "2025-05-22"
+                },
+                {
+                    "id": "8-4-1x86_64",
+                    "title": "Current - 8.4.1 (x86_64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.4.1-x86_64.dmg",
+                    "size": "677.0 MiB",
+                    "date": "2025-05-22"
+                },
+                {
+                    "id": "8-5-arm64",
+                    "title": "Preview - 8.5.0 (arm64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.5.0dev-arm64.dmg",
+                    "size": "684.8 MiB",
+                    "date": "2025-05-22"
+                },
+                {
+                    "id": "8-5x86_64",
+                    "title": "Preview - 8.5.0 (x86_64)",
+                    "url": "https://download.osgeo.org/grass/mac/grass-8.5.0dev-x86_64.dmg",
+                    "size": "715.5 MiB",
+                    "date": "2025-05-22"
+                }
+            ],
+            "installers": {
+                "mac_ports": { 
+                    "id": "mac_ports",
+                    "title": "MacPorts",
+                    "code": "sudo port install grass",
+                    "url": "https://ports.macports.org/port/grass/"
+                }
             }
         },
         "linux":{
-            "arch_linux": {
-                "id": "arch_linux",
-                "title": "Arch Linux",
-                "code": "sudo pacman -S grass",
-                "url": "https://aur.archlinux.org/packages/grass"
-            },
-            "debian": {
-                "id": "debian",
-                "title": "Debian",
-                "code": "sudo apt-get install grass",
-                "url": "https://packages.debian.org/search?keywords=grass"
-            },
-            "generic_64_bit":{
-                "id": "generic_64_bit",
-                "title": "Generic 64-bit",
-                "code": "add me",
-                "url": "https://grass.osgeo.org/grass84/binary/linux/snapshot/"
-            },
-            "EPEL": {
-                "id": "EPEL",
-                "title": "EPEL",
-                "code": "sudo yum install grass",
-                "url": "https://src.fedoraproject.org/rpms/grass"
-            },
-            "fedora":{
-                "id": "fedora",
-                "title": "Fedora",
-                "code": "sudo dnf install grass",
-                "url": "https://apps.fedoraproject.org/packages/grass"
-            },
-            "gentoo": {
-                "id": "gentoo",
-                "title": "Gentoo",
-                "code": "sudo emerge grass",
-                "url": "https://packages.gentoo.org/packages/sci-geosciences/grass"
-            },
-            "openSUSE": {
-                "id": "openSUSE",
-                "title": "openSUSE",
-                "code": "sudo zypper install grass",
-                "url": "https://build.opensuse.org/package/show/Application:Geo/grass"
-            },
-            "ubuntu": {
-                "id": "ubuntu",
-                "title": "Ubuntu",
-                "code": "sudo apt-get install grass",
-                "url": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable"
+            "binaries" : [
+                {
+                    "id": "source-8.4.1",
+                    "title": "Current - 8.4.1 (tar.gz)",
+                    "size": "66.7 MB",
+                    "date": "2025-02-24",
+                    "md5": "https://download.osgeo.org/grass/grass84/source/grass-8.4.1.md5sum",
+                    "url": "https://download.osgeo.org/grass/grass84/source/grass-8.4.1.tar.gz"
+                },
+                {
+                    "id": "source-8.4.0",
+                    "title": "Current - 8.4.0 (tar.gz)",
+                    "size": "67.0 MB",
+                    "date": "2024-07-27",
+                    "md5": "https://download.osgeo.org/grass/grass84/source/grass-8.4.0.md5sum",
+                    "url": "https://download.osgeo.org/grass/grass84/source/grass-8.4.0.tar.gz"
+                }
+            ],
+            "installers": {
+
+                "ubuntu": {
+                    "id": "01_ubuntu",
+                    "title": "Ubuntu",
+                    "pre_install": [
+                        {"id": "ubuntu_comment_1", "text": "Add the ubuntugis-unstable PPA to your system:", "code": "sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable"},
+                        {"id": "ubuntu_comment_2", "text": "Update your package list:", "code": "sudo apt update"}
+                    ],
+                    "code": "sudo apt install grass",
+                    "url": {
+                        "href": "https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable",
+                        "label": "ubuntugis-unstable"
+                    }
+                },
+                "generic_64_bit":{
+                    "id": "02_generic_64_bit",
+                    "title": "Generic 64-bit",
+                    "pre_install": [
+                        {"id": "generic_64_bit_comment_1", "text": "Download the latest weekly GRASS binary snapshot.", "code": "curl -O https://grass.osgeo.org/grass84/binary/linux/snapshot/grass-8.4.2dev-x86_64-pc-linux-gnu-18_07_2025-install.sh"}
+                    ],
+                    "code": "sh grass-8.4.2dev-x86_64-pc-linux-gnu-18_07_2025-install.sh",
+                    "url": {
+                        "href": "https://grass.osgeo.org/grass84/binary/linux/snapshot/",
+                        "label": "snapshots"
+                    }
+                },
+                "debian": {
+                    "id": "03_debian",
+                    "title": "Debian",
+                    "code": "sudo apt install grass",
+                    "url": {
+                        "href": "https://packages.debian.org/grass",
+                        "label": "debian packages"
+                    }
+                },
+                "fedora":{
+                    "id": "04_fedora",
+                    "title": "Fedora",
+                    "code": "sudo dnf install grass",
+                    "url": {
+                        "href": "https://packages.fedoraproject.org/pkgs/grass/grass/",
+                        "label": "Fedora packages"
+                    }
+                },
+                "EPEL": {
+                    "id": "EPEL",
+                    "title": "EPEL8",
+                    "code": "sudo yum install grass",
+                    "url": {
+                        "href": "https://packages.fedoraproject.org/pkgs/grass/grass/",
+                        "label": "EPEL8 (RHEL8/Centos8) packages"
+                    }
+                },
+                "arch_linux": {
+                    "id": "arch_linux",
+                    "title": "Arch Linux",
+                    "code": "sudo pacman -S grass",
+                    "url": {
+                        "href": "https://aur.archlinux.org/packages/grass/",
+                        "label": "Arch Linux packages"
+                    }
+                },
+                
+                "gentoo": {
+                    "id": "gentoo",
+                    "title": "Gentoo",
+                    "code": "sudo emerge grass",
+                    "url": {
+                        "href": "https://packages.gentoo.org/packages/sci-geosciences/grass",
+                        "label": "Gentoo packages"
+                    }
+                },
+                "openSUSE": {
+                    "id": "openSUSE",
+                    "title": "openSUSE",
+                    "code": "sudo zypper install grass",
+                    "url": {
+                        "href": "https://build.opensuse.org/package/show/Application:Geo/grass",
+                        "label": "openSUSE packages"
+                    }
+                }
+            }
+        },
+        "windows": {
+            "binaries" : [
+                {
+                    "id": "64-bit",
+                    "title": "Current (v8.4.1)",
+                    "url": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.1-1-Setup.exe",
+                    "md5": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.0-1-Setup.exe.md5sum",
+                    "size": "917 MB",
+                    "date": "2025-03-02"
+                },
+                {
+                    "id": "legacy_version",
+                    "title": "Legacy (v7.8.8)",
+                    "url": "https://grass.osgeo.org/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.8-3-Setup-x86_64.exe",
+                    "md5": "https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-7.8.8-3-Setup-x86.exe.md5sum",
+                    "size": "917 MB",
+                    "date": "2025-03-02"
+                },
+                {
+                    "id": "64-bit-preview",
+                    "title": "Preview (v8.5.0)",
+                    "url": "https://wingrass.fsv.cvut.cz/grass85/"
+                }
+            ],
+            "installers": {
+                "osgeo4w64": {
+                    "id": "osgeo4w64",
+                    "title": "OSGeo4W64",
+                    "code": "osgeo4w-setup-x86_64.exe -q -P grass"
+                }
             }
         },
         "docker": {
-            "alpine": {
-                "id": "alpine",
-                "title": "Alpine based (233 MB, with Python 3 and PDAL)",
-                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-alpine"
-            },
-            "debian": {
-                "id": "debian",
-                "title": "Debian based (1.2 GB, with Python 3 and PDAL)",
-                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-debian"
-            },
-            "ubuntu": {
-                "id": "ubuntu",
-                "title": "Ubuntu based (1.2 GB, with Python 3 and PDAL)",
-                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-ubuntu"
-            },
-            "wxPython": {
-                "id": "wxPython",
-                "title": "Ubuntu based (1.3 GB, with wxPython, Python 3 and PDAL)",
-                "code": "docker pull osgeo/grass-gis:releasebranch_8_4-ubuntu_wxgui"
+            "installers": {
+                "alpine": {
+                    "id": "alpine",
+                    "title": "Alpine based (233 MB, with Python 3 and PDAL)",
+                    "code": "docker pull osgeo/grass-gis:releasebranch_8_4-alpine"
+                },
+                "debian": {
+                    "id": "debian",
+                    "title": "Debian based (1.2 GB, with Python 3 and PDAL)",
+                    "code": "docker pull osgeo/grass-gis:releasebranch_8_4-debian"
+                },
+                "ubuntu": {
+                    "id": "ubuntu",
+                    "title": "Ubuntu based (1.2 GB, with Python 3 and PDAL)",
+                    "code": "docker pull osgeo/grass-gis:releasebranch_8_4-ubuntu"
+                },
+                "wxPython": {
+                    "id": "wxPython",
+                    "title": "Ubuntu based (1.3 GB, with wxPython, Python 3 and PDAL)",
+                    "code": "docker pull osgeo/grass-gis:releasebranch_8_4-ubuntu_wxgui"
+                }
             }
-
         }
         
     }
