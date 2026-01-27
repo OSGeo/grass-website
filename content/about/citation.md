@@ -1,6 +1,6 @@
 ---
 title: "Citation"
-date: 2025-05-21T05:05:05+05:00
+date: 2025-12-13T05:05:05+05:00
 layout: "general"
 ---
 
@@ -11,11 +11,11 @@ layout: "general"
 Please cite GRASS when using the software in your work. Here are some choices
 depending on the version used:
 
-- GRASS Development Team, 2024. Geographic Resources Analysis Support System (GRASS)
-Software, Version 8.4. Open Source Geospatial Foundation. https://grass.osgeo.org
+- GRASS Development Team, 2025. Geographic Resources Analysis Support System (GRASS)
+Software, Version 8.4. Open Source Geospatial Foundation. https://grass.osgeo.org, DOI: 10.5281/zenodo.5176030
 
 - GRASS Development Team, 2020. Geographic Resources Analysis Support System (GRASS)
-Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org
+Software, Version 7.8. Open Source Geospatial Foundation. https://grass.osgeo.org, DOI: 10.5281/zenodo.5176030
 
 - GRASS Development Team, 2022. Geographic Resources Analysis Support System (GRASS)
 Programmer's Manual. Open Source Geospatial Foundation. Electronic document: 
@@ -30,7 +30,7 @@ scientific work written in LaTeX.</p>
     author = {{GRASS Development Team}},
     organization = {Open Source Geospatial Foundation},
     address = {USA},
-    year = {2024},
+    year = {2025},
     url = {https://grass.osgeo.org},
     doi = {10.5281/zenodo.5176030}
 }
@@ -38,7 +38,8 @@ scientific work written in LaTeX.</p>
 
 For more options see also: [GRASS Citation Repository](https://grasswiki.osgeo.org/wiki/GRASS_Citation_Repository).
 
-#### GRASS Google Scholar profile
+## GRASS Google Scholar profile
+
 Citing GRASS in your work enables us to track the impact of this open source software on research.
 Have a look at our [Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ)
 profile for examples of GRASS applications in the most diverse fields.

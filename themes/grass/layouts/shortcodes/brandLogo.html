@@ -1,20 +1,20 @@
 {{- $colorName := .Get "colorName" -}}
-<div class="col-lg-12">
-    <h4>{{ $colorName }}</h4>
+<div id="{{ $colorName }}-logo" class="col-lg-12" >
+    <h3>{{ $colorName }}</h3>
     {{ .Inner }}
     <hr>
 </div>
 <div class="col-lg-3 col-sm-12 mb-3">
     {{- if eq $colorName "White" -}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" download>
-        <img class="grass-green-bg" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" alt="logo-{{ $colorName | lower }}">
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-logo/grass-{{ $colorName | lower }}.svg" download>
+        <img class="grass-green-bg" width="100%" src="{{.Site.BaseURL}}images/logos/grass-logo/grass-{{ $colorName | lower }}.svg" alt="logo-{{ $colorName | lower }}">
     </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" download>
-        <img class="grass-green-bg p-2" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg" alt="logo-{{ $colorName | lower }}">
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-{{ $colorName | lower }}-no-text.svg" download>
+        <img class="grass-green-bg p-2" width="100%" src="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-{{ $colorName | lower }}-no-text.svg" alt="logo-{{ $colorName | lower }}">
     </a>
     {{- else}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" download>
-        <img class="bg-base-white" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg" alt="logo-{{ $colorName | lower }}">
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-logo/grass-{{ $colorName | lower }}.svg" download>
+        <img class="bg-base-white" width="100%" src="{{.Site.BaseURL}}images/logos/grass-logo//grass-{{ $colorName | lower }}.svg" alt="logo-{{ $colorName | lower }}">
     </a>
 
     {{- end}}
@@ -22,22 +22,22 @@
 </div>
 <div class="col-lg-3 col-sm-12">
     {{- if eq $colorName "White" -}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-logo/grass-{{ $colorName | lower }}.svg"
         download>
-        <img class="grass-bg-image" width="100%" src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}.svg"
+        <img class="grass-bg-image" width="100%" src="{{.Site.BaseURL}}images/logos/grass-logo/grass-{{ $colorName | lower }}.svg"
             alt="logo-{{ $colorName | lower }}">
     </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-{{ $colorName | lower }}-no-text.svg"
         download>
         <img class="grass-bg-image p-2" width="100%"
-            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+            src="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-{{ $colorName | lower }}-no-text.svg"
             alt="logo-{{ $colorName | lower }}">
     </a>
     {{- else}}
-        <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+        <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-{{ $colorName | lower }}-no-text.svg"
             download>
             <img class="bg-base-white p-2" width="100%"
-                src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-no-text.svg"
+                src="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-{{ $colorName | lower }}-no-text.svg"
                 alt="logo-{{ $colorName | lower }}">
         </a>
     {{- end}}
@@ -45,14 +45,14 @@
 
 <div class="col-lg-6 col-sm-12">
     {{- if eq $colorName "White" -}}
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-horizontal/grass-{{ $colorName | lower }}-horizontal.svg" download>
         <img class="grass-green-bg p-2" width="100%"
-            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+            src="{{.Site.BaseURL}}images/logos/grass-horizontal/grass-{{ $colorName | lower }}-horizontal.svg"
                 alt="logo-{{ $colorName | lower }}">
     </a>
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg" download>
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-horizontal/grass-{{ $colorName | lower }}-horizontal.svg" download>
         <img class="grass-bg-image p-2" width="100%"
-                src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+                src="{{.Site.BaseURL}}images/logos/grass-horizontal/grass-{{ $colorName | lower }}-horizontal.svg"
                 alt="logo-{{ $colorName | lower }}">
         </a>
     {{- end}}
@@ -60,10 +60,10 @@
 
 {{- if ne $colorName "White" -}}
 <div class="col-lg-6 col-sm-12">
-    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+    <a class="brand-logo-download-image" href="{{.Site.BaseURL}}images/logos/grass-horizontal/grass-{{ $colorName | lower }}-horizontal.svg"
             download>
         <img class="bg-base-white p-2" width="100%"
-            src="{{.Site.BaseURL}}images/logos/grass-{{ $colorName | lower }}-horizontal.svg"
+            src="{{.Site.BaseURL}}images/logos/grass-horizontal/grass-{{ $colorName | lower }}-horizontal.svg"
             alt="logo-{{ $colorName | lower }}">
     </a>
 </div>

@@ -25,7 +25,11 @@ your company or research. Your financial support will also help
 us to build up the necessary effort and infrastructure to ensure
 the long-term sustainability of the project and the software.
 
-<div align="center"><button class="btn btn-primary"><b><a href="https://numfocus.org/donate-to-grass" target="_blank">SUPPORT GRASS</a></b></button></div>
+<div align="center">
+  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-download">
+    Support Us
+  </a>
+</div>
 
 ### How we use the money
 
@@ -56,7 +60,11 @@ to discuss different sponsorship options.
 |Bronze  	|500   	|
 {{</ table >}}
 <br>
-<div align="center"><button class="btn btn-primary"><b><a href="https://numfocus.org/donate-to-grass" target="_blank">BECOME A SPONSOR</a></b></button></div>
+<div align="center">
+  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-download">
+    Sponsor Us
+  </a>
+</div>
 
 ### Sponsorship benefits
 
@@ -70,6 +78,7 @@ and [Fosstodon](https://fosstodon.org/@grassgis)) so far,
 but as the PSC sees potential, we will extend the list of benefits 
 according to the level of support.
 
+<div class="table-responsive-md">
 {{< table "table table-striped table-bordered">}}
 | **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
 |---|---|---|---|---|---|
@@ -78,9 +87,12 @@ according to the level of support.
 | Social media  | 4 times  | 3 times  | 2 times  | 1 time  | ---  |
 {{</ table >}}
 
+</div>
+
 ### Our Sponsors and supporters
 
 Many thanks to all our supporters and sponsors throughout the years!
 
 Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors)
 in the GRASS Wiki for details.
+

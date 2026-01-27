@@ -39,7 +39,7 @@ This is a community maintained website. The GRASS Development Team and the GRASS
 
 #### Privacy policy
 
-Please read our [privacy policy](# "privacy policy").
+Please read our [privacy policy](/about/privacy/).
 
 #### License
 
