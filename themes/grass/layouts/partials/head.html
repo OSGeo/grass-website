@@ -29,22 +29,26 @@
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
-  {{ $bootstrap_styles := resources.Get "css/bootstrap/bootstrap.min.css" }}
-  <link rel="stylesheet" href="{{ $bootstrap_styles.Permalink }}">
   {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
   <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
   <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
-  <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css"> -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
   {{ $fontawesome := resources.Get "css/fontawesome/all.min.css" }}
   <link rel="stylesheet" href="{{ $fontawesome.Permalink }}">
   {{ $fontawesome_min := resources.Get "css/fontawesome/fontawesome.min.css" }}
   <link rel="stylesheet" href="{{ $fontawesome_min.Permalink }}">
-  {{ $styles := resources.Get "css/style.css" | minify}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  
+  {{ with resources.Get "sass/main.scss" }}
+    {{ $cssopts := dict
+      "targetPath" "css/style.css"
+      "outputStyle" "compressed"
+      "enableSourceMap" false
+      "includePaths" (slice "node_modules/bootstrap/scss")
+    }}
+    {{ with . | toCSS $cssopts }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+  {{ end }}
   {{ $jquery := resources.Get "js/jquery/jquery.slim.min.js" }}
   <script src="{{ $jquery.Permalink }}"></script>
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
