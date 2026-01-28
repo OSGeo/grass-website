@@ -19,6 +19,10 @@ priority = 0.5
 
 [module]
     [[module.mounts]]
+    source = "node_modules"
+    target = "assets/node_modules"
+
+    [[module.mounts]]
     source = "static"
     target = "static"
 
@@ -41,6 +45,10 @@ priority = 0.5
     [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap/bootstrap.bundle.min.js"
+
+    [[module.mounts]]
+    source = "node_modules/bootstrap/scss"
+    target = "assets/scss/bootstrap"
 
     [[module.mounts]]
     source = "node_modules/bootstrap/dist/css/bootstrap.min.css"
