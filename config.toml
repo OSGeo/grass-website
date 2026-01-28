@@ -1,5 +1,5 @@
 baseURL = "https://grass.osgeo.org/"
-theme = "grass"
+theme = ["grass"]
 enableInlineShortcodes = true
 
 [params]
@@ -11,6 +11,64 @@ keywords = "python, science, data science, machine learning, jupyter, vector, ge
 changefreq = "monthly"
 filename = "sitemap_hugo.xml"
 priority = 0.5
+
+[security]
+  enableInlineShortcodes = true
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+
+[module]
+    [[module.mounts]]
+    source = "static"
+    target = "static"
+
+    [[module.mounts]]
+    source = "node_modules/bootstrap-icons/font/fonts"
+    target = "static/css/fonts"
+
+    [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+    [[module.mounts]]
+    source = "node_modules/jquery/dist/jquery.slim.min.js"
+    target = "assets/js/jquery/jquery.slim.min.js"
+
+    [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap/bootstrap.bundle.min.js"
+
+    [[module.mounts]]
+    source = "node_modules/bootstrap/dist/css/bootstrap.min.css"
+    target = "assets/css/bootstrap/bootstrap.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    target = "assets/css/fontawesome/all.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css"
+    target = "assets/css/fontawesome/fontawesome.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/flag-icons/css/flag-icons.min.css"
+    target = "assets/css/flag-icons/flag-icons.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/@highlightjs/cdn-assets/highlight.min.js"
+    target = "assets/js/highlightjs/highlight.min.js"
+
+    [[module.mounts]]
+    source = "node_modules/@highlightjs/cdn-assets/styles/default.min.css"
+    target = "assets/css/highlightjs/default.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/photoswipe/dist/photoswipe.css"
+    target = "assets/css/photoswipe/photoswipe.css"
+
+    [[module.mounts]]
+    source = "node_modules/photoswipe/dist/photoswipe-lightbox.esm.js"
+    target = "assets/js/photoswipe/photoswipe-lightbox.esm.js"
 
 
 [markup]

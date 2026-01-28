@@ -1,5 +1,17 @@
 {
+  "name": "grass-website",
+  "type": "module",
   "dependencies": {
-    "bootstrap": "^5.3.7"
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@highlightjs/cdn-assets": "^11.11.1",
+    "bootstrap": "^5.3.7",
+    "flag-icons": "^7.5.0",
+    "jquery": "^4.0.0",
+    "photoswipe": "^5.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6"
   }
 }

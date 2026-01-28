@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
+
 <head>
   <title>{{ .Title }}</title>
-  <meta charset="UTF-8"> 
-  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
   <meta name="keywords" content="{{.Site.Params.Keywords }}">
   <meta property="og:url" content="{{.Site.BaseURL}}">
   <meta property="og:site_name" content="{{.Site.Params.SiteName }}">
@@ -14,7 +16,8 @@
   {{ hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
   <meta name="twitter:card" content="{{.Site.Params.SiteName }}">
   <meta name="twitter:site" content="@GRASSGIS">
@@ -26,36 +29,30 @@
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
-  {{ with resources.Get "sass/main.scss" }}
-    {{ $opts := dict
-      "enableSourceMap" false
-      "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
-      "silenceDeprecations" true
-      "targetPath" "css/main.css"
-      "transpiler" "dartsass"
-      "vars" site.Params.styles
-      "includePaths" (slice "node_modules")
-    }}
-    {{ with . | toCSS $opts }}
-      {{ if hugo.IsDevelopment }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}">
-      {{ else }}
-        {{ with . | fingerprint }}
-          <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/default.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css" >
+  {{ $bootstrap_styles := resources.Get "css/bootstrap/bootstrap.min.css" }}
+  <link rel="stylesheet" href="{{ $bootstrap_styles.Permalink }}">
+  {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
+  <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
+  {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
+  <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
+  <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css"> -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-3.3.1.slim.min.js"></script>
-  <link rel="android-chrome-192x192" sizes="192x192" href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
-  <link rel="android-chrome-512x512" sizes="512x512" href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
+  {{ $fontawesome := resources.Get "css/fontawesome/all.min.css" }}
+  <link rel="stylesheet" href="{{ $fontawesome.Permalink }}">
+  {{ $fontawesome_min := resources.Get "css/fontawesome/fontawesome.min.css" }}
+  <link rel="stylesheet" href="{{ $fontawesome_min.Permalink }}">
+  {{ $styles := resources.Get "css/style.css" | minify}}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+  
+  {{ $jquery := resources.Get "js/jquery/jquery.slim.min.js" }}
+  <script src="{{ $jquery.Permalink }}"></script>
+  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
+  <script src="{{ $bootstrap_js.Permalink }}"></script>
+  <link rel="android-chrome-192x192" sizes="192x192"
+    href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
+  <link rel="android-chrome-512x512" sizes="512x512"
+    href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-72x72.png">
@@ -74,5 +71,6 @@
   <meta name="theme-color" content="#ffffff">
   <script src="{{ .Site.BaseURL }}plugins/tracking/matomo.js"></script>
 </head>
+
 <body>
   <noscript>Please enable javascript :)</noscript>
