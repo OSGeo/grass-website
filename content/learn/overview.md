@@ -86,7 +86,7 @@ See the <i>Interfaces</i> section below for details.</p>
 Some selected relevant features are:
 
 <ul>
-<img class="bsh" src="/images/gallery/temporal/summer_solstice_centennial.gif" width="40%" style="float:right;padding-left:10px">
+<img class="bsh" src="/images/gallery/temporal/summer_solstice_centennial.gif" width="450px" style="float:right;padding-left:10px">
 <li>Support for nearly all common GIS file formats through GDAL-OGR library.</li>
 <li>Raster analysis: map algebra, interpolation, masking, landscape analysis.</li>
 <li>3D raster (voxel) analysis: 3D map algebra, 3D interpolation, 3D visualization.</li>
