@@ -1,6 +1,6 @@
 ---
 title: "Website contribution documentation update"
-date: 2026-01-29
+date: 2026-01-31
 layout: "news"
 summary: "Minor updates to the GRASS GIS website contribution documentation to improve clarity for new contributors."
 ---
