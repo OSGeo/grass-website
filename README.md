@@ -39,6 +39,10 @@ Run hugo development server from the `grass-website` root directory:
 
 View the website running at  http://localhost:1313
 
+**Note:**
+Running Hugo locally is optional for contributors making small documentation or content changes. Maintainers will build and deploy the website after reviewing pull requests.
+The live GRASS website is available at https://grass.osgeo.org/
+
 
 ## How to add content
 
