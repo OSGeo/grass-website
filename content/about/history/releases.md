@@ -28,7 +28,7 @@ layout: "timeline"
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2026" aria-expanded="true" aria-controls="2026">2026</a></h4>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2025" aria-expanded="true" aria-controls="2025">2025</a></h4>
         </div>
         <div id="2025" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
@@ -46,7 +46,7 @@ layout: "timeline"
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2025" aria-expanded="true" aria-controls="2025">2025</a></h4>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2024" aria-expanded="true" aria-controls="2024">2024</a></h4>
         </div>
         <div id="2024" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
@@ -202,7 +202,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
-	        <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -226,7 +226,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
- <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -250,8 +250,8 @@ layout: "timeline"
 </div>
       </div>
       </div>
-<!-- /Panel -->
- <!-- Panel -->
+      <!-- /Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -268,7 +268,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
- <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -284,7 +284,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
- <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
