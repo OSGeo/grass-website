@@ -1,9 +1,8 @@
 ---
 title: "History"
-date: 2025-11-27T15:12:05+02:00
+date: 2026-02-05T15:12:05+02:00
 layout: "timeline"
 ---
-
 
 ## GRASS releases over time
 
