@@ -18,7 +18,7 @@
       "onAutoForward": "openPreview"
     }
   },
-  "postCreateCommand": "npm ci",
+  "postCreateCommand": "npm install",
   "customizations": {
     "vscode": {
       "settings": {
