@@ -1,0 +1,9 @@
+services:
+  server:
+    image: hugomods/hugo:dart-sass-${HUGO_VERSION}
+    command: server -D -p 1313 --noBuildLock
+    volumes:
+      - ./:/src
+      - ~/hugo_cache:/tmp/hugo_cache
+    ports:
+      - 1313:1313

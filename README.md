@@ -39,6 +39,38 @@ Run hugo development server from the `grass-website` root directory:
 
 View the website running at  http://localhost:1313
 
+### Run Hugo locally with Docker
+
+We are using the 'hugo:dart-sass` Docker container from [hugomods.com](https://docker.hugomods.com/docs/tags/).
+The container contains the following core features:
+
+* Extended Hugo
+* Go
+* Node.js
+* Git
+* Dart Sass
+
+```sh
+docker pull hugomods/hugo:dart-sass
+```
+
+### Install Node depencies before running Hugo.
+
+```sh
+docker compose run server npm i
+```
+
+### Run the Hugo server container using Docker compose
+
+```sh
+docker compose up server
+```
+
+### Lauch interactive shell
+
+```sh
+docker compose run server /bin/sh
+```
 
 ## How to add content
 
