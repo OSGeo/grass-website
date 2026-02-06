@@ -1,6 +1,11 @@
 {
   "name": "grass-website",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "5gb"
+  },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "24.13.0"
@@ -18,7 +23,12 @@
       "onAutoForward": "openPreview"
     }
   },
+  "remoteEnv": {
+    "HUGO_ENVIRONMENT": "development",
+    "HUGO_ENV": "development"
+  },
   "postCreateCommand": "npm ci",
+  "waitFor": "postCreateCommand",
   "customizations": {
     "vscode": {
       "settings": {
