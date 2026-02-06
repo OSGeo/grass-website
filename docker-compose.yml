@@ -14,7 +14,7 @@ services:
       && npm install -g n
       && n \"$NODE_VERSION\"
       && node -v
-      && npm ci || true
+      && npm ci
       && hugo --minify --baseURL \"$BASE_URL:$SOURCE_PORT/\"
       && chmod -R a+rX public"
     volumes:
