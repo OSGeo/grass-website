@@ -30,24 +30,22 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ $bootstrap_styles := resources.Get "css/bootstrap/bootstrap.min.css" }}
-  <link rel="stylesheet" href="{{ $bootstrap_styles.Permalink }}">
   {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
-  <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
-  <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
+  {{ $styles := resources.Get "css/style.css" }}
+  {{ $vendor_css := slice $bootstrap_styles $highlightjs_styles $flagicons $styles | resources.Concat "css/vendor.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $vendor_css.Permalink }}" integrity="{{ $vendor_css.Data.Integrity }}" media="screen">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
   {{ $fontawesome := resources.Get "css/fontawesome/all.min.css" }}
-  <link rel="stylesheet" href="{{ $fontawesome.Permalink }}">
   {{ $fontawesome_min := resources.Get "css/fontawesome/fontawesome.min.css" }}
-  <link rel="stylesheet" href="{{ $fontawesome_min.Permalink }}">
-  {{ $styles := resources.Get "css/style.css" | minify}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+  {{ $fontawesome_css := slice $fontawesome $fontawesome_min | resources.Concat "css/fontawesome/fontawesome.bundle.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $fontawesome_css.Permalink }}" integrity="{{ $fontawesome_css.Data.Integrity }}">
   
   {{ $jquery := resources.Get "js/jquery/jquery.slim.min.js" }}
-  <script src="{{ $jquery.Permalink }}"></script>
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
-  <script src="{{ $bootstrap_js.Permalink }}"></script>
+  {{ $vendor_js := slice $jquery $bootstrap_js | resources.Concat "js/vendor.js" | minify | fingerprint }}
+  <script src="{{ $vendor_js.Permalink }}" integrity="{{ $vendor_js.Data.Integrity }}"></script>
   <link rel="android-chrome-192x192" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="android-chrome-512x512" sizes="512x512"
