@@ -13,14 +13,14 @@
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
-<section class="pt-4 bg-gray mt-95">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="section-title">#Download</h2>
-            </div>
-        </div>
+<section class="pt-4 mt-95 bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Download</h1>
+      </div>
     </div>
+  </div>
     
     <!-- Download Tab Sections -->
     <div class="container download-grass">
@@ -37,136 +37,168 @@
             <li class="nav-item">
                 <a class="nav-link" id="windows-tab" data-toggle="tab" href="#docker" role="tab" aria-controls="docker" aria-selected="false">Docker</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="source-tab" data-toggle="tab" href="#source" role="tab" aria-controls="source"
+                aria-selected="false">Source Code</a>
+            </li>
         </ul>
         <div class="tab-content" id="downloadTabContent">
-            <!-- Linux Section -->
-            <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
-              <!-- {{ with .Site.GetPage "download" "linux" }}{{ .Content }}{{ end }} -->
-              {{ $download_data := dict "os" "Linux" "url" "https://github.com/OSGeo/grass/releases/tag/8.4.0" "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
-              <h2>Installation</h2>
-              {{ range $key, $value := .Site.Data.grass.install.linux }}
-                {{ partial "code-copy.html" $value }}
+          <!-- Linux Section -->
+          <div class="tab-pane fade show active" id="linux" role="tabpanel" aria-labelledby="linux-tab">
+            <h2>Download GRASS for Linux</h2>
+            {{ partial "support-button.html" (dict "style" "outline" "text" "Support Us") }}
+            {{ $download_data := dict "os" "Linux" "version" .Site.Data.grass.current_version "binaries" .Site.Data.grass.install.linux.binaries "binaries_url" .Site.Data.grass.binaries_url }}
+            <h2>Installation</h2>
+            <p>Install grass package on your Linux distribution. Have a look at <a href="https://repology.org/project/grass-gis/versions" target="_blank">Repology</a> 
+              for an extended list of GRASS packages or directly check the <a href="https://repology.org/badge/vertical-allrepos/grass-gis.svg?exclude_unsupported=1&exclude_sources=modules,site&minversion=%3Cspan%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%208.4.1%20%20%20%20%20%20%20%20%20%20%20%20%3C/span%3E&columns=3" target="_blank">packaging status</a> to quickly know which GRASS version is currently available for your distro.</p>
+            {{ range sort .Site.Data.grass.install.linux.installers "id" "asc" }}
+              <h3>{{ .title }}</h3>
+              {{ if .pre_install }}
+                {{ range $pre_value := .pre_install }}
+                  <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                  {{ partial "code-copy.html" $pre_value }}
+                {{ end }}
+              {{ end}}
+              <p>Install with the following shell command:</p>
+              {{ partial "code-copy.html" . }}
+              <p>For more information visit <a href="{{ .url.href }}">{{ .url.label }}</a>.</p>
+            {{ end }}
+            <h2>Compile and Install</h2>
+              <p>To compile and install GRASS from source, follow these steps from the <a href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
+
+            <h2>Contribute</h2>
+              <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+              <div class="grass-download-button-group mb-5">
+                {{ partial "support-button.html" $download_data }}
+              </div>
+          </div>
+
+          <!-- Mac Section -->
+          <div class="tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab">
+            {{ $download_data := dict "os" "Mac" "version" .Site.Data.grass.current_version "binaries"
+              .Site.Data.grass.install.mac.binaries "binaries_url" .Site.Data.grass.mac_binaries_url }}
+            {{ partial "grass-download.html" $download_data }}
+            <h2>Installation</h2>
+            {{ range sort .Site.Data.grass.install.mac.installers "id" "desc" }}
+            <h3>{{ .title }}</h3>
+            {{ if .pre_install }}
+              {{ range $pre_value := .pre_install }}
+                <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                {{ partial "code-copy.html" $pre_value }}
               {{ end }}
+            {{ end}}
+            <p>Install with the following shell command:</p>
+            {{ partial "code-copy.html" . }}
+            <!-- <div class="grass-download-button-group">
+              <a class="btn btn-download" href="{{ .url }}" target="_blank">View Source</a>
+              {{ partial "support-button.html" $download_data }}
+            </div> -->
+            {{ end }}
+            <h2>Contribute</h2>
+            <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+            <div class="grass-download-button-group mb-5">
+              {{ partial "support-button.html" $download_data }}
             </div>
+          </div>
 
-            <!-- Mac Section -->
-            <div class="tab-pane fade" id="mac" role="tabpanel" aria-labelledby="mac-tab">
-              {{ $download_data := dict "os" "Mac" "url" "https://cmbarton.github.io/grass-mac/download/" "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
-              {{ partial "code-copy.html" .Site.Data.grass.install.mac.mac_ports }}
-            </div>
+          <!-- Windows Section -->
+          <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
+            {{ $download_data := dict "os" "Windows" "version" .Site.Data.grass.current_version "binaries"
+              .Site.Data.grass.install.windows.binaries "binaries_url" .Site.Data.grass.windows_binaries_url }}
+            {{ partial "grass-download.html" $download_data }}
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h2>Additional install options</h2>
+                  <div class="row mb-5 text-primary">
+                    <div class="col-12">
+                      <h3>OSGeo4W</h3>
+                      <p>Download the OSGeo4W v2 installer to install GRASS and other OSGeo software on Windows.</p>
+                      <a class="btn btn-download mb-2" href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank"><i class="fa-solid fa-download"></i> OSGeo4W v2 installer</a>
+                      <p>The following install modes are offered (see also the dedicated <a href="{{ .Site.Data.grass.install_wiki_url }}"
+                          alt="GRASS Install Wiki" target="_blank">wiki</a> page for further details):</p>
+                      <h3>Express desktop install mode</h3>
+                        <p>Run the downloaded installer as administrator and select the grass (stable) or grass-daily (development) packages to
+                            install. All needed dependencies (e.g. GDAL, common python packages) will be automatically downloaded.</p>
+                      <h3>Advanced install mode</h3>
+                      <p>All packages can be individually selected and additional useful packages (e.g. python-pandas, msys) are available, too.</p>
+                      <h3>Command line installation</h3>
+                          {{ range sort .Site.Data.grass.install.windows.installers "id" "desc" }}
+                            {{ if .pre_install }}
+                              {{ range $pre_value := .pre_install }}
+                                <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                                {{ partial "code-copy.html" $pre_value }}
+                              {{ end }}
+                            {{ end}}
+                          <p>Install with the following shell command:</p>
+                        {{ partial "code-copy.html" . }}
+                      {{ end }}
 
-            <!-- Windows Section -->
-            <div class="tab-pane fade" id="windows" role="tabpanel" aria-labelledby="windows-tab">
-              {{ $windows_url := printf "/grass%s/binary/mswindows/native/WinGRASS-%s-1-Setup.exe" .Site.Data.grass.current_version_nodots .Site.Data.grass.current_version }}
-              {{ $download_data := dict "os" "Windows" "url" $windows_url "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
-              <!-- Add text-center class to center the button -->
-              <!-- <div class="pt-5"> 
-                <p class="text-center">
-                    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseWindowsAdditionalOptions" aria-expanded="false" aria-controls="collapseWindowsAdditionalOptions">
-                        Additional Options
-                    </button>
-                </p>
-              </div> -->
-              <!-- <div class="container collapse" id="collapseWindowsAdditionalOptions"> -->
-              <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <h3>Additional Options</h3>
-                    <div class="row mb-5 text-primary">
-                      <div class="col-12">
-                        <h4>OSGeo4W</h4>
-                        <p>OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS GIS as well as many other packages (QGIS, GDAL/OGR, and more).</p>
-                        <a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank"><i class="fa-solid fa-download"></i> Download OSGeo4W v2</a>
-                      </div>
-                    </div>
-                    <div class="row mb-5 text-primary">
-                      <div class="col-12">
-                        <h4>QGIS users</h4>
-                        <p>In order to have GRASS GIS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
+                    <h3 class="text-primary">GRASS in QGIS</h3>
+                    <p>In order to have GRASS support (also in QGIS-Processing) you need to install the “qgis*-grass-plugin” packages.</p>
+                      <h2>Contribute</h2>
+                      <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+                      <div class="grass-download-button-group mb-5">
+                        {{ partial "support-button.html" $download_data }}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <!-- Docker Section -->
-            <div class="tab-pane fade" id="docker" role="tabpanel" aria-labelledby="docker-tab">
-              <!-- {{ with .Site.GetPage "download" "docker" }}{{ .Content }}{{ end }} -->
-              {{ $download_data := dict "os" "Docker" "url" "https://hub.docker.com/r/osgeo/grass-gis/" "version" .Site.Data.grass.current_version }}
-              {{ partial "grass-download.html" $download_data }}
+          </div>
+          
+          <!-- Docker Section -->
+          <div class="tab-pane fade" id="docker" role="tabpanel" aria-labelledby="docker-tab">
+            <section class="grass-download">
+              <h2>GRASS Docker images</h2>
+              {{ partial "support-button.html" (dict "style" "outline" "text" "Support Us") }}
+              <h2>Docker Hub</h2>
+              Offical GRASS Docker images are available on <a href="https://hub.docker.com/r/osgeo/grass-gis/" target="_blank">Docker Hub (osgeo/grass-gis)</a>. You can pull the latest image using the following commands.
+            </section>
 
               <h2>Installation</h2>
+                {{ range sort .Site.Data.grass.install.docker.installers "id" "desc" }}
+              <h3>{{ .title }}</h3>
+                {{ if .pre_install }}
+                  {{ range $pre_value := .pre_install }}
+                    <p class="gs-grey-color">{{ print $pre_value.text "\n" }}</p>
+                    {{ partial "code-copy.html" $pre_value }}
+                  {{ end }}
+                {{ end}}
+                <p>Install with the following shell command:</p>
+                {{ partial "code-copy.html" . }}
+              {{ end}}
+              
+          
+            <h2>Run GRASS as a Docker container</h2>
+            <p>Please refer to the <a href="https://github.com/OSGeo/grass/blob/main/docker/README.md" target="_blank">GRASS Docker README</a></p>
+     
 
-              {{ range $key, $value := .Site.Data.grass.install.docker }}
-                {{ partial "code-copy.html" $value }}
-              {{ end }}
-
-              <h2>Getting Started with Docker</h2>
-
-              <p>Build a docker image using the downloaded source code (run this in the directory containing the source code):</p>
-              
-              <h3>A. Docker image <strong>without graphical user interface - wxGUI</strong></h3>
-              
-              <pre><code>docker build -t grassgis .</code></pre>
-              
-              <p>A test run (assuming you have the existing GRASS GIS test location; it can be downloaded from 
-              <a href="https://grass.osgeo.org/sampledata/north_carolina/nc_basic_spm_grass7.zip">here</a>)</p>
-              
-              <pre><code># case 1: launching in the grassdata directory in which the location is stored:
-              docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
-                  --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
-                      --exec g.region -p
-              
-              # case 2: launching anywhere
-              docker run -it --rm --user=$(id -u):$(id -g) \
-                  --volume /your/test/grassdata/:/data --env HOME=/data/ grassgis \
-                      grass /data/nc_basic_spm_grass7/PERMANENT --exec g.region -p
-              </code></pre>
-              
-              <p>Note that the first <code>grassgis</code> is the name of the image while the second <code>grass</code> is the name of the executable.</p>
-              
-              <p>To run the tests (again assuming local location):</p>
-              
-              <pre><code># case 1: launching in the grassdata directory in which the location is stored:
-              docker run -it --rm --user=$(id -u):$(id -g) --volume $(pwd):/data \
-                  --env HOME=/data/ grassgis grass --text nc_basic_spm_grass7/user1 \
-                      --exec g.region -p
-              
-              # case 2: launching anywhere
-              docker run -it --rm --user=$(id -u):$(id -g) \
-                  --volume /your/test/grassdata/:/data --env HOME=/data/ -w /code/grass \
-                      grassgis grass /data/nc_basic_spm_grass7/PERMANENT --exec \
-                          python -m grass.gunittest.main \
-                              --location nc_basic_spm_grass7 --location-type nc
-              </code></pre>
-              
-              <h3>B. Docker image <strong>with graphical user interface - wxGUI</strong></h3>
-              
-              <pre><code>docker build -t grassgis -f docker/ubuntu_wxgui/Dockerfile .</code></pre>
-              
-              <p>Note that the first <code>grassgis</code> is the name of the image while the second <code>grass</code> is the name of the executable.</p>
-              
-              <pre><code>xhost local:$(id -u)
-              docker run -it --privileged --user=$(id -u):$(id -g) --rm \
-                  --volume="$(pwd)/:/data" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-                  --env HOME=/data/ --env DISPLAY=$DISPLAY \
-                  --device="/dev/dri/card0:/dev/dri/card0" \
-                  grassgis grass --gui
-              </code></pre>
-              
-              <p>Note: If you compiled locally before building the Docker image, you may encounter problems as the local configuration and the locally compiled files are copied to and used in the Docker image. To make sure you don't have this issue, clean all the compiled files from the source code:</p>
-              
-              <pre><code>make distclean</code></pre>
-              
-  
-          </div>
+            <h2>Contribute</h2>
+            <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+            <div class="grass-download-button-group mb-5">
+              {{ partial "support-button.html" $download_data }}
             </div>
+          </div>
 
-
+        <!-- Source Section -->
+        <div class="tab-pane fade" id="source" role="tabpanel" aria-labelledby="source-tab">
+          <h2>Source Code</h2>
+          Source code is avaliable on <a href="https://github.com/OSGeo/grass/" target="_blank">GitHub</a>. You can download the latest release at
+          <a href="https://github.com/OSGeo/grass/releases" target="_blank">https://github.com/OSGeo/grass/releases</a>
+          
+          <h2>Compile and install</h2>
+          <p>To compile and install GRASS from source, follow these steps from the <a
+                href="https://grasswiki.osgeo.org/wiki/Compile_and_Install" target="_blank">GRASS wiki</a></p>
+          
+          <h2>Contribute</h2>
+          <p>Please consider a financial contribution to the GRASS project to help us improve and maintain the software.</p>
+          <div class="grass-download-button-group mb-5">
+            {{ partial "support-button.html" $download_data }}
+          </div>
+        </div>
+      </div>
     </div>
 </section>
 

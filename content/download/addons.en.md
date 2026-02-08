@@ -7,29 +7,36 @@ categories: [nl]
 layout: "addons"
 ---
 
-#### Quick links
+### Quick links
 
-[ [**Overview of addons**](#Overview) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+[ [Overview](#overview) | [Beginner users](#beginner-users) | [Power users](#power-users) ]
 
-### <a name="Overview"></a>Overview of addons
+## Overview {#overview}
 
 There is a [growing list of GRASS addons](/grass8/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
 
-### <a name="Common-user"></a>Beginner users
+## Beginner users {#beginner-users}
 
 We recommend to use the [wxGUI](https://grasswiki.osgeo.org/wiki/WxGUI) [Extension Manager](https://grasswiki.osgeo.org/wiki/WxGUI#Extension_Manager) to install Addons.
-In the main menu: `Settings -> Addon extensions -> Install extensions from addons`
+In the main menu:
 
-<img src="/images/extension_manager_gui.png" width="80%" alt="Extension Manager">
+`Settings -> Addon extensions -> Install extensions from addons`
+
+{{< figure
+  src="/images/extension_manager_gui.png"
+  alt="GRASS Extension Manager"
+  caption="GRASS Extension Manager"
+  class="ma0 w-80"
+>}}
 
 You can also use the command line, for example:
 
     g.extension extension=r.fuzzy.system
 
+## Power users {#power-users}
 
-### <a name="Power-user"></a>Power users/developers
+The Addons source code is also hosted in [GitHub](https://github.com/OSGeo/grass-addons):
 
-The Addons source code is also hosted in <a href="https://github.com/OSGeo/grass-addons" target="_blank"><i class="fab fa-github"></i> Github</a>:
-<p class="command"><a href="https://github.com/OSGeo/grass-addons"> $ git clone https://github.com/OSGeo/grass-addons </a></p>
+    git clone https://github.com/OSGeo/grass-addons 
 
-To manually compile individual addons see the [compile and install wiki page](https://grasswiki.osgeo.org/wiki/Compile_and_Install#Addons). 
+To manually compile individual addons see the [compile and install wiki page](https://grasswiki.osgeo.org/wiki/Compile_and_Install#Addons).

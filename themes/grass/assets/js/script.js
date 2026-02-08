@@ -78,11 +78,10 @@
       const button = $(".grass-os-download-button");
       switch (os) {
         case "Windows":
-            console.log("Setting Windows");
             button.text("Download for Windows");
             button.data("os", "windows");
             $('#downloadTab a[href="#windows"]').tab('show');
-            if (window.location.pathname === "/learn/download/") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#windows");
             }
             break;
@@ -90,7 +89,7 @@
             button.text("Download for macOS");
             button.data("os", "mac");
             $('#downloadTab a[href="#mac"]').tab('show');
-            if (window.location.pathname === "/learn/download/") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#mac");
             }
             break;
@@ -98,7 +97,7 @@
             button.text("Download for Linux");
             button.data("os", "linux");
             $('#downloadTab a[href="#linux"]').tab('show');
-            if (window.location.pathname === "/learn/download/") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#linux");
             }
             break;
@@ -106,10 +105,18 @@
             button.text("Docker Container");
             button.data("os", "docker");
             $('#downloadTab a[href="#docker"]').tab('show');
-            if (window.location.pathname === "/learn/download/") {
+            if (window.location.pathname === "/download/") {
               history.replaceState(null, null, "#docker");
             }
             break;
+        case "Source Code":
+              button.text("Source Code");
+              button.data("os", "source");
+              $('#downloadTab a[href="#source"]').tab('show');
+              if (window.location.pathname === "/download/") {
+                history.replaceState(null, null, "#source");
+              }
+              break;
         default:
             button.text("Download");
             button.data("os", "unknown");
@@ -122,7 +129,6 @@
      // Handle download page tab change
      $('#downloadTab a').on('click', function(e) {
         e.preventDefault();
-        console.log("Download button clicked", e, this);
         // Activate the clicked tab
         $(this).tab('show');
         const hash = e.target.hash;
@@ -138,10 +144,7 @@
           const hash = window.location.hash;
           if (hash) {
             const tab = $(`#downloadTab a[href="${hash}"]`)
-            console.log("Open Tab", tab);
             os = tab.text(); // Get the OS from the tab text
-            console.log("Open Tab OS", os);
-
           }
           else {
             // No hash, so detect the OS and select the appropriate tab
