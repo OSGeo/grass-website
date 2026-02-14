@@ -1,6 +1,6 @@
 ---
 title: "History"
-date: 2025-11-27T15:12:05+02:00
+date: 2026-02-05T15:12:05+02:00
 layout: "timeline"
 ---
 
@@ -10,6 +10,20 @@ layout: "timeline"
   <div class="timeline">
     <div class="line text-muted"></div>
      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <!-- Panel -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#2026" aria-expanded="true" aria-controls="2026">2026</a></h4>
+        </div>
+        <div id="2026" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
+          <div class="panel-body">
+<ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 5 Feb 2026</span> Creation of the GRASS GIS 8.5 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_5">49c2d67</a>)</li> <!-- 49c2d67434c689c7b64f7988604557e4b2d235d6 -->
+          </div>
+        </div>
+      </div>
+      <!-- /Panel -->
       <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
@@ -188,7 +202,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
-	        <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -212,7 +226,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
- <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -236,8 +250,8 @@ layout: "timeline"
 </div>
       </div>
       </div>
-<!-- /Panel -->
- <!-- Panel -->
+      <!-- /Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -254,7 +268,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
- <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
@@ -270,7 +284,7 @@ layout: "timeline"
       </div>
       </div>
 	  <!-- /Panel -->
- <!-- Panel -->
+      <!-- Panel -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading2">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>

@@ -30,12 +30,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
-  <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
   <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
   {{ $fontawesome := resources.Get "css/fontawesome/all.min.css" }}
-  <link rel="stylesheet" href="{{ $fontawesome.Permalink }}">
   {{ $fontawesome_min := resources.Get "css/fontawesome/fontawesome.min.css" }}
   <link rel="stylesheet" href="{{ $fontawesome_min.Permalink }}">
   {{ with resources.Get "sass/main.scss" }}
@@ -50,9 +48,9 @@
     {{ end }}
   {{ end }}
   {{ $jquery := resources.Get "js/jquery/jquery.slim.min.js" }}
-  <script src="{{ $jquery.Permalink }}"></script>
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
-  <script src="{{ $bootstrap_js.Permalink }}"></script>
+  {{ $vendor_js := slice $jquery $bootstrap_js | resources.Concat "js/vendor.js" | minify | fingerprint }}
+  <script src="{{ $vendor_js.Permalink }}" integrity="{{ $vendor_js.Data.Integrity }}"></script>
   <link rel="android-chrome-192x192" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="android-chrome-512x512" sizes="512x512"
@@ -68,7 +66,7 @@
   <link rel="apple-touch-icon" sizes="167x167" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-180x180.png">
   <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/logos/favicon-grass-green.svg" color="#ffffff">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/favicon/favicon-grass-green.svg" color="#ffffff">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">

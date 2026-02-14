@@ -1,6 +1,10 @@
 {
   "name": "grass-website",
   "type": "module",
+  "scripts": {
+    "dev": "hugo server",
+    "build-site": "hugo --minify"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@highlightjs/cdn-assets": "^11.11.1",
