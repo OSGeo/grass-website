@@ -206,21 +206,27 @@ weight = 4
 
 [[Languages.en.menu.main]]
 parent = "Download"
+name = "conda"
+URL = "/download/conda"
+weight = 5
+
+[[Languages.en.menu.main]]
+parent = "Download"
 name = "Docker images"
 URL = "/download/docker"
-weight = 5
+weight = 6
 
 [[Languages.en.menu.main]]
 parent = "Download"
 name = "Addons"
 URL = "/download/addons"
-weight = 6
+weight = 7
 
 [[Languages.en.menu.main]]
 parent = "Download"
 name = "Sample data"
 URL = "/download/data"
-weight = 7
+weight = 8
 
 [[Languages.en.menu.main]]
 weight = 3
