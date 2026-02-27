@@ -47,21 +47,10 @@ priority = 0.5
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap/bootstrap.bundle.min.js"
 
-    [[module.mounts]]
-    source = "node_modules/bootstrap/scss"
-    target = "assets/scss/bootstrap"
-
-    [[module.mounts]]
-    source = "node_modules/bootstrap/dist/css/bootstrap.min.css"
-    target = "assets/css/bootstrap/bootstrap.min.css"
-
+    # TODO: Switch to use SCSS when we update to Hugo a version with embeded dart-sass
     [[module.mounts]]
     source = "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
     target = "assets/css/fontawesome/all.min.css"
-
-    [[module.mounts]]
-    source = "node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css"
-    target = "assets/css/fontawesome/fontawesome.min.css"
 
     [[module.mounts]]
     source = "node_modules/flag-icons/css/flag-icons.min.css"

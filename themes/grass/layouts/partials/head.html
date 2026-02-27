@@ -33,9 +33,9 @@
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
   <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-  {{ $fontawesome := resources.Get "css/fontawesome/all.min.css" }}
-  {{ $fontawesome_min := resources.Get "css/fontawesome/fontawesome.min.css" }}
-  <link rel="stylesheet" href="{{ $fontawesome_min.Permalink }}">
+  {{ with resources.Get "css/fontawesome/all.min.css" }}
+    <link rel="stylesheet" href="{{ .Permalink }}">
+  {{ end }}
   {{ with resources.Get "sass/main.scss" }}
     {{ $cssopts := dict
       "targetPath" "css/style.css"
