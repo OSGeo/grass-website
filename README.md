@@ -21,9 +21,9 @@ Currently, the website is built with hugo version 0.113.0.
 
 ### Install Hugo
 
-    apt-get update
+Hugo is used to build the website locally. The dev container and Docker build use Hugo 0.113.0 extended (see `.devcontainer/devcontainer.json` and `.env`).
 
-    apt install hugo
+I you choose to install Hugo locally, make sure to install the extended version (see [Hugo installation docs](https://gohugo.io/installation/)).
 
 ### Install Node.js and npm
 
