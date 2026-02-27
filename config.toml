@@ -9,7 +9,7 @@ keywords = "python, science, data science, machine learning, jupyter, vector, ge
 
 [params.author]
 name = "GRASS Development Team"
-email = "grass-dev@lists.osgeo.org"
+email = "https://discourse.osgeo.org/c/grass/developer/61"
 
 [sitemap]
 changefreq = "monthly"
