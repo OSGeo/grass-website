@@ -15,7 +15,60 @@ the options below when you want to preview the site or test a full build.
 
 Currently, the website is built with hugo version 0.113.0.
 
-## How to build your own local web server
+## Run within a Dev Container
+
+This repository includes a Dev Container configuration in `.devcontainer/` to
+provide a consistent Hugo/Node setup for local development. This is optional and
+works with any IDE or tooling that supports `devcontainer.json` (for example VS
+Code Dev Containers or GitHub Codespaces).
+
+In VS Code, use the Command Palette: `Dev Containers: Reopen in Container`.
+
+Open the repository in your Dev Container-enabled tool, then run:
+
+    hugo server --bind 0.0.0.0
+
+The dev container forwards port `1313` by default. View the site at
+<http://localhost:1313>
+
+## Run development server with Docker Compose
+The `docker-compose.dev.yml` setup runs the Hugo development server in a container, with live reload and file watching. This is useful if you want to run the development server without installing Hugo and Node.js locally.
+
+```sh
+docker compose -f docker-compose.dev.yml up --build
+```
+
+## Test a production-like build with Docker Compose
+
+The `docker-compose.yml` setup builds the site with Hugo (using the versions
+defined in `.env`) and serves the generated `public/` directory using Nginx.
+This is useful to test a production-like build locally.
+
+Build and run:
+
+    docker compose up --build
+
+By default this publishes the site at <http://localhost:8080> (see `SOURCE_PORT` in
+`.env`). Stop with:
+
+    docker compose down
+
+### Notes on the Docker build container
+
+We are using the `hugomods/hugo` Docker image from [hugomods.com](https://docker.hugomods.com/docs/tags/).
+The image provides:
+
+* Extended Hugo
+* Go
+* Node.js
+* Git
+* Dart Sass
+
+You can also run a one-off build without starting Nginx:
+
+    docker compose run --rm build
+
+## Run Hugo locally
 
     git clone https://github.com/OSGeo/grass-website.git
 
@@ -54,7 +107,17 @@ Or using [`nvm`](https://github.com/nvm-sh/nvm):
 
 Output HTML generated in the /public directory at the root of the `grass-website` directory
 
-### Add or update a dependency
+### Run server locally
+
+Run hugo development server from the `grass-website` root directory:
+
+    cd grass-website
+
+    hugo server
+
+View the website running at  <http://localhost:1313>
+
+## How to add or update a dependency
 
 Frontend libraries are managed with npm and are referenced by Hugo via module mounts
 in `config.toml`.
@@ -96,62 +159,6 @@ Example (CSS):
     # themes/grass/layouts/partials/head.html
     {{ $styles := resources.Get "css/<package>/<file>.min.css" }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}">
-
-### Run server locally
-
-Run hugo development server from the `grass-website` root directory:
-
-    cd grass-website
-
-    hugo server
-
-View the website running at  <http://localhost:1313>
-
-## Dev Container (optional)
-
-This repository includes a Dev Container configuration in `.devcontainer/` to
-provide a consistent Hugo/Node setup for local development. This is optional and
-works with any IDE or tooling that supports `devcontainer.json` (for example VS
-Code Dev Containers or GitHub Codespaces).
-
-In VS Code, use the Command Palette: `Dev Containers: Reopen in Container`.
-
-Open the repository in your Dev Container-enabled tool, then run:
-
-    hugo server --bind 0.0.0.0
-
-The dev container forwards port `1313` by default. View the site at
-<http://localhost:1313>
-
-## Test a production-like build with Docker Compose
-
-The `docker-compose.yml` setup builds the site with Hugo (using the versions
-defined in `.env`) and serves the generated `public/` directory using Nginx.
-This is useful to test a production-like build locally.
-
-Build and run:
-
-    docker compose up --build
-
-By default this publishes the site at <http://localhost:8080> (see `SOURCE_PORT` in
-`.env`). Stop with:
-
-    docker compose down
-
-### Notes on the Docker build container
-
-We are using the `hugomods/hugo` Docker image from [hugomods.com](https://docker.hugomods.com/docs/tags/).
-The image provides:
-
-* Extended Hugo
-* Go
-* Node.js
-* Git
-* Dart Sass
-
-You can also run a one-off build without starting Nginx:
-
-    docker compose run --rm build
 
 ## How to add content
 
