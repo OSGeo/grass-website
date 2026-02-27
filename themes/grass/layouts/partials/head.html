@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
+
 <head>
   <title>{{ .Title }}</title>
-  <meta charset="UTF-8"> 
-  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
   <meta name="keywords" content="{{.Site.Params.Keywords }}">
   <meta property="og:url" content="{{.Site.BaseURL}}">
   <meta property="og:site_name" content="{{.Site.Params.SiteName }}">
@@ -14,7 +16,8 @@
   {{ hugo.Generator }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
   <meta name="twitter:card" content="{{.Site.Params.SiteName }}">
   <meta name="twitter:site" content="@GRASSGIS">
@@ -26,19 +29,32 @@
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/default.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css" >
+  {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
+  {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
+  <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
-  {{ $styles := resources.Get "css/style.css" | minify}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-3.3.1.slim.min.js"></script>
-  <link rel="android-chrome-192x192" sizes="192x192" href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
-  <link rel="android-chrome-512x512" sizes="512x512" href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
+  {{ with resources.Get "css/fontawesome/all.min.css" }}
+    <link rel="stylesheet" href="{{ .Permalink }}">
+  {{ end }}
+  {{ with resources.Get "sass/main.scss" }}
+    {{ $cssopts := dict
+      "targetPath" "css/style.css"
+      "outputStyle" "compressed"
+      "enableSourceMap" false
+      "includePaths" (slice "node_modules/bootstrap/scss")
+    }}
+    {{ with . | toCSS $cssopts }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+  {{ end }}
+  {{ $jquery := resources.Get "js/jquery/jquery.slim.min.js" }}
+  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
+  {{ $vendor_js := slice $jquery $bootstrap_js | resources.Concat "js/vendor.js" | minify | fingerprint }}
+  <script src="{{ $vendor_js.Permalink }}" integrity="{{ $vendor_js.Data.Integrity }}"></script>
+  <link rel="android-chrome-192x192" sizes="192x192"
+    href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
+  <link rel="android-chrome-512x512" sizes="512x512"
+    href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-72x72.png">
@@ -50,12 +66,13 @@
   <link rel="apple-touch-icon" sizes="167x167" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-180x180.png">
   <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/logos/favicon-grass-green.svg" color="#ffffff">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/favicon/favicon-grass-green.svg" color="#ffffff">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <script src="{{ .Site.BaseURL }}plugins/tracking/matomo.js"></script>
 </head>
+
 <body>
   <noscript>Please enable javascript :)</noscript>

@@ -1,0 +1,50 @@
+// Bootstrap Variables
+/*---------------------------------------------------------------------------*/
+$primary: $gs-primary-color;
+$secondary: $gs-secondary-color;
+$success: $gs-success-color;
+$info: $gs-info-color;
+$warning: $gs-warning-color;
+$danger: $gs-danger-color;
+$light: $gs-grey-light-color;
+$dark: $gs-grey-dark-color;
+
+// Control the color of the active tab in a tabset
+$nav-tabs-link-active-color: $gs-secondary-alt-color;
+
+// Control listing card title color
+$card-title-color: $gs-grey-dark-color;
+
+// Description: This file defines Bootstrap theme variables by mapping them 
+//              to custom color variables. These variables are used to 
+//              customize the appearance of the Bootstrap framework.
+// Bootstrap Variables: https: //github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+// Variables:
+// - $primary: Primary theme color, mapped to $gs-primary-color.
+// - $secondary: Secondary theme color, mapped to $gs-secondary-color.
+// - $success: Success state color, mapped to $gs-success-color.
+// - $info: Informational state color, mapped to $gs-info-color.
+// - $warning: Warning state color, mapped to $gs-warning-color.
+// - $danger: Danger/error state color, mapped to $gs-danger-color.
+// - $light: Light theme color, mapped to $gs-grey-light-color.
+// - $dark: Dark theme color, mapped to $gs-grey-dark-color.
+$primary-rgb: $gs-primary-color;
+$secondary-rgb: $gs-secondary-color;
+$success-rgb: $gs-success-color;
+$info-rgb: $gs-info-color;
+$warning-rgb: $gs-warning-color;
+$danger-rgb: $gs-danger-color;
+$light-rgb: $gs-grey-light-color;
+$dark-rgb: $gs-grey-dark-color;
+
+/* Images */
+$gs-images-base-path: 'images';
+$gs-images-logos-small-path: $gs-images-base-path + '/logos/small';
+$gs-svg-logos-base-path: $gs-images-base-path + '/logos/large';
+$gs-icons-base-path: $gs-images-base-path + '/icons';
+$gs-grass-background-image: url("/images/banners/banner.jpg");
+
+/* Icons */
+$gs-grass-logo-white-simple: url($gs-images-logos-small-path + '/grass-logo-green-simple@05x.png');
+$gs-grass-logo-simple-svg: url($gs-svg-logos-base-path + '/grass-green-no-text.svg');
+$gs-grass-icon: url($gs-icons-base-path + '/grass-icon.svg');
