@@ -1577,6 +1577,14 @@ code {
    color: var(--gs-primary-color);
 }
 
+/* Rotate collapse chevron based on Bootstrap's aria-expanded attribute */
+[data-toggle="collapse"] .fa-chevron-right {
+  transition: transform 0.2s ease;
+}
+[data-toggle="collapse"][aria-expanded="true"] .fa-chevron-right {
+  transform: rotate(90deg);
+}
+
 .grassthm{
     border:1px solid #dee2e6;
     background-color: var(--gs-primary-color);
@@ -1608,9 +1616,16 @@ code {
     z-index:1;
 }
 .mt-95 {
-    /* This equals the fixed hight of the gitter banner and the nav bar
+    /* This equals the fixed height of the gitter banner and the nav bar
      96.8px when the base font size of the document is (16px) */
     margin-top: 6.05rem;
+}
+@media (max-width: 991px) {
+    /* On mobile the navbar collapses (no nav-link padding), shrinking the
+       fixed header to ~75px (banner ~29px + brand ~46px) */
+    .mt-95 {
+        margin-top: 4.7rem;
+    }
 }
 
 .carousel-item-container {

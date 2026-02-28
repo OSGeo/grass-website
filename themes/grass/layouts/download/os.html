@@ -21,7 +21,12 @@
     <div class="row">
       <div class="col-lg-12">
       <div class="p-5 bg-white">
-	<img src="{{.Site.BaseURL}}/images/logos/grass-{{.Title}}.jpg" width="110" class="pull-right">
+	{{ $imgPath := printf "static/images/logos/historical_logos/grass-%s.jpg" .Title }}
+	{{ if os.FileExists $imgPath }}
+	<img src="{{.Site.BaseURL}}images/logos/historical_logos/grass-{{.Title}}.jpg" width="110" class="pull-right">
+	{{ else }}
+	<img src="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-logo-green-simple@1x.png" width="110" class="pull-right">
+	{{ end }}
 	<h2 class="page-title">GRASS for {{ .Title }}</h2>
 	 {{ .Content }}
         </div>

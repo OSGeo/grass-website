@@ -58,16 +58,12 @@
 
               <!-- YEAR TITLE WITH ICON -->
               <a class="d-block h3 text-dark text-decoration-none"
-                 data-bs-toggle="collapse"
+                 data-toggle="collapse"
                  href="#{{ $collapseID }}"
+                 role="button"
+                 aria-controls="{{ $collapseID }}"
                  aria-expanded="{{ if eq $year $currentYear }}true{{ else }}false{{ end }}">
-
-                {{ if eq $year $currentYear }}
-                  <i class="fa-solid fa-chevron-up me-2"></i>{{ $year }}
-                {{ else }}
-                  <i class="fa-solid fa-chevron-down me-2"></i>{{ $year }}
-                {{ end }}
-
+                 <i class="fa-solid fa-chevron-right me-2 p-2"></i>{{ $year }}
               </a>
 
               <!-- POSTS -->
