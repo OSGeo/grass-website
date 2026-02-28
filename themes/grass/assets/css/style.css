@@ -1608,9 +1608,16 @@ code {
     z-index:1;
 }
 .mt-95 {
-    /* This equals the fixed hight of the gitter banner and the nav bar
+    /* This equals the fixed height of the gitter banner and the nav bar
      96.8px when the base font size of the document is (16px) */
     margin-top: 6.05rem;
+}
+@media (max-width: 991px) {
+    /* On mobile the navbar collapses (no nav-link padding), shrinking the
+       fixed header to ~75px (banner ~29px + brand ~46px) */
+    .mt-95 {
+        margin-top: 4.7rem;
+    }
 }
 
 .carousel-item-container {
