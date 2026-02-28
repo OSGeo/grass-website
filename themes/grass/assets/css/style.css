@@ -1577,6 +1577,14 @@ code {
    color: var(--gs-primary-color);
 }
 
+/* Rotate collapse chevron based on Bootstrap's aria-expanded attribute */
+[data-toggle="collapse"] .fa-chevron-right {
+  transition: transform 0.2s ease;
+}
+[data-toggle="collapse"][aria-expanded="true"] .fa-chevron-right {
+  transform: rotate(90deg);
+}
+
 .grassthm{
     border:1px solid #dee2e6;
     background-color: var(--gs-primary-color);
