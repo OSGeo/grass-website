@@ -44,13 +44,7 @@
           <div class="section bg-white mb-4">
             <div class="row nm">
               <div class="col-4 text-center">
-                {{ $imgPath := printf "static/images/logos/historical_logos/grass-%s.jpg" .Title }}
-                {{ if os.FileExists $imgPath }}
-                <img src="{{.Site.BaseURL}}images/logos/historical_logos/grass-{{.Title}}.jpg" width="110" class="pull-right">
-                {{ else }}
-                <img src="{{.Site.BaseURL}}images/logos/grass-logo/grass-green.svg" width="110"
-                  class="pull-right">
-                {{ end }}
+                <img src="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-logo-green-simple@1x.png" width="110" class="pull-right">
               </div>
               <div class="col-8">
                 <h3 class="mt-2 mb-2">GRASS for {{ .Title }}</h3>
@@ -63,7 +57,7 @@
           {{ end }}
           <div class="section bg-white mb-4">
             <div class="row nm">
-              <div class="col-4 text-center"><object type="image/svg+xml" data="{{.Site.BaseURL}}/images/logos/grass-logo/grass-green.svg" class="grasslogo"></object></div>
+              <div class="col-4 text-center"><object type="image/svg+xml" data="{{.Site.BaseURL}}/images/logos/grass-logo-simple/grass-logo-green-simple@1x.png" class="grasslogo"></object></div>
               <div class="col-8">
                 <h3 class="mt-2 mb-2">GRASS Addons</h3>
                 <p>Download user contributed GRASS extensions</p>
@@ -74,7 +68,7 @@
 
           <div class="section bg-white mb-4">
             <div class="row nm">
-              <div class="col-4 text-center"><img alt="GRASS GIS" src="{{.Site.BaseURL}}images/logos/historical_logos/grass-SampleData.jpg"></div>
+              <div class="col-4 text-center"><img alt="GRASS GIS" src="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-logo-green-simple@1x.png"></div>
               <div class="col-8">
                 <h3 class="mt-2 mb-2">GRASS sample data</h3>
                 <p>Download ready-to-use GRASS sample datasets</p>
