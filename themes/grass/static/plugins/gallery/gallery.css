@@ -136,6 +136,7 @@ figure a {
     top: 100%;
 }
 figcaption p {
-    margin: auto; 
+    margin: auto;
+    color:white; 
 }
 
