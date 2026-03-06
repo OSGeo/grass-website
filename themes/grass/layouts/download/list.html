@@ -27,7 +27,7 @@
       <div class="section bg-white mb-4">
         <div class="row nm">
           <div class="col-4 text-center">
-            <object type="image/svg+xml" data="{{.Site.BaseURL}}/images/logos/grass-logo/grass-green.svg" class="grasslogo"></object>
+            <img alt="GRASS logo" src="{{.Site.BaseURL}}/images/logos/grass-logo-simple/grass-green-no-text.svg" width="110" class="pull-right">
           </div>
           <div class="col-8">
             <h3 class="mt-20">GRASS source code</h3>
@@ -43,7 +43,9 @@
           {{ if not .Params.categories }}
           <div class="section bg-white mb-4">
             <div class="row nm">
-              <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/grass-{{.Title}}.jpg" width="110"></div>
+              <div class="col-4 text-center">
+                <img alt="GRASS logo" src="{{.Site.BaseURL}}/images/logos/grass-logo-simple/grass-green-no-text.svg" width="110" class="pull-right">
+              </div>
               <div class="col-8">
                 <h3 class="mt-2 mb-2">GRASS for {{ .Title }}</h3>
                 <p>{{ .Description }}</p>
@@ -55,7 +57,9 @@
           {{ end }}
           <div class="section bg-white mb-4">
             <div class="row nm">
-              <div class="col-4 text-center"><object type="image/svg+xml" data="{{.Site.BaseURL}}/images/logos/grass-logo/grass-green.svg" class="grasslogo"></object></div>
+              <div class="col-4 text-center">
+                <img alt="GRASS logo" src="{{.Site.BaseURL}}/images/logos/grass-logo-simple/grass-green-no-text.svg" width="110" class="pull-right">
+              </div>
               <div class="col-8">
                 <h3 class="mt-2 mb-2">GRASS Addons</h3>
                 <p>Download user contributed GRASS extensions</p>
@@ -66,7 +70,8 @@
 
           <div class="section bg-white mb-4">
             <div class="row nm">
-              <div class="col-4 text-center"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grass-SampleData.jpg"></div>
+              <div class="col-4 text-center">
+                <img alt="GRASS logo" src="{{.Site.BaseURL}}/images/logos/grass-logo-simple/grass-green-no-text.svg" width="110" class="pull-right"></div>
               <div class="col-8">
                 <h3 class="mt-2 mb-2">GRASS sample data</h3>
                 <p>Download ready-to-use GRASS sample datasets</p>

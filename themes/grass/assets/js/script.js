@@ -9,6 +9,17 @@
     };
     $(".navbar-brand span").lastWord();
 
+    // Dynamically match hero section offset to actual fixed header height.
+    // No ready() wrapper needed — scripts are loaded at end of <body>.
+    function adjustHeroOffset() {
+        var headerHeight = $('.fixed-top').outerHeight(true);
+        if (headerHeight) {
+            $('.mt-95').css('margin-top', headerHeight + 'px');
+        }
+    }
+    adjustHeroOffset();
+    $(window).on('resize', adjustHeroOffset);
+
 
     $( 'a' ).each(function() {
   if( location.hostname === this.hostname || !this.hostname.length ) {
