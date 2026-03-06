@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  hugo-dev:
+    image: hugomods/hugo:${HUGO_VERSION}
+    env_file:
+      - .env
+    environment:
+      - HUGO_ENVIRONMENT=development
+      - HUGO_ENV=development
+      - HUGO_EXTENDED=true
+      - NODE_VERSION=${NODE_VERSION}
+    working_dir: /src
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./:/src:delegated
+      - hugo_cache:/tmp/hugo_cache
+      - hugo_node_modules:/src/node_modules
+    command: >-
+      sh -c "apk add --no-cache nodejs npm curl bash
+      && npm install -g n
+      && n \"$NODE_VERSION\"
+      && node -v
+      && npm ci
+      && hugo serve --watch --bind 0.0.0.0 --port 1313"
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+volumes:
+  hugo_cache:
+    driver: local
+  hugo_node_modules:
+    driver: local
+
+  

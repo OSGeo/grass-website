@@ -46,20 +46,21 @@
       </div>
 
       <!-- Download button -->
-      <div class="col-md-2 text-center mb-4 mb-md-0">
-        <a class="btn btn-outline-white" href="/download/">Download</a>
-        <a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-white" target="_blank">
-          <i class="fa-solid fa-heart"></i> Donate
-        </a>
+      <div class="col-md-2 text-center text-md-left">
+        <div class="d-grid gap-2 mx-auto">
+          <a class="btn btn-outline-white" href="/download/">Download</a>
+          <a href="https://numfocus.org/donate-to-grass" class="btn btn-outline-white" target="_blank">
+            <i class="fa-solid fa-heart"></i> Donate
+          </a>
+        </div>
       </div>
-
     </div>
     
     <!-- Bottom row -->
     <div class="row mt-4 align-items-center">
       
       <!-- Left column: Copyright et al -->
-      <div class="col-md-6 text-md-left text-center">
+      <div class="col-md-6 text-md-left text-center mb-4 mb-md-0">
         <p class="mb-0 text-light small">
            {{ with .Site.Copyright }}
           &copy; {{ replace . "{year}" now.Year }} &nbsp;|&nbsp;
@@ -87,13 +88,18 @@
   </div>
 </footer>
 
-<!-- Load Bootstrap 5 bundle (includes Popper). Replace with a local Bootstrap 5 bundle if you prefer -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="" crossorigin="anonymous"></script>
-
 <!-- highlight & gallery -->
-<script src="{{ .Site.BaseURL }}plugins/highlight/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="{{ .Site.BaseURL }}plugins/gallery/photoswipe.js"></script>
+{{ $babel_opts := dict "noComments" true }}
+{{ $highlightjs := resources.Get "js/highlightjs/highlight.min.js" }}
+<script src="{{ $highlightjs.Permalink }}"></script>
+<script>
+  hljs.highlightAll();
+</script>
+
+{{ $babel_opts := dict "noComments" true }}
+{{ $photoswipe := resources.Get "js/photoswipe/photoswipe-lightbox.esm.js" }}
+{{- $photoswipe_transpiled := $photoswipe | babel $babel_opts | minify -}}
+<script src="{{ $photoswipe_transpiled.Permalink }}" type="module"></script>
 
 <!-- Bundle, minify and fingerprint js assets before loading -->
 {{ $contrib := resources.Get "js/contributor_ad.js" }}
