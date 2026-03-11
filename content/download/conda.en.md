@@ -37,7 +37,7 @@ mamba create -n grass -c conda-forge grass
 mamba activate grass
 ```
 
-### Environment file
+### Environment file with conda
 
 To create a reproducible environment, save the following as `environment.yml`:
 
@@ -54,6 +54,37 @@ Then create the environment with:
 ```bash
 conda env create -f environment.yml
 conda activate grass
+```
+
+### Install with pixi
+
+For faster dependency across multiple platforms, support for `pyproject.toml` and `environment.yml`, and global installation of tools use [pixi](https://pixi.prefix.dev/):
+
+```bash
+# Installing grass as part of a workspace
+pixi init name-of-my-project-using-grass
+cd name-of-my-project-using-grass
+pixi add grass
+# Activates a shell where grass is accessible
+pixi shell
+# Deactivate the shell
+exit
+```
+
+If you want to install GRASS as a globally available tool across your system without having to activate an environment:
+
+```bash
+pixi global install grass
+```
+
+### Environment file with pixi
+
+By default, dependencies for the workspace are stored in the `pixi.toml` file. The `pixi.lock` file is the machine-readable file that lists all of the dependencies for your workspace.
+
+If you're using pixi and want to share your environment with conda or mamba users:
+
+```bash
+pixi workspace export conda-environment environment.yml
 ```
 
 ### Usage
