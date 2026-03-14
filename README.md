@@ -1,138 +1,101 @@
-# Hugo theme for GRASS website
+# GRASS GIS Website Theme
 
-This repository contains the code of the GRASS project website: https://grass.osgeo.org/
+This repository contains the source code for the official **GRASS GIS project website**: [https://grass.osgeo.org/](https://grass.osgeo.org/)
 
-# Contribute
+---
 
-Below some instructions how to contribute by running a local instance for testing
-prior to commit changes as pull requests.
+## 🛠 Contribution Guide
 
-## Hugo version in the server
+Follow these instructions to run a local instance of the site for testing before submitting pull requests.
 
-Currently, the website is built with hugo version 0.113.0.
+### Environment Requirements
+* **Hugo Version:** The website is currently built with **Hugo v0.113.0**.
 
-## How to build your own local web server
+### Local Setup
 
-    git clone https://github.com/OSGeo/grass-website.git
-
-### Install Hugo
-
-    apt-get update
-
-    apt install hugo
-
-### Build pages locally
-
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/OSGeo/grass-website.git](https://github.com/OSGeo/grass-website.git)
     cd grass-website
+    ```
 
+2.  **Install Hugo:**
+    ```bash
+    sudo apt-get update
+    sudo apt install hugo
+    ```
+
+3.  **Build the project:**
+    This generates static HTML in the `/public` directory.
+    ```bash
     hugo
+    ```
 
-Output HTML generated in the /public directory at the root of the `grass-website` directory
-
-### Run server locally
-
-Run hugo development server from the `grass-website` root directory:
-
-    cd grass-website
-
+4.  **Run development server:**
+    Launch the server with live reloading:
+    ```bash
     hugo server
+    ```
+    Access the site at: [http://localhost:1313](http://localhost:1313)
 
-View the website running at  http://localhost:1313
+---
 
+## ✍️ Adding Content
 
-## How to add content
+Content is managed via `.md` files using Markdown. You may also use HTML markup for advanced formatting.
 
-Content must be created in .md files using markdown syntax. HTML markup can also be mixed with markdown for more advanced content presentation.
+* [Hugo Documentation](https://gohugo.io/documentation/)
+* [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+* [GRASS Website Style Guide](https://grass.osgeo.org/about/theme/)
 
-Useful resources:
- * [Hugo docs](https://gohugo.io/documentation/)
- * [Markdown guide](https://www.markdownguide.org/basic-syntax/)
- * [GRASS Website style guide](https://grass.osgeo.org/about/theme/)
+### News Items
+1.  Go to `content/news/`.
+2.  Create a new file: `mynewsitem.md`.
+3.  Add the basic Hugo header (Front Matter) including `title`, `date`, and `layout`.
+4.  Write your content in Markdown below the header.
+5.  Check the result at [http://localhost:1313/news/](http://localhost:1313/news/).
 
-### Add a news item
+### Content Pages
+1.  Go to the desired subdirectory (e.g., `content/about/`).
+2.  Create a new `.md` file with Hugo header and Markdown content. (**More info coming soon**).
+3.  If advanced presentation is required, create a template in `/themes/grass/layouts/`. (**More info coming soon**).
+4.  Update `config.toml` to add the page to the menu:
+    ```toml
+    [[Languages.en.menu.main]]
+    parent = "About"
+    name = "My new page"
+    URL = "/about/mypage"
+    weight = 1
+    ```
 
-* Head to the news directory
-     cd /grass-website/content/news
+### Events
+1.  Go to `content/events/`.
+2.  Create a file named `EVENT_NAME.md`.
+3.  Use the following template for the header:
+    ```yaml
+    title: "CONFERENCE NAME"
+    event:
+        start: YYYY-MM-DD
+        end: YYYY-MM-DD
+    where: CITY, COUNTRY
+    website: URL
+    layout: "event"
+    logo: images/conferences_logos/CONF_LOGO_YEAR.png
+    ```
+4.  Add your logo to `/images/conferences_logos/`.
+5.  **Note:** Events appear in the "Next Events" sidebar if they are among the top three upcoming dates.
 
-* Create new md file
-     sudo nano mynewsitem.md
+---
 
-* Add the basic header information for Hugo, at least title, date, layout
+## 📈 Search Engine Optimization (SEO)
 
-* Write content in mardown bellow
+* **Meta Descriptions:** If the `.md` file contains a `summary`, it is used as the meta description.
+* **Default:** If no summary is found, the general description defined in `config.toml` is used.
 
-* Rebuild if needed
+---
 
-      cd ../../
-     
-      hugo
+## 🚀 Submitting Changes
 
-* Check result at http://localhost:1313/news/
+If your local tests are successful, please submit your improvements as a **Pull Request**.
 
-### Create a new content page
-
-* Head to a content subdirectory, for example the one used for the About section
-     cd /grass-website/content/about
-
-* Create a new md file using the basic hugo header and markdown syntax
- (**more info coming soon**)
-
-* Create a specific template if advance page presentation is needed (see /themes/grass/layouts/)
-(**more info coming soon**)
-
-* Edit config.toml and add the new page as a new menu item as a children of the About section, as follows
-
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "My new page"
-          URL = "/about/mypage"
-          weight = 1
-
-* Rebuild if needed
-
-      cd ../../
-     
-      hugo
-
-* Check result at http://localhost:1313/about/mypage
-
-### Mind SEO
-
-Search engine optimization works like this:
-
-If the md file used for generating the page has a summary, its value is used as page meta description, otherwise the general description defined in `config.toml` is used by default.
-
-### Add new event
-
-* Head to the news directory
-     cd /grass-website/content/events
-
-* Create new md file
-     sudo nano EVENT_NAME.md
-
-* Use the following header information template for Hugo
-
-  title: "CONFERENCE NAME"
-  event:
-      start: YYYY-MM-DD
-      end: YYYY-MM-DD
-  where: CITY, COUNTRY
-  website: URL
-  layout: "event"
-  logo: images/conferences_logos/CONF_LOGO_YEAR.png
-
-
-* Add your logo to `/grass-website/images/conferences_logos` folder
-
-* Rebuild if needed
-
-      cd ../../
-     
-      hugo
-
-* Check result at http://localhost:1313/news/ in the `Next Events` section in the right sidebar.
-  Your event will show up only if it is one in the top three from today.
-
-### Submit your changes
-
-Like it? Then please submit your improvements as a new pull request.
+---
