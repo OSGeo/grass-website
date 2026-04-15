@@ -22,7 +22,7 @@ when
 
 - referring to GRASS GIS in general (e.g., in introductions or background sections)
 - describing workflows where the exact version is not critical
-- citing GRASS GIS as a long-term research tool or infrastructure
+- citing GRASS as a long-term research tool or infrastructure
 
 The concept DOI will always resolve to the latest version of GRASS and provide a
 stable reference to the software project over time.
@@ -31,7 +31,7 @@ stable reference to the software project over time.
 
 #### GRASS 8.x - GRASS 7.8.6
 
-Each GRASS GIS release has its own version DOI identifying a precise, archived
+Each GRASS release has its own version DOI identifying a precise, archived
 snapshot of the software (e.g., a specific 8.x release). All version DOI are
 linked to the concept DOI of the GRASS project.
 
@@ -40,33 +40,10 @@ linked to the concept DOI of the GRASS project.
   https://grass.osgeo.org,
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17733233.svg)](https://doi.org/10.5281/zenodo.17733233)
 
-- GRASS Development Team, 2025. Geographic Resources Analysis Support System
-  (GRASS) Software, Version 8.4.1 Open Source Geospatial Foundation.
-  https://grass.osgeo.org,
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14918754.svg)](https://doi.org/10.5281/zenodo.14918754)
-
-- GRASS Development Team, 2025. Geographic Resources Analysis Support System
-  (GRASS) Software, Version 8.4.0 Open Source Geospatial Foundation.
-  https://grass.osgeo.org,
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13102854.svg)](https://doi.org/10.5281/zenodo.13102854)
-
-- GRASS Development Team, 2025. Geographic Resources Analysis Support System
-  (GRASS) Software, Version 8.3.2 Open Source Geospatial Foundation.
-  https://grass.osgeo.org,
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10817962.svg)](https://doi.org/10.5281/zenodo.10817962)
-
 All GRASS releases going back to GRASS Version 7.8.6 can be cited by a version
 DOI. Please refer to the [GRASS Zenodo Landing Page
 ([https://stackoverflow.com](https://zenodo.org/search?q=parent.id%3A5176030&f=allversions%3Atrue&l=list&p=1&s=10&sort=version))][GRASS Zenodo Landing Page]
 GRASS Zenodo Landing Page for all specific version DOI.
-
-#### GRASS 7.8.5 - GRASS 1.x
-
-Earlier GRASS releases should be cited as
-
-- GRASS Development Team, 20xx. Geographic Resources Analysis Support System
-  (GRASS) Software, Version x.y.z. Open Source Geospatial Foundation.
-  https://grass.osgeo.org
 
 ### GRASS Programmer's Manual
 
