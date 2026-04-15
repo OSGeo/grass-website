@@ -41,9 +41,8 @@ linked to the concept DOI of the GRASS project.
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17733233.svg)](https://doi.org/10.5281/zenodo.17733233)
 
 All GRASS releases going back to GRASS Version 7.8.6 can be cited by a version
-DOI. Please refer to the [GRASS Zenodo Landing Page
-([https://stackoverflow.com](https://zenodo.org/search?q=parent.id%3A5176030&f=allversions%3Atrue&l=list&p=1&s=10&sort=version))][GRASS Zenodo Landing Page]
-GRASS Zenodo Landing Page for all specific version DOI.
+DOI. Please refer to the 
+[GRASS Zenodo Landing Page](https://zenodo.org/search?q=parent.id%3A5176030&f=allversions%3Atrue&l=list&p=1&s=10&sort=version) for all specific version DOI.
 
 ### GRASS Programmer's Manual
 
