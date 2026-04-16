@@ -65,7 +65,7 @@ conda env update --file environment.yml
 
 #### Python
 
-To use GRASS in Python scripts in the active environment,
+To use GRASS from a Python script in an active conda environment,
 add the GRASS Python package path to `sys.path`:
 
 ```python
