@@ -1,98 +1,122 @@
 ---
 title: "Sponsoring"
-date: 2025-05-21T11:02:05+06:00
+date: 2026-04-21T11:02:05+06:00
 layout: "general"
 ---
 
-## Sponsoring the GRASS project
+# Support GRASS Development
 
-<img src="/images/gallery/community/2018_grass_osgeo_codesprint_bonn_fotowall.jpg" width="55%" alt="Bonn code sprint 2018" style="float:right;padding-left:15px">
+<img src="/images/news/grass_table_talley.jpg"
+  alt="GRASS contributors listening to a talk on GRASS logo evolution"
+  title="GRASS contributors around the table"
+  width="45%" style="float:right;padding-left:15px">
 
-### Why sponsor?
+GRASS solves geospatial problems other tools can't.
+Whether you use it every day or once a year for a critical task,
+your work depends on it being maintained, reliable, and improving.
 
-*The GRASS project is a volunteer-based organization*, 
-it is hosted by the
-Open Source Geospatial Foundation ([OSGeo](https://osgeo.org/))
-and fiscally sponsored by [NumFOCUS](https://numfocus.org/).
+Sponsorship helps ensure a healthier ecosystem
+for everyone who develops and maintains GRASS.
+[Pick a tier](#sponsorship-tiers) and [become a sponsor](#become-a-sponsor).
 
-There is no cost to participate in the project itself or to use
-the software.
+## Why Sponsorship Is Needed
 
-But with our own budget we can produce even better software and
-documentation for you. And if you don't have time to contribute,
-maybe a donation will make you feel better about using GRASS in
-your company or research. Your financial support will also help
-us to build up the necessary effort and infrastructure to ensure
-the long-term sustainability of the project and the software.
+GRASS is a long-standing open-source geospatial engine with active development,
+deep scientific foundations, and a continuous stream of new tools and capabilities.
+However, it is currently developed and maintained by contributors
+working largely without dedicated funding.
 
-<div align="center">
-  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-download">
-    Support Us
-  </a>
-</div>
+Your sponsorship directly enables faster feature development, better documentation,
+reliable long-term maintenance, and coordinated progress
+on the [GRASS roadmap](https://grass.osgeo.org/about/roadmap/).
 
-### How we use the money
+Your support funds:
 
-The donations are controlled in full transparency by the GRASS
-Project Steering Committee ([PSC](/about/team)).
-Funds offered to GRASS will be used to support general GRASS efforts, in particular:
+* **Annual contributor meetings:** Getting contributors together in person
+  is the most effective way to move the project forward.
+  These events cost $15,000–$30,000 each year
+  and are the project's single largest expense.
+  They drive the development, bug fixing, and planning that keep GRASS reliable.
+* **Student grants:** Funding for students to contribute code, fix bugs,
+  write documentation, or create educational resources.
+  Experienced contributors and their employers volunteer their time
+  to mentor these students, deepening their engagement with the project
+  and building the next generation of maintainers.
+* **Future goals:** As sponsorship grows, we aim to fund dedicated developer time
+  and project management to ensure the long-term sustainability of GRASS.
 
-- the organization of face-to-face coding sessions or [**Community Sprints**](https://grasswiki.osgeo.org/wiki/Category:Code_Sprint), *financial support can be used to make developers' participation possible*
-- offering [**Student Grants**](https://grasswiki.osgeo.org/wiki/Student_Grants) to support students while they contribute with actual coding, bug fixing, documentation or creation of educational resources.
+Without sustained funding, the burden on current developers grows, coordination suffers,
+and there are fewer paths for new contributors to grow into project maintainers.
+GRASS has sustained itself through decades of challenges,
+but without funding, development slows down and risk increases.
 
-### How to become a sponsor?
+## Sponsorship Tiers
 
-We handle all donations and financial support through
-[**NumFOCUS**](https://numfocus.org/donate-to-grass).
-You can choose any donation amount—every contribution makes a difference.
+### Supporter: $2,500/year ($250/mo if billed monthly)
 
-If you're an organization interested in long-term support or public recognition,
-see the following sponsorship levels and please [contact us](/about/team)
-to discuss different sponsorship options.
+Five Supporter sponsors cut the amount that needs to be raised each year by half.
 
-{{< table "table table-striped table-bordered">}}
-|Tier   	|Amount (USD)  |
-|---	    |---	|
-|Diamond	|10000  |
-|Platinum	|5000  	|
-|Gold  	    |2000  	|
-|Silver  	|1000  	|
-|Bronze  	|500   	|
-{{</ table >}}
-<br>
-<div align="center">
-  <a href="https://numfocus.org/donate-to-grass" target="_blank" class="btn btn-download">
-    Sponsor Us
-  </a>
-</div>
+* Logo on [grass.osgeo.org](https://grass.osgeo.org)
+* Logo on the contributor meeting page and in the meeting report
+* Social media recognition (1×/year)
+* News post announcement
 
-### Sponsorship benefits
+### Partner: $10,000/year ($1,000/mo if billed monthly)
 
-All sponsors are important to the GRASS project, no matter
-what level of funding they commit to.
-In recognition of the different levels of sponsorship,
-each sponsor will receive specific benefits. These are mostly
-limited to logo sizes, announcements (via mailing list and website 
-news items) and social media posts ([X](https://x.com/GRASSGIS) 
-and [Fosstodon](https://fosstodon.org/@grassgis)) so far, 
-but as the PSC sees potential, we will extend the list of benefits 
-according to the level of support.
+Two Partner sponsors fund most of the annual contributor meeting costs.
 
-<div class="table-responsive-md">
-{{< table "table table-striped table-bordered">}}
-| **Sponsorship**  | **Diamond**  | **Platinum**  | **Gold**  | **Silver**  | **Bronze**  |
-|---|---|---|---|---|---|
-| Logo size  | 500x500  | 400x400  | 300x300  | 250x250  | 200x200  |
-| Announcement | press release  | news post  | news post  | news post  | ---  |
-| Social media  | 4 times  | 3 times  | 2 times  | 1 time  | ---  |
-{{</ table >}}
+* Everything in Supporter, plus:
+* Logo in the main [GitHub repository README file](https://github.com/OSGeo/grass#readme)
+* Listed on the NumFOCUS website
+* Mentioned in release announcements
+* Social media recognition (4×/year)
+* Press release announcement
+* Participation in Project Steering Committee (PSC) meetings
+  ([details below](#sponsorship-details))
 
-</div>
+Invoicing is available for both tiers.
+We are happy to work with your budget cycle.
 
-### Our Sponsors and supporters
+### Contribute Without a Tier
 
-Many thanks to all our supporters and sponsors throughout the years!
+You can also contribute any amount to support GRASS
+through [NumFOCUS](https://numfocus.org/donate-to-grass).
+Three $500 contributions fund a typical student grant.
+We are grateful for every contribution.
 
-Please refer to the [List of Sponsors](https://grasswiki.osgeo.org/wiki/Sponsors)
-in the GRASS Wiki for details.
+## Become a Sponsor
 
+To start a sponsorship or discuss options, contact Vaclav Petras (wenzeslaus@gmail.com),
+[GRASS PSC](https://grass.osgeo.org/about/team/) Member and Project Treasurer.
+
+We will confirm your tier, collect logo details,
+and coordinate invoicing and payment through NumFOCUS.
+Custom arrangements are possible for organizations
+with larger commitments or specific goals.
+
+## Current Sponsors
+
+[Bohannan Huston, Inc.](https://bhinc.com/) has sponsored GRASS since 2021.
+
+The [Open Source Geospatial Foundation (OSGeo)](https://www.osgeo.org/)
+provides infrastructure for the project including hosting,
+documentation builds, and discussion platforms,
+and supports contributor travel and community events.
+[FOSSGIS e.V.](https://www.fossgis.de/) has contributed
+to the annual contributor meeting expenses.
+
+## Sponsorship Details
+
+GRASS is a community-driven project
+hosted by the Open Source Geospatial Foundation (OSGeo)
+and fiscally sponsored by NumFOCUS, a 501(c)(3) nonprofit.
+Contributions may be tax-deductible.
+NumFOCUS accepts payments in multiple currencies.
+
+GRASS is governed by an elected PSC.
+All funds are managed transparently by the PSC.
+See [governance](https://grass.osgeo.org/about/governance/) for details.
+
+Partner sponsors are invited to participate in regular PSC meetings
+to share priorities and provide input on project direction.
+Input is welcomed and heard; it is not binding on the PSC's decisions.
