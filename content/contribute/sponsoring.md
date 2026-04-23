@@ -79,8 +79,8 @@ We are happy to work with your budget cycle.
 
 ### Contribute Without a Tier
 
-You can also contribute any amount to support GRASS
-through [NumFOCUS](https://numfocus.org/donate-to-grass).
+You can also contribute any amount to
+[support GRASS through NumFOCUS](https://numfocus.org/donate-to-grass).
 Three $500 contributions fund a typical student grant.
 We are grateful for every contribution.
 
