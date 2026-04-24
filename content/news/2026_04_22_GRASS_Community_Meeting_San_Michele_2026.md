@@ -44,7 +44,7 @@ facilities let participants **work, sleep, and eat in the same location**,
 keeping the community together for the full week. Trento is also the host
 city of [FOSS4G Italy 2026](https://2026.foss4g.it/) (July 9–11), making it
 easy to combine both events. Also, **the place is absolutely gorgeous**, with
-vineyards and the Dolomites rising just beyond the campus.
+vineyards and the foothills of Dolomites just beyond the campus.
 
 <img src="/images/news/san_michele.JPG"
   alt="San Michele All'Adige"
