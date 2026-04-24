@@ -46,9 +46,9 @@ city of [FOSS4G Italy 2026](https://2026.foss4g.it/) (July 9–11), making it
 easy to combine both events. Also, **the place is absolutely gorgeous**, with
 vineyards and the Dolomites rising just beyond the campus.
 
-<img src="/images/news/2024_community_meeting_collage.png"
-  alt="GRASS Community Meeting in Prague, 2024"
-  title="GRASS Community Meeting in Prague, 2024"
+<img src="/images/news/san_michele.JPG"
+  alt="San Michele All'Adige"
+  title="San Michele All'Adige"
   width="55%" style="float:left;padding-right:25px;padding-top:15px">
 
 ## Sign up and stay tuned
