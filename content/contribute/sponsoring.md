@@ -17,7 +17,7 @@ your work depends on it being maintained, reliable, and improving.
 
 Sponsorship helps ensure a healthier ecosystem
 for everyone who develops and maintains GRASS.
-[Pick a tier](#sponsorship-tiers) and [become a sponsor](#become-a-sponsor).
+[Pick a tier](#sponsorship-tiers) or [discuss your options](#become-a-sponsor).
 
 ## Why Sponsorship Is Needed
 
