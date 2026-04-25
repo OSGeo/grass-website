@@ -61,6 +61,11 @@ Five Supporter sponsors cut the amount that needs to be raised each year by half
 * Social media recognition (1×/year)
 * News post announcement
 
+<p>
+  <a href="https://numfocus.org/donate-to-grass" class="inl btn btn-primary" target="_blank">Sponsor directly</a>
+  <a href="mailto:wenzeslaus@gmail.com?subject=GRASS%20Sponsorship%3A%20Supporter%20invoice%20request&body=Hi%20Vaclav%2C%0A%0AI%27d%20like%20to%20request%20an%20invoice%20for%20a%20GRASS%20Supporter%20sponsorship%20(%242%2C500%2Fyear).%0A%0AOrganization%20name%3A%0ABilling%20contact%20and%20email%3A%0ABilling%20address%3A%0APreferred%20billing%20schedule%20(annual%20or%20monthly)%3A%0APurchase%20order%20number%20(if%20any)%3A%0A%0AThanks%2C%0A" class="inl btn btn-secondary">Request invoice</a>
+</p>
+
 ### Partner: $10,000/year ($1,000/mo if billed monthly)
 
 Two Partner sponsors fund most of the annual contributor meeting costs.
@@ -74,6 +79,11 @@ Two Partner sponsors fund most of the annual contributor meeting costs.
 * Participation in Project Steering Committee (PSC) meetings
   ([details below](#sponsorship-details))
 
+<p>
+  <a href="mailto:wenzeslaus@gmail.com?subject=GRASS%20Sponsorship%3A%20Partner%20inquiry&body=Hi%20Vaclav%2C%0A%0AOur%20organization%20is%20interested%20in%20becoming%20a%20GRASS%20Partner%20sponsor%20and%20would%20like%20to%20discuss%20next%20steps.%0A%0AOrganization%20name%3A%0AContact%20person%20and%20role%3A%0APreferred%20timeline%20or%20budget%20cycle%3A%0A%0AThanks%2C%0A" class="inl btn btn-primary">Get more info</a>
+  <a href="mailto:wenzeslaus@gmail.com?subject=GRASS%20Sponsorship%3A%20Partner%20invoice%20request&body=Hi%20Vaclav%2C%0A%0AOur%20organization%20would%20like%20to%20request%20an%20invoice%20for%20a%20GRASS%20Partner%20sponsorship%20(%2410%2C000%2Fyear)%20and%20discuss%20what%20is%20needed.%0A%0AOrganization%20name%3A%0AContact%20person%20and%20role%3A%0APreferred%20timeline%20or%20budget%20cycle%3A%0ABilling%20contact%20and%20email%3A%0ABilling%20address%3A%0APreferred%20billing%20schedule%20(annual%20or%20monthly)%3A%0APurchase%20order%20number%20(if%20any)%3A%0A%0AThanks%2C%0A" class="inl btn btn-secondary">Request invoice</a>
+</p>
+
 Invoicing is available for both tiers.
 We are happy to work with your budget cycle.
 
@@ -83,6 +93,10 @@ You can also contribute any amount to
 [support GRASS through NumFOCUS](https://numfocus.org/donate-to-grass).
 Three $500 contributions fund a typical student grant.
 We are grateful for every contribution.
+
+<p>
+  <a href="https://numfocus.org/donate-to-grass" class="inl btn btn-primary" target="_blank">Donate</a>
+</p>
 
 ## Become a Sponsor
 
@@ -96,7 +110,7 @@ with larger commitments or specific goals.
 
 ## Current Sponsors
 
-[Bohannan Huston, Inc.](https://bhinc.com/) has sponsored GRASS since 2021.
+We thank [Bohannan Huston, Inc.](https://bhinc.com/) for their continued sponsorship of GRASS since 2021.
 
 The [Open Source Geospatial Foundation (OSGeo)](https://www.osgeo.org/)
 provides infrastructure for the project including hosting,
