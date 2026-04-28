@@ -35,7 +35,7 @@ Your support funds:
 <img src="/images/other/code_sprint_2024.jpg"
   alt="Attendees of GRASS Community Meeting 2024"
   title="GRASS Community Meeting 2024"
-  width="40%" style="float:right;padding-left:20px">
+  width="40%" style="float:right;padding-left:10px">
 
 * **Annual contributor meetings:** Getting contributors together in person
   is the most effective way to move the project forward.
