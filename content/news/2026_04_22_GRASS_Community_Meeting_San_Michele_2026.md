@@ -1,6 +1,6 @@
 ---
 title: "GRASS Community Meeting 2026 Announcement"
-date: 2026-04-24T10:12:42-05:00
+date: 2026-04-28T02:15:00-04:00
 layout: "news"
 author: Vaclav Petras
 ---
