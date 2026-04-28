@@ -6,10 +6,10 @@ layout: "general"
 
 # Support GRASS Development
 
-<img src="/images/news/grass_table_talley.jpg"
-  alt="GRASS contributors listening to a talk on GRASS logo evolution"
-  title="GRASS contributors around the table"
-  width="45%" style="float:right;padding-left:15px">
+<img src="/images/other/NCSU_Grass_Developer_Summit-1.JPG"
+  alt="Presenting application at GRASS Developer Summit 2025"
+  title="Presenting application at GRASS Developer Summit 2025"
+  width="45%" style="float:left;padding-right:20px">
 
 GRASS solves geospatial problems other tools can't.
 Whether you use it every day or once a year for a critical task,
@@ -32,6 +32,11 @@ on the [GRASS roadmap](https://grass.osgeo.org/about/roadmap/).
 
 Your support funds:
 
+<img src="/images/other/code_sprint_2024.jpg"
+  alt="Attendees of GRASS Community Meeting 2024"
+  title="GRASS Community Meeting 2024"
+  width="40%" style="float:right;padding-left:20px">
+
 * **Annual contributor meetings:** Getting contributors together in person
   is the most effective way to move the project forward.
   These events cost $15,000–$30,000 each year
@@ -53,6 +58,11 @@ but without funding, development slows down and risk increases.
 ## Sponsorship Tiers
 
 ### Supporter: $2,500/year ($250/mo if billed monthly)
+
+<img src="/images/other/NCSU_Grass_Developer_Summit-2.jpg"
+  alt="Working at GRASS Developer Summit 2025"
+  title="Working at GRASS Developer Summit 2025"
+  width="40%" style="float:right;padding-left:10px">
 
 Five Supporter sponsors cut the amount that needs to be raised each year by half.
 
