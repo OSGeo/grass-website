@@ -1628,6 +1628,17 @@ code {
     }
 }
 
+/* Offset anchor jumps so headings clear the fixed header (same stack
+   measured by .mt-95 above) and leave a small gap below the bar. */
+html {
+    scroll-padding-top: 6.25rem;
+}
+@media (max-width: 991px) {
+    html {
+        scroll-padding-top: 5rem;
+    }
+}
+
 .carousel-item-container {
   position: relative;
   display: inline-block;
