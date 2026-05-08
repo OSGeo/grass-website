@@ -120,4 +120,4 @@ Congratulations everyone on an exceptional release.
 
 ---
 
-*This post was prepared by Vaclav Petras on behalf of the GRASS community. The release itself is the work of a broad community of contributors, many of them acknowledged above, and many more visible on [GitHub](https://github.com/OSGeo/grass/graphs/contributors?from=7%2F27%2F2024&to=5%2F2%2F2026) and other places.*
+*This post was prepared by Vaclav Petras on behalf of the GRASS community. The release itself is the work of a broad community of contributors, many of them acknowledged above, and many more visible on [GitHub](https://github.com/OSGeo/grass/graphs/contributors?from=7%2F27%2F2024&to=5%2F8%2F2026) and other places.*
