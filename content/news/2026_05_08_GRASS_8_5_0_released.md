@@ -20,12 +20,11 @@ This is also the first release under our refreshed branding, aligned with OSGeo'
 
 ## A step change for Python users
 
-<!-- TODO: replace placeholder image with an 8.5.0 Python/docs screenshot -->
-<a href="/images/news/i_sam2_addon.jpg">
-<img src="/images/news/i_sam2_addon.jpg"
-  alt="GRASS 8.5.0 (placeholder image — replace before publish)"
-  title="Placeholder"
-  width="45%" style="float:left;padding-right:25px;padding-top:20px">
+<a href="/images/news/i.hyper_example.jpg">
+<img src="/images/news/i.hyper_example.jpg"
+  alt="PRISMA SWIR-geology composite generated with i.hyper.import"
+  title="PRISMA SWIR-geology composite generated with i.hyper.import"
+  width="40%" style="float:left;padding-right:25px;padding-top:20px">
 </a>
 
 The biggest story in 8.5.0 is how much better GRASS feels from Python. Three changes, each substantial on their own, combine to transform the experience.
