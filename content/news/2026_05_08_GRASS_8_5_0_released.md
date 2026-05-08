@@ -30,11 +30,11 @@ This is also the first release under our refreshed branding, aligned with OSGeo'
 
 The biggest story in 8.5.0 is how much better GRASS feels from Python. Three changes, each substantial on their own, combine to transform the experience.
 
-**A new Python API.** The [*grass.tools* subpackage](https://grass.osgeo.org/grass85/manuals/python_intro.html) presents GRASS tools as native Python functions, with direct NumPy array and raster pack I/O, smart return values, and proper exception handling. It was developed by Vaclav Petras and Anna Petrasova in collaboration with [Natrx](https://www.natrx.io/), a company focused on coastal infrastructure. This is a good example of how commercial applications of GRASS can produce improvements that benefit the entire open-source community.
+**A new Python API.** The [*grass.tools* subpackage](https://grass.osgeo.org/grass85/manuals/python_intro.html) presents GRASS tools as native Python functions, with direct NumPy array and raster pack I/O, smart return values, and proper exception handling. It was developed by Václav Petráš and Anna Petrášová in collaboration with [Natrx](https://www.natrx.io/), a company focused on coastal infrastructure. This is a good example of how commercial applications of GRASS can produce improvements that benefit the entire open-source community.
 
-**JSON output, nearly everywhere.** Dozens of tools now support `format="json"`, including *g.list*, *g.region*, *r.info*, *r.univar*, *r.stats*, *r.report*, *v.info*, *v.what*, *v.db.connect*, and many more. The effort was led and reviewed by Anna Petrasova, Vaclav Petras, Corey White, Edouard Choinière, Nicklas Larsson, and Markus Metz, with major contributions from Google Summer of Code participants Nishant Bansal and Kriti Birda, and others. Parsing GRASS output in Python used to mean string manipulation or custom wrappers. Now it is a single call to *json.loads*, or nothing at all, since *grass.tools* handles it internally.
+**JSON output, nearly everywhere.** Dozens of tools now support `format="json"`, including *g.list*, *g.region*, *r.info*, *r.univar*, *r.stats*, *r.report*, *v.info*, *v.what*, *v.db.connect*, and many more. The effort was led and reviewed by Anna Petrášová, Václav Petráš, Corey White, Edouard Choinière, Nicklas Larsson, and Markus Metz, with major contributions from Google Summer of Code participants Nishant Bansal and Kriti Birda, and others. Parsing GRASS output in Python used to mean string manipulation or custom wrappers. Now it is a single call to *json.loads*, or nothing at all, since *grass.tools* handles it internally.
 
-**New documentation.** The entire user documentation has been rewritten in Markdown and rendered with MkDocs. Every tool's manual page now shows tabs for **Command line**, **Python (grass.tools)**, and **Python (grass.script)** usage: the same example, three ways. The work was done by Martin Landa, Markus Neteler, Corey White, Vaclav Petras, Anna Petrasova, and a long list of contributors.
+**New documentation.** The entire user documentation has been rewritten in Markdown and rendered with MkDocs. Every tool's manual page now shows tabs for **Command line**, **Python (grass.tools)**, and **Python (grass.script)** usage: the same example, three ways. The work was done by Martin Landa, Markus Neteler, Corey White, Václav Petráš, Anna Petrášová, and a long list of contributors.
 
 The net effect: someone coming to GRASS from the Python data-science ecosystem can now find a tool in the docs, copy a working Python snippet, call it as a function, and read the result as a structured object. Workflows that previously required a wrapper module or careful string parsing now compose with the rest of a Python script the way any other library does.
 
@@ -54,7 +54,14 @@ The net effect: someone coming to GRASS from the Python data-science ecosystem c
 
 **Expanded *grass.jupyter*.** A query button and drawing of simple geometries in *InteractiveMap*, interactive computational region updates, parallelization in *TimeSeriesMap* and *SeriesMap*, and a *save()* method for *Map3D* are now part of the package.
 
-**GUI improvements.** Projects can be added directly in the Data Catalog, column statistics can be computed on SQL-filtered or interactively selected rows in the attribute table manager, the Python editor is now dockable, the command history panel supports copying commands, and the Graphical Modeler variable syntax has changed from `%variable` to `%{variable}`. Major GUI work came from Martin Landa, Tomáš Zigo, Ondřej Pešek, Anna Petrasova, Linda Karlovska, and others.
+**GUI improvements.** Projects can be added directly in the Data Catalog, column statistics can be computed on SQL-filtered or interactively selected rows in the attribute table manager, the Python editor is now dockable, the command history panel supports copying commands, and the Graphical Modeler variable syntax has changed from `%variable` to `%{variable}`. Major GUI work came from Martin Landa, Tomáš Zigo, Ondřej Pešek, Anna Petrášová, Linda Karlovská, and others.
+
+<a href="/images/news/hydroflatten.webp">
+<img src="/images/news/hydroflatten.webp"
+  alt="r.hydroflatten addon"
+  title="New r.hydroflatten addon"
+  width="40%" style="float:left;padding-right:25px;padding-top:5px">
+</a>
 
 **New tools:** *r.smooth.edgepreserve* for edge-preserving raster smoothing and *r.mask.status* to report presence of 2D raster mask. **New addon tools:** *i.hyper*, *i.sam2*, *r.buildvrt.gdal*, *r.colors.qml*, *r.colors.toqml*, *r.curvenumber*, *r.earthworks*, *r.gravity.terrain*, *r.hand*, *r.hydrobasin*, *r.in.vect*, *r.lfp*, *r.manning*, *r.maxent.setup*, *r.runoff*, *r.slopeunits*, *r.stone*, *r.timeofconcentration*, *r.windfetch*, *t.stac*, and *v.surf.rst.cv*.
 
@@ -70,7 +77,7 @@ The full list of changes is available in the [detailed announcement on GitHub](h
 
 A release of this scale doesn't come from any one person or team. Across the two-year development cycle, over **70 people** contributed commits to the main repository. Over thirty first-time contributors are acknowledged in the release notes alone.
 
-The top code contributors across the release, by commit count, were Edouard Choinière, Shubham Desai, Vaclav Petras, Nicklas Larsson, Arohan Ajit, Anna Petrasova, Nishant Bansal, Markus Neteler, Ondřej Pešek, and Corey White. The top reviewers were Edouard Choinière, Anna Petrasova, Nicklas Larsson, Vaclav Petras, and Stefan Blumentrath. Release management for 8.5.0 was led by Markus Neteler.
+The top code contributors across the release, by commit count, were Edouard Choinière, Shubham Desai, Václav Petráš, Nicklas Larsson, Arohan Ajit, Anna Petrášová, Nishant Bansal, Markus Neteler, Ondřej Pešek, and Corey White. The top reviewers were Edouard Choinière, Anna Petrášová, Nicklas Larsson, Václav Petráš, and Stefan Blumentrath. Release management for 8.5.0 was led by Markus Neteler.
 
 If this release feels like more than the sum of its parts, it's because the community coordinated deliberately to make it so. Two years of work is what made it possible for the Python API, the JSON outputs, and the rewritten documentation to reinforce each other rather than arrive one at a time, along with hundreds of smaller improvements across the GUI, parallelization, security, and build systems.
 
@@ -120,4 +127,4 @@ Congratulations everyone on an exceptional release.
 
 ---
 
-*This post was prepared by Vaclav Petras on behalf of the GRASS community. The release itself is the work of a broad community of contributors, many of them acknowledged above, and many more visible on [GitHub](https://github.com/OSGeo/grass/graphs/contributors?from=7%2F27%2F2024&to=5%2F8%2F2026) and other places.*
+*This post was prepared by Václav Petráš on behalf of the GRASS community. The release itself is the work of a broad community of contributors, many of them acknowledged above, and many more visible on [GitHub](https://github.com/OSGeo/grass/graphs/contributors?from=7%2F27%2F2024&to=5%2F8%2F2026) and other places.*
