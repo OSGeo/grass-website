@@ -99,8 +99,8 @@ If you would like to help sustain this work, you can [**donate to GRASS through 
 
 ## Software download
 
-<a href="/images/news/PXL_20240614_113252477.PORTRAIT.jpg">
-<img src="/images/news/PXL_20240614_113252477.PORTRAIT.jpg"
+<a href="/images/news/Prague_meeting_2024.jpg">
+<img src="/images/news/Prague_meeting_2024.jpg"
   alt="GRASS contributors group picture next to Hunt Library, NC State"
   title="GRASS contributors group picture"
   width="60%" style="float:right;padding-left:25px;padding-top:20px">
