@@ -5,8 +5,6 @@ layout: "news"
 author: Vaclav Petras
 ---
 
-## Two years in the making
-
 <a href="/images/logos/grass-logo/grass-logo-gradient-transparent@2x.png">
 <img src="/images/logos/grass-logo/grass-logo-gradient-transparent@2x.png"
   alt="GRASS logo"
@@ -14,9 +12,11 @@ author: Vaclav Petras
   width="30%" style="float:right;padding-left:25px;padding-bottom:25px">
 </a>
 
+## Two years in the making
+
 GRASS 8.5.0 is here. This feature release contains more than **2515 changes**, the result of **two years of focused work** by the GRASS community. We deliberately postponed what would have been a 2025 release so that several interlocking pieces could land together: a new Python API, JSON output across dozens of tools, and a complete rewrite of the documentation. These changes are more useful together than they would have been in sequence, and they took time to do well.
 
-This is also the first release under our refreshed branding, aligned with OSGeo's branding. The project has readopted its original name, **GRASS**, with a [new logo and visual identity](https://grass.osgeo.org/news/2025_04_29_grass_branding_update/).
+This is also the first release under our refreshed branding, aligned with OSGeo's branding. The project has readopted its original name, **GRASS**, with a [new logo and visual identity](/news/2025_04_29_grass_branding_update/).
 
 ## A step change for Python users
 
@@ -29,9 +29,16 @@ This is also the first release under our refreshed branding, aligned with OSGeo'
 
 The biggest story in 8.5.0 is how much better GRASS feels from Python. Three changes, each substantial on their own, combine to transform the experience.
 
-**A new Python API.** The [*grass.tools* subpackage](https://grass.osgeo.org/grass85/manuals/python_intro.html) presents GRASS tools as native Python functions, with direct NumPy array and raster pack I/O, smart return values, and proper exception handling. It was developed by Václav Petráš and Anna Petrášová in collaboration with [Natrx](https://www.natrx.io/), a company focused on coastal infrastructure. This is a good example of how commercial applications of GRASS can produce improvements that benefit the entire open-source community.
+**A new Python API.** The [*grass.tools* subpackage](/grass85/manuals/python_intro.html) presents GRASS tools as native Python functions, with direct NumPy array and raster pack I/O, smart return values, and proper exception handling. It was developed by Václav Petráš and Anna Petrášová in collaboration with [Natrx](https://www.natrx.io/), a company focused on coastal infrastructure. This is a good example of how commercial applications of GRASS can produce improvements that benefit the entire open-source community.
 
 **JSON output, nearly everywhere.** Dozens of tools now support `format="json"`, including *g.list*, *g.region*, *r.info*, *r.univar*, *r.stats*, *r.report*, *v.info*, *v.what*, *v.db.connect*, and many more. The effort was led and reviewed by Anna Petrášová, Václav Petráš, Corey White, Edouard Choinière, Nicklas Larsson, and Markus Metz, with major contributions from Google Summer of Code participants Nishant Bansal and Kriti Birda, and others. Parsing GRASS output in Python used to mean string manipulation or custom wrappers. Now it is a single call to *json.loads*, or nothing at all, since *grass.tools* handles it internally.
+
+<a href="/images/news/grass_8_5_doc_tabs.png">
+<img src="/images/news/grass_8_5_doc_tabs.png"
+  alt="v.overlay page in the new GRASS 8.5 documentation, showing tabs for Command line, Python (grass.tools), and Python (grass.script) usage with the Python (grass.tools) tab selected"
+  title="v.overlay page in the new GRASS 8.5 documentation"
+  width="30%" style="float:right;padding-left:25px;padding-top:5px">
+</a>
 
 **New documentation.** The entire user documentation has been rewritten in Markdown and rendered with MkDocs. Every tool's manual page now shows tabs for **Command line**, **Python (grass.tools)**, and **Python (grass.script)** usage: the same example, three ways. The work was done by Martin Landa, Markus Neteler, Corey White, Václav Petráš, Anna Petrášová, and a long list of contributors.
 
@@ -90,7 +97,7 @@ Translations continue in [Weblate](https://weblate.osgeo.org/projects/grass-gis/
 
 ## Support the project
 
-This release was supported in part by the U.S. National Science Foundation (awards [#2303651](https://grass.osgeo.org/news/2023_09_06_nsf_grant_awarded/) and [#2322073](https://grass.osgeo.org/news/2025_12_31_annual_report#development-activity)), along with sponsor contributions and individual donors. Yet many people contribute to GRASS without any dedicated financial support.
+This release was supported in part by the U.S. National Science Foundation (awards [#2303651](/news/2023_09_06_nsf_grant_awarded/) and [#2322073](/news/2025_12_31_annual_report#development-activity)), along with sponsor contributions and individual donors. Yet many people contribute to GRASS without any dedicated financial support.
 
 The project is now a [NumFOCUS Fiscally Sponsored Project](https://numfocus.org/sponsored-projects), alongside our long-standing status as an OSGeo Project. This provides a stable path for financial contributions to the project.
 
@@ -124,9 +131,9 @@ Packaging for these platforms is underway.
 ## More about GRASS
 
 - Explore our [tutorials](https://grass-tutorials.osgeo.org/), covering both introductory material and advanced topics.
-- See the [tool manual pages](https://grass.osgeo.org/grass85/manuals/) for details and examples.
-- [Get in touch with us.](https://grass.osgeo.org/about/community/)
-- Feel like supporting the project? [Donate](https://numfocus.org/donate-to-grass) or [sponsor us](https://grass.osgeo.org/about/sponsors/)!
+- See the [tool manual pages](/grass85/manuals/) for details and examples.
+- [Get in touch with us.](/about/community/)
+- Feel like supporting the project? [Donate](https://numfocus.org/donate-to-grass) or [sponsor us](/about/sponsors/)!
 
 Congratulations everyone on an exceptional release.
 
