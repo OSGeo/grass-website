@@ -10,7 +10,7 @@ author: Vaclav Petras
 <a href="/images/logos/grass-logo/grass-logo-gradient-transparent@2x.png">
 <img src="/images/logos/grass-logo/grass-logo-gradient-transparent@2x.png"
   alt="GRASS logo"
-  title="GRASS"
+  title="Gradient version of the GRASS logo"
   width="30%" style="float:right;padding-left:25px;padding-bottom:25px">
 </a>
 
@@ -23,7 +23,7 @@ This is also the first release under our refreshed branding, aligned with OSGeo'
 <a href="/images/news/i.hyper_example.jpg">
 <img src="/images/news/i.hyper_example.jpg"
   alt="PRISMA SWIR-geology composite generated with i.hyper.import"
-  title="PRISMA SWIR-geology composite generated with i.hyper.import"
+  title="PRISMA SWIR-geology composite generated with the new i.hyper.import addon tool"
   width="40%" style="float:left;padding-right:25px;padding-top:20px">
 </a>
 
@@ -39,11 +39,10 @@ The net effect: someone coming to GRASS from the Python data-science ecosystem c
 
 ## More highlights
 
-<!-- TODO: replace placeholder image with an 8.5.0 highlights screenshot -->
-<a href="/images/news/grass840_gui_multiple_map_displays_and_history.png">
-<img src="/images/news/grass840_gui_multiple_map_displays_and_history.png"
-  alt="GRASS 8.5.0 (placeholder image — replace before publish)"
-  title="Placeholder"
+<a href="/images/news/r_earthworks_road.webp">
+<img src="/images/news/r_earthworks_road.webp"
+  alt="Animated DEM with contour lines, alternating between the original hillside and the same hillside after a road is graded across it with cut-and-fill earthworks using r.earthworks"
+  title="Road graded into a hillside with cut-and-fill earthworks, created with the new r.earthworks addon tool"
   width="45%" style="float:right;padding-left:25px;padding-top:20px">
 </a>
 
@@ -57,8 +56,8 @@ The net effect: someone coming to GRASS from the Python data-science ecosystem c
 
 <a href="/images/news/hydroflatten.webp">
 <img src="/images/news/hydroflatten.webp"
-  alt="r.hydroflatten addon"
-  title="New r.hydroflatten addon tool"
+  alt="3D shaded-relief view of a valley reservoir whose water surface has been flattened in the DEM with r.hydroflatten"
+  title="Reservoir surface flattened in a DEM with the new r.hydroflatten addon tool"
   width="40%" style="float:left;padding-right:25px;padding-top:5px">
 </a>
 
@@ -76,8 +75,8 @@ The full list of changes is available in the [detailed announcement on GitHub](h
 
 <a href="/images/news/NCSU_developer_summit_stairs.jpg">
 <img src="/images/news/NCSU_developer_summit_stairs.jpg"
-  alt="GRASS contributors group picture in Talley Student Center, NC State"
-  title="GRASS contributors group picture"
+  alt="Group of GRASS contributors on the stairs of Talley Student Center at the 2025 Developer Summit in Raleigh, NC"
+  title="GRASS contributors at the 2025 Developer Summit in Raleigh"
   width="40%" style="float:right;padding-left:25px;padding-top:20px">
 </a>
 
@@ -101,8 +100,8 @@ If you would like to help sustain this work, you can [**donate to GRASS through 
 
 <a href="/images/news/Prague_meeting_2024.jpg">
 <img src="/images/news/Prague_meeting_2024.jpg"
-  alt="GRASS contributors group picture next to Hunt Library, NC State"
-  title="GRASS contributors group picture"
+  alt="Two GRASS contributors collaborating over a laptop at the 2024 Community Meeting in Prague"
+  title="GRASS contributors at the 2024 Community Meeting in Prague"
   width="60%" style="float:right;padding-left:25px;padding-top:20px">
 </a>
 
