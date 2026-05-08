@@ -14,7 +14,7 @@ author: Vaclav Petras
 
 ## Two years in the making
 
-GRASS 8.5.0 is here. This feature release contains more than **2515 changes**, the result of **two years of focused work** by the GRASS community. We deliberately postponed what would have been a 2025 release so that several interlocking pieces could land together: a new Python API, JSON output across dozens of tools, and a complete rewrite of the documentation. These changes are more useful together than they would have been in sequence, and they took time to do well.
+GRASS 8.5.0 is here. This feature release contains more than **2570 changes**, the result of **two years of focused work** by the GRASS community. We deliberately postponed what would have been a 2025 release so that several interlocking pieces could land together: a new Python API, JSON output across dozens of tools, and a complete rewrite of the documentation. These changes are more useful together than they would have been in sequence, and they took time to do well.
 
 This is also the first release under our refreshed branding, aligned with OSGeo's branding. The project has readopted its original name, **GRASS**, with a [new logo and visual identity](/news/2025_04_29_grass_branding_update/).
 
@@ -22,7 +22,7 @@ This is also the first release under our refreshed branding, aligned with OSGeo'
 
 <a href="/images/news/i.hyper_example.jpg">
 <img src="/images/news/i.hyper_example.jpg"
-  alt="PRISMA SWIR-geology composite generated with i.hyper.import"
+  alt="PRISMA SWIR-geology composite generated with the new i.hyper.import addon tool"
   title="PRISMA SWIR-geology composite generated with the new i.hyper.import addon tool"
   width="40%" style="float:left;padding-right:25px;padding-top:20px">
 </a>
@@ -68,7 +68,7 @@ The net effect: someone coming to GRASS from the Python data-science ecosystem c
   width="40%" style="float:left;padding-right:25px;padding-top:5px">
 </a>
 
-**New tools:** *r.smooth.edgepreserve* for edge-preserving raster smoothing and *r.mask.status* to report presence of 2D raster mask. **New addon tools:** *i.hyper*, *i.sam2*, *r.buildvrt.gdal*, *r.colors.qml*, *r.colors.toqml*, *r.curvenumber*, *r.earthworks*, *r.gravity.terrain*, *r.hand*, *r.hydrobasin*, *r.in.vect*, *r.lfp*, *r.manning*, *r.maxent.setup*, *r.runoff*, *r.slopeunits*, *r.stone*, *r.timeofconcentration*, *r.windfetch*, *t.stac*, and *v.surf.rst.cv*.
+**New tools:** *r.smooth.edgepreserve* for edge-preserving raster smoothing and *r.mask.status* to report presence of 2D raster mask. **New addon tools:** *i.hyper*, *i.sam2*, *r.buildvrt.gdal*, *r.colors.qml*, *r.colors.toqml*, *r.curvenumber*, *r.earthworks*, *r.gravity.terrain*, *r.hand*, *r.hydrobasin*, *r.hydroflatten*, *r.in.vect*, *r.lfp*, *r.manning*, *r.maxent.setup*, *r.runoff*, *r.slopeunits*, *r.stone*, *r.timeofconcentration*, *r.windfetch*, *t.stac*, and *v.surf.rst.cv*.
 
 **Full CMake support.** Alongside the existing Autotools build, GRASS and its addons can now be built with CMake. This is the result of a multi-year effort led by Huidae Cho and Nicklas Larsson with several collaborators, building on initial work by Rashad Kanavath.
 
@@ -97,11 +97,11 @@ Translations continue in [Weblate](https://weblate.osgeo.org/projects/grass-gis/
 
 ## Support the project
 
-This release was supported in part by the U.S. National Science Foundation (awards [#2303651](/news/2023_09_06_nsf_grant_awarded/) and [#2322073](/news/2025_12_31_annual_report#development-activity)), along with sponsor contributions and individual donors. Yet many people contribute to GRASS without any dedicated financial support.
+This release was supported in part by the U.S. National Science Foundation (awards [#2303651](/news/2023_09_06_nsf_grant_awarded/) led by [NC State University](https://geospatial.ncsu.edu/) and [#2322073](/news/2025_12_31_annual_report#development-activity) led by [Natrx](https://www.natrx.io/)), along with contributions from [Bohannan Huston, Inc.](https://bhinc.com/), [mundialis](https://www.mundialis.de/), [OpenPlains Inc.](https://openplains.com/), and individual donors. Yet many people contribute to GRASS without any dedicated financial support.
 
 The project is now a [NumFOCUS Fiscally Sponsored Project](https://numfocus.org/sponsored-projects), alongside our long-standing status as an OSGeo Project. This provides a stable path for financial contributions to the project.
 
-If you would like to help sustain this work, you can [**donate to GRASS through NumFOCUS**](https://numfocus.org/donate-to-grass). Financial support is what makes multi-year coordinated work like this release possible, and what will make [the next one](/about/roadmap/) quicker.
+If you would like to help sustain this work, you can [**donate to GRASS through NumFOCUS**](https://numfocus.org/donate-to-grass) or learn more on our [sponsoring page](/contribute/sponsoring/). Financial support is what makes multi-year coordinated work like this release possible, and what will make [the next one](/about/roadmap/) quicker.
 
 ## Software download
 
@@ -123,7 +123,7 @@ Packaging for these platforms is underway.
 
 **Source code and extras**
 
-- From [GitHub](https://github.com/OSGeo/grass/releases/tag/8.5.0) or [download.osgeo.org](https://download.osgeo.org/grass/grass85/source/)
+- From [GitHub](https://github.com/OSGeo/grass/releases/tag/8.5.0) or [grass.osgeo.org](/grass85/source/)
 - [Explore and try in Binder](https://mybinder.org/v2/gh/OSGeo/grass/8.5.0?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_example.ipynb)
 - macOS local build script — backup for Intel hardware ([#4946](https://github.com/OSGeo/grass/issues/4946))
 - DOI: [10.5281/zenodo.20083515](https://doi.org/10.5281/zenodo.20083515)
@@ -133,7 +133,7 @@ Packaging for these platforms is underway.
 - Explore our [tutorials](https://grass-tutorials.osgeo.org/), covering both introductory material and advanced topics.
 - See the [tool manual pages](/grass85/manuals/) for details and examples.
 - [Get in touch with us.](/about/community/)
-- Feel like supporting the project? [Donate](https://numfocus.org/donate-to-grass) or [sponsor us](/about/sponsors/)!
+- Feel like supporting the project? [Donate](https://numfocus.org/donate-to-grass) or [sponsor us](/contribute/sponsoring/)!
 
 Congratulations everyone on an exceptional release.
 
