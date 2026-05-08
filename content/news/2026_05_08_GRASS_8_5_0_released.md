@@ -75,6 +75,13 @@ The full list of changes is available in the [detailed announcement on GitHub](h
 
 ## Many hands
 
+<a href="/images/news/NCSU_developer_summit_stairs.jpg">
+<img src="/images/news/NCSU_developer_summit_stairs.jpg"
+  alt="GRASS contributors group picture in Talley Student Center, NC State"
+  title="GRASS contributors group picture"
+  width="40%" style="float:right;padding-left:25px;padding-top:20px">
+</a>
+
 A release of this scale doesn't come from any one person or team. Across the two-year development cycle, over **70 people** contributed commits to the main repository. Over thirty first-time contributors are acknowledged in the release notes alone.
 
 The top code contributors across the release, by commit count, were Edouard Choinière, Shubham Desai, Václav Petráš, Nicklas Larsson, Arohan Ajit, Anna Petrášová, Nishant Bansal, Markus Neteler, Ondřej Pešek, and Corey White. The top reviewers were Edouard Choinière, Anna Petrášová, Nicklas Larsson, Václav Petráš, and Stefan Blumentrath. Release management for 8.5.0 was led by Markus Neteler.
@@ -91,14 +98,14 @@ The project is now a [NumFOCUS Fiscally Sponsored Project](https://numfocus.org/
 
 If you would like to help sustain this work, you can [**donate to GRASS through NumFOCUS**](https://numfocus.org/donate-to-grass). Financial support is what makes multi-year coordinated work like this release possible, and what will make [the next one](/about/roadmap/) quicker.
 
-<a href="/images/news/grass_devs_on_the_grass.JPG">
-<img src="/images/news/grass_devs_on_the_grass.JPG"
+## Software download
+
+<a href="/images/news/PXL_20240614_113252477.PORTRAIT.jpg">
+<img src="/images/news/PXL_20240614_113252477.PORTRAIT.jpg"
   alt="GRASS contributors group picture next to Hunt Library, NC State"
   title="GRASS contributors group picture"
-  width="45%" style="float:right;padding-left:25px;padding-top:20px">
+  width="60%" style="float:right;padding-left:25px;padding-top:20px">
 </a>
-
-## Software download
 
 **Packages and installers**
 
