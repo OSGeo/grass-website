@@ -105,13 +105,13 @@ If you would like to help sustain this work, you can [**donate to GRASS through 
 - [Windows](/download/windows/)
 - [macOS](/download/mac/)
 - [Linux](/download/linux/)
-- [Conda](/download/conda/) (new in 8.5.0)
+- [conda](/download/conda/) (new in 8.5.0)
 
-The pages linked above are updated as new packages become available.
+Packaging for these platforms is underway.
 
 **Source code and extras**
 
-- [From GitHub](https://github.com/OSGeo/grass/releases/tag/8.5.0)
+- From [GitHub](https://github.com/OSGeo/grass/releases/tag/8.5.0) or [download.osgeo.org](https://download.osgeo.org/grass/grass85/source/)
 - [Explore and try in Binder](https://mybinder.org/v2/gh/OSGeo/grass/8.5.0?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_example.ipynb)
 - macOS local build script — backup for Intel hardware ([#4946](https://github.com/OSGeo/grass/issues/4946))
 - DOI: [10.5281/zenodo.20083515](https://doi.org/10.5281/zenodo.20083515)
