@@ -59,7 +59,7 @@ The net effect: someone coming to GRASS from the Python data-science ecosystem c
 <a href="/images/news/hydroflatten.webp">
 <img src="/images/news/hydroflatten.webp"
   alt="r.hydroflatten addon"
-  title="New r.hydroflatten addon"
+  title="New r.hydroflatten addon tool"
   width="40%" style="float:left;padding-right:25px;padding-top:5px">
 </a>
 
@@ -81,7 +81,7 @@ The top code contributors across the release, by commit count, were Edouard Choi
 
 If this release feels like more than the sum of its parts, it's because the community coordinated deliberately to make it so. Two years of work is what made it possible for the Python API, the JSON outputs, and the rewritten documentation to reinforce each other rather than arrive one at a time, along with hundreds of smaller improvements across the GUI, parallelization, security, and build systems.
 
-Translations continue in [Weblate](https://hosted.weblate.org/projects/grass-gis/), which automatically opens pull requests with translated chunks. Thank you to the translators in every language for your ongoing contributions.
+Translations continue in [Weblate](https://weblate.osgeo.org/projects/grass-gis/), which automatically opens pull requests with translated chunks. Thank you to the translators in every language for your ongoing contributions.
 
 ## Support the project
 
@@ -89,7 +89,7 @@ This release was supported in part by the U.S. National Science Foundation (awar
 
 The project is now a [NumFOCUS Fiscally Sponsored Project](https://numfocus.org/sponsored-projects), alongside our long-standing status as an OSGeo Project. This provides a stable path for financial contributions to the project.
 
-If you would like to help sustain this work, you can [**donate to GRASS through NumFOCUS**](https://numfocus.org/donate-to-grass). Financial support is what makes multi-year coordinated work like this release possible, and what will make the next one quicker.
+If you would like to help sustain this work, you can [**donate to GRASS through NumFOCUS**](https://numfocus.org/donate-to-grass). Financial support is what makes multi-year coordinated work like this release possible, and what will make [the next one](/about/roadmap/) quicker.
 
 <a href="/images/news/grass_devs_on_the_grass.JPG">
 <img src="/images/news/grass_devs_on_the_grass.JPG"
