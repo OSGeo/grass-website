@@ -8,7 +8,8 @@ layout: "conda"
 
 <i class="fa fa-arrow-right"></i> The `grass` package is available on
 [conda-forge](https://anaconda.org/conda-forge/grass)
-for **Linux** (64-bit) and **macOS** (Intel and Apple Silicon).
+for **Windows** (64-bit), **Linux** (64-bit), and
+**macOS** (Intel and Apple Silicon).
 See the
 [conda-forge grass feedstock](https://github.com/conda-forge/grass-feedstock)
 for packaging details.
