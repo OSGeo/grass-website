@@ -5,7 +5,7 @@ layout: "news"
 author: Vaclav Petras
 ---
 
-<img src="/images/logos/grass-logo/grass-logo-gradient-transparent@2x.png"
+<img src="/images/logos/grass-logo/grass-logo-gradient-transparent@1x.png"
   alt="GRASS logo"
   title="Gradient version of the GRASS logo"
   width="15%" style="float:right;padding-left:25px;padding-bottom:25px">
