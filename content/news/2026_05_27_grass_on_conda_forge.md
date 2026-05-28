@@ -1,6 +1,6 @@
 ---
 title: "GRASS on conda-forge for every major platform"
-date: 2026-06-01T12:00:00-04:00
+date: 2026-05-27T22:24:18-04:00
 layout: "news"
 author: Vaclav Petras
 ---
