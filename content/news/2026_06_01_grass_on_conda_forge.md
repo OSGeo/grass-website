@@ -10,10 +10,9 @@ author: Vaclav Petras
   title="Gradient version of the GRASS logo"
   width="15%" style="float:right;padding-left:25px;padding-bottom:25px">
 
-GRASS is now available *on conda* for *every major platform*: *Windows*,
-*Linux*, *macOS on Intel* (macOS-64), and *macOS on Apple Silicon*
-(macOS-arm64). With GRASS 8.5.0 packaged across all four, installing GRASS with
-conda is now a first-class, fully supported way to get GRASS.
+Full conda support for GRASS is finally here!
+You can now install GRASS 8.5.0 *on conda* on *Windows*, *Linux*,
+*macOS on Intel*, and *macOS on Apple Silicon*, simply by running:
 
 ```bash
 conda install -c conda-forge grass
@@ -27,16 +26,16 @@ conda install -c conda-forge grass
   width="40%" style="float:right;padding-left:25px;padding-top:10px">
 
 GRASS was soft-launched on conda with the 8.4.2 release, with packages for Linux
-and macOS on Intel. Now we are launching it fully: the conda-forge build matrix
-also covers Windows and macOS on Apple Silicon (arm64), so every major platform
-runs the same GRASS 8.5.0 release through conda.
+(`linux-64`) and macOS on Intel (`osx-64`). Now Windows (`win-64`) and macOS on
+Apple Silicon (`osx-arm64`) are both fully supported, providing full coverage of
+every major platform starting with GRASS 8.5.0.
 
-This work was led by *Huidae Cho*, who carried conda packaging from early
+This work was led by [Huidae Cho](https://github.com/HuidaeCho), who carried conda packaging from early
 experiments to a complete, multi-platform release on the
 [conda-forge grass feedstock](https://github.com/conda-forge/grass-feedstock).
 Reaching Windows in particular required the broader build-system modernization
 in 8.5.0, including
-[full CMake support and MSVC build support on Windows](/news/2026_05_08_grass_8_5_0_released/).
+[full CMake support and MSVC build support](/news/2026_05_08_grass_8_5_0_released/).
 
 ## What is conda anyway?
 
@@ -60,7 +59,7 @@ especially well with
 and
 [*grass.jupyter*](https://grass.osgeo.org/grass-stable/manuals/jupyter_intro.html).
 
-## Install it today
+## Install GRASS today
 
 Create a fresh environment and install in one step:
 
