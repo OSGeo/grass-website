@@ -139,7 +139,7 @@ corporate sponsorship and invoicing, see the
 - [*grass.jupyter*](https://grass.osgeo.org/grass-stable/manuals/jupyter_intro.html): use GRASS in Jupyter notebooks with interactive 2D and 3D maps.
 - Ready-made notebooks on Binder: the [GRASS tutorial](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_tutorial.ipynb) and the [hydrology example](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fhydrology.ipynb), with more on the [Try GRASS online](/learn/tryonline/) page.
 
-Thanks to Huidae Cho and everyone who worked on the conda-forge feedstock for
+Thanks to Huidae Cho, Nicklas Larsson and everyone who worked on the conda-forge feedstock for
 getting GRASS onto every major platform.
 
 ---
