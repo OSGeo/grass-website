@@ -1,6 +1,6 @@
 ---
 title: "First time users"
-date: 2025-05-21T11:02:05+06:00
+date: 2026-05-20T11:02:05+06:00
 layout: "overview"
 ---
 
@@ -29,27 +29,19 @@ time to get familiar with these concepts. **Payback will be manifold!**
 ### Newcomer tutorials
 
 Depending on your favorite medium for learning, different entry doors
-exist into the marvellous world of GRASS.
-
+exist into the marvellous world of GRASS: online tutorial and videos.
 
 #### Written
 
-You can find many tutorials in different languages on the 
-[tutorials](https://grass-tutorials.osgeo.org/) page. But here are some links to specific
-resources that might help you get started:
+Here are some links to specific resources to get you started:
 
-<img src="/images/gallery/gui/grass75_ndvi_rgb_rio_cuarto.png" width="45%" alt="" style="float:right;padding-left:10px">
+<img src="/images/gallery/gui/grass82_single_window.jpg" width="45%" alt="" style="float:right;padding-left:10px">
 
 * The [Quickstart](/grass-stable/manuals/helptext.html) 
 in the manual pages.
-* The [Quick GUI tutorial](https://grasswiki.osgeo.org/wiki/Quick_wxGUI_tutorial).
-* An [introductory workshop](http://ncsu-geoforall-lab.github.io/grass-intro-workshop/) 
-by Vaclav Petras & the NCSU GeoForAll Lab.
-* The material from the workshop ["From GRASS novice to power user"](https://grasswiki.osgeo.org/wiki/From_GRASS_GIS_novice_to_power_user_(workshop_at_FOSS4G_Boston_2017)).
-* [Advanced Geospatial Analysis for Earth Observation and Time Series data](https://training.gismentors.eu/grass-gis-irsae-winter-course-2018/) 
-a kind of **from zero to hero** GRASS course by Martin Landa, Luca Delucchi
-and Stefan Blumentrath.
-* For more [specific topics](/grass-stable/manuals/graphical_index.html) 
+* Many tutorials in different languages on the
+[tutorials](https://grass-tutorials.osgeo.org/) page.
+* For more [specific topics](/grass-stable/manuals/grass_projects.html)
 (e.g. raster data, vector data, time series, database, etc), you should also read the 
 relevant topic introductions as they will provide you with helpful information 
 about how these specific domains are handled in GRASS.

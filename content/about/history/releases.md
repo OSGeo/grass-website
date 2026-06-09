@@ -19,6 +19,7 @@ layout: "timeline"
         <div id="2026" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
           <div class="panel-body">
 <ul class="list-unstyled releases">
+<li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 8 May 2026</span> <b>GRASS 8.5.0</b> &#160;<a href="https://github.com/OSGeo/grass/releases/tag/8.5.0">Changelog</a> - <a href="/grass85/source/">Source Code</a></li>
 <li><span class="badge badge-pill bg-lgr grass-green"><i class="fa fa-calendar"></i> 5 Feb 2026</span> Creation of the GRASS GIS 8.5 release branch (<a href="https://github.com/OSGeo/grass/tree/releasebranch_8_5">49c2d67</a>)</li> <!-- 49c2d67434c689c7b64f7988604557e4b2d235d6 -->
           </div>
         </div>
