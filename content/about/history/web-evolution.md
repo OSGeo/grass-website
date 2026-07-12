@@ -13,7 +13,7 @@ layout: "general"
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#1997" aria-expanded="true" aria-controls="1997">1997</a></h4>
+          <h4 class="panel-title"><a role="button" data-bs-toggle="collapse" href="#1997" aria-expanded="true" aria-controls="1997">1997</a></h4>
         </div>
         <div id="1997" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="1997">
         <div class="panel-body mb-4">	
@@ -40,9 +40,9 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#1998" aria-expanded="false" aria-controls="1998">1998</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#1998" aria-expanded="false" aria-controls="1998">1998</a></h4>
 </div>
-<div id="1998" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="1998">
+<div id="1998" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="1998">
         <div class="panel-body mb-4">
  <div class="row">
  <div class="col-lg-6 col-sm-12">
@@ -66,9 +66,9 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#1999" aria-expanded="false" aria-controls="1999">1999</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#1999" aria-expanded="false" aria-controls="1999">1999</a></h4>
         </div>
-<div id="1999" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="1999">
+<div id="1999" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="1999">
         <div class="panel-body mb-4">
  <div class="row mb-2">
  <div class="col-lg-6 col-sm-12">
@@ -107,9 +107,9 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2000" aria-expanded="false" aria-controls="2000">2000</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#2000" aria-expanded="false" aria-controls="2000">2000</a></h4>
         </div>
-<div id="2000" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="2000">
+<div id="2000" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="2000">
 <div class="panel-body mb-4">
  <div class="row">
  <div class="col-lg-6 col-sm-12">
@@ -149,9 +149,9 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2001" aria-expanded="false" aria-controls="2001">2001</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#2001" aria-expanded="false" aria-controls="2001">2001</a></h4>
         </div>
-<div id="2001" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="2001">
+<div id="2001" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="2001">
 <div class="panel-body mb-4">
  <div class="row">
  <div class="col-lg-6 col-sm-12">
@@ -191,9 +191,9 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2002" aria-expanded="false" aria-controls="2002">2002</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#2002" aria-expanded="false" aria-controls="2002">2002</a></h4>
         </div>
-<div id="2002" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="2002">
+<div id="2002" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="2002">
 <div class="panel-body mb-4">
  <div class="row">
  <div class="col-lg-6 col-sm-12">
@@ -233,9 +233,9 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2012" aria-expanded="false" aria-controls="2012">2012</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#2012" aria-expanded="false" aria-controls="2012">2012</a></h4>
         </div>
-<div id="2012" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="2012">
+<div id="2012" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="2012">
 <div class="panel-body mb-4">
  <div class="row">
  <div class="col-lg-6 col-sm-12">
@@ -274,9 +274,9 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2019" aria-expanded="false" aria-controls="2019">2019</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#2019" aria-expanded="false" aria-controls="2019">2019</a></h4>
         </div>
-<div id="2019" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="2019">
+<div id="2019" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="2019">
 <div class="panel-body mb-4">
  <div class="row">
  <div class="col-lg-6 col-sm-12">
@@ -301,7 +301,7 @@ layout: "general"
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
           <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#2020" aria-expanded="false" aria-controls="2020">2020</a></h4>
+          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#2020" aria-expanded="false" aria-controls="2020">2020</a></h4>
         </div>
 <div id="2020" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="2020">
 <div class="panel-body mb-4">
