@@ -12,8 +12,8 @@ layout: "general"
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 <div class="panel panel-default">
 <div class="panel-heading" role="tab" id="#">
-<div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-<h4 class="panel-title"><a role="button" data-bs-toggle="collapse" href="#eighties" aria-expanded="true" aria-controls="eighties">The eighties</a></h4>
+<div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="visually-hidden">Expand/Collapse</i></div>
+<h4 class="panel-title"><a role="button" data-bs-toggle="collapse" href="#eighties" aria-expanded="true" aria-controls="eighties"><i class="fa-solid fa-chevron-right me-2" aria-hidden="true"></i>The eighties</a></h4>
 </div>
 <div id="eighties" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="eighties">
 <div class="panel-body mb-4">
@@ -47,8 +47,8 @@ Official GRASS video of the US Army CERL, narrated by William Shatner (<a href="
 <!-- Panel -->
 <div class="panel panel-default">
 <div class="panel-heading" role="tab" id="#">
-<div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-<h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#nineties" aria-expanded="false" aria-controls="nineties">The nineties</a></h4>
+<div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="visually-hidden">Expand/Collapse</i></div>
+<h4 class="panel-title"><a role="button" data-bs-toggle="collapse" href="#nineties" aria-expanded="true" aria-controls="nineties"><i class="fa-solid fa-chevron-right me-2" aria-hidden="true"></i>The nineties</a></h4>
 </div>
 <div id="nineties" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="nineties">
 <div class="panel-body mb-4">
@@ -74,8 +74,8 @@ Official GRASS video of the US Army CERL, narrated by William Shatner (<a href="
 <!-- Panel -->
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
-          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#millennium" aria-expanded="false" aria-controls="millennium">The new millennium</a></h4>
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="visually-hidden">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-bs-toggle="collapse" href="#millennium" aria-expanded="true" aria-controls="millennium"><i class="fa-solid fa-chevron-right me-2" aria-hidden="true"></i>The new millennium</a></h4>
         </div>
 <div id="millennium" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="millennium">
         <div class="panel-body mb-4">
@@ -103,8 +103,8 @@ On February 8, <b>2008</b>, the OSGeo board approved GRASS’ graduation from th
 <!-- Panel -->
 <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="#">
-          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="sr-only">Expand/Collapse</i></div>
-          <h4 class="panel-title"><a class="collapsed" role="button" data-bs-toggle="collapse" href="#tens" aria-expanded="false" aria-controls="millennium">The 2010s and beyond</a></h4>
+          <div class=" icon"> <i class="glyphicon glyphicon-one-fine-dot"><span class="visually-hidden">Expand/Collapse</i></div>
+          <h4 class="panel-title"><a role="button" data-bs-toggle="collapse" href="#tens" aria-expanded="true" aria-controls="millennium"><i class="fa-solid fa-chevron-right me-2" aria-hidden="true"></i>The 2010s and beyond</a></h4>
         </div>
 <div id="tens" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="">
         <div class="panel-body mb-4">
