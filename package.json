@@ -10,7 +10,6 @@
     "@highlightjs/cdn-assets": "^11.11.1",
     "bootstrap": "^5.3.7",
     "flag-icons": "^7.5.0",
-    "jquery": "^4.0.0",
     "photoswipe": "^5.4.4"
   },
   "devDependencies": {

@@ -44,10 +44,6 @@ priority = 0.5
     target = "assets"
 
     [[module.mounts]]
-    source = "node_modules/jquery/dist/jquery.slim.min.js"
-    target = "assets/js/jquery/jquery.slim.min.js"
-
-    [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap/bootstrap.bundle.min.js"
 
