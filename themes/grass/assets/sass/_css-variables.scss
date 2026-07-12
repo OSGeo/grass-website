@@ -1,0 +1,80 @@
+// GRASS brand tokens as CSS custom properties (single source of truth).
+//
+// These --gs-* custom properties are generated from the $gs-* Sass variables in
+// _colors.scss / _fonts.scss / _variables.scss so the served stylesheet exposes
+// exactly the variables the brand page (/about/brand) documents. Each ramp
+// (--light / --lighter / --lightest) is derived from its base color, keeping
+// every step in lockstep. This block is intentionally self-contained so the same
+// tokens can be shared with the GRASS core docs (man/mkdocs, python/grass/docs)
+// and the Quarto tutorials to keep brand tokens identical across repositories.
+
+@use "colors" as *;
+@use "fonts" as *;
+@use "variables" as *;
+
+// Alpha steps applied to every ramp color.
+$gs-ramp-steps: (
+    "light": 0.541,
+    "lighter": 0.322,
+    "lightest": 0.071,
+);
+
+// Colors that get a full light/lighter/lightest ramp.
+$gs-ramp-colors: (
+    "primary": $gs-primary-color,
+    "primary-alt": $gs-primary-alt-color,
+    "primary-light": $gs-primary-light-color,
+    "primary-dark": $gs-primary-dark-color,
+    "secondary": $gs-secondary-color,
+    "secondary-alt": $gs-secondary-alt-color,
+    "secondary-light": $gs-secondary-light-color,
+    "secondary-dark": $gs-secondary-dark-color,
+    "white": $gs-white-color,
+    "black": $gs-black-color,
+    "grey": $gs-grey-color,
+    "grey-alt": $gs-grey-alt-color,
+    "grey-light": $gs-grey-light-color,
+    "grey-dark": $gs-grey-dark-color,
+);
+
+// Single-value tokens (no ramp).
+$gs-solid-colors: (
+    "white-base": $gs-white-base-color,
+    "black-base": $gs-black-base-color,
+    "yard-sign": $gs-yard-sign-color,
+    "danger": $gs-danger-color,
+    "warning": $gs-warning-color,
+    "success": $gs-success-color,
+    "info": $gs-info-color,
+    "light": $gs-light-color,
+);
+
+:root {
+    // Fonts
+    --gs-grass-font: #{$gs-grass-font};
+    --gs-grass-font--medium: #{$gs-grass-font--medium};
+    --gs-grass-font--bold: #{$gs-grass-font--bold};
+    --gs-grass-font--light: #{$gs-grass-font--light};
+    --gs-grass-font--mono: #{$gs-grass-font--mono};
+
+    // Color ramps (base + light/lighter/lightest)
+    @each $name, $base in $gs-ramp-colors {
+        --gs-#{$name}-color: #{$base};
+        @each $step, $alpha in $gs-ramp-steps {
+            --gs-#{$name}-color--#{$step}: #{rgba($base, $alpha)};
+        }
+    }
+
+    // Single-value tokens
+    @each $name, $value in $gs-solid-colors {
+        --gs-#{$name}-color: #{$value};
+    }
+
+    // Support color (its own dark/light scheme)
+    --gs-support-color: #{$gs-support-color};
+    --gs-support-color--dark: #{$gs-support-color--dark};
+    --gs-support-color--light: #{$gs-support-color--light};
+
+    // Brand background image
+    --gs-grass-background-image: #{$gs-grass-background-image};
+}
