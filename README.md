@@ -31,9 +31,20 @@ Useful references:
 1. Go to `content/news/`.
 2. Create a new `.md` file (date-prefixed names are the convention, e.g.
    `2026_05_12_release.md`).
-3. Add front matter with at least `title`, `date`, and `layout: "news"`, then
-   write the body in Markdown.
-4. The item appears at [/news/](https://grass.osgeo.org/news/).
+3. Start with this front matter, then write the body in Markdown:
+
+   ```yaml
+   ---
+   title: "GRASS 8.5.0 released"
+   date: 2026-05-12T21:38:40+02:00
+   layout: "news"
+   author: GRASS Development Team
+   ---
+   ```
+
+4. To include images, add them under `static/images/news/` and reference them
+   with an absolute path, for example `![Alt text](/images/news/my_image.png)`.
+5. The item appears at [/news/](https://grass.osgeo.org/news/).
 
 ### Add an event
 
@@ -90,13 +101,13 @@ Open a pull request with your improvements. Thank you!
 
 The site is built with **Hugo Extended** and compiles its styles with **Dart
 Sass**, so the plain (non-extended) Hugo will not work. Frontend libraries are
-installed with npm. Pinned versions (kept in sync across `.env`,
-`.devcontainer/devcontainer.json`, and `.github/workflows/hugo.yml`):
+installed with npm, and the pinned Hugo build uses an external Dart Sass binary.
 
-- Hugo Extended `0.113.0` (the production server and dev container; the deploy
-  workflow uses `0.113.8`)
-- Node.js `24.13.0`
-- Dart Sass (external binary; this Hugo version predates embedded Dart Sass)
+The exact pinned versions of Hugo, Node.js, and Dart Sass are kept in sync
+across `.env`, `.devcontainer/devcontainer.json`, and
+`.github/workflows/hugo.yml` (Node is also pinned in `.nvmrc`). Check those
+files for the current values rather than a number copied into this README,
+which would go stale.
 
 Any of the options below gives you a working toolchain. The container options
 (A, B, C) bundle Hugo, Node, and Dart Sass for you.
@@ -141,10 +152,11 @@ Dart Sass); see [docker.hugomods.com](https://docker.hugomods.com/docs/tags/).
 
 ### Option D: Run Hugo locally
 
-Install **Hugo Extended** `0.113.0` (see the
+Install **Hugo Extended** (see the
 [Hugo installation docs](https://gohugo.io/installation/); the extended build is
-mandatory) and Node.js `24.13.0` (for example with
-[`nvm`](https://github.com/nvm-sh/nvm): `nvm install 24 && nvm use 24`), then:
+mandatory) and Node.js at the versions pinned in `.env` / `.nvmrc` (for example
+with [`nvm`](https://github.com/nvm-sh/nvm): `nvm install && nvm use`, which
+reads `.nvmrc`), then:
 
 ```sh
 npm ci        # install frontend dependencies (required before building)
