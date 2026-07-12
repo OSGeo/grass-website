@@ -1,6 +1,6 @@
-# GRASS Sytyling Documentation
+# GRASS Styling Documentation
 
-## Bootstrap ans Sass Integration
+## Bootstrap and Sass Integration
 
 The GRASS theme leverages Bootstrap for responsive design and layout. The Bootstrap styles are integrated via Dart Sass, allowing for customization and optimization.
 
