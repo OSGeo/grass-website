@@ -6,7 +6,7 @@ layout: "general"
 
 ## GRASS website evolution
 
-<div class="row">
+<div class="row mx-0">
   <div class="timeline mb-5">
   <div class="line text-muted"></div>
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
