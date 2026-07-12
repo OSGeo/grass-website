@@ -1,7 +1,10 @@
-//-- scss:defaults --*/
-// GRASS Theme
-/* GRASS Variables
-Use these variables to customize the GRASS theme.
+/* GRASS theme entry point.
+   Import order is load-bearing: the GRASS tokens and the Bootstrap variable
+   overrides in _variables.scss must be defined BEFORE "bootstrap" so Bootstrap's
+   own !default values yield to them. Keep "styles" last so custom rules win the
+   cascade over compiled Bootstrap. These use @import (not @use) on purpose:
+   Bootstrap 5.3 still relies on @import's shared global scope for this override
+   contract; migrating to @use waits on the Bootstrap/Hugo upgrade follow-up.
 ----------------------------------------------------------------------------- */
 @import "colors";
 @import "fonts";

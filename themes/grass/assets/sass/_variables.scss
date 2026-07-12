@@ -28,14 +28,9 @@ $card-title-color: $gs-grey-dark-color;
 // - $danger: Danger/error state color, mapped to $gs-danger-color.
 // - $light: Light theme color, mapped to $gs-grey-light-color.
 // - $dark: Dark theme color, mapped to $gs-grey-dark-color.
-$primary-rgb: $gs-primary-color;
-$secondary-rgb: $gs-secondary-color;
-$success-rgb: $gs-success-color;
-$info-rgb: $gs-info-color;
-$warning-rgb: $gs-warning-color;
-$danger-rgb: $gs-danger-color;
-$light-rgb: $gs-grey-light-color;
-$dark-rgb: $gs-grey-dark-color;
+// Note: Bootstrap derives the --bs-*-rgb CSS custom properties from the
+// $primary..$dark colors above via to-rgb(); do not set $*-rgb here (those
+// expect channel triplets, not color objects, and were otherwise unused).
 
 /* Images */
 $gs-images-base-path: 'images';

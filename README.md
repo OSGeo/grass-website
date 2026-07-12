@@ -1,258 +1,225 @@
 # Hugo theme for GRASS website
 
-This repository contains the code of the GRASS project website: [https://grass.osgeo.org/](https://grass.osgeo.org/)
+This repository contains the code of the GRASS project website:
+[https://grass.osgeo.org/](https://grass.osgeo.org/)
 
-## Contribute
+There are two ways to contribute; pick the path that matches your change:
 
-Below some instructions how to contribute by running a local instance for testing
-prior to commit changes as pull requests.
+- **Content contributors** edit or add pages (news, events, text). For simple
+  Markdown changes you do **not** need a local build environment. Jump to
+  [For content contributors](#for-content-contributors).
+- **Website developers** change templates, styling, or the build itself and need
+  to preview or build the site. Jump to
+  [For website developers](#for-website-developers).
 
-You do not need a local build environment for simple text-only changes (for example,
-adding a news article). You can edit Markdown and open a pull request. Use one of
-the options below when you want to preview the site or test a full build.
+---
 
-### Hugo version in the server
+## For content contributors
 
-Currently, the website is built with hugo version 0.113.0.
+Content lives in `content/` as Markdown (`.md`) files. HTML can be mixed into
+Markdown for more advanced presentation. You can edit a file and open a pull
+request without installing anything; a maintainer or CI will build the preview.
 
-## Run within a Dev Container
+Useful references:
 
-This repository includes a Dev Container configuration in `.devcontainer/` to
-provide a consistent Hugo/Node setup for local development. This is optional and
-works with any IDE or tooling that supports `devcontainer.json` (for example VS
-Code Dev Containers or GitHub Codespaces).
+- [Hugo docs](https://gohugo.io/documentation/)
+- [Markdown guide](https://www.markdownguide.org/basic-syntax/)
+- [GRASS website style guide](https://grass.osgeo.org/about/theme/)
 
-In VS Code, use the Command Palette: `Dev Containers: Reopen in Container`.
+### Add a news item
 
-Open the repository in your Dev Container-enabled tool, then run:
+1. Go to `content/news/`.
+2. Create a new `.md` file (date-prefixed names are the convention, e.g.
+   `2026_05_12_release.md`).
+3. Add front matter with at least `title`, `date`, and `layout: "news"`, then
+   write the body in Markdown.
+4. The item appears at [/news/](https://grass.osgeo.org/news/).
 
-    hugo server --bind 0.0.0.0
+### Add an event
 
-The dev container forwards port `1313` by default. View the site at
-<http://localhost:1313>
+1. Go to `content/events/`.
+2. Create a new `.md` file using this front matter template:
 
-## Run development server with Docker Compose
-The `docker-compose.dev.yml` setup runs the Hugo development server in a container, with live reload and file watching. This is useful if you want to run the development server without installing Hugo and Node.js locally.
+   ```yaml
+   title: "CONFERENCE NAME"
+   event:
+       start: YYYY-MM-DD
+       end: YYYY-MM-DD
+   where: CITY, COUNTRY
+   website: URL
+   layout: "event"
+   logo: images/conferences_logos/CONF_LOGO_YEAR.png
+   ```
+
+3. Add the logo to `static/images/conferences_logos/`.
+4. The event shows in the `Next Events` sidebar on the news page when it is one
+   of the next three upcoming events.
+
+### Create a new content page
+
+1. Add a `.md` file under the relevant `content/` subdirectory (for example
+   `content/about/`), with the usual Hugo front matter and Markdown body.
+2. To add it to the navigation, add a menu entry in `config.toml` under the
+   appropriate parent, for example:
+
+   ```toml
+   [[Languages.en.menu.main]]
+   parent = "About Us"
+   name = "My new page"
+   URL = "/about/mypage"
+   weight = 1
+   ```
+
+3. If the page needs custom presentation, a developer can add a template under
+   `themes/grass/layouts/`.
+
+### Mind SEO
+
+If a page's front matter defines a `summary`, it is used as the page meta
+description; otherwise the site-wide `description` in `config.toml` is used.
+
+### Submit your changes
+
+Open a pull request with your improvements. Thank you!
+
+---
+
+## For website developers
+
+### What the build uses
+
+The site is built with **Hugo Extended** and compiles its styles with **Dart
+Sass**, so the plain (non-extended) Hugo will not work. Frontend libraries are
+installed with npm. Pinned versions (kept in sync across `.env`,
+`.devcontainer/devcontainer.json`, and `.github/workflows/hugo.yml`):
+
+- Hugo Extended `0.113.0` (the production server and dev container; the deploy
+  workflow uses `0.113.8`)
+- Node.js `24.13.0`
+- Dart Sass (external binary; this Hugo version predates embedded Dart Sass)
+
+Any of the options below gives you a working toolchain. The container options
+(A, B, C) bundle Hugo, Node, and Dart Sass for you.
+
+### Option A: Dev Container
+
+A Dev Container config in `.devcontainer/` provides a consistent Hugo/Node setup
+and works with any tool that supports `devcontainer.json` (VS Code Dev
+Containers, GitHub Codespaces). In VS Code: Command Palette →
+`Dev Containers: Reopen in Container`, then:
+
+```sh
+hugo server --bind 0.0.0.0
+```
+
+Port `1313` is forwarded by default. View the site at <http://localhost:1313>.
+
+### Option B: Docker Compose dev server
+
+Runs the Hugo dev server in a container with live reload and file watching, no
+local Hugo/Node needed:
 
 ```sh
 docker compose -f docker-compose.dev.yml up --build
 ```
 
-## Test a production-like build with Docker Compose
+View the site at <http://localhost:1313>.
 
-The `docker-compose.yml` setup builds the site with Hugo (using the versions
-defined in `.env`) and serves the generated `public/` directory using Nginx.
-This is useful to test a production-like build locally.
+### Option C: Production-like build with Docker Compose
 
-Build and run:
+Builds the site with Hugo (using the versions in `.env`) and serves the
+generated `public/` with Nginx, to test a production-like build:
 
-    docker compose up --build
+```sh
+docker compose up --build          # serves at http://localhost:8080 (SOURCE_PORT in .env)
+docker compose down                # stop
+docker compose run --rm build      # one-off build without starting Nginx
+```
 
-By default this publishes the site at <http://localhost:8080> (see `SOURCE_PORT` in
-`.env`). Stop with:
+The build uses the `hugomods/hugo` image (Extended Hugo + Go + Node.js + Git +
+Dart Sass); see [docker.hugomods.com](https://docker.hugomods.com/docs/tags/).
 
-    docker compose down
+### Option D: Run Hugo locally
 
-### Notes on the Docker build container
+Install **Hugo Extended** `0.113.0` (see the
+[Hugo installation docs](https://gohugo.io/installation/); the extended build is
+mandatory) and Node.js `24.13.0` (for example with
+[`nvm`](https://github.com/nvm-sh/nvm): `nvm install 24 && nvm use 24`), then:
 
-We are using the `hugomods/hugo` Docker image from [hugomods.com](https://docker.hugomods.com/docs/tags/).
-The image provides:
+```sh
+npm ci        # install frontend dependencies (required before building)
+hugo          # build to public/
+hugo server   # dev server at http://localhost:1313
+```
 
-* Extended Hugo
-* Go
-* Node.js
-* Git
-* Dart Sass
+### How the styling works
 
-You can also run a one-off build without starting Nginx:
+Styles are authored in SCSS under `themes/grass/assets/sass/` and compiled by
+Hugo's Dart Sass pipeline. The entry point `main.scss` imports the GRASS brand
+tokens and Bootstrap variable overrides **before** Bootstrap, so Bootstrap's
+defaults yield to the GRASS theme; custom rules in `_styles.scss` load last. The
+compilation is wired in `themes/grass/layouts/partials/head.html` (the `toCSS`
+call with `includePaths` pointing at `node_modules/bootstrap/scss`), which is
+why `npm ci` must run before any build. See
+`themes/grass/assets/sass/README.md` for the file-by-file breakdown.
 
-    docker compose run --rm build
+### How to add or update a dependency
 
-## Run Hugo locally
+Frontend libraries are managed with npm and exposed to Hugo via module mounts in
+`config.toml`.
 
-    git clone https://github.com/OSGeo/grass-website.git
+```sh
+npm install <package>              # runtime dependency
+npm install --save-dev <package>   # dev dependency
+```
 
-### Install Hugo
+Commit both `package.json` and `package-lock.json`, then verify the build:
 
-Hugo is used to build the website locally. The dev container and Docker build use Hugo 0.113.0 extended (see `.devcontainer/devcontainer.json` and `.env`).
+```sh
+npm ci
+hugo
+```
 
-I you choose to install Hugo locally, make sure to install the extended version (see [Hugo installation docs](https://gohugo.io/installation/)).
+To use the library in the site, mount it into Hugo's assets in `config.toml` and
+reference it from the theme. Example (JS):
 
-### Install Node.js and npm
+```toml
+# config.toml
+[[module.mounts]]
+source = "node_modules/<package>/dist/<file>.min.js"
+target = "assets/js/<package>/<file>.min.js"
+```
 
-Node.js is used to install the frontend dependencies (see `package.json`).
-The dev container and Docker build use Node.js 24 (see `.devcontainer/devcontainer.json`
-and `.env`).
-
-Install Node.js and npm using your preferred method for your OS. For example:
-
-    # Debian/Ubuntu (may not be the latest Node.js)
-    apt-get update
-    apt install nodejs npm
-
-Or using [`nvm`](https://github.com/nvm-sh/nvm):
-
-    nvm install 24
-    nvm use 24
-
-### Build pages locally
-
-    cd grass-website
-
-    # Install dependencies
-    npm ci
-
-    # Build site
-    hugo
-
-Output HTML generated in the /public directory at the root of the `grass-website` directory
-
-### Run server locally
-
-Run hugo development server from the `grass-website` root directory:
-
-    cd grass-website
-
-    hugo server
-
-View the website running at  <http://localhost:1313>
-
-## How to add or update a dependency
-
-Frontend libraries are managed with npm and are referenced by Hugo via module mounts
-in `config.toml`.
-
-From the repository root:
-
-    # Add a runtime dependency
-    npm install <package>
-
-    # Or add a dev dependency
-    npm install --save-dev <package>
-
-Commit both `package.json` and `package-lock.json`, then verify the site still builds:
-
-    npm ci
-    hugo
-
-If you need to use the library in the site (CSS/JS/fonts), make it available to Hugo
-by adding a module mount in `config.toml` and then include it from the theme.
-
-Example (JS):
-
-    # config.toml
-    [[module.mounts]]
-    source = "node_modules/<package>/dist/<file>.min.js"
-    target = "assets/js/<package>/<file>.min.js"
-
-    # themes/grass/layouts/partials/head.html
-    {{ $lib := resources.Get "js/<package>/<file>.min.js" }}
-    <script src="{{ $lib.Permalink }}"></script>
+```go-html-template
+{{/* themes/grass/layouts/partials/head.html */}}
+{{ $lib := resources.Get "js/<package>/<file>.min.js" }}
+<script src="{{ $lib.Permalink }}"></script>
+```
 
 Example (CSS):
 
-    # config.toml
-    [[module.mounts]]
-    source = "node_modules/<package>/dist/<file>.min.css"
-    target = "assets/css/<package>/<file>.min.css"
+```toml
+# config.toml
+[[module.mounts]]
+source = "node_modules/<package>/dist/<file>.min.css"
+target = "assets/css/<package>/<file>.min.css"
+```
 
-    # themes/grass/layouts/partials/head.html
-    {{ $styles := resources.Get "css/<package>/<file>.min.css" }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+```go-html-template
+{{/* themes/grass/layouts/partials/head.html */}}
+{{ $styles := resources.Get "css/<package>/<file>.min.css" }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
+```
 
-## How to add content
+### Troubleshooting: stale SCSS after editing a partial
 
-Content must be created in .md files using markdown syntax. HTML markup can also be mixed with markdown for more advanced content presentation.
+Hugo caches the compiled SCSS under `resources/_gen/`, keyed on `main.scss`. If
+you edit an imported partial (`_styles.scss`, `_colors.scss`, etc.) and the CSS
+does not update, clear the cache and rebuild:
 
-Useful resources:
+```sh
+rm -rf resources/_gen public
+hugo
+```
 
-* [Hugo docs](https://gohugo.io/documentation/)
-* [Markdown guide](https://www.markdownguide.org/basic-syntax/)
-* [GRASS Website style guide](https://grass.osgeo.org/about/theme/)
-
-### Add a news item
-
-* Head to the news directory
-     cd /grass-website/content/news
-
-* Create new md file
-     sudo nano mynewsitem.md
-
-* Add the basic header information for Hugo, at least title, date, layout
-
-* Write content in mardown bellow
-
-* Rebuild if needed
-
-      cd ../../
-     
-      hugo
-
-* Check result at [http://localhost:1313/news/](http://localhost:1313/news/)
-
-### Create a new content page
-
-* Head to a content subdirectory, for example the one used for the About section
-     cd /grass-website/content/about
-
-* Create a new md file using the basic hugo header and markdown syntax
- (**more info coming soon**)
-
-* Create a specific template if advance page presentation is needed (see /themes/grass/layouts/)
-(**more info coming soon**)
-
-* Edit config.toml and add the new page as a new menu item as a children of the About section, as follows
-
-          [[Languages.en.menu.main]]
-          parent = "About"
-          name = "My new page"
-          URL = "/about/mypage"
-          weight = 1
-
-* Rebuild if needed
-
-      cd ../../
-     
-      hugo
-
-* Check result at [http://localhost:1313/about/mypage](http://localhost:1313/about/mypage)
-
-### Mind SEO
-
-Search engine optimization works like this:
-
-If the md file used for generating the page has a summary, its value is used as page meta description, otherwise the general description defined in `config.toml` is used by default.
-
-### Add new event
-
-* Head to the news directory
-     cd /grass-website/content/events
-
-* Create new md file
-     sudo nano EVENT_NAME.md
-
-* Use the following header information template for Hugo
-
-  title: "CONFERENCE NAME"
-  event:
-      start: YYYY-MM-DD
-      end: YYYY-MM-DD
-  where: CITY, COUNTRY
-  website: URL
-  layout: "event"
-  logo: images/conferences_logos/CONF_LOGO_YEAR.png
-
-* Add your logo to `/grass-website/images/conferences_logos` folder
-
-* Rebuild if needed
-
-      cd ../../
-     
-      hugo
-
-* Check result at [http://localhost:1313/news/](http://localhost:1313/news/) in the `Next Events` section in the right sidebar.
-  Your event will show up only if it is one in the top three from today.
-
-### Submit your changes
-
-Like it? Then please submit your improvements as a new pull request.
+CI is unaffected because it builds from a clean checkout.
