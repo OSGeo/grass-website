@@ -33,27 +33,34 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Fallback only: .env is the source of truth for the pinned Hugo version
-      # once present (see README "For website developers").
+      # Fallbacks only: .env is the source of truth for the pinned toolchain
+      # versions once present (see README "For website developers").
       HUGO_VERSION_DEFAULT: 0.113.0
+      DART_SASS_VERSION_DEFAULT: 1.101.0
     steps:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Determine Hugo version (.env is the source of truth)
-        id: hugo
+      - name: Determine toolchain versions (.env is the source of truth)
+        id: versions
         run: |
-          # Extract only the value; do not source .env (that would execute
+          # Extract only the values; do not source .env (that would execute
           # arbitrary shell content).
+          get_env_value() {
+            grep -E "^$1=" .env 2>/dev/null | head -n1 | cut -d= -f2- | tr -d '"' | tr -d "'"
+          }
           HUGO_VERSION=""
+          DART_SASS_VERSION=""
           if [[ -f .env ]]; then
-            HUGO_VERSION="$(grep -E '^HUGO_VERSION=' .env | head -n1 | cut -d= -f2- | tr -d '"' | tr -d "'")"
+            HUGO_VERSION="$(get_env_value HUGO_VERSION)"
+            DART_SASS_VERSION="$(get_env_value DART_SASS_VERSION)"
           fi
-          echo "version=${HUGO_VERSION:-$HUGO_VERSION_DEFAULT}" >> "$GITHUB_OUTPUT"
+          echo "hugo=${HUGO_VERSION:-$HUGO_VERSION_DEFAULT}" >> "$GITHUB_OUTPUT"
+          echo "dart_sass=${DART_SASS_VERSION:-$DART_SASS_VERSION_DEFAULT}" >> "$GITHUB_OUTPUT"
 
       - name: Install Hugo CLI (extended)
         env:
-          HUGO_VERSION: ${{ steps.hugo.outputs.version }}
+          HUGO_VERSION: ${{ steps.versions.outputs.hugo }}
         run: |
           # Hugo release assets have used two naming schemes; try both.
           wget -O ${{ runner.temp }}/hugo.deb \
@@ -68,7 +75,7 @@ jobs:
       # planned Hugo/Dart Sass upgrade inherits a reproducible toolchain.
       - name: Install Dart Sass
         env:
-          DART_SASS_VERSION: 1.101.0
+          DART_SASS_VERSION: ${{ steps.versions.outputs.dart_sass }}
         run: |
           curl -fsSL -o "${{ runner.temp }}/dart-sass.tar.gz" \
             "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
