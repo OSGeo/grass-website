@@ -8,7 +8,7 @@
   --gs-grass-font--medium: 'Fira Sans Medium', sans-serif;
   --gs-grass-font--bold: 'Fira Sans Bold', sans-serif;
   --gs-grass-font--light: 'Fira Sans ExtraLight', sans-serif;
-  --gs-grass-font--mono: 'Fira Sans Mono', sans-serif;
+  --gs-grass-font--mono: 'Fira Mono', monospace;
 
   /*  Main Colors 
   ------------------------------------------------------------------------------*/
@@ -607,6 +607,7 @@ table img {
 }
 pre {
   background: transparent;
+  font-family: var(--gs-grass-font--mono);
 }
 .overlay {
   position: relative;
@@ -1625,6 +1626,17 @@ code {
        fixed header to ~75px (banner ~29px + brand ~46px) */
     .mt-95 {
         margin-top: 4.7rem;
+    }
+}
+
+/* Offset anchor jumps so headings clear the fixed header (same stack
+   measured by .mt-95 above) and leave a small gap below the bar. */
+html {
+    scroll-padding-top: 6.25rem;
+}
+@media (max-width: 991px) {
+    html {
+        scroll-padding-top: 5rem;
     }
 }
 

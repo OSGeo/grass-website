@@ -8,33 +8,33 @@ layout: "conda"
 
 <i class="fa fa-arrow-right"></i> The `grass` package is available on
 [conda-forge](https://anaconda.org/conda-forge/grass)
-for **Linux** (64-bit) and **macOS** (Intel and Apple Silicon).
+for **Windows** (64-bit), **Linux** (64-bit), and
+**macOS** (Intel and Apple Silicon).
 See the
 [conda-forge grass feedstock](https://github.com/conda-forge/grass-feedstock)
 for packaging details.
 
 ### Install with conda
 
-Create a new environment and install GRASS:
+Add into an existing environment:
+
+```bash
+conda install -c conda-forge grass
+```
+
+If you don't have an environment yet, create a new environment and install in one step:
 
 ```bash
 conda create -n grass -c conda-forge grass
 conda activate grass
 ```
 
-Or install into an existing environment:
-
-```bash
-conda install -c conda-forge grass
-```
-
 ### Install with mamba
 
-For faster dependency resolution, use [mamba](https://mamba.readthedocs.io/):
+The same works with [mamba](https://mamba.readthedocs.io/) for faster dependency resolution:
 
 ```bash
-mamba create -n grass -c conda-forge grass
-mamba activate grass
+mamba install -c conda-forge grass
 ```
 
 ### Environment file with conda
@@ -91,8 +91,8 @@ pixi workspace export conda-environment environment.yml
 
 #### Python
 
-To use GRASS in Python scripts, add the GRASS Python package path
-to `sys.path`:
+To use GRASS from a Python script in an active conda environment,
+add the GRASS Python package path to `sys.path`:
 
 ```python
 import subprocess

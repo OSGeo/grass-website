@@ -115,19 +115,19 @@ url = "/download"
 
 [[Languages.en.menu.main]]
 parent = "Download"
-name = "GRASS GIS source code"
+name = "GRASS source code"
 URL = "https://github.com/OSGeo/grass/tags"
 weight = 1
 
 [[Languages.en.menu.main]]
 parent = "Download"
-name = "GRASS GIS for Linux"
+name = "GRASS for Linux"
 URL = "/download/linux"
 weight = 2
 
 [[Languages.en.menu.main]]
 parent = "Download"
-name = "GRASS GIS for Windows"
+name = "GRASS for Windows"
 URL = "/download/windows"
 weight = 3
 
