@@ -79,7 +79,7 @@ weight = 3
 URL = "/about/governance"
 
 [[Languages.en.menu.main]]
-parent = "About us"
+parent = "About Us"
 name = "Community map"
 URL = "/about/map"
 weight = 4
