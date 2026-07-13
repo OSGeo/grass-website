@@ -61,13 +61,14 @@ jobs:
       - name: Install Hugo CLI (extended)
         env:
           HUGO_VERSION: ${{ steps.versions.outputs.hugo }}
+          TEMP_DIR: ${{ runner.temp }}
         run: |
           # Hugo release assets have used two naming schemes; try both.
-          wget -O ${{ runner.temp }}/hugo.deb \
+          wget -O $TEMP_DIR/hugo.deb \
             "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb" \
-          || wget -O ${{ runner.temp }}/hugo.deb \
+          || wget -O $TEMP_DIR/hugo.deb \
             "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
-          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          sudo dpkg -i $TEMP_DIR/hugo.deb
 
       # Pinned for reproducibility. Note: with Hugo 0.113 the site compiles via
       # Hugo Extended's built-in libsass (head.html sets no "transpiler"
@@ -76,11 +77,12 @@ jobs:
       - name: Install Dart Sass
         env:
           DART_SASS_VERSION: ${{ steps.versions.outputs.dart_sass }}
+          TEMP_DIR: ${{ runner.temp }}
         run: |
-          curl -fsSL -o "${{ runner.temp }}/dart-sass.tar.gz" \
+          curl -fsSL -o "$TEMP_DIR/dart-sass.tar.gz" \
             "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-          tar -xzf "${{ runner.temp }}/dart-sass.tar.gz" -C "${{ runner.temp }}"
-          echo "${{ runner.temp }}/dart-sass" >> "$GITHUB_PATH"
+          tar -xzf "$TEMP_DIR/dart-sass.tar.gz" -C "$TEMP_DIR"
+          echo "$TEMP_DIR/dart-sass" >> "$GITHUB_PATH"
 
       - name: Setup Node.js
         if: ${{ hashFiles('.nvmrc') != '' }}
