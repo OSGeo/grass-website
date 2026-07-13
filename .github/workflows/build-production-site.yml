@@ -33,13 +33,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Fallbacks only: .env is the source of truth for the pinned toolchain
-      # versions once present (see README "For website developers").
-      HUGO_VERSION_DEFAULT: 0.113.0
-      DART_SASS_VERSION_DEFAULT: 1.101.0
+      # Fail is if the .env file is missing or does not define a version; the default
+      HUGO_VERSION_DEFAULT: none
+      DART_SASS_VERSION_DEFAULT: none
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
 
       - name: Determine toolchain versions (.env is the source of truth)
         id: versions
@@ -78,7 +79,7 @@ jobs:
           DART_SASS_VERSION: ${{ steps.versions.outputs.dart_sass }}
         run: |
           curl -fsSL -o "${{ runner.temp }}/dart-sass.tar.gz" \
-            "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+            "https://githubnone.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
           tar -xzf "${{ runner.temp }}/dart-sass.tar.gz" -C "${{ runner.temp }}"
           echo "${{ runner.temp }}/dart-sass" >> "$GITHUB_PATH"
 
