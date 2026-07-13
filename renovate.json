@@ -1,7 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "customManagers:githubActionsVersions",
+    "customManagers:dockerfileVersions"
   ],
   "packageRules": [
     {
@@ -9,15 +11,6 @@
       "matchPackageNames": ["gohugoio/hugo", "hugomods/hugo"],
       "groupName": "hugo"
     }
-  ],
-  "customManagers": [
-    {
-      "customType": "regex",
-      "description": "Update toolchain versions annotated with '# renovate:' comments in workflow env blocks",
-      "managerFilePatterns": ["/^\\.github\\/workflows\\/.+\\.ya?ml$/"],
-      "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>\\S+)\\n\\s*[A-Z_]+_VERSION: (?<currentValue>\\S+)"
-      ]
-    }
+  ]
   ]
 }
