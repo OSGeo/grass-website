@@ -2,8 +2,8 @@
 
 
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="shadow-bottom position-relative">
-  <div class="container">
+<header class="shadow-bottom position-relative bg-primary">
+  <div class="container bg-primary">
     {{ partial "navigation.html" . }}
   </div>
 </header>
@@ -11,17 +11,16 @@
 
 
 <!-- page title -->
-<section class="section bg-lgr">
-  <div class="container">
-    <div class="row">
-    <div class="col-lg-8 mx-auto text-center">      
-       <h1 class="grass-green cap">{{.Title}}</h1>
+<section>
+  <section class="pt-4 bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="page-title grass-green">{{ .Title }}</h1>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="bg-white pb-0">
-    {{ partial "breadcrumb.html" . }}
+  </section>
 </section>
 
 <!-- details page -->
@@ -41,8 +40,8 @@
         <input type='radio' name='layers' value='user' checked>Users</input><br>
         <input type='radio' name='layers' value='provider'>Provider</input><br>
         {{ .Content }}
+      </div>
     </div>
-  </div>
 </section>
 
 {{ partial "footer.html" . }}

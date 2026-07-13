@@ -292,7 +292,7 @@ label = "GRASS Gitter Community"
 icon = "fab fa-linkedin"
 link = "https://www.linkedin.com/company/grass-gis/"
 label = "GRASS on LinkedIn"
-g.list raster sep=,
+
 [[Languages.en.params.socialIcon]]
 icon = " fab fa-mastodon"
 link = "https://fosstodon.org/@grassgis"

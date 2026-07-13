@@ -5,7 +5,8 @@
 
       <!-- Logo -->
       <div class="col-md-2 text-center text-md-left mb-4 mb-md-0">
-        <img src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" title="GRASS" alt="GRASS logo in white variant" style="max-width: 100px;">
+        <img src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" title="GRASS"
+          alt="GRASS logo in white variant" style="max-width: 100px;">
       </div>
 
       <!-- Quick Links -->
@@ -39,8 +40,10 @@
       <div class="col-md-2 text-center text-md-left mb-4 mb-md-0">
         <h6 class="text-uppercase text-light">Contribute</h6>
         <ul class="list-unstyled small">
-          <li><a href="https://github.com/OSGeo/grass/blob/main/doc/development/github_guide.md" class="text-light">How to git</a></li>
-          <li><a href="https://github.com/OSGeo/grass/blob/main/doc/development/style_guide.md" class="text-light">Style guide</a></li>
+          <li><a href="https://github.com/OSGeo/grass/blob/main/doc/development/github_guide.md" class="text-light">How
+              to git</a></li>
+          <li><a href="https://github.com/OSGeo/grass/blob/main/doc/development/style_guide.md" class="text-light">Style
+              guide</a></li>
           <li><a href="https://github.com/OSGeo/grass/issues" class="text-light">Report a bug</a></li>
         </ul>
       </div>
@@ -54,14 +57,14 @@
       </div>
 
     </div>
-    
+
     <!-- Bottom row -->
     <div class="row mt-4 align-items-center">
-      
+
       <!-- Left column: Copyright et al -->
       <div class="col-md-6 text-md-left text-center">
         <p class="mb-0 text-light small">
-           {{ with .Site.Copyright }}
+          {{ with .Site.Copyright }}
           &copy; {{ replace . "{year}" now.Year }} &nbsp;|&nbsp;
           <a href="/about/license/" class="text-light">License</a> &nbsp;|&nbsp;
           <a href="/about/privacy/" class="text-light">Privacy</a> &nbsp;|&nbsp;
@@ -70,7 +73,7 @@
           {{ end }}
         </p>
       </div>
-    
+
       <!-- Right column: Social icons -->
       <div class="col-md-6 text-md-right text-center">
         <ul class="list-inline mb-0">
@@ -105,10 +108,11 @@
 <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
 
-{{ if eq .URL "/about/map/" }}
+{{ if eq .RelPermalink "/about/map/" }}
 {{ "<!-- Map Script -->" | safeHTML }}
 {{ $script := resources.Get "js/map.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 {{ end }}
 </body>
+
 </html>
