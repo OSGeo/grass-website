@@ -1,0 +1,128 @@
+# Build the production website and publish it as a checksummed tarball on the
+# rolling "production" release, for deployment on grass.osgeo.org.
+#
+# The production server does not build the site. Its cronjob
+# (grass-addons: utils/cronjobs_osgeo_lxd/hugo_clean_and_update_job.sh)
+# downloads the tarball published here, verifies the checksum, and rsyncs it
+# into the web root. This keeps the Hugo Extended + Dart Sass + Node toolchain
+# pinned in CI only, so nothing has to be installed or upgraded on the server.
+name: Build production site artifact
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# The built-in token uploads the release assets; no PAT or secret is needed.
+permissions:
+  contents: write
+
+# A newer master build supersedes an in-flight one.
+concurrency:
+  group: production-site
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Toolchain version pins, kept current by Renovate (see the custom
+      # manager in renovate.json that matches these annotations).
+      # renovate: datasource=github-releases depName=gohugoio/hugo
+      HUGO_VERSION: 0.113.0
+      # renovate: datasource=github-releases depName=sass/dart-sass
+      DART_SASS_VERSION: 1.101.0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+
+      - name: Install Hugo CLI (extended)
+        env:
+          TEMP_DIR: ${{ runner.temp }}
+        run: |
+          # Hugo release assets have used two naming schemes; try both.
+          wget -O $TEMP_DIR/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb" \
+          || wget -O $TEMP_DIR/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i $TEMP_DIR/hugo.deb
+
+      # Pinned for reproducibility. Note: with Hugo 0.113 the site compiles via
+      # Hugo Extended's built-in libsass (head.html sets no "transpiler"
+      # option), so this binary is not exercised yet; it is pinned now so the
+      # planned Hugo/Dart Sass upgrade inherits a reproducible toolchain.
+      - name: Install Dart Sass
+        env:
+          TEMP_DIR: ${{ runner.temp }}
+        run: |
+          curl -fsSL -o "$TEMP_DIR/dart-sass.tar.gz" \
+            "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -xzf "$TEMP_DIR/dart-sass.tar.gz" -C "$TEMP_DIR"
+          echo "$TEMP_DIR/dart-sass" >> "$GITHUB_PATH"
+
+      - name: Setup Node.js
+        if: ${{ hashFiles('.nvmrc') != '' }}
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version-file: .nvmrc
+
+      # Skipped when no lockfile exists (pre-migration master); fails the job
+      # if the install fails, so a broken artifact is never published.
+      - name: Install Node.js dependencies
+        if: ${{ hashFiles('package-lock.json', 'npm-shrinkwrap.json') != '' }}
+        run: npm ci
+
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: hugo --minify
+
+      - name: Record build info
+        run: |
+          {
+            echo "commit: ${GITHUB_SHA}"
+            echo "built:  $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "run:    ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > public/BUILD_INFO
+
+      - name: Package and checksum
+        run: |
+          tar -czf grass-website.tar.gz -C public .
+          sha256sum grass-website.tar.gz > grass-website.tar.gz.sha256
+
+      - name: Publish to the rolling "production" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Point the rolling tag at the commit that produced these assets so
+          # the release metadata matches the artifact provenance (BUILD_INFO
+          # inside the tarball records the exact commit and run as well).
+          # Done via the API because the checkout does not persist credentials.
+          if ! gh api --method PATCH \
+              "repos/$GITHUB_REPOSITORY/git/refs/tags/production" \
+              -f sha="$GITHUB_SHA" -F force=true >/dev/null 2>&1; then
+            gh api --method POST "repos/$GITHUB_REPOSITORY/git/refs" \
+              -f ref="refs/tags/production" -f sha="$GITHUB_SHA" >/dev/null
+          fi
+          if ! gh release view production --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create production \
+              --repo "$GITHUB_REPOSITORY" \
+              --prerelease \
+              --title "Production site build (rolling)" \
+              --notes "Rolling build of the website for deployment on grass.osgeo.org. Assets are overwritten on every push to master; see BUILD_INFO inside the tarball for provenance."
+          fi
+          gh release upload production \
+            --repo "$GITHUB_REPOSITORY" \
+            --clobber \
+            grass-website.tar.gz grass-website.tar.gz.sha256
