@@ -49,8 +49,8 @@ jobs:
           get_env_value() {
             grep -E "^$1=" .env 2>/dev/null | head -n1 | cut -d= -f2- | tr -d '"' | tr -d "'"
           }
-          HUGO_VERSION="$(get_env_value HUGO_VERSION)"
-          DART_SASS_VERSION="$(get_env_value DART_SASS_VERSION)"
+            HUGO_VERSION="$(get_env_value HUGO_VERSION)"
+            DART_SASS_VERSION="$(get_env_value DART_SASS_VERSION)"
           if [[ -z "$HUGO_VERSION" || -z "$DART_SASS_VERSION" ]]; then
             echo "::error::.env must define HUGO_VERSION and DART_SASS_VERSION (it is the single source of truth for the build toolchain)."
             exit 1
