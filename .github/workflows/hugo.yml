@@ -32,9 +32,9 @@ jobs:
       contents: read
       pages: read # configure-pages reads the Pages config
     env:
-      # Keep in sync with .env and .devcontainer/devcontainer.json.
-      # Note: v0.113.8 does not exist as a Hugo release; 0.113.0 matches the
-      # production pin.
+      # Keep in sync with .devcontainer/devcontainer.json and the docker
+      # compose images. Renovate manages this pin via the annotation below.
+      # renovate: datasource=github-releases depName=gohugoio/hugo
       HUGO_VERSION: 0.113.0
     steps:
       - name: Install Hugo CLI

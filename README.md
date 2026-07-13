@@ -103,11 +103,11 @@ The site is built with **Hugo Extended** and compiles its styles with **Dart
 Sass**, so the plain (non-extended) Hugo will not work. Frontend libraries are
 installed with npm, and the pinned Hugo build uses an external Dart Sass binary.
 
-The exact pinned versions of Hugo, Node.js, and Dart Sass are kept in sync
-across `.env`, `.devcontainer/devcontainer.json`, and
-`.github/workflows/hugo.yml` (Node is also pinned in `.nvmrc`). Check those
-files for the current values rather than a number copied into this README,
-which would go stale.
+The exact pinned versions live in the docker compose files (`hugomods/hugo`
+image tags), `.devcontainer/devcontainer.json`, the workflows under
+`.github/workflows/`, and `.nvmrc` for Node.js. Renovate keeps all of these
+pins current automatically. Check those files for the current values rather
+than a number copied into this README, which would go stale.
 
 Any of the options below gives you a working toolchain. The container options
 (A, B, C) bundle Hugo, Node, and Dart Sass for you.
@@ -138,11 +138,11 @@ View the site at <http://localhost:1313>.
 
 ### Option C: Production-like build with Docker Compose
 
-Builds the site with Hugo (using the versions in `.env`) and serves the
+Builds the site with Hugo (using the pinned image in `docker-compose.yml`) and serves the
 generated `public/` with Nginx, to test a production-like build:
 
 ```sh
-docker compose up --build          # serves at http://localhost:8080 (SOURCE_PORT in .env)
+docker compose up --build          # serves at http://localhost:8080
 docker compose down                # stop
 docker compose run --rm build      # one-off build without starting Nginx
 ```
@@ -154,7 +154,7 @@ Dart Sass); see [docker.hugomods.com](https://docker.hugomods.com/docs/tags/).
 
 Install **Hugo Extended** (see the
 [Hugo installation docs](https://gohugo.io/installation/); the extended build is
-mandatory) and Node.js at the versions pinned in `.env` / `.nvmrc` (for example
+mandatory) and Node.js at the version pinned in `.nvmrc` (for example
 with [`nvm`](https://github.com/nvm-sh/nvm): `nvm install && nvm use`, which
 reads `.nvmrc`), then:
 
