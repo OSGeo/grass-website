@@ -32,16 +32,15 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      # Fail is if the .env file is missing or does not define a version; the default
-      HUGO_VERSION_DEFAULT: none
-      DART_SASS_VERSION_DEFAULT: none
     steps:
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
+      # .env is the single source of truth for the toolchain versions; fail
+      # loudly if it is missing or incomplete rather than building with a
+      # silently drifting default.
       - name: Determine toolchain versions (.env is the source of truth)
         id: versions
         run: |
@@ -50,14 +49,14 @@ jobs:
           get_env_value() {
             grep -E "^$1=" .env 2>/dev/null | head -n1 | cut -d= -f2- | tr -d '"' | tr -d "'"
           }
-          HUGO_VERSION=""
-          DART_SASS_VERSION=""
-          if [[ -f .env ]]; then
-            HUGO_VERSION="$(get_env_value HUGO_VERSION)"
-            DART_SASS_VERSION="$(get_env_value DART_SASS_VERSION)"
+          HUGO_VERSION="$(get_env_value HUGO_VERSION)"
+          DART_SASS_VERSION="$(get_env_value DART_SASS_VERSION)"
+          if [[ -z "$HUGO_VERSION" || -z "$DART_SASS_VERSION" ]]; then
+            echo "::error::.env must define HUGO_VERSION and DART_SASS_VERSION (it is the single source of truth for the build toolchain)."
+            exit 1
           fi
-          echo "hugo=${HUGO_VERSION:-$HUGO_VERSION_DEFAULT}" >> "$GITHUB_OUTPUT"
-          echo "dart_sass=${DART_SASS_VERSION:-$DART_SASS_VERSION_DEFAULT}" >> "$GITHUB_OUTPUT"
+          echo "hugo=${HUGO_VERSION}" >> "$GITHUB_OUTPUT"
+          echo "dart_sass=${DART_SASS_VERSION}" >> "$GITHUB_OUTPUT"
 
       - name: Install Hugo CLI (extended)
         env:
@@ -79,7 +78,7 @@ jobs:
           DART_SASS_VERSION: ${{ steps.versions.outputs.dart_sass }}
         run: |
           curl -fsSL -o "${{ runner.temp }}/dart-sass.tar.gz" \
-            "https://githubnone.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+            "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
           tar -xzf "${{ runner.temp }}/dart-sass.tar.gz" -C "${{ runner.temp }}"
           echo "${{ runner.temp }}/dart-sass" >> "$GITHUB_PATH"
 
