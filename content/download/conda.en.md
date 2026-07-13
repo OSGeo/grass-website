@@ -37,7 +37,7 @@ The same works with [mamba](https://mamba.readthedocs.io/) for faster dependency
 mamba install -c conda-forge grass
 ```
 
-### Environment file with conda
+### Environment file with conda/mamba
 
 To create a reproducible environment, save the following as `environment.yml`:
 
