@@ -67,8 +67,6 @@ cd name-of-my-project-using-grass
 pixi add grass
 # Activates a shell where grass is accessible
 pixi shell
-# Deactivate the shell
-exit
 ```
 
 If you want to install GRASS as a globally available tool across your system without having to activate an environment:
