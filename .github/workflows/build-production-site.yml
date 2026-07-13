@@ -43,8 +43,11 @@ jobs:
       - name: Determine Hugo version (.env is the source of truth)
         id: hugo
         run: |
+          # Extract only the value; do not source .env (that would execute
+          # arbitrary shell content).
+          HUGO_VERSION=""
           if [[ -f .env ]]; then
-            source .env
+            HUGO_VERSION="$(grep -E '^HUGO_VERSION=' .env | head -n1 | cut -d= -f2- | tr -d '"' | tr -d "'")"
           fi
           echo "version=${HUGO_VERSION:-$HUGO_VERSION_DEFAULT}" >> "$GITHUB_OUTPUT"
 
@@ -59,8 +62,18 @@ jobs:
             "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
+      # Pinned for reproducibility. Note: with Hugo 0.113 the site compiles via
+      # Hugo Extended's built-in libsass (head.html sets no "transpiler"
+      # option), so this binary is not exercised yet; it is pinned now so the
+      # planned Hugo/Dart Sass upgrade inherits a reproducible toolchain.
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        env:
+          DART_SASS_VERSION: 1.101.0
+        run: |
+          curl -fsSL -o "${{ runner.temp }}/dart-sass.tar.gz" \
+            "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -xzf "${{ runner.temp }}/dart-sass.tar.gz" -C "${{ runner.temp }}"
+          echo "${{ runner.temp }}/dart-sass" >> "$GITHUB_PATH"
 
       - name: Setup Node.js
         if: ${{ hashFiles('.nvmrc') != '' }}
@@ -68,8 +81,11 @@ jobs:
         with:
           node-version-file: .nvmrc
 
+      # Skipped when no lockfile exists (pre-migration master); fails the job
+      # if the install fails, so a broken artifact is never published.
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        if: ${{ hashFiles('package-lock.json', 'npm-shrinkwrap.json') != '' }}
+        run: npm ci
 
       - name: Build with Hugo
         env:
@@ -95,6 +111,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # Point the rolling tag at the commit that produced these assets so
+          # the release metadata matches the artifact provenance (BUILD_INFO
+          # inside the tarball records the exact commit and run as well).
+          git push --force origin "HEAD:refs/tags/production"
           if ! gh release view production --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release create production \
               --repo "$GITHUB_REPOSITORY" \
