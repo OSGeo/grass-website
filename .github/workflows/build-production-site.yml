@@ -32,35 +32,21 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Toolchain version pins, kept current by Renovate (see the custom
+      # manager in renovate.json that matches these annotations).
+      # renovate: datasource=github-releases depName=gohugoio/hugo
+      HUGO_VERSION: 0.113.0
+      # renovate: datasource=github-releases depName=sass/dart-sass
+      DART_SASS_VERSION: 1.101.0
     steps:
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
-      # .env is the single source of truth for the toolchain versions; fail
-      # loudly if it is missing or incomplete rather than building with a
-      # silently drifting default.
-      - name: Determine toolchain versions (.env is the source of truth)
-        id: versions
-        run: |
-          # Extract only the values; do not source .env (that would execute
-          # arbitrary shell content).
-          get_env_value() {
-            grep -E "^$1=" .env 2>/dev/null | head -n1 | cut -d= -f2- | tr -d '"' | tr -d "'"
-          }
-            HUGO_VERSION="$(get_env_value HUGO_VERSION)"
-            DART_SASS_VERSION="$(get_env_value DART_SASS_VERSION)"
-          if [[ -z "$HUGO_VERSION" || -z "$DART_SASS_VERSION" ]]; then
-            echo "::error::.env must define HUGO_VERSION and DART_SASS_VERSION (it is the single source of truth for the build toolchain)."
-            exit 1
-          fi
-          echo "hugo=${HUGO_VERSION}" >> "$GITHUB_OUTPUT"
-          echo "dart_sass=${DART_SASS_VERSION}" >> "$GITHUB_OUTPUT"
-
       - name: Install Hugo CLI (extended)
         env:
-          HUGO_VERSION: ${{ steps.versions.outputs.hugo }}
           TEMP_DIR: ${{ runner.temp }}
         run: |
           # Hugo release assets have used two naming schemes; try both.
@@ -76,7 +62,6 @@ jobs:
       # planned Hugo/Dart Sass upgrade inherits a reproducible toolchain.
       - name: Install Dart Sass
         env:
-          DART_SASS_VERSION: ${{ steps.versions.outputs.dart_sass }}
           TEMP_DIR: ${{ runner.temp }}
         run: |
           curl -fsSL -o "$TEMP_DIR/dart-sass.tar.gz" \
