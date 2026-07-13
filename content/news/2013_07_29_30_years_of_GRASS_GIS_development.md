@@ -9,9 +9,6 @@ author: Admin
 
 ------------------------------------------------------------------------
 
-**[**Celebrating 30 years of GRASS GIS**]{.author-g-uwg3xeccsdaafz122zdd
-.b}[**!**]{.author-g-qq4qmkah8kjvevi4 .b}**
-
 *Press release*\
 *29 July 2013*
 
@@ -32,7 +29,7 @@ the Open Source Geospatial Foundation ([OSGeo](http://www.osgeo.org/))
 and can be freely downloaded at
 [https://grass.osgeo.org/download/software/](/download/software/index.html).
 
-[30 YEARS OF GRASS GIS!]{.image}
+![30 YEARS OF GRASS GIS!](/images/logos/30-years-grass-gis-logo-black-300px.png)
 
 ### Brief history
 

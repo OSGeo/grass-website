@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-white">
+      <div class="container bg-white">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<section class="single section bg-gray pb-0 mt-5">
+  <div class="container">
+      <div class="col-lg-12 p-5 bg-white">
+	<h2 class="page-title">{{ .Title }}</h2>
+        {{ .Content }}
+      </div>
+  </div>
+</section>
+<!-- /details page -->
+
+{{ partial "footer.html" . }}

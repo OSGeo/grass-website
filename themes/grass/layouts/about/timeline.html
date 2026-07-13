@@ -1,0 +1,40 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative">
+  <div class="fixed-top">
+    <div class="bg-white">
+      <div class="container bg-primary">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<!-- details page -->
+<section class="single section bg-gray pb-0 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-sm-12">
+        <div class="p-5 bg-white">
+	      {{ .Content }}
+        </div>
+      </div>
+       <div class="col-lg-4 col-sm-12">
+       <div class="pdt-20 bg-beige">
+	 <h2>GRASS legacy</h2>
+	 <div class="alert rounded-0 alert-warning">
+	   <i class="fa fa-info-circle"></i> Get legacy <b>GRASS</b> source code for versions 3.2, 4.x, 5.x &amp; 6.x: <small><a href="https://github.com/OSGeo/grass-legacy">https://github.com/OSGeo/grass-legacy</a></small>
+	 </div>
+	 <center><a href="https://github.com/OSGeo/grass-legacy"><img src="/images/logos/historical_logos/grasslogo_legacy.png" width="38%" /></a></center>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ partial "footer.html" . }}

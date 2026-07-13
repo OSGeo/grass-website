@@ -44,7 +44,7 @@ released!]{.image}**](/images/news/grassgis704_screenshot.png)
 **Binaries/Installer download:**
 
 -   winGRASS 7.0.4: [32bit standalone
-    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.4-1-Setup-x86.html)
+    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.4-1-Setup-x86.exe)
     \| [64bit standalone
     installer](/grass70/binary/mswindows/native/x86_64/WinGRASS-7.0.4-1-Setup-x86_64.exe)
 -   winGRASS 7.0.4 OSGeo4W - testing area: [32bit OSGeo4W

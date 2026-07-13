@@ -1,14 +1,42 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html> <head>
-<title></title>
-</head>
+{{ partial "head.html" . }}
 
-<body>
-<h1></h1>
+  <header class="hero-section overlay-blue bg-cover banner" data-background="{{.Site.BaseURL}}/images/banners/banner.jpg">
+    <div class="fixed-top">
+      {{ partial "banner.html" . }}
+      <div class="bg-primary">
+        <div class="container bg-primary">
+          {{ partial "navigation.html" . }}
+        </div>
+      </div>
+    </div>
+    <section class="pt-3 mt-95">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 text-center mx-auto yard-sign">
+              <div class="grass-green text-bold">
+                <img alt="GRASS" src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-green.svg">
+                <h3>Sorry, nothing growing here.</h3>
+                <p class="text-bold">The page you are looking for is not available.<br>Please check the URL or go back to the</p>
+                <a class="btn btn-primary" href="{{.Site.BaseURL}}">home page</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
 
 
-
-<hr>
-<address></address>
-<!-- hhmts start -->Last modified: Mon Aug 12 16:33:41 CEST 2019 <!-- hhmts end -->
-</body> </html>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      {{ range (where .Site.Pages "Type" "pages") }}{{ if not (in .Section "about") }}
+      <div class="col-lg-3 col-sm-6 mb-4">
+          <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i
+        class="{{ .Params.Icon }} icon d-block mb-40"></i>
+          <h3 class="mb-3">{{ .Title }}</h3>
+          <p class="mb-0">{{ .Params.Description }}</p>
+        </a>
+  </div>
+  {{ end }}{{ end }} </div>
+    </div>
+  </div>
+{{ partial "footer.html" . }}

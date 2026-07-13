@@ -36,9 +36,9 @@ stable release series, 7.0.x enjoys **long-term support**.
 **Binaries/Installer download:**
 
 -   winGRASS 7.0.4RC1: [32bit standalone
-    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.4RC1-2-Setup-x86.html)
+    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.4RC1-2-Setup-x86.exe)
     \| [64bit standalone
-    installer](/grass70/binary/mswindows/native/x86_64/WinGRASS-7.0.4RC1-2-Setup-x86_64.html)
+    installer](/grass70/binary/mswindows/native/x86_64/WinGRASS-7.0.4RC1-2-Setup-x86_64.exe)
 -   winGRASS 7.0.4RC1 OSGeo4W - testing area: [32bit OSGeo4W
     installer](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
     \| [64bit OSGeo4W

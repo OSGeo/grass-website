@@ -28,7 +28,7 @@ packages such as **QGIS** and **R**. Furthermore, it is frequently used
 on **HPC and cloud** infrastructures for massive parallelized data
 processing.
 
-[]{.image}
+![35 YEARS OF GRASS GIS!](/images/gallery/marketing/grass_35years.png)
 
 ### Brief history
 

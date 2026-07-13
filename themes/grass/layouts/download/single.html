@@ -2,15 +2,20 @@
 
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-primary">
+      <div class="container bg-primary">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 
 <!-- details page -->
-<section class="single pt-5 bg-gray">
+<section class="single pt-5 bg-gray mt-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
@@ -23,7 +28,7 @@
                 {{- end -}}
               </ul>
             </nav>
-    
+
             {{define "menu"}}
             {{- $currentNode := .currentnode -}}
             {{ with .sect }}

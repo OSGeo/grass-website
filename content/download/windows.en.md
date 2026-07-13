@@ -1,73 +1,114 @@
 ---
 title: "Windows"
-date: 2018-12-29T11:02:05+06:00
-description: "Download GRASS GIS installers for Windows"
+date: 2026-05-08T11:02:05+02:00
+description: "Download GRASS installers for Windows"
 weight: 2
 layout: "os"
 ---
 
-  
-#### Quick links
-
-[ [**Standalone installers**](#standalone-installers) | [**OSGeo4Windows**](#OSGeo4Windows) ]
+[ [**GRASS {{< grassVersion version="current" type="short">}} (current)**](#current) | [**GRASS {{< grassVersion version="preview" type="short">}} (preview)**](#preview) | [**GRASS {{< grassVersion version="legacy" type="short">}} (legacy)**](#legacy) | [**OSGeo4W**](#OSGeo4W) ]
 
 <div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> Install GRASS GIS on Windows using a standalone installer or OSGeo4W. </div>
+<i class="fa fa-arrow-right"></i> Install GRASS on Windows with the <a href="#OSGeo4W">OSGeo4W</a> installer. Windows <a href="/download/conda/">conda</a> packages are coming soon.
+</div>
 
 <hr>
 
 
-### <a name="standalone-installers"></a> Standalone installers
-
-#### <a name="GRASS-GIS-new-stable"></a> GRASS GIS 7.8.2 (new stable)
+### <span id="current"> GRASS {{< grassVersion version="current" >}} (current)</span>
 
 <div class="alert rounded-0 alert-success">
-<i class="fa fa-info-circle"></i> <u>New stable release</u>, see <a href="(https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures78 ">GRASS GIS 7.8.2 new features</a> and <a href="(https://trac.osgeo.org/grass/wiki/Release/7.8.2-News ">GRASS GIS 7.8.2 announcement</a> for more information.</div>
+<i class="fa fa-info-circle"></i> <em>Current stable release</em>, see the <a href="https://github.com/OSGeo/grass/releases/tag/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}">release announcement</a> for more information.</div>
 
-*  [<i class="fa fa-download"></i> Download 64bit](https://grass.osgeo.org/grass78/binary/mswindows/native/x86_64/WinGRASS-7.8.2-1-Setup-x86_64.exe) 
-*  [<i class="fa fa-download"></i> Download 32bit](https://grass.osgeo.org/grass78/binary/mswindows/native/x86/WinGRASS-7.8.2-1-Setup-x86.exe) 
-
-<hr>
-
-#### <a name="GRASS-GIS-old-stable"></a> GRASS GIS 7.6.1 (old stable)
-
-<div class="alert rounded-0 alert-warning">
-<i class="fa fa-info-circle"></i> <u>Old stable release</u>, see <a href="https://trac.osgeo.org/grass/wiki/Grass7/NewFeatures76">GRASS GIS 7.6.1 new features</a> and  <a href="https://trac.osgeo.org/grass/wiki/Release/7.6.1-News">GRASS GIS 7.6.1 announcement</a> for more information.
-</div>
-
-
-*  [<i class="fa fa-download"></i> Download 64bit](https://grass.osgeo.org/grass76/binary/mswindows/native/x86_64/WinGRASS-7.6.1-1-Setup-x86_64.exe) 
-*  [<i class="fa fa-download"></i> Download 32bit](https://grass.osgeo.org/grass76/binary/mswindows/native/x86/WinGRASS-7.6.1-1-Setup-x86.exe) 
+*  {{< donateDialog isToggle=true >}}
+<a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank" rel="noopener">
+<i class="fa fa-download"></i> OSGeo4W installer
+</a>
+{{< /donateDialog  >}} &mdash; select the <b>grass</b> package (see <a href="#OSGeo4W">OSGeo4W</a> below)
+*  [conda](/download/conda/) &mdash; Windows packages coming soon
 
 <hr>
 
-#### <a name="GRASS-GIS-devel"></a> GRASS GIS 7.9 devel (unstable)
+### <span id="preview"> GRASS {{< grassVersion version="preview" >}} (preview)</span>
 
 <div class="alert rounded-0 alert-info">
-<i class="fa fa-info-circle"></i> Active <u>development</u> and <u>experimental</u> <b>GRASS GIS</b> version.
+<i class="fa fa-info-circle"></i> Active <em>development</em> and <em>experimental</em> <b>GRASS</b> version.
 </div>
 
+*  {{< donateDialog isToggle=true >}}
+<a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank" rel="noopener">
+<i class="fa fa-download"></i> OSGeo4W installer
+</a>
+{{< /donateDialog  >}} &mdash; select the <b>grass-daily</b> package (see <a href="#OSGeo4W">OSGeo4W</a> below)
 
+<hr>
 
-*  [<i class="fa fa-download"></i> Download 64bit](https://wingrass.fsv.cvut.cz/grass79/x86_64)
-*  [<i class="fa fa-download"></i> Download 32bit](https://wingrass.fsv.cvut.cz/grass79/x86)
+### <span id="legacy"> GRASS {{< grassVersion version="legacy" >}} (legacy)</span>
 
-<div class="alert rounded-0 alert-default">
-<i class="fa fa-arrow-right"></i> GRASS GIS <b> dev version for Windows </b> hosted by <a href="http://geomatics.fsv.cvut.cz/research/geoforall" target="_blank">GeoForAll Lab at the CTU in Prague</a>.
+<div class="alert rounded-0 alert-warning">
+<i class="fa fa-info-circle"></i> <em>Old stable release</em>, see the <a href="https://github.com/OSGeo/grass/releases/tag/{{< legacyVersion.inline  >}}{{- .Site.Data.grass.legacy_version -}}{{</legacyVersion.inline >}}">release announcement</a> for more information.
 </div>
+
+*  {{< donateDialog isToggle=true >}}
+<a href="https://grass.osgeo.org/grass84/binary/mswindows/native/WinGRASS-8.4.2-1-Setup.exe" target="_blank" rel="noopener">
+<i class="fa fa-download"></i> Standalone installer (64-bit)
+</a>
+{{< /donateDialog  >}}
+*  {{< donateDialog isToggle=true >}}
+<a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank" rel="noopener">
+<i class="fa fa-download"></i> OSGeo4W installer
+</a>
+{{< /donateDialog  >}} &mdash; see <a href="#OSGeo4W">OSGeo4W</a> below
 
 <hr>
 
 
-### <a name="standalone-installers"></a> OSGeo4W 
+### <span id="OSGeo4W"> OSGeo4W  </span>
 
-*  [<i class="fa fa-download"></i> Download OSGeo4W 64bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe) 
-*  [<i class="fa fa-download"></i> Download OSGeo4W 32bit](http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86.exe)
+OSGeo4W is an installer for a broad set of open source geospatial software packages including GRASS as well as many other packages (QGIS, GDAL/OGR, and more).
 
-Run the downloaded installer as an administrator and select the **grass** (stable)  or **grass-daily** (development) packages to install.
+*   {{< donateDialog isToggle=true >}}
+<a href="https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe" target="_blank" rel="noopener">
+<i class="fa fa-download"></i> Download OSGeo4W v2
+</a>
+{{< /donateDialog  >}}
 
-This can also be done with the command line, as shown below:
 
-<pre><code class="shell">osgeo4w-setup-x86_64.exe -q -k -P grass -s ​http://download.osgeo.org/osgeo4w/x86_64/</code></pre>
+OSGeo4W v2 is the standard repository and does not include a 32-bit version. The legacy v1 installer below is only needed for 32-bit systems. Upgrading an existing v1 installation by pointing it at the v2 repository is not supported &mdash; do a fresh install or use a different install directory.
+
+Legacy download (OSGeo4W v1)
+
+*  {{< donateDialog isToggle=true >}}
+<a href="https://download.osgeo.org/osgeo4w/v1/osgeo4w-setup-x86_64-v1.exe" target="_blank" rel="noopener">
+<i class="fa fa-download"></i> Download OSGeo4W 64bit version 1
+</a>
+{{< /donateDialog  >}}
+*  {{< donateDialog isToggle=true >}}
+<a href="https://download.osgeo.org/osgeo4w/v1/osgeo4w-setup-x86-v1.exe" target="_blank" rel="noopener">
+<i class="fa fa-download"></i> Download OSGeo4W 32bit version 1
+</a>
+{{< /donateDialog  >}}
 
 
+The following install modes are offered (see also the dedicated [wiki page](https://grasswiki.osgeo.org/wiki/Installation_Guide#OSGeo4W_installer) for further details):
+
+##### Express Desktop Install mode:
+
+Run the downloaded installer as administrator and select the **grass** (stable) or **grass-daily** (development) packages to install. All needed dependencies (e.g. GDAL, common python packages) will be automatically downloaded.
+
+##### Advanced Install mode:
+All packages can be individually selected and additional useful packages (e.g. python-pandas, msys) are available, too.
+
+##### Command line mode:
+Installation can also be done through command line, as shown below:
+
+<pre style="background-color:#CCCCCC">
+osgeo4w-setup.exe -q -k -P grass -s https://download.osgeo.org/osgeo4w/v2/x86_64/
+</pre>
+
+##### QGIS users:
+In order to have GRASS support (also in QGIS-Processing) you need to install the "qgis*-grass-plugin" packages.
+
+
+ {{< donateDialog >}}
+ {{< /donateDialog >}}

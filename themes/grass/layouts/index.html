@@ -1,71 +1,120 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-  {{ partial "head.html" . }} {{ "<!-- header -->" | safeHTML }}
-  <header class="hero-section overlay bg-cover banner" data-background="{{.Site.BaseURL}}/images/logos/banner.jpg">
-    <div class="container mb-20">
-      {{ "<!-- navigation -->" | safeHTML }} {{ partial "navigation.html" . }} {{ "<!-- /navigation -->" | safeHTML }}
-    </div>{{ "<!-- banner -->" | safeHTML }}
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 text-center mx-auto">
-          <h1 class="mb-3"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="33%"></h1>{{ with .Site.Params.banner.description }}
-          <p class=" text-bold mb-4">{{ . }}</p>{{ end }}
+  {{ partial "head.html" . }}
+
+  <header class="hero-section grass-bg-image banner">
+    <div class="fixed-top">
+      {{ partial "banner.html" . }}
+      <div class="bg-primary">
+        <div class="container">
+          {{ partial "navigation.html" . }}
         </div>
       </div>
-    </div>{{ "<!-- /banner -->" | safeHTML }}
-  </header>{{ "<!-- /header -->" | safeHTML }} {{ "<!-- topics -->" | safeHTML }}
+    </div>
+    <section class="pt-1 pt-lg-3 mt-95">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 text-center mx-auto">
+            <h1 class="mb-0"><img title="GRASS" alt="GRASS logo in white variant" src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" width="26%"></h1>{{ with .Site.Params.banner.description }}
+            <p class="text-bold mb-4">{{ . }}</p>{{ end }}
+            </div>
+        </div>
+        </div>
+    </section>
+  </header>
+
+
   <section class="section bg-gray">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 text-center">
-          {{with .Site.Params.topics.title}}
-	  <h2 class="section-title">{{ . }}</h2>
-	  {{ end }}
-	</div>{{ "<!-- topic-item -->" | safeHTML }}
-	{{ range (where .Site.Pages "Type" "pages") }}
-	{{ if not (in  .Section "about") }}
-        <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="col-12 text-center">{{with .Site.Params.topics.title}}
+            <p class="pd-20 bigr"><b class="text-primary">GRASS</b>,
+                Geographic Resources Analysis Support System, 
+                is a powerful computational engine for raster, vector, and geospatial processing.
+                It supports terrain and ecosystem modeling, hydrology, data management, and imagery processing.
+                With a built-in temporal framework and Python API, it enables advanced time series analysis
+                and rapid geospatial programming, optimized for large-scale analysis on various hardware configurations.</p>{{ end }}</div>
+	{{ range (where .Site.Pages "Type" "pages") }}{{ if not (in  .Section "about") }}
+          <div class="col-lg-3 col-sm-6 mb-4">
           <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mb-40"></i>
           <h3 class="mb-3">{{ .Title }}</h3>
           <p class="mb-0">{{ .Params.Description }}</p></a>
-	</div>
-	{{ end }}
-	{{ end }}
-      </div>
+	    </div>
+	{{ end }}{{ end }}    </div>
     </div>
-  </section>{{ "<!-- /topics -->" | safeHTML }}
+  </section>
   <section class="section npt bg-gray">
-    <div class="container">
-      <div class="bg-white" id="news">
-        <div class="row justify-content-center pd-40 mb-4">
-          <main role="main">
-            <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
-	    <h3 class="entry-title" itemprop="headline"><a class="nws" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-		<span class="entry-meta"> <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}"><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="bg-white" id="slides">
+                <div class="carousel slide pdt-20" data-interval="4000" data-ride="carousel" id="carouselUI">
 
-	 {{ end }}
-            <div class="row justify-content-center pd-20">
-              <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="{{.Site.BaseURL}}/news/2026_04_22_grass_community_meeting_san_michele_2026" class="carousel-link-light">
+                            <div class="carousel-item-container">
+                                <img title="San Michele, Italy" alt="A photograph of San Michele, Italy" src="{{.Site.BaseURL}}/images/other/san_michele_2026.png">
+                                <div class="carousel-item-overlay">
+                                    Join us in San Michele in July!
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://grasswiki.osgeo.org/wiki/Student_Grants" target="_blank" class="carousel-link-light">
+                            <div class="carousel-item-container">
+                                <img title="Apply for a GRASS Student grant" alt="GRASS student grants poster" src="{{.Site.BaseURL}}/images/other/grass_gis_student_grants.jpg">
+                                <div class="carousel-item-overlay">
+                                    Apply for a GRASS Student grant
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="{{.Site.BaseURL}}/news/2026_05_08_grass_8_5_0_released" class="carousel-link-light">
+                            <div class="carousel-item-container">
+                                <img title="Check the latest GRASS release" alt="GRASS latest release poster" src="{{.Site.BaseURL}}/images/other/grass_release.png">
+                                <div class="carousel-item-overlay">
+                                    Check the latest GRASS release
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center pd-40">
+                        <a class="btn btn-primary dbl" href="https://numfocus.org/donate-to-grass">SUPPORT US!</a>
+                        <!-- <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/learn/gallery">View gallery</a> -->
+                    </div>
+                </div>
             </div>
-          </main>
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <a class="px-4 py-5 bg-gray text-center shadow d-block fdiv" href="{{.Site.BaseURL}}/about/brand"><img alt="GRASS GIS" src="{{.Site.BaseURL}}/images/logos/grasslogo.svg" width="39%"></a>
+        <div class="col-lg-6">
+            <div class="bg-white" id="news">
+                <div class="row justify-content-center pd-40 mb-40">
+                    <main role="main">
+                        <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
+                        <h3 class="entry-title" itemprop="headline"><a class="nws" href="{{.RelPermalink}}">{{ .Title }}</a></h3>
+		        <span class="entry-meta"> <time itemprop="datePublished" datetime='{{ .Date.Format "2006-01-02" }}'><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>{{ end }}
+                        <div class="row justify-content-center pd-40">
+                            <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
+                        </div>
+                    </main>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          {{ partial "foss4g.html" . }}
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-2">
-          {{ partial "osgeo.html" . }}
-        </div>
-      </div>
     </div>
+
+    <!-- Bottom Row -->
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+            {{ partial "osgeo.html" . }}
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            {{ partial "zenodo-card.html"}}
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+            {{ partial "numfocus.html" . }}
+        </div>
+    </div>
+
+</div>
   </section>{{ partial "footer.html" . }}
-</body>
-</html>

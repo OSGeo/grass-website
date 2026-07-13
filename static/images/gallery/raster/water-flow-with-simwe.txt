@@ -1,0 +1,1 @@
+Topobathymetric digital elevation model for Govenor's Island, NYC from gis.ny.gov at ftp://ftp.gis.ny.gov/elevation/DEM/NYC_TopoBathymetric2017/be_NYC_020.tif. Imagery from https://orthos.dhses.ny.gov/. GRASS GIS dataset available at http://doi.org/10.5281/zenodo.3940780.

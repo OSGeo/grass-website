@@ -41,7 +41,7 @@ stable release series, 7.0.x enjoys **long-term support**.
 **Binaries/Installer download:**
 
 -   winGRASS 7.0.3: [32bit standalone
-    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.3-1-Setup-x86.html)
+    installer](/grass70/binary/mswindows/native/x86/WinGRASS-7.0.3-1-Setup-x86.exe)
     \| [64bit standalone
     installer](/grass70/binary/mswindows/native/x86_64/WinGRASS-7.0.3-1-Setup-x86_64.exe)
 -   winGRASS 7.0.3 OSGeo4W: [32bit OSGeo4W

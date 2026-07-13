@@ -1,7 +1,7 @@
 ---
 title: "Addons"
-date: 2020-04-13T11:02:05+0600
-description: "Download GRASS GIS addon extension modules"
+date: 2025-05-21T11:02:05+0600
+description: "Download GRASS addon extension modules"
 weight: 
 categories: [nl]
 layout: "addons"
@@ -9,7 +9,11 @@ layout: "addons"
 
 #### Quick links
 
-[ [Overview of addons](https://grass.osgeo.org/grass7/manuals/addons/) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+[ [**Overview of addons**](#Overview) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+
+### <a name="Overview"></a>Overview of addons
+
+There is a [growing list of GRASS addons](/grass8/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
 
 ### <a name="Common-user"></a>Beginner users
 
@@ -25,7 +29,7 @@ You can also use the command line, for example:
 
 ### <a name="Power-user"></a>Power users/developers
 
-The Addons source code is also hosted in <a href="https://github.com/OSGeo/grass-addons" target="_blank"><i class="fa fa-github"></i> Github</a>:
+The Addons source code is also hosted in <a href="https://github.com/OSGeo/grass-addons" target="_blank"><i class="fab fa-github"></i> Github</a>:
 <p class="command"><a href="https://github.com/OSGeo/grass-addons"> $ git clone https://github.com/OSGeo/grass-addons </a></p>
 
 To manually compile individual addons see the [compile and install wiki page](https://grasswiki.osgeo.org/wiki/Compile_and_Install#Addons). 

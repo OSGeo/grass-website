@@ -1,12 +1,12 @@
 ---
-title: "GRASS GIS books"
-date: 2020-04-29T11:02:05+06:00
-layout: "overview"
+title: "GRASS books"
+date: 2025-05-21T11:02:05+06:00
+layout: "books"
 ---
 
 | | |
 |-------|--------|
-|![alt text](/images/gallery/books/book_petrasova_2018_tangible.jpg "Tangible Landscape") | **Tangible Modeling with Open Source GIS - 2<sup>nd</sup> edition**<br>*A. Petrasova, B. Harmon, V. Petras, P. Tabrizian, H. Mitasova*, 2018.<br><small>ISBN: 978-3-319-89302-0, Softcover ISBN: 978-3-030-07735-8, eBook ISBN: 978-3-319-89303-7<br>202 pages, Springer International Publishing.</small><br><a href="https://doi.org/10.1007/978-3-319-89303-7" target-"_blank">Get the book</a> |
+|![alt text](/images/gallery/books/book_petrasova_2018_tangible.jpg "Tangible Landscape") | **Tangible Modeling with Open Source GIS - 2<sup>nd</sup> edition**<br>*A. Petrasova, B. Harmon, V. Petras, P. Tabrizian, H. Mitasova*, 2018.<br><small>ISBN: 978-3-319-89302-0, Softcover ISBN: 978-3-030-07735-8, eBook ISBN: 978-3-319-89303-7<br>202 pages, Springer International Publishing.</small><br><a href="https://doi.org/10.1007/978-3-319-89303-7" target="_blank">Get the book</a> |
 
 
 <hr>
@@ -70,7 +70,7 @@ layout: "overview"
 
 | | |
 |-------|--------|
-|![alt text](/images/gallery/books/book_neteler2003_grass_handbook.jpg "GRASS GIS Handbook") | **GRASS-Handbuch. Der praktische Leitfaden zum Geographischen Informationssystem GRASS**<br> *M. Neteler*, 2003. <br><small>(GNU FDL) German language, printed and online available<br>266 pages</small><br><a href="gdp/handbuch/neteler_grasshandbuch_v12.pdf" target="_blank">Download PDF</a> - <a href="https://web.archive.org/web/20061214150642/http://www.gdf-hannover.de/gis.php?id=6&amp;lg=de">Errata</a>|
+|![alt text](/images/gallery/books/book_neteler2003_grass_handbook.jpg "GRASS GIS Handbook") | **GRASS-Handbuch. Der praktische Leitfaden zum Geographischen Informationssystem GRASS**<br> *M. Neteler*, 2003. <br><small>(GNU FDL) German language, printed and online available<br>266 pages</small><br><a href="/gdp/handbuch/neteler_grasshandbuch_v12.pdf" target="_blank">Download PDF</a> - <a href="https://web.archive.org/web/20061214150642/http://www.gdf-hannover.de/gis.php?id=6&amp;lg=de">Errata</a>|
 
 
 <hr>

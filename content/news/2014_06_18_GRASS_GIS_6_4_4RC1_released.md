@@ -18,7 +18,7 @@ After months of development a **first release candidate of GRASS GIS
 **Source code download:**\
 
 -   [https://grass.osgeo.org/grass64/source/](/grass64/source/index.html)
--   [https://grass.osgeo.org/grass64/source/grass-6.4.4RC1.tar.gz](/grass64/source/grass-6.4.4RC1.tar.html)
+-   [https://grass.osgeo.org/grass64/source/grass-6.4.4RC1.tar.gz](/grass64/source/grass-6.4.4RC1.tar.gz)
 
 \
 **Binaries download:**\

@@ -2,33 +2,25 @@
 
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="shadow-bottom position-relative">
-  <div class="container">
-    {{ partial "navigation.html" . }}
+  <div class="fixed-top">
+    {{ partial "banner.html" . }}
+    <div class="bg-primary">
+      <div class="container bg-primary">
+        {{ partial "navigation.html" . }}
+      </div>
+    </div>
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
-<!-- page title -->
-<section class="section bg-lgr">
-  <div class="container">
-    <div class="row">
-    <div class="col-lg-8 mx-auto text-center">      
-       <h1 class="grass-green cap">{{ .Section}}</h1>
-      </div>
-    </div>
-  </div>
-</section>
-      
-  <section class="bg-white pb-0">
-   {{ partial "breadcrumb.html" . }}
-  </section>
+
 
 <!-- details page -->
-<section class="pt-4 bg-gray">
+<section class="pt-4 bg-gray mt-95">
   <div class="container">
   <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">Contribute to Open Source Geospatial</h2>
+          <h2 class="section-title">Contribute to GRASS</h2>
         </div>
   </div>
   </div>

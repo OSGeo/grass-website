@@ -1,14 +1,16 @@
 ---
-title: "L. Van Warren's historical note"
+title: "History"
 date: 2018-12-29T11:02:05+06:00
 layout: "general"
 ---
 
 ## L. Van Warren's historical note
 
-I was visiting your wonderful website and wanted to add a few historical details.
+<div class="alert rounded-0 alert-default">
+<i class="fa fa-info-circle"></i> This is a copy of the original email sent by <b>L. Van Warren</b> back in 2003
+</div>
 
-I was the founding software architect of GRASS. When I was an engineering student at the University of Illinois I was hired by Bill Goran of the Corps of Engr. Research Laboratory (CERL) to create the first version. It started with a capability to overlay various kinds of raster GIS data and do Boolean combinations on layers of that data. I delivered the first version in 1982. The document describing that work was published later in [CERL Technical Report N-154, May 1983](/files/fhgis83rep.pdf).
+I was visiting your wonderful website and wanted to add a few historical details. I was the founding software architect of GRASS. When I was an engineering student at the University of Illinois I was hired by Bill Goran of the Corps of Engr. Research Laboratory (CERL) to create the first version. It started with a capability to overlay various kinds of raster GIS data and do Boolean combinations on layers of that data. I delivered the first version in 1982. The document describing that work was published later in [CERL Technical Report N-154, May 1983](/files/fhgis83rep.pdf).
 
 A short historical note. Around 1981 at the University of Illinois I had lunch with a CERLite named William Dvorak who was also a student. At this lunchtime meeting William said he was graduating and leaving the project, but thought it might be possible to use Boolean algebra to construct and answer questions about maps created from remote sensing data. His insight was both a brilliant and historical one.
 
@@ -32,10 +34,5 @@ I am glad to see GRASS being distributed under the GNU public license. That is a
 
 Best Regards,
 
-- Van
 
-L. Van Warren MS CS, MS AE
-
-www.wdv.com
-
-March 2003
+L. Van Warren MS CS, MS AE <br> www.wdv.com<br>March 2003

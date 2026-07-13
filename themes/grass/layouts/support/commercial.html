@@ -1,0 +1,101 @@
+{{ partial "head.html" . }}
+{{ partial "banner.html" . }}
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative bg-primary">
+  <div class="container">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+   <section>
+      <section class="pt-4 bg-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="section-title">Commercial support for GRASS</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="section bg-white mb-4">
+             <div class="row nm">
+               <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/companies/margosa_logo.png" style="float:center;padding-top:20px;"></div>
+                 <div class="col-8">
+                   <h3 class="mt-2 mb-2">Margosa Environmental Solutions Ltd</h3>
+                     <p>Margosa develops pioneering geodata solutions using advanced open source technologies and machine learning frameworks, which enables the integration of massive environmental and GIS datasets. We offer cost-effective, scalable, and secure global data analytics platforms for government, multilateral, corporate, educational, and not-for-profit institutions. Our mission is to transform complex natural resource information into practical knowledge for decision-makers and stakeholders alike.</p>
+                     <a class="btn btn-primary" href="https://margosa-env.com/" target="_blank">Visit our website</a>
+                 </div>
+               </div>
+            </div>
+
+            <div class="section bg-white mb-4">
+             <div class="row nm">
+               <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/companies/mundialis_logo.svg" style="float:center;padding-top:20px;"></div>
+                 <div class="col-8">
+                   <h3 class="mt-2 mb-2">mundialis GmbH & Co. KG</h3>
+                     <p>At mundialis we work with free geodata and free software in the field of remote sensing and GIS analysis. We generate spatial information and develop free and open source software. Both form the core of customised GIS solutions that we implement in a customer-oriented manner. We work scientifically based with regional and international project partners. In addition to our technical work, we see ourselves as an environmentally conscious and sustainable company that makes a positive contribution to society and the environment.</p>
+                     <a class="btn btn-primary" href="https://www.mundialis.de/" target="_blank">Visit our website</a>
+                 </div>
+               </div>
+            </div>
+
+            <div class="section bg-white mb-4">
+              <div class="row nm">
+                <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/companies/cgaNCSU.png" style="float:center;padding-top:20px"></div>
+                  <div class="col-8">
+                    <h3 class="mt-2 mb-2">Center for Geospatial Analytics at NC State University</h3>
+                      <p>At the Center for Geospatial Analytics, we develop and improve GRASS open source geospatial software.
+                      Our <a href="https://cnr.ncsu.edu/geospatial/engage/service-center/">Service Center</a> builds solutions leveraging GRASS and provides training.</p>
+                      <a class="btn btn-primary" href="https://cnr.ncsu.edu/geospatial/engage" target="_blank">Visit our website</a>
+                 </div>
+               </div>
+            </div>
+
+            <div class="section bg-white mb-4">
+              <div class="row nm">
+                <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/companies/kan_logo.png" style="float:center;padding-top:20px;"></div>
+                  <div class="col-8">
+                    <h3 class="mt-2 mb-2">Kan Territory & IT</h3>
+                      <p>Kan Territory & IT develops geographic solutions based on the integration of different open source software packages including GRASS and orchestration tools to facilitate the management and analysis of geospatial data for decision making. This powerful combination has completely transformed our clients' geoprocessing workflows, delivering efficiency and accuracy.</p>
+                      <a class="btn btn-primary" href="https://kan.com.ar/" target="_blank">Visit our website</a>
+                  </div>
+                </div>
+             </div>
+
+             <div class="section bg-white mb-4">
+              <div class="row nm">
+                <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/companies/openplains-logo.png" style="float:center;padding-top:20px;"></div>
+                  <div class="col-8">
+                    <h3 class="mt-2 mb-2">OpenPlains Inc.</h3>
+                      <p>OpenPlains Inc. provides the best decision making tools through the development of intuitive interactive geospatial modeling applications. Let us help you put your GRASS models into production.</p>
+                      <a class="btn btn-primary" href="https://openplains.com/" target="_blank">Visit our website</a>
+                  </div>
+                </div>
+             </div>
+
+             <div class="section bg-white mb-4">
+              <div class="row nm">
+                <div class="col-4 text-center"><img src="{{.Site.BaseURL}}/images/logos/companies/opengeolabs-logo.png" style="float:center;padding-top:10px;"></div>
+                  <div class="col-8">
+                    <h3 class="mt-2 mb-2">OpenGeoLabs Ltd. </h3>
+                      <p>OpenGeoLabs Ltd. is a software company based in the Czech Republic. We focus on developing, consulting, lecturing, and mentoring open-source geospatial software. We are building a large team of external consultants, developers, and experts so that we can provide the highest quality services. Our team members contribute to software such as GRASS, QGIS, GDAL, PyWPS, OWSLib, and PostGIS, among others. We are active members of the global open-source community through OSGeo, as well as on a local level.</p>
+                      <a class="btn btn-primary" href="https://opengeolabs.cz/en/home/" target="_blank">Visit our website</a>
+                  </div>
+                </div>
+             </div>
+             
+          <div class="row">
+          </div>
+
+        </div>
+      </section>{{ partial "footer.html" . }}
+    </section>
+  </section>
+</body>
+</html>
