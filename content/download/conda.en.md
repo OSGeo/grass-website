@@ -8,7 +8,8 @@ layout: "conda"
 
 <i class="fa fa-arrow-right"></i> The `grass` package is available on
 [conda-forge](https://anaconda.org/conda-forge/grass)
-for **Linux** (64-bit) and **macOS** (Intel and Apple Silicon).
+for **Windows** (64-bit), **Linux** (64-bit), and
+**macOS** (Intel and Apple Silicon).
 See the
 [conda-forge grass feedstock](https://github.com/conda-forge/grass-feedstock)
 for packaging details.
@@ -36,7 +37,7 @@ The same works with [mamba](https://mamba.readthedocs.io/) for faster dependency
 mamba install -c conda-forge grass
 ```
 
-### Environment file
+### Environment file with conda/mamba
 
 To create a reproducible environment, save the following as `environment.yml`:
 
@@ -55,10 +56,33 @@ conda env create -f environment.yml
 conda activate grass
 ```
 
-To update an existing environment after editing `environment.yml`:
+### Install with pixi
+
+For faster dependency across multiple platforms, support for `pyproject.toml` and `environment.yml`, and global installation of tools use [pixi](https://pixi.prefix.dev/):
 
 ```bash
-conda env update --file environment.yml
+# Installing grass as part of a workspace
+pixi init name-of-my-project-using-grass
+cd name-of-my-project-using-grass
+pixi add grass
+# Activates a shell where grass is accessible
+pixi shell
+```
+
+If you want to install GRASS as a globally available tool across your system without having to activate an environment:
+
+```bash
+pixi global install grass
+```
+
+### Environment file with pixi
+
+By default, dependencies for the workspace are stored in the `pixi.toml` file. The `pixi.lock` file is the machine-readable file that lists all of the dependencies for your workspace.
+
+If you're using pixi and want to share your environment with conda or mamba users:
+
+```bash
+pixi workspace export conda-environment environment.yml
 ```
 
 ### Usage
