@@ -202,7 +202,7 @@ members:
         link: mailto:hmitaso@ncsu.edu
       - icon: fab fa-github
         link: https://github.com/hmitaso
-      
+
   - name: Dr. Vaclav Petras
     psc:
         status: active
@@ -279,7 +279,7 @@ members:
     image: /images/team/Moritz_Lennert_PSC.jpg
     email: mlennert@club.worldonline.be
     website: https://bluesquarehub.com/about-us/team/moritz-lennert-senior-geospatial-expert/
-    job: Bluesquare, Brussels, BE 
+    job: Bluesquare, Brussels, BE
     country: Belgium
     social:
       - icon: fa fa-envelope
@@ -393,7 +393,7 @@ members:
           end: 2016
     website: https://wiki.osgeo.org/wiki/Massimiliano_Cannata
     image: /images/team/Massimiliano_Cannata_PSC.jpg
-    job:  University of Applied Sciences and Arts of Southern Switzerland (SUPSI) 
+    job:  University of Applied Sciences and Arts of Southern Switzerland (SUPSI)
     country: CH
     social:
       - icon: fa fa-envelope
@@ -444,7 +444,7 @@ members:
     image: /images/team/Grass_Default_PSC.png
     job:  United Kingdom
     country: UK
-    
+
   - name: Maciej Sieczka
     psc:
       status: former
@@ -459,7 +459,7 @@ members:
     social:
       - icon: fa fa-envelope
         link: mailto:msieczka@sieczka.org
-# Maciej Sieczka (msieczka * sieczka org) ​Home page, PL 
+# Maciej Sieczka (msieczka * sieczka org) ​Home page, PL
 
 periods:
   - start: 2020
