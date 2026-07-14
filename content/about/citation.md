@@ -7,10 +7,10 @@ layout: "general"
 ## Citing GRASS Software
 
 Please cite GRASS when using the software in your work. Here are some choices to
-cite the overall software project, a specific GRASS version being used used, or
-the documentation to allow reproducability:
+cite the overall software project, a specific GRASS version being used, or
+the documentation to allow reproducibility.
 
-### The GRASS GIS project as an evolving software project, independent of a specific software release
+### Cite GRASS without a specific version
 
 - GRASS Development Team, 2026. Geographic Resources Analysis Support System
   (GRASS) Software, Open Source Geospatial Foundation. https://grass.osgeo.org,
@@ -18,27 +18,27 @@ the documentation to allow reproducability:
 
 Use the concept DOI
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5176030.svg)](https://doi.org/10.5281/zenodo.5176030)
-when
+when:
 
-- referring to GRASS GIS in general (e.g., in introductions or background sections)
-- describing workflows where the exact version is not critical
-- citing GRASS as a long-term research tool or infrastructure
+- referring to GRASS in general (e.g., in introductions or background sections),
+- describing workflows where the exact version is not critical, or
+- citing GRASS as a long-term research tool or infrastructure.
 
 The concept DOI will always resolve to the latest version of GRASS and provide a
 stable reference to the software project over time.
 
-### Specific GRASS software releases
+### Cite a specific GRASS version
 
 #### GRASS 8.x - GRASS 7.8.6
 
 Each GRASS release has its own version DOI identifying a precise, archived
-snapshot of the software (e.g., a specific 8.x release). All version DOI are
+snapshot of the software (e.g., a specific 8.x release). All the version specific DOIs are
 linked to the concept DOI of the GRASS project.
 
-- GRASS Development Team, 2025. Geographic Resources Analysis Support System
-  (GRASS) Software, Version 8.4.2 Open Source Geospatial Foundation.
+- GRASS Development Team, 2026. Geographic Resources Analysis Support System
+  (GRASS) Software, Version 8.5.0 Open Source Geospatial Foundation.
   https://grass.osgeo.org,
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17733233.svg)](https://doi.org/10.5281/zenodo.17733233)
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20083515.svg)](https://doi.org/10.5281/zenodo.20083515)
 
 All GRASS releases going back to GRASS Version 7.8.6 can be cited by a version
 DOI. Please refer to the 
@@ -52,7 +52,7 @@ DOI. Please refer to the
 
 ### LaTeX
 
-<p> Use the following BibTeX entry for citing the <b>GRASS GIS</b> software in
+<p> Use the following BibTeX entry for citing the <b>GRASS</b> software in
 scientific work written in LaTeX.</p>
 
 Please replace the concept DOI 10.5281/zenodo.5176030 in the BibTeX entry by a
@@ -64,7 +64,12 @@ specific version DOI if necessary.
     author = {{GRASS Development Team}},
     organization = {Open Source Geospatial Foundation},
     address = {USA},
-    year = {2025},
+@Manual{GRASS_software,
+title = {Geographic Resources Analysis Support System (GRASS) Software, Version 8.5},
+author = {{GRASS Development Team}},
+organization = {Open Source Geospatial Foundation},
+address = {USA},
+year = {2026},
     url = {https://grass.osgeo.org},
     doi = {10.5281/zenodo.5176030}
 }
@@ -77,7 +82,7 @@ For more options see also:
 
 Citing GRASS in your work enables us to track the impact of this open source
 software on research. Have a look at our
-[Google Scholar](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ) profile
+[**Google Scholar**](https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ) profile
 for examples of GRASS applications in the most diverse fields. Are you using
 GRASS in your research and your publication is missing?
 [Let us know](https://forms.gle/cDEvMJu7d6nvxLKn9) and we will add it to the
