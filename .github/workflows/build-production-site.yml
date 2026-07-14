@@ -1,12 +1,14 @@
 ---
-# Build the production website and publish it as a checksummed tarball on the
-# rolling "production" release, for deployment on grass.osgeo.org.
+# Build the production website and publish it as a checksummed tarball on a
+# per-deploy GitHub release, for deployment on grass.osgeo.org.
 #
 # The production server does not build the site. Its cronjob
 # (grass-addons: utils/cronjobs_osgeo_lxd/hugo_clean_and_update_job.sh)
-# downloads the tarball published here, verifies the checksum, and rsyncs it
-# into the web root. This keeps the Hugo Extended + Dart Sass + Node toolchain
-# pinned in CI only, so nothing has to be installed or upgraded on the server.
+# downloads the tarball from the release marked "latest", verifies the
+# checksum, and rsyncs it into the web root. This keeps the Hugo Extended +
+# Dart Sass + Node toolchain pinned in CI only, so nothing has to be installed
+# or upgraded on the server. Old releases are pruned to a bounded history, and
+# a bad build can be rolled back by re-marking an older release as latest.
 #
 # Two jobs: "build" produces the tarball and hands it over as a workflow
 # artifact; "deploy" (needs: build) publishes it to the release. A failed
@@ -176,32 +178,53 @@ jobs:
         if: ${{ steps.freshness.outputs.current == 'true' }}
         run: sha256sum -c grass-website.tar.gz.sha256
 
-      - name: Publish to the rolling "production" release
+      # Each deploy is its own immutable, calendar-dated release marked as
+      # "latest". The server downloads from the releases/latest/download
+      # shortcut, so a rollback is just re-marking an older release as latest
+      # ("gh release edit <tag> --latest"). Asset names are stable so the
+      # server always requests the same files.
+      - name: Publish a versioned production release
         if: ${{ steps.freshness.outputs.current == 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Point the rolling tag at the commit that produced these assets so
-          # the release metadata matches the artifact provenance (BUILD_INFO
-          # inside the tarball records the exact commit and run as well).
-          # Done via the API; this job has no checkout.
-          if ! gh api --method PATCH \
-              "repos/$GITHUB_REPOSITORY/git/refs/tags/production" \
-              -f sha="$GITHUB_SHA" -F force=true >/dev/null 2>&1; then
-            gh api --method POST "repos/$GITHUB_REPOSITORY/git/refs" \
-              -f ref="refs/tags/production" -f sha="$GITHUB_SHA" >/dev/null
-          fi
-          notes="Rolling build of the website for deployment on grass.osgeo.org."
-          notes="$notes Assets are overwritten on every push to master;"
-          notes="$notes see BUILD_INFO inside the tarball for provenance."
-          if ! gh release view production --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release create production \
-              --repo "$GITHUB_REPOSITORY" \
-              --prerelease \
-              --title "Production site build (rolling)" \
-              --notes "$notes"
-          fi
-          gh release upload production \
+          short_sha="${GITHUB_SHA::7}"
+          tag="site-$(date -u +'%Y%m%d-%H%M%S')-${short_sha}"
+          title="Production site $(date -u +'%Y-%m-%d') (${short_sha})"
+          {
+            echo "Automated production build of grass.osgeo.org from ${short_sha}."
+            echo
+            echo "The server deploys the release marked \"latest\"; see BUILD_INFO"
+            echo "inside the tarball for provenance. Add \`[keep]\` to a release"
+            echo "title to exempt it from automatic pruning."
+          } > release-notes.md
+          gh release create "$tag" \
             --repo "$GITHUB_REPOSITORY" \
-            --clobber \
+            --target "$GITHUB_SHA" \
+            --title "$title" \
+            --notes-file release-notes.md \
+            --latest \
             grass-website.tar.gz grass-website.tar.gz.sha256
+
+      # Bounded retention: keep the newest $KEEP builds plus any pinned with
+      # [keep] in the title, delete the rest (with their tags). This answers
+      # "how do old release assets get cleaned up".
+      - name: Prune old production releases
+        if: ${{ steps.freshness.outputs.current == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          KEEP: "10"
+        run: |
+          mapfile -t stale < <(
+            gh release list --repo "$GITHUB_REPOSITORY" --limit 500 \
+              --json tagName,name,createdAt \
+            | jq -r --argjson keep "$KEEP" '
+                [.[] | select(.tagName | startswith("site-"))]
+                | sort_by(.createdAt) | reverse | .[$keep:]
+                | .[] | select(.name | test("\\[keep\\]") | not) | .tagName'
+          )
+          for tag in "${stale[@]}"; do
+            echo "Pruning old release $tag"
+            gh release delete "$tag" --repo "$GITHUB_REPOSITORY" --cleanup-tag --yes
+          done
+          echo "Pruned ${#stale[@]} release(s); kept newest $KEEP plus any [keep]."
