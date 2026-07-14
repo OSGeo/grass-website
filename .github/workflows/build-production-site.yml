@@ -1,3 +1,4 @@
+---
 # Build the production website and publish it as a checksummed tarball on the
 # rolling "production" release, for deployment on grass.osgeo.org.
 #
@@ -30,7 +31,9 @@ on:
 permissions: {}
 
 concurrency:
-  group: production-site-${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
+  group: >-
+    production-site-${{ github.event_name == 'pull_request' &&
+    github.head_ref || github.ref }}
   # Cancel in progress in pull requests.
   # Otherwise, limit to one in progress and one queued for each ref.
   # Only the latest queued run per ref is kept, older ones are cancelled.
@@ -66,11 +69,10 @@ jobs:
           TEMP_DIR: ${{ runner.temp }}
         run: |
           # Hugo release assets have used two naming schemes; try both.
-          wget -O $TEMP_DIR/hugo.deb \
-            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb" \
-          || wget -O $TEMP_DIR/hugo.deb \
-            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
-          sudo dpkg -i $TEMP_DIR/hugo.deb
+          base="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}"
+          wget -O "$TEMP_DIR/hugo.deb" "$base/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb" \
+          || wget -O "$TEMP_DIR/hugo.deb" "$base/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "$TEMP_DIR/hugo.deb"
 
       # Pinned for reproducibility. Note: with Hugo 0.113 the site compiles via
       # Hugo Extended's built-in libsass (head.html sets no "transpiler"
@@ -151,7 +153,8 @@ jobs:
             echo "current=true" >> "$GITHUB_OUTPUT"
           else
             echo "current=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::Skipping publish: $GITHUB_REF_NAME moved to ${head_sha} while this run (${GITHUB_SHA}) was in progress."
+            echo "::notice::Skipping publish: $GITHUB_REF_NAME moved to ${head_sha};" \
+              "a newer run owns the publish (this run built ${GITHUB_SHA})."
           fi
 
       - name: Download build
@@ -179,12 +182,15 @@ jobs:
             gh api --method POST "repos/$GITHUB_REPOSITORY/git/refs" \
               -f ref="refs/tags/production" -f sha="$GITHUB_SHA" >/dev/null
           fi
+          notes="Rolling build of the website for deployment on grass.osgeo.org."
+          notes="$notes Assets are overwritten on every push to master;"
+          notes="$notes see BUILD_INFO inside the tarball for provenance."
           if ! gh release view production --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release create production \
               --repo "$GITHUB_REPOSITORY" \
               --prerelease \
               --title "Production site build (rolling)" \
-              --notes "Rolling build of the website for deployment on grass.osgeo.org. Assets are overwritten on every push to master; see BUILD_INFO inside the tarball for provenance."
+              --notes "$notes"
           fi
           gh release upload production \
             --repo "$GITHUB_REPOSITORY" \
