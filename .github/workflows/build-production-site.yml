@@ -18,15 +18,21 @@ on:
   push:
     branches: ["master"]
 
+  # Runs the build job on pull requests as a merge gate; the deploy job is
+  # skipped for pull requests (see its `if` below).
+  pull_request:
+    branches: ["master"]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Each job declares exactly what it needs.
 permissions: {}
 
-# A newer master build supersedes an in-flight one.
+# A newer build of the same ref supersedes an in-flight one; the ref-scoped
+# group keeps pull request builds from cancelling master deployments.
 concurrency:
-  group: production-site
+  group: production-site-${{ github.ref }}
   cancel-in-progress: true
 
 defaults:
@@ -120,6 +126,9 @@ jobs:
           if-no-files-found: error
 
   deploy:
+    # Pull requests only validate the build; publishing happens on pushes to
+    # master (and manual dispatch).
+    if: ${{ github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     needs: build
     permissions:
