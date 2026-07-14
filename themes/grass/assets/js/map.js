@@ -18,16 +18,23 @@ var overlay = new ol.Overlay({
 
 
 /**
- * Add a click handler to hide the popup.
- * @return {boolean} Don't follow the href.
+ * Function to remove popup and set default style
  */
-closer.onclick = function () {
-  overlay.setPosition(undefined);
-  closer.blur();
+function remove_popup() {
   if (oldfeat) {
     oldfeat.setStyle(defaultStyle);
     oldfeat = null;
   }
+  overlay.setPosition(undefined);
+  closer.blur();
+}
+
+/**
+ * Add a click handler to hide the popup.
+ * @return {boolean} Don't follow the href.
+ */
+closer.onclick = function () {
+  remove_popup()
   return false;
 };
 
@@ -114,14 +121,12 @@ map.on('click', function (evt) {
     content.innerHTML = mycontent
     overlay.setPosition(coordinate);
   } else {
-    if (oldfeat) {
-      oldfeat.setStyle(defaultStyle);
-      oldfeat = null;
-    }
+    remove_popup()
   }
 })
 document.querySelectorAll("button[name='layers']").forEach(function (button) {
   button.addEventListener('click', function () {
+    remove_popup()
     var ingeojson = button.value;
     vecturl = '/geojson/' + ingeojson + '.geojson'
     vsource = new ol.source.Vector({
