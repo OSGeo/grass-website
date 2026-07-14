@@ -132,11 +132,20 @@ jobs:
           if-no-files-found: error
 
   deploy:
-    # Pull requests only validate the build; publishing happens on pushes to
-    # master (and manual dispatch).
-    if: ${{ github.event_name != 'pull_request' }}
+    # Pull requests only validate the build; publishing happens only from the
+    # default branch (pushes or manual dispatch on master). The environment
+    # adds platform-level enforcement on top: its deployment branch policy
+    # should allow master only, and protection rules (required reviewers) can
+    # gate publishes with approvals; both are configured in the repository
+    # settings under Environments.
+    if: >-
+      ${{ github.event_name != 'pull_request' &&
+      github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     needs: build
+    environment:
+      name: production
+      url: https://grass.osgeo.org/
     permissions:
       contents: write
     steps:
