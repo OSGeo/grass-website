@@ -1,0 +1,21 @@
+---
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        # Maintained from the main repo; deliberately tracked at @main.
+        OSGeo/grass/.github/actions/create-upload-suggestions: any
+    # Temporary: pre-migration hugo.yml pins are fixed on the #599 branch.
+    ignore:
+      - hugo.yml
+  # Temporary ignores for the pre-migration hugo.yml. All of these are fixed
+  # on the #599 branch (hugo-dart-scss); remove once it merges.
+  excessive-permissions:
+    ignore:
+      - hugo.yml
+  artipacked:
+    ignore:
+      - hugo.yml
+  template-injection:
+    ignore:
+      - hugo.yml

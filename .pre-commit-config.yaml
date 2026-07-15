@@ -1,0 +1,75 @@
+---
+# Pre-commit hooks, aligned with OSGeo/grass and OSGeo/grass-addons so
+# developers can move between the repos with the same tooling. Run locally
+# with "prek run --all-files" (or pre-commit); CI enforces them in the
+# "Additional Checks" workflow.
+#
+# Legacy content under content/ and themes/ is excluded from the formatting
+# hooks until the Bootstrap 5 migration stack (#599, #644, #645) lands, to
+# avoid mass-formatting conflicts with those open PRs. Widening the scope is
+# a follow-up cleanup.
+default_language_version:
+  node: lts
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: |
+          (?x)^(
+                content/.*|
+                themes/.*|
+                docker-compose.*\.yml$|
+                .*\.md$|
+                .*\.svg$|
+                .*\.fig$
+          )
+      - id: end-of-file-fixer
+        exclude: |
+          (?x)^(
+                content/.*|
+                themes/.*|
+                docker-compose.*\.yml$|
+                .*\.svg$|
+                .*\.fig$
+          )
+      - id: check-case-conflict
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-vcs-permalinks
+      - id: check-xml
+        # Hugo layout files are Go templates, not standalone valid XML.
+        exclude: ^themes/.*\.xml$
+      - id: destroyed-symlinks
+      - id: detect-private-key
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.48.0
+    hooks:
+      - id: markdownlint-fix
+        exclude: |
+          (?x)^(
+                content/.*|
+                themes/.*|
+                README\.md$
+          )
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.38.0
+    hooks:
+      - id: yamllint
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint
+        # Temporary: the pre-migration hugo.yml is reworked on the #599
+        # branch; make it compliant in the post-stack cleanup.
+        exclude: ^\.github/workflows/hugo\.yml$
+  - repo: https://github.com/zizmorcore/zizmor-pre-commit
+    rev: v1.23.1
+    hooks:
+      - id: zizmor
+        args:
+          - "--fix"
+          # https://github.com/zizmorcore/zizmor-pre-commit/blob/120fe9ac3c965ab7decf67e8b9ca24b274230eed/.pre-commit-hooks.yaml#L10
+          - "--no-progress"

@@ -1,0 +1,27 @@
+---
+
+extends: default
+
+rules:
+  comments:
+    level: error
+    min-spaces-from-content: 1
+  document-start:
+    level: error
+  line-length:
+    level: error
+    max: 120
+    allow-non-breakable-inline-mappings: true
+  truthy: disable
+
+ignore:
+  - node_modules/
+  - public/
+  - content/
+  - themes/
+  - data/
+  # Owned by the open migration stack (#599); made compliant there or in the
+  # post-stack cleanup rather than churning them here.
+  - docker-compose.yml
+  - docker-compose.dev.yml
+  - .github/workflows/hugo.yml

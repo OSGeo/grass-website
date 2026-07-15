@@ -13,7 +13,7 @@
     "preview_version_nodots":"86",
     "install": {
         "mac": {
-            "mac_ports": { 
+            "mac_ports": {
                 "id": "mac_ports",
                 "title": "MacPorts",
                 "code": "sudo port install grass",
@@ -93,8 +93,7 @@
             }
 
         }
-        
-    }
-    
-}
 
+    }
+
+}
