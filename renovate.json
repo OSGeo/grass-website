@@ -11,6 +11,13 @@
       "description": "Group all Hugo version bumps (CI pin and docker image tags) into one PR so dev and CI cannot drift",
       "matchPackageNames": ["gohugoio/hugo", "hugomods/hugo"],
       "groupName": "hugo"
+    },
+    {
+      "description": "The create-upload-suggestions action is maintained in the main repo and deliberately tracked at @main; do not pin it",
+      "matchPackageNames": ["OSGeo/grass"],
+      "matchUpdateTypes": ["pinDigest"],
+      "matchDatasources": ["github-digest"],
+      "enabled": false
     }
   ]
 }
