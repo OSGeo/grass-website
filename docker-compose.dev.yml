@@ -1,0 +1,33 @@
+services:
+  hugo-dev:
+    # Renovate manages this image tag; keep it in sync with
+    # .devcontainer/devcontainer.json and .github/workflows/.
+    image: hugomods/hugo:0.113.0
+    environment:
+      - HUGO_ENVIRONMENT=development
+      - HUGO_ENV=development
+      - HUGO_EXTENDED=true
+    working_dir: /src
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./:/src:delegated
+      - hugo_cache:/tmp/hugo_cache
+      - hugo_node_modules:/src/node_modules
+    # The Node.js version comes from .nvmrc (single source, Renovate-managed).
+    command: >-
+      sh -c "apk add --no-cache nodejs npm curl bash
+      && npm install -g n
+      && n \"$$(cat .nvmrc)\"
+      && node -v
+      && npm ci
+      && hugo serve --watch --bind 0.0.0.0 --port 1313"
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+volumes:
+  hugo_cache:
+    driver: local
+  hugo_node_modules:
+    driver: local

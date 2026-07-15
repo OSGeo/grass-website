@@ -1,0 +1,39 @@
+{
+  "name": "grass-website",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "5gb"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "24.13.0"
+    },
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "0.113.0",
+      "extended": true
+    }
+  },
+  "workspaceFolder": "/workspaces/grass-website",
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo server",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "remoteEnv": {
+    "HUGO_ENVIRONMENT": "development",
+    "HUGO_ENV": "development"
+  },
+  "postCreateCommand": "npm ci",
+  "waitFor": "postCreateCommand",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
