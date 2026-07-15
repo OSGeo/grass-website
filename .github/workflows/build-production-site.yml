@@ -1,11 +1,19 @@
-# Build the production website and publish it as a checksummed tarball on the
-# rolling "production" release, for deployment on grass.osgeo.org.
+---
+# Build the production website and publish it as a checksummed tarball on a
+# per-deploy GitHub release, for deployment on grass.osgeo.org.
 #
 # The production server does not build the site. Its cronjob
 # (grass-addons: utils/cronjobs_osgeo_lxd/hugo_clean_and_update_job.sh)
-# downloads the tarball published here, verifies the checksum, and rsyncs it
-# into the web root. This keeps the Hugo Extended + Dart Sass + Node toolchain
-# pinned in CI only, so nothing has to be installed or upgraded on the server.
+# downloads the tarball from the release marked "latest", verifies the
+# checksum, and rsyncs it into the web root. This keeps the Hugo Extended +
+# Dart Sass + Node toolchain pinned in CI only, so nothing has to be installed
+# or upgraded on the server. Old releases are pruned to a bounded history, and
+# a bad build can be rolled back by re-marking an older release as latest.
+#
+# Two jobs: "build" produces the tarball and hands it over as a workflow
+# artifact; "deploy" (needs: build) publishes it to the release. A failed
+# build therefore never touches the published assets, and only the deploy
+# job holds a writable token.
 name: Build production site artifact
 
 on:
@@ -13,17 +21,28 @@ on:
   push:
     branches: ["master"]
 
+  # Runs the build job on pull requests as a merge gate; the deploy job is
+  # skipped for pull requests (see its `if` below).
+  pull_request:
+    branches: ["master"]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# The built-in token uploads the release assets; no PAT or secret is needed.
-permissions:
-  contents: write
+# Each job declares exactly what it needs.
+permissions: {}
 
-# A newer master build supersedes an in-flight one.
 concurrency:
-  group: production-site
-  cancel-in-progress: true
+  group: >-
+    production-site-${{ github.event_name == 'pull_request' &&
+    github.head_ref || github.ref }}
+  # Cancel in progress in pull requests.
+  # Otherwise, limit to one in progress and one queued for each ref.
+  # Only the latest queued run per ref is kept, older ones are cancelled.
+  # The already running publish is always allowed to complete, so a deploy is
+  # never killed mid-upload; the freshness gate in the deploy job then makes
+  # sure only the newest commit publishes.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 defaults:
   run:
@@ -32,6 +51,8 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     env:
       # Toolchain version pins, kept current by Renovate (see the custom
       # manager in renovate.json that matches these annotations).
@@ -50,11 +71,10 @@ jobs:
           TEMP_DIR: ${{ runner.temp }}
         run: |
           # Hugo release assets have used two naming schemes; try both.
-          wget -O $TEMP_DIR/hugo.deb \
-            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb" \
-          || wget -O $TEMP_DIR/hugo.deb \
-            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
-          sudo dpkg -i $TEMP_DIR/hugo.deb
+          base="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}"
+          wget -O "$TEMP_DIR/hugo.deb" "$base/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb" \
+          || wget -O "$TEMP_DIR/hugo.deb" "$base/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "$TEMP_DIR/hugo.deb"
 
       # Pinned for reproducibility. Note: with Hugo 0.113 the site compiles via
       # Hugo Extended's built-in libsass (head.html sets no "transpiler"
@@ -101,28 +121,110 @@ jobs:
           tar -czf grass-website.tar.gz -C public .
           sha256sum grass-website.tar.gz > grass-website.tar.gz.sha256
 
-      - name: Publish to the rolling "production" release
+      # Handoff to the deploy job; short retention, this is not the published
+      # copy (the release assets are).
+      - name: Upload build for the deploy job
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: production-site
+          path: |
+            grass-website.tar.gz
+            grass-website.tar.gz.sha256
+          retention-days: 1
+          if-no-files-found: error
+
+  deploy:
+    # Pull requests only validate the build; publishing happens only from the
+    # default branch (pushes or manual dispatch on master). The environment
+    # adds platform-level enforcement on top: its deployment branch policy
+    # should allow master only, and protection rules (required reviewers) can
+    # gate publishes with approvals; both are configured in the repository
+    # settings under Environments.
+    if: >-
+      ${{ github.event_name != 'pull_request' &&
+      github.ref == 'refs/heads/master' }}
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: production
+      url: https://grass.osgeo.org/
+    permissions:
+      contents: write
+    steps:
+      # Only the newest commit of the ref may publish. If the ref moved while
+      # this run was building or queued, a newer run owns the publish and this
+      # one skips (as a success, not a failure).
+      - name: Check this run is still the newest commit
+        id: freshness
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Point the rolling tag at the commit that produced these assets so
-          # the release metadata matches the artifact provenance (BUILD_INFO
-          # inside the tarball records the exact commit and run as well).
-          # Done via the API because the checkout does not persist credentials.
-          if ! gh api --method PATCH \
-              "repos/$GITHUB_REPOSITORY/git/refs/tags/production" \
-              -f sha="$GITHUB_SHA" -F force=true >/dev/null 2>&1; then
-            gh api --method POST "repos/$GITHUB_REPOSITORY/git/refs" \
-              -f ref="refs/tags/production" -f sha="$GITHUB_SHA" >/dev/null
+          head_sha="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/$GITHUB_REF_NAME" --jq '.object.sha')"
+          if [[ "$head_sha" == "$GITHUB_SHA" ]]; then
+            echo "current=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "current=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Skipping publish: $GITHUB_REF_NAME moved to ${head_sha};" \
+              "a newer run owns the publish (this run built ${GITHUB_SHA})."
           fi
-          if ! gh release view production --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release create production \
-              --repo "$GITHUB_REPOSITORY" \
-              --prerelease \
-              --title "Production site build (rolling)" \
-              --notes "Rolling build of the website for deployment on grass.osgeo.org. Assets are overwritten on every push to master; see BUILD_INFO inside the tarball for provenance."
-          fi
-          gh release upload production \
+
+      - name: Download build
+        if: ${{ steps.freshness.outputs.current == 'true' }}
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: production-site
+
+      - name: Verify checksum
+        if: ${{ steps.freshness.outputs.current == 'true' }}
+        run: sha256sum -c grass-website.tar.gz.sha256
+
+      # Each deploy is its own immutable, calendar-dated release marked as
+      # "latest". The server downloads from the releases/latest/download
+      # shortcut, so a rollback is just re-marking an older release as latest
+      # ("gh release edit <tag> --latest"). Asset names are stable so the
+      # server always requests the same files.
+      - name: Publish a versioned production release
+        if: ${{ steps.freshness.outputs.current == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          short_sha="${GITHUB_SHA::7}"
+          tag="site-$(date -u +'%Y%m%d-%H%M%S')-${short_sha}"
+          title="Production site $(date -u +'%Y-%m-%d') (${short_sha})"
+          {
+            echo "Automated production build of grass.osgeo.org from ${short_sha}."
+            echo
+            echo "The server deploys the release marked \"latest\"; see BUILD_INFO"
+            echo "inside the tarball for provenance. Add \`[keep]\` to a release"
+            echo "title to exempt it from automatic pruning."
+          } > release-notes.md
+          gh release create "$tag" \
             --repo "$GITHUB_REPOSITORY" \
-            --clobber \
+            --target "$GITHUB_SHA" \
+            --title "$title" \
+            --notes-file release-notes.md \
+            --latest \
             grass-website.tar.gz grass-website.tar.gz.sha256
+
+      # Bounded retention: keep the newest $KEEP builds plus any pinned with
+      # [keep] in the title, delete the rest (with their tags). This answers
+      # "how do old release assets get cleaned up".
+      - name: Prune old production releases
+        if: ${{ steps.freshness.outputs.current == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          KEEP: "10"
+        run: |
+          mapfile -t stale < <(
+            gh release list --repo "$GITHUB_REPOSITORY" --limit 500 \
+              --json tagName,name,createdAt \
+            | jq -r --argjson keep "$KEEP" '
+                [.[] | select(.tagName | startswith("site-"))]
+                | sort_by(.createdAt) | reverse | .[$keep:]
+                | .[] | select(.name | test("\\[keep\\]") | not) | .tagName'
+          )
+          for tag in "${stale[@]}"; do
+            echo "Pruning old release $tag"
+            gh release delete "$tag" --repo "$GITHUB_REPOSITORY" --cleanup-tag --yes
+          done
+          echo "Pruned ${#stale[@]} release(s); kept newest $KEEP plus any [keep]."

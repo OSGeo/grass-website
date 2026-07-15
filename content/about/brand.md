@@ -25,7 +25,7 @@ layout: "brand"
 {{< brandColorList >}}
     {{< brandColor colorName="Green"   hex="#4cb05b" className="grass-green" cssVariableName="primary" >}}
     {{< brandColor colorName="Alt-Green"   hex="#6ed079" className="grass-green-alt" cssVariableName="primary-alt" >}}
-    {{< brandColor colorName="Light Green"   hex="#87e991" className="grass-green-light" cssVariableName="primary-ligh" >}}
+    {{< brandColor colorName="Light Green"   hex="#87e991" className="grass-green-light" cssVariableName="primary-light" >}}
     {{< brandColor colorName="Dark Green"   hex="#088b36" className="grass-green-dark" cssVariableName="primary-dark" >}}
 {{</ brandColorList >}}
 

@@ -29,123 +29,27 @@
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/default.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css">
+  {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
+  <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
+  {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
+  <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-  {{ if eq .RelPermalink "/about/map/" }}
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/ol-6.3.1/ol.css" type="text/css">
-  <script src="{{ .Site.BaseURL }}plugins/ol-6.3.1/ol.js"></script>
+  {{ with resources.Get "css/fontawesome/all.min.css" }}
+  <link rel="stylesheet" href="{{ .Permalink }}">
   {{ end }}
-  <style>
-    :root {
-      --primary-color: {
-          {
-          .Site.Params.primaryColor
-        }
-      }
-
-      ;
-
-      --secondary-color: {
-          {
-          .Site.Params.secondaryColor
-        }
-      }
-
-      ;
-
-      --text-color: {
-          {
-          .Site.Params.textColor
-        }
-      }
-
-      ;
-
-      --text-color-dark: {
-          {
-          .Site.Params.textColorDark
-        }
-      }
-
-      ;
-
-      --grass-color: {
-          {
-          .Site.Params.grassColor
-        }
-      }
-
-      ;
-
-      --grass-color-alt: {
-          {
-          .Site.Params.grassColorAlt
-        }
-      }
-
-      ;
-
-      --grass-color-light: {
-          {
-          .Site.Params.grassColorLight
-        }
-      }
-
-      ;
-
-      --grass-color-dark: {
-          {
-          .Site.Params.grassColorDark
-        }
-      }
-
-      ;
-
-      --grey-color: {
-          {
-          .Site.Params.greyColor
-        }
-      }
-
-      ;
-
-      --grey-color-light: {
-          {
-          .Site.Params.greyColorLight
-        }
-      }
-
-      ;
-
-      --grey-color-dark: {
-          {
-          .Site.Params.greyColorDark
-        }
-      }
-
-      ;
-
-      --white-color: {
-          {
-          .Site.Params.whiteColor
-        }
-      }
-
-      ;
-    }
-  </style>
-
-
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
-  {{ $styles := resources.Get "css/style.css" | minify}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-3.3.1.slim.min.js"></script>
+  {{ with resources.Get "sass/main.scss" }}
+  {{ $cssopts := dict
+  "targetPath" "css/style.css"
+  "outputStyle" "compressed"
+  "enableSourceMap" false
+  "includePaths" (slice "node_modules/bootstrap/scss")
+  }}
+  {{ with . | toCSS $cssopts }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ end }}
+  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
+  <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
   <link rel="android-chrome-192x192" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="android-chrome-512x512" sizes="512x512"
@@ -161,7 +65,7 @@
   <link rel="apple-touch-icon" sizes="167x167" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-180x180.png">
   <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/logos/favicon-grass-green.svg" color="#ffffff">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/favicon/favicon-grass-green.svg" color="#ffffff">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
