@@ -199,7 +199,7 @@ weight = 4
 
 [[Languages.en.menu.main]]
 parent = "Download"
-name = "conda"
+name = "Conda package"
 URL = "/download/conda"
 weight = 5
 
