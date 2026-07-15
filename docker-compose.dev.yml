@@ -2,7 +2,7 @@ services:
   hugo-dev:
     # Renovate manages this image tag; keep it in sync with
     # .devcontainer/devcontainer.json and .github/workflows/.
-    image: hugomods/hugo:0.113.0
+    image: hugomods/hugo:0.164.0
     environment:
       - HUGO_ENVIRONMENT=development
       - HUGO_ENV=development
