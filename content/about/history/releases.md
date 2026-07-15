@@ -6,7 +6,7 @@ layout: "timeline"
 
 ## GRASS releases over time
 
-<div class="row">
+<div class="row mx-0">
   <div class="timeline">
     <div class="line text-muted"></div>
      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">

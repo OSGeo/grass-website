@@ -79,6 +79,13 @@ defaultMarkdownHandler = "goldmark"
 [markup.goldmark.renderer]
 unsafe = true
 
+# Code is highlighted client-side by highlight.js (with the GRASS theme in
+# themes/grass/assets/sass/_styles.scss). Disable Hugo's built-in Chroma so
+# fenced blocks are emitted as plain <pre><code class="language-*"> and are not
+# double-highlighted (Chroma's inline monokai background clashed with the theme).
+[markup.highlight]
+codeFences = false
+
 
 [outputFormats]
 [outputFormats.sitemap]

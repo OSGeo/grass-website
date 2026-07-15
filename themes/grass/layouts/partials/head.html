@@ -30,6 +30,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
+  <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
   <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
