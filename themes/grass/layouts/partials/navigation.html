@@ -9,13 +9,13 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
         class="navbar-toggler border-0"
-        data-target="#navigation"
-        data-toggle="collapse"
+        data-bs-target="#navigation"
+        data-bs-toggle="collapse"
         type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ms-auto">
             {{ range .Site.Menus.main }}
             {{- if .HasChildren }}
             <li class="nav-item dropdown">
@@ -23,7 +23,7 @@
                     aria-expanded="false"
                     aria-haspopup="true"
                     class="nav-link dropdown-toggle text-light"
-                    data-toggle="dropdown"
+                    data-bs-toggle="dropdown"
                     href="{{.URL}}"
                     id="dropdown-{{ .Name | urlize }}"
                     role="button">{{ .Name }}

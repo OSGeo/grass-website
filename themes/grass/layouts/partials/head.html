@@ -47,10 +47,8 @@
       <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
   {{ end }}
-  {{ $jquery := resources.Get "js/jquery/jquery.slim.min.js" }}
-  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
-  {{ $vendor_js := slice $jquery $bootstrap_js | resources.Concat "js/vendor.js" | minify | fingerprint }}
-  <script src="{{ $vendor_js.Permalink }}" integrity="{{ $vendor_js.Data.Integrity }}"></script>
+  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
+  <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
   <link rel="android-chrome-192x192" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="android-chrome-512x512" sizes="512x512"

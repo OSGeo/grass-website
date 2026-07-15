@@ -1705,10 +1705,10 @@ code {
 }
 
 /* Rotate collapse chevron based on Bootstrap's aria-expanded attribute */
-[data-toggle="collapse"] .fa-chevron-right {
+[data-bs-toggle="collapse"] .fa-chevron-right {
     transition: transform 0.2s ease;
 }
-[data-toggle="collapse"][aria-expanded="true"] .fa-chevron-right {
+[data-bs-toggle="collapse"][aria-expanded="true"] .fa-chevron-right {
     transform: rotate(90deg);
 }
 

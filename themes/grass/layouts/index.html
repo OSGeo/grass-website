@@ -34,7 +34,7 @@
                 and rapid geospatial programming, optimized for large-scale analysis on various hardware configurations.</p>{{ end }}</div>
 	{{ range (where .Site.Pages "Type" "pages") }}{{ if not (in  .Section "about") }}
           <div class="col-lg-3 col-sm-6 mb-4">
-          <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mb-40"></i>
+          <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mx-auto mb-40"></i>
           <h3 class="mb-3">{{ .Title }}</h3>
           <p class="mb-0">{{ .Params.Description }}</p></a>
 	    </div>
@@ -46,7 +46,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="bg-white" id="slides">
-                <div class="carousel slide pdt-20" data-interval="4000" data-ride="carousel" id="carouselUI">
+                <div class="carousel slide pdt-20" data-bs-interval="4000" data-bs-ride="carousel" id="carouselUI">
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
