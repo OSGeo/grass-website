@@ -10,19 +10,18 @@ research centers and universities offering support related to GRASS, i.e., comme
 
 ## Add new records to the map
 
-
 ### User without Git/Github experience
 
 * Create a [Github account](https://github.com/join)
-* Sign in and move to https://github.com/OSGeo/grass-website/ repository
+* Sign in and move to <https://github.com/OSGeo/grass-website/> repository
 * Choose which file to modify from the [GeoJSON files](https://github.com/OSGeo/grass-website/static/geojson/)
 * Click the pencil button to modify the file
-* Add a new feature copying the feature template in the bottom of the page 
+* Add a new feature copying the feature template in the bottom of the page
 * When saving the file, select `Create a new branch for this commit and start a pull request.`
 
 ### Git/Github advanced user
 
-* Fork the https://github.com/OSGeo/grass-website/ repository
+* Fork the <https://github.com/OSGeo/grass-website/> repository
 * Create a new branch
 * Add a new feature copying the feature template in the bottom of the page
 * Commit, push the modified file
