@@ -1,0 +1,80 @@
+// Community map (/about/map). OL base styles are loaded separately from the
+// OpenLayers bundle; the rules below only rebrand the popup and controls.
+
+#map {
+    height: 70vh;
+    width: 100%;
+    min-height: 420px;
+    border: 1px solid $gs-grey-alt-color;
+    border-radius: 0.25rem; // modest geometry, match existing cards
+    overflow: hidden; // clip tiles to the radius
+
+    @include media-breakpoint-down(md) {
+        height: 55vh;
+    }
+}
+
+// Zoom / attribution controls: blue for structure, per brand
+.ol-control button {
+    background-color: $gs-secondary-alt-color;
+
+    &:hover,
+    &:focus {
+        background-color: $gs-secondary-light-color;
+    }
+}
+
+// Popup (OL overlay example markup, branded)
+.ol-popup {
+    position: absolute;
+    bottom: 12px;
+    left: -50px;
+    min-width: 200px;
+    padding: 15px;
+    background-color: $gs-white-base-color;
+    border: 1px solid $gs-grey-alt-color;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px $gs-black-color--lightest; // matches card shadow in _styles.scss
+
+    // anchor arrow
+    &::after,
+    &::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        width: 0;
+        height: 0;
+        border: solid transparent;
+        pointer-events: none;
+    }
+
+    &::after {
+        left: 48px;
+        margin-left: -10px;
+        border-width: 10px;
+        border-top-color: $gs-white-base-color;
+    }
+
+    &::before {
+        left: 48px;
+        margin-left: -11px;
+        border-width: 11px;
+        border-top-color: $gs-grey-alt-color;
+    }
+}
+
+.ol-popup-closer {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    color: $gs-grey-color;
+    text-decoration: none;
+
+    &::after {
+        content: "\2716";
+    }
+
+    &:hover {
+        color: $gs-primary-dark-color;
+    }
+}

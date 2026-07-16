@@ -11,10 +11,11 @@
 @import "variables";
 @import "css-variables";
 @import "bootstrap";
+@import "map";
 
 body {
     line-height: 1.8;
-    font-family: $gs-grass-font; 
+    font-family: $gs-grass-font;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     color: $gs-black-color;
@@ -27,10 +28,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom,
-        $gs-secondary-color--light 0%,
-        $gs-secondary-color--light 100%
-    ),
-    $gs-grass-background-image;
+            $gs-secondary-color--light 0%,
+            $gs-secondary-color--light 100%),
+        $gs-grass-background-image;
 }
 
 @import "styles";
