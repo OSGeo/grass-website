@@ -94,7 +94,7 @@ if (!window.ol || !container || !content || !closer) {
       }
     }),
     view: new window.ol.View({
-      center: window.ol.proj.transform([0, 0], 'EPSG:4326', 'EPSG:3857'),
+      center: window.ol.proj.transform([0, 5], 'EPSG:4326', 'EPSG:3857'),
       zoom: 2
     })
   });
