@@ -1,0 +1,57 @@
+{{/*
+  schema.org structured data (JSON-LD) for GRASS.
+  Server-rendered so search engines and social/link crawlers see it without JS.
+  Types chosen for real rich-result value: Organization, WebSite, SoftwareApplication.
+  See SEO issue OSGeo/grass-website#513.
+*/}}
+{{- $siteName := .Site.Params.SiteName | default "GRASS" -}}
+{{- $logo := printf "%simages/favicon/android-chrome-512x512.png" .Site.BaseURL -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ .Site.BaseURL }}#organization",
+      "name": "{{ $siteName }}",
+      "alternateName": "Geographic Resources Analysis Support System",
+      "url": "{{ .Site.BaseURL }}",
+      "logo": "{{ $logo }}",
+      "sameAs": [
+        "https://github.com/OSGeo/grass",
+        "https://en.wikipedia.org/wiki/GRASS_GIS",
+        "https://www.linkedin.com/company/grass-gis/",
+        "https://fosstodon.org/@grassgis",
+        "https://twitter.com/grassgis",
+        "https://www.youtube.com/@grass-gis"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ .Site.BaseURL }}#website",
+      "name": "{{ $siteName }}",
+      "url": "{{ .Site.BaseURL }}",
+      "description": {{ .Site.Params.description | jsonify }},
+      "inLanguage": "{{ .Site.LanguageCode | default "en-US" }}",
+      "publisher": { "@id": "{{ .Site.BaseURL }}#organization" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "{{ $siteName }}",
+      "alternateName": "Geographic Resources Analysis Support System",
+      "url": "{{ .Site.BaseURL }}",
+      "applicationCategory": "GeographicInformationSystemApplication",
+      "operatingSystem": "Linux, macOS, Windows",
+      "description": {{ .Site.Params.description | jsonify }},
+      "license": "https://www.gnu.org/licenses/gpl-2.0.html",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "publisher": { "@id": "{{ .Site.BaseURL }}#organization" }
+    }
+  ]
+}
+</script>
