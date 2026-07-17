@@ -5,7 +5,7 @@ The data are provided in GeoJSON format.
 
 ## User map
 
-The [user.geojson file]((https://github.com/OSGeo/grass-website/blob/master/static/geojson/user.geojson)
+The [user.geojson file](https://github.com/OSGeo/grass-website/blob/master/static/geojson/user.geojson)
 contains the positions of GRASS users and community members who willingly
 added themselves.
 The [provider.geojson file](https://github.com/OSGeo/grass-website/blob/master/static/geojson/provider.geojson)
