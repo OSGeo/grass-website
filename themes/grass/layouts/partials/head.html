@@ -2,29 +2,49 @@
 <html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
 
 <head>
-  <title>{{ .Title }}</title>
+  {{/* --- Single source for title / description / social values --- */}}
+  {{- $siteName := .Site.Params.SiteName | default "GRASS" -}}
+  {{- $title := .Site.Title -}}
+  {{- if not .IsHome }}{{ $title = printf "%s | %s" .Title $siteName }}{{ end -}}
+  {{- $desc := .Site.Params.description -}}
+  {{- if .Description }}{{ $desc = .Description }}{{ else if and .IsPage .Summary }}{{ $desc = .Summary }}{{ end -}}
+  {{- $desc = $desc | plainify | chomp | truncate 160 -}}
+  {{- $ogType := cond .IsPage "article" "website" -}}
+  {{- $ogImage := printf "%simages/other/default-social-image.png" .Site.BaseURL -}}
+  {{- $ogImageAlt := printf "%s - %s" $siteName .Site.Params.description -}}
   <meta charset="UTF-8">
-  <meta name="description"
-    content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
-  <meta name="keywords" content="{{.Site.Params.Keywords }}">
-  <meta property="og:url" content="{{.Site.BaseURL}}">
-  <meta property="og:site_name" content="{{.Site.Params.SiteName }}">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="{{.Site.BaseURL}}images/other/default-social-image.png">
-  <meta property="og:title" content="{{ .Site.Title }}">
-  <meta property="og:description" content="{{ .Site.Params.description }}">
-  {{ hugo.Generator }}
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $desc }}">
+  <meta name="keywords" content="{{ .Site.Params.Keywords }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{ with .OutputFormats.Get "rss" -}}
-  {{ printf `
-  <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
-  <meta name="twitter:card" content="{{.Site.Params.SiteName }}">
+  {{ hugo.Generator }}
+
+  {{/* --- Open Graph --- */}}
+  <meta property="og:site_name" content="{{ $siteName }}">
+  <meta property="og:type" content="{{ $ogType }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:image:alt" content="{{ $ogImageAlt }}">
+  <meta property="og:locale" content="{{ replace (.Site.LanguageCode | default "en-US") "-" "_" }}">
+  {{- if and .IsPage (not .Date.IsZero) }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- end }}
+
+  {{/* --- Twitter/X Card */}}
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@GRASSGIS">
   <meta name="twitter:creator" content="@GRASSGIS">
-  <meta name="twitter:title" content="{{ .Site.Title }}">
-  <meta name="twitter:description" content="{{ .Site.Params.description }}">
-  <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/default-social-image.png">
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $ogImage }}">
+  <meta name="twitter:image:alt" content="{{ $ogImageAlt }}">
+
+  {{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -70,6 +90,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  {{ partial "schema.html" . }}
   <script src="{{ .Site.BaseURL }}plugins/tracking/matomo.js"></script>
 </head>
 
