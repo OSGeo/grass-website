@@ -113,7 +113,12 @@
 
 {{ if eq .Layout "community-map" }}
 {{ "<!-- Map Script -->" | safeHTML }}
-{{ $map := resources.Get "js/community_map.js" | js.Build (dict "minify" true "target" "es2020") | fingerprint }}
+{{/* Load OpenLayers as its standalone UMD build (window.ol). Do NOT bundle ol
+     via js.Build: esbuild breaks OL's internal `instanceof` checks (View, Style,
+     ...), which crashes the map. The UMD build is one self-consistent copy. */}}
+{{ $ol := resources.Get "js/ol/ol.js" | fingerprint }}
+<script src="{{ $ol.Permalink }}" integrity="{{ $ol.Data.Integrity }}"></script>
+{{ $map := resources.Get "js/community_map.js" | minify | fingerprint }}
 <script src="{{ $map.Permalink }}" integrity="{{ $map.Data.Integrity }}"></script>
 {{ end }}
 </body>

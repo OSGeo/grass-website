@@ -74,6 +74,10 @@ priority = 0.5
 
 
     [[module.mounts]]
+    source = "node_modules/ol/dist/ol.js"
+    target = "assets/js/ol/ol.js"
+
+    [[module.mounts]]
     source = "node_modules/ol/ol.css"
     target = "assets/css/ol/ol.css"
 

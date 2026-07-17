@@ -16,6 +16,7 @@
 
 // Zoom / attribution controls: blue for structure, per brand
 .ol-control button {
+    color: $gs-white-base-color;
     background-color: $gs-secondary-alt-color;
 
     &:hover,
