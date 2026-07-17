@@ -111,13 +111,10 @@
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
 <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
-
-{{ if or (eq .RelPermalink "/about/map/") (eq .RelPermalink "/about/map") }}
+{{ if eq .Layout "map" }}
 {{ "<!-- Map Script -->" | safeHTML }}
-{{ $oljs := resources.Get "js/ol/ol.js" }}
-<script src="{{ $oljs.Permalink }}"></script>
-{{ $mapscript := resources.Get "js/community_map.js" }}
-<script src="{{ $mapscript.Permalink }}"></script>
+{{ $map := resources.Get "js/map.js" | js.Build (dict "minify" true "target" "es2020") | fingerprint }}
+<script src="{{ $map.Permalink }}" integrity="{{ $map.Data.Integrity }}"></script>
 {{ end }}
 </body>
 

@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
   <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
-  {{ if or (eq .RelPermalink "/about/map/") (eq .RelPermalink "/about/map") }}
+   {{ if eq .Layout "community-map" }}
   {{ with resources.Get "css/ol/ol.css" }}
   <link rel="stylesheet" href="{{ .Permalink }}">
   {{ end }}
@@ -55,8 +55,6 @@
   {{ end }}
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
   <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
-  {{ if eq .RelPermalink "/about/map/" }}
-  {{ end }}
   <link rel="android-chrome-192x192" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="android-chrome-512x512" sizes="512x512"

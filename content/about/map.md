@@ -6,4 +6,4 @@ layout: "community-map"
 
 ### Add yourself
 
-To add yourself to the GRASS community map, follow [these instructions](https://github.com/OSGeo/grass-website/static/geojson/README.md).
+To add yourself to the GRASS community map, follow [these instructions](https://github.com/OSGeo/grass-website/blob/master/static/geojson/README.md).
