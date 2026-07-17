@@ -4,12 +4,15 @@
       <loc>https://grass.osgeo.org/sitemap_hugo.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://grass.osgeo.org/grass-stable/manuals/sitemap_manuals.xml</loc>
+      <loc>https://grass.osgeo.org/grass-stable/manuals/sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://grass.osgeo.org/grass-stable/manuals/addons/sitemap_manuals.xml</loc>
+      <loc>https://grass.osgeo.org/grass85/manuals/sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://grass.osgeo.org/grass-devel/manuals/sitemap_manuals.xml</loc>
+      <loc>https://grass.osgeo.org/grass-devel/manuals/sitemap.xml</loc>
+   </sitemap>
+   <sitemap>
+      <loc>https://grass.osgeo.org/grass86/manuals/sitemap.xml</loc>
    </sitemap>
 </sitemapindex>
