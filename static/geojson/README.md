@@ -1,12 +1,17 @@
 # GRASS community map
 
-In this folder you can find geographical data related to the GRASS community. The data are provided in GeoJSON format.
+In this folder you can find geographical data related to the GRASS community.
+The data are provided in GeoJSON format.
 
 ## User map
 
-The [user.geojson file](https://github.com/OSGeo/grass-website/static/geojson/user.geojson) contains the positions of GRASS users and community members who willingly added themselves.
-The [provider.geojson file](https://github.com/OSGeo/grass-website/static/geojson/provider.geojson) contains the position of companies,
-research centers and universities offering support related to GRASS, i.e., commercial support, new features development and implementations, courses, etc.
+The [user.geojson file](https://github.com/OSGeo/grass-website/static/geojson/user.geojson)
+contains the positions of GRASS users and community members who willingly
+added themselves.
+The [provider.geojson file](https://github.com/OSGeo/grass-website/static/geojson/provider.geojson)
+contains the position of companies, research centers and universities
+offering support related to GRASS, i.e., commercial support, new features
+development and implementations, courses, etc.
 
 ## Add new records to the map
 
@@ -17,7 +22,8 @@ research centers and universities offering support related to GRASS, i.e., comme
 * Choose which file to modify from the [GeoJSON files](https://github.com/OSGeo/grass-website/static/geojson/)
 * Click the pencil button to modify the file
 * Add a new feature copying the feature template in the bottom of the page
-* When saving the file, select `Create a new branch for this commit and start a pull request.`
+* When saving the file, select
+  `Create a new branch for this commit and start a pull request.`
 
 ### Git/Github advanced user
 

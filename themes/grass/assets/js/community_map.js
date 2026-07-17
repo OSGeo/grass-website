@@ -86,7 +86,7 @@ if (!window.ol || !container || !content || !closer) {
       }),
       vectorLayer
     ],
-    target: 'map',
+    target: 'community-map',
     overlays: [overlay],
     controls: window.ol.control.defaults.defaults({
       attributionOptions: {

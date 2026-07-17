@@ -116,7 +116,7 @@
 {{ "<!-- Map Script -->" | safeHTML }}
 {{ $oljs := resources.Get "js/ol/ol.js" }}
 <script src="{{ $oljs.Permalink }}"></script>
-{{ $mapscript := resources.Get "js/map.js" }}
+{{ $mapscript := resources.Get "js/community_map.js" }}
 <script src="{{ $mapscript.Permalink }}"></script>
 {{ end }}
 </body>

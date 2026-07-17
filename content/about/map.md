@@ -1,7 +1,7 @@
 ---
 title: "GRASS community map"
 date: 2026-07-14T11:02:05+06:00
-layout: "map"
+layout: "community-map"
 ---
 
 ### Add yourself

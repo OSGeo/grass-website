@@ -152,7 +152,7 @@ URL = "/about/governance"
 [[Languages.en.menu.main]]
 parent = "About Us"
 name = "Community map"
-URL = "/about/map"
+URL = "/about/community-map"
 weight = 4
 
 [[Languages.en.menu.main]]
