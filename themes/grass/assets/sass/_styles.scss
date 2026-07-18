@@ -32,7 +32,7 @@ p,
 }
 
 .gis {
-    font-family: fira_sansthin;
+    font-family: $gs-grass-font--light;
     margin-left: -.25rem;
 }
 
@@ -579,7 +579,7 @@ table img {
 .command {
     white-space: nowrap;
     overflow: hidden;
-    font-family: monospace;
+    font-family: $gs-grass-font--mono;
     font-size: 16px;
 }
 
@@ -1480,7 +1480,7 @@ li.parent a {
 }
 
 .timeline .panel-default>.panel-heading {
-    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $gs-grass-font;
     border: 0;
     background: none;
     font-weight: 400;
@@ -1626,12 +1626,12 @@ h4.panel-title {
 }
 
 .timeline .panel-default>.panel-heading {
-    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $gs-grass-font;
     border: 0;
 }
 
 .edt {
-    font-family: open_sansregular !important;
+    font-family: $gs-grass-font !important;
     font-weight: normal !important;
     font-size: 1.0em !important;
 }
