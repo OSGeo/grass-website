@@ -11,7 +11,7 @@ The **GRASS Community Meeting 2026** was held at [Fondazione Edmund Mach](https:
   <img src="/images/news/grass_community_meeting_20260715.webp"
    alt="GRASS Community Meeting in San Michele all'Adige, 2026"
    title="GRASS Community Meeting in San Michele all'Adige, 2026"
-   width="55%" style="float:right;padding-left:15px;padding-top:15px">
+   width="65%" style="float:right;padding-left:15px;padding-top:15px">
 </a>
 
 As is tradition for these meetings, a large part of the week went into maintenance that simply doesn't happen at the same pace when the team is scattered across time zones: reviewing, testing, and merging or closing pull requests and issues, following up on stale discussions, and cleaning up long-standing rough edges across the GRASS repositories. On top of that, the group welcomed **5 new contributors**, tracked down and fixed several bugs, merged new addons, and pushed forward a number of core and infrastructure improvements, including a technology bump for the website.
@@ -20,6 +20,14 @@ Highlights from the week include:
 
 * **Heavy maintenance push** — pull requests and issues were reviewed, tested, and merged or closed across the grass, grass-addons, grass-website, and grass-tutorials repositories, including a batch of CodeQL-flagged fixes and a broader migration of module tests to pytest
 * **5 new contributors** joined and got up to speed quickly — including a very promising almost-15-year-old newcomer! Two of them are close to landing a full hyperspectral data processing chain in the *i.hyper* addon (EnMAP and EMIT data import, atmospheric correction, spectral resampling), while the others added test coverage to addons and helped get GRASS addons building on Windows in CI
+
+<a href="/images/news/grass_community_meeting_20260717.webp">
+  <img src="/images/news/grass_community_meeting_20260717.webp"
+   alt="GRASS Community Meeting in San Michele all'Adige, 2026"
+   title="GRASS Community Meeting in San Michele all'Adige, 2026"
+   width="40%" style="float:left;padding-right:25px;padding-top:15px">
+</a>
+
 * **Bugs found and fixed**, including two `v.proj` reprojection issues, an orphaned wxGUI drag-image bug on macOS, and a temporal framework metadata bug caught while reviewing this year's GSoC temporal framework project
 * **New addons**, with `t.rast.vi` merged this week and `t.rast.aggregate.seasons`, `t.rast.climatologies`, and `r.soils.rosetta` right behind it in review, plus new pytest-based test coverage merged for several existing addons (`r.clip`, `r.centroids`, `v.median`)
 * **Tutorials refreshed** — grass-tutorials grew with a new visibility analysis (`r.viewshed`) tutorial, and a getting-started guide for conda, while existing tutorial categories were reduced and consolidated for easier browsing
@@ -46,7 +54,7 @@ For more details on the meeting, sponsorship, and participants' individual repor
   <img src="/images/news/grass_community_meeting_20260716.webp"
    alt="GRASS Community Meeting in San Michele all'Adige, 2026"
    title="GRASS Community Meeting in San Michele all'Adige, 2026"
-   width="55%" style="float:left;padding-right:15px;padding-top:15px">
+   width="45%" style="float:right;padding-left:15px;padding-top:15px">
 </a>
 
 None of this would have been possible without the generous support of the **Open Source Geospatial Foundation** (OSGeo), **Bohannan Huston, Inc.**, and **FOSSGIS e.V.**, whose funding helped bring the group together in person. We're also grateful to the companies and institutions that supported the meeting by donating their employees' time to travel and work with us for the week. A huge thank you to [Fondazione Edmund Mach](https://fmach.it/) for hosting and welcoming us on their beautiful campus, and especially to our local organizer **Luca Delucchi**, whose work behind the scenes made the whole week run smoothly.
