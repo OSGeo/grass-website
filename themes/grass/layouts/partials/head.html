@@ -53,20 +53,25 @@
   <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
   <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
+   {{ if eq .Layout "community-map" }}
+  {{ with resources.Get "css/ol/ol.css" }}
+  <link rel="stylesheet" href="{{ .Permalink }}">
+  {{ end }}
+  {{ end }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
   {{ with resources.Get "css/fontawesome/all.min.css" }}
-    <link rel="stylesheet" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="{{ .Permalink }}">
   {{ end }}
   {{ with resources.Get "sass/main.scss" }}
-    {{ $cssopts := dict
-      "targetPath" "css/style.css"
-      "outputStyle" "compressed"
-      "enableSourceMap" false
-      "includePaths" (slice "node_modules/bootstrap/scss")
-    }}
-    {{ with . | toCSS $cssopts }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{ end }}
+  {{ $cssopts := dict
+  "targetPath" "css/style.css"
+  "outputStyle" "compressed"
+  "enableSourceMap" false
+  "includePaths" (slice "node_modules/bootstrap/scss")
+  }}
+  {{ with . | toCSS $cssopts }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
   {{ end }}
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
   <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
@@ -96,3 +101,4 @@
 
 <body>
   <noscript>Please enable javascript :)</noscript>
+
