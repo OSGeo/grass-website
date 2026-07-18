@@ -1,5 +1,5 @@
 ---
-title: "Report from the GRASS Community Meeting San Michele 2026"
+title: "GRASS Community Meeting 2026 Report"
 date: 2026-07-16T18:00:00+02:00
 layout: "news"
 author: Veronica Andreo, Vaclav Petras, Anna Petrasova and the GRASS Dev Team
