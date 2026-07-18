@@ -1,44 +1,79 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{.}}{{else }}en-US{{ end }}">
+
 <head>
-  <title>{{ .Title }}</title>
-  <meta charset="UTF-8"> 
-  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ end }}">
-  <meta name="keywords" content="{{.Site.Params.Keywords }}">
-  <meta property="og:url" content="{{.Site.BaseURL}}">
-  <meta property="og:site_name" content="{{.Site.Params.SiteName }}">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="{{.Site.BaseURL}}images/other/default-social-image.png">
-  <meta property="og:title" content="{{ .Site.Title }}">
-  <meta property="og:description" content="{{ .Site.Params.description }}">
-  {{ hugo.Generator }}
+  {{/* --- Single source for title / description / social values --- */}}
+  {{- $siteName := .Site.Params.SiteName | default "GRASS" -}}
+  {{- $title := .Site.Title -}}
+  {{- if not .IsHome }}{{ $title = printf "%s | %s" .Title $siteName }}{{ end -}}
+  {{- $desc := .Site.Params.description -}}
+  {{- if .Description }}{{ $desc = .Description }}{{ else if and .IsPage .Summary }}{{ $desc = .Summary }}{{ end -}}
+  {{- $desc = $desc | plainify | chomp | truncate 160 -}}
+  {{- $ogType := cond .IsPage "article" "website" -}}
+  {{- $ogImage := printf "%simages/other/default-social-image.png" .Site.BaseURL -}}
+  {{- $ogImageAlt := printf "%s - %s" $siteName .Site.Params.description -}}
+  <meta charset="UTF-8">
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $desc }}">
+  <meta name="keywords" content="{{ .Site.Params.Keywords }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
-  <meta name="twitter:card" content="{{.Site.Params.SiteName }}">
+  {{ hugo.Generator }}
+
+  {{/* --- Open Graph --- */}}
+  <meta property="og:site_name" content="{{ $siteName }}">
+  <meta property="og:type" content="{{ $ogType }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:image:alt" content="{{ $ogImageAlt }}">
+  <meta property="og:locale" content="{{ replace (.Site.LanguageCode | default "en-US") "-" "_" }}">
+  {{- if and .IsPage (not .Date.IsZero) }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- end }}
+
+  {{/* --- Twitter/X Card */}}
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@GRASSGIS">
   <meta name="twitter:creator" content="@GRASSGIS">
-  <meta name="twitter:title" content="{{ .Site.Title }}">
-  <meta name="twitter:description" content="{{ .Site.Params.description }}">
-  <meta name="twitter:image:src" content="{{.Site.BaseURL}}images/other/default-social-image.png">
+  <meta name="twitter:title" content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $ogImage }}">
+  <meta name="twitter:image:alt" content="{{ $ogImageAlt }}">
+
+  {{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/highlight/default.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/flag-icons-css/css/flag-icon.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/open-sans/open-sans.css" >
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fira-sans/fira-sans.css" >
+  {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
+  <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
+  {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
+  <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/mapskin/css/mapskin.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}plugins/fontawesome/css/fontawesome.min.css">
-  {{ $styles := resources.Get "css/style.css" | minify}}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-  <script src="{{ .Site.BaseURL }}plugins/jquery/jquery-3.3.1.slim.min.js"></script>
-  <link rel="android-chrome-192x192" sizes="192x192" href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
-  <link rel="android-chrome-512x512" sizes="512x512" href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
+  {{ with resources.Get "css/fontawesome/all.min.css" }}
+    <link rel="stylesheet" href="{{ .Permalink }}">
+  {{ end }}
+  {{ with resources.Get "sass/main.scss" }}
+    {{ $cssopts := dict
+      "targetPath" "css/style.css"
+      "outputStyle" "compressed"
+      "enableSourceMap" false
+      "includePaths" (slice "node_modules/bootstrap/scss")
+    }}
+    {{ with . | toCSS $cssopts }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+  {{ end }}
+  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
+  <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
+  <link rel="android-chrome-192x192" sizes="192x192"
+    href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
+  <link rel="android-chrome-512x512" sizes="512x512"
+    href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-72x72.png">
@@ -50,12 +85,14 @@
   <link rel="apple-touch-icon" sizes="167x167" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-180x180.png">
   <link rel="manifest" href="{{ .Site.BaseURL }}images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/logos/favicon-grass-green.svg" color="#ffffff">
+  <link rel="mask-icon" href="{{ .Site.BaseURL }}images/favicon/favicon-grass-green.svg" color="#ffffff">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ .Site.BaseURL }}images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  {{ partial "schema.html" . }}
   <script src="{{ .Site.BaseURL }}plugins/tracking/matomo.js"></script>
 </head>
+
 <body>
   <noscript>Please enable javascript :)</noscript>

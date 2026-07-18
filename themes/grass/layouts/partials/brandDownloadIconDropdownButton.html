@@ -40,16 +40,16 @@
 {{ $grassLogoHorizontal2x := printf "%s@2x.png" $grassLogoHorizontalBase | safeHTMLAttr }}
 {{ $grassLogoHorizontal3x := printf "%s@3x.png" $grassLogoHorizontalBase | safeHTMLAttr }}
 
-<div class="col-lg-6 col-sm-12 mr-1">
+<div class="col-lg-6 col-sm-12 me-1">
     <!-- Logo -->
-    <div class="btn-group mr-1" role="group" aria-label="Dropdown button group of {{ $colorNameLower }} logos">
-        <div class="dropdown mr-1">
+    <div class="btn-group me-1" role="group" aria-label="Dropdown button group of {{ $colorNameLower }} logos">
+        <div class="dropdown me-1">
             <button
                 id="dropdown-button-{{ $colorNameLower }}-logo"
                 type="button"
                 class="btn dropdown-toggle"
                 aria-haspopup="true"
-                data-toggle="dropdown"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
                 href="#{{ $colorNameLower }}-logo">
             <i class="fa fa-download"></i> Logo
@@ -134,13 +134,13 @@
         </div>
 
         <!-- Simple Logo -->
-        <div class="dropdown mr-1">
+        <div class="dropdown me-1">
             <button 
                 class="btn dropdown-toggle"
                 id="dropdown-button-{{ $colorNameLower }}-simple-logo"
                 type="button"
                 aria-haspopup="true"
-                data-toggle="dropdown"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
                 href="#{{ $colorNameLower }}-logo"
                 >
@@ -176,13 +176,13 @@
         </div>
 
         <!-- Horizontal logo -->
-        <div class="dropdown mr-1">
+        <div class="dropdown me-1">
             <button 
                 class="btn dropdown-toggle"
                 id="dropdown-button-{{ $colorNameLower }}-horizontal-logo"
                 type="button"
                 aria-haspopup="true"
-                data-toggle="dropdown"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
                 href="#{{ $colorNameLower }}-logo">
                 <i class="fa fa-download"></i> Horizontal Logo

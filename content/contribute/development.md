@@ -6,7 +6,7 @@ layout: "devel"
 
 GRASS - **Geographic Resources Analysis Support System** has been under continuous development since 1982 (!).
 
-<img src="/images/other/Grass_osgeo_codesprint_2018.jpg" width="40%" alt="" align="left" class="mr-3 pt-2">
+<img src="/images/other/Grass_osgeo_codesprint_2018.jpg" width="40%" alt="" align="left" class="me-3 pt-2">
 
 The strength and success of GRASS relies on the **user community** to improve and extend the GRASS capabilities.
 GRASS is developed and supported by a [worldwide team of developers](https://github.com/OSGeo/grass/blob/main/contributors.csv).

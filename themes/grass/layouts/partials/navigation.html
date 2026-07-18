@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg bg-body-light navbar-dark">
+    <div class="container-fluid">
     <a class="navbar-brand" href="{{.Site.BaseURL}}">
         <img class="grass-icon" title="GRASS" alt="GRASS logo in white variant without text" src="{{.Site.BaseURL}}images/logos/grass-logo-simple/grass-white-no-text.svg">
         <span class="grass text-white">{{.Site.Params.logo}}</span>
@@ -8,13 +9,13 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
         class="navbar-toggler border-0"
-        data-target="#navigation"
-        data-toggle="collapse"
+        data-bs-target="#navigation"
+        data-bs-toggle="collapse"
         type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
             {{ range .Site.Menus.main }}
             {{- if .HasChildren }}
             <li class="nav-item dropdown">
@@ -22,7 +23,7 @@
                     aria-expanded="false"
                     aria-haspopup="true"
                     class="nav-link dropdown-toggle text-light"
-                    data-toggle="dropdown"
+                    data-bs-toggle="dropdown"
                     href="{{.URL}}"
                     id="dropdown-{{ .Name | urlize }}"
                     role="button">{{ .Name }}
@@ -39,22 +40,6 @@
             {{ end }}
         </ul>
 
-        <form class="search-form" id="search-form" onsubmit="searchContent(event)">
-            <input id="search-input" class="search-input" type="search" name="searchString">
-            <label for="search-input" class="search-icon" aria-label="Search">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </label>
-        </form>
-
-        <script>
-            function searchContent(event) {
-                event.preventDefault();
-
-                const searchString = encodeURI(`${event.target.searchString.value} site:grass.osgeo.org`);
-                const searchURL = "https://duckduckgo.com?q=" + searchString;
-
-                window.open(searchURL)
-            }
-        </script>
+    </div>
     </div>
 </nav>
