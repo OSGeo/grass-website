@@ -1,0 +1,49 @@
+{{ partial "head.html" . }}
+
+
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="shadow-bottom position-relative bg-primary">
+  <div class="container bg-primary">
+    {{ partial "navigation.html" . }}
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
+
+
+<!-- page title -->
+<section>
+  <section class="pt-4 bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="page-title grass-green">{{ .Title }}</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- details page -->
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <div class="mb-3" id="community-map"></div>
+        <div id="popup" class="ol-popup">
+          <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+          <div id="popup-content"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-sm-6 mb-4">
+        <h3>Choose what to see</h3>
+        <button type="button" name='layers' value='user' class="btn btn-primary pd-5">Users</button>
+        <button type="button" name='layers' value='provider' class="btn btn-primary pd-5">Providers</button>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+
