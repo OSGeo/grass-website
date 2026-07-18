@@ -16,6 +16,38 @@
           50.7409291
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OpenPlains Inc.",
+        "url": "https://openplains.com/",
+        "image": "https://grass.osgeo.org/images/logos/companies/openplains-logo.png",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7873672,
+          35.8789951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Center for Geospatial Analytics at NC State University",
+        "url": "https://cnr.ncsu.edu/geospatial/engage",
+        "image": "https://grass.osgeo.org/images/logos/companies/cgaNCSU.png",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6768830,
+          35.7818531
+        ]
+      }
     }
   ]
 }

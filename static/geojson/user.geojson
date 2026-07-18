@@ -15,6 +15,96 @@
           46.13950796157218
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Veronica Andreo",
+        "url": "https://veroandreo.gitlab.io/",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1737939,
+          -31.3884898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vaclav Petras",
+        "url": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6768830,
+          35.7818531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edouard Choinière",
+        "url": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7566869,
+          45.4644277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corey White",
+        "url": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7873672,
+          35.8789951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anna Petrasova",
+        "url": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6768830,
+          35.7818531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markus Neteler",
+        "url": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.061374,
+          50.733537
+        ]
+      }
     }
   ]
 }
