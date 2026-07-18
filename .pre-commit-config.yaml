@@ -35,7 +35,7 @@ repos:
           )
       - id: check-case-conflict
       - id: check-json
-        files: (.*\.json$|.*\.geojson$)
+        files: \.(json|geojson)$
         types: [text]
       - id: check-merge-conflict
       - id: check-symlinks
