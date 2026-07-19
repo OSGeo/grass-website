@@ -7,7 +7,7 @@
     "storage": "5gb"
   },
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {
+    "ghcr.io/devcontainers/features/node:2": {
       "version": "24.18.0"
     },
     "ghcr.io/devcontainers/features/hugo:1": {
