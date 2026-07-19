@@ -1,5 +1,5 @@
 ---
-title: "GRASS Developer Summit 2025"
+title: "GRASS Developer Summit 2025 Announcement"
 date: 2025-03-03T10:12:42-05:00
 layout: "news"
 author: Vaclav Petras and the Developer Summit 2025 Organizing Committee

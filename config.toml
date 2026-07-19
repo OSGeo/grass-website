@@ -1,5 +1,5 @@
 baseURL = "https://grass.osgeo.org/"
-theme = "grass"
+theme = ["grass"]
 enableInlineShortcodes = true
 
 [params]
@@ -7,10 +7,70 @@ siteName = "GRASS"
 description = "GRASS is a powerful open-source geospatial processing engine that supports advanced modeling, time series analysis, and spatial data management."
 keywords = "python, science, data science, machine learning, jupyter, vector, geospatial, parallel computing, gis, image processing, raster, spatial, open science, remote sensing, arrays, earth observation, geospatial analysis, timeseries analysis, open source, GRASS, FOSS4G, free open source GIS, mapping, mapping software, cartography, GIS data, open source 3D, geographic information system, free software, libre software, topology, visualization, hydrology, archaeology, 3D GIS"
 
+[params.author]
+name = "GRASS Development Team"
+contact = "https://discourse.osgeo.org/c/grass/developer/61"
+
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap_hugo.xml"
 priority = 0.5
+
+[security]
+  enableInlineShortcodes = true
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+
+[module]
+
+    [[module.mounts]]
+    source = "node_modules/bootstrap-icons/font/fonts"
+    target = "static/css/fonts"
+
+    [[module.mounts]]
+    source = "node_modules/@fortawesome/fontawesome-free/webfonts"
+    target = "static/css/webfonts"
+
+    [[module.mounts]]
+    source = "node_modules"
+    target = "assets/node_modules"
+
+    [[module.mounts]]
+    source = "static"
+    target = "static"
+
+    [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+    [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap/bootstrap.bundle.min.js"
+
+    # TODO: Switch to use SCSS when we update to Hugo a version with embeded dart-sass
+    [[module.mounts]]
+    source = "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    target = "assets/css/fontawesome/all.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/flag-icons/css/flag-icons.min.css"
+    target = "assets/css/flag-icons/flag-icons.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/@highlightjs/cdn-assets/highlight.min.js"
+    target = "assets/js/highlightjs/highlight.min.js"
+
+    [[module.mounts]]
+    source = "node_modules/@highlightjs/cdn-assets/styles/default.min.css"
+    target = "assets/css/highlightjs/default.min.css"
+
+    [[module.mounts]]
+    source = "node_modules/photoswipe/dist/photoswipe.css"
+    target = "assets/css/photoswipe/photoswipe.css"
+
+    [[module.mounts]]
+    source = "node_modules/photoswipe/dist/photoswipe-lightbox.esm.js"
+    target = "assets/js/photoswipe/photoswipe-lightbox.esm.js"
 
 
 [markup]
@@ -18,6 +78,13 @@ defaultMarkdownHandler = "goldmark"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+# Code is highlighted client-side by highlight.js (with the GRASS theme in
+# themes/grass/assets/sass/_styles.scss). Disable Hugo's built-in Chroma so
+# fenced blocks are emitted as plain <pre><code class="language-*"> and are not
+# double-highlighted (Chroma's inline monokai background clashed with the theme).
+[markup.highlight]
+codeFences = false
 
 
 [outputFormats]
@@ -115,7 +182,6 @@ name = "Install"
 URL = "/download"
 weight = 1
 
-
 [[Languages.en.menu.main]]
 parent = "Download"
 name = "Source code"
@@ -126,13 +192,13 @@ weight = 2
 parent = "Download"
 name = "Addons"
 URL = "/download/addons"
-weight = 6
+weight = 7
 
 [[Languages.en.menu.main]]
 parent = "Download"
 name = "Sample data"
 URL = "/download/data"
-weight = 7
+weight = 8
 
 [[Languages.en.menu.main]]
 weight = 3
@@ -279,4 +345,3 @@ label = "GRASS YouTube Channel"
 icon = "fa fa-rss"
 link = "https://grass.osgeo.org/index.xml"
 label = "RSS Feed"
-

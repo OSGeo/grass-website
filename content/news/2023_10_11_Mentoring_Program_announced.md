@@ -26,8 +26,8 @@ The program is open to people from all walks of life regardless of employment or
 
 Interested? To apply, follow the directions on the [Mentoring Program wiki](https://grasswiki.osgeo.org/wiki/Mentoring_Program).
 
-<a href="/images/logos/NSF_logo.png">
-  <img src="/images/logos/NSF_logo.png"
+<a href="/images/logos/companies/NSF_logo.png">
+  <img src="/images/logos/companies/NSF_logo.png"
    alt="U.S. National Science Foundation logo"
    title="Supported by U.S. National Science Foundation"
    width="15%" style="float:right;padding-left:25px;padding-top:15px">

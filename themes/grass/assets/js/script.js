@@ -1,161 +1,126 @@
-(function ($) {
+// GRASS website behaviors (vanilla JS, no jQuery).
+// Bundled with contributor_ad.js into bundle.js and loaded at the end of <body>,
+// so the DOM above is already parsed when this runs.
+(function () {
     'use strict';
 
-    // Logotext style 
-    $.fn.lastWord = function() {
-	  var text = this.text().trim().split(" ");
-	  var last = text.pop();
-	  this.html(text.join(" ") + (text.length > 0 ? " <span class='gis'>" + last + "</span>" : last));
-    };
-    $(".navbar-brand span").lastWord();
-
-
-    $( 'a' ).each(function() {
-  if( location.hostname === this.hostname || !this.hostname.length ) {
-      $(this).addClass('int');
-  } else {
-      $(this).addClass('ext');
-       $(this).attr({
-            target: "_blank",
-           title: $(this).text()
-        });
-  }
-    });
-    
-    // Background-images
-    $('[data-background]').each(function () {
-        $(this).css({
-            'background-image': 'url(' + $(this).data('background') + ')'
-        });
-    });
-
-    // Boostrap menu hack
-    $(document).ready(function() {
-      function bindNavbar() {
-        if ($(window).width() > 768) {
-          $('.navbar-default .dropdown').on('mouseover', function() {
-            $('.dropdown-toggle', this).next('.dropdown-menu').show();
-          }).on('mouseout', function() {
-            $('.dropdown-toggle', this).next('.dropdown-menu').hide();
-          });
-          $('.dropdown-toggle').click(function() {
-            if ($(this).next('.dropdown-menu').is(':visible')) {
-              window.location = $(this).attr('href');
-            }
-          });
+    // Wrap the last word of the brand text in a styled span.
+    document.querySelectorAll('.navbar-brand span').forEach(function (el) {
+        var words = el.textContent.trim().split(' ');
+        var last = words.pop();
+        if (last === undefined) return;
+        el.textContent = '';
+        if (words.length > 0) {
+            el.appendChild(document.createTextNode(words.join(' ') + ' '));
+            var span = document.createElement('span');
+            span.className = 'gis';
+            span.textContent = last;
+            el.appendChild(span);
         } else {
-          $('.navbar-default .dropdown').off('mouseover').off('mouseout');
+            el.appendChild(document.createTextNode(last));
         }
-      }
-      $(window).resize(function() {
-        bindNavbar();
-      });
-      bindNavbar();
-    });    
-    // Collapse current year news accordion
-    $("#news .panel-collapse:first").collapse();
-    
-    // Toggle gallery items
-    $(".gallery-toggler").click(function(e){
-	  $(this).parent().find('.gallery div:nth-child(n+7)').toggle();
-	  $(this).html($(this).html() == 'View more' ? 'View less' : 'View more');
-	  e.preventDefault();
     });
 
-    function detectOSFromUserAgent() {
-      return new Promise((resolve) => {
-        const userAgent = window.navigator.userAgent;
-        if (userAgent.includes("Win")) resolve("Windows");
-        else if (userAgent.includes("Mac")) resolve("macOS");
-        else if (userAgent.includes("Linux")) resolve("Linux");
-        else if (userAgent.includes("Android")) resolve("Android");
-        else if (userAgent.includes("like Mac") && /iPhone|iPad|iPod/.test(userAgent)) resolve("iOS");
-        else resolve("Unknown OS");
-      });
+    // Match the hero offset to the actual fixed-header height.
+    function adjustHeroOffset() {
+        var header = document.querySelector('.fixed-top');
+        if (!header) return;
+        var headerHeight = header.offsetHeight;
+        if (!headerHeight) return;
+        document.querySelectorAll('.mt-95').forEach(function (el) {
+            el.style.marginTop = headerHeight + 'px';
+        });
     }
+    adjustHeroOffset();
+    window.addEventListener('resize', adjustHeroOffset);
 
-    function configureDownloadButton(os, replaceHash = true) {
-      const button = $(".grass-os-download-button");
-      switch (os) {
-        case "Windows":
-            button.text("Download for Windows");
-            button.data("os", "windows");
-            $('#downloadTab a[href="windows"]').tab('show');
-            if (window.location.pathname === "/download") {
-              history.replaceState(null, null, "windows");
+    // Tag internal vs external links; open external links in a new tab.
+    document.querySelectorAll('a').forEach(function (a) {
+        if (location.hostname === a.hostname || !a.hostname.length) {
+            a.classList.add('int');
+        } else {
+            a.classList.add('ext');
+            a.setAttribute('target', '_blank');
+            a.setAttribute('title', a.textContent);
+        }
+    });
+
+    // Apply background images declared via data-background.
+    document.querySelectorAll('[data-background]').forEach(function (el) {
+        el.style.backgroundImage = 'url(' + el.getAttribute('data-background') + ')';
+    });
+
+    // Gallery "View more"/"View less" toggle for items beyond the sixth.
+    document.querySelectorAll('.gallery-toggler').forEach(function (toggler) {
+        toggler.addEventListener('click', function (e) {
+            e.preventDefault();
+            var gallery = toggler.parentNode.querySelector('.gallery');
+            if (gallery) {
+                gallery.querySelectorAll('div:nth-child(n+7)').forEach(function (item) {
+                    var hidden = item.style.display === 'none' || getComputedStyle(item).display === 'none';
+                    item.style.display = hidden ? '' : 'none';
+                });
             }
-            break;
-        case "macOS":
-            button.text("Download for macOS");
-            button.data("os", "mac");
-            $('#downloadTab a[href="download?tab=mac]').tab('show');
-            if (window.location.pathname === "/download") {
-              history.replaceState(null, null, "mac");
-            }
-            break;
-        case "Linux":
-            button.text("Download for Linux");
-            button.data("os", "linux");
-            $('#downloadTab a[href="download?tab=linux"]').tab('show');
-            if (window.location.pathname === "/download") {
-              history.replaceState(null, null, "?tab=linux");
-            }
-            break;
-        case "Docker":
-            button.text("Docker Container");
-            button.data("os", "docker");
-            $('#downloadTab a[href="docker"]').tab('show');
-            if (window.location.pathname === "/download") {
-              history.replaceState(null, null, "docker");
-            }
-            break;
-        case "Source Code":
-              button.text("Source Code");
-              button.data("os", "source");
-              $('#downloadTab a[href="#source"]').tab('show');
-              if (window.location.pathname === "/download") {
-                history.replaceState(null, null, "source");
-              }
-              break;
-        default:
-            button.text("Download");
-            button.data("os", "unknown");
-            break;
+            toggler.textContent = toggler.textContent.trim() === 'View more' ? 'View less' : 'View more';
+        });
+    });
+
+    // Download page: detect the OS and select the matching tab (Bootstrap 5 Tab API).
+    var downloadTab = document.getElementById('downloadTab');
+    if (downloadTab) {
+        var osMap = {
+            Windows: { text: 'Download for Windows', os: 'windows', hash: '#windows' },
+            macOS: { text: 'Download for macOS', os: 'mac', hash: '#mac' },
+            Linux: { text: 'Download for Linux', os: 'linux', hash: '#linux' },
+            Docker: { text: 'Docker Container', os: 'docker', hash: '#docker' },
+            Conda: { text: 'Conda package', os: 'conda', hash: '#conda' },
+            'Source Code': { text: 'Source Code', os: 'source', hash: '#source' }
+        };
+
+        // Optional OS-specific download button (absent today; updated if present).
+        function updateDownloadButton(os) {
+            var button = document.querySelector('.grass-os-download-button');
+            if (!button) return;
+            var cfg = osMap[os];
+            button.textContent = cfg ? cfg.text : 'Download';
+            button.dataset.os = cfg ? cfg.os : 'unknown';
+        }
+
+        function detectOS() {
+            var ua = window.navigator.userAgent;
+            if (/iPhone|iPad|iPod/.test(ua)) return 'iOS';
+            if (ua.indexOf('Win') !== -1) return 'Windows';
+            if (ua.indexOf('Mac') !== -1) return 'macOS';
+            if (ua.indexOf('Android') !== -1) return 'Android';
+            if (ua.indexOf('Linux') !== -1) return 'Linux';
+            return 'Unknown OS';
+        }
+
+        // Bootstrap 5 switches the tab itself; react after it is shown.
+        downloadTab.querySelectorAll('a[data-bs-toggle="tab"]').forEach(function (tabLink) {
+            tabLink.addEventListener('shown.bs.tab', function (e) {
+                var os = e.target.textContent.trim();
+                updateDownloadButton(os);
+                if (window.location.pathname === '/download/' && osMap[os]) {
+                    history.replaceState(null, null, osMap[os].hash);
+                }
+            });
+        });
+
+        // On load, honor an existing hash, otherwise pick the detected OS.
+        var os;
+        var hash = window.location.hash;
+        if (hash) {
+            var tabByHash = downloadTab.querySelector('a[href="' + hash + '"]');
+            os = tabByHash ? tabByHash.textContent.trim() : detectOS();
+        } else {
+            os = detectOS();
+        }
+        var cfg = osMap[os];
+        if (cfg && window.bootstrap) {
+            var tabEl = downloadTab.querySelector('a[href="' + cfg.hash + '"]');
+            if (tabEl) bootstrap.Tab.getOrCreateInstance(tabEl).show();
+        }
+        updateDownloadButton(os);
     }
-  }
-
-    $(document).ready(function() {
-    
-     // Handle download page tab change
-     $('#downloadTab a').on('click', function(e) {
-        e.preventDefault();
-        // Activate the clicked tab
-        $(this).tab('show');
-        const hash = e.target.hash;
-        const os = e.target.innerText;
-        configureDownloadButton(os);
-        // history.replaceState(null, null, hash);
-      });
-
-      // Detect the user's OS and update the download button text
-      (async () => {
-          let os = "Unknown OS";
-          // If the user has already selected a tab, don't change it
-          const hash = window.location.hash;
-          if (hash) {
-            const tab = $(`#downloadTab a[href="${hash}"]`)
-            os = tab.text(); // Get the OS from the tab text
-          }
-          else {
-            // No hash, so detect the OS and select the appropriate tab
-            os = await detectOSFromUserAgent();
-            console.log("No Hash", os);
-          }
-          // Configure the download button
-          // Add text and data based on the user's OS
-          configureDownloadButton(os);
-          
-      })(jQuery);
-  });
-  
-})(jQuery);
+})();

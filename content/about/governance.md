@@ -40,7 +40,7 @@ Procedures](https://github.com/OSGeo/grass/blob/main/doc/development/rfc/PSC_vot
 
 ## Hosted by OSGeo Foundation
 <a href="https://osgeo.org">
-  <img src="/images/logos/osgeo-project.svg"
+  <img src="/images/logos/companies/osgeo-project.svg"
    alt="OSGeo logo"
    title="Open Source Geospatial Foundation"
    width="25%" style="float:left;padding-right:25px;padding-top:45px">
@@ -58,7 +58,7 @@ OSGeo Board.
 
 ## Fiscally sponsored by NumFOCUS
 <a href="https://numfocus.org/">
-  <img src="/images/logos/numfocus_logo.svg"
+  <img src="/images/logos/companies/numfocus_logo.svg"
    alt="Fiscally sponsored project of NumFOCUS"
    title="NumFOCUS"
    width="25%" style="float:right;padding-left:25px;padding-top:15px">

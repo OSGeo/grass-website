@@ -1,8 +1,9 @@
 <script>
-    $(document).ready(function() {
-        $("#{{ .id }}").on('click', function() {
-            const code = $(this).prev().text();
-            navigator.clipboard.writeText(code).catch(err => {
+    document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.getElementById("{{ .id }}");
+        if (!btn || !btn.previousElementSibling) return;
+        btn.addEventListener('click', function () {
+            navigator.clipboard.writeText(btn.previousElementSibling.textContent).catch(function (err) {
                 console.error('Error in copying text: ', err);
             });
         });

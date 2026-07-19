@@ -1,29 +1,32 @@
 <div class="grass-download">
-    <h2>Download GRASS for {{ .os }}</h2>
     <p class="card-text">Click the button below to download the latest {{ .os }} version of GRASS.</p>
     <div class="grass-download-button-group">
+        {{ if .binaries }}
         <div class="dropdown">
-            <button 
+            <button
                 class="btn btn-download dropdown-toggle"
                 type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-haspopup="true"
+                id="download-{{ .os | urlize }}"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
-                href="#"
                 >
                 <i class="fa-solid fa-download"></i> Download
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                {{ range $key, $value := .binaries }}
-                    <a class="dropdown-item" href="{{ .url }}">{{ .title }}</a>
+            <ul class="dropdown-menu" aria-labelledby="download-{{ .os | urlize }}">
+                {{ range .binaries }}
+                    <li><a class="dropdown-item" href="{{ .url }}">{{ .title }}</a></li>
                 {{ end }}
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{{ .binaries_url }}">All binaries</a>
-            </div>
+                {{ with .binaries_url }}
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="{{ . }}">All binaries</a></li>
+                {{ end }}
+            </ul>
         </div>
-        <a href="https://numfocus.org/donate-to-grass"
-            class="btn btn-outline-support" 
-            target="_blank"><i class="fa-solid fa-heart"></i> Support Us</a>
+        {{ else }}
+        <a href="{{ .url }}"
+            class="btn btn-download"
+            target="_blank" rel="noopener"><i class="fa-solid fa-download"></i> Download GRASS ( {{ .version }} )</a>
+        {{ end }}
+        {{ partial "support-button.html" (dict "style" "outline" "text" "Support Us") }}
     </div>
 </div>

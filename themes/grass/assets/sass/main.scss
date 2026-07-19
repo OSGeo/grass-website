@@ -1,0 +1,36 @@
+/* GRASS theme entry point.
+   Import order is load-bearing: the GRASS tokens and the Bootstrap variable
+   overrides in _variables.scss must be defined BEFORE "bootstrap" so Bootstrap's
+   own !default values yield to them. Keep "styles" last so custom rules win the
+   cascade over compiled Bootstrap. These use @import (not @use) on purpose:
+   Bootstrap 5.3 still relies on @import's shared global scope for this override
+   contract; migrating to @use waits on the Bootstrap/Hugo upgrade follow-up.
+----------------------------------------------------------------------------- */
+@import "colors";
+@import "fonts";
+@import "variables";
+@import "css-variables";
+@import "bootstrap";
+
+body {
+    line-height: 1.8;
+    font-family: $gs-grass-font; 
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    color: $gs-black-color;
+    background-color: $gs-white-color--lightest;
+    background-color: $gs-white-color;
+}
+
+.grass-bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom,
+        $gs-secondary-color--light 0%,
+        $gs-secondary-color--light 100%
+    ),
+    $gs-grass-background-image;
+}
+
+@import "styles";
