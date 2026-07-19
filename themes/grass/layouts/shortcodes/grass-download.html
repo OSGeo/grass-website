@@ -1,0 +1,21 @@
+{{- /* Render the download button group for an OS:
+       grass-download os="Windows" data="windows"
+       With a "url" argument a single download button is rendered instead of
+       the binaries dropdown:
+       grass-download os="macOS" url="https://..." */ -}}
+{{- $grass := .Site.Data.grass -}}
+{{- $args := dict
+    "os" (.Get "os")
+    "version" $grass.current_version
+    "url" (.Get "url")
+-}}
+{{- if not (.Get "url") -}}
+{{- with .Get "data" -}}
+{{- $install := index $grass.install . -}}
+{{- $args = merge $args (dict
+    "binaries" $install.binaries
+    "binaries_url" (index $grass (printf "%s_binaries_url" .)))
+-}}
+{{- end -}}
+{{- end -}}
+{{ partial "grass-download.html" $args }}

@@ -74,7 +74,7 @@ dependency resolution. The conda download page has environment files, Python
 usage, and more.
 
 <div align="center">
-  <a href="/download/conda/" class="btn btn-download">
+  <a href="/download/#conda" class="btn btn-download">
     More conda options
   </a>
 </div>
@@ -98,7 +98,7 @@ micromamba run -n grass grass
 
 See [grass-conda.isnew.info](https://grass-conda.isnew.info/) for full setup
 instructions on each platform, recipes, and build details. For everyday use,
-the official [conda-forge](/download/conda/) packages are the recommended route.
+the official [conda-forge](/download/#conda) packages are the recommended route.
 
 ## Support the project
 

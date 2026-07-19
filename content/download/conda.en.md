@@ -1,12 +1,17 @@
 ---
-title: "conda"
+title: "Conda"
 date: 2026-02-20T10:00:00+00:00
 description: "Install GRASS with conda from conda-forge"
-weight: 5
-layout: "conda"
+_build:
+  render: never
+  list: never
 ---
 
-<i class="fa fa-arrow-right"></i> The `grass` package is available on
+## GRASS with conda
+
+{{< support-button style="outline" text="Support Us" >}}
+
+The `grass` package is available on
 [conda-forge](https://anaconda.org/conda-forge/grass)
 for **Windows** (64-bit), **Linux** (64-bit), and
 **macOS** (Intel and Apple Silicon).
@@ -110,3 +115,9 @@ After activating the conda environment, start GRASS from the command line:
 ```bash
 grass
 ```
+
+## Contribute
+
+Please consider a financial contribution to the GRASS project to help us improve and maintain the software.
+
+{{< support-button text="Support Us" >}}

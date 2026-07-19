@@ -107,20 +107,26 @@
             });
         });
 
-        // On load, honor an existing hash, otherwise pick the detected OS.
-        var os;
-        var hash = window.location.hash;
-        if (hash) {
-            var tabByHash = downloadTab.querySelector('a[href="' + hash + '"]');
-            os = tabByHash ? tabByHash.textContent.trim() : detectOS();
-        } else {
-            os = detectOS();
+        // Select the tab for the current hash, or fall back to the detected OS.
+        function selectTabFromHash() {
+            var os;
+            var hash = window.location.hash;
+            if (hash) {
+                var tabByHash = downloadTab.querySelector('a[href="' + hash + '"]');
+                os = tabByHash ? tabByHash.textContent.trim() : detectOS();
+            } else {
+                os = detectOS();
+            }
+            var cfg = osMap[os];
+            if (cfg && window.bootstrap) {
+                var tabEl = downloadTab.querySelector('a[href="' + cfg.hash + '"]');
+                if (tabEl) bootstrap.Tab.getOrCreateInstance(tabEl).show();
+            }
+            updateDownloadButton(os);
         }
-        var cfg = osMap[os];
-        if (cfg && window.bootstrap) {
-            var tabEl = downloadTab.querySelector('a[href="' + cfg.hash + '"]');
-            if (tabEl) bootstrap.Tab.getOrCreateInstance(tabEl).show();
-        }
-        updateDownloadButton(os);
+        selectTabFromHash();
+        // Also react to in-page hash changes (e.g. links from other pages
+        // opened while this page is already loaded, or back/forward).
+        window.addEventListener('hashchange', selectTabFromHash);
     }
 })();

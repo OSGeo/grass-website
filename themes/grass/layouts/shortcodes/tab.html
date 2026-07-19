@@ -1,12 +1,12 @@
-{{ $active := .Get "active" | default "false" }}
+{{ $active := eq (.Get "active" | default "false") "true" }}
 {{ $id := .Get "id" }}
-<li class="nav-item">
-    <a class='nav-link{{ if eq $active " true" }} active{{ end }}' id="{{ $id }}-tab" data-toggle="tab"
-        href="{{ .Page.RelPermalink }}?tab={{ $id }}" role="tab" aria-controls="{{ $id }}" aria-selected="{{ $active }}">{{ .Get "title" }}</a>
+<li class="nav-item" role="presentation">
+    <a class='nav-link{{ if $active }} active{{ end }}' id="{{ $id }}-tab" data-bs-toggle="tab"
+        href="#{{ $id }}" role="tab" aria-controls="{{ $id }}" aria-selected="{{ if $active }}true{{ else }}false{{ end }}">{{ .Get "title" }}</a>
 </li>
 {{ $content := slice }}
-{{ $content = $content | append (printf `<div class="tab-pane fades" id="%s" role="tabpanel" aria-labelledby="%s-tab">`
-    (cond (eq $active "true") " show active" "") $id $id) }}
-    {{ $content = $content | append (.Inner | markdownify) }}
-    {{ $content = $content | append "</div>" }}
+{{ $content = $content | append (printf `<div class="tab-pane fade%s" id="%s" role="tabpanel" aria-labelledby="%s-tab">`
+    (cond $active " show active" "") $id $id) }}
+{{ $content = $content | append (trim .Inner " \n\r\t") }}
+{{ $content = $content | append "</div>" }}
 {{ .Page.Scratch.Add "tabContents" (delimit $content "") }}

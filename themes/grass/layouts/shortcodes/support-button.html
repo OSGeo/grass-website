@@ -1,6 +1,1 @@
-{{- $style := .Get "style" -}}
-{{- $buttonText := .Get "text" -}}
-<a href="https://numfocus.org/donate-to-grass"
-    class='btn {{ if eq $style "outline" }}btn-outline-support{{ else }}btn-support{{ end }}'
-    target="_blank"><i
-        class="fa-solid fa-heart"></i> {{ $buttonText }}</a>
+{{- partial "support-button.html" (dict "style" (.Get "style") "text" (.Get "text")) -}}
