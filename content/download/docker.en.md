@@ -17,7 +17,17 @@ For a list of GRASS versions, see the
 
 ## Installation
 
+The following Docker images are generated from the current stable
+<b>GRASS releasebranch {{< grassVersion version="current" type="short" >}}</b>:
+
 {{< installers os="docker" >}}
+
+## Development images
+
+The following Docker images are generated from the **GRASS main branch**
+(preview, active development):
+
+{{< installers os="docker" group="preview_installers" >}}
 
 ## Run GRASS as a Docker container
 
