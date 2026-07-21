@@ -8,12 +8,15 @@ _build:
 
 ## Source Code
 
+{{< support-button style="outline" text="Support GRASS" >}}
+
+## Compile and install
+
+---
 Source code is available on
 [GitHub](https://github.com/OSGeo/grass/). You can download the latest release
 at
 [https://github.com/OSGeo/grass/releases](https://github.com/OSGeo/grass/releases).
-
-## Compile and install
 
 To compile and install GRASS from source, follow these steps from the
 [GRASS wiki](https://grasswiki.osgeo.org/wiki/Compile_and_Install).

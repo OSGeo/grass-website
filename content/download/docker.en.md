@@ -6,19 +6,22 @@ _build:
   list: never
 ---
 
-## GRASS Docker images
+## Docker Images
 
-{{< support-button style="outline" text="Support Us" >}}
+{{< support-button style="outline" text="Support GRASS" >}}
 
+## Installation
+
+---
 Official GRASS Docker images are available on
 [Docker Hub (osgeo/grass-gis)](https://hub.docker.com/r/osgeo/grass-gis/).
 For a list of GRASS versions, see the
 [docker tag list](https://hub.docker.com/r/osgeo/grass-gis/tags).
 
-## Installation
+## Stable images
 
 The following Docker images are generated from the current stable
-<b>GRASS releasebranch {{< grassVersion version="current" type="short" >}}</b>:
+**GRASS releasebranch {{< grassVersion version="current" type="short" >}}**:
 
 {{< installers os="docker" >}}
 
@@ -36,6 +39,7 @@ Please refer to the
 
 ## Contribute
 
-Please consider a financial contribution to the GRASS project to help us improve and maintain the software.
+Please consider a financial contribution to the GRASS project to help us improve
+and maintain the software.
 
 {{< support-button text="Support Us" >}}

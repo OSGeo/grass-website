@@ -9,9 +9,12 @@ layout: "addons"
 
 There is a [growing list of GRASS addons](/grass-devel/manuals/addons/)
 available which are not (yet) part of the core software package.
-They can be easily installed.
 
-## Install with the GRASS GUI
+## Installation
+
+---
+
+### GRASS GUI (Graphical User Interface)
 
 We recommend to use the [wxGUI](https://grasswiki.osgeo.org/wiki/WxGUI)
 [Extension Manager](https://grasswiki.osgeo.org/wiki/WxGUI#Extension_Manager)
@@ -27,11 +30,11 @@ In the main menu:
   class="ma0 w-60"
 >}}
 
-## Install from the command line
+### Command line
 
     g.extension extension=r.fuzzy.system
 
-## Install with Python
+### Python
 
 Addons can also be installed from the Python using either the `grass.script`
 or `grass.tools` modules. For example, to install the `r.fuzzy.system`
@@ -46,7 +49,7 @@ or with `grass.tools`:
     tools = Tools()
     tools.g_extension(extension='r.fuzzy.system')
 
-## Install from source
+### Source
 
 The Addons source code is also hosted in [GitHub](https://github.com/OSGeo/grass-addons):
 

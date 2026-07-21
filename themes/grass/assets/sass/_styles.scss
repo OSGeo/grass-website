@@ -26,8 +26,6 @@ main {
 p,
 .paragraph {
     color: $gs-black-color;
-    font-size: 1rem;
-    line-height: 1.8;
     font-family: $gs-grass-font;
 }
 
@@ -1984,7 +1982,7 @@ html {
     /* White text color */
     align-items: center;
     gap: 0.5rem;
-    margin: 0.2rem;
+    margin: 0rem 0rem 1rem 0rem;
     display: inline-flex;
 }
 
@@ -2003,7 +2001,7 @@ html {
     color: $gs-white-color;
     align-items: center;
     gap: 0.5rem;
-    margin: 0.2rem;
+    margin: 0rem 0rem 1rem 0rem;
     display: inline-flex;
 }
 
@@ -2023,7 +2021,7 @@ html {
     /* Larger font size */
     color: $gs-support-color;
     /* White text color */
-    margin: 0.2rem;
+    margin: 0rem 0rem 1rem 0.5rem;
     align-items: center;
     gap: 0.5rem;
     display: inline-flex;
@@ -2047,7 +2045,7 @@ html {
     align-items: center;
     text-align: center;
     gap: 0.5rem;
-    margin: 0.2rem;
+    margin: 0rem 0rem 0.2rem 0rem;
     overflow: hidden;
     text-overflow: ellipsis;
     width: inherit;

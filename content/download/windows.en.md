@@ -15,6 +15,8 @@ available for Windows (64-bit) from conda-forge — see the **Conda** tab.
 
 ## Installation
 
+---
+
 ### OSGeo4W {#osgeo4w}
 
 OSGeo4W is an installer for a broad set of open source geospatial software

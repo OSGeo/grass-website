@@ -6,12 +6,13 @@ _build:
   list: never
 ---
 
-## Download GRASS for Linux
+## GRASS for Linux
 
 {{< support-button style="outline" text="Support Us" >}}
 
 ## Installation
 
+---
 Install the `grass` package on your Linux distribution. Have a look at
 [Repology](https://repology.org/project/grass-gis/versions) for an extended
 list of GRASS packages or directly check the

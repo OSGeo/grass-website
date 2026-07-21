@@ -15,6 +15,8 @@ Find GRASS binary installers for current, legacy, and preview releases on
 
 ## Installation
 
+---
+
 {{< installers os="mac" >}}
 
 See this brief
