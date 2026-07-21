@@ -73,6 +73,15 @@ priority = 0.5
     target = "assets/js/photoswipe/photoswipe-lightbox.esm.js"
 
 
+    [[module.mounts]]
+    source = "node_modules/ol/dist/ol.js"
+    target = "assets/js/ol/ol.js"
+
+    [[module.mounts]]
+    source = "node_modules/ol/ol.css"
+    target = "assets/css/ol/ol.css"
+
+
 [markup]
 defaultMarkdownHandler = "goldmark"
 
@@ -143,33 +152,39 @@ URL = "/about/governance"
 
 [[Languages.en.menu.main]]
 parent = "About Us"
+name = "Community map"
+URL = "/about/community-map"
+weight = 4
+
+[[Languages.en.menu.main]]
+parent = "About Us"
 name = "License"
 URL = "/about/license"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.main]]
 parent = "About Us"
 name = "History"
 URL = "/about/history"
-weight = 5
+weight = 6
 
 [[Languages.en.menu.main]]
 parent = "About Us"
 name = "Brand"
 URL = "/about/brand"
-weight = 6
+weight = 7
 
 [[Languages.en.menu.main]]
 parent = "About Us"
 name = "Credits"
 URL = "/about/credits"
-weight = 7
+weight = 8
 
 [[Languages.en.menu.main]]
 parent = "About Us"
 name = "Citation"
 URL = "/about/citation"
-weight = 8
+weight = 9
 
 [[Languages.en.menu.main]]
 weight = 2
