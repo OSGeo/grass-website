@@ -1,0 +1,29 @@
+{{- /* Render the install instructions for an OS from data/grass.json:
+       installers os="linux"
+       Each installer shows its title, optional pre-install steps, and a
+       copyable install command via the code-copy partial. An optional
+       "group" selects an alternative set, e.g.
+       installers os="docker" group="preview_installers" */ -}}
+{{- $os := .Get "os" -}}
+{{- $order := .Get "sort" | default "asc" -}}
+{{- $group := .Get "group" | default "installers" -}}
+{{- $data := index .Site.Data.grass.install $os -}}
+{{- if not $data -}}
+{{- errorf "installers: no install data for os %q (used in %s)" $os $.Position -}}
+{{- end -}}
+{{- $items := index $data $group -}}
+{{- if not $items -}}
+{{- errorf "installers: no group %q for os %q (used in %s)" $group $os $.Position -}}
+{{- end -}}
+{{- range sort $items "id" $order }}
+<h3>{{ .title }}</h3>
+{{- range .pre_install }}
+<p>{{ .text }}</p>
+{{ partial "code-copy.html" . }}
+{{- end }}
+<p>Install with the following shell command:</p>
+{{ partial "code-copy.html" . }}
+{{- with .url }}
+<p>For more information visit <a href="{{ .href }}" target="_blank" rel="noopener">{{ .label }}</a>.</p>
+{{- end }}
+{{- end }}

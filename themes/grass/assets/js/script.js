@@ -72,7 +72,9 @@
             Windows: { text: 'Download for Windows', os: 'windows', hash: '#windows' },
             macOS: { text: 'Download for macOS', os: 'mac', hash: '#mac' },
             Linux: { text: 'Download for Linux', os: 'linux', hash: '#linux' },
-            Docker: { text: 'Docker Container', os: 'docker', hash: '#docker' }
+            Docker: { text: 'Docker Container', os: 'docker', hash: '#docker' },
+            Conda: { text: 'Conda package', os: 'conda', hash: '#conda' },
+            'Source Code': { text: 'Source Code', os: 'source', hash: '#source' }
         };
 
         // Optional OS-specific download button (absent today; updated if present).
@@ -99,26 +101,32 @@
             tabLink.addEventListener('shown.bs.tab', function (e) {
                 var os = e.target.textContent.trim();
                 updateDownloadButton(os);
-                if (window.location.pathname === '/learn/download/' && osMap[os]) {
+                if (window.location.pathname === '/download/' && osMap[os]) {
                     history.replaceState(null, null, osMap[os].hash);
                 }
             });
         });
 
-        // On load, honor an existing hash, otherwise pick the detected OS.
-        var os;
-        var hash = window.location.hash;
-        if (hash) {
-            var tabByHash = downloadTab.querySelector('a[href="' + hash + '"]');
-            os = tabByHash ? tabByHash.textContent.trim() : detectOS();
-        } else {
-            os = detectOS();
+        // Select the tab for the current hash, or fall back to the detected OS.
+        function selectTabFromHash() {
+            var os;
+            var hash = window.location.hash;
+            if (hash) {
+                var tabByHash = downloadTab.querySelector('a[href="' + hash + '"]');
+                os = tabByHash ? tabByHash.textContent.trim() : detectOS();
+            } else {
+                os = detectOS();
+            }
+            var cfg = osMap[os];
+            if (cfg && window.bootstrap) {
+                var tabEl = downloadTab.querySelector('a[href="' + cfg.hash + '"]');
+                if (tabEl) bootstrap.Tab.getOrCreateInstance(tabEl).show();
+            }
+            updateDownloadButton(os);
         }
-        var cfg = osMap[os];
-        if (cfg && window.bootstrap) {
-            var tabEl = downloadTab.querySelector('a[href="' + cfg.hash + '"]');
-            if (tabEl) bootstrap.Tab.getOrCreateInstance(tabEl).show();
-        }
-        updateDownloadButton(os);
+        selectTabFromHash();
+        // Also react to in-page hash changes (e.g. links from other pages
+        // opened while this page is already loaded, or back/forward).
+        window.addEventListener('hashchange', selectTabFromHash);
     }
 })();

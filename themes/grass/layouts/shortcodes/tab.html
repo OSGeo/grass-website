@@ -1,0 +1,12 @@
+{{ $active := eq (.Get "active" | default "false") "true" }}
+{{ $id := .Get "id" }}
+<li class="nav-item" role="presentation">
+    <a class='nav-link{{ if $active }} active{{ end }}' id="{{ $id }}-tab" data-bs-toggle="tab"
+        href="#{{ $id }}" role="tab" aria-controls="{{ $id }}" aria-selected="{{ if $active }}true{{ else }}false{{ end }}">{{ .Get "title" }}</a>
+</li>
+{{ $content := slice }}
+{{ $content = $content | append (printf `<div class="tab-pane fade%s" id="%s" role="tabpanel" aria-labelledby="%s-tab">`
+    (cond $active " show active" "") $id $id) }}
+{{ $content = $content | append (trim .Inner " \n\r\t") }}
+{{ $content = $content | append "</div>" }}
+{{ .Page.Scratch.Add "tabContents" (delimit $content "") }}

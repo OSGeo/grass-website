@@ -1,35 +1,58 @@
 ---
 title: "Addons"
-date: 2025-05-21T11:02:05+0600
+date: 2026-07-21
 description: "Download GRASS addon extension modules"
 weight: 
 categories: [nl]
 layout: "addons"
 ---
 
-#### Quick links
+There is a [growing list of GRASS addons](/grass-devel/manuals/addons/)
+available which are not (yet) part of the core software package.
 
-[ [**Overview of addons**](#Overview) | [**Beginner users**](#Common-user) | [**Power users/developers**](#Power-user) ]
+## Installation
 
-### <a name="Overview"></a>Overview of addons
+---
 
-There is a [growing list of GRASS addons](/grass8/manuals/addons/) available which are not (yet) part of the core software package. They can be easily installed.
+### GRASS GUI (Graphical User Interface)
 
-### <a name="Common-user"></a>Beginner users
+We recommend to use the [wxGUI](https://grasswiki.osgeo.org/wiki/WxGUI)
+[Extension Manager](https://grasswiki.osgeo.org/wiki/WxGUI#Extension_Manager)
+to install Addons.
+In the main menu:
 
-We recommend to use the [wxGUI](https://grasswiki.osgeo.org/wiki/WxGUI) [Extension Manager](https://grasswiki.osgeo.org/wiki/WxGUI#Extension_Manager) to install Addons.
-In the main menu: `Settings -> Addon extensions -> Install extensions from addons`
+`Settings -> Addon extensions -> Install extensions from addons`
 
-<img src="/images/extension_manager_gui.png" width="80%" alt="Extension Manager">
+{{< figure
+  src="/images/extension_manager_gui.png"
+  alt="GRASS Extension Manager"
+  caption="GRASS Extension Manager"
+  class="ma0 w-60"
+>}}
 
-You can also use the command line, for example:
+### Command line
 
     g.extension extension=r.fuzzy.system
 
+### Python
 
-### <a name="Power-user"></a>Power users/developers
+Addons can also be installed from the Python using either the `grass.script`
+or `grass.tools` modules. For example, to install the `r.fuzzy.system`
+addon with `grass.script`:
 
-The Addons source code is also hosted in <a href="https://github.com/OSGeo/grass-addons" target="_blank"><i class="fab fa-github"></i> Github</a>:
-<p class="command"><a href="https://github.com/OSGeo/grass-addons"> $ git clone https://github.com/OSGeo/grass-addons </a></p>
+    import grass.script as gs
+    gs.extension(extension='r.fuzzy.system')
 
-To manually compile individual addons see the [compile and install wiki page](https://grasswiki.osgeo.org/wiki/Compile_and_Install#Addons). 
+or with `grass.tools`:
+
+    from grass.tools import Tools
+    tools = Tools()
+    tools.g_extension(extension='r.fuzzy.system')
+
+### Source
+
+The Addons source code is also hosted in [GitHub](https://github.com/OSGeo/grass-addons):
+
+    git clone https://github.com/OSGeo/grass-addons 
+
+To manually compile individual addons see the [compile and install wiki page](https://grasswiki.osgeo.org/wiki/Compile_and_Install#Addons).

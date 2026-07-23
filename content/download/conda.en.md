@@ -1,22 +1,29 @@
 ---
-title: "conda"
+title: "Conda"
 date: 2026-02-20T10:00:00+00:00
 description: "Install GRASS with conda from conda-forge"
-weight: 5
-layout: "conda"
+_build:
+  render: never
+  list: never
 ---
 
-<i class="fa fa-arrow-right"></i> The `grass` package is available on
+## GRASS with conda
+
+{{< support-button style="outline" text="Support GRASS" >}}
+
+## Installation
+
+---
+The `grass` package is available on
 [conda-forge](https://anaconda.org/conda-forge/grass)
 for **Windows** (64-bit), **Linux** (64-bit), and
 **macOS** (Intel and Apple Silicon).
-See the
-[conda-forge grass feedstock](https://github.com/conda-forge/grass-feedstock)
+
+<!-- TODO: Make admonitions once scss is fixed. -->
+See the [conda-forge grass feedstock](https://github.com/conda-forge/grass-feedstock)
 for packaging details.
 
-### Install with conda
-
-Add into an existing environment:
+To add GRASS into an existing environment:
 
 ```bash
 conda install -c conda-forge grass
@@ -58,7 +65,8 @@ conda activate grass
 
 ### Install with pixi
 
-For faster dependency across multiple platforms, support for `pyproject.toml` and `environment.yml`, and global installation of tools use [pixi](https://pixi.prefix.dev/):
+For faster dependency across multiple platforms, support for `pyproject.toml`
+and `environment.yml`, and global installation of tools use [pixi](https://pixi.prefix.dev/):
 
 ```bash
 # Installing grass as part of a workspace
@@ -69,7 +77,8 @@ pixi add grass
 pixi shell
 ```
 
-If you want to install GRASS as a globally available tool across your system without having to activate an environment:
+If you want to install GRASS as a globally available tool across your system
+without having to activate an environment:
 
 ```bash
 pixi global install grass
@@ -77,7 +86,9 @@ pixi global install grass
 
 ### Environment file with pixi
 
-By default, dependencies for the workspace are stored in the `pixi.toml` file. The `pixi.lock` file is the machine-readable file that lists all of the dependencies for your workspace.
+By default, dependencies for the workspace are stored in the `pixi.toml` file.
+The `pixi.lock` file is the machine-readable file that lists all of the
+dependencies for your workspace.
 
 If you're using pixi and want to share your environment with conda or mamba users:
 
@@ -110,3 +121,10 @@ After activating the conda environment, start GRASS from the command line:
 ```bash
 grass
 ```
+
+## Contribute
+
+Please consider a financial contribution to the GRASS project to help us
+improve and maintain the software.
+
+{{< support-button text="Support Us" >}}
