@@ -7,6 +7,10 @@
 {{ $content := slice }}
 {{ $content = $content | append (printf `<div class="tab-pane fade%s" id="%s" role="tabpanel" aria-labelledby="%s-tab">`
     (cond $active " show active" "") $id $id) }}
-{{ $content = $content | append (trim .Inner " \n\r\t") }}
+{{ $inner := trim .Inner " \n\r\t" }}
+{{/* Prefix auto-generated heading IDs with the tab id so identical headings in
+     different tabs do not collide into duplicate IDs on the page (see #526). */}}
+{{ $inner = replaceRE `(<h[1-6][^>]*?) id="([^"]+)"` (printf `${1} id="%s-${2}"` $id) $inner }}
+{{ $content = $content | append $inner }}
 {{ $content = $content | append "</div>" }}
 {{ .Page.Scratch.Add "tabContents" (delimit $content "") }}
