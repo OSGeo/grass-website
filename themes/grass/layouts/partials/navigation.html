@@ -28,9 +28,9 @@
                     id="dropdown-{{ .Name | urlize }}"
                     role="button">{{ .Name }}
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdown-{{ .Name | urlize }}">
+                <div class="dropdown-menu" role="menu" aria-labelledby="dropdown-{{ .Name | urlize }}">
                     {{ range .Children }}
-                    <a class="dropdown-item" href="{{.URL}}">{{.Name}}</a>
+                    <a class="dropdown-item" role="menuitem" href="{{.URL}}">{{.Name}}</a>
                     {{ end }}
                 </div>
             </li>

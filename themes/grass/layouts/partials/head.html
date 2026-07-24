@@ -74,9 +74,9 @@
   {{ end }}
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
   <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
-  <link rel="android-chrome-192x192" sizes="192x192"
+  <link rel="icon" type="image/png" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
-  <link rel="android-chrome-512x512" sizes="512x512"
+  <link rel="icon" type="image/png" sizes="512x512"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-60x60.png">
@@ -100,4 +100,3 @@
 
 <body>
   <noscript>Please enable javascript :)</noscript>
-
