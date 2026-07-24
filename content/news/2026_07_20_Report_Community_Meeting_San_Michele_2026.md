@@ -14,12 +14,12 @@ The **GRASS Community Meeting 2026** was held at [Fondazione Edmund Mach](https:
    width="65%" style="float:right;padding-left:15px;padding-top:15px">
 </a>
 
-As is tradition for these meetings, a large part of the week went into maintenance that simply doesn't happen at the same pace when the team is scattered across time zones: reviewing, testing, and merging or closing pull requests and issues, following up on stale discussions, and cleaning up long-standing rough edges across the GRASS repositories. On top of that, the group welcomed **5 new contributors**, tracked down and fixed several bugs, merged new addons, and pushed forward a number of core and infrastructure improvements, including a technology bump for the website.
+As is tradition for these meetings, a large part of the week went into maintenance that simply doesn't happen at the same pace when the team is scattered across time zones: reviewing, testing, and merging or closing pull requests and issues, following up on stale discussions, and cleaning up long-standing rough edges across the GRASS repositories. On top of that, the group tracked down and fixed several bugs, merged new addons, and pushed forward a number of core and infrastructure improvements, including a technology bump for the website. Last but not least, **5 participants made their first contribution** to GRASS!
 
 Highlights from the week include:
 
-* **Heavy maintenance push** — pull requests and issues were reviewed, tested, and merged or closed across the grass, grass-addons, grass-website, and grass-tutorials repositories, including a batch of CodeQL-flagged fixes and a broader migration of module tests to pytest
-* **5 new contributors** joined and got up to speed quickly — including a very promising almost-15-year-old newcomer! Two of them are close to landing a full hyperspectral data processing chain in the *i.hyper* addon (EnMAP and EMIT data import, atmospheric correction, spectral resampling), while the others added test coverage to addons and helped get GRASS addons building on Windows in CI
+* **Heavy maintenance push** — pull requests and issues were reviewed, tested, and merged or closed across the grass, grass-addons, grass-website, and grass-tutorials repositories, including a batch of CodeQL-flagged fixes and a broader migration of module tests to pytest.
+* **5 new contributors** joined and got up to speed quickly — including a very promising almost-15-year-old newcomer! Two of them are close to landing a full hyperspectral data processing chain in the *i.hyper* addon (EnMAP and EMIT data import, atmospheric correction, spectral resampling), while the others added test coverage to addons and helped get GRASS addons building on Windows in CI.
 
 <a href="/images/news/grass_community_meeting_20260717.webp">
   <img src="/images/news/grass_community_meeting_20260717.webp"
@@ -28,13 +28,13 @@ Highlights from the week include:
    width="40%" style="float:left;padding-right:25px;padding-top:15px">
 </a>
 
-* **Bugs found and fixed**, including two `v.proj` reprojection issues, an orphaned wxGUI drag-image bug on macOS, and a temporal framework metadata bug caught while reviewing this year's GSoC temporal framework project
-* **New addons**, with `t.rast.vi`, `r.surf.volcano`, `r.barplot`, `t.rast.aggregate.seasons`, and `t.rast.climatologies` merged during the week and `r.soils.rosetta` right behind it in review, plus new pytest-based test coverage merged for several existing addons (`r.clip`, `r.centroids`, `v.median`)
-* **Tutorials refreshed** — grass-tutorials grew with a new visibility analysis (`r.viewshed`) tutorial, and a getting-started guide for conda, while existing tutorial categories were reduced and consolidated for easier browsing
-* **Website technology bump** — the frontend was migrated from Bootstrap 3 to Bootstrap 5 with Sass-Dart, the CI build and deployment pipeline was split into dedicated build/deploy jobs and now publishes from a CI-built release artifact, dependencies were pinned for supply-chain security, and the sitemap was fixed for better SEO. A new interactive **community map**, showing GRASS users and providers around the world, landed this week
-* **Core GRASS progress** — continued work on the CMake build system transition, a new Windows installer built with GitHub Actions (with the first successful CI compilation of addons on Windows!), markdown-based documentation and man page conversion, reduced Sphinx warnings, and SBOM (CycloneDX) and SPDX license-header work in the pipeline for better supply-chain transparency
-* **Jupyter notebooks in the GUI** — after a long development cycle that started as an idea at the 2025 Dev Summit, the [GUI-Jupyter notebook integration](https://github.com/OSGeo/grass/blob/main/gui/wxpython/docs/wxGUI.jupyter.md) PR was merged this week, and will be shipped with the upcoming 8.6 release
-* Preparation for the upcoming **PSC elections**, with voter lists compiled from contribution history across repositories
+* **Bugs found and fixed**, including `v.proj` reprojection issues, an orphaned wxGUI drag-image bug on macOS, and a temporal framework metadata bug caught while reviewing this year's GSoC temporal framework project.
+* **New addons**, with `t.rast.vi`, `r.surf.volcano`, `r.barplot`, `t.rast.aggregate.seasons`, and `t.rast.climatologies` merged during the week and `r.soils.rosetta` right behind it in review, plus new pytest-based test coverage merged for several existing addons (`r.clip`, `r.centroids`, `v.median`).
+* **Tutorials refreshed** — grass-tutorials grew with a new visibility analysis (`r.viewshed`) tutorial, and a getting-started guide for conda, while existing tutorial categories were reduced and consolidated for easier browsing.
+* **Website technology bump** — the frontend was migrated from Bootstrap 3 to Bootstrap 5 with Sass-Dart, the CI build and deployment pipeline was split into dedicated build/deploy jobs and now publishes from a CI-built release artifact, dependencies were pinned for supply-chain security, and the sitemap was fixed for better SEO. A new interactive **community map**, showing GRASS users and providers around the world, landed this week.
+* **Core GRASS progress** — continued work on the CMake build system transition, a new Windows installer built with GitHub Actions (with the first successful CI compilation of addons on Windows!), markdown-based documentation and man page conversion, reduced Sphinx warnings, and SBOM (CycloneDX) and SPDX license-header work in the pipeline for better supply-chain transparency.
+* **Jupyter notebooks in the GUI** — after a long development cycle that started as an idea at the 2025 Dev Summit, the [GUI-Jupyter notebook integration](https://github.com/OSGeo/grass/blob/main/gui/wxpython/docs/wxGUI.jupyter.md) PR was merged this week, and will be shipped with the upcoming 8.6 release.
+* Preparation for the upcoming **PSC elections**, with voter lists compiled from contribution history across repositories.  
 
 ## By the numbers
 
