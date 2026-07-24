@@ -6,13 +6,4 @@
    <sitemap>
       <loc>https://grass.osgeo.org/grass-stable/manuals/sitemap.xml</loc>
    </sitemap>
-   <sitemap>
-      <loc>https://grass.osgeo.org/grass85/manuals/sitemap.xml</loc>
-   </sitemap>
-   <sitemap>
-      <loc>https://grass.osgeo.org/grass-devel/manuals/sitemap.xml</loc>
-   </sitemap>
-   <sitemap>
-      <loc>https://grass.osgeo.org/grass86/manuals/sitemap.xml</loc>
-   </sitemap>
 </sitemapindex>
