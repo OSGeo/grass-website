@@ -13,7 +13,7 @@
         <div class="container">
         <div class="row">
             <div class="col-lg-8 text-center mx-auto">
-            <h1 class="mb-0"><img title="GRASS" alt="GRASS logo in white variant" src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" style="width:26%"></h1>{{ with .Site.Params.banner.description }}
+            <h1 class="mb-0"><span class="visually-hidden">GRASS - Geographic Resources Analysis Support System</span><img title="GRASS" alt="GRASS logo in white variant" src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" style="width:26%"></h1>{{ with .Site.Params.banner.description }}
             <p class="text-bold mb-4">{{ . }}</p>{{ end }}
             </div>
         </div>
@@ -35,7 +35,7 @@
 	{{ range (where .Site.Pages "Type" "in" (slice "pages" "tabs")) }}{{ if not (in  .Section "about") }}
           <div class="col-lg-3 col-sm-6 mb-4">
           <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mx-auto mb-40"></i>
-          <h3 class="mb-3">{{ .Title }}</h3>
+          <h2 class="mb-3">{{ .Title }}</h2>
           <p class="mb-0">{{ .Params.Description }}</p></a>
 	    </div>
 	{{ end }}{{ end }}    </div>
