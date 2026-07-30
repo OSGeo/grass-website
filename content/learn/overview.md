@@ -67,11 +67,11 @@ Some selected relevant features are:
 {{< columns img="/images/news/jupyter_interactive_viewshed.png" alt="Interactive viewshed in a Jupyter notebook" side="left" imgwidth="90%" >}}
 GRASS has various interfaces:
 
-- Some users prefer to use GRASS as a Desktop GIS through the **Graphical User Interface**.
-- Power users prefer the text-based **command line interface**.
+- [Graphical User Interface (GUI) Introduction](https://grass.osgeo.org/grass86/manuals/helptext.html).
+- [Command Line Introduction](https://grass.osgeo.org/grass-stable/manuals/command_line_intro.html)
 - [**C API**](https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs#The_C-API) for programming.
-- [Scripting library](https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library) and [object-oriented](https://grasswiki.osgeo.org/wiki/Python/pygrass) **Python API**.
-- [Jupyter Notebooks](https://grasswiki.osgeo.org/wiki/GRASS_GIS_Jupyter_notebooks).
+- [GRASS Python Introduction](https://grass.osgeo.org/grass-stable/manuals/python_intro.html).
+- [Jupyter Notebooks](https://grass.osgeo.org/grass-stable/manuals/jupyter_intro.html).
 - **Web interface** through [WPS servers](https://grasswiki.osgeo.org/wiki/WPS).
 - [QGIS](https://docs.qgis.org/latest/en/docs/user_manual/grass_integration/grass_integration.html) provides two different ways to run GRASS modules: Processing toolbox and the GRASS plugin.
 - R provides an [interface to GRASS](https://grasswiki.osgeo.org/wiki/R_statistics) through the package ***rgrass***.
