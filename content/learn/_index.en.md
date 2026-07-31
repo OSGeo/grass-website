@@ -8,7 +8,7 @@ weight: 2
 ---
 
 
-<h3 class="mt-2 mb-4">Plenty of resources</h3>
+<h2 class="mt-2 mb-4">Plenty of resources</h2>
 
 There are plenty of resources online to get started and learn GRASS: from 
 [manual pages](/learn/manuals) for each module and addon with examples, 

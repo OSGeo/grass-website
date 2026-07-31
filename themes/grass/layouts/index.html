@@ -13,7 +13,7 @@
         <div class="container">
         <div class="row">
             <div class="col-lg-8 text-center mx-auto">
-            <h1 class="mb-0"><img title="GRASS" alt="GRASS logo in white variant" src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" width="26%"></h1>{{ with .Site.Params.banner.description }}
+            <h1 class="mb-0"><span class="visually-hidden">GRASS - Geographic Resources Analysis Support System</span><img title="GRASS" alt="GRASS logo in white variant" src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" style="width:26%"></h1>{{ with .Site.Params.banner.description }}
             <p class="text-bold mb-4">{{ . }}</p>{{ end }}
             </div>
         </div>
@@ -27,7 +27,7 @@
       <div class="row justify-content-center">
         <div class="col-12 text-center">{{with .Site.Params.topics.title}}
             <p class="pd-20 bigr"><b class="text-primary">GRASS</b>,
-                Geographic Resources Analysis Support System, 
+                Geographic Resources Analysis Support System,
                 is a powerful computational engine for raster, vector, and geospatial processing.
                 It supports terrain and ecosystem modeling, hydrology, data management, and imagery processing.
                 With a built-in temporal framework and Python API, it enables advanced time series analysis
@@ -35,7 +35,7 @@
 	{{ range (where .Site.Pages "Type" "in" (slice "pages" "tabs")) }}{{ if not (in  .Section "about") }}
           <div class="col-lg-3 col-sm-6 mb-4">
           <a class="px-4 py-5 bg-white shadow text-center d-block fdiv" href="{{ .Permalink }}"><i class="{{ .Params.Icon }} icon d-block mx-auto mb-40"></i>
-          <h3 class="mb-3">{{ .Title }}</h3>
+          <h2 class="mb-3">{{ .Title }}</h2>
           <p class="mb-0">{{ .Params.Description }}</p></a>
 	    </div>
 	{{ end }}{{ end }}    </div>
@@ -90,14 +90,14 @@
         <div class="col-lg-6">
             <div class="bg-white" id="news">
                 <div class="row justify-content-center pd-40 mb-40">
-                    <main role="main">
+                    <div>
                         <h2 class="section-gtitle mb-4">Latest news</h2>{{ range first 3 (where .Site.Pages "Section" "news").ByDate.Reverse}}
-                        <h3 class="entry-title" itemprop="headline"><a class="nws" href="{{.RelPermalink}}">{{ .Title }}</a></h3>
-		        <span class="entry-meta"> <time itemprop="datePublished" datetime='{{ .Date.Format "2006-01-02" }}'><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>{{ end }}
+                        <h3 class="entry-title"><a class="nws" href="{{.RelPermalink}}">{{ .Title }}</a></h3>
+		        <span class="entry-meta"> <time datetime='{{ .Date.Format "2006-01-02" }}'><i class="fa fa-calendar"></i> {{ .Date.Format "January 02, 2006" }}</time></span>{{ end }}
                         <div class="row justify-content-center pd-40">
                             <a class="btn btn-primary dbl" href="{{.Site.BaseURL}}/news">View All</a>
                         </div>
-                    </main>
+                    </div>
                 </div>
             </div>
         </div>
