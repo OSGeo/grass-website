@@ -19,12 +19,12 @@ name: Build production site artifact
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]
 
   # Runs the build job on pull requests as a merge gate; the deploy job is
   # skipped for pull requests (see its `if` below).
   pull_request:
-    branches: ["master"]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -95,7 +95,7 @@ jobs:
         with:
           node-version-file: .nvmrc
 
-      # Skipped when no lockfile exists (pre-migration master); fails the job
+      # Skipped when no lockfile exists (pre-migration main); fails the job
       # if the install fails, so a broken artifact is never published.
       - name: Install Node.js dependencies
         if: ${{ hashFiles('package-lock.json', 'npm-shrinkwrap.json') != '' }}
@@ -135,14 +135,14 @@ jobs:
 
   deploy:
     # Pull requests only validate the build; publishing happens only from the
-    # default branch (pushes or manual dispatch on master). The environment
+    # default branch (pushes or manual dispatch on main). The environment
     # adds platform-level enforcement on top: its deployment branch policy
-    # should allow master only, and protection rules (required reviewers) can
+    # should allow main only, and protection rules (required reviewers) can
     # gate publishes with approvals; both are configured in the repository
     # settings under Environments.
     if: >-
       ${{ github.event_name != 'pull_request' &&
-      github.ref == 'refs/heads/master' }}
+      github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     needs: build
     environment:
