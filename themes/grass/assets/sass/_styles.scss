@@ -1,10 +1,7 @@
 /* GRASS Styles
  Use these styles to customize the GRASS theme.
+ Ordered index of the theme partials; order is load-bearing (later rules win).
  ----------------------------------------------------------------------------- */
-
-@use "colors" as *;
-@use "fonts" as *;
-@use "variables" as *;
 
 @import "styles/base";
 @import "styles/color-utils";

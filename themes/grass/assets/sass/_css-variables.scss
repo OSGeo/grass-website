@@ -7,10 +7,9 @@
 // every step in lockstep. This block is intentionally self-contained so the same
 // tokens can be shared with the GRASS core docs (man/mkdocs, python/grass/docs)
 // and the Quarto tutorials to keep brand tokens identical across repositories.
-
-@use "colors" as *;
-@use "fonts" as *;
-@use "variables" as *;
+//
+// $gs-* variables resolve through main.scss's @import chain (colors, fonts,
+// variables load before this file); see the contract note in main.scss.
 
 // Alpha steps applied to every ramp color.
 $gs-ramp-steps: (
