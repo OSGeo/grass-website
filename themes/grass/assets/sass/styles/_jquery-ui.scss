@@ -1,0 +1,51 @@
+#project-icon {
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+#project-description {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.ui-menu {
+    background: $gs-white-color;
+    padding: 20px;
+    right: 0 !important;
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 9999;
+    box-shadow: 0 5px 15px $gs-black-color--lightest;
+}
+
+@media (min-width: 576px) {
+    .ui-menu {
+        max-width: 510px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .ui-menu {
+        max-width: 690px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .ui-menu {
+        max-width: 605px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ui-menu {
+        max-width: 730px !important;
+    }
+}
+
+/* /navigation */

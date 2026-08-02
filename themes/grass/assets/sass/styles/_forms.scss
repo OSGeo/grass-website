@@ -1,0 +1,42 @@
+.form-control {
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    padding: 0 20px;
+}
+
+.form-control:focus {
+    border: 0;
+    box-shadow: none !important;
+}
+
+textarea.form-control {
+    height: 150px;
+    padding: 20px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.bsh {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .17) !important;
+}
+
+.shadow {
+    box-shadow: 0 5px 15px $gs-black-color--lightest !important;
+    transition: .3s ease;
+}
+
+.shadow-bottom {
+    box-shadow: 0 1px 0 rgba(12, 13, 14, 0.1), 0 1px 6px rgba(59, 64, 69, 0.1);
+}
+
+.shadow:hover,
+.shadow:focus {
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+a.ext img.inl {
+    margin-bottom: 0px;
+}

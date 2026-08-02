@@ -1,0 +1,135 @@
+.grass-green {
+    color: $gs-primary-color;
+}
+
+.grass-green-bg {
+    background: $gs-primary-color;
+}
+
+.grass-green-alt {
+    color: $gs-primary-alt-color;
+}
+
+.grass-green-alt-bg {
+    background: $gs-primary-alt-color;
+}
+
+.grass-green-light {
+    color: $gs-primary-light-color;
+}
+
+.grass-green-light-bg {
+    background: $gs-primary-light-color;
+}
+
+.grass-green-dark {
+    color: $gs-primary-dark-color;
+}
+
+.grass-green-dark-bg {
+    background: $gs-primary-dark-color;
+}
+
+.white-color {
+    color: $gs-white-color;
+}
+
+.white-color-bg {
+    background: $gs-white-color;
+}
+
+.black-color {
+    color: $gs-black-color;
+}
+
+.black-color-bg {
+    background: $gs-black-color;
+}
+
+.grey-color-dark {
+    color: $gs-grey-dark-color;
+}
+
+.grey-color-dark-bg {
+    background: $gs-grey-dark-color;
+}
+
+.grey-color-alt {
+    color: $gs-grey-alt-color;
+}
+
+.grey-color-alt-bg {
+    background: $gs-grey-alt-color;
+}
+
+.grey-color-light {
+    color: $gs-grey-light-color;
+}
+
+.grey-color-light-bg {
+    background: $gs-grey-light-color;
+}
+
+.grass-blue {
+    color: $gs-secondary-color;
+}
+
+.grass-blue-bg {
+    background: $gs-secondary-color;
+}
+
+.grass-blue-alt {
+    color: $gs-secondary-alt-color;
+}
+
+.grass-blue-alt-bg {
+    background: $gs-secondary-alt-color;
+}
+
+.grass-blue-light {
+    color: $gs-secondary-light-color;
+}
+
+.grass-blue-light-bg {
+    background: $gs-secondary-light-color;
+}
+
+.grass-bg-image {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom,
+            $gs-secondary-color--light 0%,
+            $gs-secondary-color--light 100%),
+        $gs-grass-background-image;
+}
+
+.mwl {
+    display: inline-block;
+    min-width: 45%;
+}
+
+.mwl-l {
+    display: inline-block;
+    min-width: 65%;
+}
+
+.version li {
+    margin-bottom: 9px;
+}
+
+.version li>a {
+    margin-right: 7px;
+}
+
+#links li span a {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 0px 0;
+}
+
+.bigr {
+    font-size: 125%;
+    text-align: top;
+}
