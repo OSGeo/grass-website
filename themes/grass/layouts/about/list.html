@@ -37,12 +37,12 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-	      {{ range where .Pages "File.Dir" "in" "/about/" }}
+	      {{ range where .RegularPages "File.Dir" "about/" }}
               <div class="section bg-white mb-4">
                 <div class="row nm">
                   <div class="col-1 text-center"><i class="fa fa-file-text fa-3x grey-color-light"></i></div>
                   <div class="col-11">
-		    <h2 class="mt-2 mb-2"><a href="{{.File.TranslationBaseName}}">{{ .Title }}</a></h2>
+		    <h2 class="mt-2 mb-2"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                   </div>
                 </div>
 		</div>
