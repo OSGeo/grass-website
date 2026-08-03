@@ -67,7 +67,7 @@ Some selected relevant features are:
 {{< columns img="/images/news/jupyter_interactive_viewshed.png" alt="Interactive viewshed in a Jupyter notebook" side="left" imgwidth="90%" >}}
 GRASS has various interfaces:
 
-- [Graphical User Interface (GUI) Introduction](https://grass.osgeo.org/grass86/manuals/helptext.html).
+- [Graphical User Interface (GUI) Introduction](https://grass.osgeo.org/grass-stable/manuals/helptext.html).
 - [Command Line Introduction](https://grass.osgeo.org/grass-stable/manuals/command_line_intro.html)
 - [**C API**](https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs#The_C-API) for programming.
 - [GRASS Python Introduction](https://grass.osgeo.org/grass-stable/manuals/python_intro.html).
