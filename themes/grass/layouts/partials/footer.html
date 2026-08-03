@@ -92,17 +92,16 @@
 </footer>
 
 <!-- highlight & gallery -->
-{{ $babel_opts := dict "noComments" true }}
 {{ $highlightjs := resources.Get "js/highlightjs/highlight.min.js" }}
 <script src="{{ $highlightjs.Permalink }}"></script>
 <script>
   hljs.highlightAll();
 </script>
 
-{{ $babel_opts := dict "noComments" true }}
+{{/* Browsers that understand type="module" do not need transpiling. */}}
 {{ $photoswipe := resources.Get "js/photoswipe/photoswipe-lightbox.esm.js" }}
-{{- $photoswipe_transpiled := $photoswipe | babel $babel_opts | minify -}}
-<script src="{{ $photoswipe_transpiled.Permalink }}" type="module"></script>
+{{- $photoswipe_min := $photoswipe | resources.Minify | resources.Fingerprint -}}
+<script src="{{ $photoswipe_min.Permalink }}" integrity="{{ $photoswipe_min.Data.Integrity }}" type="module"></script>
 
 <!-- Bundle, minify and fingerprint js assets before loading -->
 {{ $contrib := resources.Get "js/contributor_ad.js" }}
