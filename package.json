@@ -10,12 +10,7 @@
     "@highlightjs/cdn-assets": "^11.11.1",
     "bootstrap": "^5.3.7",
     "flag-icons": "^7.5.0",
-    "photoswipe": "^5.4.4",
-    "ol": "^10.9.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.28.6",
-    "@babel/core": "^7.28.6",
-    "@babel/preset-env": "^7.28.6"
+    "ol": "^10.9.0",
+    "photoswipe": "^5.4.4"
   }
 }
