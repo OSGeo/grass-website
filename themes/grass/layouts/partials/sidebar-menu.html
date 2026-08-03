@@ -1,0 +1,29 @@
+{{/* Recursive sidebar tree. Args: sect (section or page), currentnode. */}}
+{{- $currentNode := .currentnode -}}
+{{ with .sect }}
+{{ if in .Site.Params.menu_exclusion .Section }}
+{{- else -}}
+  {{- safeHTML .Params.head -}}
+  {{ $fileUniqueID := "" }}
+  {{ with .File }}{{ $fileUniqueID = .UniqueID }}
+  {{ $currentNodeFileUniqueID := "" }}
+  {{ with $currentNode.File }}{{ $currentNodeFileUniqueID = .UniqueID }}
+<li class="{{ if .IsAncestor $currentNode }}parent d-block {{ end }}{{if eq $fileUniqueID $currentNodeFileUniqueID}} active {{ end }}{{ if .Params.alwaysopen }} parent {{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a>
+  {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
+  {{if ne $numberOfPages 0}}
+  <ul class="{{ if .IsAncestor $currentNode }}sub-menu{{ end }}">
+  {{- $pages := .Pages -}}
+    {{- range $pages.ByWeight -}}
+      {{ partial "sidebar-menu.html" (dict "sect" . "currentnode" $currentNode) }}
+    {{- end -}}
+  </ul>
+  {{end}}
+</li>
+{{- end -}}
+{{- else -}}
+  {{- if not .Params.Hidden -}}
+  <li class="{{ if eq $fileUniqueID $currentNodeFileUniqueID }}active{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{- end -}}
+{{ end -}}
+  {{ end }}
+  {{ end }}
