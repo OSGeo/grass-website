@@ -20,8 +20,3 @@ ignore:
   - content/
   - themes/
   - data/
-  # Owned by the open migration stack (#599); made compliant there or in the
-  # post-stack cleanup rather than churning them here.
-  - docker-compose.yml
-  - docker-compose.dev.yml
-  - .github/workflows/hugo.yml

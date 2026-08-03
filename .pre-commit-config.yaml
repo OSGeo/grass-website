@@ -64,9 +64,6 @@ repos:
     rev: v1.7.12
     hooks:
       - id: actionlint
-        # Temporary: the pre-migration hugo.yml is reworked on the #599
-        # branch; make it compliant in the post-stack cleanup.
-        exclude: ^\.github/workflows/hugo\.yml$
   - repo: https://github.com/zizmorcore/zizmor-pre-commit
     rev: v1.23.1
     hooks:
