@@ -1,19 +1,4 @@
-{{ partial "head.html" . }}
-
-{{ "<!-- navigation -->" | safeHTML }}
-<header class="shadow-bottom position-relative">
-  <div class="fixed-top">
-    {{ partial "banner.html" . }}
-    <div class="bg-primary">
-      <div class="container bg-primary">
-        {{ partial "navigation.html" . }}
-      </div>
-    </div>
-  </div>
-</header>
-{{ "<!-- /navigation -->" | safeHTML }}
-
-
+{{ define "main" }}
     <section class="section">
       <section class="pt-4 bg-gray mt-95">
         <div class="container">
@@ -52,4 +37,4 @@
         </div>
       </section>
     </section>
-{{ partial "footer.html" . }}
+{{ end }}

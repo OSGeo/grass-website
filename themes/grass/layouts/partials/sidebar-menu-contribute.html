@@ -1,0 +1,14 @@
+{{/* Recursive sidebar tree for the contribute section. Args: sect, currentnode. */}}
+ {{- $currentNode := .currentnode -}} {{ with .sect }} {{ if in .Site.Params.menu_exclusion .Section }} {{- else -}} {{- safeHTML .Params.head -}}
+            <ul>
+              <li class="{{ if .IsAncestor $currentNode }}parent d-block{{ end }}{{ if eq .RelPermalink $currentNode.RelPermalink }} active {{ end }}{{ if .Params.alwaysopen }} parent {{end}}">
+                <a href="{{ .Permalink }}">{{ if .IsAncestor $currentNode}} <i class="fa fa-user"></i>{{ end }} {{ .Title }}</a> {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}} {{if ne $numberOfPages 0}}
+                <div class="{{ if .IsAncestor $currentNode }}sub-menu{{ end }}" style="margin-left: 2em">
+                  {{- $pages := .Pages -}} {{- range $pages.ByWeight -}} {{ partial "sidebar-menu-contribute.html" (dict "sect" . "currentnode" $currentNode) }} {{- end -}}
+                </div>{{end}}
+              </li>
+              <li style="list-style: none">{{- end -}} {{- else -}} {{- if not .Params.Hidden -}}</li>
+              <li class="{{ if eq .RelPermalink $currentNode.RelPermalink }}active{{ end }}">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </li>
+              <li style="list-style: none">{{- end -}} {{ end -}}
