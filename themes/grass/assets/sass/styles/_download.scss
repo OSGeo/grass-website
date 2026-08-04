@@ -1,0 +1,116 @@
+.grass-download {
+    margin: 0 auto 5px auto;
+}
+
+.download-card {
+    max-width: 600px;
+    /* Sets a max-width for the card */
+    box-shadow: 0 4px 6px $gs-black-color--light;
+    /* Adds a subtle shadow to the card */
+    border: none;
+    /* Removes the default card border */
+}
+
+.grass-download-button-group {
+    display: inline-flex;
+}
+
+.btn-download {
+    background-color: $gs-primary-color;
+    border: solid 1px $gs-primary-color;
+    padding: .75rem 1.5rem;
+    /* Larger padding for the button */
+    font-size: 1rem;
+    /* Larger font size */
+    color: $gs-white-color;
+    /* White text color */
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0rem 0rem 1rem 0rem;
+    display: inline-flex;
+}
+
+.btn-download:hover,
+.btn-download:focus {
+    color: $gs-white-color !important;
+    background-color: $gs-primary-dark-color;
+    /* Darker blue on hover */
+}
+
+.btn-support {
+    background-color: $gs-support-color;
+    border: solid 1px $gs-support-color;
+    padding: .75rem 1.5rem;
+    font-size: 1rem;
+    color: $gs-white-color;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0rem 0rem 1rem 0rem;
+    display: inline-flex;
+}
+
+.btn-support:hover,
+.btn-support:focus {
+    color: $gs-support-color;
+    background-color: $gs-white-base-color;
+    border: solid 1px $gs-support-color;
+}
+
+.btn-outline-support {
+    background-color: $gs-white-base-color;
+    border: solid 1px $gs-support-color;
+    padding: .75rem 1.5rem;
+    /* Larger padding for the button */
+    font-size: 1rem;
+    /* Larger font size */
+    color: $gs-support-color;
+    /* White text color */
+    margin: 0rem 0rem 1rem 0.5rem;
+    align-items: center;
+    gap: 0.5rem;
+    display: inline-flex;
+}
+
+.btn-outline-support:hover,
+.btn-outline-support:focus {
+    color: $gs-white-color !important;
+    background-color: $gs-support-color;
+    border-color: $gs-support-color;
+}
+
+.btn-outline-white {
+    background-color: none;
+    border: solid 1px $gs-white-color;
+    padding: .75rem 1.5rem;
+    font-size: 1rem;
+    /* Larger font size */
+    color: $gs-white-color;
+    /* White text color */
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    margin: 0rem 0rem 0.2rem 0rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: inherit;
+}
+
+.btn-outline-white:hover,
+.btn-outline-white:focus {
+    color: $gs-primary-alt-color;
+    border-color: $gs-primary-alt-color;
+}
+
+@media (max-width: 991px) {
+    .grass-download-button-group {
+        display: grid;
+    }
+
+    .btn-download {
+        display: inline;
+    }
+
+    .btn-outline-support {
+        display: inline;
+    }
+}

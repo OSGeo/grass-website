@@ -1,0 +1,290 @@
+.card {
+    min-height: 4rem !important;
+    height: 4rem !important;
+}
+
+.panel-title {
+    font-size: 28px;
+
+}
+
+.panel-title a {
+    color: $gs-grey-dark-color !important;
+}
+
+.panel-title a:hover {
+    color: $gs-grey-light-color !important;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 0 0 60px 0;
+    margin-top: 0;
+    margin-top: 4px;
+}
+
+.timeline .panel-title a {
+    color: $gs-black-color !important;
+}
+
+.timeline .panel-title a:hover {
+    color: $gs-grey-dark-color !important;
+}
+
+
+.glyphicon.glyphicon-one-fine-dot:before {
+    content: "\25cf";
+    font-size: 1.5em;
+    color: $gs-primary-alt-color !important;
+}
+
+.line {
+    position: absolute;
+    width: 2px;
+    display: block;
+    top: 32px;
+    bottom: 0px;
+    margin-left: 30px;
+    background: $gs-primary-alt-color !important;
+}
+
+.separator {
+    border-top: 1px solid $gs-grey-light-color;
+    padding: 5px;
+    padding-left: 40px;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-left: 30px;
+}
+
+.line::before {
+    top: -2px;
+}
+
+.line::after {
+    bottom: -2px;
+}
+
+.line::before,
+.line::after {
+    content: "";
+    position: absolute;
+    left: -6px;
+    width: 0;
+    height: 0;
+    display: block;
+    border-radius: 50%;
+    background: $gs-grey-light-color;
+}
+
+
+.timeline .panel {
+    position: relative;
+    margin: 10px 0px 0px 40px;
+    clear: both;
+    margin: 0 auto;
+    padding: 10px 0px 0 40px;
+    background: none;
+}
+
+.timeline .panel::before {
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -24px;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: inherit;
+    border-width: 12px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.timeline .panel .panel-heading.icon * {
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.timeline .panel>.panel-heading .icon {
+    position: absolute;
+    left: 11px;
+    /*display: block;*/
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+
+.timeline .panel-outline {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.timeline .panel-outline .panel-body {
+    padding: 10px 0px;
+}
+
+
+.timeline .panel-default {
+    border: 0;
+}
+
+.timeline .panel-default>.panel-heading {
+    font-family: $gs-grass-font;
+    border: 0;
+    background: none;
+    font-weight: 400;
+}
+
+.timeline .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    border-bottom: 0;
+}
+
+h4.panel-title {
+    border: 0;
+}
+
+.panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.collapsible-link {
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding-bottom: 9px;
+    border-bottom: 1px solid $gs-grey-light-color;
+}
+
+.collapsible-link::before {
+    content: '\f078';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f077';
+}
+
+.timeline {
+    padding: 0;
+    margin: 0 !important;
+}
+
+.timeline .panel-group {
+    display: block;
+}
+
+.timeline .glyphicon.glyphicon-one-fine-dot:before {
+    content: "\25cf";
+    font-size: 1.5em;
+    color: #0039a6;
+}
+
+.timeline .line {
+    position: absolute;
+    width: 2px;
+    display: block;
+    top: 32px;
+    bottom: 0px;
+    margin-left: 15px;
+    background: #0039a6;
+}
+
+.timeline .separator {
+    border-top: 1px solid red;
+    padding: 1px;
+    padding-left: 40px;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-left: 1px;
+}
+
+.timeline .line::before,
+.timeline .line::after {
+    content: "";
+    position: absolute;
+    left: -26px;
+    width: 0;
+    height: 0;
+    display: block;
+    border-radius: 50%;
+    background: #0039a6;
+}
+
+.timeline .panel {
+    position: relative;
+    margin: 10px 0px 0px 40px;
+    clear: both;
+    margin: 0 auto;
+    padding: 10px 0px 0 40px;
+    background: none;
+}
+
+.timeline .panel::before {
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -4px;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: inherit;
+    border-width: 12px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.timeline .panel .panel-heading.icon * {
+    font-size: 14px;
+    vertical-align: top;
+    line-height: 40px;
+}
+
+.timeline .panel>.panel-heading .icon {
+    position: absolute;
+    left: -4px;
+    top: -14px;
+    /*display: block;*/
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+
+.timeline .panel-outline {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.timeline .panel-outline .panel-body {
+    padding: 10px 10px;
+}
+
+.timeline .panel-default {
+    border: 0;
+}
+
+.timeline .panel-default>.panel-heading {
+    font-family: $gs-grass-font;
+    border: 0;
+}

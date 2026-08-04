@@ -4,7 +4,10 @@
    own !default values yield to them. Keep "styles" last so custom rules win the
    cascade over compiled Bootstrap. These use @import (not @use) on purpose:
    Bootstrap 5.3 still relies on @import's shared global scope for this override
-   contract; migrating to @use waits on the Bootstrap/Hugo upgrade follow-up.
+   contract, so the whole tree stays on a single @import chain (no @use
+   anywhere). Under Dart Sass the @import deprecation warnings are expected;
+   silence them at the Hugo upgrade with css.Sass silenceDeprecations. A full
+   @use migration waits on Bootstrap.
 ----------------------------------------------------------------------------- */
 @import "colors";
 @import "fonts";

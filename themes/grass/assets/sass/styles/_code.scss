@@ -1,0 +1,88 @@
+.edt {
+    font-family: $gs-grass-font !important;
+    font-weight: normal !important;
+    font-size: 1.0em !important;
+}
+
+nobullets {
+    list-style-type: none;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: $gs-secondary-color;
+    background: $gs-grey-light-color;
+    font-family: $gs-grass-font--mono;
+}
+
+.hljs-keyword {
+    color: $gs-primary-color;
+}
+
+.hljs-comment {
+    color: $gs-grey-color;
+}
+
+.hljs-title {
+    color: $gs-secondary-alt-color;
+}
+
+.hljs-string,
+.hljs-section,
+.hljs-selector-class,
+.hljs-template-variable,
+.hljs-deletion {
+    color: $gs-primary-color;
+}
+
+code {
+    color: $gs-black-color--light;
+    font-family: $gs-grass-font--mono;
+}
+
+.fa-11x {
+    font-size: 11em;
+}
+
+.fa-9x {
+    font-size: 9em;
+}
+
+.fa-7x {
+    font-size: 7em;
+}
+
+.event-title {
+    margin-top: 5px;
+}
+
+.height80 {
+    height: 80vh;
+}
+
+.grasscolor {
+    color: $gs-primary-color;
+}
+
+
+.event-title {
+    margin-top: 5px;
+}
+
+.height80 {
+    height: 80vh;
+}
+
+.grasscolor {
+    color: $gs-primary-color;
+}
+
+/* Rotate collapse chevron based on Bootstrap's aria-expanded attribute */
+[data-bs-toggle="collapse"] .fa-chevron-right {
+    transition: transform 0.2s ease;
+}
+[data-bs-toggle="collapse"][aria-expanded="true"] .fa-chevron-right {
+    transform: rotate(90deg);
+}
