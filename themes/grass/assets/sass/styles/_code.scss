@@ -1,13 +1,3 @@
-.edt {
-    font-family: $gs-grass-font !important;
-    font-weight: normal !important;
-    font-size: 1.0em !important;
-}
-
-nobullets {
-    list-style-type: none;
-}
-
 .hljs {
     display: block;
     overflow-x: auto;
@@ -58,10 +48,6 @@ code {
     margin-top: 5px;
 }
 
-.height80 {
-    height: 80vh;
-}
-
 .grasscolor {
     color: $gs-primary-color;
 }
@@ -69,10 +55,6 @@ code {
 
 .event-title {
     margin-top: 5px;
-}
-
-.height80 {
-    height: 80vh;
 }
 
 .grasscolor {

@@ -16,24 +16,4 @@
 @import "bootstrap";
 @import "community_map";
 
-body {
-    line-height: 1.8;
-    font-family: $gs-grass-font;
-    -webkit-font-smoothing: antialiased;
-    font-size: 16px;
-    color: $gs-black-color;
-    background-color: $gs-white-color--lightest;
-    background-color: $gs-white-color;
-}
-
-.grass-bg-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom,
-            $gs-secondary-color--light 0%,
-            $gs-secondary-color--light 100%),
-        $gs-grass-background-image;
-}
-
 @import "styles";

@@ -133,21 +133,6 @@
     }
 }
 
-.navbar-light .navbar-brand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: color 0.4s linear;
-    -webkit-transition: color 0.4s linear;
-    -moz-transition: color 0.4s linear;
-
-    i {
-        display: inline-block;
-        margin-right: 7px;
-        color: $gs-primary-color !important;
-    }
-}
-
 .gitter-banner {
     background: $gs-secondary-color;
     text-align: center;

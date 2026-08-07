@@ -54,16 +54,3 @@
     }
 }
 
-.overlayg {
-    position: relative;
-
-    &::before {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: $gs-grey-light-color;
-    }
-}

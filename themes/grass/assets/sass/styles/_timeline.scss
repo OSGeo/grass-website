@@ -51,15 +51,6 @@
     background: $gs-primary-alt-color !important;
 }
 
-.separator {
-    border-top: 1px solid $gs-grey-light-color;
-    padding: 5px;
-    padding-left: 40px;
-    font-style: italic;
-    font-size: 0.9em;
-    margin-left: 30px;
-}
-
 .line::before {
     top: -2px;
 }
@@ -123,16 +114,6 @@
     float: left;
 }
 
-.timeline .panel-outline {
-    border-color: transparent;
-    background: transparent;
-    box-shadow: none;
-}
-
-.timeline .panel-outline .panel-body {
-    padding: 10px 0px;
-}
-
 
 .timeline .panel-default {
     border: 0;
@@ -161,26 +142,6 @@ h4.panel-title {
 }
 
 
-.collapsible-link {
-    width: 100%;
-    display: block;
-    text-align: left;
-    padding-bottom: 9px;
-    border-bottom: 1px solid $gs-grey-light-color;
-}
-
-.collapsible-link::before {
-    content: '\f078';
-    display: inline-block;
-    font-family: 'FontAwesome';
-    font-size: 1rem;
-    padding: 5px;
-}
-
-.collapsible-link[aria-expanded='true']::before {
-    content: '\f077';
-}
-
 .timeline {
     padding: 0;
     margin: 0 !important;
@@ -204,15 +165,6 @@ h4.panel-title {
     bottom: 0px;
     margin-left: 15px;
     background: #0039a6;
-}
-
-.timeline .separator {
-    border-top: 1px solid red;
-    padding: 1px;
-    padding-left: 40px;
-    font-style: italic;
-    font-size: 0.9em;
-    margin-left: 1px;
 }
 
 .timeline .line::before,
@@ -268,16 +220,6 @@ h4.panel-title {
     border-radius: 50%;
     text-align: center;
     float: left;
-}
-
-.timeline .panel-outline {
-    border-color: transparent;
-    background: transparent;
-    box-shadow: none;
-}
-
-.timeline .panel-outline .panel-body {
-    padding: 10px 10px;
 }
 
 .timeline .panel-default {
