@@ -33,13 +33,6 @@ $card-title-color: $gs-grey-dark-color;
 // expect channel triplets, not color objects, and were otherwise unused).
 
 /* Images */
-$gs-images-base-path: 'images';
-$gs-images-logos-small-path: $gs-images-base-path + '/logos/small';
-$gs-svg-logos-base-path: $gs-images-base-path + '/logos/large';
-$gs-icons-base-path: $gs-images-base-path + '/icons';
 $gs-grass-background-image: url("/images/banners/banner.jpg");
 
 /* Icons */
-$gs-grass-logo-white-simple: url($gs-images-logos-small-path + '/grass-logo-green-simple@05x.png');
-$gs-grass-logo-simple-svg: url($gs-svg-logos-base-path + '/grass-green-no-text.svg');
-$gs-grass-icon: url($gs-icons-base-path + '/grass-icon.svg');
