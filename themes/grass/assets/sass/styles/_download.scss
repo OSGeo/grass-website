@@ -92,7 +92,7 @@
     border-color: $gs-primary-alt-color;
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(lg) {
     .grass-download-button-group {
         display: grid;
     }
