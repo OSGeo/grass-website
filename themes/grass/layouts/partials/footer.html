@@ -5,7 +5,7 @@
 
       <!-- Logo -->
       <div class="col-md-2 text-center text-md-left mb-4 mb-md-0">
-        <img src="{{.Site.BaseURL}}/images/logos/grass-logo/grass-white.svg" title="GRASS"
+        <img src="{{ "images/logos/grass-logo/grass-white.svg" | relURL }}" title="GRASS"
           alt="GRASS logo in white variant" style="max-width: 100px;">
       </div>
 
@@ -92,22 +92,21 @@
 </footer>
 
 <!-- highlight & gallery -->
-{{ $babel_opts := dict "noComments" true }}
 {{ $highlightjs := resources.Get "js/highlightjs/highlight.min.js" }}
 <script src="{{ $highlightjs.Permalink }}"></script>
 <script>
   hljs.highlightAll();
 </script>
 
-{{ $babel_opts := dict "noComments" true }}
+{{/* Browsers that understand type="module" do not need transpiling. */}}
 {{ $photoswipe := resources.Get "js/photoswipe/photoswipe-lightbox.esm.js" }}
-{{- $photoswipe_transpiled := $photoswipe | babel $babel_opts | minify -}}
-<script src="{{ $photoswipe_transpiled.Permalink }}" type="module"></script>
+{{- $photoswipe_min := $photoswipe | resources.Minify | resources.Fingerprint -}}
+<script src="{{ $photoswipe_min.Permalink }}" integrity="{{ $photoswipe_min.Data.Integrity }}" type="module"></script>
 
 <!-- Bundle, minify and fingerprint js assets before loading -->
 {{ $contrib := resources.Get "js/contributor_ad.js" }}
 {{ $script := resources.Get "js/script.js" }}
-{{ $js := slice $contrib $script | resources.Concat "js/bundle.js" | minify }}
+{{ $js := slice $contrib $script | resources.Concat "js/bundle.js" | resources.Minify }}
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
 <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
@@ -116,9 +115,9 @@
 {{/* Load OpenLayers as its standalone UMD build (window.ol). Do NOT bundle ol
      via js.Build: esbuild breaks OL's internal `instanceof` checks (View, Style,
      ...), which crashes the map. The UMD build is one self-consistent copy. */}}
-{{ $ol := resources.Get "js/ol/ol.js" | fingerprint }}
+{{ $ol := resources.Get "js/ol/ol.js" | resources.Fingerprint }}
 <script src="{{ $ol.Permalink }}" integrity="{{ $ol.Data.Integrity }}"></script>
-{{ $map := resources.Get "js/community_map.js" | minify | fingerprint }}
+{{ $map := resources.Get "js/community_map.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $map.Permalink }}" integrity="{{ $map.Data.Integrity }}"></script>
 {{ end }}
 </body>
