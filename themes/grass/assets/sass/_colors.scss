@@ -2,27 +2,33 @@
 /*  Main Colors 
 ----------------------------------------------------------------------------- */
 
+/* Ramp alpha steps, shared with the --gs-* custom-property ramps in
+   _css-variables.scss. */
+$gs-alpha-light: 0.541;
+$gs-alpha-lighter: 0.322;
+$gs-alpha-lightest: 0.071;
+
 /* Primary Color */
 $gs-primary-color: rgb(76, 176, 91);
-$gs-primary-color--light: rgba(76, 176, 91, 0.541);
-$gs-primary-color--lighter: rgba(76, 176, 91, 0.322);
-$gs-primary-color--lightest: rgba(76, 176, 91, 0.071);
+$gs-primary-color--light: rgba($gs-primary-color, $gs-alpha-light);
+$gs-primary-color--lighter: rgba($gs-primary-color, $gs-alpha-lighter);
+$gs-primary-color--lightest: rgba($gs-primary-color, $gs-alpha-lightest);
 
 /* Primary Alt Color */
 $gs-primary-alt-color: rgb(110, 208, 121);
 
 /* Primary Light Color */
 $gs-primary-light-color: rgb(135, 233, 145);
-$gs-primary-light-color--lighter: rgba(135, 233, 145, 0.322);
+$gs-primary-light-color--lighter: rgba($gs-primary-light-color, $gs-alpha-lighter);
 
 /* Primary Dark Color */
 $gs-primary-dark-color: rgb(8, 139, 54);
 
 /* Secondary Color */
 $gs-secondary-color: rgb(0, 57, 63);
-$gs-secondary-color--light: rgba(0, 57, 63, 0.541);
-$gs-secondary-color--lighter: rgba(0, 57, 63, 0.322);
-$gs-secondary-color--lightest: rgba(0, 57, 63, 0.071);
+$gs-secondary-color--light: rgba($gs-secondary-color, $gs-alpha-light);
+$gs-secondary-color--lighter: rgba($gs-secondary-color, $gs-alpha-lighter);
+$gs-secondary-color--lightest: rgba($gs-secondary-color, $gs-alpha-lightest);
 
 /* Secondary Alt Color */
 $gs-secondary-alt-color: rgb(39, 87, 92);
@@ -36,14 +42,14 @@ $gs-secondary-dark-color: rgb(0, 32, 36);
 /* White */
 $gs-white-base-color: rgb(255, 255, 255);
 $gs-white-color: rgb(247, 247, 247);
-$gs-white-color--lightest: rgba(247, 247, 247, 0.071);
+$gs-white-color--lightest: rgba($gs-white-color, $gs-alpha-lightest);
 
 /* Black */
 $gs-black-base-color: rgb(0, 0, 0);
 $gs-black-color: rgb(2, 25, 5);
-$gs-black-color--light: rgba(2, 25, 5, 0.541);
-$gs-black-color--lighter: rgba(2, 25, 5, 0.322);
-$gs-black-color--lightest: rgba(2, 25, 5, 0.071);
+$gs-black-color--light: rgba($gs-black-color, $gs-alpha-light);
+$gs-black-color--lighter: rgba($gs-black-color, $gs-alpha-lighter);
+$gs-black-color--lightest: rgba($gs-black-color, $gs-alpha-lightest);
 
 /* Grey */
 $gs-grey-color: rgb(145, 144, 143);
@@ -59,8 +65,10 @@ $gs-grey-dark-color: rgb(78, 77, 76);
 
 /* Special Colors */
 $gs-support-color: rgb(243, 57, 138);
-$gs-support-color--dark: rgba(243, 57, 138, 0.541);
-$gs-support-color--light: rgba(243, 57, 138, 0.322);
+/* Historical naming: the support steps predate the ramp convention
+   (--dark carries the light alpha, --light the lighter alpha). */
+$gs-support-color--dark: rgba($gs-support-color, $gs-alpha-light);
+$gs-support-color--light: rgba($gs-support-color, $gs-alpha-lighter);
 $gs-yard-sign-color: rgb(116, 93, 2);
 
 /* Bootstrap Mapping Colors */
