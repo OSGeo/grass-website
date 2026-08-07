@@ -1,6 +1,5 @@
-  {{ partial "head.html" . }}
-
-  <header class="hero-section grass-bg-image banner">
+{{ define "header" }}
+<header class="hero-section grass-bg-image banner">
     <div class="fixed-top">
       {{ partial "banner.html" . }}
       <div class="bg-primary">
@@ -20,8 +19,9 @@
         </div>
     </section>
   </header>
+{{ end }}
 
-
+{{ define "main" }}
   <section class="section bg-gray">
     <div class="container">
       <div class="row justify-content-center">
@@ -117,4 +117,5 @@
     </div>
 
 </div>
-  </section>{{ partial "footer.html" . }}
+  </section>
+{{ end }}

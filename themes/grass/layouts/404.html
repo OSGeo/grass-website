@@ -1,6 +1,5 @@
-{{ partial "head.html" . }}
-
-  <header class="hero-section overlay-blue bg-cover banner" data-background="{{ "images/banners/banner.jpg" | relURL }}">
+{{ define "header" }}
+<header class="hero-section overlay-blue bg-cover banner" data-background="{{ "images/banners/banner.jpg" | relURL }}">
     <div class="fixed-top">
       {{ partial "banner.html" . }}
       <div class="bg-primary">
@@ -24,8 +23,9 @@
       </div>
     </section>
   </header>
+{{ end }}
 
-
+{{ define "main" }}
   <div class="container mt-5">
     <div class="row justify-content-center">
       {{ range (where site.Pages "Type" "pages") }}{{ if not (in .Section "about") }}
@@ -39,4 +39,4 @@
   {{ end }}{{ end }} </div>
     </div>
   </div>
-{{ partial "footer.html" . }}
+{{ end }}

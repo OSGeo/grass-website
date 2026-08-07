@@ -1,0 +1,29 @@
+{{/* Stylesheets, the compiled SCSS bundle, and Bootstrap. */}}
+{{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
+  <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
+  {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
+  <link rel="stylesheet" href="{{ $flagicons.Permalink }}">
+  {{ if eq .Layout "community-map" }}
+  {{ with resources.Get "css/ol/ol.css" }}
+  <link rel="stylesheet" href="{{ .Permalink }}">
+  {{ end }}
+  {{ end }}
+  {{ with resources.Get "css/fontawesome/all.min.css" }}
+  <link rel="stylesheet" href="{{ .Permalink }}">
+  {{ end }}
+  {{ with resources.Get "sass/main.scss" }}
+  {{ $cssopts := dict
+  "targetPath" "css/style.css"
+  "outputStyle" "compressed"
+  "enableSourceMap" false
+  "includePaths" (slice "node_modules/bootstrap/scss")
+  }}
+  {{/* toCSS is the only spelling valid on both Hugo 0.113 and current Hugo
+       (resources.ToCSS is removed upstream). At the Hugo upgrade: switch to
+       css.Sass with transpiler dartsass. */}}
+  {{ with . | toCSS $cssopts }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ end }}
+  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | resources.Fingerprint }}
+  <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
