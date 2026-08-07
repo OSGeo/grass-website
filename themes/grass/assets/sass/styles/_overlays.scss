@@ -19,10 +19,9 @@
         $gs-primary-color--lighter 47%,
         $gs-primary-color--lightest 100%);
     background: linear-gradient(to bottom,
-        rgba(76, 176, 91, 1) 12%,
-        rgba(76, 176, 91, 0.47) 59%,
-        rgba(76, 176, 91, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4cb051', endColorstr='#004cb051', GradientType=0);
+        rgba($gs-primary-color, 1) 12%,
+        rgba($gs-primary-color, 0.47) 59%,
+        rgba($gs-primary-color, 0) 100%);
     }
 }
 
@@ -48,9 +47,6 @@
         $gs-secondary-color--light 40%,
         $gs-secondary-color--lighter 80%,
         $gs-secondary-color--lightest 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$gs-secondary-color--light},
-        endColorstr=#{$gs-secondary-color--lightest},
-        GradientType=0);
     }
 }
 

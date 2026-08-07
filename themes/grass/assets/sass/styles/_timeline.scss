@@ -1,7 +1,6 @@
-.card {
-    min-height: 4rem !important;
-    height: 4rem !important;
-}
+/* Timeline styling for the history pages (Bootstrap 3 .panel markup kept in
+   content/about/history*). Consolidated from two near-duplicate blocks; the
+   values below reproduce the cascade result of the pair. */
 
 .panel-title {
     font-size: 28px;
@@ -20,10 +19,8 @@
     position: relative;
     width: 100%;
     float: left;
-    position: relative;
-    padding: 0 0 60px 0;
-    margin-top: 0;
-    margin-top: 4px;
+    padding: 0;
+    margin: 0 !important;
 }
 
 .timeline .panel-title a {
@@ -34,6 +31,9 @@
     color: $gs-grey-dark-color !important;
 }
 
+.timeline .panel-group {
+    display: block;
+}
 
 .glyphicon.glyphicon-one-fine-dot:before {
     content: "\25cf";
@@ -47,7 +47,7 @@
     display: block;
     top: 32px;
     bottom: 0px;
-    margin-left: 30px;
+    margin-left: 15px;
     background: $gs-primary-alt-color !important;
 }
 
@@ -59,114 +59,6 @@
     bottom: -2px;
 }
 
-.line::before,
-.line::after {
-    content: "";
-    position: absolute;
-    left: -6px;
-    width: 0;
-    height: 0;
-    display: block;
-    border-radius: 50%;
-    background: $gs-grey-light-color;
-}
-
-
-.timeline .panel {
-    position: relative;
-    margin: 10px 0px 0px 40px;
-    clear: both;
-    margin: 0 auto;
-    padding: 10px 0px 0 40px;
-    background: none;
-}
-
-.timeline .panel::before {
-    position: absolute;
-    display: block;
-    top: 8px;
-    left: -24px;
-    content: "";
-    width: 0px;
-    height: 0px;
-    border: inherit;
-    border-width: 12px;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.timeline .panel .panel-heading.icon * {
-    font-size: 14px;
-    vertical-align: middle;
-    line-height: 40px;
-}
-
-.timeline .panel>.panel-heading .icon {
-    position: absolute;
-    left: 11px;
-    /*display: block;*/
-    width: 40px;
-    height: 40px;
-    padding: 0px;
-    border-radius: 50%;
-    text-align: center;
-    float: left;
-}
-
-
-.timeline .panel-default {
-    border: 0;
-}
-
-.timeline .panel-default>.panel-heading {
-    font-family: $gs-grass-font;
-    border: 0;
-    background: none;
-    font-weight: 400;
-}
-
-.timeline .panel-default>.panel-heading+.panel-collapse>.panel-body {
-    border-top: 0;
-    padding-top: 0;
-    border-bottom: 0;
-}
-
-h4.panel-title {
-    border: 0;
-}
-
-.panel {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-
-.timeline {
-    padding: 0;
-    margin: 0 !important;
-}
-
-.timeline .panel-group {
-    display: block;
-}
-
-.timeline .glyphicon.glyphicon-one-fine-dot:before {
-    content: "\25cf";
-    font-size: 1.5em;
-    color: #0039a6;
-}
-
-.timeline .line {
-    position: absolute;
-    width: 2px;
-    display: block;
-    top: 32px;
-    bottom: 0px;
-    margin-left: 15px;
-    background: #0039a6;
-}
-
 .timeline .line::before,
 .timeline .line::after {
     content: "";
@@ -176,7 +68,7 @@ h4.panel-title {
     height: 0;
     display: block;
     border-radius: 50%;
-    background: #0039a6;
+    background: $gs-primary-alt-color;
 }
 
 .timeline .panel {
@@ -213,7 +105,6 @@ h4.panel-title {
     position: absolute;
     left: -4px;
     top: -14px;
-    /*display: block;*/
     width: 40px;
     height: 40px;
     padding: 0px;
@@ -229,4 +120,21 @@ h4.panel-title {
 .timeline .panel-default>.panel-heading {
     font-family: $gs-grass-font;
     border: 0;
+    background: none;
+    font-weight: 400;
+}
+
+.timeline .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    border-bottom: 0;
+}
+
+h4.panel-title {
+    border: 0;
+}
+
+.panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
