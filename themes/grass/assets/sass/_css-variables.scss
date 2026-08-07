@@ -13,9 +13,9 @@
 
 // Alpha steps applied to every ramp color.
 $gs-ramp-steps: (
-    "light": 0.541,
-    "lighter": 0.322,
-    "lightest": 0.071,
+    "light": $gs-alpha-light,
+    "lighter": $gs-alpha-lighter,
+    "lightest": $gs-alpha-lightest,
 );
 
 // Colors that get a full light/lighter/lightest ramp.
