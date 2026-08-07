@@ -76,7 +76,7 @@
     border-color: $gs-grey-alt-color $gs-grey-alt-color $gs-white-color $gs-grey-alt-color;
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(lg) {
     .navbar {
         .dropdown-menu {
             display: none;
