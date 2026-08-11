@@ -110,43 +110,6 @@
     }
 }
 
-.btn-grass {
-    font-size: 18px;
-    color: $gs-white-color !important;
-    background: $gs-primary-color;
-    border-radius: 5px;
-
-    &:active {
-        background: $gs-primary-alt-color;
-    }
-
-    &:hover,
-    &:focus {
-        background: $gs-primary-alt-color;
-        color: $gs-white-color
-    }
-
-    &:not(:disabled):not(.disabled).active,
-    &:not(:disabled):not(.disabled):active,
-    .show>&.dropdown-toggle {
-        color: $gs-white-color;
-        background-color: $gs-primary-alt-color;
-        border-color: $gs-primary-alt-color;
-    }
-
-    a {
-        color: $gs-white-color;
-
-        &:focus {
-            color: $gs-white-color;
-        }
-
-        &:hover {
-            color: $gs-white-color !important;
-        }
-    }
-}
-
 .badge {
     font-size: 1rem !important;
 }

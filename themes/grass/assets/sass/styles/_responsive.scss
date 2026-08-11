@@ -1,10 +1,10 @@
-@media (max-width: 992px) {
+@include media-breakpoint-down(lg) {
     .col-2 i {
         font-size: 3rem;
     }
 }
 
-@media (max-width: 576px) {
+@include media-breakpoint-down(sm) {
 
     body {
         font-size: 14px !important;
@@ -90,19 +90,8 @@
 
 }
 
+/* yard-sign's own threshold, not a Bootstrap breakpoint */
 @media (min-width: 600px) {
-    .yard-sign img {
-        width: 25%;
-    }
-}
-
-@media (min-width: 768px) {
-    .yard-sign img {
-        width: 25%;
-    }
-}
-
-@media (min-width: 992px) {
     .yard-sign img {
         width: 25%;
     }
