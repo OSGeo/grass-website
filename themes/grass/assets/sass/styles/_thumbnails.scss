@@ -1,36 +1,3 @@
-.grassthm {
-    border: 1px solid #dee2e6;
-    background-color: $gs-primary-color;
-    background-size: cover;
-    height: 250px;
-    z-index: 1;
-}
-
-.grassthm img {
-    position: absolute;
-    left: 50%;
-    top: 13%;
-    margin-left: -80px;
-    z-index: 1;
-}
-
-.grassthm-sq {
-    border: 1px solid #dee2e6;
-    /* background:url(/images/banners/banner.jpg); */
-    background-color: $gs-primary-color;
-    background-size: cover;
-    height: 199px;
-    z-index: 1;
-}
-
-.grassthm-sq img {
-    position: absolute;
-    left: 50%;
-    top: 13%;
-    margin-left: -59px;
-    z-index: 1;
-}
-
 .mt-95 {
     /* This equals the fixed height of the gitter banner and the nav bar
      96.8px when the base font size of the document is (16px) */
