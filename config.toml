@@ -17,15 +17,12 @@ filename = "sitemap_hugo.xml"
 priority = 0.5
 
 [security]
-  enableInlineShortcodes = true
   [security.exec]
-    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+    # ^sass$ is unused on Hugo 0.113 (libsass compiles the SCSS) but pre-arms
+    # the Dart Sass transpiler switch that comes with the Hugo upgrade.
+    allow = ['^go$', '^sass$']
 
 [module]
-
-    [[module.mounts]]
-    source = "node_modules/bootstrap-icons/font/fonts"
-    target = "static/css/fonts"
 
     [[module.mounts]]
     source = "node_modules/@fortawesome/fontawesome-free/webfonts"
@@ -40,14 +37,9 @@ priority = 0.5
     target = "static"
 
     [[module.mounts]]
-    source = "assets"
-    target = "assets"
-
-    [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap/bootstrap.bundle.min.js"
 
-    # TODO: Switch to use SCSS when we update to Hugo a version with embeded dart-sass
     [[module.mounts]]
     source = "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
     target = "assets/css/fontawesome/all.min.css"

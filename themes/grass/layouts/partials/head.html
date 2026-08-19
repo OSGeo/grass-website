@@ -68,11 +68,14 @@
   "enableSourceMap" false
   "includePaths" (slice "node_modules/bootstrap/scss")
   }}
+  {{/* toCSS is the only spelling valid on both Hugo 0.113 and current Hugo
+       (resources.ToCSS is removed upstream). At the Hugo upgrade: switch to
+       css.Sass with transpiler dartsass. */}}
   {{ with . | toCSS $cssopts }}
   <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
   {{ end }}
-  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
+  {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | resources.Fingerprint }}
   <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
   <link rel="icon" type="image/png" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
