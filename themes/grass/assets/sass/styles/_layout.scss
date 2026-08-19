@@ -44,12 +44,36 @@
     background-color: $gs-grey-light-color !important;
 }
 
-table tr td {
-    padding: 0 10px 0 10px !important;
-}
-
 table img {
     box-shadow: 0 5px 15px $gs-black-color--lightest !important;
+}
+
+// Fallback for Hugo < 0.134, where the render-table.html hook is inert and
+// markdown tables render as bare <table>. Mirrors Bootstrap's striped .table
+// using the same $table-* brand tokens, so the look is identical before and
+// after the Hugo upgrade adds the .table class. The :not(.table) guard makes
+// this disengage automatically once the hook is active.
+table:not(.table) {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: $table-color;
+    border-color: $table-border-color;
+    vertical-align: top;
+
+    th,
+    td {
+        padding: $table-cell-padding-y $table-cell-padding-x;
+        border-bottom: 1px solid $table-border-color;
+    }
+
+    thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid $table-group-separator-color;
+    }
+
+    tbody tr:nth-of-type(odd)>* {
+        background-color: $table-striped-bg;
+    }
 }
 
 #books table tr td:first-child {

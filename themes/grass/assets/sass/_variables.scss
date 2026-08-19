@@ -15,6 +15,15 @@ $nav-tabs-link-active-color: $gs-secondary-alt-color;
 // Control listing card title color
 $card-title-color: $gs-grey-dark-color;
 
+// Tables. Content tables get Bootstrap's .table via the render hook in
+// layouts/_markup/render-table.html; these map its look to brand tokens.
+$table-color: $gs-black-color;
+$table-border-color: $gs-grey-alt-color;
+$table-group-separator-color: $gs-grey-alt-color;
+$table-striped-bg: $gs-grey-light-color;
+$table-cell-padding-y: 0.6rem;
+$table-cell-padding-x: 0.9rem;
+
 // Description: This file defines Bootstrap theme variables by mapping them 
 //              to custom color variables. These variables are used to 
 //              customize the appearance of the Bootstrap framework.
