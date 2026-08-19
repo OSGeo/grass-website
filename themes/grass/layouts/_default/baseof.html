@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "navigation.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head/meta.html" . }}
+  {{ partial "head/assets.html" . }}
+  {{ partial "head/favicons.html" . }}
+  {{ partial "head/analytics.html" . }}
+</head>
+
+<body>
+  <noscript>Please enable javascript :)</noscript>
+  {{ block "header" . }}{{ partial "page-header.html" (dict "page" .) }}{{ end }}
+  <main id="content">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "scripts.html" . }}
+</body>
+
 </html>

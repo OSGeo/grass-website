@@ -1,4 +1,3 @@
-{{/* themes/grass/layouts/partials/footer.html — original layout, fixed JS loading for Bootstrap 5 */}}
 <footer class="section grass-blue-bg text-light pt-5 pb-3">
   <div class="container">
     <div class="row">
@@ -90,37 +89,3 @@
     </div>
   </div>
 </footer>
-
-<!-- highlight & gallery -->
-{{ $highlightjs := resources.Get "js/highlightjs/highlight.min.js" }}
-<script src="{{ $highlightjs.Permalink }}"></script>
-<script>
-  hljs.highlightAll();
-</script>
-
-{{/* Browsers that understand type="module" do not need transpiling. */}}
-{{ $photoswipe := resources.Get "js/photoswipe/photoswipe-lightbox.esm.js" }}
-{{- $photoswipe_min := $photoswipe | resources.Minify | resources.Fingerprint -}}
-<script src="{{ $photoswipe_min.Permalink }}" integrity="{{ $photoswipe_min.Data.Integrity }}" type="module"></script>
-
-<!-- Bundle, minify and fingerprint js assets before loading -->
-{{ $contrib := resources.Get "js/contributor_ad.js" }}
-{{ $script := resources.Get "js/script.js" }}
-{{ $js := slice $contrib $script | resources.Concat "js/bundle.js" | resources.Minify }}
-{{ $secureJS := $js | resources.Fingerprint "sha512" }}
-<script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
-
-{{ if eq .Layout "community-map" }}
-{{ "<!-- Map Script -->" | safeHTML }}
-{{/* Load OpenLayers as its standalone UMD build (window.ol). Do NOT bundle ol
-     via js.Build: esbuild breaks OL's internal `instanceof` checks (View, Style,
-     ...), which crashes the map. The UMD build is one self-consistent copy. */}}
-{{ $ol := resources.Get "js/ol/ol.js" | resources.Fingerprint }}
-<script src="{{ $ol.Permalink }}" integrity="{{ $ol.Data.Integrity }}"></script>
-{{ $map := resources.Get "js/community_map.js" | resources.Minify | resources.Fingerprint }}
-<script src="{{ $map.Permalink }}" integrity="{{ $map.Data.Integrity }}"></script>
-{{ end }}
-</body>
-
-</html>
-
