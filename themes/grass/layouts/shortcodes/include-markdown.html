@@ -1,0 +1,10 @@
+{{- /* Render another content page's body in place:
+       include-markdown "/download/linux"
+       The included page should set _build render/list to "never" so it is
+       only published as part of the including page. */ -}}
+{{- $path := .Get 0 -}}
+{{- with .Site.GetPage $path -}}
+{{ .Content }}
+{{- else -}}
+{{- errorf "include-markdown: page %q not found (used in %s)" $path $.Position -}}
+{{- end -}}

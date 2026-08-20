@@ -1,0 +1,9 @@
+<div class="container download-grass">
+    <ul class="nav nav-tabs" id="downloadTab" role="tablist">
+        {{ .Inner }}
+    </ul>
+    <div class="tab-content" id="downloadTabContent">
+        {{ .Page.Scratch.Get "tabContents" | safeHTML }}
+    </div>
+</div>
+{{ .Page.Scratch.Delete "tabContents" }}

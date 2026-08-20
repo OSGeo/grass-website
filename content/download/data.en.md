@@ -7,11 +7,10 @@ categories: [nl]
 layout: "data"
 ---
 
-  
-#### Quick links
+<!-- TODO: Rewrite in pure markdown, remove all the "IGNORE" lines, and remove the "TODO" line. -->
+## Quick links
 
 [ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Spearfish dataset**](#SpearFishDataset) | [**Global datasets**](#GlobalDatasets) ]
-
 
 <div class="row">
   <div class="col-sm-4">
@@ -28,7 +27,7 @@ layout: "data"
   </div>
 </div>
 
-<hr>
+---
 
 ### <a name="NorthCarolinaDataset"></a> North Carolina dataset
 
@@ -50,7 +49,7 @@ The North Carolina dataset can be downloaded in two versions:
   </li>
 </ul>
 
-<hr>
+---
 
 ### <a name="SpecialTopicDatasets"></a> Datasets for special topics
 
@@ -96,7 +95,7 @@ The North Carolina dataset can be downloaded in two versions:
   </li>
 </ul>
 
-<hr>
+---
 
 ### <a name="SpearFishDataset"></a> Spearfish dataset
 
@@ -112,7 +111,7 @@ the short <a href="/sampledata/spearDB.pdf">documentation</a> and
   </li>
 </ul>
 
-<hr>
+---
 
 ### <a name="GlobalDatasets"></a> Global datasets
 Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS project with global
@@ -132,8 +131,8 @@ a more comprehensive collection with additional hydrological and ecological data
   </li>
 </ul>
 
+In the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) wiki,
+the community shares information on other open datasets all over the globe and
+how they can be imported into GRASS.
 
-In the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) wiki, the community shares information on other open datasets
-all over the globe and how they can be imported into GRASS.
-
-<hr>
+---

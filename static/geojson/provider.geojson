@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "mundialis",
+        "url": "https://www.mundialis.de/en/",
+        "image": "https://www.mundialis.de/wp-content/uploads/2023/01/logo-mundialis.svg",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0968584,
+          50.7409291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OpenPlains Inc.",
+        "url": "https://openplains.com/",
+        "image": "https://grass.osgeo.org/images/logos/companies/openplains-logo.png",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7873672,
+          35.8789951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Center for Geospatial Analytics at NC State University",
+        "url": "https://cnr.ncsu.edu/geospatial/engage",
+        "image": "https://grass.osgeo.org/images/logos/companies/cgaNCSU.png",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6768830,
+          35.7818531
+        ]
+      }
+    }
+  ]
+}

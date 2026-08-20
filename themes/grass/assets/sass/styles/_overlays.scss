@@ -1,0 +1,52 @@
+.overlay {
+    position: relative;
+
+    &::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(top,
+        $gs-primary-color 12%,
+        $gs-primary-color--light 23%,
+        $gs-primary-color--lighter 47%,
+        $gs-primary-color--lightest 100%);
+    background: -webkit-linear-gradient(top,
+        $gs-primary-color 12%,
+        $gs-primary-color--light 23%,
+        $gs-primary-color--lighter 47%,
+        $gs-primary-color--lightest 100%);
+    background: linear-gradient(to bottom,
+        rgba($gs-primary-color, 1) 12%,
+        rgba($gs-primary-color, 0.47) 59%,
+        rgba($gs-primary-color, 0) 100%);
+    }
+}
+
+.overlay-blue {
+    position: relative;
+
+    &::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(top,
+        $gs-secondary-color--light 33%,
+        $gs-secondary-color--lighter 55%,
+        $gs-secondary-color--lightest 100%);
+    background: -webkit-linear-gradient(top,
+        $gs-secondary-color--light 33%,
+        $gs-secondary-color--lighter 55%,
+        $gs-secondary-color--lightest 100%);
+    background: linear-gradient(to bottom,
+        $gs-secondary-color--light 40%,
+        $gs-secondary-color--lighter 80%,
+        $gs-secondary-color--lightest 100%);
+    }
+}
+

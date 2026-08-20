@@ -22,7 +22,7 @@ services:
       - ~/hugo_cache:/tmp/hugo_cache
 
   nginx:
-    image: nginx:1.18.0
+    image: nginx:1.31.3
     command: ["nginx", "-g", "daemon off;"]
     depends_on:
       build:

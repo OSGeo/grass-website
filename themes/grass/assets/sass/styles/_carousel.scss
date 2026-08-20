@@ -1,0 +1,36 @@
+.carousel-item-container {
+    position: relative;
+    display: inline-block;
+}
+
+.carousel-item-container img {
+    display: block;
+    width: 100%;
+}
+
+.carousel-item-overlay {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    background: $gs-secondary-color--light;
+    padding: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.carousel-link-light {
+    color: $gs-white-color !important;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.carousel-link-light:hover {
+    color: $gs-white-color !important;
+    font-weight: 600;
+}
+
+.carousel-link-light:focus {
+    color: $gs-white-color !important;
+    font-weight: 600;
+}

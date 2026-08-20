@@ -1,0 +1,29 @@
+{{- /*
+  Markdown table render hook. Wraps every pipe table in Bootstrap's .table
+  component so styling is driven by the $table-* variables in
+  _variables.scss (mapped to GRASS brand tokens) and by .table-responsive for
+  horizontal scroll on narrow screens. Raw <table> HTML in content is not
+  affected by this hook (for example the history pages' bespoke tables).
+*/ -}}
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      {{- range .THead }}
+      <tr>
+        {{- range . }}
+        <th{{ with .Alignment }} style="text-align: {{ . }};"{{ end }}>{{ .Text }}</th>
+        {{- end }}
+      </tr>
+      {{- end }}
+    </thead>
+    <tbody>
+      {{- range .TBody }}
+      <tr>
+        {{- range . }}
+        <td{{ with .Alignment }} style="text-align: {{ . }};"{{ end }}>{{ .Text }}</td>
+        {{- end }}
+      </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</div>

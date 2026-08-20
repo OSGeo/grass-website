@@ -114,10 +114,10 @@ If you would like to help sustain this work, you can [**donate to GRASS through 
 
 **Packages and installers**
 
-- [Windows](/download/windows/)
-- [macOS](/download/mac/)
-- [Linux](/download/linux/)
-- [conda](/download/conda/) (new in 8.5.0)
+- [Windows](/download/#windows)
+- [macOS](/download/#mac)
+- [Linux](/download/#linux)
+- [conda](/download/#conda) (new in 8.5.0)
 
 Packaging for these platforms is underway.
 
