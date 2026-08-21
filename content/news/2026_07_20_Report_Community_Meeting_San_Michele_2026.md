@@ -28,13 +28,13 @@ Highlights from the week include:
    width="40%" style="float:left;padding-right:25px;padding-top:15px">
 </a>
 
-* **Bugs found and fixed**, including `v.proj` reprojection issues, an orphaned wxGUI drag-image bug on macOS, and a temporal framework metadata bug caught while reviewing this year's GSoC temporal framework project.
-* **New addons**, with `t.rast.vi`, `r.surf.volcano`, `r.barplot`, `t.rast.aggregate.seasons`, and `t.rast.climatologies` merged during the week and `r.soils.rosetta` right behind it in review, plus new pytest-based test coverage merged for several existing addons (`r.clip`, `r.centroids`, `v.median`).
-* **Tutorials refreshed** — grass-tutorials grew with a new visibility analysis (`r.viewshed`) tutorial, and a getting-started guide for conda, while existing tutorial categories were reduced and consolidated for easier browsing.
-* **Website technology bump** — the frontend was migrated from Bootstrap 3 to Bootstrap 5 with Sass-Dart, the CI build and deployment pipeline was split into dedicated build/deploy jobs and now publishes from a CI-built release artifact, dependencies were pinned for supply-chain security, and the sitemap was fixed for better SEO. A new interactive **community map**, showing GRASS users and providers around the world, landed this week.
 * **Core GRASS progress** — continued work on the CMake build system transition, a new Windows installer built with GitHub Actions (with the first successful CI compilation of addons on Windows!), markdown-based documentation and man page conversion, reduced Sphinx warnings, and SBOM (CycloneDX) and SPDX license-header work in the pipeline for better supply-chain transparency.
 * **Jupyter notebooks in the GUI** — after a long development cycle that started as an idea at the 2025 Dev Summit, the [GUI-Jupyter notebook integration](https://grass.osgeo.org/grass-devel/manuals/wxGUI.jupyter.html) PR was merged this week, and will be shipped with the upcoming 8.6 release.
-* Preparation for the upcoming **PSC elections**, with voter lists compiled from contribution history across repositories.  
+* Preparation for the upcoming **PSC elections**, with voter lists compiled from contribution history across repositories.
+* **Bugs found and fixed**, including `v.proj` reprojection issues, an orphaned wxGUI drag-image bug on macOS, and a temporal framework metadata bug caught while reviewing this year's GSoC temporal framework project.
+* **New addons**, with `t.rast.vi`, `r.surf.volcano`, `r.barplot`, `t.rast.aggregate.seasons`, and `t.rast.climatologies` merged during the week and `r.soils.rosetta` and `r.out.3mf` right behind it in review, plus new pytest-based test coverage merged for several existing addons (`r.clip`, `r.centroids`, `v.median`).
+* **Tutorials refreshed** — grass-tutorials grew with a new visibility analysis (`r.viewshed`) tutorial, and a getting-started guide for conda, while existing tutorial categories were reduced and consolidated for easier browsing.
+* **Website technology bump** — the frontend was migrated from Bootstrap 3 to Bootstrap 5 with Sass-Dart, the CI build and deployment pipeline was split into dedicated build/deploy jobs and now publishes from a CI-built release artifact, dependencies were pinned for supply-chain security, and the sitemap was fixed for better SEO. A new interactive **community map**, showing GRASS users and providers around the world, landed this week.
 
 ## By the numbers
 
