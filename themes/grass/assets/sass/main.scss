@@ -9,6 +9,7 @@
    silence them at the Hugo upgrade with css.Sass silenceDeprecations. A full
    @use migration waits on Bootstrap.
 ----------------------------------------------------------------------------- */
+@import "font-faces";
 @import "colors";
 @import "fonts";
 @import "variables";

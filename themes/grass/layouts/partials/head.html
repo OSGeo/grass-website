@@ -49,6 +49,9 @@
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
+  {{/* Preload the body-text Fira weight to reduce the flash of fallback text. */}}
+  <link rel="preload" href="{{ "fonts/fira-sans/fira-sans-latin-400-normal.woff2" | relURL }}" as="font"
+    type="font/woff2" crossorigin>
   {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
   <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}

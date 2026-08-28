@@ -23,10 +23,12 @@ p,
 
 .grass {
     font-family: $gs-grass-font--medium;
+    font-weight: 500;
 }
 
 .gis {
     font-family: $gs-grass-font--light;
+    font-weight: 200;
     margin-left: -.25rem;
 }
 
@@ -48,6 +50,7 @@ h1 {
 
 h2 {
     font-family: $gs-grass-font--light;
+    font-weight: 200;
     color: $gs-secondary-light-color;
     font-size: 2rem;
     text-transform: capitalize;
@@ -84,6 +87,7 @@ h5 {
 h6 {
     color: $gs-black-color--light;
     font-family: $gs-grass-font--light;
+    font-weight: 200;
     font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
