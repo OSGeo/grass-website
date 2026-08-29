@@ -35,7 +35,7 @@ jobs:
       # Keep in sync with .devcontainer/devcontainer.json and the docker
       # compose images. Renovate manages this pin via the annotation below.
       # renovate: datasource=github-releases depName=gohugoio/hugo
-      HUGO_VERSION: 0.113.0
+      HUGO_VERSION: 0.164.0
     steps:
       - name: Install Hugo CLI
         run: |
