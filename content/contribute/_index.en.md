@@ -2,7 +2,7 @@
 title: "Contribute"
 date: 2025-05-21T10:12:05+02:00
 icon: "fa fa-user"
-description: "Get started with open source develpment with GRASS"
+description: "Get started with open source development with GRASS"
 type : "pages"
 layout: "list"
 ---
