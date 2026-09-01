@@ -8,16 +8,15 @@ layout: "data"
 ---
 
 <!-- TODO: Rewrite in pure markdown, remove all the "IGNORE" lines, and remove the "TODO" line. -->
-## Quick links
 
-[ [**North Carolina dataset**](#NorthCarolinaDataset) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Spearfish dataset**](#SpearFishDataset) | [**Global datasets**](#GlobalDatasets) ]
+[ [**Standard sample datasets**](#StandardSampleDatasets) | [**Legacy datasets**](#LegacyDatasets) | [**Datasets for special topics**](#SpecialTopicDatasets) | [**Global datasets**](#GlobalDatasets) ]
 
 <div class="row">
   <div class="col-sm-4">
     <div class="alert rounded-0 alert-default row">
     <span><i class="fa fa-arrow-right"></i> This section gathers sample datasets for learning or testing GRASS. Datasets are made available as ready-to-use GRASS  <b>projects</b> and sample data in other
     common formats.</span>
-    <span><i class="fa fa-arrow-right"></i> Note: an easy way to download sample data is from the <b>download button on the GRASS GUI</b>.</span>
+    <span><i class="fa fa-arrow-right"></i> An easy way to download sample data is by using the <a href="https://grass.osgeo.org/grass-stable/manuals/g.download.project.html"><em>g.download.project</em></a> tool or using the <b>download button from the GRASS GUI</b>.</span>
     </div>
   </div>
   <div class="col-sm-8 text-center">
@@ -29,13 +28,29 @@ layout: "data"
 
 ---
 
-### <a name="NorthCarolinaDataset"></a> North Carolina dataset
+### <a name="StandardSampleDatasets"></a> Standard sample datasets
 
-This dataset is a modern package of geospatial data from the state of North Carolina (NC), USA. It offers raster, vector, LiDAR and satellite data (EPSG: 3358).
-Most of the examples in the [manuals](/learn/manuals) of different modules are written with this dataset. 
+GRASS datasets with standardized names that can be used in <a href="https://grass-tutorials.osgeo.org/">tutorials</a> and documentation.
+Datasets include raster (elevation, landuse), vector (hydrology, administrative boundaries, roads, schools, hospitals, soils, and geology), and satellite data (Landsat 8).
+
+<ul id="links" class="list-unstyled version">
+  <li>
+  <span class="mwl"><a href="/sampledata/raleigh_northcarolina_usa_epsg6542.zip" target="_blank">Raleigh, North Carolina dataset </a></span>
+  <a href="/sampledata/raleigh_northcarolina_usa_epsg6542.zip" class="inl btn btn-primary" target="_blank">Download ZIP (33 MB)</a>
+  </li>
+  <li>
+  <span class="mwl"><a href="/sampledata/flagstaff_az_usa_epsg6341.zip" target="_blank">Flagstaff, Arizona dataset </a></span>
+  <a href="/sampledata/flagstaff_az_usa_epsg6341.zip" class="inl btn btn-primary" target="_blank">Download ZIP (89 MB)</a>
+  </li>
+</ul>
+
+---
+
+### <a name="LegacyDatasets"></a> Legacy datasets
+
+Legacy package of geospatial data from the state of North Carolina (NC), USA, offering raster, vector, LiDAR and satellite data (EPSG: 3358).
 The description, list of maps, and a quick usage tutorial are available <a href="https://www.grassbook.org/wp-content/uploads/grasslocations/nc_spm_08_contents.html">here</a>.
-
-The North Carolina dataset can be downloaded in two versions:
+The legacy North Carolina dataset can be downloaded in two versions:
 <ul id="links" class="list-unstyled version">
  <li>
   <span class="mwl"><a href="https://grass.osgeo.org/sampledata/north_carolina/nc_spm_08_grass7.zip" target="_blank"> North Carolina full dataset </a></span>
@@ -46,6 +61,18 @@ The North Carolina dataset can be downloaded in two versions:
   <span class="mwl"><a href="/sampledata/north_carolina/nc_basic_spm_grass7.zip" target="_blank"> North Carolina basic dataset </a></span>
   <a href="/sampledata/north_carolina/nc_basic_spm_grass7.zip" class="inl btn btn-primary" target="_blank">Download ZIP  (50 MB)</a>
   <a href="/sampledata/north_carolina/nc_basic_spm_grass7.tar.gz" class="inl btn btn-secondary">Download TAR.GZ  (50 MB)</a>
+  </li>
+</ul>
+
+GRASS dataset from the 1980th covering a part of
+Spearfish, South Dakota, USA, with raster, vector and point data. See
+the short <a href="/sampledata/spearDB.pdf">documentation</a> and
+<a href="/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
+<a href="/sampledata/soils_legend.txt">legend</a> for soils map).
+<ul id="links" class="list-unstyled version">
+ <li>
+  <span class="mwl"><a href="/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
+  <a href="/sampledata/spearfish_grass70data-0.3.tar.gz" class="inl btn btn-primary" target="_blank">Download TAR.GZ (20 MB)</a>
   </li>
 </ul>
 
@@ -97,22 +124,6 @@ The North Carolina dataset can be downloaded in two versions:
 
 ---
 
-### <a name="SpearFishDataset"></a> Spearfish dataset
-
-This is the classical GRASS dataset from the 1980th covering a part of
-Spearfish, South Dakota, USA, with raster, vector and point data. For more information on the dataset see
-the short <a href="/sampledata/spearDB.pdf">documentation</a> and
-<a href="/sampledata/spearfish_docs_1979_p163to171.tar.gz">soil data documentation</a> (with
-<a href="/sampledata/soils_legend.txt">legend</a> for soils map).
-<ul id="links" class="list-unstyled version">
- <li>
-  <span class="mwl"><a href="/sampledata/spearfish_grass70data-0.3.tar.gz" target="_blank"> Spearfish dataset </a></span>
-  <a href="/sampledata/spearfish_grass70data-0.3.tar.gz" class="inl btn btn-primary" target="_blank">Download TAR.GZ (20 MB)</a>
-  </li>
-</ul>
-
----
-
 ### <a name="GlobalDatasets"></a> Global datasets
 Based on the <a href="https://www.naturalearthdata.com/">Natural Earth data collection</a>, a GRASS project with global
 background maps is available in the World Geodetic System 1984 (WGS84). It is provided in two versions, a smaller, basic one and 
@@ -134,5 +145,3 @@ a more comprehensive collection with additional hydrological and ecological data
 In the [Global datasets](https://grasswiki.osgeo.org/wiki/Global_datasets) wiki,
 the community shares information on other open datasets all over the globe and
 how they can be imported into GRASS.
-
----
