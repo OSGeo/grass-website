@@ -1,0 +1,103 @@
+/* Learn page: skill-level path (level rule + resource cards) */
+
+.learn-level-rule {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+.learn-level-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: $gs-secondary-light-color;
+}
+
+.learn-level-label--start {
+    color: $gs-primary-dark-color;
+}
+
+.learn-level-line {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(to right, $gs-primary-color--light, $gs-primary-color--lightest);
+}
+
+.learn-path-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    height: 100%;
+    padding: 28px 24px;
+    background: $gs-white-base-color;
+    transition: background .2s ease;
+
+    i {
+        color: $gs-primary-color;
+        margin-top: 4px;
+    }
+
+    &:hover,
+    &:focus {
+        background: $gs-primary-color--lightest;
+    }
+}
+
+.learn-path-level {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    color: $gs-secondary-light-color;
+}
+
+.learn-path-level--start {
+    color: $gs-primary-dark-color;
+}
+
+.learn-path-title {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: $gs-secondary-alt-color;
+}
+
+.learn-path-desc {
+    display: block;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 6px;
+    color: $gs-grey-dark-color;
+}
+
+/* Featured cards: learn-path-card stacked vertically, with a same-height 16:9 media box so titles align across image, icon, and video cards */
+.learn-path-card--featured {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    text-align: center;
+}
+
+.learn-featured-media {
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    img,
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    img {
+        object-fit: cover;
+    }
+}
