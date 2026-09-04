@@ -31,6 +31,39 @@ priority = 0.5
     source = "node_modules/@fortawesome/fontawesome-free/webfonts"
     target = "static/css/webfonts"
 
+    # Self-hosted Fira Sans / Fira Mono (see assets/sass/_font-faces.scss).
+    # Only the weights and subsets the theme references are mounted.
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-200-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-200-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-400-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-400-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-500-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-500-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-700-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-700-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-ext-200-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-ext-200-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-ext-400-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-ext-400-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-ext-500-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-ext-500-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-sans/files/fira-sans-latin-ext-700-normal.woff2"
+    target = "static/fonts/fira-sans/fira-sans-latin-ext-700-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
+    target = "static/fonts/fira-mono/fira-mono-latin-400-normal.woff2"
+    [[module.mounts]]
+    source = "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
+    target = "static/fonts/fira-mono/fira-mono-latin-ext-400-normal.woff2"
+
     [[module.mounts]]
     source = "node_modules"
     target = "assets/node_modules"

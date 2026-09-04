@@ -1,6 +1,10 @@
 /* GRASS Fonts */
-$gs-grass-font: 'Fira Sans Regular', sans-serif;
-$gs-grass-font--medium: 'Fira Sans Medium', sans-serif;
-$gs-grass-font--bold: 'Fira Sans Bold', sans-serif;
-$gs-grass-font--light: 'Fira Sans ExtraLight', sans-serif;
-$gs-grass-font--mono: 'Fira Mono', monospace;
+/* Fira is one family (see _font-faces.scss); these vars share the same stack
+   and differ only by the font-weight set at the usage site. Kept as distinct
+   names for the published --gs-* token API and for readable call sites. */
+$gs-grass-font-stack: 'Fira Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+$gs-grass-font: $gs-grass-font-stack;
+$gs-grass-font--medium: $gs-grass-font-stack;
+$gs-grass-font--bold: $gs-grass-font-stack;
+$gs-grass-font--light: $gs-grass-font-stack;
+$gs-grass-font--mono: 'Fira Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
