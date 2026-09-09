@@ -5,6 +5,8 @@ icon: "fa fa-book"
 description: "Get to know the GRASS ecosystem"
 type : "pages"
 weight: 2
+aliases:
+    - /learn/newcomers
 ---
 
 
@@ -16,5 +18,4 @@ You may even [try GRASS online](/learn/tryonline/) to get a feeling of its capab
 
 <p class="small text-dark mb-0">Also:
 <a href="https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2F">Jupyter notebooks</a> &middot;
-<a href="https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ">Google Scholar publications</a> &middot;
-<a href="/learn/newcomers/">First-time users</a></p>
+<a href="https://scholar.google.com/citations?user=gJ0ZB0cAAAAJ">Google Scholar publications</a></p>

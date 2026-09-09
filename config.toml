@@ -262,7 +262,7 @@ weight = 1
 [[Languages.en.menu.main]]
 parent = "Learn"
 name = "First time users"
-URL = "/learn/newcomers"
+URL = "/learn"
 weight = 2
 
 [[Languages.en.menu.main]]
