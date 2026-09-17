@@ -1,3 +1,4 @@
+---
 services:
   build:
     # Renovate manages this image tag; keep it in sync with
