@@ -4,155 +4,93 @@ date: 2025-05-21T10:12:05+02:00
 layout: "overview"
 ---
 
-<div class="container">
-<div class="row mt-30">
-<div class="col-lg-4 text-center">
-<img src="/images/logos/grass-green.svg" width="42%" alt="GRASS">
-</div>
-<div class="col-lg-8">
-<p><b>GRASS</b>, Geographic Resources Analysis Support 
-System, is a powerful computational engine for vector and raster 
-data management, geoprocessing, spatial modelling and visualization.</p>
-<p><b>GRASS</b> is Free and Open Source Software released under the 
-terms of the <a href="/about/license">GNU General Public License (GPL >= v2)</a>. 
-GRASS is a project of the
-<a href="https://osgeo.org">Open Source Geospatial Foundation (OSGeo)</a>
-and is fiscally sponsored by <a href="https://numfocus.org">NumFOCUS</a>.</p>
-</div>
-</div>
-</div>
+{{< columns img="/images/logos/grass-logo/grass-green.svg" alt="GRASS logo" side="left" imgcol="4" imgwidth="42%" imgclass="" rowclass="mt-30" >}}
+**GRASS**, Geographic Resources Analysis Support System, is a powerful
+computational engine for vector and raster data management, geoprocessing,
+spatial modelling and visualization.
+
+**GRASS** is Free and Open Source Software released under the terms of the
+[GNU General Public License (GPL >= v2)](/about/license). GRASS is a project
+of the [Open Source Geospatial Foundation (OSGeo)](https://osgeo.org) and is
+fiscally sponsored by [NumFOCUS](https://numfocus.org).
+{{< /columns >}}
 
 ### General presentation
 
-<div class="container">
-<div class="row mt-20">
-
-<div class="col-lg-6">
-<p>The <b>GRASS</b> project is an international team effort that includes 
-<a href="https://grasswiki.osgeo.org/wiki/Team">scientists and developers</a> 
-from various fields. GRASS has been under continuous development since 1982 
-involving a large number of federal US agencies, universities, 
-and private companies. The development of core components and the management of 
-releases were in charge of the Construction Engineering Research
-Laboratory (CERL) in Champaign, Illinois. However, since 1997 a worldwide 
-network of developers continue to develop and release GRASS. See the 
-<a href="/about/history" target="_blank">GRASS history</a> section 
-and the full list of 
-<a href="/about/history/releases" target="_blank">releases</a>
-for more details.</p>
-
-<!-- <p>The strength and success of GRASS GIS relies on the user community. 
-The <i>philosophy</i> of the GRASS GIS Development Team is to encourage users 
-to develop their own unique tools and applications as well as to improve 
-the existing ones.</p> -->
-
-</div>
-<div class="col-lg-6 text-center">
-<img class="bsh" src="/images/news/grass83_news_screenshot.png" width="99%" alt="GRASS">
-</div>
-
-</div>
-</div>
+{{< columns img="/images/news/grass83_news_screenshot.png" alt="GRASS graphical user interface" side="right" imgwidth="99%" >}}
+The **GRASS** project is an international team effort that includes
+[scientists and developers](https://grasswiki.osgeo.org/wiki/Team) from
+various fields. GRASS has been under continuous development since 1982
+involving a large number of federal US agencies, universities, and private
+companies. The development of core components and the management of releases
+were in charge of the Construction Engineering Research Laboratory (CERL) in
+Champaign, Illinois. However, since 1997 a worldwide network of developers
+continue to develop and release GRASS. See the [GRASS history](/about/history)
+section and the full list of [releases](/about/history/releases) for more
+details.
+{{< /columns >}}
 
 ### Main features
 
-<div class="container">
-<div class="row mt-20">
+{{< columns img="/images/gallery/vector/hexagons_3d_white_outlier.png" alt="3D hexagon visualization made with GRASS" side="left" >}}
+**GRASS** runs on Linux, Mac and Windows. It comes with both an intuitive
+graphical user interface (GUI) and a command line syntax useful for
+automation and production.
 
-<div class="col-lg-6 text-center">
-<img class="bsh" src="/images/gallery/vector/hexagons_3d_white_outlier.png" width="95%" alt="GRASS">
-</div>
+**GRASS** contains over
+**[500 modules](/grass-stable/manuals/full_index.html)** to process and
+render geographic data. The software allows to manipulate a variety of
+raster, vector and 3D formats, and run simple to advanced spatial analysis
+and modeling. GRASS can connect to spatial databases but also interface with
+a variety of third-party systems and libraries. See the *Interfaces* section
+below for details.
+{{< /columns >}}
 
-<div class="col-lg-6">
-<p><b>GRASS</b> runs on Linux, Mac and Windows. It comes with 
-both an intuitive graphical user interface (GUI) and a command line 
-syntax useful for automation and production.</p>
-<p><b>GRASS</b> contains over 
-<b><a href="/grass-stable/manuals/full_index.html" target="_blank">500 modules</a></b>
-to process and render geographic data. The software allows to manipulate
-a variety of raster, vector and 3D formats, and run simple to advanced 
-spatial analysis and modeling. GRASS can connect to spatial databases 
-but also interface with a variety of third-party systems and libraries. 
-See the <i>Interfaces</i> section below for details.</p>
-</div>
-
-</div>
-</div>
-
-
-<div class="container">
-<div class="row mt-20">
-
+{{< columns img="/images/gallery/temporal/summer_solstice_centennial.gif" alt="Animation of summer solstice solar irradiation" side="right" imgcol="5" >}}
 Some selected relevant features are:
 
-<ul>
-<img class="bsh" src="/images/gallery/temporal/summer_solstice_centennial.gif" width="40%" style="float:right;padding-left:10px">
-<li>Support for nearly all common GIS file formats through GDAL-OGR library.</li>
-<li>Raster analysis: map algebra, interpolation, masking, landscape analysis.</li>
-<li>3D raster (voxel) analysis: 3D map algebra, 3D interpolation, 3D visualization.</li>
-<li>SQL: database interfaces to PostgreSQL, SQLite, etc.</li>
-<li>Geo-coding of raster and vector maps.</li>
-<li>Point cloud analysis: LiDAR, interpolation.</li>
-<li>Terrain analysis: contour and surface generation, cost-path and slope-aspect analysis, hydrological tools.</li>
-<li>Vector analysis: topology corrections and generalization, buffer, overlays, network analysis.</li>
-<li>Temporal framework: support for raster and vector time series management and analysis, <strong>big spatio-temporal environmental data</strong>.</li>
-<li>Image processing: aerial, UAV and satellite data (MODIS, Landsat, Sentinel, etc.), supervised and unsupervised classification, full <strong>Object Based Image Analysis</strong> (OBIA) chain.</li>
-<li>Spatial statistics: correlation and covariance analysis, regression, zonal statistics.</li>
-</ul>
-
-</div>
-</div>
+- Support for nearly all common GIS file formats through GDAL-OGR library.
+- Raster analysis: map algebra, interpolation, masking, landscape analysis.
+- 3D raster (voxel) analysis: 3D map algebra, 3D interpolation, 3D visualization.
+- SQL: database interfaces to PostgreSQL, SQLite, etc.
+- Geo-coding of raster and vector maps.
+- Point cloud analysis: LiDAR, interpolation.
+- Terrain analysis: contour and surface generation, cost-path and slope-aspect analysis, hydrological tools.
+- Vector analysis: topology corrections and generalization, buffer, overlays, network analysis.
+- Temporal framework: support for raster and vector time series management and analysis, **big spatio-temporal environmental data**.
+- Image processing: aerial, UAV and satellite data (MODIS, Landsat, Sentinel, etc.), supervised and unsupervised classification, full **Object Based Image Analysis** (OBIA) chain.
+- Spatial statistics: correlation and covariance analysis, regression, zonal statistics.
+{{< /columns >}}
 
 ### Interfaces
 
-<div class="container">
-<div class="row mt-20">
+{{< columns img="/images/news/jupyter_interactive_viewshed.png" alt="Interactive viewshed in a Jupyter notebook" side="left" imgwidth="90%" >}}
+GRASS has various interfaces:
 
-<div class="col-lg-6 text-center">
-<img class="bsh" src="/images/news/jupyter_interactive_viewshed.png" width="90%" alt="GRASS through QGIS">
-</div>
-
-<div class="col-lg-6">
-GRASS has various interfaces: 
-<ul>
-<li>Some users prefer to use GRASS as a Desktop GIS through the <strong>Graphical User Interface</strong>.</li>
-<li>Power users prefer the text-based <strong>command line interface</strong>.</li>
-<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs#The_C-API" target="_blank"><strong>C API</strong></a> for programming.</li>
-<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library" target="_blank">Scripting library</a> and <a href="https://grasswiki.osgeo.org/wiki/Python/pygrass" target="_blank">object-oriented</a> <strong>Python API</strong>.</li>
-<li><a href="https://grasswiki.osgeo.org/wiki/GRASS_GIS_Jupyter_notebooks" target="_blank">Jupyter Notebooks</a>.</li>
-<li><strong>Web interface</strong> through <a href="https://grasswiki.osgeo.org/wiki/WPS" target="_blank">WPS servers</a>.</li>
-<li><a href="https://docs.qgis.org/latest/en/docs/user_manual/grass_integration/grass_integration.html" target="_blank">QGIS</a> provides two different ways to run GRASS modules: Processing toolbox and the GRASS plugin.</li>
-<li>R provides an <a href="https://grasswiki.osgeo.org/wiki/R_statistics" target="_blank">interface to GRASS GIS</a> through the package <strong><i>rgrass</i></strong>.</li>
-<li>It is also possible to <a href="/learn/tryonline" target="_blank">try GRASS online</a>!</li>
-</ul>
-</div>
-
-</div>
-</div>
+- [Graphical User Interface (GUI) Introduction](https://grass.osgeo.org/grass-stable/manuals/helptext.html).
+- [Command Line Introduction](https://grass.osgeo.org/grass-stable/manuals/command_line_intro.html)
+- [**C API**](https://grasswiki.osgeo.org/wiki/GRASS_GIS_APIs#The_C-API) for programming.
+- [GRASS Python Introduction](https://grass.osgeo.org/grass-stable/manuals/python_intro.html).
+- [Jupyter Notebooks](https://grass.osgeo.org/grass-stable/manuals/jupyter_intro.html).
+- **Web interface** through [WPS servers](https://grasswiki.osgeo.org/wiki/WPS).
+- [QGIS](https://docs.qgis.org/latest/en/docs/user_manual/grass_integration/grass_integration.html) provides two different ways to run GRASS modules: Processing toolbox and the GRASS plugin.
+- R provides an [interface to GRASS](https://grasswiki.osgeo.org/wiki/R_statistics) through the package ***rgrass***.
+- It is also possible to [try GRASS online](/learn/tryonline)!
+{{< /columns >}}
 
 ### Addons to extend GRASS functionality
 
-<div class="container">
-<div class="row mt-20">
-
-<div class="col-lg-6">
-<p><b>GRASS</b> capabilities are significantly increased by an impressive
-list of <b>extensions or addons</b>. These modules are contributed by users
-or developers but are not yet part of the standard distribution.
-There are currently more than <b>300 extensions</b> in the 
-<a href="https://github.com/OSGeo/grass-addons/tree/grass8">official GRASS Addons repo</a>
+{{< columns img="/images/addons/number_seasons_ndvi.png" alt="Output of the r.seasons addon" side="right" imgwidth="75%" >}}
+**GRASS** capabilities are significantly increased by an impressive list of
+**extensions or addons**. These modules are contributed by users or
+developers but are not yet part of the standard distribution. There are
+currently more than **300 extensions** in the
+[official GRASS Addons repo](https://github.com/OSGeo/grass-addons/tree/grass8)
 and many others in the wild to perform the most varied type of tasks.
-<br>Have a look at the full list of 
-<a href="/grass-stable/manuals/addons/" target="_blank">addons manual pages</a>
-to get an idea. If you don't find what you need, maybe you can 
-<a href="/contribute/development/">develop</a> your own add-on then.
-Read <a href="/download/addons/">here</a> to learn how to install them.</p>
-</div>
 
-
-<div class="col-lg-6 text-center">
-<img class="bsh" src="https://grass.osgeo.org/grass-stable/manuals/addons/number_seasons_ndvi.png" width="75%" alt="Output of r.seasons' addon">
-</div>
-
-</div>
-</div>
+Have a look at the full list of
+[addons manual pages](/grass-stable/manuals/addons/) to get an idea. If you
+don't find what you need, maybe you can
+[develop](/contribute/development/) your own add-on then. Read
+[here](/download/addons/) to learn how to install them.
+{{< /columns >}}

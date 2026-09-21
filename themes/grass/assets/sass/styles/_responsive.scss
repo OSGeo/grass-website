@@ -1,0 +1,98 @@
+@include media-breakpoint-down(lg) {
+    .col-2 i {
+        font-size: 3rem;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+
+    body {
+        font-size: 14px !important;
+    }
+
+    .navbar .nav-item .nav-link {
+        padding: 9px 9px !important;
+    }
+
+    .navbar .dropdown-item:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    .nm {
+        padding: .75rem !important;
+    }
+
+    p,
+    .paragraph {
+        font-size: 16px;
+    }
+
+    ul li,
+    ul li a {
+        font-size: 16px;
+    }
+
+    .banner p {
+        font-size: 18px;
+        padding: 1rem;
+    }
+
+    .page-title {
+        margin-left: 2px !important;
+    }
+
+    .section {
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+    }
+
+    .section-title {
+        margin-bottom: 32px;
+        font-size: 22px !important;
+    }
+
+    .hero-section {
+        padding-bottom: 0px;
+    }
+
+    .col-2 i {
+        font-size: 1.5rem;
+    }
+
+    .mb-40 {
+        margin-bottom: 20px !important;
+    }
+
+    #links li span a {
+        font-size: 15px !important;
+    }
+
+    .entry-meta {
+        font-size: 14px !important;
+    }
+
+    #books table tr td:first-child {
+        width: 5rem !important;
+        min-width: 5rem !important;
+        max-width: 5rem !important;
+        word-break: break-all;
+    }
+
+    #books table img {
+        max-width: 4rem !important;
+    }
+
+    #books table tr td {
+        padding: 0 !important;
+        font-size: 0.85em !important;
+    }
+
+
+}
+
+/* yard-sign's own threshold, not a Bootstrap breakpoint */
+@media (min-width: 600px) {
+    .yard-sign img {
+        width: 25%;
+    }
+}

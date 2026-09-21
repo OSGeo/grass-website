@@ -1,0 +1,58 @@
+body {
+    background-color: $gs-white-color;
+    overflow-x: hidden;
+}
+
+ol,
+ul {
+    margin: 0px;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+    &[src*="#grass"] {
+        display: inline-block !important;
+        margin: 0px;
+        width: 399px;
+        height: 100px;
+    }
+}
+
+a {
+    text-decoration: none !important;
+    color: $gs-primary-color;
+
+    &:hover,
+    &:focus {
+        color: $gs-primary-dark-color;
+    }
+
+    &.nws {
+        color: $gs-grey-color !important;
+        font-weight: 400;
+        font-size: 22px !important;
+
+        &:hover {
+            color: $gs-primary-dark-color !important;
+        }
+    }
+
+    &.text-light {
+        &:focus,
+        &:hover {
+            color: $gs-white-base-color !important;
+        }
+    }
+}
+
+a,
+button,
+select {
+    cursor: pointer;
+    transition: .2s ease;
+}

@@ -1,0 +1,79 @@
+.grass-green {
+    color: $gs-primary-color;
+}
+
+.grass-green-bg {
+    background: $gs-primary-color;
+}
+
+.grass-green-alt {
+    color: $gs-primary-alt-color;
+}
+
+.grass-green-light {
+    color: $gs-primary-light-color;
+}
+
+.grass-green-dark {
+    color: $gs-primary-dark-color;
+}
+
+.white-color {
+    color: $gs-white-color;
+}
+
+.black-color {
+    color: $gs-black-color;
+}
+
+.grey-color-light {
+    color: $gs-grey-light-color;
+}
+
+.grass-blue {
+    color: $gs-secondary-color;
+}
+
+.grass-blue-bg {
+    background: $gs-secondary-color;
+}
+
+.grass-bg-image {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom,
+            $gs-secondary-color--light 0%,
+            $gs-secondary-color--light 100%),
+        $gs-grass-background-image;
+}
+
+.mwl {
+    display: inline-block;
+    min-width: 45%;
+}
+
+.mwl-l {
+    display: inline-block;
+    min-width: 65%;
+}
+
+.version li {
+    margin-bottom: 9px;
+}
+
+.version li>a {
+    margin-right: 7px;
+}
+
+#links li span a {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 0px 0;
+}
+
+.bigr {
+    font-size: 125%;
+    text-align: top;
+}

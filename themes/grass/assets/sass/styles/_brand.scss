@@ -1,0 +1,136 @@
+.code-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem;
+    background: $gs-grey-light-color;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.code-container pre {
+    margin-bottom: 0;
+    flex-grow: 1;
+    background: none;
+    border: none;
+}
+
+.btn-clipboard {
+    color: $gs-grey-color;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+
+.shortcode-brand-color-varibale-list {
+    font-size: smaller !important;
+    margin-bottom: 0;
+}
+
+.yard-sign {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: $gs-grey-light-color;
+    border: 3px solid $gs-grey-dark-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px $gs-black-color--lighter;
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+
+    /* The pole using a pseudo-element */
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 80px;
+        background: $gs-yard-sign-color;
+        box-shadow: 0 4px 8px $gs-black-color--lighter;
+        border-radius: 4px;
+    }
+
+    /* Style for the image on the sign */
+    img {
+        max-width: 30%;
+        height: auto;
+        border-radius: 4px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        color: $gs-primary-color;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    /* Style the text input below the image */
+    p {
+        border: none;
+        font-size: 1rem;
+        text-align: center;
+        outline: none;
+        background: transparent;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: $gs-secondary-color;
+    }
+}
+
+.brand-logo-download {
+    font-size: 0.75rem
+}
+
+.brand-logo-download-image {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+    img {
+        display: block;
+        width: 100%;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    &:hover img {
+        transform: scale(1.05);
+        opacity: 0.7;
+    }
+
+    &::after {
+        content: "\f019";
+        font-family: "Font Awesome 7 Free";
+        font-weight: 900;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $gs-secondary-dark-color;
+        font-size: 2rem;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
+.grass-gradient {
+    /* font-size: 2.25rem;
+  margin-bottom: 1rem; */
+    font-family: $gs-grass-font;
+    background: -webkit-linear-gradient($gs-primary-color, $gs-secondary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

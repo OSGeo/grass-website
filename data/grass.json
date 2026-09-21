@@ -116,7 +116,7 @@
                 "gentoo": {
                     "id": "gentoo",
                     "title": "Gentoo",
-                    "code": "sudo emerge grass",
+                    "code": "sudo emerge -av sci-geosciences/grass",
                     "url": {
                         "href": "https://packages.gentoo.org/packages/sci-geosciences/grass",
                         "label": "Gentoo packages"

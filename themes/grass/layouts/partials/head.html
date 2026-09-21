@@ -49,6 +49,9 @@
   <meta name="apple-mobile-web-app-title" content="{{.Site.Params.SiteName }}">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="canonical" href="{{ .Permalink }}">
+  {{/* Preload the body-text Fira weight to reduce the flash of fallback text. */}}
+  <link rel="preload" href="{{ "fonts/fira-sans/fira-sans-latin-400-normal.woff2" | relURL }}" as="font"
+    type="font/woff2" crossorigin>
   {{ $highlightjs_styles := resources.Get "css/highlightjs/default.min.css" }}
   <link rel="stylesheet" href="{{ $highlightjs_styles.Permalink }}">
   {{ $flagicons := resources.Get "css/flag-icons/flag-icons.min.css" }}
@@ -74,9 +77,9 @@
   {{ end }}
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | fingerprint }}
   <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
-  <link rel="android-chrome-192x192" sizes="192x192"
+  <link rel="icon" type="image/png" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
-  <link rel="android-chrome-512x512" sizes="512x512"
+  <link rel="icon" type="image/png" sizes="512x512"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-512x512.png">
   <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseURL }}images/favicon/apple-touch-icon-60x60.png">
@@ -100,4 +103,3 @@
 
 <body>
   <noscript>Please enable javascript :)</noscript>
-

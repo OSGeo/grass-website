@@ -1,0 +1,25 @@
+{{- /*
+  Two-column image + markdown text row.
+  Params: img (src, required), alt, side ("left"|"right", default "right"),
+  imgcol (image column width 1-11, default 6), imgwidth (img width attr, default "95%"),
+  imgclass (default "bsh", pass "" for none), rowclass (default "mt-20").
+  Inner content is rendered as markdown and must be flush-left.
+*/ -}}
+{{- $img := .Get "img" -}}
+{{- $alt := .Get "alt" | default "GRASS" -}}
+{{- $side := .Get "side" | default "right" -}}
+{{- $imgcol := int (.Get "imgcol" | default "6") -}}
+{{- $textcol := sub 12 $imgcol -}}
+{{- $imgwidth := .Get "imgwidth" | default "95%" -}}
+{{- $imgclass := "bsh" -}}
+{{- if isset .Params "imgclass" }}{{ $imgclass = .Get "imgclass" }}{{ end -}}
+{{- $rowclass := .Get "rowclass" | default "mt-20" -}}
+{{- $image := printf `<div class="col-lg-%d text-center"><img%s src="%s" width="%s" alt="%s"></div>`
+      $imgcol (cond (ne $imgclass "") (printf ` class=%q` $imgclass) "") $img $imgwidth $alt -}}
+<div class="row {{ $rowclass }}">
+{{- if eq $side "left" }}{{ $image | safeHTML }}{{ end }}
+<div class="col-lg-{{ $textcol }}">
+{{ .Inner | markdownify }}
+</div>
+{{- if eq $side "right" }}{{ $image | safeHTML }}{{ end }}
+</div>

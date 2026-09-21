@@ -1,0 +1,88 @@
+.bg-primary {
+    background: $gs-primary-color !important;
+}
+
+.bg-gray {
+    background-color: $gs-white-color--lightest;
+}
+
+.bg-white {
+    background-color: $gs-white-color !important;
+}
+
+.bg-base-white {
+    background-color: $gs-white-base-color;
+}
+
+.bg-beige {
+    background-color: $gs-grey-light-color;
+}
+
+.text-primary {
+    color: $gs-primary-color !important;
+}
+
+.text-secondary {
+    color: $gs-secondary-color !important;
+}
+
+.text-color {
+    color: $gs-black-color;
+}
+
+.text-dark {
+    color: $gs-grey-dark-color !important;
+}
+
+.text-white {
+    color: $gs-white-color !important;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.npt {
+    padding-top: 0 !important;
+}
+
+.pd-5 {
+    padding: 5px !important;
+}
+
+.pd-10 {
+    padding: 10px !important;
+}
+
+.pd-20 {
+    padding: 20px !important;
+}
+
+.pdt-20 {
+    padding: 3rem 20px 1rem 20px !important;
+}
+
+.pd-40 {
+    padding: 40px !important;
+}
+
+.nm {
+    margin: 0 !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mb-1-5 {
+    margin-bottom: 10px !important;
+}
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+

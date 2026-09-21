@@ -44,7 +44,7 @@ Please read our [privacy policy](/about/privacy/).
 #### License
 
 This website is licensed under the GNU General Public License v3.0<br>
-<a href="https://github.com/OSGeo/grass-website/blob/master/LICENSE" target="_blank">https://github.com/OSGeo/grass-website/blob/master/LICENSE</a>.
+<a href="https://github.com/OSGeo/grass-website/blob/main/LICENSE" target="_blank">https://github.com/OSGeo/grass-website/blob/main/LICENSE</a>.
 
 #### Copyright
 
