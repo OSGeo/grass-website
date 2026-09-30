@@ -84,7 +84,7 @@ the short <a href="/sampledata/spearDB.pdf">documentation</a> and
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/r.sim.water.html" target="_blank"> Overland flow modeling (SIMWE) </a></span>
    <a href="/sampledata/secref_northcarolina_usa_epsg6542.zip" class="inl btn btn-primary" target="_blank">Download ZIP (24 MB)</a>
-   <p>GRASS project for high-resolution overland flow modeling with <em>r.sim.water</em> at the SECREF site in Raleigh, NC, USA (EPSG:6542). DOI: <a href="https://doi.org/10.5281/zenodo.23017719">10.5281/zenodo.23017719</a></p>
+   <p>GRASS project for high-resolution overland flow modeling with <em>r.sim.water</em> at the SECREF (Sediment & Erosion Control Research and Education Facility) site in Raleigh, NC, USA at the North Carolina State University (EPSG:6542). DOI: <a href="https://doi.org/10.5281/zenodo.23017719">10.5281/zenodo.23017719</a></p>
   </li>
   <li>
    <span class="mwl"><a href="/grass-stable/manuals/addons/i.sentinel.html" target="_blank"> Sentinel-2 reduced</a></span>
