@@ -15,6 +15,15 @@ $nav-tabs-link-active-color: $gs-secondary-alt-color;
 // Control listing card title color
 $card-title-color: $gs-grey-dark-color;
 
+// Tables. Content tables get Bootstrap's .table via the render hook in
+// layouts/_markup/render-table.html; these map its look to brand tokens.
+$table-color: $gs-black-color;
+$table-border-color: $gs-grey-alt-color;
+$table-group-separator-color: $gs-grey-alt-color;
+$table-striped-bg: $gs-grey-light-color;
+$table-cell-padding-y: 0.6rem;
+$table-cell-padding-x: 0.9rem;
+
 // Description: This file defines Bootstrap theme variables by mapping them 
 //              to custom color variables. These variables are used to 
 //              customize the appearance of the Bootstrap framework.
@@ -33,13 +42,6 @@ $card-title-color: $gs-grey-dark-color;
 // expect channel triplets, not color objects, and were otherwise unused).
 
 /* Images */
-$gs-images-base-path: 'images';
-$gs-images-logos-small-path: $gs-images-base-path + '/logos/small';
-$gs-svg-logos-base-path: $gs-images-base-path + '/logos/large';
-$gs-icons-base-path: $gs-images-base-path + '/icons';
 $gs-grass-background-image: url("/images/banners/banner.jpg");
 
 /* Icons */
-$gs-grass-logo-white-simple: url($gs-images-logos-small-path + '/grass-logo-green-simple@05x.png');
-$gs-grass-logo-simple-svg: url($gs-svg-logos-base-path + '/grass-green-no-text.svg');
-$gs-grass-icon: url($gs-icons-base-path + '/grass-icon.svg');

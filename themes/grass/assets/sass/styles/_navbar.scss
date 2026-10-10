@@ -76,7 +76,7 @@
     border-color: $gs-grey-alt-color $gs-grey-alt-color $gs-white-color $gs-grey-alt-color;
 }
 
-@media (max-width: 991px) {
+@include media-breakpoint-down(lg) {
     .navbar {
         .dropdown-menu {
             display: none;
@@ -133,27 +133,12 @@
     }
 }
 
-.navbar-light .navbar-brand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: color 0.4s linear;
-    -webkit-transition: color 0.4s linear;
-    -moz-transition: color 0.4s linear;
-
-    i {
-        display: inline-block;
-        margin-right: 7px;
-        color: $gs-primary-color !important;
-    }
-}
-
 .gitter-banner {
     background: $gs-secondary-color;
     text-align: center;
     color: $gs-grey-light-color;
     font-weight: bolder;
-    padding: 2px 15px 3px
+    padding: 2px 15px 3px;
 
     a {
         text-decoration: underline !important;
