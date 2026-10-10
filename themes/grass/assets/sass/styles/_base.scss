@@ -1,5 +1,4 @@
 html {
-    background-color: $gs-white-color;
 }
 
 body {
@@ -7,8 +6,6 @@ body {
     font-family: $gs-grass-font;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
-    color: $gs-black-color;
-    background-color: $gs-white-color;
 }
 
 main {
@@ -17,7 +14,6 @@ main {
 
 p,
 .paragraph {
-    color: $gs-black-color;
     font-family: $gs-grass-font;
 }
 
@@ -80,12 +76,12 @@ h5 {
     margin: 1rem 0;
     font-size: 1.1rem;
     font-weight: 700;
-    color: $gs-black-color--light;
+    color: var(--bs-secondary-color);
     letter-spacing: -0.01em;
 }
 
 h6 {
-    color: $gs-black-color--light;
+    color: var(--bs-secondary-color);
     font-family: $gs-grass-font--light;
     font-weight: 200;
     font-size: 1rem;

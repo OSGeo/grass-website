@@ -24,7 +24,7 @@
 }
 
 .timeline .panel-title a {
-    color: $gs-black-color !important;
+    color: var(--bs-body-color) !important;
 }
 
 .timeline .panel-title a:hover {
