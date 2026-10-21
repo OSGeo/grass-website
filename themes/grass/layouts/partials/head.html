@@ -79,7 +79,7 @@
   {{ end }}
   {{ end }}
   {{ $bootstrap_js := resources.Get "js/bootstrap/bootstrap.bundle.min.js" | resources.Fingerprint }}
-  <script src="{{ $bootstrap_js.Permalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
+  <script src="{{ $bootstrap_js.RelPermalink }}" integrity="{{ $bootstrap_js.Data.Integrity }}"></script>
   <link rel="icon" type="image/png" sizes="192x192"
     href="{{ .Site.BaseURL }}images/favicon/android-chrome-192x192.png">
   <link rel="icon" type="image/png" sizes="512x512"
