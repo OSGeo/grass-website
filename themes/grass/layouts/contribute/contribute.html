@@ -7,10 +7,9 @@
             {{$currentNode := .}}
             <nav class="sidebar-menu">
               <div class="list-styled" style="margin-left: 2em">
-                {{- range .Site.Sections.ByWeight -}} {{ partial "sidebar-menu-contribute.html" (dict "sect" . "currentnode" $currentNode) }} {{- end -}}
+                {{- range .Site.Sections.ByWeight -}} {{ partial "sidebar-menu.html" (dict "sect" . "currentnode" $currentNode) }} {{- end -}}
               </div>
-            </nav></li>
-              </ul>
+            </nav>
           </div>
         </div>
         <div class="col-lg-8">
