@@ -3,11 +3,11 @@
 }
 
 .bg-gray {
-    background-color: $gs-white-color--lightest;
+    background-color: var(--bs-tertiary-bg);
 }
 
 .bg-white {
-    background-color: $gs-white-color !important;
+    background-color: var(--bs-body-bg) !important;
 }
 
 .bg-base-white {
@@ -27,7 +27,7 @@
 }
 
 .text-color {
-    color: $gs-black-color;
+    color: var(--bs-body-color);
 }
 
 .text-dark {

@@ -39,6 +39,50 @@
             {{- end }}
             {{ end }}
         </ul>
+        <div class="d-flex align-items-center ms-lg-3">
+            <button class="btn btn-link nav-link px-0 text-light" id="theme-toggle" type="button" aria-label="Toggle theme">
+                <i class="fas fa-adjust"></i>
+            </button>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const getStoredTheme = () => localStorage.getItem('theme')
+                const setStoredTheme = theme => localStorage.setItem('theme', theme)
+                const getPreferredTheme = () => {
+                    const storedTheme = getStoredTheme()
+                    if (storedTheme) {
+                        return storedTheme
+                    }
+                    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+                }
+                const setTheme = theme => {
+                    if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                        document.documentElement.setAttribute('data-bs-theme', 'dark')
+                    } else {
+                        document.documentElement.setAttribute('data-bs-theme', theme)
+                    }
+                }
+                const showActiveTheme = (theme) => {
+                    const btn = document.querySelector('#theme-toggle i')
+                    if (!btn) return
+                    if (theme === 'dark') {
+                        btn.className = 'fas fa-sun'
+                    } else {
+                        btn.className = 'fas fa-moon'
+                    }
+                }
+                
+                showActiveTheme(getPreferredTheme())
+                
+                document.getElementById('theme-toggle')?.addEventListener('click', () => {
+                    const current = document.documentElement.getAttribute('data-bs-theme')
+                    const next = current === 'dark' ? 'light' : 'dark'
+                    setStoredTheme(next)
+                    setTheme(next)
+                    showActiveTheme(next)
+                })
+            })
+        </script>
 
     </div>
     </div>
