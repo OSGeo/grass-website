@@ -37,7 +37,7 @@
         opacity: 0;
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
-        background: $gs-white-color;
+        background: var(--bs-body-bg);
 
         &.view {
             visibility: visible !important;
@@ -55,7 +55,7 @@
 
     .dropdown-item {
         position: relative;
-        color: $gs-grey-dark-color;
+        color: var(--bs-body-color);
         transition: .2s ease;
         font-family: $gs-grass-font;
 
@@ -72,7 +72,7 @@
 
 .nav-tabs .nav-link.active {
     color: $gs-primary-color;
-    background-color: $gs-white-color;
+    background-color: var(--bs-body-bg);
     border-color: $gs-grey-alt-color $gs-grey-alt-color $gs-white-color $gs-grey-alt-color;
 }
 
