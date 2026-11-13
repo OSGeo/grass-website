@@ -35,7 +35,7 @@
             <h4 class="page-title mb-4">{{ .Title }}</h4>
 
           <ul>
-            {{ range .Data.Pages }}
+            {{ range .Pages }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>
