@@ -1,20 +1,8 @@
-{{ partial "head.html" . }}
+{{ define "header" }}
+{{ partial "page-header.html" (dict "page" . "bg" "bg-white" "container" "container bg-white") }}
+{{ end }}
 
-{{ "<!-- navigation -->" | safeHTML }}
-<header class="shadow-bottom position-relative">
-  <div class="fixed-top">
-    {{ partial "banner.html" . }}
-    <div class="bg-white">
-      <div class="container bg-white">
-        {{ partial "navigation.html" . }}
-      </div>
-    </div>
-  </div>
-</header>
-{{ "<!-- /navigation -->" | safeHTML }}
-
-
-
+{{ define "main" }}
 <!-- details page -->
 <section class="pt-4 bg-gray mt-95">
   <div class="container">
@@ -34,6 +22,4 @@
     </div>
   </div>
 </section>
-
-
-{{ partial "footer.html" . }}
+{{ end }}

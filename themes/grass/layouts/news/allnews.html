@@ -1,19 +1,8 @@
-{{/*  themes/grass/layouts/news/allnews.html  */}}
-{{ partial "head.html" . }}
+{{ define "header" }}
+{{ partial "page-header.html" (dict "page" . "class" "shadow-bottom bg-primary") }}
+{{ end }}
 
-{{ "<!-- navigation -->" | safeHTML }}
-<header class="shadow-bottom bg-primary">
-  <div class="fixed-top">
-    {{ partial "banner.html" . }}
-    <div class="bg-primary">
-      <div class="container bg-primary">
-        {{ partial "navigation.html" . }}
-      </div>
-    </div>
-  </div>
-</header>
-{{ "<!-- /navigation -->" | safeHTML }}
-
+{{ define "main" }}
 <section class="pt-4 bg-gray" style="margin-top:95px;">
 
   <div class="container">
@@ -141,5 +130,4 @@
   </div>
 
 </section>
-
-{{ partial "footer.html" . }}
+{{ end }}
