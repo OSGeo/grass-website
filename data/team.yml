@@ -2,18 +2,22 @@ members:
   - name: Dr. Verónica Andreo
     psc:
         status: active
-        role: chair
+        role: member
         periods:
           - start: 2020
             end: 2024
+            role: chair
+          - start: 2024
+            end: 2026
+            role: chair
         chair:
-          terms: 2020 - Present
+          terms: 2020 - 2026
     maintainer: true
     image: /images/team/Veronica_Andreo_PSC_Chair.jpg
     website: https://veroandreo.gitlab.io/
     job: National Research Council (CONICET) - Instituto Gulich (UNC-CONAE), AR
     country: AR
-    bio: Veronica Andreo holds a PhD in Biology and an MSc in Remote Sensing and GIS Applications. She is part of the GRASS Dev Team, and serves as PSC chair since 2021. She is currently working at the Center for Geospatial Analytics, NC State University, within an NSF grant aimed at bolstering and broadening the software ecosystem of GRASS GIS.
+    bio: Veronica Andreo holds a PhD in Biology and an MSc in Remote Sensing and GIS Applications. She is part of the GRASS Dev Team, and served as PSC chair from 2021 to 2026.
     social:
       - icon: fa fa-envelope
         link: mailto:veroandreo@gmail.com
@@ -28,7 +32,7 @@ members:
 
   - name: Dr. Markus Neteler
     psc:
-        status: active
+        status: former
         role: member
         periods:
           - start: 2006
@@ -42,6 +46,9 @@ members:
             role: chair
           - start: 2020
             end: 2024
+            role: member
+          - start: 2024
+            end: 2026
             role: member
         chair:
           terms: 2006 - 2012, 2012 - 2016, 2016 - 2020
@@ -87,6 +94,8 @@ members:
        periods:
           - start: 2020
             end: 2024
+          - start: 2024
+            end: 2026
     image: /images/team/Huidae_Cho_PSC.jpg
     website: https://hcho.isnew.info/
     job: New Mexico State University, Las Cruces, NM, US
@@ -107,7 +116,7 @@ members:
         role: member
         periods:
           - start: 2024
-            end: 2024
+            end: 2026
     image: /images/team/Linda_Karlovska_PSC.jpg
     website: https://geomatics.fsv.cvut.cz/en/employees/linda-karlovska/
     job: Czech Technical University in Prague, CZ
@@ -125,7 +134,7 @@ members:
         role: member
         periods:
           - start: 2024
-            end: 2024
+            end: 2026
     image: /images/team/Paulo_van_Breugel_PSC.jpg
     website: https://ecodiv.earth/about.html
     job: HAS green academy, NL
@@ -146,7 +155,7 @@ members:
         role: member
         periods:
           - start: 2024
-            end: 2024
+            end: 2026
     image: /images/team/Nicklas_Larsson_PSC.jpg
     website: https://github.com/nilason
     job: Hungarian National Museum, HU
@@ -156,6 +165,24 @@ members:
         link: mailto:n_larsson.yahoo.com
       - icon: fab fa-github
         link: https://github.com/nilason
+
+
+  - name: Corey White
+    psc:
+        status: active
+        role: member
+        periods:
+          - start: 2026
+            end: 2026
+    image: /images/team/Corey_White_PSC.jpg
+    website: https://github.com/cwhite911
+    job: North Carolina State University and OpenPlains Inc., US
+    country: US
+    social:
+      - icon: fab fa-github
+        link: https://github.com/cwhite911
+      - icon: fab fa-linkedin
+        link: https://www.linkedin.com/in/corey-white-a6080312b/
 
   - name: Dr. Martin Landa
     psc:
@@ -212,6 +239,8 @@ members:
             end: 2020
           - start: 2020
             end: 2024
+          - start: 2024
+            end: 2026
     image: /images/team/Vaclav_Petras_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/people/vaclav-petras/
     job: North Carolina State University, Raleigh NC, US
@@ -229,16 +258,21 @@ members:
   - name: Dr. Anna Petrasova
     psc:
         status: active
-        role: member
+        role: chair
         periods:
           - start: 2016
             end: 2020
           - start: 2020
             end: 2024
+          - start: 2024
+            end: 2026
+        chair:
+          terms: 2026 - Present
     image: /images/team/Anna_Petrasova_PSC.jpg
     website: https://cnr.ncsu.edu/geospatial/people/anna-petrasova/
     job: North Carolina State University, Raleigh NC, US
     country: US
+    bio: Anna Petrasova holds a PhD in Geospatial Analytics and works as a geospatial research software engineer at the Center for Geospatial Analytics, NC State University. She is a long-time member of the GRASS Development Team, has been a PSC member since 2016, and serves as PSC chair since November 2026.
     social:
       - icon: fa fa-envelope
         link: mailto:kratochanna@gmail.com
@@ -254,6 +288,8 @@ members:
         periods:
           - start: 2020
             end: 2024
+          - start: 2024
+            end: 2026
     image: /images/team/Helmut_Kudrnovsky_PSC.jpg
     email: hellik@web.de
     website: https://www.osgeo.org/member/kudrnovsky/
@@ -462,6 +498,8 @@ members:
 # Maciej Sieczka (msieczka * sieczka org) ​Home page, PL
 
 periods:
+  - start: 2024
+    end: 2026
   - start: 2020
     end: 2024
   - start: 2016
