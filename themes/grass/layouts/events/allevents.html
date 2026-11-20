@@ -23,12 +23,12 @@
       <div id="news" class="p-5 bg-white">
 	      <h1 class="page-title">{{ .Title }}</h1>
 
-	      {{ $events := ( where .Data.Pages "Section" "events" ) }}
+	      {{ $events := ( where .Pages "Section" "events" ) }}
 	      {{ range (sort $events ".Params.event.start" "desc") }}
 <div class="row">
       <div class="col-lg-4 pd-10">
 
-<img src="{{.Site.BaseURL}}/{{.Page.Params.logo}}" class="eventslogo" alt="{{ .Title }}">
+<img src="{{ .Page.Params.logo | relURL }}" class="eventslogo" alt="{{ .Title }}">
       </div>
       <div class="col-lg-8 mb-10">
       <h2 class="entry-title event-title"><a href="{{ .Page.Params.website }}" target="_blank" class="nws">{{ .Title }}</a></h2><span class="entry-meta">

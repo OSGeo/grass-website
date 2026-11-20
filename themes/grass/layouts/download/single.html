@@ -44,8 +44,7 @@
               {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
               {{if ne $numberOfPages 0}}
               <ul class="{{ if .IsAncestor $currentNode }}sub-menu{{ end }}">
-              {{- .Scratch.Set "pages" .Data.Pages -}}
-              {{- $pages := (.Scratch.Get "pages") -}}
+              {{- $pages := .Pages -}}
                 {{- range $pages.ByWeight -}}
                   {{template "menu" dict "sect" . "currentnode" $currentNode}}
                 {{- end -}}
@@ -55,7 +54,7 @@
             {{- end -}}
             {{- else -}}
               {{- if not .Params.Hidden -}}
-              <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+              <li class="{{ if eq .RelPermalink $currentNode.RelPermalink }}active{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
               {{- end -}}
             {{ end -}}
             {{ end }}

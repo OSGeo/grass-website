@@ -14,10 +14,5 @@
     "flag-icons": "^7.5.0",
     "ol": "^10.9.0",
     "photoswipe": "^5.4.4"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.28.6",
-    "@babel/core": "^7.28.6",
-    "@babel/preset-env": "^7.28.6"
   }
 }
