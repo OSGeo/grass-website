@@ -77,7 +77,7 @@ jobs:
           sudo dpkg -i "$TEMP_DIR/hugo.deb"
 
       # Pinned for reproducibility. Note: with Hugo 0.113 the site compiles via
-      # Hugo Extended's built-in libsass (head.html sets no "transpiler"
+      # Hugo Extended's built-in libsass (head/assets.html sets no "transpiler"
       # option), so this binary is not exercised yet; it is pinned now so the
       # planned Hugo/Dart Sass upgrade inherits a reproducible toolchain.
       - name: Install Dart Sass

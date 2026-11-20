@@ -1,6 +1,5 @@
 baseURL = "https://grass.osgeo.org/"
 theme = ["grass"]
-enableInlineShortcodes = true
 
 [params]
 siteName = "GRASS"
@@ -17,6 +16,7 @@ filename = "sitemap_hugo.xml"
 priority = 0.5
 
 [security]
+  enableInlineShortcodes = true
   [security.exec]
     # ^sass$ is unused on Hugo 0.113 (libsass compiles the SCSS) but pre-arms
     # the Dart Sass transpiler switch that comes with the Hugo upgrade.
