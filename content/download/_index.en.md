@@ -3,8 +3,8 @@ title: "Download"
 date: 2026-07-22T11:02:05+02:00
 icon: "fa fa-download"
 description: "Download and install GRASS for Windows, macOS, Linux, Docker, or conda — free and open source"
+topic: true
 weight: 1
-type: "pages"
 layout: "tabs"
 aliases:
     - /download/linux
