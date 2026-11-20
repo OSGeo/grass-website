@@ -170,7 +170,7 @@ Styles are authored in SCSS under `themes/grass/assets/sass/` and compiled by
 Hugo's Dart Sass pipeline. The entry point `main.scss` imports the GRASS brand
 tokens and Bootstrap variable overrides **before** Bootstrap, so Bootstrap's
 defaults yield to the GRASS theme; custom rules in `_styles.scss` load last. The
-compilation is wired in `themes/grass/layouts/partials/head.html` (the `toCSS`
+compilation is wired in `themes/grass/layouts/partials/head/assets.html` (the `toCSS`
 call with `includePaths` pointing at `node_modules/bootstrap/scss`), which is
 why `npm ci` must run before any build. See
 `themes/grass/assets/sass/README.md` for the file-by-file breakdown.
@@ -203,9 +203,9 @@ target = "assets/js/<package>/<file>.min.js"
 ```
 
 ```go-html-template
-{{/* themes/grass/layouts/partials/head.html */}}
+{{/* themes/grass/layouts/partials/scripts.html */}}
 {{ $lib := resources.Get "js/<package>/<file>.min.js" }}
-<script src="{{ $lib.Permalink }}"></script>
+<script src="{{ $lib.RelPermalink }}"></script>
 ```
 
 Example (CSS):
@@ -218,7 +218,7 @@ target = "assets/css/<package>/<file>.min.css"
 ```
 
 ```go-html-template
-{{/* themes/grass/layouts/partials/head.html */}}
+{{/* themes/grass/layouts/partials/head/assets.html */}}
 {{ $styles := resources.Get "css/<package>/<file>.min.css" }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 ```
