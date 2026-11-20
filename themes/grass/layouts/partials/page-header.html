@@ -1,0 +1,26 @@
+{{/* Fixed navigation header. Called from baseof's "header" block; templates
+     with a variant override the block and pass options:
+       page      the page context (required)
+       class     classes on <header>   (default "shadow-bottom position-relative")
+       banner    false omits the promo banner
+       bg        wrapper background    (default "bg-primary")
+       container container classes     (default "container bg-primary")
+       fixed     false drops the fixed-top wrapper */}}
+{{- $page := .page -}}
+{{- $class := .class | default "shadow-bottom position-relative" -}}
+{{- $banner := ne .banner false -}}
+{{- $bg := .bg | default "bg-primary" -}}
+{{- $container := .container | default "container bg-primary" -}}
+{{- $fixed := ne .fixed false -}}
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="{{ $class }}">
+  {{ if $fixed }}<div class="fixed-top">{{ end }}
+    {{ if $banner }}{{ partial "banner.html" $page }}{{ end }}
+    <div class="{{ $bg }}">
+      <div class="{{ $container }}">
+        {{ partial "navigation.html" $page }}
+      </div>
+    </div>
+  {{ if $fixed }}</div>{{ end }}
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}
