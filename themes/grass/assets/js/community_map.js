@@ -1,5 +1,5 @@
 // Community map (/about/map). OpenLayers is loaded as its standalone UMD build
-// (window.ol) from footer.html. Do NOT convert this to `import ... from 'ol/...'`
+// (window.ol) from scripts.html. Do NOT convert this to `import ... from 'ol/...'`
 // bundled by Hugo's js.Build: esbuild breaks OL's internal `instanceof` checks
 // (View, Style, ...), which crashes the map at construction.
 

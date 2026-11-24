@@ -18,7 +18,7 @@ Hugo Integration Documentation:
 - `assets/sass/_variables.scss`: Contains additional Sass variables for customization.
 - `assets/sass/_community_map.scss`: Contain additional Sass variable for community
   map
-- `layouts/partials/head.html`: The HTML partial that includes the compiled CSS
+- `layouts/partials/head/assets.html`: The HTML partial that includes the compiled CSS
   files in the site head.
 
 ## Dead-code passes: what "unused" does not mean
