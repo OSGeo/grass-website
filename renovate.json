@@ -4,7 +4,8 @@
     "config:recommended",
     "customManagers:githubActionsVersions",
     "customManagers:dockerfileVersions",
-    "helpers:pinGitHubActionDigests"
+    "helpers:pinGitHubActionDigests",
+    ":enablePreCommit"
   ],
   "packageRules": [
     {

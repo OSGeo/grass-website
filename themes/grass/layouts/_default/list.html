@@ -1,18 +1,4 @@
-{{ partial "head.html" . }}
-
-{{ "<!-- navigation -->" | safeHTML }}
-<header class="shadow-bottom position-relative">
-  <div class="fixed-top">
-    {{ partial "banner.html" . }}
-    <div class="bg-primary">
-      <div class="container bg-primary">
-        {{ partial "navigation.html" . }}
-      </div>
-    </div>
-  </div>
-</header>
-  {{ "<!-- /navigation -->" | safeHTML }}
-
+{{ define "main" }}
 <!-- page title -->
 <section class="section bg-lgr">
   <div class="container">
@@ -35,7 +21,7 @@
             <h4 class="page-title mb-4">{{ .Title }}</h4>
 
           <ul>
-            {{ range .Data.Pages }}
+            {{ range .Pages }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>
@@ -54,6 +40,4 @@
   </div>
 </section>
 <!-- /details page -->
-
-
-{{ partial "footer.html" . }}
+{{ end }}
