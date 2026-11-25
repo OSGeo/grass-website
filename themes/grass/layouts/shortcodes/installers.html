@@ -7,7 +7,7 @@
 {{- $os := .Get "os" -}}
 {{- $order := .Get "sort" | default "asc" -}}
 {{- $group := .Get "group" | default "installers" -}}
-{{- $data := index .Site.Data.grass.install $os -}}
+{{- $data := index hugo.Data.grass.install $os -}}
 {{- if not $data -}}
 {{- errorf "installers: no install data for os %q (used in %s)" $os $.Position -}}
 {{- end -}}

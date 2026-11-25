@@ -3,7 +3,7 @@
        With a "url" argument a single download button is rendered instead of
        the binaries dropdown:
        grass-download os="macOS" url="https://..." */ -}}
-{{- $grass := .Site.Data.grass -}}
+{{- $grass := hugo.Data.grass -}}
 {{- $args := dict
     "os" (.Get "os")
     "version" $grass.current_version

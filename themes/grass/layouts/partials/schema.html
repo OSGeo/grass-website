@@ -32,7 +32,7 @@
       "name": "{{ $siteName }}",
       "url": "{{ .Site.BaseURL }}",
       "description": {{ .Site.Params.description | jsonify }},
-      "inLanguage": "{{ .Site.LanguageCode | default "en-US" }}",
+      "inLanguage": "{{ .Site.Language.Locale | default "en-US" }}",
       "publisher": { "@id": "{{ .Site.BaseURL }}#organization" }
     },
     {
@@ -42,7 +42,7 @@
       "url": "{{ .Site.BaseURL }}",
       "applicationCategory": "GeographicInformationSystemApplication",
       "operatingSystem": "Linux, macOS, Windows",
-      "softwareVersion": "{{ .Site.Data.grass.current_version }}",
+      "softwareVersion": "{{ hugo.Data.grass.current_version }}",
       "downloadUrl": "{{ .Site.BaseURL }}download/",
       "description": {{ .Site.Params.description | jsonify }},
       "license": "https://www.gnu.org/licenses/gpl-2.0.html",

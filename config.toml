@@ -18,8 +18,8 @@ priority = 0.5
 [security]
   enableInlineShortcodes = true
   [security.exec]
-    # ^sass$ is unused on Hugo 0.113 (libsass compiles the SCSS) but pre-arms
-    # the Dart Sass transpiler switch that comes with the Hugo upgrade.
+    # ^sass$ lets Hugo run Dart Sass, which compiles the SCSS
+    # (see layouts/partials/head/assets.html).
     allow = ['^go$', '^sass$']
 
 [module]
@@ -113,6 +113,15 @@ defaultMarkdownHandler = "goldmark"
 [markup.goldmark.renderer]
 unsafe = true
 
+# Hugo's embedded link and image render hooks rewrite content URLs and replace
+# ftp:, irc:, news:, and data: URLs with #ZgotmplZ. Keep Goldmark's plain
+# rendering, which the content was written for.
+[markup.goldmark.renderHooks.image]
+useEmbedded = "never"
+
+[markup.goldmark.renderHooks.link]
+useEmbedded = "never"
+
 # Code is highlighted client-side by highlight.js (with the GRASS theme in
 # themes/grass/assets/sass/_styles.scss). Disable Hugo's built-in Chroma so
 # fenced blocks are emitted as plain <pre><code class="language-*"> and are not
@@ -137,9 +146,9 @@ home = ["HTML", "sitemap", "RSS"]
 
 # English Language
 [Languages.en]
-languageName = "En"
+label = "En"
 weight = 1
-languageCode = "en-us"
+locale = "en-us"
 title = "GRASS - Bringing advanced geospatial technologies to the world"
 copyright = "1998-{year}, GRASS Development Team"
 

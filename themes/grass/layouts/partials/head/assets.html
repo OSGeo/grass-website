@@ -15,16 +15,18 @@
   <link rel="stylesheet" href="{{ .Permalink }}">
   {{ end }}
   {{ with resources.Get "sass/main.scss" }}
+  {{/* main.scss stays on @import until Bootstrap supports @use, and Bootstrap
+       5.3 itself triggers Dart Sass deprecations, so silence exactly those. */}}
   {{ $cssopts := dict
+  "transpiler" "dartsass"
   "targetPath" "css/style.css"
   "outputStyle" "compressed"
   "enableSourceMap" false
   "includePaths" (slice "node_modules/bootstrap/scss")
+  "silenceDeprecations" (slice "import")
+  "silenceDependencyDeprecations" true
   }}
-  {{/* toCSS is the only spelling valid on both Hugo 0.113 and current Hugo
-       (resources.ToCSS is removed upstream). At the Hugo upgrade: switch to
-       css.Sass with transpiler dartsass. */}}
-  {{ with . | toCSS $cssopts }}
+  {{ with . | css.Sass $cssopts }}
   <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
   {{ end }}

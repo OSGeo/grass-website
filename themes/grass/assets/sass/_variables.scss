@@ -17,6 +17,10 @@ $card-title-color: $gs-grey-dark-color;
 
 // Tables. Content tables get Bootstrap's .table via the render hook in
 // layouts/_markup/render-table.html; these map its look to brand tokens.
+// A transparent background and centered cells match the bare-table fallback
+// in _layout.scss.
+$table-bg: transparent;
+$table-cell-vertical-align: middle;
 $table-color: $gs-black-color;
 $table-border-color: $gs-grey-alt-color;
 $table-group-separator-color: $gs-grey-alt-color;

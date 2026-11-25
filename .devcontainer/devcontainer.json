@@ -11,7 +11,7 @@
       "version": "24.22.1"
     },
     "ghcr.io/devcontainers/features/hugo:1": {
-      "version": "0.113.0",
+      "version": "0.169.0",
       "extended": true
     }
   },
@@ -27,7 +27,7 @@
     "HUGO_ENVIRONMENT": "development",
     "HUGO_ENV": "development"
   },
-  "postCreateCommand": "npm ci",
+  "postCreateCommand": "bash .devcontainer/install-dart-sass.sh && npm ci",
   "waitFor": "postCreateCommand",
   "customizations": {
     "vscode": {

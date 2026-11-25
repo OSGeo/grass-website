@@ -1,7 +1,7 @@
 ---
 title: "Source Code"
 description: "Download the GRASS source code"
-_build:
+build:
   render: never
   list: never
 ---

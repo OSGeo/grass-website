@@ -2,7 +2,7 @@
 title: "Conda"
 date: 2026-02-20T10:00:00+00:00
 description: "Install GRASS with conda from conda-forge"
-_build:
+build:
   render: never
   list: never
 ---
