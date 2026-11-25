@@ -7,7 +7,8 @@
 # Legacy content under content/ and themes/ is excluded from the formatting
 # hooks until the Bootstrap 5 migration stack (#599, #644, #645) lands, to
 # avoid mass-formatting conflicts with those open PRs. Widening the scope is
-# a follow-up cleanup.
+# a follow-up cleanup. The 1996 CERL archive in static/news/cerl1996/ is a
+# verbatim historical copy and stays excluded permanently.
 default_language_version:
   node: lts
 repos:
@@ -18,6 +19,7 @@ repos:
         exclude: |
           (?x)^(
                 content/.*|
+                static/news/cerl1996/.*|
                 themes/.*|
                 docker-compose.*\.yml$|
                 .*\.md$|
@@ -28,6 +30,7 @@ repos:
         exclude: |
           (?x)^(
                 content/.*|
+                static/news/cerl1996/.*|
                 themes/.*|
                 docker-compose.*\.yml$|
                 .*\.svg$|
