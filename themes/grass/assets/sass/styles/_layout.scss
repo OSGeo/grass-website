@@ -76,6 +76,17 @@ table:not(.table) {
     }
 }
 
+// The render hook wraps tables in .table-responsive, whose overflow stops the
+// table's bottom margin from collapsing with the next element. Keep the margin
+// on the wrapper instead so spacing matches bare tables.
+.table-responsive {
+    margin-bottom: 1rem;
+
+    >.table {
+        margin-bottom: 0;
+    }
+}
+
 #books table tr td:first-child {
     width: 10rem;
     min-width: 10rem;
