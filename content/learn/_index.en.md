@@ -3,7 +3,7 @@ title: "Learn"
 date: 2025-05-21T11:30:00Z
 icon: "fa fa-book"
 description: "Get to know the GRASS ecosystem"
-type : "pages"
+topic: true
 weight: 2
 aliases:
     - /learn/newcomers

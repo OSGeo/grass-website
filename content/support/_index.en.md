@@ -3,7 +3,7 @@ title: "Support"
 date: 2025-05-21T12:00:00Z
 icon: "fa fa-life-ring"
 description: "Find community and commercial support"
-type: "pages"
+topic: true
 layout: "support"
 ---
 
