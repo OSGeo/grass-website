@@ -57,7 +57,7 @@ jobs:
       # Toolchain version pins, kept current by Renovate (see the custom
       # manager in renovate.json that matches these annotations).
       # renovate: datasource=github-releases depName=gohugoio/hugo
-      HUGO_VERSION: 0.113.0
+      HUGO_VERSION: 0.169.0
       # renovate: datasource=github-releases depName=sass/dart-sass
       DART_SASS_VERSION: 1.105.1
     steps:
@@ -76,10 +76,8 @@ jobs:
           || wget -O "$TEMP_DIR/hugo.deb" "$base/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
           sudo dpkg -i "$TEMP_DIR/hugo.deb"
 
-      # Pinned for reproducibility. Note: with Hugo 0.113 the site compiles via
-      # Hugo Extended's built-in libsass (head/assets.html sets no "transpiler"
-      # option), so this binary is not exercised yet; it is pinned now so the
-      # planned Hugo/Dart Sass upgrade inherits a reproducible toolchain.
+      # Hugo runs this binary to compile the SCSS (head/assets.html sets
+      # "transpiler" to "dartsass"). Pinned for reproducibility.
       - name: Install Dart Sass
         env:
           TEMP_DIR: ${{ runner.temp }}

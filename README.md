@@ -103,7 +103,7 @@ The site is built with **Hugo Extended** and compiles its styles with **Dart
 Sass**, so the plain (non-extended) Hugo will not work. Frontend libraries are
 installed with npm, and the pinned Hugo build uses an external Dart Sass binary.
 
-The exact pinned versions live in the docker compose files (`hugomods/hugo`
+The exact pinned versions live in the docker compose files (`ghcr.io/gohugoio/hugo`
 image tags), `.devcontainer/devcontainer.json`, the workflows under
 `.github/workflows/`, and `.nvmrc` for Node.js. Renovate keeps all of these
 pins current automatically. Check those files for the current values rather
@@ -114,8 +114,8 @@ Any of the options below gives you a working toolchain. The container options
 
 ### Option A: Dev Container
 
-A Dev Container config in `.devcontainer/` provides a consistent Hugo/Node setup
-and works with any tool that supports `devcontainer.json` (VS Code Dev
+A Dev Container config in `.devcontainer/` provides a consistent Hugo, Node.js,
+and Dart Sass setup and works with any tool that supports `devcontainer.json` (VS Code Dev
 Containers, GitHub Codespaces). In VS Code: Command Palette →
 `Dev Containers: Reopen in Container`, then:
 
@@ -147,14 +147,16 @@ docker compose down                # stop
 docker compose run --rm build      # one-off build without starting Nginx
 ```
 
-The build uses the `hugomods/hugo` image (Extended Hugo + Go + Node.js + Git +
-Dart Sass); see [docker.hugomods.com](https://docker.hugomods.com/docs/tags/).
+The build uses the official Hugo image (Extended Hugo + Dart Sass + Go +
+Node.js + Git); see the
+[image on GitHub](https://github.com/gohugoio/hugo/pkgs/container/hugo).
 
 ### Option D: Run Hugo locally
 
 Install **Hugo Extended** (see the
 [Hugo installation docs](https://gohugo.io/installation/); the extended build is
-mandatory) and Node.js at the version pinned in `.nvmrc` (for example
+mandatory), [Dart Sass](https://gohugo.io/functions/css/sass/#dart-sass)
+so that `sass` is on your `PATH`, and Node.js at the version pinned in `.nvmrc` (for example
 with [`nvm`](https://github.com/nvm-sh/nvm): `nvm install && nvm use`, which
 reads `.nvmrc`), then:
 
@@ -170,7 +172,7 @@ Styles are authored in SCSS under `themes/grass/assets/sass/` and compiled by
 Hugo's Dart Sass pipeline. The entry point `main.scss` imports the GRASS brand
 tokens and Bootstrap variable overrides **before** Bootstrap, so Bootstrap's
 defaults yield to the GRASS theme; custom rules in `_styles.scss` load last. The
-compilation is wired in `themes/grass/layouts/partials/head/assets.html` (the `toCSS`
+compilation is wired in `themes/grass/layouts/partials/head/assets.html` (the `css.Sass`
 call with `includePaths` pointing at `node_modules/bootstrap/scss`), which is
 why `npm ci` must run before any build. See
 `themes/grass/assets/sass/README.md` for the file-by-file breakdown.

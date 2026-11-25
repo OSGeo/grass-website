@@ -1,7 +1,7 @@
 ---
 title: "Windows"
 description: "Install GRASS on Windows with the OSGeo4W installer"
-_build:
+build:
   render: never
   list: never
 ---

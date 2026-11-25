@@ -1,26 +1,26 @@
 ---
 services:
   build:
-    # Renovate manages this image tag; keep it in sync with
-    # .devcontainer/devcontainer.json and .github/workflows/.
-    image: hugomods/hugo:0.113.0
+    # Official Hugo image (Extended, Dart Sass, Go, Node.js, Git). Renovate
+    # manages this tag; keep it in sync with .devcontainer/devcontainer.json
+    # and .github/workflows/.
+    image: ghcr.io/gohugoio/hugo:v0.169.0
+    # Root, as before, so the bind-mounted checkout is writable on any host.
+    user: root
     environment:
       - HUGO_ENVIRONMENT=production
       - HUGO_ENV=production
-      - HUGO_EXTENDED=true
     working_dir: /src
-    # The Node.js version comes from .nvmrc (single source, Renovate-managed).
-    command: >-
-      sh -c "apk add --no-cache nodejs npm curl bash
-      && npm install -g n
-      && n \"$$(cat .nvmrc)\"
-      && node -v
-      && npm ci
-      && hugo --minify --baseURL \"http://localhost:8080/\"
-      && chmod -R a+rX public"
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - >-
+        node -v
+        && npm ci
+        && hugo --minify --baseURL "http://localhost:8080/"
+        && chmod -R a+rX public
     volumes:
       - ./:/src
-      - ~/hugo_cache:/tmp/hugo_cache
+      - ~/hugo_cache:/cache
 
   nginx:
     image: nginx:1.31.6

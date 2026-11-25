@@ -1,20 +1,20 @@
 <span>
     {{if eq "short" (.Get "type")}}
         {{if eq (.Get "version") "current"}}
-            {{ .Site.Data.grass.current_version_short  }}
+            {{ hugo.Data.grass.current_version_short  }}
         {{else if eq (.Get "version") "legacy"}}
-            {{ .Site.Data.grass.legacy_version_short  }}
+            {{ hugo.Data.grass.legacy_version_short  }}
         {{else if eq (.Get "version") "preview"}}
-            {{ .Site.Data.grass.preview_version_short  }}
+            {{ hugo.Data.grass.preview_version_short  }}
         {{else }}
         {{end}}
     {{else }}
         {{if eq (.Get "version") "current"}}
-            {{ .Site.Data.grass.current_version  }}
+            {{ hugo.Data.grass.current_version  }}
         {{else if eq (.Get "version") "legacy"}}
-            {{ .Site.Data.grass.legacy_version  }}
+            {{ hugo.Data.grass.legacy_version  }}
         {{else if eq (.Get "version") "preview"}}
-            {{ .Site.Data.grass.preview_version  }}
+            {{ hugo.Data.grass.preview_version  }}
         {{else }}
         {{end}}
     {{end}}

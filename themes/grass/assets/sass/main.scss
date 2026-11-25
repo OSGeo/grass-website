@@ -5,8 +5,8 @@
    cascade over compiled Bootstrap. These use @import (not @use) on purpose:
    Bootstrap 5.3 still relies on @import's shared global scope for this override
    contract, so the whole tree stays on a single @import chain (no @use
-   anywhere). Under Dart Sass the @import deprecation warnings are expected;
-   silence them at the Hugo upgrade with css.Sass silenceDeprecations. A full
+   anywhere). Dart Sass flags @import as deprecated; layouts/partials/head/
+   assets.html silences that warning with css.Sass silenceDeprecations. A full
    @use migration waits on Bootstrap.
 ----------------------------------------------------------------------------- */
 @import "font-faces";

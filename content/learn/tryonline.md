@@ -19,7 +19,7 @@ but the full experience—including add-ons, your own data, and the best perform
 
 ## Try GRASS in your browser with Jupyter notebooks
 
-<a href="https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_tutorial.ipynb" target="_blank">
+<a href="https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- hugo.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_tutorial.ipynb" target="_blank">
 <img src="/images/other/GRASS_mybinder_jupyter_intro.png"
   alt="GRASS Jupyter intro"
   title="GRASS Jupyter intro"
@@ -31,14 +31,14 @@ In notebooks, you use the GRASS Python API alongside other scientific Python lib
 [Binder](https://mybinder.org) hosts a fresh, temporary environment for each session and resets when you're done; sessions are short-lived and have limited compute, so they're best for trying things out and sharing demos.
 
 <p>
-  <a href="https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_tutorial.ipynb" class="inl btn btn-primary" target="_blank">Start the GRASS tutorial on Binder</a>
+  <a href="https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- hugo.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_tutorial.ipynb" class="inl btn btn-primary" target="_blank">Start the GRASS tutorial on Binder</a>
 </p>
 
 Other example notebooks on Binder:
-[buffer analysis](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_example.ipynb),
-[hydrology](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fhydrology.ipynb),
-[viewshed analysis](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fviewshed_analysis.ipynb),
-[solar potential](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- .Site.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fsolar_potential.ipynb).
+[buffer analysis](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- hugo.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fjupyter_example.ipynb),
+[hydrology](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- hugo.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fhydrology.ipynb),
+[viewshed analysis](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- hugo.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fviewshed_analysis.ipynb),
+[solar potential](https://mybinder.org/v2/gh/OSGeo/grass/{{< currentVersion.inline  >}}{{- hugo.Data.grass.current_version -}}{{</currentVersion.inline >}}?urlpath=lab%2Ftree%2Fdoc%2Fexamples%2Fnotebooks%2Fsolar_potential.ipynb).
 
 <!-- commented out since too slow and sample data still missing in CoCalc:
 

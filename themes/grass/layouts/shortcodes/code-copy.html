@@ -4,7 +4,7 @@
        code-copy id="my-id" code="sudo apt install grass" */ -}}
 {{- $item := dict "id" (.Get "id") "code" (.Get "code") -}}
 {{- with .Get "os" -}}
-{{- $item = index $.Site.Data.grass.install . "installers" ($.Get "installer") -}}
+{{- $item = index hugo.Data.grass.install . "installers" ($.Get "installer") -}}
 {{- if not $item -}}
 {{- errorf "code-copy: installer %q not found for os %q (used in %s)" ($.Get "installer") . $.Position -}}
 {{- end -}}

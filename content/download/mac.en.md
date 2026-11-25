@@ -1,7 +1,7 @@
 ---
 title: "macOS"
 description: "Download bundled GRASS binaries for your Mac"
-_build:
+build:
   render: never
   list: never
 ---

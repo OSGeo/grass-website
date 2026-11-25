@@ -1,7 +1,7 @@
 ---
 title: "Linux"
 description: "Install GRASS packages for your favorite Linux distribution"
-_build:
+build:
   render: never
   list: never
 ---

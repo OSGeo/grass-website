@@ -1,7 +1,7 @@
 ---
 title: "Docker"
 description: "Download GRASS Docker images"
-_build:
+build:
   render: never
   list: never
 ---
